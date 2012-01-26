@@ -1,0 +1,3909 @@
+# Translation of Bastile into Lithuanian
+# Copyright © 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bastile package.
+# Mantas Kriaučiūnas <mantas@akl.lt>, 2007.
+# Eglė Kriaučiūnienė <egle@akl.lt>, 2007.
+# Gintautas Miliauskas <gintas@akl.lt>, 2007.
+# Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2008.
+# Rimas Kudelis <rq@akl.lt>, 2009.
+# Žygimantas Beručka <zygis@mate.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-02 20:42+0200\n"
+"PO-Revision-Date: 2010-10-02 20:45+0200\n"
+"Last-Translator: Žygimantas Beručka <zygis@mate.org>\n"
+"Language-Team: Lithuanian <mate-lt@lists.akl.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.6.1\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../daemon/bastile-daemon.c:69
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Nevykdyti bastile-daemon kaip tarnybos"
+
+#: ../daemon/bastile-daemon.c:99
+msgid "couldn't fork process"
+msgstr "nepavyko atšakoti proceso"
+
+#: ../daemon/bastile-daemon.c:105
+msgid "couldn't create new process group"
+msgstr "nepavyko sukurti naujos proceso grupės"
+
+#: ../daemon/bastile-daemon.c:255
+msgid "Encryption Daemon (Bastile)"
+msgstr "Šifravimo tarnyba (Bastile)"
+
+#: ../daemon/bastile-service.c:163 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Netinkamas arba neatpažintas rakto tipas: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Šis rakto tipas nepalaikomas: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "Šios funkcijos palaikymas kompiliavimo metu buvo neįjungtas"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Netinkamas arba neatpažintas raktas: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Pasirašė <i><key id='%s'/>, <b>galiojimas baigėsi:</b></i> %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Netinkamas parašas"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+"Pasirašė <i><key id='%s'/></i>, pasirašymo data: %s, <b>baigėsi galiojimas</"
+"b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Nebegaliojantis parašas"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Pasirašė <i><key id='%s'/>, <b>paskelbta negaliojančiu:</b></i> %s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Parašas paskelbtas negaliojančiu"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Pasirašė <i><key id='%s'/></i>, pasirašymo data: %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Parašas geras"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "Pasirašymo rakto nėra raktinėje."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Nežinomas parašas"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Blogas arba padirbtas parašas. Pasirašymo data buvo pakeista."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Blogas parašas"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Parašo nepavyko patikrinti."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Netinkamas arba neatpažintas pasirašantysis: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Raktas nėra tinkamas pasirašymui: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Netinkamas arba neatpažintas gavėjas: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Raktas nėra tinkamas gavėjas šifravimui: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Nenurodytas joks gavėjas"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Netinkamas rakto tipas iššifravimui: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Nustatykite clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Nustatykite crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "Klaida atveriant clearuri"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Pasirašantysis nenurodyas"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Netinkamas rakti tipas tikrinimui: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Netinkamas rakto id: %s"
+
+#: ../daemon/bastile-sharing.c:84 ../daemon/bastile-sharing.c:269
+msgid "Couldn't share keys"
+msgstr "Nepavyko paviešinti raktų"
+
+#: ../daemon/bastile-sharing.c:85
+msgid "Can't publish discovery information on the network."
+msgstr "Nepavyko paskelbti viešinimo informacijos tinkle."
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:112
+#, c-format
+msgid "%s's encryption keys"
+msgstr "Asmens „%s“ šifravimo raktai"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Raktų serverių adresų (URI) sąrašas, PGP raktų paieškai internete. Vėlesnėse "
+"versijose rodomas vardas gali būti įtrauktas, padedant tarpą ir tada vardą."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Automatiškai parsiųsti raktus"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Automatiškai sinchronizuoti raktus"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Keičia stulpelio „Galioja iki“ rodymą raktų tvarkymo programoje."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Keičia stulpelio „Pasitikėjimas“ rodymą raktų tvarkymo programoje."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Keičia stulpelio „Tipas“ rodymą raktų tvarkymo programoje."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Keičia stulpelio „Galiojimas“ rodymą raktų tvarkymo programoje."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Įjungti viešinimą DNS-SD protokolu"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"Įjungia raktų viešinimą DNS-SD (Apple Bonjour) protokolu: bastile-daemon "
+"turi būti paleistas bei turi būti sukompiliuotas su HKP bei DNS-SD palaikymu."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "Numatyto rakto ID"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"Jei „tiesa“, failai užšifruoti su bastile bus koduoti ASCII apvalkale."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Jei nustatyta (teigiama reikšmė) - tuomet numatytasis raktas visada bus "
+"įdėtas į šifravimo gavėjų (raktų, kurie galės iššifruoti) sąrašą."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Paskutinis raktų serveriuose vykdytos paieškos šablonas"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Paskutiniai naudoti raktų serveriai"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Paskutinis raktas, naudotas žinutės pasirašymui."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP raktų serveriai"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Nusiųsti raktus į šį raktų serverį."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Rodyti stulpelį „galioja iki“ raktų tvarkymo programoje"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Rodyti stulpelį „Pasitikėjimas“ raktų tvarkymo programoje"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Rodyti stulpelį „tipas“ raktų tvarkymo programoje"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Rodyti stulpelį „galiojimas“ raktų tvarkymo programoje"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Nurodykite stulpelį, pagal kurį rikiuoti gavėjų langą. Stulpeliai šie: "
+"„name“ ir „id“. Įrašykite „-“ prieš stulpelio vardą, jei norite rikiuoti "
+"mažėjančia tvarka."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Nurodykite stulpelį, pagal kurį rikiuoti gavėjų langą. Stulpeliai šie: "
+"„name“, „id“, „validity“, „expires“, „trust“ ir „type“. Įrašykite „-“ prieš "
+"stulpelio vardą, jei norite rikiuoti mažėjančia tvarka."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+"Paskutinio slaptojo rakto, naudoto pasirašant žinutę, identifikatorius (ID)."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Stulpelis, pagal kurį rikiuoti gavėjus"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Stulpelis, pagal kurį rikiuoti bastile raktus"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"Raktų serveris, naudojamas PGP raktų nusiuntimui arba tuščia, jei norite "
+"uždrausti PGP raktų publikavimą."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"Paskutinis raktų serveris, kuriam vykdyta užklausa, arba tuščia visiems "
+"serveriams."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr ""
+"Paskutinis paieškos šablonas, pagal kurį buvo ieškota raktų serveriuose."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Čia nurodomas standartinis raktas, naudojamas kai kuriems veiksmams, "
+"pagrinde pasirašymui."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "Ar raktai turėtų būti automatiškai parsiunčiami iš raktų serverių."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Ar pakeisti raktai turėtų būti automatiškai susinchronizuojami su "
+"standartiniu raktų serveriu."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Ar visada šifruojant naudoti ir numatytąjį raktą"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Ar naudoti ASCII apvalkalą"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Pridėti slaptažodžių raktinę"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Naujos raktinės vardas:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"Prašome pasirinkti naujosios raktinės vardą. Jūsų bus paprašyta įvesti "
+"atrakinimo slaptažodį."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Serverio kompiuterio vardas arba adresas."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Nepavyko pridėti raktinės"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Pridėti slaptažodį"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "Pa_aiškinimas:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_Raktinė:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_Slaptažodis:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "Rodyti _slaptažodį"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Žiniatinklio slaptažodis"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Tinklo slaptažodis"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Ar tikrai norite pašalinti slaptažodį „%s“?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Ar tikrai norite negrįžtamai ištrinti %d slaptažodį?"
+msgstr[1] "Ar tikrai norite pašalinti %d slaptažodžius?"
+msgstr[2] "Ar tikrai norite pašalinti %d slaptažodžių?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Pasiekti tinkle paviešintą aplanką ar resursą"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Pasiekti interneto svetainę"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "Atrakina PGP raktą"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Atrakina saugaus prisijungimo (SSH) raktą"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Išsaugotas slaptažodis ar prisijungimo vardas"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Tinklo prisijungimo duomenys"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Nepavyko pakeisti slaptažodžio."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Nepavyko pakeisti aprašymo."
+
+#: ../gkr/bastile-gkr-item-properties.c:651
+msgid "Couldn't set application access."
+msgstr "Nepavyko pakeisti programos priėjimo teisių."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Slaptažodis:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Kelias:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Leidimai:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Techninės detalės:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Programos"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:72
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Detalės"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Raktas"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Rakto savybės"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Prisijungimo vardas:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Serveris:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Rodyti _slaptažodį"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "Tipas:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Naudoti:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "Pa_šalinti"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "_Skaityti"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "_Rašyti"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Pateikiami slaptažodžiai"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Slaptažodžiai: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Slaptažodžiai:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Slaptažodžių raktinė"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Naudojama programų ir tinklo slaptažodžių saugojimui"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Įrašytas slaptažodis"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Saugiai įsiminti slaptažodį ar paslaptį."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Nepavyko atrakinti raktinės"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Nepavyko užrakinti raktinės"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Nepavyko nustatyti numatytosios raktinės"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Nepavyko pakeisti raktinės slaptažodžio"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Užrakinti"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr ""
+"Užrakinti slaptažodžių saugyklos raktinę, kad jai atrakinti reiktų "
+"pagrindinio slaptažodžio."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_Atrakinti"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"Atrakinti slaptažodžių saugyklos raktinę pagrindiniu slaptažodžiu, kad ja "
+"būtų galima naudotis."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "Padaryti _numatytuoju"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "Programos paprastai įrašo naujus slaptažodžius numatytoje raktinėje."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "Pakeisti sla_ptažodį"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Pakeisti slaptažodžių saugyklos raktinės atrakinimo slaptažodį"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Ar tikrai norite pašalinti slaptažodžių raktinę „%s“?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "Sukurta:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Raktinė"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Raktinės savybės"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "Pavadi_nimas:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Priėjimas prie raktinės uždraustas"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "mate-keyring tarnyba neveikia"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Raktinė jau atrakinta"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Tokia raktinė neegzistuoja"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Nepavyko susisiekti su raktinės tarnyba"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Elementas jau egzistuoja"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Vidinė klaida, bandant susisiekti su mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Saugomas elementas..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Pašalinamas elementas..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Pašalinama raktinė..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Išvardijamos slaptažodžių raktinės"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"Nerasta šifravimo raktų, reikalingų atlikti Jūsų norimai operacijai. Dabar "
+"bus paleista programa „<b>Slaptažodžiai ir šifravimo raktai</b>“ – joje "
+"galėsite sukurti arba importuoti raktą."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:173
+msgid "All Keys"
+msgstr "Visi raktai"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+msgid "Selected Recipients"
+msgstr "Pasirinkti gavėjai"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+msgid "Search Results"
+msgstr "Paieškos rezultatai"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:185
+msgid "Search _for:"
+msgstr "_Ieškoti:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:243
+msgid "None (Don't Sign)"
+msgstr "Nepasirašyti"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:256
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Pasirašyti informacinę žinutę kaip %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:278
+msgid "_Sign message as:"
+msgstr "_Pasirašyti informacinę žinutę kaip:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Vardas"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "Rakto ID"
+
+#: ../libegg/egg-datetime.c:313
+msgid "Display flags"
+msgstr "Rodyti požymius"
+
+#: ../libegg/egg-datetime.c:314
+msgid "Displayed date and/or time properties"
+msgstr "Rodomas datos ir/arba laiko savybės"
+
+#: ../libegg/egg-datetime.c:319
+msgid "Lazy mode"
+msgstr "Supaprastinta veiksena"
+
+#: ../libegg/egg-datetime.c:320
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr ""
+"Supaprastintoje veiksenoje įvestos datos ir laiko reikšmės nėra "
+"normalizuojamos"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Year"
+msgstr "Metai"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed year"
+msgstr "Rodomi metai"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Month"
+msgstr "Mėnuo"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Displayed month"
+msgstr "Rodomas mėnuo"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Day"
+msgstr "Diena"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed day of month"
+msgstr "Rodoma mėnesio diena"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Hour"
+msgstr "Valanda"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed hour"
+msgstr "Rodoma valanda"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Minute"
+msgstr "Minutė"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed minute"
+msgstr "Rodoma minutė"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Second"
+msgstr "Sekundė"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed second"
+msgstr "Rodoma sekundė"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Lower limit year"
+msgstr "Apatiniosios ribos metai"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Year part of the lower date limit"
+msgstr "Apatiniosios datos ribos metų dalis"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Upper limit year"
+msgstr "Viršutiniosios ribos metai"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Year part of the upper date limit"
+msgstr "Viršutiniosios datos ribos metų dalis"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit month"
+msgstr "Apatiniosios ribos mėnuo"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Month part of the lower date limit"
+msgstr "Apatiniosios datos ribos mėnesių dalis"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit month"
+msgstr "Viršutiniosios ribos mėnuo"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Month part of the upper date limit"
+msgstr "Viršutiniosios datos ribos mėnesių dalis"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit day"
+msgstr "Apatiniosios ribos diena"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Day of month part of the lower date limit"
+msgstr "Apatiniosios datos ribos mėnesio dienos dalis"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit day"
+msgstr "Viršutiniosios ribos diena"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Day of month part of the upper date limit"
+msgstr "Viršutiniosios datos ribos mėnesio dienos dalis"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit hour"
+msgstr "Apatiniosios ribos valanda"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Hour part of the lower time limit"
+msgstr "Apatiniosios laiko ribos valandų dalis"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit hour"
+msgstr "Viršutiniosios ribos valanda"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Hour part of the upper time limit"
+msgstr "Viršutiniosios laiko ribos valandų dalis"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit minute"
+msgstr "Apatiniosios ribos minutė"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Minute part of the lower time limit"
+msgstr "Apatiniosios laiko ribos minučių dalis"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit minute"
+msgstr "Viršutiniosios ribos minutė"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Minute part of the upper time limit"
+msgstr "Viršutiniosios laiko ribos minučių dalis"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit second"
+msgstr "Apatiniosios ribos sekundė"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Second part of the lower time limit"
+msgstr "Apatiniosios laiko ribos sekundžių dalis"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit second"
+msgstr "Viršutiniosios ribos metai"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Second part of the upper time limit"
+msgstr "Viršutiniosios laiko ribos sekundžių dalis"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:470
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:1"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Date"
+msgstr "Data"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Enter the date directly"
+msgstr "Įveskite datą tiesiogiai"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select Date"
+msgstr "Pasirinkite datą"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select the date from a calendar"
+msgstr "Pasirinkite iš kalendoriaus datą"
+
+#: ../libegg/egg-datetime.c:517 ../libegg/egg-datetime.c:2194
+msgid "Time"
+msgstr "Laikas"
+
+#: ../libegg/egg-datetime.c:517
+msgid "Enter the time directly"
+msgstr "Įveskite laiką tiesiogiai"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select Time"
+msgstr "Pasirinkite laiką"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select the time from a list"
+msgstr "Pasirinkite iš sąrašo laiką"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:791
+msgid "24hr: no"
+msgstr "24hr: yes"
+
+#: ../libegg/egg-datetime.c:795 ../libegg/egg-datetime.c:1255
+#: ../libegg/egg-datetime.c:1259
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1256
+#: ../libegg/egg-datetime.c:1263
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:805
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:808
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:812
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:815
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1171
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1236
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Šis failas nėra taisyklingas .desktop failas"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Neatpažinta darbastalio failo versija „%s“"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Paleidžiama %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Programa nepriima dokumentų komandų eilutėje"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Neatpažintas paleidimo parametras: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Negalima perduoti dokumento URI „Type=Link“ darbastalio elementui"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Nepaleidžiamas elementas"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Atjungti nuo seanso valdyklės"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Nurodyti failą su įrašytais nustatymais"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FAILAS"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Nurodykite seanso valdymo ID"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Seanso valdymo parinktys:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Rodyti seanso valdymo parinktis"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Pridėti raktų serverį"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Serverio adresas:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Raktų serverio tipas:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Prievadas, kuriuo serveris yra pasiekiamas."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "pradinis laikinasis elementas"
+
+#: ../libbastile/bastile-notification.c:566
+#: ../libbastile/bastile-notification.c:594
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Raktas importuotas"
+msgstr[1] "Raktai importuoti"
+msgstr[2] "Raktų importuota"
+
+#: ../libbastile/bastile-notification.c:570
+#: ../libbastile/bastile-notification.c:593
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importuotas %i raktas"
+msgstr[1] "Importuoti %i raktai"
+msgstr[2] "Importuota %i raktų"
+
+#: ../libbastile/bastile-notification.c:572
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importuotas raktas"
+msgstr[1] "Importuoti raktai"
+msgstr[2] "Importuota raktų"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Informaciniai pranešimai"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Simetrinis raktas"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Viešasis raktas"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Privatusis raktas"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Kredencialai"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Tapatybė"
+
+#: ../libbastile/bastile-passphrase.c:196
+msgid "Passphrase"
+msgstr "Slaptažodis"
+
+#: ../libbastile/bastile-passphrase.c:199
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Slaptažodis:"
+
+#: ../libbastile/bastile-passphrase.c:265
+msgid "Confirm:"
+msgstr "Patvirtink:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Netinkamas raktų serverio adresas. "
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"Pagalbos prašykite savo sistemos administratoriaus arba raktų serverio "
+"administratoriaus."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Kitoks"
+
+#: ../libbastile/bastile-prefs.c:419
+msgid "None: Don't publish keys"
+msgstr "Nesiųsti raktų niekur"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Automatiškai parsiųsti raktus iš _raktų serverių"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Automatiškai sinchronizuoti pa_keistus raktus su raktų serveriais"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Raktų serveriai"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Key Sharing"
+msgstr "Raktų viešinimas"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "Preferences"
+msgstr "Nustatymai"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've "
+"collected. This means they can automatically encrypt things for you or those "
+"you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+"Jei įjungsite raktų viešinimą - žmonės iš Jūsų vietinio tinklo galės iškart "
+"naudotis Jūsų sukauptais raktais. Jie galės šifruoti Jums ir Jūsų "
+"pažįstamiems skirtą informaciją (Jums nereikės siuntinėti savo raktų "
+"vietinio tinklo nariams).\n"
+"\n"
+"<b>Pastaba:</b> Jūsų asmeniniai (privatūs) raktai liks saugūs."
+
+#: ../libbastile/bastile-prefs.xml.h:9
+msgid "_Find keys via:"
+msgstr "_Ieškoti raktų serveriuose:"
+
+#: ../libbastile/bastile-prefs.xml.h:10
+msgid "_Publish keys to:"
+msgstr "Nu_siųsti raktus į:"
+
+#: ../libbastile/bastile-prefs.xml.h:11
+msgid "_Share my keys with others on my network"
+msgstr "_Viešinti sukauptus raktus vietiniame tinkle"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Eigos antraštė"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Negalimas"
+
+#: ../libbastile/bastile-util.c:239
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:515
+msgid "Key Data"
+msgstr "Rakto informacija"
+
+#: ../libbastile/bastile-util.c:517
+msgid "Multiple Keys"
+msgstr "Keli raktai"
+
+#: ../libbastile/bastile-util.c:773
+msgid "Couldn't run file-roller"
+msgstr "Nepavyko paleisti file-roller"
+
+#: ../libbastile/bastile-util.c:779
+msgid "Couldn't package files"
+msgstr "Nepavyko supakuoti failų"
+
+#: ../libbastile/bastile-util.c:780
+msgid "The file-roller process did not complete successfully"
+msgstr "Programa file-roller nesėkmingai baigė darbą"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:956
+msgid "All key files"
+msgstr "Visi raktų failai"
+
+#: ../libbastile/bastile-util.c:967 ../libbastile/bastile-util.c:1015
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Visi failai"
+
+#: ../libbastile/bastile-util.c:1008
+msgid "Archive files"
+msgstr "Archyvo failai"
+
+#: ../libbastile/bastile-util.c:1078
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Failas su tokiu vardu jau yra.</b>\n"
+"\n"
+"Ar norite jį pakeisti nauju failu?"
+
+#: ../libbastile/bastile-util.c:1081
+msgid "_Replace"
+msgstr "_Pakeisti"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "Nežinau"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "Niekada"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "Dalinis"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "Pilnas"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "Visiškas"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Išjungtas"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Paskelbtas negaliojančiu"
+
+#: ../libbastile/bastile-widget.c:463
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Nepavyko įkelti žinyno: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Galioja iki:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Sukurti naują antrinį raktą"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Jei rakto galiojimas niekada nesibaigia"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "Rakto _ilgis:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "Rakto _tipas:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Rakto ilgis"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Niekada _nesibaigia"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Įdėti naudotojo ID"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Sukurti naują naudotojo ID"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "_Vardas ir pavardė:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "Rakto _komentaras:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Turi būti bent 5 simbolių ilgio"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Komentaras, aprašantis raktą (neprivalomas)"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "El. pašto adresas (neprivalomas)"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_El. pašto adresas:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_Keisti"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Raktą paskelbti negaliojančiu"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_Niekada nenustoja galioti"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Nepavyko pridėti antrinio rakto"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Pridėti antrinį raktą prie „%s“"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA (sign only)"
+msgstr "DSA (tik pasirašymui)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (tik šifravimui)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:118
+msgid "RSA (sign only)"
+msgstr "RSA (tik pasirašymui)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (tik šifravimui)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Nepavyko pridėti vartotojo id"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Įdėti naudotojo ID į %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Iššifravimas nepavyko. Greičiausiai neturite iššifravimo rakto."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Netinkama galiojimo data"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Galiojimo data turi būti ateityje"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Nepavyko pakeisti galiojimo pabaigos datos"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Galioja iki: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "PGP raktas"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Naudojamas laiškų bei failų šifravimui ir pasirašymui"
+
+#: ../pgp/bastile-gpgme-generate.c:115 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:116
+msgid "DSA Elgamal"
+msgstr "DSA ElGamal"
+
+#: ../pgp/bastile-gpgme-generate.c:134
+msgid "Couldn't generate PGP key"
+msgstr "Nepavyko sukurti PGP rakto"
+
+#: ../pgp/bastile-gpgme-generate.c:194
+msgid "Passphrase for New PGP Key"
+msgstr "Naujojo PGP rakto slaptažodis"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Enter the passphrase for your new key twice."
+msgstr "Dukart įveskite naujojo rakto slaptažodį."
+
+#: ../pgp/bastile-gpgme-generate.c:204
+msgid "Couldn't generate key"
+msgstr "Nepavyko sukurti rakto"
+
+#: ../pgp/bastile-gpgme-generate.c:206
+msgid "Generating key"
+msgstr "Kuriamas raktas"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Neteisingas slaptažodis"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "Tris kartus įvedėte neteisingą slaptažodį. Bandykite dar kartą."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Ši nuotrauka per didelė</b></big>\n"
+"Rakto faile esančios nuotraukos rekomenduojamas dydis yra %d x %d pikselių."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_Nekeisti dydžio"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "Pa_keisti dydį"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"Tai ne paveikslėlio failas, arba nežinomas paveikslėlio failas. Bandykite "
+"naudoti JPEG paveikslėlį. "
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Visi vaizdo failai"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Visi JPEG failai"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Pasirinkite nuotrauką pridėti prie rakto"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Nepavyko pridėti nuotraukos"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Failo nepavyko įkelti. Galbūt formatas yra netinkamas"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Ar tikrai norite pašalinti šią nuotrauką iš rakto?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Nepavyko pašalinti nuotraukos"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Antrinio rakto nepavyko paskelbti negaliojančiu"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Paskelbti negaliojančiu: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Nepateikta priežastis"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Nepateikta priežastis paskelbti raktą negaliojančiu"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Nebesaugus"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Raktas tapo nebesaugus"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Pakeistas naujesniu"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Raktas buvo pakeistas naujesniu"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Nenaudojamas"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Raktas nebenaudojamas"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"Jūs ruošiatės paskelbti %2$s negaliojančiu naudojant %1$s. Ši operacija "
+"negalės būti atšaukta! Ar tikrai norite tęsti?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Nepavyko paskelbti negaliojančiu"
+
+#: ../pgp/bastile-gpgme-sign.c:96
+msgid "Couldn't sign key"
+msgstr "Nepavyko pasirašyti rakto"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:149 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Nėra pasirašymui tinkamų raktų"
+
+#: ../pgp/bastile-gpgme-sign.c:150
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"Jūs neturite asmeninių PGP raktų, kuriuos galėtume panaudoti nustatant jūsų "
+"pasitikėjimą šiuo raktu."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Neteisingas slaptažodis."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Įveskite naują rakto „%s“ slaptažodį"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Įveskite rakto „%s“ slaptažodį"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Įveskite naują slaptažodį"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Įveskite slaptažodį"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Įkeltas %d raktas"
+msgstr[1] "Įkelti %d raktai"
+msgstr[2] "Įkelta %d raktų"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Įkeliami raktai..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"Netinkami rakto duomenys (trūksta UID). To priežastis gali būti kompiuteris, "
+"kuriame data nustatyta ateityje, arba trūkstamas auto-parašas."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:538
+msgid "Importing Keys"
+msgstr "Importuojami raktai"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Eksportuojami raktai"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "Paieška buvo labai nekonkreti. Serveris '%s' rado per daug raktų."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Nepavyko susisiekti su serveriu '%s': %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Ieškoma raktų..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Nusiunčiami raktai..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Gaunami raktai..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Ieškoma raktų %s serveryje"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Jungiamasi prie: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "HTTP Raktų serveris"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Nepavyko susisiekti su '%s': %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Nepavyko rasti adreso: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Ieškoma serverio adreso: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Ieškoma raktų, turinčių „%s“"
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Ieškoma pagal rakto id „%s“"
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Atsiunčiami raktai iš tinklo..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Raktai siunčiami į serverį..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP Raktų serveris"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "_Pasirašyti raktą..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Pasirašyti viešą raktą"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Ar tikrai norite negrįžtamai pašalinti %s?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Ar tikrai norite negrįžtamai pašalinti %d raktų ir tapatybių?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Ar tikrai norite negrįžtamai pašalinti %d raktų?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Ar tikrai norite negrįžtamai pašalinti %d tapatybių?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Papildomos rakto parinktys</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "PGP raktas leidžia šifruoti el. laiškus ar failus kitiems žmonėms. "
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Algoritmai čia"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_Sukurti"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "_Galiojimo pabaigos data:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "Šifravimo _tipas:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Sukurti naują raktą"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "Rakto _stiprumas (bitais):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "_Niekada nesibaigia"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "Naujas PGP raktas"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_Komentaras:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "Privatus PGP raktas"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "Viešas PGP raktas"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Nebegaliojantis"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Nepavyko pakeisti pirminio vartotojo ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Ar tikrai norite negrįžtamai pašalinti „%s“ naudotojo ID?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Nepavyko pašalinti naudotojo ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Nežinomas]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Vardas/el. paštas"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "Parašo ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Nepavyko pakeisti pirminės nuotraukos"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(nežinomas)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Šio rakto galiojimo laikas baigėsi: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr ""
+"Ar tikrai norite negrįžtamai pašalinti antrinį raktą %d, priklausantį %s ?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Nepavyko pašalinti antrinio rakto"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "Nepavyko pakeisti pasitikėjimo reikšmės"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:316
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Nepavyko eksportuoti rakto į „%s“"
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Eksportuoti visą raktą"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Nepavyko eksportuoti rakto."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "Niekada"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Tipas"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Sukurtas"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Galiojimas baigiasi"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Būsena"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Stiprumas"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "Geras"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Veiksmai</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Komentaras:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Datos</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>El. paštas:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Atspaudas</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>Rakto ID:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Raktų vardai ir parašai</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Vardas:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>Nuotrauka </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>Techninės detalės</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Šis raktas paskelbtas negaliojančiu</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>Šio rakto galiojimas baigėsi</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Tipas:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Naudojimas:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Antriniai raktai</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "Pridėti"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "Prie šio rakto pridėti nuotrauką"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Pakeisti _slaptažodį"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "Iššifruoti failus ir Jums atsiųstus el. laiškus."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "Pašalinti "
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "Galiojimas baigsis"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "Galiojimas baigiasi: "
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "Eksportuoti"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "Eiti prie kitos nuotraukos"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "Eiti prie ankstesnės nuotraukos"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "Rakto ID:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "Šią nuotrauką padaryti pirmine"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "Vardai ir parašai"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "Niekada"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "Nustatyti pasitikėjimą savo raktu:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "Savininkas"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "Pirminis"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "Pašalinti šią nuotrauką iš rakto"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "Paskelbti negaliojančiu"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "Pasirašyti"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "Stiprumas:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr ""
+"Rakto savininkas raktą paskelbė negaliojančiu. Jis nebegali būti naudojamas."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "_Pridėti vardą"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "_Eksportuoti visą raktą:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Datos:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Atspaudas:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Nurodykite pasitikėjimą:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Jūsų pasitikėjimas šiuo raktu</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Kiti vardai:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>Ž_monės pasirašę šį raktą:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "Šifruoti failams ir el. laiškams rakto savininkui"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "Pilnai"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Aš pasitikiu asmens „%s“ parašais kituose raktuose"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"Jei tikite, kad šio rakto savininkas yra „%s“, <i>pasirašykite</i> šį raktą:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"Jei nebetikite, kad šis raktas priklauso „%s“, savo parašą <i>paskelbkite "
+"negaliojančiu</i>:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "Dalinai"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Pasitikėjimas"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "Visiškai"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "Jūsų pasi_tikėjimas savininku:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Pasitikėjimas yra nustatytas kortelėje <i>Detalės</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "Pateikti _tik žmonių, kuriais pasitikiu, parašus"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "_Parašą paskelbti negaliojančiu"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "Pasirašyti šį _raktą"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Antrinis raktas %d priklausąs %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Neprivalomas rakto paskelbimo negaliojančiu aprašymas"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "Paskelbti _negaliojančiu"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Rakto paskelbimo negaliojančiu priežastis"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_Priežastis:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"Jūs neturite asmeninių PGP raktų, kuriais galima pasirašyti dokumentą ar "
+"žinutę.  "
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Kaip atidžiai Jūs tikrinote šį raktą?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Kaip kiti matys šį parašą:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Pasirašyti raktą kaip:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>Nerūpestingai:</i> reiškia, jog atsakingai nepatikrinote, kad raktas "
+"priklauso čia minimam asmeniui. Pavyzdžiui, jei rakto atspaudas Jums buvo "
+"pasakytas telefonu."
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Rakto vardas</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>Netikrinau:</i> reiškia, jog tikite, kad raktas priklauso čia minimam "
+"asmeniui, tačiau negalite patikrinti arba netikrinote, kad tikrai taip yra."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>Labai atidžiai:</i> Pasirinkite tik tada, jei esate visiškai tikri, kad "
+"raktas yra nesuklastotas."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Pasirašydami Jūs parodote savo pasitikėjimą, kad šis raktas priklauso:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Aš pasilieku teisę šį parašą paskelbti ne_galiojančiu."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Pasirašyti raktą"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"Rakto savininko tapatybei patvirtinti, reiktų naudotis sunkiai suklastojamu "
+"asmens tapatybę įrodančiu dokumentu su nuotrauka (pvz. pasu). El. pašto "
+"adreso patikrinimui, reiktų nurodytu adresu parašyti šiuo raktu užšifruotą "
+"laišką ir iššifruotą gauti atgal."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_Nerūpestingai"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "Ne_tikrinau"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_Kiti negalės šio parašo matyti"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_Pasirašyti"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Pasirašantysis:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_Labai atidžiai"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_Pasirašyti žinutę su raktu:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:107
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:68
+msgid "Certificate"
+msgstr "Sertifikatas"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Ar tikrai norite pašalinti sertifikatą „%s“"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Ar tikrai norite pašalinti %d sertifikatą?"
+msgstr[1] "Ar tikrai norite pašalinti %d sertifikatus?"
+msgstr[2] "Ar tikrai norite pašalinti %d sertifikatų?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Pakeisti slaptažodį"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_Patvirtinkite slaptažodį:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Patvirtinkite naująjį slaptažodį"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "Naujas slaptažodis:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Tvarkyti Jūsų slaptažodžius ir šifravimo raktus"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:857
+msgid "Passwords and Encryption Keys"
+msgstr "Slaptažodžiai ir el. raktai"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>Pa_sirinkite kuriamo elemento tipą:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "_Tęsti"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Sukurti naują..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Pasirinktas %d raktas"
+msgstr[1] "Pasirinkti %d raktai"
+msgstr[2] "Pasirinkta %d raktų"
+
+#: ../src/bastile-key-manager.c:404 ../src/bastile-key-manager.c:464
+#: ../src/bastile-key-manager.c:527 ../src/bastile-viewer.c:484
+msgid "Couldn't import keys"
+msgstr "Nepavyko importuoti raktų"
+
+#: ../src/bastile-key-manager.c:409 ../src/bastile-viewer.c:489
+msgid "Imported keys"
+msgstr "Importuoti raktai"
+
+#: ../src/bastile-key-manager.c:458
+msgid "Importing keys"
+msgstr "Importuojami raktai"
+
+#: ../src/bastile-key-manager.c:481 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Importuoti raktą"
+
+#: ../src/bastile-key-manager.c:527
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Neatpažįstamas rakto tipas, ar netinkamas duomenų formatas"
+
+#: ../src/bastile-key-manager.c:725 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_Darbas tinkle"
+
+#: ../src/bastile-key-manager.c:727
+msgid "Close this program"
+msgstr "Užverti šią programą"
+
+#: ../src/bastile-key-manager.c:728
+msgid "_New..."
+msgstr "_Naujas..."
+
+#: ../src/bastile-key-manager.c:729
+msgid "Create a new key or item"
+msgstr "Sukurti naują raktą ar elementą"
+
+#: ../src/bastile-key-manager.c:730
+msgid "_Import..."
+msgstr "I_mportuoti..."
+
+#: ../src/bastile-key-manager.c:731
+msgid "Import from a file"
+msgstr "Importuoti iš failo"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Import from the clipboard"
+msgstr "Importuoti iš iškarpinės"
+
+#: ../src/bastile-key-manager.c:738 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_Ieškoti raktų internete..."
+
+#: ../src/bastile-key-manager.c:739 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "Ieškoti raktų raktų serveryje"
+
+#: ../src/bastile-key-manager.c:740
+msgid "_Sync and Publish Keys..."
+msgstr "Sinchronizuoti bei nusiųsti _raktus..."
+
+#: ../src/bastile-key-manager.c:741
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Nusiųsti ir/arba sinchronizuoti turimus raktus su internetiniais."
+
+#: ../src/bastile-key-manager.c:746
+msgid "T_ypes"
+msgstr "_Tipas"
+
+#: ../src/bastile-key-manager.c:746
+msgid "Show type column"
+msgstr "Rodyti stulpelį „Tipas“"
+
+#: ../src/bastile-key-manager.c:748
+msgid "_Expiry"
+msgstr "Galiojimo _laikas"
+
+#: ../src/bastile-key-manager.c:748
+msgid "Show expiry column"
+msgstr "Rodyti stulpelį „Galioja iki“"
+
+#: ../src/bastile-key-manager.c:750
+msgid "_Trust"
+msgstr "_Pasitikėjimas"
+
+#: ../src/bastile-key-manager.c:750
+msgid "Show owner trust column"
+msgstr "Rodyti stulpelį „Pasitikėjimas savininku“"
+
+#: ../src/bastile-key-manager.c:752
+msgid "_Validity"
+msgstr "_Galiojimas"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show validity column"
+msgstr "Rodyti galiojimo stulpelį"
+
+#: ../src/bastile-key-manager.c:926
+msgid "Filter:"
+msgstr "Filtras"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Pirmojo karto parinktys:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Susikurkite naują raktą sau:"
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Importuoti egzistuojančius raktus iš failo:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "Mano _asmeniniai raktai"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Kiti _raktai"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "Norint pradėti šifravimą Jums reikės raktų."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:548
+msgid "_Import"
+msgstr "_Importuoti"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_Slaptažodžiai"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:282
+msgid "Couldn't export keys"
+msgstr "Nepavyko eksportuoti raktų"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Galiojimas"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Galioja iki"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "Uždaryti šį langą"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "_Išskleisti viską"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "Išskleisti visus įrašus"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "_Suskleisti viską"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "Suskleisti visus įrašus"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "Raktai internete"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Raktai internete, turintys „%s“"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Raktų serveriai:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Paviešinti raktai vietiniame tinkle:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Ieškoti raktų internete"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"Kitų asmenų raktus galite rasti internete. Paskui galėsite pasirinkti, "
+"kuriuos iš rastų raktų norėsite importuoti į Jūsų vietinę raktinę."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Kur ieškoti:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_Ieškoti"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_Ieškoti raktų, turinčių:"
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Nepavyko nusiųsti raktų į serverį"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Nepavyko gauti raktų iš serverio: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d raktas pasirinktas sinchronizavimui</b>"
+msgstr[1] "<b>%d raktai pasirinkti sinchronizavimui</b>"
+msgstr[2] "<b>%d raktų pasirinkta sinchronizavimui</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Sinchronizuojami raktai"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Sinchronizuojami raktai..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Sinchronizuoti raktus"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"Jūsų raktinėje esančių raktų viešosios dalys bus nusiųstos į viešą raktų "
+"serverį, kad tuos raktus galėtų naudoti kiti. Taipogi gausite raktų "
+"atnaujinimus, kuriuos kiti žmonės padarė po paskutinio raktų gavimo."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"Bus parsiųsti raktų atnaujinimai, kuriuos kiti žmonės padarė po paskutinio "
+"raktų gavimo. Nebuvo nurodytas joks raktų serveris nusiuntimui, taigi Jūsų "
+"sukurti nauji raktai bei raktų pakeitimai nebus prieinami kitiems."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_Raktų serveriai"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Sinchronizuoti"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Šios programos versija"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:170
+msgid "Encryption Key Manager"
+msgstr "Šifravimo raktų tvarkymas"
+
+#: ../src/bastile-viewer.c:141
+msgid "Contributions:"
+msgstr "Padėkos:"
+
+#: ../src/bastile-viewer.c:172
+msgid "translator-credits"
+msgstr ""
+"Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Eglė Girinaitė <egle@akl.lt>\n"
+"Vytautas Liuolia <vytautas.liuolia@gmail.com>\n"
+"Rimas Kudelis <rq@akl.lt>"
+
+#: ../src/bastile-viewer.c:175
+msgid "Bastile Project Homepage"
+msgstr "Bastile projekto tinklalapis"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:194
+msgid "_File"
+msgstr "_Failas"
+
+#: ../src/bastile-viewer.c:195
+msgid "_Edit"
+msgstr "_Keisti"
+
+#: ../src/bastile-viewer.c:196
+msgid "_View"
+msgstr "R_odyti"
+
+#: ../src/bastile-viewer.c:197
+msgid "_Help"
+msgstr "_Pagalba"
+
+#: ../src/bastile-viewer.c:199
+msgid "Prefere_nces"
+msgstr "_Nustatymai"
+
+#: ../src/bastile-viewer.c:200
+msgid "Change preferences for this program"
+msgstr "Keisti šios programos nustatymus"
+
+#: ../src/bastile-viewer.c:203
+msgid "About this program"
+msgstr "Apie šią programą"
+
+#: ../src/bastile-viewer.c:204
+msgid "_Contents"
+msgstr "_Turinys"
+
+#: ../src/bastile-viewer.c:205
+msgid "Show Bastile help"
+msgstr "Rodyti Bastile pagalbą"
+
+#: ../src/bastile-viewer.c:302
+msgid "Export public key"
+msgstr "Eksportuoti viešą raktą"
+
+#: ../src/bastile-viewer.c:322
+msgid "Exporting keys"
+msgstr "Eksportuojami raktai"
+
+#: ../src/bastile-viewer.c:347
+msgid "Couldn't retrieve data from key server"
+msgstr "Nepavyko gauti informacijos iš raktų serverio"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:366
+msgid "Copied keys"
+msgstr "Nukopijuoti raktai"
+
+#: ../src/bastile-viewer.c:386
+msgid "Retrieving keys"
+msgstr "Gaunami raktai"
+
+#: ../src/bastile-viewer.c:401
+msgid "Couldn't delete."
+msgstr "Nepavyko pašalinti."
+
+#: ../src/bastile-viewer.c:435
+msgid "Deleting..."
+msgstr "Šalinama..."
+
+#: ../src/bastile-viewer.c:461
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s yra privatusis raktas. Ar tikrai norite tęsti?"
+
+#: ../src/bastile-viewer.c:509
+msgid "Importing keys from key servers"
+msgstr "Importuojami raktai iš raktų serverių"
+
+#: ../src/bastile-viewer.c:535
+msgid "Show properties"
+msgstr "Rodyti savybes"
+
+#: ../src/bastile-viewer.c:536
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "Pa_šalinti"
+
+#: ../src/bastile-viewer.c:537
+msgid "Delete selected items"
+msgstr "Pašalinti pažymėtus elementus"
+
+#: ../src/bastile-viewer.c:541
+msgid "E_xport..."
+msgstr "E_ksportuoti..."
+
+#: ../src/bastile-viewer.c:542
+msgid "Export to a file"
+msgstr "Eksportuoti į failą"
+
+#: ../src/bastile-viewer.c:544
+msgid "Copy to the clipboard"
+msgstr "Kopijuoti į iškarpinę"
+
+#: ../src/bastile-viewer.c:549
+msgid "Import selected keys to local key ring"
+msgstr "Pasirinktus raktus importuoti į vietinę raktinę"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Saugaus prisijungimo (SSH) slaptažodis:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Konfigūruoti saugaus prisijungimo (SSH) raktaą..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"Nusiųsti viešą saugaus prisijungimo (SSH) raktą į kitą kompiuterį bei "
+"įjungti galimybę prisijungti, naudojant šitą raktą."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "Ar tikrai norite pašalinti ssh raktą „%s“?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "Ar tikrai norite pašalinti %d ssh raktų?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "Saugaus prisijungimo (SSH) raktas"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Naudojamas prisijungti prie kitų kompiuterių (pvz.: per terminalą)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Nepavyko sukurti saugaus prisijungimo (SSH) rakto"
+
+#: ../ssh/bastile-ssh-generate.c:205
+msgid "Creating Secure Shell Key"
+msgstr "Kuriamas saugaus prisijungimo (SSH) raktas"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>Naudokite savo el. pašto adresą ar kitokias užuominas šio rakto "
+"paskirties priminimui.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"Saugaus prisijungimo (SSH) raktas skirtas saugiai prisijungti prie patikimų "
+"kompiuterių SSH protokolu, nenaudojant skirtingų slaptažodžių kiekvienam "
+"kompiuteriui."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"Jei turite kompiuterį, prie kurio jungsitės naudodami šį raktą, dabar galite "
+"nustatyti, kad šis kompiuteris atpažintų Jūsų raktą."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Naujas saugaus prisijungimo (SSH) raktas"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_Sukurti ir nustatyti"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Tik sukurti raktą"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_Rakto aprašymas:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Nenuskaitomas saugaus prisijungimo (SSH) raktas)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Netinkamas"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Privatus saugaus prisijungimo (SSH) raktas"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Viešas saugaus prisijungimo (SSH) raktas"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Nepavyko pervadinti rakto."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Nepavyko pakeisti leidimų šiam raktui."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Nepavyko pakeisti leidimų šiam raktui."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Algoritmas:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Identifikatorius:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Vieta:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Stiprumas:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Pasitikėjimas</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Galioja tiktai '%s'</i> naudotojui."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "_Eksportuoti visą raktą"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "Šio rakto savininkui _leidžiama prisijungti prie šio kompiuterio"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Naudotas prisijungti prie kitų kompiuterių."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH komanda (programa) netikėtai baigė darbą."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "SSH komanda nepavyko."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "Saugaus prisijungimo (SSH) raktas"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Slaptažodis:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Nuotolinio kompiuterio slaptažodis"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Senasis rakto slaptažodis"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Įveskite senąjį rakto „%s“ slaptažodį:"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Naujasis rakto slaptažodis"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Įveskite naująjį rakto „%s“ slaptažodį:"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Įveskite rakto slaptažodį"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Naujojo saugaus prisijungimo (SSH) rakto slaptažodis"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Įveskite naujojo saugaus prisijungimo (SSH) rakto slaptažodį."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Importuojamas raktas: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Importuojamas raktas. Įveskite slaptažodį"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Šiam raktui nėra privataus rakto failo."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr ""
+"Nepavyko sukonfigūruoti saugaus prisijungimo (SSH) raktų nutolusiame "
+"kompiuteryje."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Konfigūruojami saugaus prisijungimo (SSH) raktai..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>pvz.: linux.openoffice.lt:prievadas</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Nustatyti kitą kompiuterį saugiam (SSH) prisijungimui"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"Norėdami naudoti saugaus prisijungimo (SSH) raktą jungimuisi prie kito "
+"kompiuterio, privalote turėti paskyrą šiame kompiuteryje."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "_Kompiuterio vardas:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_Prisijungimo vardas:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_Nustatyti"
+
+#~ msgid "Bastile Daemon"
+#~ msgstr "Bastile tarnyba"
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>X raktų pasirinkta sinchronizavimui</b>"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/naudotojas/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "Sukurti PGP raktą"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "Nežinomas\n"
+#~ "Niekada\n"
+#~ "Dalinis\n"
+#~ "Pilnas\n"
+#~ "Visiškas"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "Nežinau\n"
+#~ "Niekada\n"
+#~ "Dalinai\n"
+#~ "Pilnai\n"
+#~ "Visiškai"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "Kiti s_ukaupti raktai"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "Pa_tikimi raktai"
+
+#~ msgid ""
+#~ "One or more of the deleted keys are private keys. Are you sure you want "
+#~ "to proceed?"
+#~ msgstr ""
+#~ "Vienas ar keli pašalinti raktai yra privatieji. Ar tikrai norite tęsti?"
+
+#~ msgid "Retrieving key"
+#~ msgstr "Gaunamas raktas"
+
+#~ msgid "Removing item"
+#~ msgstr "Šalinamas elementas"
+
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>Automatiškai atrakinamas vartotojui prisijungus.</i>"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "Nepavyko įkelti numatytosios slaptažodžių raktinės"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "Nepavyko įkelti slaptažodžių raktinių sąrašo"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "Nepavyko pašalinti rakto"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "Ar tikrai norite negrįžtamai ištrinti raktinę „%s“?"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>Numatytoji raktinė</b>"
+
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>Slaptažodžių raktinės</b>"
+
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "Slaptažodžių bei šifravimo nustatymai"
+
+#~ msgid "_Add Keyring"
+#~ msgstr "Pridėti _raktinę"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "_Pašalinti raktinę"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "Nežinomas raktas: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "Nežinomas raktas"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "Nepasiekiamas raktas"
+
+#~ msgid "X509 Certificate"
+#~ msgstr "X509 sertifikatas"
+
+#~ msgid "Loading..."
+#~ msgstr "Įkeliama..."
+
+#~ msgid "Invalid or unrecognized object."
+#~ msgstr "Netinkamas arba neatpažintas objektas."
+
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "Antrinio rakto %d, priklausančio %s, galiojimas"
+
+#~ msgid "_Quit"
+#~ msgstr "_Išeiti"
+
+#~ msgid "Create a new personal key"
+#~ msgstr "Sukurti naują asmeninį raktą"
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "Importuoti raktus iš failo į jūsų raktinę"
+
+#~ msgid "_Close"
+#~ msgstr "_Uždaryti"
+
+#~ msgid "Secure Shell Passphrase"
+#~ msgstr "Saugaus prisijungimo (SSH) slaptafrazė"
+
+#~ msgid "Secure Shell Key Passphrase"
+#~ msgstr "Saugaus prisijungimo (SSH) rakto slaptafrazė"
+
+#~ msgid "Enter the passphrase for: %s"
+#~ msgstr "Įveskite „%s“ rakto slaptafrazę."
+
+#~ msgid "Save this passphrase in my keyring"
+#~ msgstr "Išsaugoti šią slaptafrazę mano raktinėje"
+
+#~ msgid "Please enter a passphrase to use."
+#~ msgstr "Įveskite norimą slaptafrazę."
+
+#~ msgid "Unparseable Key ID"
+#~ msgstr "Netaisyklingas rakto ID"
+
+#~ msgid "Unknown/Invalid Key"
+#~ msgstr "Nežinomas/Netinkamas raktas"
+
+#~ msgid "PGP Key: %s"
+#~ msgstr "PGP raktas %s"
+
+#~ msgid ""
+#~ "<b>Warning</b>: Your system is not configured to cache passphrases in "
+#~ "secure memory."
+#~ msgstr ""
+#~ "<b>Įspėjame</b>: Jūsų sistemoje nėra įjungta galimybė įsiminti "
+#~ "slaptafrazes saugioje atmintyje."
+
+#~ msgid "Cache _Preferences"
+#~ msgstr "Įsiminimo _nustatymai "
+
+#~ msgid "Cached Encryption Keys"
+#~ msgstr "Įsiminti šifravimo raktai"
+
+#~ msgid "Change passphrase cache settings."
+#~ msgstr "Keisti slaptafrazės įsiminimo nustatymus."
+
+#~ msgid "Clear passphrase cache"
+#~ msgstr "Panaikinti slaptafrazės įsiminimą"
+
+#~ msgid "_Clear Cache"
+#~ msgstr "_Panaikinti įsiminimus"
+
+#~ msgid "_Show Window"
+#~ msgstr "_Rodyti langą"
+
+#~ msgid "Do not daemonize bastile-agent"
+#~ msgstr "Neleisti bastile-agent kaip tarnybos"
+
+#~ msgid "Print variables in for a C type shell"
+#~ msgstr "Spausdinti kintamuosius C kevalui"
+
+#~ msgid "Display environment variables (the default)"
+#~ msgstr "Rodyti aplinkos kintamuosius (numatytoji veiksena)"
+
+#~ msgid "Allow GPG agent request from any display"
+#~ msgstr "Leisti GPG agento užklausas iš bet kurio ekrano"
+
+#~ msgid "command..."
+#~ msgstr "komanda..."
+
+#~ msgid "Encryption Key Agent (Bastile)"
+#~ msgstr "Šifravimo rakto agentas (Bastile)"
+
+#~ msgid "no command specified to execute"
+#~ msgstr "jokia komanda nenurodyta paleidimui"
+
+#~ msgid "Authorize Passphrase Access"
+#~ msgstr "Leisti prieiti prie slaptafrazės"
+
+#~ msgid "The passphrase is cached in memory."
+#~ msgstr "Slaptafrazė įsiminta kompiuterio atmintyje."
+
+#~ msgid "Always ask me before using a cached passphrase"
+#~ msgstr "Visada paklausti prieš naudojant įsimintą slaptafrazę"
+
+#~ msgid "_Authorize"
+#~ msgstr "_Leisti"
+
+#~ msgid "Key Name"
+#~ msgstr "Rakto vardas"
+
+#~ msgid ""
+#~ "After performing an decrypt or verify operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "Atlikus iššifravimo arba patikrinimo operaciją iš įtaiso, rodyti tekstą "
+#~ "lange."
+
+#~ msgid ""
+#~ "After performing an encrypt or signing operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "Atlikus užšifravimo arba pasirašymo operaciją iš įtaiso, rodyti tekstą "
+#~ "lange."
+
+#~ msgid "Display cache reminder in the notification area"
+#~ msgstr "Rodyti priminimą apie įsimintus raktus pranešimų skydelyje"
+
+#~ msgid "Display clipboard after decrypting"
+#~ msgstr "Rodyti iškarpinės turinį po iššifravimo"
+
+#~ msgid "Display clipboard after encrypting"
+#~ msgstr "Rodyti iškarpinės turinį po užšifravimo"
+
+#~ msgid "Expire passwords in the cache"
+#~ msgstr "Užmiršti slaptažodžius"
+
+#~ msgid ""
+#~ "If set to 'mate' uses mate-keyring to cache passwords. When set to "
+#~ "'internal' uses internal cache."
+#~ msgstr ""
+#~ "Jei nurodyta „mate“ - tuomet slaptažodžių įsiminimui bus naudojama "
+#~ "„mate-keyring“ programa. Jei nurodyta „internal“ - įsiminimui naudos "
+#~ "vidinę paprogramę."
+
+#~ msgid "Prompt before using GPG passwords in cache"
+#~ msgstr "Paklausti prieš naudojant įsimintus GPG slaptažodžius"
+
+#~ msgid ""
+#~ "Reflect the contents of the clipboard (whether encrypted, signed, etc...) "
+#~ "in the panel applet icon."
+#~ msgstr ""
+#~ "Atvaizduoja iškarpinės turinį (ar buvo pasirašyta, užšifruota ir pan.)"
+#~ "skydelio įtaiso piktogramoje."
+
+#~ msgid ""
+#~ "Set to 'true' to enable display of the cache reminder in the notification "
+#~ "area of your panel."
+#~ msgstr ""
+#~ "Nustatykite „tiesa“, jei norite įjungti priminimus apie įsimintus "
+#~ "slaptažodžius skydelio perspėjimų srityje."
+
+#~ msgid ""
+#~ "Set to 'true' to have bastile-agent prompt before giving out passwords "
+#~ "it has cached."
+#~ msgstr ""
+#~ "Nustatykite „tiesa“, jei norite, kad bastile-agent paklaustų prieš "
+#~ "pateikdamas slaptažodžius, kurie buvo įsiminti."
+
+#~ msgid "Show clipboard state in panel"
+#~ msgstr "Rodyti iškarpinės būseną skydelyje"
+
+#~ msgid "The time (in minutes) to cache GPG passwords"
+#~ msgstr "Laikas (minutėmis) įsiminti GPG slaptažodžius"
+
+#~ msgid ""
+#~ "This is the amount of time, specified in minutes, to cache GPG passwords "
+#~ "in bastile-agent."
+#~ msgstr "bastile-agent GPG slaptažodžių įsiminimo trukmė minutėmis."
+
+#~ msgid ""
+#~ "This option enables the GPG password cache in the bastile-agent program. "
+#~ "The 'use-agent' setting in gpg.conf affects this setting."
+#~ msgstr ""
+#~ "Ši parinktis įjungia GPG slaptažodžių įsiminimą bastile-agent "
+#~ "programoje. Šios parinkties naudojimą tap pat lemia „use-agent“ "
+#~ "nustatymas gpg.conf faile."
+
+#~ msgid ""
+#~ "When set, bastile-agent expires GPG passwords in its cache after a "
+#~ "period of time."
+#~ msgstr ""
+#~ "Nustačius, bastile-agent užmirš įsimintus GPG slaptažodžius praėjus "
+#~ "pasirinktam laiko tarpui."
+
+#~ msgid "Whether the GPG password cache is enabled"
+#~ msgstr "Ar GPG slaptažodžio įsiminimas įjungtas "
+
+#~ msgid "None. Prompt for a key."
+#~ msgstr "Joks. Paklausti kiekvieną kartą."
+
+#~ msgid "<b>Default Key</b>"
+#~ msgstr "<b>Numatytasis raktas</b>"
+
+#~ msgid "<b>Remember PGP Passphrases</b>"
+#~ msgstr "<b>Įsiminti PGP slaptafrazes</b>"
+
+#~ msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+#~ msgstr "<i>Nepaleistas tinkamas PGP slaptafrazių įsiminimo agentas.</i>"
+
+#~ msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+#~ msgstr ""
+#~ "<i>Šis raktas bus naudojamas žinučių (laiškų) pasirašymui, jei nebus "
+#~ "pasirinktas kitas raktas</i>"
+
+#~ msgid "As_k me before using a cached passphrase"
+#~ msgstr "_Paklausti prieš naudojant įsimintą slaptafrazę"
+
+#~ msgid "Encryption"
+#~ msgstr "Šifravimas"
+
+#~ msgid "PGP Passphrases"
+#~ msgstr "PGP Slaptafrazės"
+
+#~ msgid "Show _icon in status area when passphrases are in memory"
+#~ msgstr "_Rodyti piktogramą būsenos juostoje, kai slaptafrazės yra atmintyje"
+
+#~ msgid "When _encrypting, always include myself as a recipient"
+#~ msgstr ""
+#~ "Šifruojant visada pridėti mane prie gavėjų, kurie galės tai iššifruoti, "
+#~ "sąrašo"
+
+#~ msgid "_Always remember passphrases whenever logged in"
+#~ msgstr "Įsiminti slaptafrazes _visą laiką, kai esu prisijungęs"
+
+#~ msgid "_Default key:"
+#~ msgstr "_Numatytasis raktas:"
+
+#~ msgid "_Never remember passphrases"
+#~ msgstr "_Niekada neįsiminti slaptafrazių"
+
+#~ msgid "_Remember passphrases for"
+#~ msgstr "Slaptafrazes įsi_minti"
+
+#~ msgid "Couldn't set permissions on backup file."
+#~ msgstr "Nepavyko nustatyti atsarginio failo teisių (leidimų)."
+
+#~ msgid "Clipboard Text Encryption"
+#~ msgstr "Iškarpinės teksto šifravimas"
+
+#~ msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+#~ msgstr ""
+#~ "Užšifruoti, iššifruoti ar pasirašyti iškarpinės turinį (naudojant PGP "
+#~ "tipo šifravimą)."
+
+#~ msgid "Bastile Applet Factory"
+#~ msgstr "Bastile įtaisų gamykla"
+
+#~ msgid "_About"
+#~ msgstr "_Apie"
+
+#~ msgid "bastile-applet"
+#~ msgstr "bastile-applet"
+
+#~ msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+#~ msgstr ""
+#~ "Naudoti PGP/GPG iškarpinės turinio šifravimui/iššifravimui/pasirašymui/"
+#~ "tikrinimui/importavimui."
+
+#~ msgid "Choose Recipient Keys"
+#~ msgstr "Pasirinkti gavėjo raktus"
+
+#~ msgid "Encrypted Text"
+#~ msgstr "Užšifruotas tekstas"
+
+#~ msgid "Encryption Failed"
+#~ msgstr "Nepavyko užšifruoti"
+
+#~ msgid "The clipboard could not be encrypted."
+#~ msgstr "Iškarpinės turinio neina užšifruotas."
+
+#~ msgid "Choose Key to Sign with"
+#~ msgstr "Išsirinkite raktą, su kuriuo pasirašinėsite"
+
+#~ msgid "Signed Text"
+#~ msgstr "Pasirašytas tekstas"
+
+#~ msgid "Signing Failed"
+#~ msgstr "Nepavyko pasirašyti"
+
+#~ msgid "The clipboard could not be Signed."
+#~ msgstr "Iškarpinės turinio neina pasirašyti."
+
+#~ msgid "Import Failed"
+#~ msgstr "Nepavyko importuoti"
+
+#~ msgid "Keys were found but not imported."
+#~ msgstr "Raktai surasti, bet nebuvo importuoti. "
+
+#~ msgid "Decrypting Failed"
+#~ msgstr "Nepavyko iššifruoti"
+
+#~ msgid "Text may be malformed."
+#~ msgstr "Tekstas gali būti sugadintas arba netaisyklingas."
+
+#~ msgid "No PGP key or message was found on clipboard"
+#~ msgstr "Iškarpinėje nebuvo rasta jokio PGP rakto ar žinutės"
+
+#~ msgid "No PGP data found."
+#~ msgstr "Nerasta PGP informacijos."
+
+#~ msgid "Decrypted Text"
+#~ msgstr "Iššifruotas tekstas"
+
+#~ msgid "Could not display the help file"
+#~ msgstr "Nepavyko parodyti žinyno failo"
+
+#~ msgid "_Encrypt Clipboard"
+#~ msgstr "_Užšifruoti iškarpinės turinį"
+
+#~ msgid "_Sign Clipboard"
+#~ msgstr "_Pasirašyti iškarpinės turinį"
+
+#~ msgid "_Decrypt/Verify Clipboard"
+#~ msgstr "_Iššifruoti/patikrinti iškarpinės turinį "
+
+#~ msgid "_Import Keys from Clipboard"
+#~ msgstr "I_mportuoti raktus iš iškarpinės"
+
+#~ msgid "Encryption Applet"
+#~ msgstr "Šifravimo įtaisas"
+
+#~ msgid "<b>Display clipboard contents after:</b>"
+#~ msgstr "<b>Rodyti iškarpinės turinį po:</b>"
+
+#~ msgid "Clipboard Encryption Preferences"
+#~ msgstr "Iškarpinės šifravimo nustatymai"
+
+#~ msgid "_Decrypting or verifying the clipboard"
+#~ msgstr "_Iššifruojamas ar tikrinamas iškarpinės turinys"
+
+#~ msgid "_Encrypting or signing the clipboard"
+#~ msgstr "_Šifruojamas ar pasirašomas iškarpinės turinys"
+
+#~ msgid "_Show clipboard state in panel"
+#~ msgstr "_Rodyti iškarpinės būseną skydelyje"
+
+#~ msgid "_Encrypt"
+#~ msgstr "_Užšifruoti"
+
+#~ msgid "_Decrypt/Verify"
+#~ msgstr "_Iššifruoti/Patikrinti"
+
+#~ msgid "_Import Key"
+#~ msgstr "_Importuoti raktą"
+
+#~ msgid "Couldn't connect to bastile-daemon"
+#~ msgstr "Nepavyko prisijungti prie bastile-demono."
+
+#~ msgid "Encrypted text"
+#~ msgstr "Užšifruotas tekstas"
+
+#~ msgid "Couldn't encrypt text"
+#~ msgstr "Nepavyko užšifruoti teksto"
+
+#~ msgid "Keys found but not imported"
+#~ msgstr "Raktai rasti, bet ne importuoti"
+
+#~ msgid "Couldn't decrypt text"
+#~ msgstr "Nepavyko iššifruoti teksto"
+
+#~ msgid "Couldn't verify text"
+#~ msgstr "Nepavyko patikrinti teksto"
+
+#~ msgid "No encrypted or signed text is selected."
+#~ msgstr "Nėra pažymėta užšifruoto ar pasirašyto teksto."
+
+#~ msgid "Decrypted text"
+#~ msgstr "Iššifruotas tekstas"
+
+#~ msgid "Verified text"
+#~ msgstr "Patikrintas tekstas"
+
+#~ msgid "Imported %d key"
+#~ msgid_plural "Imported %d keys"
+#~ msgstr[0] "Importuotas %d raktas"
+#~ msgstr[1] "Importuoti %d raktai"
+#~ msgstr[2] "Importuota %d raktų"
+
+#~ msgid "Signed text"
+#~ msgstr "Pasirašytas tekstas"
+
+#~ msgid "Couldn't sign text"
+#~ msgstr "Nepavyko pasirašyti teksto"
+
+#~ msgid "_Encrypt..."
+#~ msgstr "_Užšifruoti..."
+
+#~ msgid "Encrypt the selected text"
+#~ msgstr "Užšifruoti pažymėtą tekstą"
+
+#~ msgid "Decr_ypt/Verify"
+#~ msgstr "Išši_fruoti/Patikrinti"
+
+#~ msgid "Decrypt and/or Verify text"
+#~ msgstr "Iššifruoti ir/arba patikrinti tekstą"
+
+#~ msgid "Sig_n..."
+#~ msgstr "_Pasirašyti..."
+
+#~ msgid "Sign the selected text"
+#~ msgstr "Pasirašyti pažymėtą tekstą"
+
+#~ msgid "Enable the bastile encryption plugin for pluma."
+#~ msgstr ""
+#~ "Įjungti bastile šifravimo priedą pluma tekstų redagavimo programoje."
+
+#~ msgid "Enable the bastile pluma plugin"
+#~ msgstr "Įjungti bastile priedą pluma programoje."
+
+#~ msgid "Text Encryption"
+#~ msgstr "Teksto šifravimas"
+
+#~ msgid "This plugin performs encryption operations on text."
+#~ msgstr "Šis priedas šifruoja tekstą."
+
+#~ msgid "Encrypt..."
+#~ msgstr "Užšifruoti..."
+
+#~ msgid "Encrypt (and optionally sign) the selected file"
+#~ msgid_plural "Encrypt the selected files"
+#~ msgstr[0] "Užšifruoti (ir, esant norui, pasirašyti) pasirinktą failą"
+#~ msgstr[1] "Užšifruoti pasirinktus failus"
+#~ msgstr[2] "Užšifruoti pasirinktus failus"
+
+#~ msgid "Sign the selected file"
+#~ msgid_plural "Sign the selected files"
+#~ msgstr[0] "Užšifruoti pasirinktą failą"
+#~ msgstr[1] "Užšifruoti pasirinktus failus"
+#~ msgstr[2] "Užšifruoti pasirinktus failus"
+
+#~ msgid "For internal use"
+#~ msgstr "Vidiniam naudojimui"
+
+#~ msgid "Encryption Preferences"
+#~ msgstr "Šifravimo nustatymai"
+
+#~ msgid "Configure key servers and other encryption settings"
+#~ msgstr "Konfigūruoti raktų serverius ir kitus šifravimo nustatymus"
+
+#~ msgid "Encryption and Keyrings"
+#~ msgstr "Šifravimas ir raktinės"
+
+#~ msgid "Encrypt file"
+#~ msgstr "Užšifruoti failą"
+
+#~ msgid "Sign file with default key"
+#~ msgstr "Pasirašyti failą su numatytuoju raktu"
+
+#~ msgid "Encrypt and sign file with default key"
+#~ msgstr "Užšifruoti ir pasirašyti failą su numatytuoju raktu"
+
+#~ msgid "Decrypt encrypted file"
+#~ msgstr "Iššifruoti užšifruotą failą"
+
+#~ msgid "Verify signature file"
+#~ msgstr "Patikrinti pagal parašo failą"
+
+#~ msgid "Read list of URIs on standard in"
+#~ msgstr "Skaityti failų (URI) sąrašą iš standartinės įvesties"
+
+#~ msgid "file..."
+#~ msgstr "failas..."
+
+#~ msgid "Choose Recipients"
+#~ msgstr "Pasirinkite gavėjus, kuriems skirta ši informacija"
+
+#~ msgid "Couldn't load keys"
+#~ msgstr "Nepavyko įkelti raktų"
+
+#~ msgid "Choose Encrypted File Name for '%s'"
+#~ msgstr "Nurodykite vardą užšifruojam failui '%s'"
+
+#~ msgid "Choose Signer"
+#~ msgstr "Pasirinkite asmenį bei raktą, kuriuo pasirašysite"
+
+#~ msgid "Choose Signature File Name for '%s'"
+#~ msgstr "Nurodykite vardą el. parašo failui: '%s'"
+
+#~ msgid "Import is complete"
+#~ msgstr "Importavimas baigtas"
+
+#~ msgid "Importing keys ..."
+#~ msgstr "Importuojami raktai..."
+
+#~ msgid "Choose Decrypted File Name for '%s'"
+#~ msgstr "Nurodykite vardą iššifruotam failui '%s'"
+
+#~ msgid "Choose Original File for '%s'"
+#~ msgstr "Pasirinkite failą, kurį tikrinsite su el. parašu iš failo '%s'"
+
+#~ msgid "No valid signatures found"
+#~ msgstr "Nerasta galiojančių parašų"
+
+#~ msgid "File Encryption Tool"
+#~ msgstr "Failų šifravimo įrankis"
+
+#~ msgid "Encrypting"
+#~ msgstr "Šifruojama"
+
+#~ msgid "Couldn't encrypt file: %s"
+#~ msgstr "Nepavyko užšifruoti failo: %s"
+
+#~ msgid "Signing"
+#~ msgstr "Pasirašoma"
+
+#~ msgid "Couldn't sign file: %s"
+#~ msgstr "Nepavyko pasirašyti failo: %s"
+
+#~ msgid "Importing"
+#~ msgstr "Importuojama"
+
+#~ msgid "Couldn't import keys from file: %s"
+#~ msgstr "Nepavyko importuoti raktų iš failo: %s"
+
+#~ msgid "Decrypting"
+#~ msgstr "Iššifruojama"
+
+#~ msgid "Couldn't decrypt file: %s"
+#~ msgstr "Nepavyko iššifruoti failo: %s"
+
+#~ msgid "Verifying"
+#~ msgstr "Tikrinama"
+
+#~ msgid "Couldn't verify file: %s"
+#~ msgstr "Nepavyko patikrinti failo: %s"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+
+#~ msgid "Self-extracting zip (.exe)"
+#~ msgstr "Išsispaudžiantis zip (.exe)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "Tar (nearchyvuotas) (.tar)"
+
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "Tar (archyvuotas su bzip) (.tar.bz)"
+
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "Tar (archyvuotas su bzip2) (.tar.bz2)"
+
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "Tar (archyvuotas su gzip) (.tar.gz)"
+
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "Tar (archyvuotas su lzop) (.tar.lzo)"
+
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "Tar (archyvuotas su compress) (.tar.Z)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+
+#~ msgid "Zip (.zip)"
+#~ msgstr "Zip (.zip)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+
+#~ msgid "You have selected %d file "
+#~ msgid_plural "You have selected %d files "
+#~ msgstr[0] "Jūs pasirinkote %d failą "
+#~ msgstr[1] "Jūs pasirinkote %d failus "
+#~ msgstr[2] "Jūs pasirinkote %d failų "
+
+#~ msgid "and %d folder"
+#~ msgid_plural "and %d folders"
+#~ msgstr[0] "ir %d aplanką"
+#~ msgstr[1] "ir %d aplankus"
+#~ msgstr[2] "ir %d aplankų"
+
+#~ msgid "<b>%s%s</b>"
+#~ msgstr "<b>%s%s</b>"
+
+#~ msgid "You have selected %d files"
+#~ msgstr "Jūs pasirinkote %d failus"
+
+#~ msgid "You have selected %d folder"
+#~ msgid_plural "You have selected %d folders"
+#~ msgstr[0] "Jūs pasirinkote %d aplanką"
+#~ msgstr[1] "Jūs pasirinkote %d aplankus"
+#~ msgstr[2] "Jūs pasirinkote %d aplankų"
+
+#~ msgid "Couldn't list files"
+#~ msgstr "Nepavyko sudaryti failų sąrašo"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "Nepavyko perskaityti failo"
+
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "Kopijuoti raktines į archyvą"
+
+#~ msgid "_Key"
+#~ msgstr "_Raktas"
+
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "Padaryti raktinių atsargines _kopijas..."
+
+#~ msgid "Back up all keys"
+#~ msgstr "Padaryti visų raktų atsargines kopijas"
+
+#~ msgid "P_roperties"
+#~ msgstr "Sa_vybės"
+
+#~ msgid "E_xport Public Key..."
+#~ msgstr "_Eksportuoti viešą raktą..."
+
+#~ msgid "_Copy Public Key"
+#~ msgstr "Kopijuoti viešą raktą"
+
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "Kopijuoti pasirinktų raktų viešas dalis į iškarpinę"
+
+#~ msgid "_Delete Key"
+#~ msgstr "_Ištrinti raktą"
+
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "Sukonfigūruoti kompiuterį _saugiam prisijungimui (SSH)..."
+
+#~ msgid "User ID"
+#~ msgstr "Naudotojo ID"
+
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "Nepavyko gauti rakto duomenų"
+
+#~ msgid "Couldn't write key to file"
+#~ msgstr "Nepavyko įrašyti rakto į failą"
+
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "Nepavyko importuoti raktų į raktinę"
+
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "Nepavyko raktų įrašyti į failą: %s"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "Išsaugoti internete esančius raktus"
+
+#~ msgid "No matching keys found"
+#~ msgstr "Sutampančių raktų nerasta"
+
+#~ msgid "Save Key As..."
+#~ msgstr "Išsaugoti raktą kaip..."
+
+#~ msgid "Save selected keys as a file"
+#~ msgstr "Išsaugoti pasirinktus raktus į failą"
+
+#~ msgid "_Copy Key"
+#~ msgstr "_Kopijuoti raktą"
+
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "Šifravimo raktai tinkle"
+
+#~ msgid "<b>You have selected multiple files or folders</b>"
+#~ msgstr "<b>Jūs pasirinkote keletą failų ar aplankų</b>"
+
+#~ msgid ""
+#~ "Because the files are located remotely, each file will be encrypted "
+#~ "separately."
+#~ msgstr ""
+#~ "Kadangi failai yra ne jūsų kompiuteryje, kiekvienas iš jų bus užšifruotas "
+#~ "atskirai."
+
+#~ msgid "Encrypt Multiple Files"
+#~ msgstr "Užšifruoti keletą failų"
+
+#~ msgid "Encrypt each file separately"
+#~ msgstr "Šifruoti kiekvieną failą atskirai"
+
+#~ msgid "Encrypt packed together in a package"
+#~ msgstr "Užšifruoti supakuotus į vieną paketą"
+
+#~ msgid "Package Name:"
+#~ msgstr "Paketo failo vardas:"
+
+#~ msgid "Packaging:"
+#~ msgstr "Pakavimas:"
+
+#~ msgid "encrypted-package"
+#~ msgstr "užšifruotas-paketas"
+
+#~ msgid "Decrypt File"
+#~ msgstr "Iššifruoti failą"
+
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "Patikrinau, kad šis raktas priklauso asmeniui „%s“"
+
+#~ msgid "Verify Signature"
+#~ msgstr "Patikrinti parašą "

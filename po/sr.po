@@ -1,0 +1,3114 @@
+# Serbian translation of bastile
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003 - 2009.
+#
+# This file is distributed under the same license as the bastile package.
+#
+# Maintainer: Душан Живојнов <calvin@verat.net>
+# Translated on 2009-05-09 by: Бранко Кокановић <branko.kokanovic@gmail.com>
+# Милош Поповић <gpopac@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=bastile&component=general\n"
+"POT-Creation-Date: 2010-07-19 20:50+0000\n"
+"PO-Revision-Date: 2010-08-29 21:09+0200\n"
+"Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
+"Language-Team: Serbian <gnom@prevod.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../daemon/bastile-daemon.c:69
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Не покрећи Морског коњића као услужни програм"
+
+#: ../daemon/bastile-daemon.c:99
+msgid "couldn't fork process"
+msgstr "не могу да разделим процес"
+
+#: ../daemon/bastile-daemon.c:105
+msgid "couldn't create new process group"
+msgstr "не могу да направим нову групу процеса"
+
+#: ../daemon/bastile-daemon.c:255
+msgid "Encryption Daemon (Bastile)"
+msgstr "Услужни програм за шифровање (Морски коњић)"
+
+#: ../daemon/bastile-service.c:163 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Неважећи или непрепознат тип кључа: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Тип овог кључа није подржан: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "Подршка за ову могућност није укључена током изградње програма"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Неважећи или непрепознат кључ: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Потписан од стране <i><key id='%s'/> <b>истиче</b></i> на %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Неважећи потпис"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Потписан од стране <i><key id='%s'/></i> <b>истиче</b> дана %s ."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Истекао потпис"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Потписан од стране <i><key id='%s'/> <b>Опозван</b></i> дана %s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Опозван потпис"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Потписан од стране <i><key id='%s'/></i> дана %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Добар потпис"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "Кључ који треба потписати није у привеску."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Непознат потпис"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Лош или фалсификован потпис. Потписани подаци су модификовани."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Лош потпис"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Не могу да потврдим потпис."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Неважећи или непознат потписник: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Кључ није важећи за потписивање: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Неважећи или непознат прималац: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Кључ није важећи прималац за  шифровање: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Нема наведених примаоца"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Неважећи тип кључа за дешифровање: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Поставите clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Поставите crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "clearuri не може да се отвори"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Потписник није наведен"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Неважећи тип кључа за верификовање: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Неважећи ИБ кључа: %s"
+
+#: ../daemon/bastile-sharing.c:84 ../daemon/bastile-sharing.c:269
+msgid "Couldn't share keys"
+msgstr "Немогуће делити кључеве"
+
+#: ../daemon/bastile-sharing.c:85
+msgid "Can't publish discovery information on the network."
+msgstr "Не могу објавити на мрежи информације о проналасцима."
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:112
+#, c-format
+msgid "%s's encryption keys"
+msgstr "%s's кључеви шифрирања"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Листа УРИ-ја сервера кључева за претрагу удаљених ПГП кључева. У каснијим "
+"верзијама име за приказ се може додати, придодајући размак и затим име."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Аутоматски преузети кључеве"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Аутоматски синхронизовати кључеве"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Контролише видљивост колоне за рок у управљачу кључевима."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Контролише видљивост колоне за поверење у управљачу кључевима."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Контролише видљивост колоне за тип у управљачу кључевима."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Контролише видљивост колоне за исправност у управљачу кључевима."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Омогућити DNS-SD дељење"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"Омогућава DNS-SD (Apple Bonjour) дељење кључева. Мора бити покренут услужни "
+"програм Морског коњића са уграђеном подршком за HKP и DNS-SD."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "ИБ подразумеваног кључа"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"Ако је постављен на тачно, тада ће датотеке шифроване помоћу bastile-а бити "
+"ASCII оклопно шифровани."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Уколико је постављено, онда ће се подразумевани кључ увек додавати у списак "
+"прималаца са шифровањем."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Последњи шаблон претраге сервера кључева"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Последњи сервери кључева су искоришћени."
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Употребљен последњи кључ за потписивање поруке."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP сервери кључева"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Објавити кључеве на овом серверу кључева."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Прикажи колону за рок у управљачу кључевима"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Прикажи колону за поверење у управљачу кључевима"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Прикажи колону за тип у управљачу кључевима"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Прикажи колону за исправност у управљачу кључевима"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Навести колону по којој треба сортирати прозор прималаца. Колоне су: ’име’ и "
+"’ИБ’. Ставити ’-’ испред имена колоне за сортирање по опадајућем редоследу."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Колоне по којима треба сортирати главни прозор уредника кључева за Морског "
+"коњића. Могуће колоне су: „name“ (име), „id“ (ИБ), „validity“ (исправност), "
+"„expires“ (време истека), „trust“ (поверење), и „type“ (врста). Ставити ’-’ "
+"испред имена колоне да би сортирали по опадајућем редоследу."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "ИБ последњег тајног кључа искоришћеног за потписивање поруке."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "По којој колони ређати примаоце"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "По којој колони ређати кључеве морског коња"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"Сервер кључева на који треба објавити PGP кључеве. Или испразнити да би "
+"зауставили објављивање ПГП кључева."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"Последњи сервер кључева на основу ког је извршена претрага или је празно за "
+"употребу свих сервера кључева."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "Последња шема претраге сервера кључева."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Ово одређује подразумевани кључ који ће се користити за одређене операције, "
+"првенствено за потписивање."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr ""
+"Били или не кључеви требају аутоматски бити преузети са сервера кључева."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Били или не модификовани кључеви требају аутоматски бити синхронизовани са "
+"подразумеваним серверима кључева."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Да ли да увек шифрује према уобичајеном кључу"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Да ли да користи ASCII оклоп"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Додај привезак за лозинку"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Ново име за привезак:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"Изаберите име за нови привезак. Биће вам затражена лозинка за откључавање."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Име удаљеног рачунара или адреса сервера."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Не могу да додам привезак"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Додај лозинку"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_Опис:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_Привезак:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_Лозинка:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "Прикажи л_озинку"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Лозинка за веб"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Лозинка за мрежу"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Лозинка"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Да ли сигурно желите да избришете лозинку „%s“?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Да ли сигурно желите да избришете %d лозинку?"
+msgstr[1] "Да ли сигурно желите да избришете %d лозинке?"
+msgstr[2] "Да ли сигурно желите да избришете %d лозинки?"
+msgstr[3] "Да ли сигурно желите да избришете лозинку?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Приступити садржају дељеном на мрежи или ресурсима"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Приступи веб страници"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "Откључава PGP кључ"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Откључава кључ осигураног командног окружења"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Сачувана лозинка или пријава"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Акредитиви мреже"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Не могу да променим шифру."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Не могу да поставим опис."
+
+#: ../gkr/bastile-gkr-item-properties.c:651
+msgid "Couldn't set application access."
+msgstr "Не могу да поставим приступ апликацији."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Лозинка:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Путања:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Дозволе:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Технички детаљи:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Апликације"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:72
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Детаљи"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Кључеви"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Особине кључева"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Пријава:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Сервер:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Прикажи _лозинку"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "Тип:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Употреба:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "_Обриши"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "_Читај"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "_Пиши"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Списак лозинки"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Лозинкe: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Лозинке:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Привезак за лозинке"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Користило се да ускладишти лозинке програма и мреже"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Сачуване лозинке"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Сигурно чува лозинке или тајне."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Не могу да откључам привезак за кључеве"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Не могу да закључам привезак за кључеве"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Не могу да поставим подразумевани привезак за кључеве"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Не могу да променим лозинку провеска за кључеве"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Закључај"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr ""
+"Закључај складиште лозинки тако да је потребна главна лозинка да би му "
+"приступили."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_Откључај"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"Откључај складиште лозинки са главном лозинком тако да се може користити."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "_Постави као подразумевано"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "Програми углавном складиште нове лозинке у подразумеваном привеску."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "Измени _лозинку"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Измени лозинку за откључавање привеска за лозинке"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Да ли сигурно желите да избришете „%s“ привезак?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "Направљено:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Привезак за кључеве"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Особине привеска"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_Име"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Приступ привеску је одбијен"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Услужни програм Привеска за кључеве није покренут"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Привезак је већ откључан"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Не постоји такав привезак"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Не могу да се повежем са услужним програмом привеска"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Ставка већ постоји"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Интерна грешка при приступању mate-keyring-у"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Чувам ставку..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Бришем ставку..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Бришем привезак..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Списак привезака за лозинке"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"Ниједан кључ за шифровање није нађен са којим би се обавила захтевана "
+"операција.  Програм <b>Лозинке и кључеви шифровања</b> ће сада бити покренут "
+"да бисте могли да или направите кључ или увезете постојећи."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:173
+msgid "All Keys"
+msgstr "Сви кључеви"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+msgid "Selected Recipients"
+msgstr "Изабрани примаоци"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+msgid "Search Results"
+msgstr "Резултати претраге"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:185
+msgid "Search _for:"
+msgstr "Претрага за:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:243
+msgid "None (Don't Sign)"
+msgstr "Ниједан (не потписивати)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:256
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Потписати поруку као %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:278
+msgid "_Sign message as:"
+msgstr "Потпи_сати поруку као:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Име"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "ИБ кључа"
+
+#: ../libegg/egg-datetime.c:313
+msgid "Display flags"
+msgstr "Ознаке за приказивање"
+
+#: ../libegg/egg-datetime.c:314
+msgid "Displayed date and/or time properties"
+msgstr "Приказане особине датума и/или времена"
+
+#: ../libegg/egg-datetime.c:319
+msgid "Lazy mode"
+msgstr "Лењи режим"
+
+#: ../libegg/egg-datetime.c:320
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "Лењи режим не нормализује унесене вредности за датум и време"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Year"
+msgstr "Година"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed year"
+msgstr "Приказана година"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Month"
+msgstr "Месец"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Displayed month"
+msgstr "Приказани месец"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Day"
+msgstr "Дан"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed day of month"
+msgstr "Приказани дан у месецу"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Hour"
+msgstr "Сат"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed hour"
+msgstr "Приказани сат"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Minute"
+msgstr "Минут"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed minute"
+msgstr "Приказани минут"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Second"
+msgstr "Секунда"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed second"
+msgstr "Приказана секунда"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Lower limit year"
+msgstr "Доња граница године"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Year part of the lower date limit"
+msgstr "Део за године доње границе датума"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Upper limit year"
+msgstr "Горња граница године"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Year part of the upper date limit"
+msgstr "Део за године горње границе датума"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit month"
+msgstr "Доња граница месеца"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Month part of the lower date limit"
+msgstr "Део за месеце доње границе датума"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit month"
+msgstr "Горња граница месеца"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Month part of the upper date limit"
+msgstr "Део за месеце горње границе датума"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit day"
+msgstr "Доња граница дана"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Day of month part of the lower date limit"
+msgstr "Део за дан у месецу доње границе датума"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit day"
+msgstr "Горња граница дана"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Day of month part of the upper date limit"
+msgstr "Део за дан у месецу горње границе датума"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit hour"
+msgstr "Доња граница сата"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Hour part of the lower time limit"
+msgstr "Део за сате доње границе времена"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit hour"
+msgstr "Горња граница сата"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Hour part of the upper time limit"
+msgstr "Део за сате горње границе времена"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit minute"
+msgstr "Доња граница минута"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Minute part of the lower time limit"
+msgstr "Део за минуте доње границе времена"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit minute"
+msgstr "Горња граница минута"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Minute part of the upper time limit"
+msgstr "Део за минуте горње границе времена"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit second"
+msgstr "Доња граница секунди"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Second part of the lower time limit"
+msgstr "Део за секунде доње границе времена"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit second"
+msgstr "Горња граница секунди"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Second part of the upper time limit"
+msgstr "Део за секунде горње границе времена"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:470
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:1"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Date"
+msgstr "Датум"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Enter the date directly"
+msgstr "Унесите датум директно"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select Date"
+msgstr "Одабери датум"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select the date from a calendar"
+msgstr "Одаберите датум из календара"
+
+#: ../libegg/egg-datetime.c:517 ../libegg/egg-datetime.c:2194
+msgid "Time"
+msgstr "Време"
+
+#: ../libegg/egg-datetime.c:517
+msgid "Enter the time directly"
+msgstr "Унесите време директно"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select Time"
+msgstr "Одабери време"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select the time from a list"
+msgstr "Одаберите време из листе"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:791
+msgid "24hr: no"
+msgstr "24hr: не"
+
+#: ../libegg/egg-datetime.c:795 ../libegg/egg-datetime.c:1255
+#: ../libegg/egg-datetime.c:1259
+msgid "AM"
+msgstr "преподне"
+
+#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1256
+#: ../libegg/egg-datetime.c:1263
+msgid "PM"
+msgstr "поподне"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:805
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:808
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:812
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:815
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1171
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1236
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Ово није исправна .desktop датотека"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Није познато издање „%s“ десктоп датотеке"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Покрећем %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Програм не прихвата документе из командне линије"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Непозната опција при покретању: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Не могу да проследим адресу документа у „Type=Link“ унос десктоп датотеке"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Не можете да покренете ову ставку"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Онемогући везу са управником сесије"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Одаберите датотеку која садржи сачувана подешавања"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "ДАТОТЕКА"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Одаберите ИБ управника сесије"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "ИБ"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Могућности управника сесије:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Прикажи могућности управника сесије"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Додај сервер кључева"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Хост:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Тип сервера кључева:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Порт којим се може приступити серверу."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "почетна привремена ставка"
+
+#: ../libbastile/bastile-notification.c:566
+#: ../libbastile/bastile-notification.c:594
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Кључ је увежен"
+msgstr[1] "Кључ је увежен"
+msgstr[2] "Кључеви су увежени"
+msgstr[3] "Кључ је увежен"
+
+#: ../libbastile/bastile-notification.c:570
+#: ../libbastile/bastile-notification.c:593
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Увезен %i кључ"
+msgstr[1] "Увезен %i кључ"
+msgstr[2] "Увезено %i кључева"
+msgstr[3] "Увезен %i кључ"
+
+#: ../libbastile/bastile-notification.c:572
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Увежен кључ за"
+msgstr[1] "Увежен кључ за"
+msgstr[2] "Увежени кључеви за"
+msgstr[3] "Увежен кључ за"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Обавештајне поруке"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Симетрични кључ"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Јавни кључ"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Приватни кључ"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Акредитиви"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Идентитет"
+
+#: ../libbastile/bastile-passphrase.c:196
+msgid "Passphrase"
+msgstr "Лозинка"
+
+#: ../libbastile/bastile-passphrase.c:199
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Лозинка:"
+
+#: ../libbastile/bastile-passphrase.c:265
+msgid "Confirm:"
+msgstr "Потврди:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Неважећа адреса сервера кључева."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"За помоћ се обратите вашем администратору система или администратору сервера "
+"кључева."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Уобичајени"
+
+#: ../libbastile/bastile-prefs.c:419
+msgid "None: Don't publish keys"
+msgstr "Ниједан: Немој објављивати кључеве"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Аутоматски преузми кључеве са сервера _кључева"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Аутоматски синхронизуј _модификоване кључеве са серверима кључева"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Сервери кључева"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Key Sharing"
+msgstr "Дељење кључева"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "Preferences"
+msgstr "Подешавања"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've "
+"collected. This means they can automatically encrypt things for you or those "
+"you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+"Дељење ваших кључева омогућава другим људима на вашој мрежи да користе "
+"кључеве које сте сакупили. Ово значи да они могу шифровати ствари уместо вас "
+"или оних које ви знате, а да им нисте послали ваш кључ.\n"
+"\n"
+"<b>Напомена:</b> Ваши лични кључеви неће бити компромитовани."
+
+#: ../libbastile/bastile-prefs.xml.h:9
+msgid "_Find keys via:"
+msgstr "_Пронађи кључ преко:"
+
+#: ../libbastile/bastile-prefs.xml.h:10
+msgid "_Publish keys to:"
+msgstr "_Објави кључеве на:"
+
+#: ../libbastile/bastile-prefs.xml.h:11
+msgid "_Share my keys with others on my network"
+msgstr "_Дели моје кључеве са другима на мојој мрежи"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Наслов напредовања"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Недоступно"
+
+#: ../libbastile/bastile-util.c:237
+msgid "%Y-%m-%d"
+msgstr "%d.%m.%Y"
+
+#: ../libbastile/bastile-util.c:513
+msgid "Key Data"
+msgstr "Подаци кључа"
+
+#: ../libbastile/bastile-util.c:515
+msgid "Multiple Keys"
+msgstr "Вишеструки кључеви"
+
+#: ../libbastile/bastile-util.c:771
+msgid "Couldn't run file-roller"
+msgstr "Не могу да покренем „file-roller“"
+
+#: ../libbastile/bastile-util.c:777
+msgid "Couldn't package files"
+msgstr "Не могу да упакујем датотеке"
+
+#: ../libbastile/bastile-util.c:778
+msgid "The file-roller process did not complete successfully"
+msgstr "Управљач архивом није исправно окончан"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:954
+msgid "All key files"
+msgstr "Све датотеке кључева"
+
+#: ../libbastile/bastile-util.c:965 ../libbastile/bastile-util.c:1013
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Све датотеке"
+
+#: ../libbastile/bastile-util.c:1006
+msgid "Archive files"
+msgstr "Архиве"
+
+#: ../libbastile/bastile-util.c:1076
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Датотека већ постоји.</b>\n"
+"\n"
+"Желите ли да је препишете новом?"
+
+#: ../libbastile/bastile-util.c:1079
+msgid "_Replace"
+msgstr "Препиши"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "Непознато"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "Никад"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "Површно"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "Потпуно"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "Највеће"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Онемогућено"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Повучен"
+
+#: ../libbastile/bastile-widget.c:463
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Не могу да прикажем помоћ: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Датум истека:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Направи нови подкључ"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Ако кључ никад не истиче"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "_Дужина кључа:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "_Тип кључа:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Дужина кључа"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Никад не ис_тиче"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Додај ИБ корисника"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Направи нови ИБ корисника"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "Име и _презиме:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "Ко_ментар кључа:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Мора бити дужине бар 5 знакова"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Необавезна примедба за опис кључа"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "Необавезна адреса е-поште"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "Адреса _е-поште:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "П_роменити"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Повуци кључ"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_Никад не истиче"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Не могу да додам подкључ"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Додај подкључ за %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA (sign only)"
+msgstr "DSA (само потпис)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (само шифровање)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:118
+msgid "RSA (sign only)"
+msgstr "RSA (само потпис)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (само шифровање)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Не могу да додам ИБ корисника"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Додај ИБ корисника у %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Дешифровање није успело. Вероватно немате кључ за дешифровање."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Неважећи датум истека"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Датум истека мора бити у будућности"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Не могу да променим датум истека"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Истиче: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "PGP кључ"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Користи се за шифровање е-поште и датотека"
+
+#: ../pgp/bastile-gpgme-generate.c:115 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:116
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:134
+msgid "Couldn't generate PGP key"
+msgstr "Не могу да генеришем PGP кључ"
+
+#: ../pgp/bastile-gpgme-generate.c:194
+msgid "Passphrase for New PGP Key"
+msgstr "Лозинка за нови PGP кључ"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Enter the passphrase for your new key twice."
+msgstr "Двапут унесите лозинку за нови кључ."
+
+#: ../pgp/bastile-gpgme-generate.c:204
+msgid "Couldn't generate key"
+msgstr "Не могу да направим кључ"
+
+#: ../pgp/bastile-gpgme-generate.c:206
+msgid "Generating key"
+msgstr "Стварање кључа"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Погрешна лозинка"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "Ово је трећи пут да сте унели погрешну лозинку. Покушајте поново."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Фотографија је превише велика</b></big>\n"
+"Препоручена величина фотографије на вашем кључу је %d x %d пиксела."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_Немој мењати величину"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "_Промени величину"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr "Ова датотека није слика, или је непрепозната врста слике. "
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Све слике"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Све JPEG датотеке"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Изаберите слику за придодавање кључу"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Не могу да додам слику"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Не могу да учитам датотеку. Могуће да је у неодговарајућем формату"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Да ли сигурно желите да уклоните тренутну слику из вашег кључа?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Не могу да избришем слику"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Не могу да повучем подкључ"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Повуци: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Нема разлога"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Нема разлога за повлачење кључа"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Компромитован"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Кључ је компромитован"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Превазиђен"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Кључ је превазиђен"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Није коришћен"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Кључ није више у употреби"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"Управо ћете додати %s као повлачење за %s. Ова операција се не може "
+"опозвати! Да ли сигурно желите да наставите?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Не могу да додам опозивача"
+
+#: ../pgp/bastile-gpgme-sign.c:96
+msgid "Couldn't sign key"
+msgstr "Не могу да потпишем кључ"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:149 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Нема кључева употребљивих за потписивање"
+
+#: ../pgp/bastile-gpgme-sign.c:150
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"Немате личних PGP кључева који би се могли искористити да укажу на ваше "
+"поверење овом кључу."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Погрешна лозинка."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Унесите нову лозинку за „%s“"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Унесите лозинку за „%s“"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Унесите нову лозинку"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Унесите пропусну фразу"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Учитао сам %d кључ"
+msgstr[1] "Учитао сам %d кључа"
+msgstr[2] "Учитао сам %d кључева"
+msgstr[3] "Учитао сам кључ"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Учитавам кључеве..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"Неважећи подаци кључа (недостају УИД-и). Ово се може десити ако је датум на "
+"рачунару подешен унапред или ако недостаје самопотпис."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:538
+msgid "Importing Keys"
+msgstr "Увожење кључева"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Извожење кључева"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr ""
+"Претрага није била довољно специфична. Сервер '%s' је пронашао превише "
+"кључева."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Не могу да се повежем са сервером '%s': %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Тражим кључеве..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Слање кључева..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Преузимање кључева..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Тражим кључеве на: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Повезивање на: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "HTTP Сервер кључева"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Не могу да се повежем са '%s': %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Не могу да разрешим адресу: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Разрешавање адресе сервера: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Тражим кључеве који садрже '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Тражим ИБ кључа '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Преузимам удаљене кључеве..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Шаљем кључеве на сервер кључева"
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP сервер кључева"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "_Потпиши кључ..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Потпиши јавни кључ"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Да ли сигурно желите трајно да уклоните %s?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Да ли сигурно желите трајно да избришете %d кључеве и идентитете?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Да ли сигурно желите трајно да избришете %d кључеве?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Да ли сигурно желите трајно да избришете %d идентитете?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Напредне опције кључа</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+"PGP кључ вам омогућава да шифрујете е-пошту или датотеке које шаљете другим "
+"људима."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Овде ставити алгоритме"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "Нап_рави"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "Датум и_стека:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "_Тип шифровања"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Направи нови кључ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "_Јачина кључа (битова):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "Ника_да не истиче"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "Нови PGP кључ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_Коментар:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "Приватни PGP кључ"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "Јавни PGP кључ"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Истекао"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Не могу да променим ИБ основног корисника"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Сигурно желите трајно да уклоните ИБ корисника „%s“?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Не могу да уклоним ИБ корисника"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Непознато]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Име/Е-пошта"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "ИБ потписа"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Не могу да променим примарну слику"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(непознато)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Овај кључ је истекао: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Да ли сигурно желите да трајно уклоните подкључ %d од %s?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Не могу да обришем подкључ"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "не могу да променим поверење"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:316
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Не могу да извезем кључ у „%s“"
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Извези комплетан кључ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Не могу да извезем кључ."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "Никад"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Тип"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Направљен"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Истиче"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Статус"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Снага"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "Добар"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Акције</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Коментар:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Датуми</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>Е-пошта:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Отисак</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>ИБ кључа:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Имене кључева и потписи</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Име:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>Фотографија </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>Технички детаљи</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Овај кључ је опозван</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>Овај кључ је истекао</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Тип:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Употреба:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Подкључеви</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "Додај"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "Додај фотографију овоме кључу"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Промени _лозинку"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "Дешифруј примљене датотеке и е-пошту."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "Избриши"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "Рок"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "Истиче:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "Извези"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "Пређи на следећу слику"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "Врати се на претходну слику"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "ИБ кључа:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "Постави ову слику за главну слику"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "Имена и потписи"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "Никад"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "Премости _поверење власника:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "Власник"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "Примарно"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "Уклони ову слику из овог кључа"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "Опозови"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "Потпиши"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "Јачина:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "Власник кључа је опозвао кључ. Не може се више користити."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "_Додај име"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "_Извези комплетан кључ:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Датуми:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Отисак:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Укажи на поверење:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Ваше поверење за овај кључ</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Остала имена</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>Људи који су потписали овај кључ:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "Шифруј датотеку и пошаљи власнику кључа"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "Потпуно"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Верујем потписима '%s'-а на другим кључевима"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"Ако верујете да је „%s“ особа која поседује овај кључ, <i>потпишите</i> кључ:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"Ако више не верујете да „%s“ поседује овај кључ, <i>опозовите</i> ваш потпис:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "Површно"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Поверење"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "Највеће"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "_Верујете власнику:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Ваше поверење је ручно специфицирано у језичку <i>Детаљи</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "Приказуј _само потписе људи којима верујем"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "_Опозови потпис"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "_Потпиши овај кључ"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Подкључ %d од %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Необавезан опис за повлачење"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "По_вуци"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Разлог за повлачење кључа"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_Разлог:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"Немате личних PGP кључева који се могу искористити за потписивање документа "
+"или поруке."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Колико сте пажљиво проверили овај кључ?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Како ће други видеети овај потпис:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Потпиши кључ као:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>Неформално:</i> значи да сте урадили неформалну верификацију да је кључ "
+"поседован од стране особе која тврди да је њен. На пример, могли би сте да "
+"учитате отисак кључа власнику, преко телефона. "
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Име кључа</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>Никако:</i> значи да верујете да кључ поседује особа која која тврди да "
+"јој припада, али не можете или нисте верификовали да је ово истина"
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>Врло пажљиво:</i> Изаберите ово једино ако сте у потпуности сигурни да је "
+"овај кључ оригиналан."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Потписивањем указујете ваше поверење да овај кључ припада:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Могу _опозвати овај потпис каснијег датума."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Потпиши кључ"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"Можете употребити идентификацију фотографијом која се тешко фалсификује (као "
+"што је пасош) \n"
+"да бисте лично проверили да ли је име на кључу тачно. Такође би требало да "
+"искористите е-пошту да проверите да ли адреса е-поште припада власнику."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "Н_еформално"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_Не уопште"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_Други не би могли видети овај потпис"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_Потпиши"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Потписник:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_Врло пажљиво"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "Потпиши поруку _са кључем:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:107
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:68
+msgid "Certificate"
+msgstr "Сертификат"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Да ли сигурно желите да избришете сертификат ’%s'?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Да ли сигурно желите да уклоните %d сертификат?"
+msgstr[1] "Да ли сигурно желите да уклоните %d сертификата?"
+msgstr[2] "Да ли сигурно желите да уклоните %d сертификата?"
+msgstr[3] "Да ли сигурно желите да уклоните сертификат?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Промени лозинку"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "По_тврдите лозинку:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Потврди нову лозинку"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "Нова _лозинка:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Уредите ваше лозинке и кључеве шифровања"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:857
+msgid "Passwords and Encryption Keys"
+msgstr "Лозинке и кључеви шифровања"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>_Изаберите врсту ставке за прављење:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "Н_аставити"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Направи нови..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Изабран је %d кључ"
+msgstr[1] "Изабрана су %d кључа"
+msgstr[2] "Изабрано је %d кључева"
+msgstr[3] "Изабран је %d кључ"
+
+#: ../src/bastile-key-manager.c:404 ../src/bastile-key-manager.c:464
+#: ../src/bastile-key-manager.c:527 ../src/bastile-viewer.c:484
+msgid "Couldn't import keys"
+msgstr "Не могу да увезем кључеве"
+
+# bug: plural-forms
+#: ../src/bastile-key-manager.c:409 ../src/bastile-viewer.c:489
+msgid "Imported keys"
+msgstr "Увезени кључеви"
+
+#: ../src/bastile-key-manager.c:458
+msgid "Importing keys"
+msgstr "Увожење кључева"
+
+#: ../src/bastile-key-manager.c:481 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Увези кључ"
+
+#: ../src/bastile-key-manager.c:527
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Непрепознат тип кључа, или неважећи формат података"
+
+#: ../src/bastile-key-manager.c:725 ../src/bastile-keyserver-results.c:207
+msgid "_Remote"
+msgstr "_Даљински"
+
+#: ../src/bastile-key-manager.c:727
+msgid "Close this program"
+msgstr "Затвори овај програм"
+
+#: ../src/bastile-key-manager.c:728
+msgid "_New..."
+msgstr "_Нови..."
+
+#: ../src/bastile-key-manager.c:729
+msgid "Create a new key or item"
+msgstr "Креирај нови кључ или ставку"
+
+#: ../src/bastile-key-manager.c:730
+msgid "_Import..."
+msgstr "_Увези..."
+
+#: ../src/bastile-key-manager.c:731
+msgid "Import from a file"
+msgstr "Увези из датотеке"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Import from the clipboard"
+msgstr "Увези кључеве из оставе"
+
+#: ../src/bastile-key-manager.c:738 ../src/bastile-keyserver-results.c:217
+msgid "_Find Remote Keys..."
+msgstr "_Пронађи удаљене кључеве..."
+
+#: ../src/bastile-key-manager.c:739 ../src/bastile-keyserver-results.c:218
+msgid "Search for keys on a key server"
+msgstr "Претражи кључеве на серверу кључева"
+
+#: ../src/bastile-key-manager.c:740
+msgid "_Sync and Publish Keys..."
+msgstr "_Синхронизуј и објави кључеве..."
+
+#: ../src/bastile-key-manager.c:741
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Објави и/или синхронизујте ваше кључеве са онима на мрежи."
+
+#: ../src/bastile-key-manager.c:746
+msgid "T_ypes"
+msgstr "Т_ипови"
+
+#: ../src/bastile-key-manager.c:746
+msgid "Show type column"
+msgstr "Прикажи колону типа"
+
+#: ../src/bastile-key-manager.c:748
+msgid "_Expiry"
+msgstr "Р_окови"
+
+#: ../src/bastile-key-manager.c:748
+msgid "Show expiry column"
+msgstr "Прикажи колону рокова"
+
+#: ../src/bastile-key-manager.c:750
+msgid "_Trust"
+msgstr "П_оверење"
+
+#: ../src/bastile-key-manager.c:750
+msgid "Show owner trust column"
+msgstr "Прикажи колону поверење власника"
+
+#: ../src/bastile-key-manager.c:752
+msgid "_Validity"
+msgstr "Испра_вност"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show validity column"
+msgstr "Прикажи колону валидности"
+
+#: ../src/bastile-key-manager.c:926
+msgid "Filter:"
+msgstr "Филтер:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Опције првог пута:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Самостално направите нови кључ:"
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Увезите постојеће кључеве из датотеке:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "Моји _лични кључеви"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Остали _кључеви"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "Да бисте започели са шифровањем биће вам потребни кључеви."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:548
+msgid "_Import"
+msgstr "_Увези"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_Лозинке"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:282
+msgid "Couldn't export keys"
+msgstr "Не могу да извезем кључеве"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Исправност"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Датум истека"
+
+#: ../src/bastile-keyserver-results.c:209
+msgid "Close this window"
+msgstr "Затвори овај прозор"
+
+#: ../src/bastile-keyserver-results.c:210
+msgid "_Expand All"
+msgstr "_Разгранај све"
+
+#: ../src/bastile-keyserver-results.c:211
+msgid "Expand all listings"
+msgstr "Разгранај сав испис"
+
+#: ../src/bastile-keyserver-results.c:212
+msgid "_Collapse All"
+msgstr "_Сажми све"
+
+#: ../src/bastile-keyserver-results.c:213
+msgid "Collapse all listings"
+msgstr "Сажми сав испис"
+
+#: ../src/bastile-keyserver-results.c:275
+msgid "Remote Keys"
+msgstr "Удаљени кључеви"
+
+#: ../src/bastile-keyserver-results.c:277
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Удаљени кључеви који садрже '%s'"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Сервери кључева:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "</b>Дељени кључеви близу мене:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Пронађи удаљене кључеве"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"Ова опција проналази кључеве за друге на Интернету. Ови кључеве можете да "
+"увезете у ваш привезак."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Где Тражити:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_Претражи"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_Тражи кључеве који садрже:"
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Не могу да објавим кључеве на сервер"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Не могу да преузмем кључеве са сервера: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d кључ је изабран за синхорнизацију</b>"
+msgstr[1] "<b>%d кључева је изабрано за синхронизацију</b>"
+msgstr[2] "<b>%d кључева је изабрано за синхронизацију</b>"
+msgstr[3] "<b>%d кључ је изабран за синхорнизацију</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Синхронизовање кључева"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Синхронизовање кључева..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Синхронизуј кључеве"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"Ова опција ће објавити кључеве у ваш привезак, тако да они буду доступни "
+"другима на коришћење. Такође, појавиће вам се промене које су направили "
+"други од времена када сте примили њихове кључеве."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"Ова опција ће преузети све промене које су направили други од како сте "
+"примили њихове кључеве. Ниједен сервер кључева није изабран за објављивање, "
+"тако да ваши кључеви неће бити доступни другима."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "Сервери _кључева"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Синхронизуј"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Издање програма"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:170
+msgid "Encryption Key Manager"
+msgstr "Уредник кључева за шифровање"
+
+#: ../src/bastile-viewer.c:141
+msgid "Contributions:"
+msgstr "Доприноси:"
+
+#: ../src/bastile-viewer.c:172
+msgid "translator-credits"
+msgstr ""
+"Данило Шеган <danilo@mate.org>\n"
+"Горан Ракић <grakic@devbase.net>\n"
+"Душан Живојнов <calvin@verat.net>\n"
+"Бранко Кокановић <branko.kokanovic@gmail.com>\n"
+"\n"
+"Превод.орг — превод на српски језик."
+
+#: ../src/bastile-viewer.c:175
+msgid "Bastile Project Homepage"
+msgstr "Страница пројекта Bastile"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:194
+msgid "_File"
+msgstr "_Датотека"
+
+#: ../src/bastile-viewer.c:195
+msgid "_Edit"
+msgstr "_Уреди"
+
+#: ../src/bastile-viewer.c:196
+msgid "_View"
+msgstr "_Поглед"
+
+#: ../src/bastile-viewer.c:197
+msgid "_Help"
+msgstr "_Помоћ"
+
+#: ../src/bastile-viewer.c:199
+msgid "Prefere_nces"
+msgstr "Подеша_вања"
+
+#: ../src/bastile-viewer.c:200
+msgid "Change preferences for this program"
+msgstr "Промени подешавања за овај програм"
+
+#: ../src/bastile-viewer.c:203
+msgid "About this program"
+msgstr "О овмо програму"
+
+#: ../src/bastile-viewer.c:204
+msgid "_Contents"
+msgstr "_Садржај"
+
+#: ../src/bastile-viewer.c:205
+msgid "Show Bastile help"
+msgstr "Прикажи помоћ за Морског коња"
+
+#: ../src/bastile-viewer.c:302
+msgid "Export public key"
+msgstr "Извези јавни кључ"
+
+#: ../src/bastile-viewer.c:322
+msgid "Exporting keys"
+msgstr "Извожење кључева"
+
+#: ../src/bastile-viewer.c:347
+msgid "Couldn't retrieve data from key server"
+msgstr "не могу да преузмем податке са сервера кључева"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:366
+msgid "Copied keys"
+msgstr "Ископирани кључеви"
+
+#: ../src/bastile-viewer.c:386
+msgid "Retrieving keys"
+msgstr "преузимање кључева"
+
+#: ../src/bastile-viewer.c:401
+msgid "Couldn't delete."
+msgstr "Не могу да обришем."
+
+#: ../src/bastile-viewer.c:435
+msgid "Deleting..."
+msgstr "Бришем..."
+
+#: ../src/bastile-viewer.c:461
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s је приватни кључ. Да ли желите да наставите?"
+
+#: ../src/bastile-viewer.c:509
+msgid "Importing keys from key servers"
+msgstr "Увожење кључева са сервера кључева"
+
+#: ../src/bastile-viewer.c:535
+msgid "Show properties"
+msgstr "Прикажи особине"
+
+#: ../src/bastile-viewer.c:536
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_Обриши"
+
+#: ../src/bastile-viewer.c:537
+msgid "Delete selected items"
+msgstr "Обриши изабране ставке"
+
+#: ../src/bastile-viewer.c:541
+msgid "E_xport..."
+msgstr "_Извези..."
+
+#: ../src/bastile-viewer.c:542
+msgid "Export to a file"
+msgstr "Извези у датотеку"
+
+#: ../src/bastile-viewer.c:544
+msgid "Copy to the clipboard"
+msgstr "Копирај у оставу"
+
+#: ../src/bastile-viewer.c:549
+msgid "Import selected keys to local key ring"
+msgstr "Ставља изабране кључеве на локални привезак"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Унесите вашу лозинку за осигурано командно окружење"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Подеси кључеве осигураног _командног окружења..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"Пошаљи јавни кључ осигураног командног окружења на другу машину, и омогући "
+"пријављивања коришћењем тог кључа."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr ""
+"Да ли сигурно желите трајно да избришете кључ осигураног командног окружења "
+"’%s'?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr ""
+"Да ли сигурно желите трајно да избришете  %d кључева осигураног командног "
+"окружења?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "Кључ осигураног командног окружења"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Користи се за приступ другим рачунарима (нпр: преко терминала)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Не могу да направим кључ осигураног командног окружења"
+
+#: ../ssh/bastile-ssh-generate.c:205
+msgid "Creating Secure Shell Key"
+msgstr "Креирање кључа осигураног окружења"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>Користите адресу ваше е-поште и било који други потсетник који вам треба "
+"за назнаку чему служи овај кључ.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"Кључ осигураног командног окружења (SSH) вам омогућава да се обезбеђено "
+"повежете на поверљиве рачунаре који користе (SSH), без уношења различите "
+"шифре за сваки од њих."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"Ако већ постоји рачунар на коме желите да искористите овај кључ, можете сада "
+"тај рачунар подесити да препознаје ваш кључ."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Нови кључ осигураног командног окружења"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_Направи и подеси"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Само направи кључ"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "Опис _кључа:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Нечитак кључ осигураног командног окружења)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Неважеће"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Кључ приватног осигураног командног окружења"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Кључ јавног осигураног командног окружења"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Не могу да преименујем кључ."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Не могу да променим овлашћење за овај кључ."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Не могу да променим лозинку за кључ."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Алгоритам:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Идентификатор:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Локација:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Јачина:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Поверење</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Ово једино важи за '%s'</i> налог."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "И_звези комплетан кључ"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "Власник овог кључа је _ауторизован да се повеже на овај рачунар"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Користи се за повезивање на друге рачунаре."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH команда је неочекивано прекинута"
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "SSH команда није успела да се изврши"
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "Кључ осигураног командног окружења"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Лозинка:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Лозинка удаљеног рачунара"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Стара лозинка кључа"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Унесите стару лозинку за: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Нова лозинка кључа"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Унесите нову лозинку за: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Унесите пропусну фразу кључа"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Лозинка за нови кључ осигураног командног окружења"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Унесите лозинку за ваш нови кључ осигураног командног окружења."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Увожење кључа: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Увожење кључа.Унесите пропусну фразу"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Ниједан приватни кључ није доступан за овај кључ."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr ""
+"Не могу да подесим кључеве осигураног командног окружења на удаљеном "
+"рачунару."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Подешавам кључеве осигураног командног окружења..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>нпр.: fileserver.example.com:порт</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Подесите рачунар за SSH везу"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"Да бисте користили кључ осигураног командног окружења на другом рачунару "
+"који користи SSH, морате на њему унапред имати пријавни налог."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "Име _рачунара:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_Пријавно име:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "Поде_шавње"
+
+#~ msgid "Bastile Daemon"
+#~ msgstr "Услужни програм Морског коњића"
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>X кључева је изабрано за синхронизацију</b>"
+
+#~ msgid ""
+#~ "One or more of the deleted keys are private keys. Are you sure you want "
+#~ "to proceed?"
+#~ msgstr ""
+#~ "Један или више избрисаних кључева су приватни. Да ли желите да наставите?"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"

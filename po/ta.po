@@ -1,0 +1,3092 @@
+# translation of ta.po to Tamil
+# translation of bastile.HEAD.ta.po to
+# translation of ta.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009, 2010.
+# I felix <ifelix@redhat.com>, 2007.
+# I. Felix <ifelix@redhat.com>, 2008, 2009.
+# Dr.T.vasudevan <agnihot3@gmail.com>, 2009.
+# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: ta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-01 20:45+0530\n"
+"PO-Revision-Date: 2011-04-01 20:50+0530\n"
+"Last-Translator: \n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "சீஹார்ஸ் கிங்கரனை கிங்கரனாக இயக்காதே"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "செயல்பாடை கிளைக்க முடியவில்லை"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "புதிய செயல்பாட்டு குழுவை உருவாக்க முடியவில்லை"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "மறையாக்க கிங்கரன் (சீஹார்ஸ்)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "செல்லுபடியாகாத அல்லது அடையாளம் தெரியாத விசை வகை: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "இந்த விசை வகைக்கு ஆதரவு இல்லை: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "இந்த செயலுக்கு ஆதரவு கட்டுமானம் ஆகும்போது செயலாக்கப்படவில்லை."
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "செல்லுபடியாகாத அல்லது அடையாளம் தெரியாத விசை: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "கையெழுத்திட்டவர் <i><key id='%s'/> <b>காலாவதியாகி விட்டது</b></i> %s அன்று"
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "செல்லுபடியாகாத கையெழுத்து"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "கையெழுத்திட்டவர் <i><key id='%s'/></i> %s அன்று<b>காலாவதியாகி விட்டது</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "காலாவதியான கையெழுத்து"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "கையெழுத்திட்டவர் <i><key id='%s'/> <b>இரத்து செய்யப்பட்டது</b></i> %s அன்று"
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "இரத்து செய்த கையெழுத்து."
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "கையெழுத்திட்டவர் <i><key id='%s'/></i> %s அன்று"
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "நல்ல கையெழுத்து"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "கையெழுத்திடும் விசை, விசை வளையத்தில் இல்லை."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "தெரியாத கையெழுத்து"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "கெட்ட அல்லது மோசடி கையெழுத்து. கையெழுத்திட்ட தரவு மாறி உள்ளது."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "கெட்ட கையெழுத்து."
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "கையெழுத்தை சரி பார்க்க முடியவில்லை."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "செல்லுபடியாகாத அல்லது அடையாளம் தெரியாத கையொப்பம் இட்டவர்: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "கையொப்பமிட விசை செல்லுபடியாகாது: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "செல்லுபடியாகாத அல்லது அடையாளம் தெரியாத பெறுனர்: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "விசை மறையாக்கத்துக்கு செல்லுபடியாகாத பெறுனர்: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "பெறுனர் குறிப்பிடப்படவில்லை"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "மறைநீக்கத்துக்கு செல்லுபடியாகாத விசை:%s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "தயவு செய்து க்ளியர்யூஆர்ஐ ஐ அமைக்கவும்"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "தயவு செய்து க்ரிப்ட்யூஆர்ஐ ஐ அமைக்கவும்"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "க்ளியர்யூஆர்ஐ ஐ திறக்கும் போது பிழை"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "கையொப்பம் இட்டவர் குறிப்பிடப்படவில்லை"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "உறுதிப்படுத்த செல்லுபடியாகாத விசை:%s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "செல்லுபடியாகாத விசை அடையாளம்:%s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"தொலை பிஜிபி விசைகளுக்கு தேட ஒரு விசை சேவையக பட்டியல். பின்னைய பதிப்புகளில் ஒரு "
+"வெற்று இடத்துக்கு பின் பெயரை சேர்த்து காட்டும் பெயர் ஒன்று சேர்க்கலாம்."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "தானியங்கியாக விசைகளை மீட்டுவரவும்."
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "தானியங்கியாக விசைகளை ஒத்திசைக்கவும்."
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "விசை மேலாளர்க்கு காலாவதியாகிறது பத்திக்கான காட்சியை கட்டுப்படுத்துகிறது."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "விசை மேலாளர்க்கு நம்புங்கள் பத்திக்கான காட்சியை கட்டுப்படுத்துகிறது."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "விசை மேலாளர்க்கு வகை பத்திக்கான காட்சியை கட்டுப்படுத்துகிறது."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "விசை மேலாளர்க்கு செல்லுபடி பத்திக்கான காட்சியை கட்டுப்படுத்துகிறது."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "டிஎன்எஸ்-எஸ்டி பகிர்தலை இயலுமைப்படுத்து."
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"டிஎன்எஸ்-எஸ்டி (ஆப்பிள்-போன்சூர்) விசை பகிர்தலை இயலுமைப்படுத்துகிறது. இத்ற்கு சீஹார்ஸ் "
+"கிங்கரன் இயங்க வேண்டும். மேலும் அது ஹெச்கேபி, டிஎன்எஸ்-எஸ்டி ஆதரவுடன் உருவாக்கப்பட்டு "
+"இருக்க வேண்டும்."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "முன்னிருப்பு விசையின் அடையாளம்."
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"உண்மை என அமைத்தால் சீஹார்ஸ் ஆல் மறையாக்கம் செய்த கோப்புகள் ஆஸ்கி கவச மறையாக்கம் செய்யப்படும்."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"உண்மை என அமைத்தால் முன்னிருப்பு விசை எப்போதும் மறையாக்க பெறுனர் பட்டியலுக்கு சேர்க்கப்படும்."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "கடைசி விசை சேவையக தேடல் பாணி"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "பயன்படுத்திய கடைசி விசை சேவையகங்கள்"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "செய்தியை கையெழுத்திட பயன்படுத்திய கடைசி விசை"
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "பிஜிபி விசை சேவையகங்கள்."
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "இந்த விசை சேவையகத்துக்கு விசைகளை வெளியிடுக."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "விசை வளைய மேலாளரில் காலாவதி பத்தியை காட்டுக."
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "விசை வளைய மேலாளரில் நம்புக பத்தியை காட்டுக."
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "விசை வளைய மேலாளரில் வகை பத்தியை காட்டுக."
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "விசை வளைய மேலாளரில் செல்லுபடி பத்தியை காட்டுக."
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"பெறுனர் சாளரங்களை அடுக்க பத்தியை குறிப்பிடுக. பத்திகளாவன: 'பெயர்', அடையாளம். தலைகீழ் "
+"வரிசையில் அடுக்க பத்தியின் பெயர் முன் '-' ஐ இடவும்."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"சீஹார்ஸ் விசை மேலாளர் முதன்மை சாளரங்களை அடுக்க பத்தியை குறிப்பிடுக. பத்திகளாவன: "
+"'பெயர்', 'அடையாளம்', 'செல்லுபடி', காலாவதி', 'நம்புக', 'வகை'. தலைகீழ் வரிசையில் "
+"அடுக்க பத்தியின் பெயர் முன் '-' ஐ இடவும்."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "செய்திக்கு கையொப்பமிட கடைசியாக பயன்படுத்திய ரகசிய விசையின் அடையாளம்."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "பெறுனர்களை அடுக்க பத்தி"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "சீஹார்ஸ் விசைகளை அடுக்க பத்தி"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr "பிஜிபி விசைகளை வெளியிட விசை சேவையகம். அல்லது அவற்றை வெளியிடுவதை தடுக்க வெற்று."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr "கடைசியாக விசையை தேடிய சேவையகம் அல்லது எல்லா விசை சேவையகங்களுக்கு வெற்று."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "விசை சேவயகத்தில் கடைசியாக தேடலுக்கு பயன்பட்ட தோரணி "
+
+#: ../data/bastile.schemas.in.h:30
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "சில செயல்பாடுகளுக்கு பிரதானமாக கையொப்பமிட இது முன்னிருப்பு விசிஅயை குறிக்கிறது."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "விசைகள் விசை சேவையகத்திலிருந்து தானியங்கியாக பெறப்பட வேண்டுமா, இல்லையா."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"மாற்றப்பட்ட  விசைகள் முன்னிருப்பு விசை சேவையகத்திலிருந்து தானியங்கியாக ஒருங்கிசைக்கப் பட "
+"வேண்டுமா, இல்லையா."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "முன்னிருப்பு விசையை எப்போதும் மறையாக்கம் செய்ய வேண்டுமா"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "ஆஸ்கி கவசத்தை பயன்படுத்த வேண்டுமா?"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "கடவுச்சொல்லை விசை வளையத்தில் சேர்"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "புதிய விசை வளையத்தின் பெயர்:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"புதிய விசைவளையத்துக்கு ஒரு பெயர் தேர்ந்தெடுங்கள். ஒரு பூட்டு திறக்கும் கடவுச்சொல்லுக்கு "
+"தூண்டப்படுவீர்கள்."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "அந்த சேவையகத்தின் பெயர் அல்லது முகவரி"
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "விசைவளையத்தை சேர்க்க முடியவில்லை"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "கடவுச்சொல் சேர்"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_D விளக்கம்:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_K விசை வளையம்"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_P கடவுச்சொல்:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "_S கடவுச்சொல்லை காட்டு"
+
+#: ../gkr/bastile-gkr-item.c:473
+msgid "Web Password"
+msgstr "வலை கடவுச்சொல்"
+
+#: ../gkr/bastile-gkr-item.c:475
+msgid "Network Password"
+msgstr "பிணைய கடவுச்சொல்"
+
+#: ../gkr/bastile-gkr-item.c:477 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "கடவுச்சொல்"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "கடவுச்சொல் '%s' ஐ நிச்சயம் நிரந்தரமாக அழிக்க வேண்டுமா?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] " %d  கடவுச்சொல் ஐ நிச்சயம் நீக்க வேண்டுமா?"
+msgstr[1] " %d  கடவுச்சொற்களை நிச்சயம் நீக்க வேண்டுமா?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "ஒரு வளம் அல்லது வலையமைப்பு பகிர்வை அணுகுக"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "ஒரு இணையத்தை அணுகுக"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "ஒரு பிஜிபி விசையை திறக்கிறது"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "ஒரு பத்திரமான ஷெல்விசையை திறக்கிறது"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "சேமித்த கடவுச்சொல் அல்லது உள்நுழைவு"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "பிணைய சான்று பத்திரங்கள்"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "கடவுச்சொல்லை மாற்ற முடியவில்லை"
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "விவரணத்தை அமைக்க முடியவில்லை"
+
+#: ../gkr/bastile-gkr-item-properties.c:656
+msgid "Couldn't set application access."
+msgstr "பயன்பாட்டு அணுகலை அமைக்க முடியவில்லை"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>கடவுச்சொல்:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>தடம்:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>அனுமதிகள்</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>தொழிநுட்ப விவரங்கள்:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "பயன்பாடுகள்"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "விவரங்கள்"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "விசை"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "விசை பண்புகள்"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "உள் நுழைவு:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "சேவையகம்:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "_கடவுச்சொல்லை காட்டு"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "வகை:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "பயன்படுத்து:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "_D அழி"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "படி (_R)"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "(_W)எழுது"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "கடவுச்சொற்களை பட்டியலிடுதல்"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "கடவுச்சொல்: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>கடவுச்சொல்:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "கடவுச்சொல் விசை வளையம் "
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "பயன்பாடு மற்றும் வலைப்பின்னல் கடவுச்சொற்களை சேமிக்க பயன்படுகிறது "
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "சேமித்த கடவுச்சொல்"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "பாதுகாப்பாக ஒரு கடவுச்சொல் அல்லது ரகசியத்தை சேமி"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "விசைவளையத்தை திறக்க முடியவில்லை"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "விசைவளையத்தை பூட்ட முடியவில்லை"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "முன்னிருப்பு விசை வளையத்தை அமைக்க முடியவில்லை"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "விசைவளைய கடவுச்சொல்லை மாற்ற முடியவில்லை"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "(_L) பூட்டு"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr "திறக்க கடவுச்சொல் அவசியமாகும்படி கடவுச்சொல் சேமிப்பு விசைவளையத்தை பூட்டுக. "
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "பூட்டு நீக்கு (_U)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr "கடவுச்சொல் சேமிப்பு விசைவளையத்தை பயன்படுத்த முதன்மை கடவுச்சொல்லால் திறக்கவும்."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "(_S) முன்னிருப்பாக அமை"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "வழக்கமாக பயன்பாடுகள் புதிய கடவுச்சொற்களை முன்னிருப்பு விசைவளையத்தில் சேமித்து வைக்கும்"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "(_P) கடவுச்சொல் ஐ மாற்றுக"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "கடவுச்சொல் சேமிப்பு விசைவளையத்தை திறக்கும் கடவுச்சொல் ஐ மாற்று "
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "கடவுச்சொல் விசைவளையம் '%s' ஐ நிச்சயம் நீக்க வேண்டுமா?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "உருவாக்கப்பட்டது:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "விசை வளையம்"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "விசை வளையம் பண்புகள்"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "(_N) பெயர்:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "விசை வளையத்துக்கு அணுக்கம் மறுக்கப்பட்டது"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "க்னோம்-விசை வளைய கிங்கரன் இயங்கவில்லை"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "விசைவளையம் ஏற்கெனவே திறக்கப்பட்டது"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "அப்படிப்பட்ட விசை வளையம் ஏதும் இல்லை"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "விசை வளைய கிங்கரன் உடன் தொடர்பு கொள்ள முடியவில்லை"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "இந்த உருப்படி ஏற்கெனவே உள்ளது"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "க்னோம் விசைவளையத்தை அணுகுவதில் உள்சார்ந்த பிழை"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "உருப்படியை சேமித்தல்..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "உருப்படியை அழிக்கிறது..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "விசை வளையத்தை அழிக்கிறது..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "விசை வளையம் கடவுச்சொற்களை பட்டியலிடுதல் "
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"நீங்கள் கேட்ட செயலை செய்ய மறையாக்க விசைகள் இல்லை.  <b> கடவுச் சொற்கள் மற்றும் மறையாக்கம்</"
+"b> நிரல் இப்போது துவக்கப் பட வேண்டும். இதனால் விசை உருவாக்கப்படும் அல்லது இறக்குமதி ஆகும்."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "எல்லா விசைகளும்"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "தேர்ந்தெடுத்த பெறுனர்கள்"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "தேடல் விடைகள்"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "_f இதற்குத் தேடு:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "ஏதுமில்லை (கையெழுத்திடாதே)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "செய்தியை %s என கையொப்பமிடுக:"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "_S செய்தியை இப்படி கையொப்பமிடுக:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "பெயர்"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "விசை அடையாளம்"
+
+#: ../libegg/egg-datetime.c:327
+msgid "Display flags"
+msgstr "குறிகளை காட்டு"
+
+#: ../libegg/egg-datetime.c:328
+msgid "Displayed date and/or time properties"
+msgstr "தேதி மற்றும் நேரம் பண்புகள் காட்டப்பட்டது"
+
+#: ../libegg/egg-datetime.c:333
+msgid "Lazy mode"
+msgstr "சோம்பேறி பாங்கு"
+
+#: ../libegg/egg-datetime.c:334
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "சோம்பேறி பாங்கு உள்ளிட்ட தேதி நேரங்களை சரி செய்யாது"
+
+#: ../libegg/egg-datetime.c:339
+msgid "Year"
+msgstr "வருடம்"
+
+#: ../libegg/egg-datetime.c:340
+msgid "Displayed year"
+msgstr "காட்டப்பட்ட வருடம்"
+
+#: ../libegg/egg-datetime.c:345
+msgid "Month"
+msgstr "மாதம்"
+
+#: ../libegg/egg-datetime.c:346
+msgid "Displayed month"
+msgstr "காட்டப்பட்ட மாதம்"
+
+#: ../libegg/egg-datetime.c:351
+msgid "Day"
+msgstr "நாள்"
+
+#: ../libegg/egg-datetime.c:352
+msgid "Displayed day of month"
+msgstr "காட்டப்பட்ட மாதத்தில் நாாள்"
+
+#: ../libegg/egg-datetime.c:357
+msgid "Hour"
+msgstr "மணி"
+
+#: ../libegg/egg-datetime.c:358
+msgid "Displayed hour"
+msgstr "காட்டப்பட்ட மணி"
+
+#: ../libegg/egg-datetime.c:363
+msgid "Minute"
+msgstr "நிமிடம்"
+
+#: ../libegg/egg-datetime.c:364
+msgid "Displayed minute"
+msgstr "காட்டப்பட்டு நிமிடம்"
+
+#: ../libegg/egg-datetime.c:369
+msgid "Second"
+msgstr "நொடி"
+
+#: ../libegg/egg-datetime.c:370
+msgid "Displayed second"
+msgstr "காட்டப்பட்டது நொடி"
+
+#: ../libegg/egg-datetime.c:375
+msgid "Lower limit year"
+msgstr "வருடத்தின் குறைந்த வரையரை"
+
+#: ../libegg/egg-datetime.c:376
+msgid "Year part of the lower date limit"
+msgstr "தேதி குறைந்த வரையரையில் ஆண்டின் பகுதி"
+
+#: ../libegg/egg-datetime.c:381
+msgid "Upper limit year"
+msgstr "வருடத்தின் மேல் வரையரை"
+
+#: ../libegg/egg-datetime.c:382
+msgid "Year part of the upper date limit"
+msgstr "தேதி மேல் வரையரையில் ஆண்டின் பகுதி"
+
+#: ../libegg/egg-datetime.c:387
+msgid "Lower limit month"
+msgstr "மாதத்தின் குறைந்த வரையரை"
+
+#: ../libegg/egg-datetime.c:388
+msgid "Month part of the lower date limit"
+msgstr "தேதி குறைந்த வரையரையில் மாதத்தின் பகுதி"
+
+#: ../libegg/egg-datetime.c:393
+msgid "Upper limit month"
+msgstr "மேல்மாதத்தின் மேல் வரையரை"
+
+#: ../libegg/egg-datetime.c:394
+msgid "Month part of the upper date limit"
+msgstr "தேதி மேல் வரையரையில் மாதத்தின் பகுதி"
+
+#: ../libegg/egg-datetime.c:399
+msgid "Lower limit day"
+msgstr "நாளின் குறைந்த வரையரை"
+
+#: ../libegg/egg-datetime.c:400
+msgid "Day of month part of the lower date limit"
+msgstr "தேதி கீழ் வரையரையில் மாதத்தின் நாளின் பகுதி"
+
+#: ../libegg/egg-datetime.c:405
+msgid "Upper limit day"
+msgstr "நாளின் மேல் வரையரை"
+
+#: ../libegg/egg-datetime.c:406
+msgid "Day of month part of the upper date limit"
+msgstr "தேதி மேல் வரையரையில் மாதத்தின் நாளின் பகுதி"
+
+#: ../libegg/egg-datetime.c:411
+msgid "Lower limit hour"
+msgstr "குறைந்த மணி வரையரை"
+
+#: ../libegg/egg-datetime.c:412
+msgid "Hour part of the lower time limit"
+msgstr "நேரத்தின் குறைந்த வரையரையில் மணியின் பகுதி"
+
+#: ../libegg/egg-datetime.c:417
+msgid "Upper limit hour"
+msgstr "நாளின் மேல் வரையரை"
+
+#: ../libegg/egg-datetime.c:418
+msgid "Hour part of the upper time limit"
+msgstr "நேரத்தின் அதிக வரையரையில் மணியின் பகுதி"
+
+#: ../libegg/egg-datetime.c:423
+msgid "Lower limit minute"
+msgstr "குறைந்த நிமிட வரையரை"
+
+#: ../libegg/egg-datetime.c:424
+msgid "Minute part of the lower time limit"
+msgstr "நேரத்தின் குறைந்த வரையரையில் நிமிடத்தின் பகுதி"
+
+#: ../libegg/egg-datetime.c:429
+msgid "Upper limit minute"
+msgstr "மேல் வரையரை நிமிடம்"
+
+#: ../libegg/egg-datetime.c:430
+msgid "Minute part of the upper time limit"
+msgstr "நேரத்தின் மேல் வரையரையில் நிமிடத்தின் பகுதி"
+
+#: ../libegg/egg-datetime.c:435
+msgid "Lower limit second"
+msgstr "குறைந்த வரையரை வினாடி"
+
+#: ../libegg/egg-datetime.c:436
+msgid "Second part of the lower time limit"
+msgstr "நேரத்தின் குறைந்த வரையரையில் வினாடியின் பகுதி"
+
+#: ../libegg/egg-datetime.c:441
+msgid "Upper limit second"
+msgstr "மேல் வரையரை வினாடி"
+
+#: ../libegg/egg-datetime.c:442
+msgid "Second part of the upper time limit"
+msgstr "நேரத்தின் மேல் வரையரையில் வினாடியின் பகுதி"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:484
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:506
+msgid "Date"
+msgstr "தேதி"
+
+#: ../libegg/egg-datetime.c:506
+msgid "Enter the date directly"
+msgstr "தேதியை நேரடியாக உள்ளிடு"
+
+#: ../libegg/egg-datetime.c:513
+msgid "Select Date"
+msgstr "தேதியை தேர்ந்தெடு"
+
+#: ../libegg/egg-datetime.c:513
+msgid "Select the date from a calendar"
+msgstr "தேதியை ஒரு நாள்காட்டியிலிருந்து தேர்ந்தெடு"
+
+#: ../libegg/egg-datetime.c:531 ../libegg/egg-datetime.c:2215
+msgid "Time"
+msgstr "நேரம்"
+
+#: ../libegg/egg-datetime.c:531
+msgid "Enter the time directly"
+msgstr "நேரத்தை நேரடியாக உள்ளிடு"
+
+#: ../libegg/egg-datetime.c:538
+msgid "Select Time"
+msgstr "நேரத்தை தேர்ந்தெடு"
+
+#: ../libegg/egg-datetime.c:538
+msgid "Select the time from a list"
+msgstr "நேரத்தை ஒரு பட்டியலில் இருந்து தேர்ந்தெடு"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:812
+msgid "24hr: no"
+msgstr "24hr: இல்லை"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1276
+#: ../libegg/egg-datetime.c:1280
+msgid "AM"
+msgstr "முற்பகல்"
+
+#: ../libegg/egg-datetime.c:818 ../libegg/egg-datetime.c:1277
+#: ../libegg/egg-datetime.c:1284
+msgid "PM"
+msgstr "பிற்பகல்"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:826
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:829
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:833
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:836
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1192
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1257
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "கோப்பு செல்லுபடியாகும்  .desktop கோப்பு அல்ல"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "அடையாளம் காண இயலா மேல்மேசை கோப்பு பதிப்பு '%s'"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "%s ஐ துவக்குகிறது"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "பயன்பாடு கட்டளை வரியில் ஆவணங்களை ஒப்புக்கொள்ளாது"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "இனம் காணாத துவக்க தேர்வு: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "'Type=Link' மேல்மேசை உள்ளீடுக்கு ஆவண யூஆர்ஐ ஐ கொடுக்க இயலாது"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "துவக்க முடியாத உருப்படி"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "அமர்வு மேலாளருக்கு இணைப்பை செயல் நீக்கு"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "சேமித்த வடிவமைப்பு கூடிய கோப்பை குறிப்பிடுக"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "அமர்வு மேலாண்மை அடையாளத்தை குறிப்பிடுக"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "அடையாளம்"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "அமர்வு மேலாண்மை தேர்வுகள்:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "அமர்வு மேலாண்மை தேர்வுகளை காட்டு"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "விசை சேவையகத்தை சேர்"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "புரவன்:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "விசை சேவையகம் வகை:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "சேவயகத்தை அணுக துறை."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "ஆரம்ப தற்காலிக உருப்படி"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "விசை இறக்குமதி செய்யப்பட்டது"
+msgstr[1] "விசைகள் இறக்குமதி செய்யப்பட்டன"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "%i விசை இறக்குமதி செய்யப்பட்டது"
+msgstr[1] "%i விசைகள் இறக்குமதி செய்யப்பட்டன"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "இதற்கு ஒரு விசை இறக்குமதி செய்யப்பட்டது"
+msgstr[1] "இதற்கு விசைகள் இறக்குமதி செய்யப்பட்டன"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "அறிவிப்பு செய்திகள்"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "சமச்சீர் விசை"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "பொது விசை"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "அந்தரங்க விசை"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "பிணைய சான்று பத்திரங்கள்"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "அடையாளம்"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "கடவுச்சொற்றொடர்"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "கடவுச்சொல்:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "உறுதியாக்கம்:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "செல்லுபடியாகும் சேவையக முகவரி அல்ல"
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr "உதவிக்கு உங்கள் கணினி மேலாளர் அல்லது விசை சேவையக மேலாளர் ஐ அணுகவும்."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "யூஆர்எல்(URL)"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "தனிப்பயன்"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "ஏதுமில்லை: விசைகளை வெளியிட வேண்டாம்"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "தானியங்கியாக  விசை சேவையகங்களில் இருந்து விசைகளை மீட்டெடுக்கவும்."
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "தானியங்கியாக  விசை சேவையகங்கள் உடன் விசைகளை ஒத்திசைக்கவும்."
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "விசை சேவையகங்கள்"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "விருப்பங்கள்"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "_F விசைகளை இதன்வழி தேடு:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "_P விசைகளை இதற்கு வெளியிடு:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "முன்னேற்ற தலைப்பு"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "இருப்பில் இல்லை"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "விசை தரவு"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "பல விசைகள்"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "பைல்ரோலர் ஐ இயக்க முடியவில்லை"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "கோப்புகளை பொதியாக்க முடியவில்லை"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "பைல்ரோலர் செயல் வெற்றிகரமாக முடியவில்லை."
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "எல்லா விசை கோப்புகளும்"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "எல்லா கோப்புகளும்"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "கோப்புகளை காப்பகத்தில் சேர்"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>இந்த பெயருடன் ஒரு கோப்பு இருப்பில் உள்ளது.</b>\n"
+"\n"
+"புதிய கோப்பால் அதை நீக்க வேண்டுமா?"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "_R இட மாற்று"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "தெரியாத"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "ஒரு போதும் இல்லை"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "விளிம்பில்"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "முழு"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "கடைசி"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "இயலுமை நீக்கிய"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "ரத்து செய்யப்பட்டது"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "உதவியைக் காட்ட முடியவில்லை: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "காலாவதி தேதி:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "ஒரு புதிய துணை விசையை உருவாக்குக"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "விசை காலாவதி ஆகாதென்றால்"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "_L விசை நீளம்:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "விசை _T வகை:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "விசையின் நீளம்"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "ஒரு போதும் _x காலாவதி ஆகாது"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "பயனர் அடையாளத்தை சேர்க்கவும்"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "புதிய பயனர் அடையாளத்தை உருவாக்கு"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "_N முழுப் பெயர்:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "_m விசை குறிப்பு:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "எண் எழுத்துக்கள் குறியீடுகள் 5 க்கு மேல் இருக்க வேண்டும்."
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "விசையை விவரிக்க விருப்ப குறிப்பு"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "விருப்ப மின்னஞ்சல் முகவரி"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_ம மின்னஞ்சல் முகவரி:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_h மாற்றுக"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "விசையை இரத்து செய்க"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_N ஒரு போதும் காலாவதி ஆகாது"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "துணை விசையை சேர்க்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "%s க்கு துணை விசையை சேர்க்கவும்"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "டிஎஸ்ஏ(DSA) (கையெழுத்திட மட்டும்)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "எல் காமல் (மறையாக்கம் மட்டும்)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "ஆர்எஸ்ஏ(RSA) (கையெழுத்திட மட்டும்)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "ஆர்எஸ்ஏ(RSA) (மறையாக்கம் மட்டும்)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "பயனர் அடையாளத்தை சேர்க்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "%s க்கு பயனர் அடையாளத்தை சேர்க்கவும்"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "மறைவிலக்கம் தோல்வியுற்றது. அனேகமாக உங்களிடம் மறை நீக்க விசை இல்லை"
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "செல்லுபடியாகாத காலாவதி தேதி"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "காலாவதி தேதி எதிர்காலத்தில் இருக்கவேண்டும்"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "காலாவதி தேதியை மாற்ற முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "காலாவதி: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "பிஜிபி விசை"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "மின்னஞ்சல் மற்றும் கோப்புகளுக்கு மறையாக்கத்தை பயன்படுத்துக"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "ஆர்எஸ்ஏ(RSA)"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "டிஎஸ்ஏ எல்காமல் (DSA Elgamal)"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "பிஜிபி விசையை உருவாக்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "புதிய பிஜிபி விசைக்கு கடவுசொற்றொடர்"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "புதிய பிஜிபி விசைக்கு கடவுசொற்றொடரை ஐ இரு முறை உள்ளிடுக"
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "விசையை உருவாக்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "விசையை உருவாக்குகிறது"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "தவறான கடவுச்சொல்"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr ""
+"தவறான கடவுச்சொல் ஐ நீங்கள் உள்ளீட்ட து இது மூன்றாம் முறை. தயை செய்து மீண்டும் முயற்சிக்கவும்"
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>படம் மிகப்பெரியது</b></big>\n"
+"உங்கள் விசைக்கு பரிந்துரைக்கப்பட்ட அளவு %d x %d படத்துணுக்குகள்."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_D மறு அளவாக்காதே"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "_R அளவு மாற்று"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"இது ஒரு படம் கோப்பு அல்ல, அல்லது இனம் தெரியாத பட கோப்பு. ஜேபெக் படத்தை பயன் படுத்த "
+"முயல்க."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "எல்லாம பட கோப்புகளும்"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "எல்லா ஜேபெக் (JPEG) கோப்புகளும்"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "விசைக்கு கூட்ட படம் தேர்வு செய்க"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "படத்தை சேர்க்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "கோப்பை ஏற்ற முடியவில்லை. அது செல்லாத முறைமையில் இருக்கலாம்."
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "இப்போதைய படத்தை நிச்சயமாக உங்கள் விசையிலிருந்து நீக்க வேண்டுமா?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "படத்தை நீக்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "துணை விசையை நீக்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "இரத்து செய்க: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "காரணம் இல்லை"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "விசையை இரத்து செய்ய காரணம் இல்லை"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "பாதுகாப்பு இழந்தது"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "விசை பாதுகாப்பு இழந்தது"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "வலுவாக அகற்றப்பட்டது"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "விசை வலுவாக அகற்றப்பட்டது"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "பயன்படுத்தப்படவில்லை"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "விசை பயன்பாட்டில் இல்லை"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"நீங்கள் %s ஆல் %s ஐ இரத்து செய்ய முயல்கிறீகள். இதை மீட்க முடியாது. நிச்சயம் செய்ய வேண்டுமா?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "இரத்து செய்வியை சேர்க்க முடியவில்லை"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"இந்த விசை ஏற்கெனெவே இவரால் கையெழுத்திடப்பட்டது\n"
+"\"%s"
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "விசையை கையெழுத்திட முடியவில்லை"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "கையெழுத்திட பயனாகும் விசை ஏதும் இல்லை"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr "இந்த விசையில் உங்கள் நம்பிக்கையை காட்ட உங்களிடம் பிஜிபி விசை ஏதும் இல்லை."
+
+#: ../pgp/bastile-gpgme-source.c:102
+#, c-format
+msgid "Wrong passphrase."
+msgstr "தவறான கடவுச்சொற்றொடர்."
+
+#: ../pgp/bastile-gpgme-source.c:106
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s' க்கு புதிய கடவுச்சொற்றொடரை உள்ளிடவும்."
+
+#: ../pgp/bastile-gpgme-source.c:108
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s' க்கு கடவுச்சொற்றொடரை உள்ளிடவும்."
+
+#: ../pgp/bastile-gpgme-source.c:111
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "புதிய கடவுச்சொற்றொடரை உள்ளிடவும்."
+
+#: ../pgp/bastile-gpgme-source.c:113
+msgid "Enter passphrase"
+msgstr "கடவுச்சொற்றொடரை உள்ளிடவும்."
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:725
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "%d விசை ஏற்றப்பட்டது"
+msgstr[1] "%d விசைகள் ஏற்றப்பட்டன"
+
+#: ../pgp/bastile-gpgme-source.c:780
+msgid "Loading Keys..."
+msgstr "விசைகள் ஏற்றப்படுகிறன"
+
+#: ../pgp/bastile-gpgme-source.c:823
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"செல்லுபடியாகாத விசை தரவு (காணாத யுஐடி கள்) இது தேதி எதிர்காலத்தில் அமைத்த கணினி "
+"அல்லது காணாத சுய கையெழுத்து ஆல் இருக்கலாம்."
+
+#: ../pgp/bastile-gpgme-source.c:913 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "விசைகளை இறக்குமதி செய்கிறது"
+
+#: ../pgp/bastile-gpgme-source.c:949
+msgid "Exporting Keys"
+msgstr "விசைகளை ஏற்றுமதி செய்கிறது"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "எல் காமல்"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "தேடல் குறிப்பாக இல்லை. சேவையகம் '%s'  இல் பல விசைகள் உள்ளன."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "சேவையகம் '%s' உடன் தொடர்பு கொள்ள முடியவில்லை:%s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "விசைகளுக்கு தேடுகிறது..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "விசைகளை மேலேற்றுகிறது..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "விசைகளை மீட்டெடுக்கிறது..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "விசைகளை இங்கு தேடுகிறது: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "%s க்கு இணைக்கிறது"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "HTTP விசை சேவகன்"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "'%s' உடன் தொடர்பு கொள்ள முடியவில்லை: %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "முகவரியை தீர்க்க முடியவில்லை: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "சேவையக முகவரியை தீர்க்கிறது:  %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "' %s' உள்ள விசைகளை தேடுகிறது..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "விசை முகவரி ' %s' ஐ தேடுகிறது..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "தொலை விசைகளை மீட்டெடுக்கிறது..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "விசை சேவையகத்துக்கு விசைகளை அனுப்புகிறது..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "எல்டிஏபி விசை சேவகன்"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "_S விசை கையொப்பமிடுக..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "பொது விசையை கையொப்பமிடுக"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "%s ஐ நிச்சயம் நிரந்தரமாக அழிக்க வேண்டுமா?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "%d விசைகள் மற்றும் அடையாளங்களை நிச்சயம் நிரந்தரமாக அழிக்க வேண்டுமா?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "%d விசைகளைை நிச்சயம் நிரந்தரமாக அழிக்க வேண்டுமா?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "%d அடையாளங்களை நிச்சயம் நிரந்தரமாக அழிக்க வேண்டுமா?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_A உயர்நிலை விசை தேர்வுகள்</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+"ஒரு பிஜிபி விசை நீங்கள் மின்னஞ்சல் அல்லது கோப்புகளை மறையாக்கம் செய்து மற்றவருக்கு அனுப்ப "
+"உதவுகிறது."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "இங்கு படிமுறைகள்"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_r உருவாக்கு"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "_x காலாவதி தேதி:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "_T மறையாக்க வகை:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "ஒரு புதிய விசையை உருவாக்குக"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "விசை _S பலம் (பிட்டுகள்):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "காலாவதி _v இல்லை"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "புதிய பிஜிபி விசை"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_C குறிப்புரை:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "அந்தரங்க பிஜிபி விசை"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "பொது பிஜிபி விசை"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "காலாவதியானது"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "முதன்மை பயனரின்  அடையாளத்தை மாற்ற முடியவில்லை"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "பயனர் அடையாளம் '%s' ஐ நிச்சயம் நிரந்தரமாக அழிக்க வேண்டுமா?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "பயனர் அடையாளத்தை அழிக்க முடியவில்லை"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[தெரியாத]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "பெயர்/மின்னஞ்சல்"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "கையொப்பம் அடையாளம்"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "முதன்மை படத்தை மாற்ற முடியவில்லை"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(தெரியாதது)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "விசை இந்த தேதியில் காலாவதி ஆனது: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "நிச்சயமாக துணை விசை %d ( %s இல்) ஐ நிரந்தரமாக நீக்க வேண்டுமா?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "துணை விசையை அழிக்க முடியவில்லை"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "நம்பிக்கையை மாற்ற முடியவில்லை"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:291
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "\"%s\" க்கு விசையை ஏற்றுமதி செய்ய முடியவில்லை"
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "முழு விசையை ஏற்றுமதி செய்க"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "விசையை ஏற்றுமதி செய்ய முடியவில்லை"
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "ஒரு போதும் இல்லை"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "வகை"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "உருவாக்கப்பட்டது"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "காலாவதி ஆவது"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "நிலை"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "பலம்"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "நன்று"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>செயல்கள்</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>குறிப்புரை:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>தேதிகள்</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>மின்னஞ்சல்:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>விசை சுருக்கம்</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>விசை அடையாளம்:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>விசை பெயர்கள் மற்றும் கையொப்பம்</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>பெயர்:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>புகைப்படம்</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>தொழில் நுட்ப விவரங்கள்</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>இந்த விசை இரத்து செய்யப்பட்டது</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>இந்த விசை காலாவதி ஆகிவிட்டது</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>வகை:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>பயன்படுத்து:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_S துணவிசைகள்</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "சேர்க்க"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "இந்த விசைக்கு ஒரு படத்தை சேர்க்கவும்"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "_P கடவுசொற்றொடரை மாற்று"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "அனுப்பிய கோப்புகள் மற்றும் மின்னஞ்சல்களை மறைவிலக்கு"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "நீக்கு"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "காலாவதி"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "காலாவதியாகிறது:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "ஏற்றுமதி"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "அடுத்த படத்துக்கு போகவும்"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "முந்தைய படத்துக்கு போகவும்"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "விசை அடையாளம்:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "இந்த படத்தை முதன்மை படமாக்குக"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "பெயர்கள் மற்றும் கையெழுத்துக்கள்"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "ஒரு போதும் இல்லை"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "உரிமையாளர் _T நம்பிக்கை மீறுகை:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "உரிமையாளர்"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "முதன்மை"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "இந்த விசையிலிருந்து படத்தை நீக்குக"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "இரத்து செய்க"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "கையொப்பம்"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "பலம்:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "இந்த விசையின் உரிமையாளர் விசையை இரத்து செய்துவிட்டார். இதை இனி பயன்படுத்த முடியாது."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "_A பெயரை சேர்க்கவும்"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "முழு விசையை _E ஏற்றுமதி  செய்க:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>தேதிகள்:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "விசை சுருக்கம்"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>நம்பிக்கையை காட்டுங்கள்:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b> இந்த விசையில் உங்கள் நம்பிக்கை</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_மற்ற பெயர்கள்:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_p இந்த விசையை கையெழுத்திட்ட நபர்கள்:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "மறையாக்குக மற்றும் விசையை உரிமையாளருக்கு மின்னஞ்சல் செய்க."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "முழுதும்"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "'%s இடமிருந்து வரும் மற்ற விசைகளையும் நம்புகிறேன்."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr "இந்த விசை '%s' உடையது என நம்புகிறீர்கள் எனில் இந்த விசையை<i>கையெழுத்திடுக</i>:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid "If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr "இந்த விசை '%s' உடையது என இனி நம்பிக்கை இல்லை எனில் விசையை <i>இரத்து</i> செய்க:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "விளிம்பில்"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "நம்பு"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "கடைசியில்"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "_T உரிமையாளரை நீங்கள் நம்புகிறீர்கள்:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "உங்கள் நம்பிக்கை கைமுறையாக <i> விவரங்கள்</i> கீற்றில் குறிப்பிடப்பட்டது."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "_O நான் நம்பும் நபர்களின் விசைகளை மட்டும் இதில் காட்டுக"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "_R கையொப்பத்தை இரத்து செய்க"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "_S இந்த விசையை கையெழுத்திடுக"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "துணைவிசை %d  %s இல் "
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "இரத்து செயலின் விருப்ப விவரம்"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "_v இரத்துசெய்க"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "விசையை இரத்து செய்ய காரணம்"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_R காரணம்:"
+
+#: ../pgp/bastile-signer.c:62
+msgid "You have no personal PGP keys that can be used to sign a document or message."
+msgstr "ஆவணங்களையோ செய்திகளையோ கையெழுதிட உங்களிடம் அந்தரங்க பிஜிபி விசை ஏதும் இல்லை."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>இந்த விசையை கவனமாக சோதித்தீர்களா?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>மற்றவர்கள் இந்த விசையை எப்படி காண்பார்கள்:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>விசையை இப்படி கையெழுத்திடுக:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"i> மேலோட்டமாக<i/> எனில் நீங்கள் விசையை தனது என்பவருடையதா என மேலோட்டமாக உறுதி செய்து "
+"உள்ளீர்கள். உதாரணமாக விசையின் அடையாளத்தை தொலைபேசியில் அவருக்கு படிக்க முடிந்தது."
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>விசை பெயர்</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i> இல்லவே இல்லை:</i> எனில் நீங்கள் விசையை தனது என்பவருடையது என நம்புகிறீர்கள். ஆனால் "
+"அதை உறுதி செய்ய இயலவில்லை"
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>மிக கவனமாக:</i> விசை நிச்சயம் உண்மையானது என தெரிந்தால் மட்டுமே இதை தேர்வு "
+"செய்யவும்."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "கையெழுத்திடுவதால் இந்த விசை இன்னாருக்கு உரியது என நம்பிக்கையை காட்டுகிறீகள்:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "_r நான் இந்த விசையை பின்னால் ஒரு தேதியில் இரத்து செய்ய முடியும்."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "விசைக்கு கையொப்பம் இடு"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"விசையில் உள்ள பெயர் சரி பார்க்க நீங்கள் பாஸ்போர்ட் போன்ற ஒரு நிச்சய சுலபமாக நகலெடுக்க "
+"இயலாத பட அடையாளத்தை பயன்படுத்தலாம். நீங்கள் உரிமையாளரின் மின்னஞ்சலையும் அவருடையதுதானா "
+"என்று அறிய பயன்படுத்தி இருக்க வேண்டும்."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_C மேலோட்டமாக"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_N இல்லவே இல்லை"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_O மற்றவர் இந்த கையெழுத்தை பார்க்கக் கூடாது"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_S கையொப்பமிடுக"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_S கையொப்பமிடுபவர்:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_V மிக கவனமாக"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_S செய்தியை விசையால் கையொப்பமிடுக."
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "சான்றிதழ்"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "சான்றிதழ் '%s' ஐ நிச்சயம் நீக்க விரும்புகிறீர்களா?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "சான்றிதழ் '%d' ஐ நிச்சயம் நீக்க விரும்புகறீர்களா?"
+msgstr[1] "சான்றிதழ்கள் '%d' ஐ நிச்சயம் நீக்க விரும்புகறீர்களா?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "கடவுச்சொற்றொடர் ஐ மாற்றுக"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_f கடவுச்சொற்றொடர் ஐ உறுதிப்படுத்து:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "கடவுச்சொற்றொடரை உறுதிப்படுத்து"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "_Pபுதிய கடவு வாக்கியம்:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "உங்கள் கடவுச்சொற்கள் மற்றும் மறையாக்க விசைகளை மேலாளுங்கள்"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "கடவுச்சொற்கள் மற்றும் மறையாக்க விசைகள்"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "(_S) <b>உருவாக்க வேண்டிய உருப்படியை தேர்ந்தெடுக்கவும்:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "_o தொடரவும்"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "புதியது உருவாக்கு..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "%d விசை தேர்ந்தெடுக்கப்பட்டது"
+msgstr[1] "%d விசைகள் தேர்ந்தெடுக்கப்பட்டன"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:459
+msgid "Couldn't import keys"
+msgstr "விசைகளை ஏற்றுமதி செய்ய முடியவில்லை"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:464
+msgid "Imported keys"
+msgstr "இறக்குமதி செய்யப்பட்ட விசைகள்"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "விசைகளை இறக்குமதி செய்கிறது"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "விசையை இறக்குமதி செய்க"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "அறியப்படாத விசை வகை அல்லது தவறான தரவு வடிவம்"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "தொலை (_R)"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "இந்த நிரல் மூடு"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "புதிய (_N)..."
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "ஒரு புதிய விசை அல்லது உருப்படியை உருவாக்குக"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "இறக்குமதி செய் (_I)..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "ஒரு கோப்புக்கு ஏற்றுமதி செய்"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "ஒட்டுப்பலகைக்கு படியெடு "
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "தொலை விசைகளை தேடுக (_F)..."
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "விசைகளை விசை சேவையகத்தில் தேடுகிறது"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "ஒருங்கிணை மற்றும் வெளியீடு விசைகள் (_S)..."
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "இந்த ஆன்லைனில் உங்கள் விசைகளை வெளியீடு அல்லது ஒருங்கிணை"
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "வகை (_y)"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "வகை பத்தியை காட்டுக."
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "காலாவதி (_E)"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "காலாவதி பத்தியை காட்டுக."
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "நம்பு (_T)"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "மேலாளரில் நம்புக பத்தியை காட்டுக."
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "செல்லுபடி (_V)"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "செல்லுபடி பத்தியை காட்டுக."
+
+#: ../src/bastile-key-manager.c:937
+msgid "Filter:"
+msgstr "வடிப்பி:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>முதல் முறை விருப்பங்கள்:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "உங்களுடைய புதிய ஒரு விசையை உருவாக்குக:"
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "ஒரு கோப்பிலிருந்து இருப்பில் உள்ள விசைகளை இறக்குமதி செய்க:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "_P என் அந்தரங்க விசைகள்"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "_K மற்ற விசைகள்"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "மறையாக்கம் செய்ய துவங்க உங்களுக்கு விசைகள் தேவை."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:523
+msgid "_Import"
+msgstr "_I இறக்குமதி செய்"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_P கடவுச்சொற்கள்"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:257
+msgid "Couldn't export keys"
+msgstr "விசைகளை ஏற்றுமதி செய்ய முடியவில்லை"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "செல்லுபடி"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "காலாவதி தேதி"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "இந்த சாளரத்தை மூடு"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "அனைத்தும் விரிவாக்கு (_E)"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "அனைத்து பட்டியலையும் விரிவாக்கு"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "அனைத்தையும் குறுக்கு (_C)"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "அனைத்து பட்டியலிடுதலுகளையும் குறுக்கு"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "தொலை விசைகள்"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "' %s'ஐ தொலை விசைகள் கொண்டுள்ளன"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>விசை சேவையகங்கள்:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>அருகிலுள்ள பகிர்ந்து கொண்ட விசைகள்:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "தொலை விசைகளை தேடுக"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"இது மற்றவர்களுக்கு இணையத்தில் விசைகளை கண்டு பிடிக்கும். இந்த விசைகளை பின்னர் உங்கள் விசை "
+"வளையத்தில் இறக்குமதி செய்யலாம்."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "எங்கே தேடுவது:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_S தேடுக"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_S இது உள்ள விசைகளை தேடு:"
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "சேவையகத்துக்கு விசைகளை வெளியிட முடியவில்லை"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "%s சேவையகத்திலிருந்து விசைகளை மீட்டெடுக்க முடியவில்லை"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>ஒத்திசைவுக்கு %d விசை தேர்ந்தெடுக்கப்படுகிறது</b>"
+msgstr[1] "<b>ஒத்திசைவுக்கு %d விசைகள் தேர்ந்தெடுக்கப்படுகிறன</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "விசைகள் ஒத்திசைக்கப்படுகின்றன"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "விசைகள் ஒத்திசைக்கப்படுகின்றன..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "விசைகள் ஒத்திசைப்பு"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"இது உங்கள் விசை வளையத்தில் உள்ள விசைகளை மற்றவர்களுக்கு கிடைக்கும்படி வெளியிடும். "
+"உங்களுக்கு மற்றவர்கள் அவரவர் விசைகளில் நீங்கள் கடைசியாக பெற்ற பின் செய்திருக்கக்கூடிய "
+"மாற்றங்களும் கிடைக்கும்."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"இது உங்களுக்கு மற்றவர்கள் அவரவர் விசைகளில் நீங்கள் கடைசியாக பெற்ற பின் செய்திருக்கக்கூடிய "
+"மாற்றங்களை எடுக்கிறது. உங்கள் விசைகளை வெளியிட சேவையகத்தை தேர்ந்து எடுக்கவில்லை. அதனால் "
+"உங்கள் விசைகள் அவர்களுக்கு கிடைக்காது."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_K விசை சேவையகங்கள்"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_S ஒத்திசைப்பு"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "இந்த பயன்பாட்டின் பதிப்பு்பு"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "மறையாக்க விசை மேலாளர்"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "பங்குகள்:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr "மொழிபெயர்ப்பாளர்-நன்றி அறிதல்"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "ஸீஹார்ஸ் திட்டம் ஆரம்ப பக்கம்"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:169
+msgid "_File"
+msgstr "(_F) கோப்பு"
+
+#: ../src/bastile-viewer.c:170
+msgid "_Edit"
+msgstr "_E திருத்து"
+
+#: ../src/bastile-viewer.c:171
+msgid "_View"
+msgstr "_V பார்வை"
+
+#: ../src/bastile-viewer.c:172
+msgid "_Help"
+msgstr "_H உதவி"
+
+#: ../src/bastile-viewer.c:174
+msgid "Prefere_nces"
+msgstr "_n விருப்பங்கள்"
+
+#: ../src/bastile-viewer.c:175
+msgid "Change preferences for this program"
+msgstr "இந்த நிரலுக்கு விருப்பங்களை மாற்றுக"
+
+#: ../src/bastile-viewer.c:178
+msgid "About this program"
+msgstr "இந்த நிரல் பற்றி"
+
+#: ../src/bastile-viewer.c:179
+msgid "_Contents"
+msgstr "_C உள்ளடக்கங்கள்"
+
+#: ../src/bastile-viewer.c:180
+msgid "Show Bastile help"
+msgstr "சீஹார்ஸ் உதவியை காட்டுக"
+
+#: ../src/bastile-viewer.c:277
+msgid "Export public key"
+msgstr "பொது விசையை ஏற்றுமதி செய்க"
+
+#: ../src/bastile-viewer.c:297
+msgid "Exporting keys"
+msgstr "விசைகள் ஏற்றுமதியாகிறன"
+
+#: ../src/bastile-viewer.c:322
+msgid "Couldn't retrieve data from key server"
+msgstr "விசை சேவையகத்திலிருந்து தரவை மீட்க முடியவில்லை"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:341
+msgid "Copied keys"
+msgstr "விசைகள் நகல் எடுக்கப்பட்டன"
+
+#: ../src/bastile-viewer.c:361
+msgid "Retrieving keys"
+msgstr "விசைகளை மீட்கிறது"
+
+#: ../src/bastile-viewer.c:376
+msgid "Couldn't delete."
+msgstr "அழிக்க முடியவில்லை"
+
+#: ../src/bastile-viewer.c:410
+msgid "Deleting..."
+msgstr "அழிக்கிறது..."
+
+#: ../src/bastile-viewer.c:436
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s ஒரு தனிப்பட்ட விசை. நிச்சயம் தொடர வேண்டுமா?"
+
+#: ../src/bastile-viewer.c:484
+msgid "Importing keys from key servers"
+msgstr "விசை சேவையகத்துக்கு விசைகளை இறக்குகிறது"
+
+#: ../src/bastile-viewer.c:510
+msgid "Show properties"
+msgstr "பண்புகளை காட்டு"
+
+#: ../src/bastile-viewer.c:511
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "(_D) அழி"
+
+#: ../src/bastile-viewer.c:512
+msgid "Delete selected items"
+msgstr "தேர்ந்தெடுக்கப்பட்ட உருப்ப்டிகளை நீக்கு "
+
+#: ../src/bastile-viewer.c:516
+msgid "E_xport..."
+msgstr "(_x) ஏற்றுமதி செய்..."
+
+#: ../src/bastile-viewer.c:517
+msgid "Export to a file"
+msgstr "ஒரு கோப்புக்கு ஏற்றுமதி செய்"
+
+#: ../src/bastile-viewer.c:519
+msgid "Copy to the clipboard"
+msgstr "ஒட்டுப்பலகைக்கு படியெடு "
+
+#: ../src/bastile-viewer.c:524
+msgid "Import selected keys to local key ring"
+msgstr "உள்ளமை விசை ரிங்கிற்கு தேர்ந்தெடுக்கப்பட்ட விசைகளை இறக்கு"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "உங்கள் பத்திரமான ஷெல் கடவு சொற்றொடரை உள்ளிடுக."
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "_S பத்திரமான ஷெல் க்கு விசை வடிவமைக்கிறது..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"பத்திரமான ஷெல் விசையை மற்றொரு கணினிக்கு அனுப்பி அந்த விசையை பயன்படுத்தி உள்நுழைய "
+"இயலுமை படுத்துக"
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "பத்திரமான ஷெல் விசை '%s' ஐ நிச்சயம் அழிக்க வேண்டுமா?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "%d பத்திரமான ஷெல் விசைகளை ஐ நிச்சயம் அழிக்க வேண்டுமா?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "பத்திரமான ஷெல் விசை"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "மற்ற கணினிகளை அணுக பயன்படும். (எ-டு ஒரு முனையம் வழியாக)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "பத்திரமான ஷெல் விசையை உருவாக்க முடியவில்லை"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "பத்திரமான ஷெல் விசையை உருவாக்குகிறது"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i> இந்த விசை எதற்கு என்று நினைவுறுத்திக்கொள்ள உங்கள் மின்னஞ்சல் முகவரி அல்லது வேறு எந்த "
+"வித நினைவூட்டத்தையும் பயன்படுத்துக.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"ஒரு பாதுகாப்பான ஷெல் விசை (SSH) உங்களை SSH ஐ பயன்படுத்தி நம்பகமான கணினிகளுடன் இணைக்க "
+"அனுமதிக்கிறது. கடவுச்சொல் ஒவ்வொரு முறையும் உள்ளிடத்தேவை இல்லை."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "டிஎஸ்ஏ(DSA)"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"இந்த விசையை பயன்படுத்த ஏற்கெனெவே ஒரு கணினி இருந்தால் உங்கள் விசையை கண்டு கொள்ள அந்த "
+"கணினியை இப்போது வடிவமைக்கலாம்."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "புதிய பத்திரமான ஷெல் விசை"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_C உருவாக்கு மற்றும் அமை"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Jவிசை மட்டும் உருவாக்கு "
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_K விசை விவரணம்:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(படிக்க இயலாத பத்திரமான ஷெல் விசை)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "செல்லுபடியாகாது"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "அந்தரங்க பத்திரமான ஷெல்  விசை"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "பொது பத்திரமான ஷெல் விசை"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "விசையை மறு பெயரிட இயலவில்லை."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "விசைக்கு அனுமதியை மாற்ற முடியவில்லை."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "விசைக்கு கடவுச்சொல்லை மாற்ற இயலவில்லை."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>படிமுறை:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>இனங்காட்டி:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>இடம்:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>பலம்:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>நம்பிக்கை</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i> இது '%s' கணக்குக்கு மட்டுமே</i> செல்லுபடியாகும்."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "_x முழு விசையை ஏற்றுமதி செய்க"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "_a இந்த விசையின் உரிமையாளர் இந்த கணினியுடன் இணைக்க அனுமதி உடையவர்"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "மற்ற கணினிகளுடன் இணைக்க பயன்படும்."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "எஸ்எஸ்ஹெச்(SSH) கட்டளை எதிர்பாராமல் முடிந்தது."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "எஸ்எஸ்ஹெச்(SSH) தோல்வியுற்றது"
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "பத்திரமான ஷெல் விசை"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "கடவுச்சொல்:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "தொலை புரவலன் கடவுச்சொல்"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "பழைய விசை கடவுச்சொற்றொடர்"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "%s க்கு பழைய விசை கடவுச்சொற்றொடர் ஐ உள்ளிடு"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "புதிய விசை கடவுச்சொற்றொடர்"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "%s க்கு புதிய கடவுச்சொற்றொடர் ஐ உள்ளிடு"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "விசை கடவுச்சொற்றொடர் ஐ உள்ளிடு"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "புது பத்திரமான ஷெல் விசைக்கு கடவுச்சொற்றொடர்"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "புது பத்திரமான ஷெல் விசைக்கு கடவுச்சொற்றொடர் ஐ உள்ளிடுக"
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "%s விசையை இறக்குமதி செய்கிறது"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "விசையை இறக்குமதி செய்கிறது. கடவுச்சொற்றொடர் ஐ உள்ளிடவும்"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "இந்த விசைக்கு தனி விசை இல்லை"
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "தொலை கணினியில் பத்திரமான ஷெல் விசைகளை வடிவமைக்க இயலவில்லை."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "பத்திரமான ஷெல் விசைகளை வடிவமைகிறது..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>எ-டு: fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "எஸ்எஸ்ஹெச்(SSH) இணைப்புக்கு கணிப்பொறியை அமை."
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"SSH ஐ பயன்படுத்தும் இன்னொரு கணினியுடன் உங்கள் பாதுகாப்பான ஷெல் விசையை பயன்படுத்த அந்த "
+"கணினியில் உங்களுக்கு ஒரு உள்நுழைவு கணக்கு இருக்க வேண்டும்."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "_C கணிப்பொறி பெயர்:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_L உள்நுழை பெயர்:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_S அமை"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "விசைகளை பகிர்ந்து கொள்ள முடியவில்லை"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "கண்டு பிடித்த தகவலை பிணையத்தில் வெளியிட இயலாது."
+
+#~ msgid "%s's encryption keys"
+#~ msgstr "%s இன் மறையாக்க விசைகள்"
+
+#~ msgid "Key Sharing"
+#~ msgstr "விசை பகிர்தல்"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "நீங்கள் சேமித்த விசைகளை பிணையத்தில்  மற்றவருடன் பகிந்து கொள்ளுதல். இதனால் உங்களுக்கும் "
+#~ "நீங்கள் அறிந்தோருக்கும் தானியங்கியாக உங்கள் விசைகளை அனுப்பாமலேயே மறையாக்கங்களை "
+#~ "செய்யலாம்.\n"
+#~ "<b>குறிப்பு:</b>.உங்கள் அந்தரங்க விசைகள் பாதிக்கப்படா."
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "பிணையத்தில் மற்றவர்களுடன் என் விசைகளை _பகிர்ந்து கொள்க"
+
+#~ msgid "Bastile Daemon"
+#~ msgstr "சீஹார்ஸ் கிங்கரன்"
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>ஒத்திசைக்க X விசைகள் தேர்ந்தெடுக்கப்பட்டன</b>"
+
+#~ msgid ""
+#~ "One or more of the deleted keys are private keys. Are you sure you want "
+#~ "to proceed?"
+#~ msgstr "நீக்கப்பட்டவற்றில் ஒன்று அல்லது அதிகம் தனி விசைகள். நிச்சயம் தொடர வேண்டுமா?"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "ஒரு பிஜிபி விசையை உருவாக்குக"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "தெரியாத\n"
+#~ "எப்போதும் இல்லை\n"
+#~ "விளிம்பில்\n"
+#~ "முழு\n"
+#~ "கடைசி"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "தெரியாத\n"
+#~ "எப்போதும் இல்லை\n"
+#~ "விளிம்பில்\n"
+#~ "முழு\n"
+#~ "கடைசி"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "_T நம்பிகையான விசைகள்"

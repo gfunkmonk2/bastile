@@ -1,0 +1,99 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+daemon/bastile-daemon.c
+daemon/bastile-service.c
+daemon/bastile-service-crypto.c
+daemon/bastile-service-keyset.c
+data/bastile.schemas.in
+[type: gettext/glade]gkr/bastile-add-keyring.xml
+gkr/bastile-gkr-add-item.c
+[type: gettext/glade]gkr/bastile-gkr-add-item.xml
+gkr/bastile-gkr-add-keyring.c
+gkr/bastile-gkr-item.c
+gkr/bastile-gkr-item-commands.c
+gkr/bastile-gkr-item-properties.c
+[type: gettext/glade]gkr/bastile-gkr-item-properties.xml
+gkr/bastile-gkr-keyring.c
+gkr/bastile-gkr-keyring-commands.c
+[type: gettext/glade]gkr/bastile-gkr-keyring.xml
+gkr/bastile-gkr-keyring-properties.c
+gkr/bastile-gkr-operation.c
+gkr/bastile-gkr-source.c
+libmatecryptui/cryptui.c
+libmatecryptui/cryptui-key-chooser.c
+libmatecryptui/cryptui-key-list.c
+libegg/egg-datetime.c
+libegg/eggdesktopfile.c
+libegg/eggsmclient.c
+[type: gettext/glade]libbastile/bastile-add-keyserver.xml
+libbastile/bastile-context.c
+libbastile/bastile-notification.c
+[type: gettext/glade]libbastile/bastile-notify.xml
+libbastile/bastile-object.c
+libbastile/bastile-passphrase.c
+libbastile/bastile-prefs.c
+[type: gettext/glade]libbastile/bastile-prefs.xml
+[type: gettext/glade]libbastile/bastile-progress.xml
+libbastile/bastile-unknown.c
+libbastile/bastile-unknown-source.c
+libbastile/bastile-util.c
+libbastile/bastile-validity.c
+libbastile/bastile-widget.c
+[type: gettext/glade]pgp/bastile-add-subkey.xml
+[type: gettext/glade]pgp/bastile-add-uid.xml
+[type: gettext/glade]pgp/bastile-expires.xml
+pgp/bastile-gpgme-add-subkey.c
+pgp/bastile-gpgme-add-uid.c
+pgp/bastile-gpgme.c
+pgp/bastile-gpgme-expires.c
+pgp/bastile-gpgme-generate.c
+pgp/bastile-gpgme-key.c
+pgp/bastile-gpgme-key-op.c
+pgp/bastile-gpgme-photos.c
+pgp/bastile-gpgme-revoke.c
+pgp/bastile-gpgme-sign.c
+pgp/bastile-gpgme-source.c
+pgp/bastile-gpgme-subkey.c
+pgp/bastile-gpg-options.c
+pgp/bastile-hkp-source.c
+pgp/bastile-ldap-source.c
+pgp/bastile-pgp-commands.c
+[type: gettext/glade]pgp/bastile-pgp-generate.xml
+pgp/bastile-pgp-key.c
+pgp/bastile-pgp-key-properties.c
+[type: gettext/glade]pgp/bastile-pgp-private-key-properties.xml
+[type: gettext/glade]pgp/bastile-pgp-public-key-properties.xml
+pgp/bastile-pgp-subkey.c
+[type: gettext/glade]pgp/bastile-revoke.xml
+pgp/bastile-server-source.c
+pgp/bastile-signer.c
+[type: gettext/glade]pgp/bastile-sign.xml
+[type: gettext/glade]pgp/bastile-signer.xml
+pkcs11/bastile-pkcs11-certificate.c
+pkcs11/bastile-pkcs11-certificate-props.c
+pkcs11/bastile-pkcs11-commands.c
+[type: gettext/glade]src/bastile-change-passphrase.xml
+src/bastile.desktop.in.in
+[type: gettext/glade]src/bastile-generate-select.xml
+src/bastile-key-manager.c
+[type: gettext/glade]src/bastile-key-manager.xml
+src/bastile-key-manager-store.c
+src/bastile-keyserver-results.c
+[type: gettext/glade]src/bastile-keyserver-results.xml
+src/bastile-keyserver-search.c
+[type: gettext/glade]src/bastile-keyserver-search.xml
+src/bastile-keyserver-sync.c
+[type: gettext/glade]src/bastile-keyserver-sync.xml
+src/bastile-main.c
+src/bastile-viewer.c
+ssh/bastile-ssh-askpass.c
+ssh/bastile-ssh-commands.c
+ssh/bastile-ssh-generate.c
+[type: gettext/glade]ssh/bastile-ssh-generate.xml
+ssh/bastile-ssh-key.c
+ssh/bastile-ssh-key-properties.c
+[type: gettext/glade]ssh/bastile-ssh-key-properties.xml
+ssh/bastile-ssh-operation.c
+ssh/bastile-ssh-source.c
+ssh/bastile-ssh-upload.c
+[type: gettext/glade]ssh/bastile-ssh-upload.xml

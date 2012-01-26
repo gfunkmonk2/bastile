@@ -1,0 +1,3947 @@
+# Chinese (Hong Kong) translation of Bastile
+# Copyright (C) 2005, 07 Free Software Foundation, Inc.
+# Woodman Tuen <wmtuen@gmail.com>, 2005-07.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008, 2010.
+# Wei-Lun Chao <chaoweilun@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile 2.91.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-23 14:31+0800\n"
+"PO-Revision-Date: 2011-01-23 14:31+0800\n"
+"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
+"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "不以伺服程式形式執行 bastile-daemon"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "無法建立子程序"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "無法建立新的程序羣組"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "加密伺服程式 (Bastile)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "無效或無法確認的密碼匙類型：%s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "這個密碼匙類型是不支援的：%s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "編譯時沒有啟用對這個功能的支援"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "無效或無法碓認的密碼匙：%s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "由 <i><key id=‘%s’/> 簽署，於 %s 過期。"
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "無效的簽署"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "由 <i><key id=‘%s’/>於 %s 簽署，<b>已過期</b>。"
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "已過期的簽署"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "由 <i><key id=‘%s’/>簽署，於 %s 撤銷。"
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "簽署已撤銷"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "由 <i><key id=‘%s’/>於 %s 簽署。"
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "完好的簽署"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "簽署密碼匙並非在密碼匙圈內。"
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "不明的簽署"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "損壞或是偽造的簽署。簽署資料已被修改。"
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "損壞的簽署"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "無法驗證簽署。"
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "無效或無法辨認的簽署者：%s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "密碼匙不能有效地作為簽署使用：%s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "無效或無法辨認的收件人：%s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "密碼匙不是一個有效的收件人作加密：%s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "沒有指定收件人"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "解密的密碼匙類型無效：%s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "請設定 clearui"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "請設定 cryptui"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "開啟 clearui 時發生錯誤"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "沒有指定簽署者"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "驗證 %s 的密碼匙類型無效"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "無效的密碼匙 id：%s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr "尋找遠端 PGP 密碼匙的密碼匙伺服器的 URL 清單。在晚一點的版本可包括顯示名稱，以加入空格及名稱。"
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "自動取得密碼匙"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "密碼匙自動同步"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "控制密碼匙管理員的有效日期欄位的可示性。"
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "控制密碼匙管理員的信任欄位的可示性。"
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "控制密碼匙管理員的類型欄位的可示性。"
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "控制密碼匙管理員的有效性欄位的可示性。"
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "啟用 DNS-SD 共享"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr "啟用 DNS-SD (Apple Bonjour) 密碼匙共享，必須運行 bastile-daemon  及加入 HKP 及 DNS-SD 支援。"
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "預設密碼匙的 ID"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr "如設定為‘true’，使用 bastile 加密的檔案會是以 ASCII 封裝編碼。"
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "如設定為‘true’，預設密碼匙總是會加入加密收件人清單。"
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "上次在密碼匙伺服器的搜尋式樣"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "上次使用的密碼匙伺服器"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "上次用作簽署的密碼匙"
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP 密碼匙伺服器"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "發行密碼匙到此密碼匙伺服器。"
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "在密碼匙管理員中顯示有效日期的欄位"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "在密碼匙管理員中顯示信任的欄位"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "在密碼匙管理員中顯示類型的欄位"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "在密碼匙管理員中顯示有效性的欄位"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr "指定收件人視窗的欄位的排序方式：‘name’及‘id’。在欄位名稱前加上‘-’以反向排序。"
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr "指定 bastile 密碼匙管理程式主視窗欄位的排序方式：‘name’，‘id’，‘validity’，‘expires’，‘trust’及‘type’。在欄位名稱前加上‘-’以反向排序。"
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "上次用作簽署信息的私人密碼匙 ID。"
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "bastile 收件人欄位的排序形式"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "bastile 密碼匙欄位的排序形式"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr "PGP 密碼匙發行到的密碼匙伺服器。或使留空白來禁止發行 PGP 密碼匙"
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr "上次搜尋的密碼匙伺服器。或其留空給所有伺服器。"
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "上次在密碼匙伺服器的搜尋樣式。"
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "這指定在某些動作中使用的預設密碼匙，主要為簽署時使用。"
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "是否自動從密碼匙伺服器取得密碼匙。"
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr "已修改的密碼匙應否自動與預設的密碼匙伺服器同步。"
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "是否總是以預設密碼匙來加密"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "是否使用 ASCII 封裝"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "加入密碼密碼匙圈"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "新密碼匙圈名稱:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr "請為新的密碼匙圈選擇一個名稱。系統會提示你提供解鎖密碼。"
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "伺服器的主機名稱或位址。"
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "無法加入密碼匙圈"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "加入密碼"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:15 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "描述(_D):"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "密碼匙圈(_K):"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "密碼(_P):"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "顯示密碼(_S)"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "網頁密碼"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "網絡密碼"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "密碼"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "確定要刪除密碼「%s」？"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "確定要刪除 %d 個密碼？"
+msgstr[1] "確定要刪除 %d 個密碼？"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "存取網絡共享或資源"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "存取網站"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "解除 PGP 密碼匙鎖定"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "解除 SSH 密碼匙鎖定"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "已儲密碼或登入"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "網絡認證"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "無法更改密碼。"
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "無法設定描述。"
+
+#: ../gkr/bastile-gkr-item-properties.c:656
+msgid "Couldn't set application access."
+msgstr "無法設定應用程式的存取。"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>密碼：</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>路徑:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>權限:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>技術資料：</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "應用程式"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "詳細資料"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "密碼匙"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "密碼匙屬性"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "登入:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "伺服器:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "顯示密碼(_W)"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+msgid "Type:"
+msgstr "類型:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "使用:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:17
+msgid "_Read"
+msgstr "讀取(_R)"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Write"
+msgstr "寫入(_W)"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:20
+msgctxt "infinitive"
+msgid "_Delete"
+msgstr "刪除(_D)"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "正在列出密碼"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "密碼：%s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>密碼：</b>%s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "密碼密碼匙圈"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "用來儲存應用程式和網絡的密碼"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "已儲存的密碼"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "安全的存放密語或機密。"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "無法解鎖密碼匙圈"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "無法鎖定密碼匙圈"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "無法設定預設的密碼匙圈"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "無法更改密碼匙圈密碼"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "鎖定(_L)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr "鎖定密碼儲存密碼匙圈，如此要將它解鎖就要有主控密碼才行。"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "解鎖(_U)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr "使用主控密碼將密碼儲存密碼匙圈解鎖，如此就成為可以使用的狀態。"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "設為預設值(_S)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "應用程式通常會把新密碼儲存在預設密碼匙圈裏。"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "更改密碼(_P)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "改變密碼儲存密碼匙圈的解鎖密碼"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "你確定要刪除這個密碼密碼匙圈「%s」？"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "Created:"
+msgstr "建立日期："
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "密碼匙圈"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "密碼匙圈屬性"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "名稱(_N):"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "存取密碼匙圈被禁止"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "mate-keyring 服務程式沒有執行"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "密碼匙圈已經解鎖"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "沒有該密碼匙圈存在"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "無法與密碼匙圈服務程式聯絡"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "項目已經存在"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "存取 mate-keyring 發生內部錯誤"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "正在儲存項目…"
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "正在刪除項目…"
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "正在刪除密碼匙圈"
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "正在列出密碼密碼匙圈 "
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr "在進行你所要求的操作時找不到加密密碼匙。現在會啟動 <b>密碼與加密密碼匙</b> 程式讓你建立或匯入一個密碼匙。"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "所有密碼匙"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "已選取收件人"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "搜尋結果"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "搜尋(_F):"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "沒有（不要簽署）"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "以 %s 簽署這個郵件"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "簽署訊息的密碼匙(_S):"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "名稱"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "密碼匙 ID"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "顯示旗標"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "顯示的日期和/或時刻屬性"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "懶人模式"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "懶人模式不會標準化輸入的日期和時刻數值"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "年"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "顯示的年份"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "月"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "顯示的月份"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "天"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "顯示一個月第幾天"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "時"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "顯示的小時"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "分"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "顯示的分鐘"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "秒"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "顯示的秒鐘"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "年份下限"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "顯示年份的最小值"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "年份上限"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "顯示年份的最大值"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "月份下限"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "顯示月份的最小值"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "月份上限"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "顯示月份的最大值"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "日下限"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "顯示日數的最小值"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "日上限"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "顯示日數的最大值"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "小時下限"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "顯示小時的最小值"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "小時上限"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "顯示小時的最大值"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "分鐘下限"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "顯示分鐘的最小值"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "分鐘上限"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "顯示分鐘的最大值"
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "秒鐘下限"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "顯示秒鐘的最小值"
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "秒鐘上限"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "顯示秒鐘的最大值"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "日期"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "直接輸入日期"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "選擇日期"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "從日曆中選取日期"
+
+#: ../libegg/egg-datetime.c:529 ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "時刻"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "直接輸入時刻"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "選擇時刻"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "從清單中選取時刻"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "24hr: no"
+
+#: ../libegg/egg-datetime.c:814 ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "上午"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "下午"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "檔案不是有效的 .desktop 檔案"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "無法辨識的桌面檔案版本「%s」"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "準備啟動 %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "應用程式不接受以命令列開啟文件"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "無法辨識的啟動選項：%d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "不能傳送文件 URI 至「Type=Link」桌面項目"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "不是可以啟動的項目"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "停用到作業階段管理程式的連線"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "指定含有已儲存組態的檔案"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "檔案"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "指定作業階段管理 ID"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "作業階段管理選項:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "顯示作業階段管理選項"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "加入密碼匙伺服器"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "主機："
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "密碼匙伺服器類型："
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "連接伺服器的連接埠。"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "起動臨時項目"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "密碼匙已匯入"
+msgstr[1] "密碼匙已匯入"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "已匯入 %i 個密碼匙"
+msgstr[1] "已匯入 %i 個密碼匙"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "匯入此密碼匙"
+msgstr[1] "匯入此密碼匙"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "通知訊息"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "對稱式密碼匙"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "公開密碼匙"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "私密密碼匙"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "證書"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "身分"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "密語"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "密碼:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "確認:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "不是有效的密碼匙伺服器位址。"
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr "向系統管理員或密碼匙伺服器管理員取得協助。"
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "自選"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "沒有：不要發行密碼匙"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "自動從密碼匙伺服器取得密碼匙(_K)"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "與密碼匙伺服器自動將已修改的密碼匙同步(_M)"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "密碼匙伺服器"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "尋找密碼匙以(_F):"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "發行密碼匙至(_P):"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "進度標題"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "不存在"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "密碼匙資料"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "多個密碼匙"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "無法執行 fille-roller"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "檔案無法封裝"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "file-roller 程序無法完成"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "所有密碼匙檔"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "所有檔案"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "壓縮檔"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>以這名稱命名的檔案已經存在。</b>\n"
+"\n"
+"你是否希望以新的檔案來取代它？"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "取代(_R)"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Unknown"
+msgstr "不明"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "永不"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Marginal"
+msgstr "勉強"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Full"
+msgstr "完全"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+msgid "Ultimate"
+msgstr "徹底"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "已停用"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "已撤銷"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "無法顯示說明文件：%s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "有效日期："
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "產生新的子鑰"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "如果密碼匙永不過期"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "密碼匙長度(_L)"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "密碼匙類型(_T):"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "密碼匙長度"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "永不過期(_X)"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "加入使用者 ID"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "建立新的使用者 ID"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "全名(_N):"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "密碼匙附註(_M):"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "長度最少要有 5 個字符"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "描述密碼匙的註釋（非必要）"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "電郵地址（非必要）"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "電郵地址(_C):"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "更改(_H)"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "撤銷密碼匙"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "永不過期(_N)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "無法加入子鑰"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "加入子鑰至 %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "DSA (只能簽署)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (只能加密)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "RSA (只能簽署)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (只能加密)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "無法加入使用者 id"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "加入使用者 ID 至 %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "解密失敗。你可能沒有解密的密碼匙。"
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "無效的到期日"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "到期日必須在未來"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "無法更改有效日期"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "到期日: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "PGP 密碼匙"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "用作加密郵件及檔案"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "無法產生 PGP 密碼匙"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "PGP 密碼匙的密語"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "輸入新密碼匙的密語兩次。"
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "無法產生密碼匙"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "正在產生密碼匙"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "錯誤的密碼"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "這是你第三次輸入錯誤的密碼。請再試一次。"
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>相片過大</b></big>\n"
+"密碼匙相片的建議大小為 %d × %d 像素。"
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "不要調整大小(_D)"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "調整大小(_R)"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr "這不是圖形檔，或是無法辨別的圖形檔類型。請改用 JPEG 檔。"
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "所有圖型檔"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "所有 JPEG 檔案"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "選擇加入至密碼匙的照片"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "無法加入相片"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "檔案無法載入。可能無效的格式"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "確定要將目前的門口照片永遠地刪除‘%s’的使用者 ID？"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "無法刪除相片"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "無法撤銷子鑰"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "撤銷: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "沒有原因"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "沒有撤銷密碼匙的原因"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "已洩漏"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "密碼匙已洩漏"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "已代換"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "密碼匙已被代換"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "沒有使用"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "密碼匙不再使用"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr "你要給%2$s 加入 %1$s 作為撤銷者。這動作無法回復！確定要繼續？"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "無法加入撤銷者"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"這個密碼匙已經由以下人士簽署\n"
+"「%s」"
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "無法簽署密碼匙"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "沒有密碼匙能用作簽署"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr "你沒有個人 PGP 密碼匙可以代表你信任此密碼匙。"
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "密語錯誤。"
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "輸入‘%s’的新密語"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "輸入‘%s’的密語"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "輸入新的密語"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "輸入密語"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "已載入 %d 個密碼匙"
+msgstr[1] "已載入 %d 個密碼匙"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "正在載入密碼匙…"
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr "無效的密碼匙資料（遺漏了 UID）。這可能是電腦的時間不準確，設為未來的時間；或是遺漏了自身的簽署。"
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "匯入密碼匙"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "匯出密碼匙"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "搜尋範圍過寬。伺服器“%s”中找到太多密碼匙。"
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "無法與伺服器‘%s’聯絡：%s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "正在搜尋密碼匙…"
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "正在上傳密碼匙…"
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "正在取得密碼匙…"
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "搜尋在 %s 的密碼匙"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "連接到：%s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "HTTP 密碼匙伺服器"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "無法與‘%s’溝通：%s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "無法解析位置：%s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "正在解析伺服器位址：%s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "正在搜尋含有‘%s’的密碼匙…"
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "正在搜尋 id 為‘%s’的密碼匙…"
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "正在取得遠端密碼匙…"
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "正在傳送密碼匙到密碼匙伺服器"
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP 密碼匙伺服器"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "簽署密碼匙(_S)…"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "簽署公開密碼匙"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "確定要永久地刪除 %s？"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "確定要將 %d 個密碼匙與身分識別永久地刪除嗎？"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "你確定要永久刪除 %d 個密碼匙？"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "你確定要永久刪除 %d 個身分識別？"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>進階密碼匙選項</b>(_A)"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "PGP 密碼匙允許你將給別人的電郵及檔案加密。"
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "演算法這裏"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "建立(_R)"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "有效日期(_X):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "加密類型(_T):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "產生新的密碼匙"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "密碼匙強度[位元](_S):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "永不過期(_V)"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "新增 PGP 密碼匙"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "附註(_C):"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Private PGP Key"
+msgstr "私人 PGP 密碼匙"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Public PGP Key"
+msgstr "公共 PGP 密碼匙"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "已過期"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "無法更改主要的使用者 ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "確定要永久地刪除‘%s’的使用者 ID？"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "無法刪除使用者 ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[不詳]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "名稱/電郵"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "簽署 ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "無法更改主要的相片"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "（不明）"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "此密碼匙的過期於：%s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "確定要永久地刪除 %2$s 的子鑰 %1$d？"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "無法刪除子鑰"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "無法更改信任度"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:290
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "無法匯出密碼匙至“%s”"
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "匯出整個密碼匙"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "無法匯出密碼匙。"
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "永不"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "類型"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "建立日期"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "有效日期"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "狀態"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "強度"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "良好"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>動作</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>附註：</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>日期</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>電郵：</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>指紋</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>密碼匙 ID：</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>密碼匙名稱及簽署</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+msgid "<b>Photo </b>"
+msgstr "<b>相片</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+msgid "<b>Technical Details</b>"
+msgstr "<b>技術資料</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>此密碼匙已被撤銷</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has expired</b>"
+msgstr "<b>此密碼匙的已經過期</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>類型:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:14
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:13
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>用作：</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>子鑰</b>(_S)"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+msgid "Add"
+msgstr "加入"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add a photo to this key"
+msgstr "加入照片至本密碼匙"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "更改密語(_P)"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "將傳給你的檔案及電郵解密。"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Delete"
+msgstr "刪除"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+msgid "Expire"
+msgstr "有效日期"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Expires:"
+msgstr "有效日期："
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+msgid "Export"
+msgstr "匯出"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Go to next photo"
+msgstr "往下一幅相片"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to previous photo"
+msgstr "回上一幅相片"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+msgid "Key ID:"
+msgstr "密碼匙 ID："
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+msgid "Make this photo the primary photo"
+msgstr "使本相片成為主要的相片"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Names and Signatures"
+msgstr "名稱及簽署"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Never"
+msgstr "永不"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+msgid "Override Owner _Trust:"
+msgstr "取締擁有者的信任度(_T):"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Owner"
+msgstr "擁有者"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+msgid "Primary"
+msgstr "主要"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Remove this photo from this key"
+msgstr "將此相片從本密碼匙中移除"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Revoke"
+msgstr "撤銷"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Sign"
+msgstr "簽署"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Strength:"
+msgstr "強度："
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "密碼匙的擁有者已將密碼匙撤銷。它不能繼續使用。"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+msgid "_Add Name"
+msgstr "加入名稱(_A)"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Export Complete Key:"
+msgstr "匯出整個密碼匙(_E):"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgctxt "name-of-key"
+msgid "<b>Name:</b>"
+msgstr "<b>名稱：</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>日期：</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>指紋：</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>信任度：</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>你信任此密碼匙</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>其它名稱：</b>(_O)"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>誰簽署此密碼匙(_P):</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "加密給密碼匙擁有者的檔案及電郵"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Fully"
+msgstr "完全的"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "我信任來自「%s」其它密碼匙的簽署。"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:26
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr "如果你信任擁有這個密碼匙的人是「%s」，<i>簽署</i>此密碼匙："
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:28
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr "如果你不再信任此「%s」擁有這個密碼匙，<i>撤銷</i>你的簽署："
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+msgid "Marginally"
+msgstr "勉強的"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "信任"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Ultimately"
+msgstr "徹底的"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "You _Trust the Owner:"
+msgstr "你信任擁有者(_T)"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "你的信任度是在<i>詳細資料</i>中自行設定。"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "只顯示我信任的人的簽署(_O)"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Revoke Signature"
+msgstr "撤銷簽署(_R):"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Sign this Key"
+msgstr "簽署此密碼匙(_S)"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "%2$s 的子鑰 %1$d"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "撤銷的描述（非必要）"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "撤銷(_V)"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "撤銷密碼匙的原因"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "原因(_R):"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr "你沒有  PGP 密碼匙可用作簽署文件或訊息。"
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>你要多小心地驗證本密碼匙？</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>其他人如何看到此簽署：</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>用作簽署的密碼匙：<b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr "<i>隨意：</i>代表你隨意地檢驗過密碼匙是由聲稱擁有它的人擁有。例如，你可以透過電話要求該人讀出密碼匙的數碼指紋。"
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>密碼匙名稱</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr "<i>沒關係：</i>代表你信任密碼匙是由聲稱擁有它的人所擁有，但實際上你不能或是沒有檢查它。"
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr "<i>非常小心：</i>只有你在完全信任此密碼匙為真時才選取此項。"
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "簽署代表你信任本密碼匙是屬於："
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "我可以在稍後時間撤銷此簽署(_R)"
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "簽署密碼匙"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr "你可以使用難以偽造的相片（像護照一樣）來辨認密碼匙的名稱是否正確。你同時應以電郵來檢查該電郵是否屬於該人擁有。"
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "隨意(_C)"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "沒關係(_N)"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "其他人可能無法看到此簽署(_O)"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "簽署(_S)"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "簽署者(_S)"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "非常小心(_V)"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "簽署信息的密碼匙(_S):"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "證書"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "確定要刪除這個證書「%s」？"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "確定要刪除 %d 個證書？"
+msgstr[1] "確定要刪除 %d 個證書？"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "更改密語"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "確認密語(_F):"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "確認新的密語"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "新的密語(_P):"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "管理密碼及密碼匙"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "密碼及加密密碼匙"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>選取想要建立的項目類型(_S):</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "繼續(_O)"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "建立新的…"
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "已選取 %d 個密碼匙"
+msgstr[1] "已選取 %d 個密碼匙"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:458
+msgid "Couldn't import keys"
+msgstr "無法匯入密碼匙"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:463
+msgid "Imported keys"
+msgstr "匯入的密碼匙"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "正在匯入密碼匙"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "匯入密碼匙"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "無法辨別的密碼匙類型，或是無效的資料格式"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "遠端(_R)"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "關閉本程式"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "新增(_N)…"
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "建立新的密碼匙或項目"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "匯入(_I)…"
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "由檔案匯入"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "從剪貼簿匯入"
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "尋找遠端密碼匙(_F)…"
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "在密碼匙伺服器尋找密碼匙"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "同步及發行密碼匙(_S)…"
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "在線時發行及/或將密碼匙同步"
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "類型(_Y)"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "顯示類型欄位"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "有效日期(_E)"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "顯示有效日期欄位"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "信任(_T)"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "顯示信任欄位"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "有效性(_V)"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "顯示有效性欄位"
+
+#: ../src/bastile-key-manager.c:931
+msgid "Filter:"
+msgstr "過濾條件:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>第一次執行選項：</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "產生你的密碼匙："
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "從檔案中匯入已存的密碼匙"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "我的個人密碼匙(_P)"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "其他密碼匙(_K)"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "開始加密前你需要擁有密碼匙。"
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:522
+msgid "_Import"
+msgstr "匯入(_I)"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "密碼(_P)"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:256
+msgid "Couldn't export keys"
+msgstr "無法匯出金錀"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "有效性"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "有效日期"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "關閉本視窗"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "全部展開(_E)"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "展開整個清單"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "全部收起(_C)"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "收起整個清單"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "遠端密碼匙"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "遠端密碼匙包含‘%s’"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>密碼匙伺服器：</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>附近的共享密碼匙：</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "尋找遠端密碼匙"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr "這樣會在互聯網上尋找給別人的密碼匙。然後這些密碼匙能匯入到你的本地密碼匙圈中。"
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "搜尋的地方："
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "搜尋(_S)"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "搜尋密碼匙包含(_S):"
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "無法發行密碼匙到伺服器"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "無法從伺服器中取得密碼匙：%s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>選擇了 %d 個密碼匙來進行同步</b>"
+msgstr[1] "<b>選擇了 %d 個密碼匙來進行同步</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "密碼匙正在同步…"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "密碼匙正在同步…"
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "密碼匙同步"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr "這會發行你的密碼匙到密碼匙伺服器，給其他人能使用。同樣你他們給你的密碼匙若有任何改變時，你也可以取得。"
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr "這樣他們給你的密碼匙若有任何改變時，你也可以取得。沒有選取密碼匙伺服器作發行，所以其它人不會有你的密碼匙。"
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "密碼匙伺服器(_K)"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "同步(_S)"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "這個應用程式的版本"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "密碼匙管理員"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "貢獻者:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"如對翻譯有任何意見，請送一封電子郵件給\n"
+"以下地址，MATE 翻譯隊伍會盡快回覆你：\n"
+"zh-l10n@lists.linux.org.tw\n"
+"\n"
+"Woodman Tuen <wmtuen@gmail.com>, 2005-07"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "Bastile 專案網頁"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:168
+msgid "_File"
+msgstr "檔案(_F)"
+
+#: ../src/bastile-viewer.c:169
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+#: ../src/bastile-viewer.c:170
+msgid "_View"
+msgstr "檢視(_V)"
+
+#: ../src/bastile-viewer.c:171
+msgid "_Help"
+msgstr "求助(_H)"
+
+#: ../src/bastile-viewer.c:173
+msgid "Prefere_nces"
+msgstr "偏好設定(_N)"
+
+#: ../src/bastile-viewer.c:174
+msgid "Change preferences for this program"
+msgstr "更改本程式的偏好設定"
+
+#: ../src/bastile-viewer.c:177
+msgid "About this program"
+msgstr "關於本程式"
+
+#: ../src/bastile-viewer.c:178
+msgid "_Contents"
+msgstr "內容(_C)"
+
+#: ../src/bastile-viewer.c:179
+msgid "Show Bastile help"
+msgstr "顯示 Bastile 的說明文件"
+
+#: ../src/bastile-viewer.c:276
+msgid "Export public key"
+msgstr "匯出公開密碼匙"
+
+#: ../src/bastile-viewer.c:296
+msgid "Exporting keys"
+msgstr "正在匯出密碼匙"
+
+#: ../src/bastile-viewer.c:321
+msgid "Couldn't retrieve data from key server"
+msgstr "無法從密碼匙伺服器中取得資料"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:340
+msgid "Copied keys"
+msgstr "複製的密碼匙"
+
+#: ../src/bastile-viewer.c:360
+msgid "Retrieving keys"
+msgstr "正在取得密碼匙"
+
+#: ../src/bastile-viewer.c:375
+msgid "Couldn't delete."
+msgstr "無法刪除。"
+
+#: ../src/bastile-viewer.c:409
+msgid "Deleting..."
+msgstr "正在刪除…"
+
+#: ../src/bastile-viewer.c:435
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s 是一個私密密碼匙。你確定要繼續？"
+
+#: ../src/bastile-viewer.c:483
+msgid "Importing keys from key servers"
+msgstr "從密碼匙伺服器匯入密碼匙"
+
+#: ../src/bastile-viewer.c:509
+msgid "Show properties"
+msgstr "顯示屬性"
+
+#: ../src/bastile-viewer.c:510
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "刪除(_D)"
+
+#: ../src/bastile-viewer.c:511
+msgid "Delete selected items"
+msgstr "刪除選取的項目"
+
+#: ../src/bastile-viewer.c:515
+msgid "E_xport..."
+msgstr "匯出(_X)…"
+
+#: ../src/bastile-viewer.c:516
+msgid "Export to a file"
+msgstr "匯出為檔案"
+
+#: ../src/bastile-viewer.c:518
+msgid "Copy to the clipboard"
+msgstr "複製到剪貼簿"
+
+#: ../src/bastile-viewer.c:523
+msgid "Import selected keys to local key ring"
+msgstr "匯入已選的密碼匙到本機密碼匙圈"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "輸入你的 SSH 密語:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "正在設定 _SSH 密碼匙…"
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr "將公共 SSH 密碼匙傳送給其它電腦，及能使用該密碼匙登入。"
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "確定要刪除 SSH 金錀「%s」？"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "確定要刪除 %d 個 SSH 密碼匙？"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "用作存取其它電腦（如終端機）"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "無法產生 SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "正在產生 SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr "<i>以你的電郵，及其他提示這密碼匙要來作甚麼。</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr "SSH (Secure Shell) 密碼匙能安全地連接使用 SSH 的電腦，而無需逐一輸入不同的密碼。"
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr "如果已有一臺電腦你想使用本密碼匙。現在可以設定電腦認識你的密碼匙。"
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "新增 SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "建立及設定(_C)"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "只是建立密碼匙(_J)"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "密碼匙描述(_K):"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "（不能讀取的 SSH 密碼匙）"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "無效"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "私人 SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "公共 SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "密碼匙無法重新命名。"
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "無法更改密碼匙的認證。"
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "無法更改密碼匙的密語。"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>演算法：</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>識別碼：</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>位置:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>名稱:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>強度：</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>信任</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>只會套用在‘%s’</i>帳戶。"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "匯出整個密碼匙(_X)"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "此密碼匙的擁有者被授權連接本電腦(_A)"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "用作連接其它電腦。"
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH 指令在無法預期下中止。"
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "SSH 指令失敗。"
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "密語："
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "遠端主機密碼 "
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "舊密碼匙密語"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "輸入 %s 的舊密語"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "新的密碼匙密語"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "輸入 %s 的新密語"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "輸入密碼匙密語"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "新的 SSH 密碼匙的密語"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "輸入新的 SSH 密碼匙的密語。"
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "匯入密碼匙：%s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "正在匯入密碼匙，請輸入密語"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "這個密碼匙沒有可用的私密密碼匙。"
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "在遠端電腦無法設定 SSH 密碼匙"
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "正在設定 SSH 密碼匙"
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>例如：fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "設定電腦的 SSH 連線"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr "要在其他的電腦使用你的 SSH 密碼匙，你需要有該電腦的登入帳號。"
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "電腦名稱(_C):"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "登入名稱(_L):"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "設定(_S)"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "無法共享金鑰"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "無法在網路上發行尋找資訊。"
+
+#~ msgid "%s's encryption keys"
+#~ msgstr "%s 的密鑰"
+
+#~ msgid "Key Sharing"
+#~ msgstr "金鑰共享"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "共享金鑰允許其他人使用您搜集的金鑰。這代表他們加密東西給您，或是您認識的，"
+#~ "而無需您的將金鑰傳給他們。\n"
+#~ "\n"
+#~ "<b>注意：</b>您的金鑰不會受損害。"
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "在我的網路中共享我的金鑰(_S)"
+
+#~ msgid "Bastile Daemon"
+#~ msgstr "Bastile 伺服程式"
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>選擇了 X 個金鑰來進行同步</b>"
+
+#~ msgid ""
+#~ "One or more of the deleted keys are private keys. Are you sure you want "
+#~ "to proceed?"
+#~ msgstr "一或多個刪除的金鑰為私密金鑰。您確定要繼續執行？"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "建立 PGP 金鑰"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "不詳\n"
+#~ "永不\n"
+#~ "勉強\n"
+#~ "完全\n"
+#~ "徹底"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "不詳\n"
+#~ "永不\n"
+#~ "勉強地\n"
+#~ "完全地\n"
+#~ "徹底地"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "其它搜集的金鑰"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "信任的金鑰(_T)"
+
+#~ msgid "_About"
+#~ msgstr "關於(_A)"
+
+#~ msgid "P_roperties"
+#~ msgstr "屬性(_R)"
+
+#~ msgid "_Copy"
+#~ msgstr "複製(_C)"
+
+#~ msgid "Retrieving key"
+#~ msgstr "取得金鑰"
+
+#~ msgid "Removing item"
+#~ msgstr "正在移除項目"
+
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>當使用者登入時自動解鎖。</i>"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "無法取得預設的密碼鑰匙圈"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "無法取得密碼鑰匙圈的清單"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "無法移除金鑰"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "確定要永久地刪除‘%s’鑰匙圈？"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>預設鑰匙圈</b>"
+
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>密碼鑰匙圈</b>"
+
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "密碼及加密設定值"
+
+#~ msgid "_Add Keyring"
+#~ msgstr "加入鑰匙圈(_A)"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "移除鑰圈(_R)"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "不明的金鑰：%s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "不明的金鑰"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "不存在的金鑰"
+
+#~ msgid "X509 Certificate"
+#~ msgstr "X509 憑證"
+
+#~ msgid "Loading..."
+#~ msgstr "載入中…"
+
+#~ msgid "Invalid or unrecognized object."
+#~ msgstr "無效或無法碓認的物件。"
+
+#~ msgid "Exporting is not yet supported."
+#~ msgstr "匯出功能尚未支援。"
+
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "%2$s %1$d 個子金鑰的有效日期"
+
+#~ msgid "_Quit"
+#~ msgstr "結束(_Q)"
+
+#~ msgid "Create a new personal key"
+#~ msgstr "建立新的個人金鑰"
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "從檔案將金鑰匯入鑰匙圈"
+
+#~ msgid "_Close"
+#~ msgstr "關閉(_C)"
+
+#~ msgid "Secure Shell Passphrase"
+#~ msgstr "SSH 密語"
+
+#~ msgid "Secure Shell Key Passphrase"
+#~ msgstr "SSH 金鑰密語"
+
+#~ msgid "Enter the passphrase for: %s"
+#~ msgstr "輸入 %s 的密語"
+
+#~ msgid "Save this passphrase in my keyring"
+#~ msgstr "在鑰匙圈中儲存此密語"
+
+#~ msgid "_Key"
+#~ msgstr "金鑰(_K)"
+
+#~ msgid "E_xport Public Key..."
+#~ msgstr "匯出公鑰(_X)…"
+
+#~ msgid "_Copy Public Key"
+#~ msgstr "複製公鑰(_C)"
+
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "將已選金鑰的公共部份複製到剪貼薄"
+
+#~ msgid "_Delete Key"
+#~ msgstr "刪除金鑰(_D)"
+
+#~ msgid "Please enter a passphrase to use."
+#~ msgstr "請輸入密語來使用。"
+
+#~ msgid "Unparseable Key ID"
+#~ msgstr "無法分析的金鑰 ID"
+
+#~ msgid "Unknown/Invalid Key"
+#~ msgstr "不明/無效的金鑰"
+
+#~ msgid "PGP Key: %s"
+#~ msgstr "PGP 金鑰：%s"
+
+#~ msgid ""
+#~ "<b>Warning</b>: Your system is not configured to cache passphrases in "
+#~ "secure memory."
+#~ msgstr "<b>警告</b>：您的系統沒有設定在安全的記憶體下使用密語快取。"
+
+#~ msgid "Cache _Preferences"
+#~ msgstr "快取偏好設定(_P)"
+
+#~ msgid "Cached Encryption Keys"
+#~ msgstr "已使用快取的加密金鑰"
+
+#~ msgid "Change passphrase cache settings."
+#~ msgstr "更改密語快取設定。"
+
+#~ msgid "Clear passphrase cache"
+#~ msgstr "清除密語快取"
+
+#~ msgid "_Clear Cache"
+#~ msgstr "清除快取(_C)"
+
+#~ msgid "_Show Window"
+#~ msgstr "顯示視窗(_S)"
+
+#~ msgid "Do not daemonize bastile-agent"
+#~ msgstr "不以服務程式形式執行 bastile-agent"
+
+#~ msgid "Print variables in for a C type shell"
+#~ msgstr "以 C shell 形式列印變數"
+
+#~ msgid "Display environment variables (the default)"
+#~ msgstr "顯示環境變數 (預設值)"
+
+#~ msgid "Allow GPG agent request from any display"
+#~ msgstr "允許來自任何畫面的 GPG 代理的要求"
+
+#~ msgid "command..."
+#~ msgstr "指令…"
+
+#~ msgid "Encryption Key Agent (Bastile)"
+#~ msgstr "金鑰代理程式 (Bastile)"
+
+#~ msgid "no command specified to execute"
+#~ msgstr "沒有指定執行的指令"
+
+#~ msgid "Authorize Passphrase Access"
+#~ msgstr "授權密語存取"
+
+#~ msgid "The passphrase is cached in memory."
+#~ msgstr "密語在記憶體進行快取。"
+
+#~ msgid "Always ask me before using a cached passphrase"
+#~ msgstr "在使用密語快取前先總是詢問"
+
+#~ msgid "_Authorize"
+#~ msgstr "認證(_A)"
+
+#~ msgid "Key Name"
+#~ msgstr "金鑰名稱"
+
+#~ msgid ""
+#~ "After performing an decrypt or verify operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr "在面板程式進行解密或檢驗後，在視窗中顯示結果。"
+
+#~ msgid ""
+#~ "After performing an encrypt or signing operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr "在面板程式進行加密或簽署後，在視窗中顯示結果。"
+
+#~ msgid "Display cache reminder in the notification area"
+#~ msgstr "在面板通知區中顯示快取提示"
+
+#~ msgid "Display clipboard after decrypting"
+#~ msgstr "解密後顯示剪貼簿"
+
+#~ msgid "Display clipboard after encrypting"
+#~ msgstr "加密後顯示剪貼簿"
+
+#~ msgid "Expire passwords in the cache"
+#~ msgstr "密碼在快取中過期"
+
+#~ msgid ""
+#~ "If set to 'mate' uses mate-keyring to cache passwords. When set to "
+#~ "'internal' uses internal cache."
+#~ msgstr ""
+#~ "如設定為‘mate’，使用 mate-keyring 進行密碼快取。設定為‘internal’，則使用"
+#~ "內部快取。"
+
+#~ msgid "Prompt before using GPG passwords in cache"
+#~ msgstr "在快取中使用 GPG 密碼前詢問"
+
+#~ msgid ""
+#~ "Reflect the contents of the clipboard (whether encrypted, signed, etc...) "
+#~ "in the panel applet icon."
+#~ msgstr "在面版程式的圖示中反映剪貼簿的內容（是加密，簽署等…）"
+
+#~ msgid ""
+#~ "Set to 'true' to enable display of the cache reminder in the notification "
+#~ "area of your panel."
+#~ msgstr "設定為‘true’則會在面板通知區上顯示快取提示。"
+
+#~ msgid ""
+#~ "Set to 'true' to have bastile-agent prompt before giving out passwords "
+#~ "it has cached."
+#~ msgstr "設定為‘true’時 bastile-agent 在將密碼傳給快取前會提示。"
+
+#~ msgid "Show clipboard state in panel"
+#~ msgstr "在面板中顯示剪貼簿狀態"
+
+#~ msgid "The time (in minutes) to cache GPG passwords"
+#~ msgstr "快取 GPG 密碼的時間（以分鐘計算）"
+
+#~ msgid ""
+#~ "This is the amount of time, specified in minutes, to cache GPG passwords "
+#~ "in bastile-agent."
+#~ msgstr "這是時間的總數，以分鐘計算，用作在 bastile-agent 的GPG 密碼快取。"
+
+#~ msgid ""
+#~ "This option enables the GPG password cache in the bastile-agent program. "
+#~ "The 'use-agent' setting in gpg.conf affects this setting."
+#~ msgstr ""
+#~ "本選項會允許在 bastile-agent 進行GPG 密碼快取。在 gpg-conf 中的‘use-"
+#~ "agent’設定會影響本設定"
+
+#~ msgid ""
+#~ "When set, bastile-agent expires GPG passwords in its cache after a "
+#~ "period of time."
+#~ msgstr "設定後， bastile 在快取中的 GPG 密碼會在一段間後過期。"
+
+#~ msgid "Whether the GPG password cache is enabled"
+#~ msgstr "是否啟用 GPG 密碼快取"
+
+#~ msgid "None. Prompt for a key."
+#~ msgstr "沒有。詢問使用那個金鑰。"
+
+#~ msgid "<b>Default Key</b>"
+#~ msgstr "<b>預設金鑰</b>"
+
+#~ msgid "<b>Remember PGP Passphrases</b>"
+#~ msgstr "<b>記錄 PGP 密語</b>"
+
+#~ msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+#~ msgstr "<i>支援的 PGP 快取代理程式並未執行。</i>"
+
+#~ msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+#~ msgstr "<i>如沒有選取其它金鑰，則會使用此金鑰來簽署訊息</i>"
+
+#~ msgid "As_k me before using a cached passphrase"
+#~ msgstr "在使用密語快取前先詢問(_K)"
+
+#~ msgid "Encryption"
+#~ msgstr "加密"
+
+#~ msgid "PGP Passphrases"
+#~ msgstr "PGP 密語"
+
+#~ msgid "Show _icon in status area when passphrases are in memory"
+#~ msgstr "當密語存在記憶體時於狀態區顯示圖示(_I)"
+
+#~ msgid "When _encrypting, always include myself as a recipient"
+#~ msgstr "加密時，總是將自己加入為收件人之一(_E)"
+
+#~ msgid "_Always remember passphrases whenever logged in"
+#~ msgstr "每次登入後總是記錄密碼(_A)"
+
+#~ msgid "_Default key:"
+#~ msgstr "預設金鑰(_D):"
+
+#~ msgid "_Never remember passphrases"
+#~ msgstr "永不記錄密語"
+
+#~ msgid "_Remember passphrases for"
+#~ msgstr "密語記錄在(_R)"
+
+#~ msgid "Couldn't set permissions on backup file."
+#~ msgstr "無法設定備份檔的權限。"
+
+#~ msgid "Clipboard Text Encryption"
+#~ msgstr "剪貼簿文字加密"
+
+#~ msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+#~ msgstr "加密，解密或簽署剪貼簿（使用 PGP 形式加密）"
+
+#~ msgid "Bastile Applet Factory"
+#~ msgstr "Bastile 面板程式工廠"
+
+#~ msgid "_Preferences"
+#~ msgstr "偏好設定(_P)"
+
+#~ msgid "bastile-applet"
+#~ msgstr "bastile-applet"
+
+#~ msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+#~ msgstr "使用 PGP/GPG來加密/解密/簽署/驗證/匯入剪貼簿"
+
+#~ msgid "Choose Recipient Keys"
+#~ msgstr "選擇收件人金鑰"
+
+#~ msgid "Encrypted Text"
+#~ msgstr "已加密文字"
+
+#~ msgid "Encryption Failed"
+#~ msgstr "加密失敗"
+
+#~ msgid "The clipboard could not be encrypted."
+#~ msgstr "剪貼簿無法加密。"
+
+#~ msgid "Choose Key to Sign with"
+#~ msgstr "選取用作簽署的金鑰"
+
+#~ msgid "Signed Text"
+#~ msgstr "已簽署文字"
+
+#~ msgid "Signing Failed"
+#~ msgstr "簽署失敗"
+
+#~ msgid "The clipboard could not be Signed."
+#~ msgstr "剪貼簿無法簽署。"
+
+#~ msgid "Import Failed"
+#~ msgstr "匯入失敗"
+
+#~ msgid "Keys were found but not imported."
+#~ msgstr "找到金鑰但沒有匯入。"
+
+#~ msgid "Decrypting Failed"
+#~ msgstr "解密失敗"
+
+#~ msgid "Text may be malformed."
+#~ msgstr "文字可能已變形。"
+
+#~ msgid "No PGP key or message was found on clipboard"
+#~ msgstr "剪貼簿中沒有 PGP 金鑰或訊息"
+
+#~ msgid "No PGP data found."
+#~ msgstr "找不到 PGP 資料。"
+
+#~ msgid "Decrypted Text"
+#~ msgstr "已解密文字"
+
+#~ msgid "Could not display the help file"
+#~ msgstr "無法顯示說明文件"
+
+#~ msgid "_Encrypt Clipboard"
+#~ msgstr "加密剪貼薄(_E)"
+
+#~ msgid "_Sign Clipboard"
+#~ msgstr "簽署剪貼薄(_S)"
+
+#~ msgid "_Decrypt/Verify Clipboard"
+#~ msgstr "解密/驗證剪貼薄後(_D)"
+
+#~ msgid "_Import Keys from Clipboard"
+#~ msgstr "從剪貼薄匯入金鑰(_I)"
+
+#~ msgid "Encryption Applet"
+#~ msgstr "加密面板程式"
+
+#~ msgid "<b>Display clipboard contents after:</b>"
+#~ msgstr "<b>顯示剪貼簿內容於：</b>"
+
+#~ msgid "Clipboard Encryption Preferences"
+#~ msgstr "剪貼簿加密偏好設定"
+
+#~ msgid "_Decrypting or verifying the clipboard"
+#~ msgstr "解密或驗證剪貼簿(_D)"
+
+#~ msgid "_Encrypting or signing the clipboard"
+#~ msgstr "加密或簽署剪貼簿後(_E)"
+
+#~ msgid "_Show clipboard state in panel"
+#~ msgstr "在面板中顯示剪貼薄狀態(_S)"
+
+#~ msgid "_Encrypt"
+#~ msgstr "加密(_E)"
+
+#~ msgid "_Decrypt/Verify"
+#~ msgstr "解密/驗證(_D)"
+
+#~ msgid "_Import Key"
+#~ msgstr "匯入金鑰(_I)"
+
+#~ msgid "Couldn't connect to bastile-daemon"
+#~ msgstr "無法連接 bastile-daemon"
+
+#~ msgid "Encrypted text"
+#~ msgstr "已加密的文字"
+
+#~ msgid "Couldn't encrypt text"
+#~ msgstr "無法將文字加密"
+
+#~ msgid "Keys found but not imported"
+#~ msgstr "找到金鑰但沒有匯入"
+
+#~ msgid "Couldn't decrypt text"
+#~ msgstr "無法將文字解密"
+
+#~ msgid "Couldn't verify text"
+#~ msgstr "無法驗證文字"
+
+#~ msgid "No encrypted or signed text is selected."
+#~ msgstr "沒有選取任何已加密或簽署的文字。"
+
+#~ msgid "Decrypted text"
+#~ msgstr "已解密文字"
+
+#~ msgid "Verified text"
+#~ msgstr "已驗證文字"
+
+#~ msgid "Imported %d key"
+#~ msgid_plural "Imported %d keys"
+#~ msgstr[0] "已匯入 %d 個金鑰"
+#~ msgstr[1] "已匯入 %d 個金鑰"
+
+#~ msgid "Signed text"
+#~ msgstr "已簽署文字"
+
+#~ msgid "Couldn't sign text"
+#~ msgstr "無法簽署文字"
+
+#~ msgid "_Encrypt..."
+#~ msgstr "加密(_E)…"
+
+#~ msgid "Encrypt the selected text"
+#~ msgstr "將已選的文字加密"
+
+#~ msgid "Decr_ypt/Verify"
+#~ msgstr "解密/驗證(_Y)"
+
+#~ msgid "Decrypt and/or Verify text"
+#~ msgstr "解密及/或驗證文字"
+
+#~ msgid "Sig_n..."
+#~ msgstr "簽署(_N)…"
+
+#~ msgid "Sign the selected text"
+#~ msgstr "簽署已選的文字"
+
+#~ msgid "Enable the bastile encryption plugin for pluma."
+#~ msgstr "啟用給 pluma 的 bastile 加密外掛程式。"
+
+#~ msgid "Enable the bastile pluma plugin"
+#~ msgstr "啟用 bastile pluma 外掛程式"
+
+#~ msgid "Text Encryption"
+#~ msgstr "文字加密"
+
+#~ msgid "This plugin performs encryption operations on text."
+#~ msgstr "這外掛程式進行文字的加密動作。"
+
+#~ msgid "Encrypt..."
+#~ msgstr "加密…"
+
+#~ msgid "Encrypt (and optionally sign) the selected file"
+#~ msgid_plural "Encrypt the selected files"
+#~ msgstr[0] "將已選的檔案加密（及選擇性地簽署）"
+#~ msgstr[1] "將已選的壓縮檔加密"
+
+#~ msgid "Sign the selected file"
+#~ msgid_plural "Sign the selected files"
+#~ msgstr[0] "簽署已選檔案"
+#~ msgstr[1] "簽署已選檔案"
+
+#~ msgid "For internal use"
+#~ msgstr "內部使用"
+
+#~ msgid "Encryption Preferences"
+#~ msgstr "加密偏好設定"
+
+#~ msgid "Configure key servers and other encryption settings"
+#~ msgstr "配置金鑰伺服器及加密設定"
+
+#~ msgid "Encryption and Keyrings"
+#~ msgstr "加密與鑰匙圈"
+
+#~ msgid "Encrypt file"
+#~ msgstr "加密檔案"
+
+#~ msgid "Sign file with default key"
+#~ msgstr "以預設的金鑰簽署"
+
+#~ msgid "Encrypt and sign file with default key"
+#~ msgstr "以預設金鑰加密及簽署檔案"
+
+#~ msgid "Decrypt encrypted file"
+#~ msgstr "解密已加密的檔案"
+
+#~ msgid "Verify signature file"
+#~ msgstr "驗證簽章檔"
+
+#~ msgid "Read list of URIs on standard in"
+#~ msgstr "在標準輸入中讀取 URI 清單"
+
+#~ msgid "file..."
+#~ msgstr "檔案…"
+
+#~ msgid "Choose Recipients"
+#~ msgstr "選擇收件人"
+
+#~ msgid "Couldn't load keys"
+#~ msgstr "無法載入金鑰"
+
+#~ msgid "Choose Encrypted File Name for '%s'"
+#~ msgstr "選取‘%s’加密後的檔案名稱"
+
+#~ msgid "Choose Signer"
+#~ msgstr "選擇簽章者"
+
+#~ msgid "Choose Signature File Name for '%s'"
+#~ msgstr "選取‘%s’的簽章檔案名稱"
+
+#~ msgid "Import is complete"
+#~ msgstr "匯出已完成"
+
+#~ msgid "Importing keys ..."
+#~ msgstr "正在匯入金鑰…"
+
+#~ msgid "Choose Decrypted File Name for '%s'"
+#~ msgstr "選取‘%s’解密後的檔案名稱"
+
+#~ msgid "Choose Original File for '%s'"
+#~ msgstr "選取‘%s’原始檔案名稱"
+
+#~ msgid "No valid signatures found"
+#~ msgstr "找不到有效的簽章"
+
+#~ msgid "File Encryption Tool"
+#~ msgstr "檔案加密工具"
+
+#~ msgid "Encrypting"
+#~ msgstr "加密中"
+
+#~ msgid "Couldn't encrypt file: %s"
+#~ msgstr "無法將檔案加密：%s"
+
+#~ msgid "Signing"
+#~ msgstr "簽署中"
+
+#~ msgid "Couldn't sign file: %s"
+#~ msgstr "無法簽署檔案：%s"
+
+#~ msgid "Importing"
+#~ msgstr "匯入中"
+
+#~ msgid "Couldn't import keys from file: %s"
+#~ msgstr "無法從檔案匯入金鑰：%s"
+
+#~ msgid "Decrypting"
+#~ msgstr "解密中"
+
+#~ msgid "Couldn't decrypt file: %s"
+#~ msgstr "無法將檔案解密：%s"
+
+#~ msgid "Verifying"
+#~ msgstr "驗證中"
+
+#~ msgid "Couldn't verify file: %s"
+#~ msgstr "無法驗證檔案：%s"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace 格式 (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar 格式 (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj 格式 (.arj)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear 格式 (.ear)"
+
+#~ msgid "Self-extracting zip (.exe)"
+#~ msgstr "自動解壓縮 zip 檔 (.exe)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar 格式 (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha 格式 (.lzh)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar 格式 (.rar)"
+
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "未壓縮的 Tar 格式 (.tar)"
+
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "使用 bzip 壓縮的 Tar 檔案 (.tar.bz)"
+
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "使用 bzip2 壓縮的 Tar 檔案 (.tar.bz2)"
+
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "使用 gzip 壓縮的 Tar 檔案 (.tar.gz)"
+
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "使用 lzop 壓縮的 Tar 檔案 (.tar.lzo)"
+
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "使用 compress 壓縮的 Tar 檔案 (.tar.Z)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War 格式 (.war)"
+
+#~ msgid "Zip (.zip)"
+#~ msgstr "Zip 格式 (.zip)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo 格式 (.zoo)"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip 格式 (.7z)"
+
+#~ msgid "You have selected %d file "
+#~ msgid_plural "You have selected %d files "
+#~ msgstr[0] "您選取了 %d 個檔案"
+#~ msgstr[1] "您選取了 %d 個檔案"
+
+#~ msgid "and %d folder"
+#~ msgid_plural "and %d folders"
+#~ msgstr[0] "及 %d 個資料夾"
+#~ msgstr[1] "及 %d 個資料夾"
+
+#~ msgid "<b>%s%s</b>"
+#~ msgstr "<b>%s%s</b>"
+
+#~ msgid "You have selected %d files"
+#~ msgstr "您選取了 %d 個檔案"
+
+#~ msgid "You have selected %d folder"
+#~ msgid_plural "You have selected %d folders"
+#~ msgstr[0] "您選取了 %d 個資料夾"
+#~ msgstr[1] "您選取了 %d 個資料夾"
+
+#~ msgid "Couldn't list files"
+#~ msgstr "無法列出檔案"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "無法讀取檔案"
+
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "將金鑰備份至壓縮檔"
+
+#~ msgid "bastile"
+#~ msgstr "Bastile"
+
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "備份鑰匙圈(_B)…"
+
+#~ msgid "Back up all keys"
+#~ msgstr "備份所有金鑰"
+
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "設定電腦的 _SSH…"
+
+#~ msgid "User ID"
+#~ msgstr "使用者 ID"
+
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "無法取得金鑰資料"
+
+#~ msgid "Couldn't write key to file"
+#~ msgstr "金鑰無法儲存至檔案"
+
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "無法將金鑰匯入至鑰匙圈中"
+
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "無法將金鑰寫入至檔案：%s"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "儲存遠端金鑰"
+
+#~ msgid "No matching keys found"
+#~ msgstr "找不到相符的金鑰"
+
+#~ msgid "Save Key As..."
+#~ msgstr "另存金鑰為…"
+
+#~ msgid "Save selected keys as a file"
+#~ msgstr "儲存金鑰為檔案"
+
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "遠端加密金鑰"
+
+#~ msgid "<b>You have selected multiple files or folders</b>"
+#~ msgstr "<b>您選取了多個檔案或資料夾</b>"
+
+#~ msgid ""
+#~ "Because the files are located remotely, each file will be encrypted "
+#~ "separately."
+#~ msgstr "由於檔案位於在遠端，因此會分開每個檔案加密。"
+
+#~ msgid "Encrypt Multiple Files"
+#~ msgstr "加密多個檔案"
+
+#~ msgid "Encrypt each file separately"
+#~ msgstr "每個檔案分開加密"
+
+#~ msgid "Encrypt packed together in a package"
+#~ msgstr "加密及封裝在同一個套件中"
+
+#~ msgid "Package Name:"
+#~ msgstr "套件名稱："
+
+#~ msgid "Packaging:"
+#~ msgstr "封裝形式："
+
+#~ msgid "encrypted-package"
+#~ msgstr "encrypted-package"
+
+#~ msgid "Decrypt File"
+#~ msgstr "解密檔案"
+
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "已檢查該金鑰屬於‘%s’"
+
+#~ msgid "Verify Signature"
+#~ msgstr "驗證簽章"
+
+#~ msgid "couldn't read gpg configuration, will try to create"
+#~ msgstr "無法讀取 gpg 設定，會嘗設建立"
+
+#~ msgid "couldn't modify gpg configuration: %s"
+#~ msgstr "無法修改 gpg 設定：%s"
+
+#~ msgid ""
+#~ "Display variables instead of editing conf files (gpg.conf, SSH agent "
+#~ "socket)"
+#~ msgstr "以顯示變數取代編輯 conf 檔案 (gpg.conf, SSH agent socket)"
+
+#~ msgid "couldn't drop privileges properly"
+#~ msgstr "無法正確地消除權限"
+
+#~ msgid ""
+#~ "When set bastile-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+#~ msgstr ""
+#~ "設定後 bastile-agent 在需要時會嘗試自動載入使用者的 SSH 金鑰。這跟使用"
+#~ "ssh-add 工具的效果一樣。"
+
+#~ msgid "Whether to automatically load SSH keys on demand."
+#~ msgstr "需要時是否自動載入 SSH 金鑰。"
+
+#~ msgid "Couldn't open the Session Properties"
+#~ msgstr "無法開啟階段屬性"
+
+#~ msgid "Couldn't start the 'bastile-agent' program"
+#~ msgstr "無法執行‘bastile-agent’程式"
+
+#~ msgid "The 'bastile-agent' program exited unsuccessfully."
+#~ msgstr "‘bastile-agent’程式未能成功離開。"
+
+#~ msgid ""
+#~ "<b>Note:</b> The 'bastile-agent' program has been started. This program "
+#~ "is necessary in order to cache passphrases. "
+#~ msgstr ""
+#~ "<b>注意：</b>‘bastile-agent’程式已經執行。使用密語快取時需要這程式。"
+
+#~ msgid "<b>Secure Shell Keys</b>"
+#~ msgstr "<b>SSH 金鑰</b>"
+
+#~ msgid ""
+#~ "<b>Warning:</b> The 'bastile-agent' program is not running. This program "
+#~ "is necessary in order to cache passphrases. "
+#~ msgstr ""
+#~ "<b>警告：</b>‘bastile-agent’程式並沒有執行。使用密語快取時所需要這程式。"
+
+#~ msgid ""
+#~ "<i>No SSH caching agent is running. Cannot load Secure Shell keys.</i>"
+#~ msgstr "<i>沒有 SSH 代理程式正在運行，無法載入 SSH 金鑰。</i>"
+
+#~ msgid "Automatically load _Secure Shell keys"
+#~ msgstr "自動載入 _SSH 金鑰"
+
+#~ msgid "Passphrase Cache"
+#~ msgstr "密語快取"
+
+#~ msgid "Session Properties"
+#~ msgstr "階段屬性"
+
+#~ msgid ""
+#~ "To avoid manually starting the 'bastile-agent' in the future\n"
+#~ "add it to the Session Manager. "
+#~ msgstr ""
+#~ "為了以後無需每次都要自行執行‘bastile-agent’，\n"
+#~ "將其加入到作業階段管理員。"
+
+#~ msgid "<b>Progress Message</b>"
+#~ msgstr "<b>進度信息</b>"
+
+#~ msgid "Progress Status"
+#~ msgstr "進度狀態"
+
+#~ msgid "Cursor Position"
+#~ msgstr "游標位置"
+
+#~ msgid "The current position of the insertion cursor in chars"
+#~ msgstr "游標目前的位置，以字元計。"
+
+#~ msgid "Selection Bound"
+#~ msgstr "選取邊界"
+
+#~ msgid ""
+#~ "The position of the opposite end of the selection from the cursor in chars"
+#~ msgstr "所選取的部份中，游標到另一端位置的距離（字元為單位）"
+
+#~ msgid "Maximum length"
+#~ msgstr "最大長度"
+
+#~ msgid "Maximum number of characters for this entry. Zero if no maximum"
+#~ msgstr "輸入欄中字元數目的上限。0 為沒有上限"
+
+#~ msgid "Has Frame"
+#~ msgstr "有框架"
+
+#~ msgid "FALSE removes outside bevel from entry"
+#~ msgstr "FALSE 可將外部裝飾"
+
+#~ msgid "Invisible character"
+#~ msgstr "隱形字元"
+
+#~ msgid ""
+#~ "The character to use when masking entry contents (in \"password mode\")"
+#~ msgstr "用來遮蓋輸入內容的字元（在「密碼模式」裡）"
+
+#~ msgid ""
+#~ "Whether to activate the default widget (such as the default button in a "
+#~ "dialog) when Enter is pressed"
+#~ msgstr "當按下 Enter 鍵時，是否啟動預設視窗元件（例如對話盒的按鈕）"
+
+#~ msgid "Width in chars"
+#~ msgstr "寬度（以字元計算）"
+
+#~ msgid "Number of characters to leave space for in the entry"
+#~ msgstr "輸入元件中預留的空白長度（單位為字元）"
+
+#~ msgid "Scroll offset"
+#~ msgstr "捲動偏移"
+
+#~ msgid "Number of pixels of the entry scrolled off the screen to the left"
+#~ msgstr "輸入元件相對於螢幕向左捲動偏移的程度（單位為像素）"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "The contents of the entry"
+#~ msgstr "輸入的內容"
+
+#~ msgid "Visibility"
+#~ msgstr "可見狀態"
+
+#~ msgid "Whether contents are drawn using invisible character"
+#~ msgstr "內容是否以透明的字元顯示"
+
+#~ msgid "Key type / algorithm"
+#~ msgstr "金鑰類型 / 演算法"
+
+#~ msgid "<b>Login:</b>"
+#~ msgstr "<b>登入：</b>"
+
+#~ msgid "<b>Server:</b>"
+#~ msgstr "<b>伺服器：</b>"
+
+#~ msgid "[Type here]"
+#~ msgstr "[在這裡輸入]"
+
+#~ msgid "[Use here]"
+#~ msgstr "[使用這裡]"
+
+#~ msgid "[details]\n"
+#~ msgstr "[詳細資料]\n"
+
+#~ msgid "[login]"
+#~ msgstr "[登入]"
+
+#~ msgid "[server]"
+#~ msgstr "[伺服器]"
+
+#~ msgid "This key expired on: (placeholder)"
+#~ msgstr "此金鑰過期於：(placeholder)"

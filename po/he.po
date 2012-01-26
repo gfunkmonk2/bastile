@@ -1,0 +1,3523 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Yair Hershkovitz <yairhr@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-20 17:50+0200\n"
+"PO-Revision-Date: 2011-01-20 17:51+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Do not run bastile-daemon as a daemon"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "couldn't fork process"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "couldn't create new process group"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "מנוע הצפנה (Bastile)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "סוג מפתח לא תקין או לא מוכר: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "סוג מפתח זה אינו נתמך: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "התמיכה בתכונה זו לא הופעלה בזמן הידור קוד המקור"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "מפתח לא תקין או לא מוכר: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "נחתם על ידי <i><key id='%s'/> <b>פג</b></i> ב־%s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "חתימה לא תקינה"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "נחתם על ידי <i><key id='%s'/></i> ב־%s <b>פג</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "חתימה לא בתוקף"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "נחתם על ידי <i><key id='%s'/> <b>נשלל</b></i> ב־%s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "חתימה מבוטלת"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "נחתם על ידי <i><key id='%s'/></i> ב־%s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "חתימה טובה"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "מפתח החתימה אינו בקבוצת המפתחות"
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "חתימה לא ידועה"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "חתימה לא טובה או מזוייפת. המידע החתום שונה."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "חתימה לא טובה"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "לא ניתן לוודא חתימה."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "חותם לא תקין או לא מוכר: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "המפתח אינו תקף עבור חתימה: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "נמען לא תקף או לא מוכר: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "המפתח אינו נמען תקף עבור הצפנה: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "לא צויינו נמענים"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "סוג מפתח לא תקף עבור פענוח: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "נא להגדיר clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "נא להגדיר crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "שגיאה בפתיחת clearuri"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "לא צויין חותם"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "סוג מפתח לא תקף עבור וידוא: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "מזהה מפתח לא תקף: %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Auto Retrieve Keys"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Auto Sync Keys"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Controls the visibility of the expires column for the key manager."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Controls the visibility of the trust column for the key manager."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Controls the visibility of the type column for the key manager."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Controls the visibility of the validity column for the key manager."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Enable DNS-SD sharing"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "ID of the default key"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Last key server search pattern"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Last key servers used"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Last key used to sign a message."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP Key servers"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Publish keys to this key server."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Show expires column in key manager"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Show trust column in key manager"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Show type column in key manager"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Show validity column in key manager"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "The ID of the last secret key used to sign a message."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "The column to sort the recipients by"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "The column to sort the bastile keys by"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "The last search pattern searched for against a key server."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"This specifies the default key to use for certain operations, mainly signing."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr ""
+"Whether or not keys should be automatically retrieved from key servers."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Whether to always encrypt to default key"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Whether to use ASCII Armor"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "הוספת קבוצת ססמאות"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "שם קבוצת המפתחות החדשה:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr "נא לבחור שם עבור קבוצת המפתחות החדשה. תוצג בפניך שאלה לססמת השחרור."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "שם המארח או כתובת השרת."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "לא ניתן להוסיף קבוצת מפתחות"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "הוספת ססמה"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:15 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_תיאור:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_קבוצת מפתחות:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_ססמה:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "הצגת _ססמה"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "ססמת Web"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "ססמת רשת"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "ססמה"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "האם למחוק את הססמה '%s'?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "האם ברצונך למחוק ססמה אחת?"
+msgstr[1] "האם ברצונך למחוק %d ססמאות?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "גישה לשיתוף או משאב ברשת"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "גישה לאתר אינטרנט"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "לשחרור מפתח PGP"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "לשחרור מפתח SSH"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "ססמה או נתוני כניסה שמורים"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "פרטי זיהוי ברשת"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "לא ניתן לשנות ססמה."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "לא ניתן לקבוע תיאור"
+
+#: ../gkr/bastile-gkr-item-properties.c:656
+msgid "Couldn't set application access."
+msgstr "לא ניתן להגדיר את הגישה ליישום."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>ססמה:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>נתיב:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>הרשאות:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>פרטים טכניים:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "יישומים"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "פרטים"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "מפתח"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "מאפייני מפתח"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "כניסה:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "שרת:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "הצגת _ססמה"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+msgid "Type:"
+msgstr "סוג:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "שימוש:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:17
+msgid "_Read"
+msgstr "_קרא"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Write"
+msgstr "_כתוב"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:20
+msgctxt "infinitive"
+msgid "_Delete"
+msgstr "מ_חיקה"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "הססמאות מוצגות"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "ססמאות: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>ססמאות:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "קבוצת ססמאות"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "בשימוש לצורך אחסרון ססמאות ליישומים ולרשת"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "ססמה מאוחסנת"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "אחסון בטוח של ססמה או סוד."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "לא ניתן לשחרר את קבוצת המפתחות"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "לא ניתן לנעול את קבוצת המפתחות"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "לא ניתן להגדיר את קבוצת הססמאות כברירת המחדל"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "לא ניתן לשנות את ססמת קבוצת המפתחות"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_נעילה"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr "נעילת קבוצת מפתחות המאחסנת ססמאות כך שנדרשת ססמה ראשית כדי לשחרר אותה."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_שחרור"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"שחרור קבוצת מפתחות המאחסנת ססמאות על ידי ססמה ראשית כדי שתהיה זמינה לשימוש."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "_קבע כברירת מחדל"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "יישומים לרוב מאחסנים ססמאות חדשות בקבוצת המפתחות כברירת המחדל."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "ה_חלפת ססמה"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "שינוי ססמת השחרור של קבוצת מפתחות המאחסנת ססמאות"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "האם למחוק את קבוצת הססמאות '%s'?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "Created:"
+msgstr "נוצר:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "קבוצת מפתחות"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "מאפייני קבוצת המפתחות"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_שם:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "הגישה לקבוצת המפתחות נדחתה"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "מנוע קבוצות המפתחות (mate-keyring) אינו רץ"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "קבוצת המפתחות כבר שוחררה"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "לא קיימת קבוצת מפתחות כזאת"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "לא ניתן לתקשר עם מנוע קבוצות המפתחות"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "הפריט כבר קיים"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "שגיאה פנימית בגישה ל־mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "שומר פריט..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "מוחק פריט..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "קבוצת המפתחות נמחקת..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "הצגת קבוצות הססמאות"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"לא נמצאו מפתחות הצפנה שבאמצעותם ניתן לבצע את הפעולה הנדרשת. התכנית <b>ססמאות "
+"ומפתחות הצפנה</b> תופעל כעת כדי שתהיה באפשרותך ליצור מפתח או לייבא אחד."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "כל המפתחות"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "הנמענים הנבחרים"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "תוצאות חיפוש"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "חפש _עבור:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "ללא (אל תחתום)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "חתימהעל ההודעה כ־%s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "_חתימה על ההודעה בתור:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "שם"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "זיהוי מפתח"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "הצגת דגלים"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "מאפייני תאריך ו/או שעה מוצגים"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "מצב עצל"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "מצב עצל אינו מנרמל את ערכי הזמן והתאריך שהוזנו"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "שנה"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "השנה המוצגת"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "חודש"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "החודש המוצג"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "יום"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "היום בחודש שמוצג"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "שעה"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "השעה המוצגת"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "דקה"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "הדקה המוצגת"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "שניה"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "השנייה המוצגת"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "שנה מהגבול התחתון"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "שנה שהיא חלק מגבול התאריכים התחתון"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "שנה מהגבול העליון"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "שנה שהיא חלק מגבול התאריכים העליון"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "חודש מהגבול התחתון"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "חודש שהוא חלק מגבול התאריכים התחתון"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "חודש מהגבול העליון"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "חודש שהוא חלק מגבול התאריכים העליון"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "יום מהגבול התחתון"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "יום בחודש שהוא חלק מגבול התאריכים התחתון"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "יום מהגבול העליון"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "ים בחודש שהוא חלק מגבול התאריכים העליון"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "שעה מהגבול התחתון"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "שעה שהיא חלק מגבול התאריכים התחתון"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "שעה מהגבול העליון"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "שעה שהיא חלק מגבול התאריכים העליון"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "דקה מהגבול התחתון"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "דקה שהיא חלק מגבול התאריכים התחתון"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "דקה מהגבול העליון"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "דקה שהיא חלק מגבול התאריכים העליון"
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "שנייה מהגבול התחתון"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "שנייה שהיא חלק מגבול התאריכים התחתון"
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "שנייה מהגבול העליון"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "שנייה שהיא חלק מגבול התאריכים העליון"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "תאריך"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "הכנס את התאריך ישירות"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "בחר תאריך"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "בחר את התאריך מיומן"
+
+#: ../libegg/egg-datetime.c:529 ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "שעה"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "הכנס את השעה ישירות"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "בחר שעה"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "בחר את השעה מרשימה"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "24 שעות: לא"
+
+#: ../libegg/egg-datetime.c:814 ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "‏‎%02d:%02d:%02d %s‏"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "‏‎%02d:%02d %s‏"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "File is not a valid .desktop file"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Unrecognized desktop file Version '%s'"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Starting %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Application does not accept documents on command line"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Unrecognized launch option: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Can't pass document URIs to a 'Type=Link' desktop entry"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Not a launchable item"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Disable connection to session manager"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Specify file containing saved configuration"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Specify session management ID"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "זיהוי"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Session management options:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Show session management options"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "הוסף שרת מפתח"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "מארח:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "סוג שרת מפתח:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "השער דרכו לגשת לשרת."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "פריט זמני ראשוני"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "מפתח יובא"
+msgstr[1] "מפתחות יובאו"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "מפתח אחד יובא"
+msgstr[1] "%i מפתחות יובאו"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "יובא מפתח עבור"
+msgstr[1] "יובאו מפתחות עבור"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "הודעות התרעה"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "מפתח סימטרי"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "מפתח ציבורי"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "מפתח פרטי"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "פרטי זיהוי"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "זהות"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "מילת צופן"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "ססמה:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "אישור:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "כתובת שרת המפתחות לא תקפה."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr "לקבלת עזרה ניתן לפנות למנהל המערכת או אל מנהל מערכת שרת המפתחות."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "כתובת"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "מותאם אישית"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "ללא: אל תפרסם מפתחות"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "קבל מפתחות מ_שרתי מפתחות אוטומטית"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "ס_נכרן מפתחות שהשתנו עם שרתי מפתח אוטומטית"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "שרתי מפתח"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "העדפות"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "_חפש מפתחות בעזרת:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "_פרסם מפתחות ל:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "כותרת התקדמות"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "לא זמין"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "מידע מפתח"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "מפתחות  מרובים"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "לא ניתן להריץ את file-roller"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "לא ניתן לארוז קבצים"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "תהליך ה-'file-roller' לא הסתיים בהצלחה"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "כל קבצי המפתחות"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "כל הקבצים"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "קבצי ארכיון"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>כבר קיים קובץ בשם זה.</b>\n"
+"\n"
+"האם ברצונך להחליף אותו בקובץ חדש?"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "_החלף"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "לעולם לא"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Marginal"
+msgstr "גבולי"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Full"
+msgstr "מלא"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+msgid "Ultimate"
+msgstr "אולטימטיבי"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "כבוי"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "בוטל"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "לא ניתן להציג עזרה: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "תאריך תפוגה:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "צור תת-מפתח חדש"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "האם המפתח לעולם לא פג"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "_אורך מפתח:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "_סוג מפתח:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "אורך המפתח"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "לעולם לא _פג"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "הוסף זיהוי משתמש"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "יצירת מזהה משתמש חדש"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "שם _מלא:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "הע_רת מפתח:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "חייבת להיות בת 5 ספרות לכול הפחות"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "הערה לא מחייבת לתיאור המפתח"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "כתובת דוא\"ל אפשרית"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "כתובת דוא\"ל:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_שנה"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "שלילת מפתח"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_לעולם לא פג"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "לא ניתן להוסיף תת־מפתח"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "הוספת תת־מפתח ל־%s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "‏DSA (חתימה בלבד)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "אל־גמאל (הצפנה בלבד)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "‏RSA (חתימה בלבד)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "‏RSA (הצפנה בלבד)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "לא ניתן להוסיף את מזהה המשתמש"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "הוספת מזהה המשתמש ל־%s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "הפענוח נכשל. כנראה שמפתח הפענוח לא קיים."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "תאריך התפוגה שגוי"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "על תאריך התפוגה להיות בעתיד"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "לא ניתן לשנות תאריך תפוגה"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "תפוגה: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "מפתח PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "משמש להצפנת דוא\"ל וקבצים"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "‏DSA אל־גמאל"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "לא ניתן לייצר מפתח PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "מילת צפון עבור מפתח ה־PGP החדש"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "יש להזין את מילת הצופן עבור המפתח החדש שלך פעמיים."
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "לא ניתן לייצר מפתח"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "יוצר מפתח"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "ססמה שגויה"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "זוהי הפעם השלישית שהוקלדה ססמה שגויה. נא לנסות שוב."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>התמונה גדולה מדי</b></big>\n"
+"הגודל המומלץ לתמונה במפתח שלך היא  %d על %d פיקסלים."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "לא לשנות _גודל"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "_שינוי הגודל"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"זהו אינו קובץ תמונה או סוג בלתי מזוהה של קובץ תמונה. כדאי לנסות להשתמש "
+"בתמונת JPEG."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "כל קבצי תמונה"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "כל קובצי ה־JPEG"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "בחר תמונה להוספה למפתח"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "לא ניתן להוסיף תמונה"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "לא ניתן לטעון את הקובץ. כנראה שהוא בתצורה שגויה"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "להסיר את התמונה הנוכחית מהמפתח?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "לא ניתן למחוק תמונה"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "לא ניתן לשלול תת־מפתח"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "שלילה: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "אין סיבה"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "אין סיבה לביטול המפתח"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "השתנה"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "המפתח השתנה"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "הוחלף"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "המפתח הוחלף"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "לא בשימוש"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "המפתח כבר אינו בשימוש"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"%s מועמד להתווסף כמורשה שלילה עבור %s. לא ניתן לבטל פעולה זו! האם ברצונך "
+"להמשיך?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "לא ניתן להוסיף מורשה שלילה"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"מקש זה כבר הוקצה על ידי\n"
+"\"%s\""
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "לא ניתן לחתום על המפתח"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "אין מפתחות שמתאימים להצפנה"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr "אין לך מפתחות PGP שניתן להשתמש בם כדי לציין את אמינות מפתח זה בעיניך."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "מילת הצופן שגויה."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "נא להזין מילת צופן חדשה עבור '%s'"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "נא להזין מילת צופן עבור '%s'"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "נא להזין מילת צופן חדשה"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "נא להזין מילת צופן"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "מפתח אחד נטען"
+msgstr[1] "%d מפתחות נטענו"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "מפתחות נטענים..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"נתוני המפתח שגויים (חסרים UID). שגיאה זאת נגרמה עקב מחשב ששעונו ממהר או "
+"חתימה עצמית חסרה."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "מפתחות מיובאים"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "מפתחות מיוצאים"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "אל־גמאל"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "החיפוש לא היה מספיק מדויק. השרת '%s' מצא יותר מדי מפתחות."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "לא ניתן לתקשר עם השרת '%s': ‏%s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "מחפש מפתחות..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "מעלה מפתחות..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "מאחזר מפתחות..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "מחפש מפתחות ב־: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "מתחבר אל: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "שרת מפתחות HTTP"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "לא ניתן לתקשר עם '%s': ‏%s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "לא ניתן לפענח את הכתובת: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "מפענח את כתובת השרת: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "מחפש מפתחות שמכילים '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "מחפש עבור מזהה המפתח '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "מקבל מפתחות מרוחקים..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "שולח מפתחות לשרת המפתחות..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "שרת מפתחות LDAP"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "_חתום על המפתח..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "חתום על מפתח ציבורי"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "האם למחוק את %s?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "האם ברצונך למחוק %d מפתחות וזהויות לצמיתות?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "האם ברצונך למחוק %d מפתחות לצמיתות?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "האם ברצונך למחוק %d זהויות?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_אפשרויות מפתח מתקדמות</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "מפתח PGP מאפשר לך להצפין דוא\"ל או קבצים לאנשים אחרים."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "אלגוריתמים כאן"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_צור"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "תאריך _תפוגה:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "_סוג הצפנה:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "יצר מפתח חדש"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "_חוזק מפתח (סיביות):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "_לעולם לא פג"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "מפתח PGP חדש"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_הערה:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Private PGP Key"
+msgstr "מפתח PGP פרטי"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Public PGP Key"
+msgstr "מפתח PGP ציבורי"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "פג תוקף"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "לא ניתן לשנות את מזהה המשתמש העיקרי"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "האם ברצונך למחוק את מזהה המשתמש '%s' לצמיתות?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "לא ניתן למחוק את מזהה המשתמש"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[לא ידוע]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "שם/דוא\"ל"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "זיהוי חתימה"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "לא ניתן לשנות את התמונה הראשית"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(לא ידוע)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "תוקף מפתח זה פג ב: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "אם ברצונך למחוק את תת המפתח %d של %s לצמיתות?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "לא ניתן למחוק תת-מפתח"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "לא ניתן לשנות את המהימנות"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:290
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "לא ניתן לייצא מפתח ל-\"%s\""
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "ייצוא המפתח כולו"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "לא ניתן לייצא את המפתח."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "לעולם לא"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "סוג"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "נוצר"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "תפוגה"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "מצב"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "חוזק"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "טוב"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>פעולות</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>הערה:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>תאריכים</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>דוא\"ל:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>טביעת אצבע:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>זיהוי מפתח:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>שמות מפתח וחתימות</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+msgid "<b>Photo </b>"
+msgstr "<b>תמונה </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+msgid "<b>Technical Details</b>"
+msgstr "<b>פרטים טכניים</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>מפתח זה נשלל</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has expired</b>"
+msgstr "<b>פג תוקף מפתח זה</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>סוג:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:14
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:13
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>שימוש:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_תת מפתחות</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+msgid "Add"
+msgstr "הוסה"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add a photo to this key"
+msgstr "הוספת תמונה למפתח זה"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "_שינוי מילת הצפון"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "פענח קבצים והודעות שנשלחו אליך."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Delete"
+msgstr "מחק"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+msgid "Expire"
+msgstr "תפוגה"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Expires:"
+msgstr "תפוגה:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+msgid "Export"
+msgstr "יצא"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Go to next photo"
+msgstr "עבור אל התמונה הבאה"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to previous photo"
+msgstr "חזור אל התמונה הקודמת"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+msgid "Key ID:"
+msgstr "זיהוי מפתח:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+msgid "Make this photo the primary photo"
+msgstr "הפוך את תמונה זו לתמונה הראשית"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Names and Signatures"
+msgstr "שמות וחתימות"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Never"
+msgstr "לעולם לא"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+msgid "Override Owner _Trust:"
+msgstr "דריסת _מהימנות הבעלים:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Owner"
+msgstr "בעלים"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+msgid "Primary"
+msgstr "ראשי"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Remove this photo from this key"
+msgstr "הסר את התמונה ממפתח זה"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Revoke"
+msgstr "שלילה"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Sign"
+msgstr "חתום"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Strength:"
+msgstr "חוזק:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "הבעלים של מפתח זה שלל את המפתח. לא ניתן עוד להשתמש בו."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+msgid "_Add Name"
+msgstr "הוסף _שם"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Export Complete Key:"
+msgstr "_יצא מפתח שלם:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgctxt "name-of-key"
+msgid "<b>Name:</b>"
+msgstr "<b>שם:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>תאריכים:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>טביעת אצבע:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>ציון מהימנות:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>הבטחון שלך במפתח זה</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_שמות אחרים:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_אנשים אשר חתמו על מפתח זה"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "הצפן קבצים והודעה אל בעלי המפתח"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Fully"
+msgstr "באופן מלא"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "אני בוטח בחתימות מ-'%s' במפתחות אחרים"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:26
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"אם ישנה סבירות שהבעלים של מפתח זה הם '%s', ניתן <i>לחתום</i> על מפתח זה:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:28
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"אם קיים בעיניך חשד ש־'%s' אינו עוד הבעלים של מפתח זה, ניתן <i>לשלול</i> את "
+"החתימה שלך:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+msgid "Marginally"
+msgstr "באופן גבולי"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "מהימן"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Ultimately"
+msgstr "באופן אולטימטיבי"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "You _Trust the Owner:"
+msgstr "הבעלים _מהימנים:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "המהימנות שלך מצוינת בלשונית ה<i>פרטים</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "יש להציג אך ו_רק חתימות של אנשים מהימנים בעיני"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Revoke Signature"
+msgstr "_בטל חתימה"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Sign this Key"
+msgstr "_חתום על מפתח זה"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "תת־מפתח %d של %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "תיאור לא מחייב של השלילה"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "ש_לילה"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "הסיבה לשלילת המפתח"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_סיבה:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr "אין לך מפתחות PGP אישיים אשר יכולים לשמש לחתימה על מסמך או הודעה."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>מהי מידת ההקפדה שננקטה במהלך בדיקת מפתח זה?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>כיצד אחרים יראו חתימה זו:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>חתום על המפתח כ:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>לעתים:</i> משמעות הדבר היא שבוצעו אימותים מדי פעם ופעם כדי לוודא שהמפתח "
+"בבעלותו של הטוען לבעלותו. לדוגמה, ביכולתך להקריא את טביעת המפתח לבעלים "
+"בטלפון. "
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>שם מפתח</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>כלל לא:</i> משמעות הדבר היא שסביר להניח כי המפתח שייך לאדם הטוען לבעלותו, "
+"אך הדעה לא ניתנת לאימות או שלא נבדקה."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr "<i>בזהירות רבה:</i> יש לבחור זאת רק אם ידוע לך בבטחה שמפתח זה מקורי."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "חתימה תציין את העובדה שמפתח זה מהימן ושהוא שייך ל־:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "אוכל ל_שלול חתימה זו במועד מאוחר יותר."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "חתימה על המפתח"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"ניתן להשתמש בזיהוי תמונה (כגון תמונת פספורט) המקשה על הזיוף כדי לוודא שהשם "
+"במפתח נכון. כדאי לך גם להשתמש בדוא\"ל כדי לאמת שכתובת הדוא\"ל שייכת לבעלים."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "ל_עתים"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "ב_כלל לא"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_אחרים לא יכולים לראות את החתימה"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_חתום"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_חותם:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_בזהירות רבה"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_חתום על הודעה עם מפתח:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "תעודה"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "האם ברצונך למחוק את התעודה '%s'?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "האם ברצונך למחוק תעודה אחת?"
+msgstr[1] "האם ברצונך למחוק %d תעודות?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "שינוי מילת הצופן"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_אימות מילת הצופן:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "אימות מילת הצופן החדשה"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "מילת צופן _חדשה:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "ניהול הססמאות ומפתחות ההצפנה שלך"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "ססמאות ומפתחות הצפנה"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>נא לבחור את סוג המפתח שברצונך ליצור:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "ה_משך"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "צור חדש..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "מפתח אחד נבחר"
+msgstr[1] "%d מפתחות נבחרו"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:458
+msgid "Couldn't import keys"
+msgstr "לא ניתן לייבא מפתחות"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:463
+msgid "Imported keys"
+msgstr "מפתחות מיובאים"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "מייבא מפתחות"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "יבא מפתח"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "סוג מפתח לא מזוהה, או תצורת מידע שגויה"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_מרוחק"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "סגור את תוכנית זאת"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "_חדש..."
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "צור מפתח או פריט חדשים"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "_יבא"
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "ייבוא מקובץ"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "ייבוא מלוח הגזירים"
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_חפש מפתחות מרוחקים..."
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "חפש מפתחות בשרת מפתחות"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "_סנכרן ופרסם מפתחות..."
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "פרסום ו/או סנכרון מפתחותיך עם אלו באופן מקוון."
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "_סוגים"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "הצג את עמודת הסוג"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "_תפוגה"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "הצג את עמודת התפוגה"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "_מהימנות"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "הצגת מהימנות הבעלים"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "_תוקף"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "הצגת עמודת התוקף"
+
+#: ../src/bastile-key-manager.c:931
+msgid "Filter:"
+msgstr "מסנן:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>אפשרויות פעם ראשונה:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "יצר מפתח חדש משלך: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "יבא מפתחות קיימים מקובץ:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "ה_מפתחות האישיים שלי"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "מפתחות _אחרים"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "על מנת להתחיל בהצפנה יש צורך במפתחות."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:522
+msgid "_Import"
+msgstr "_יבא"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_ססמאות"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:256
+msgid "Couldn't export keys"
+msgstr "לא ניתן לייצא מפתחות"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "תוקף"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "תאריך תפוגה"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "סגור את חלון זה"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "ה_רחב הכל"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "הרחבת כל הרשומות"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "קפל ה_כל"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "צמצום כל הרשומות"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "מפתחות מרוחקים"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "מפתחות מרוחקים שמכילים '%s'"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>שרתי מפתח:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>מפתחות משותפים בסביבתי:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "חפש מפתחות מרוחקים"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"פעולה זו תמצא מפתחות של אחרים באינטרנט. ניתן לייבא מפתחות אלה לקבוצת מפתחות "
+"מקומית."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "איפה לחפש:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_חפש:"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_חפש מפתחות שמכילים: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "לא ניתן לפרסם מפתות לשרת"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "לא ניתן לקבל מפתחות משרת: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>מפתח אחד נבחר לסנכרון</b>"
+msgstr[1] "<b>%d מפתחות נבחרו לסנכרון</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "מסנכרן מפתחות"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "מסנכרן מפתחות..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "סנכרון מפתחות"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"פעולה זו תפרסם את המפתחות בקבוצת המפתחות שלך כך שיהיו זמינים לשימושם של "
+"אחרים. שינויים שאחרים ביצעו יתקבלו אליך מאחר שקיבלת את מפתחותיהם."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"פעולה זו תקבל כל שינויים שאחרים ביצעו מאז שקיבלת את מפתחותיהם. לא נבחר שרת "
+"מפתחות לפרסום כך שמפתחותיך לא יהיו זמינים לאחרים."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_שרתי מפתח"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_סנכרן"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "גרסת יישום זה"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "מנהל מפתח הצפנה"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "תורמים:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"יאיר הרשקוביץ <yairhr@gmail.com>\n"
+"\n"
+"פרוייקט תרגום MATE לעברית\n"
+"‏http://mate-il.berlios.de"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "דף הבית של פרוייקט Bastile"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:168
+msgid "_File"
+msgstr "_קובץ:"
+
+#: ../src/bastile-viewer.c:169
+msgid "_Edit"
+msgstr "_עריכה"
+
+#: ../src/bastile-viewer.c:170
+msgid "_View"
+msgstr "_תצוגה"
+
+#: ../src/bastile-viewer.c:171
+msgid "_Help"
+msgstr "_עזרה"
+
+#: ../src/bastile-viewer.c:173
+msgid "Prefere_nces"
+msgstr "ה_עדפות"
+
+#: ../src/bastile-viewer.c:174
+msgid "Change preferences for this program"
+msgstr "שנה את העדפות תוכנית זאת"
+
+#: ../src/bastile-viewer.c:177
+msgid "About this program"
+msgstr "אודות תוכנית זאת"
+
+#: ../src/bastile-viewer.c:178
+msgid "_Contents"
+msgstr "_תכנים"
+
+#: ../src/bastile-viewer.c:179
+msgid "Show Bastile help"
+msgstr "הצג עזרה עבור Bastile"
+
+#: ../src/bastile-viewer.c:276
+msgid "Export public key"
+msgstr "יצא מפתח ציבורי"
+
+#: ../src/bastile-viewer.c:296
+msgid "Exporting keys"
+msgstr "מייצא מפתחות"
+
+#: ../src/bastile-viewer.c:321
+msgid "Couldn't retrieve data from key server"
+msgstr "לא ניתן לקבל מידע משרת המפתחות"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:340
+msgid "Copied keys"
+msgstr "מפתחות מועתקים"
+
+#: ../src/bastile-viewer.c:360
+msgid "Retrieving keys"
+msgstr "מקבל מפתחות"
+
+#: ../src/bastile-viewer.c:375
+msgid "Couldn't delete."
+msgstr "לא ניתן למחוק."
+
+#: ../src/bastile-viewer.c:409
+msgid "Deleting..."
+msgstr "מוחק..."
+
+#: ../src/bastile-viewer.c:435
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "‏%s הוא מפתח פרטי. להמשיך?"
+
+#: ../src/bastile-viewer.c:483
+msgid "Importing keys from key servers"
+msgstr "מייבא מפתחות משרת מפתחות"
+
+#: ../src/bastile-viewer.c:509
+msgid "Show properties"
+msgstr "הצג מאפיינים"
+
+#: ../src/bastile-viewer.c:510
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "מ_חק"
+
+#: ../src/bastile-viewer.c:511
+msgid "Delete selected items"
+msgstr "מחק את הפריטים שנבחרו"
+
+#: ../src/bastile-viewer.c:515
+msgid "E_xport..."
+msgstr "_יצא..."
+
+#: ../src/bastile-viewer.c:516
+msgid "Export to a file"
+msgstr "ייצוא לקובץ"
+
+#: ../src/bastile-viewer.c:518
+msgid "Copy to the clipboard"
+msgstr "העתקה ללוח הגזירים"
+
+#: ../src/bastile-viewer.c:523
+msgid "Import selected keys to local key ring"
+msgstr "ייבור המפתחות הנבחרים לקבוצת מפתחות מקומית"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "נא להזין את מילת צופן ה־SSH שלך:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "הגדר מפתח עבור _SSH..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr "שלח מפתח SSH ציבורי למכונה אחרתף ואפשר התחברות בעזרת מפתח זה."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "למחוק את מפתח ה-SSH '%s'?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "למחוק %d מפתחות SSH?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "מפתח SSH"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "משמש לגישה למחשבים אחרים"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "לא ניתן ליצר מפתח SSH"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "יוצר מפתח SSH"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"‏<i>ניתן להשתמש בכתובת הדוא\"ל שלך, ובכל תזכורת אחרת על מנת לדעת למה משמש "
+"מפתח זה.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"מפתח Secure Shell‏ (SSH) מאפשר לך להתחבר באופן בטוח למחשבים מהימנים באמצעות "
+"SSH ללא הזנת ססמה נפרדת לכול אחד מהם."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"אם כבר ישנו מחשב מולו ברצונך להשתמש במפתח זה, ניתן להגדיר שמחשב זה יזהה את "
+"המפתח שלך כעת."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "מפתח SSH חדש"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_צור והגדר"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "צור מפתח _בלבד"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_תיאור מפתח"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(מפתח SSH לא קריא)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "לא תקף"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "מפתח SSH פרטי"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "מפתח SSH ציבורי"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "לא ניתן לשנות שם מפתח"
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "לא ניתן לשנות את אימות המפתח."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "לא ניתן לשנות את מילת הצופן עבור המפתח."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>אלגוריתם:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>מזהה:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>מיקום:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>שם:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>חוזק:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>בטחון</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>זה יהיה בתוקף רק עבור החשבון '%s'.</i>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "י_צא מפתח שלם"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "הבעלים של מפתח זה _מורשה להתחבר למחשב זה"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "משמש להתחברות למחשבים אחרים"
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "פקודת ה-SSH הסתיימה באופן לא צפוי."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "פקודת ה-SSH נכשלה."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "מפתח SSH"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "מילת צופן:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "ססמת המארח המרוחק"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "מילת הצופן הישנה למפתח"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "נא להזין את מילת הצופן הישנה עבור: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "מילת צופן חדשה למפתח"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "נא להזין מילת צופן חדש עבור: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "נא להזין מילת צופן למפתח"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "מילת צופן עבור מפתח Secure Shell חדש"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "נא להזין מילת צופן עבור מפתח ה־Secure Shell החדש שלך."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "מייבא מפתח: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "המפתח מיובא. נא להזין מילת צופן"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "אין קובץ מפתח פרטי הזמין למפתח זה."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "לא ניתן להגדיר מפתחות SSH על המחשב המרוחק."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "מגדיר מפתחות SSH..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>לדוגמה: fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "הגדר את המחשב לחיבור SSH"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"כדי להשתמש במפתח ה־Secure Shell שלך מול מחשב אחר המשתמש ב־SSH, כבר צריך "
+"להיות לך חשבון כניסה למחשב זה."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "שם _מחשב:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_שם התחברות:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_הגדר"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "לא ניתן לשתף מפתחות"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "לא ניתן לפרסם את נתוני הגילוי ברשת."
+
+#~ msgid "%s's encryption keys"
+#~ msgstr "מפתחות ההצפנה של %s"
+
+#~ msgid "Key Sharing"
+#~ msgstr "שיתוף מפתחות"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "שיתוף המפתחות שלך יאפשר לאנשים אחרים ברשת שלך להשתמש במפתחות אותם אספת. "
+#~ "משמעות הדבר היה שהם יוכלו להצפין דברים עבורך מבלי ידיעתך וללא צורך בשליחת "
+#~ "המפתח שלך אליהם.\n"
+#~ "\n"
+#~ "<b>לתשומת לבך:</b> לא יתבצע כל שינוי במפתחות האישיים שלך."
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "_שתף את המפתחות שלי עם אחרים ברשת שלי"
+
+#~| msgid "bastile"
+#~ msgid "Bastile Daemon"
+#~ msgstr "bastile"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "צור מפתח PGP"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "מפתחות _אחרים"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "מפתחות נ_בטחים"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "Retrieving key"
+#~ msgstr "מקבל מפתח"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "לא ניתן לקבל את קבוצת סיסמאות ברירת המחדל"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "לא ניתן לקבל את רשימת קבוצות הסיסמאות"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "לא ניתן להסיר קבוצת מפתחות"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "להסיר את קבוצת המפתחות '%s'?"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>קבוצת מפתחות ברירת המחדל</b>"
+
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "הגדרות סיסמה והצפנה"
+
+#~ msgid "_Add Keyring"
+#~ msgstr "_הוסף קבוצת מפתחות"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "_הסר קבוצת מפתחות"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "מפתח לא ידוע: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "מפתח לא ידוע"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "מפתח לא זמין"
+
+#~ msgid ""
+#~ "%s is a private key. Make sure you have a backup. Do you still want to "
+#~ "delete it?"
+#~ msgstr "‏%s הוא מפתח פרטי. נא לוודא שקיים לו גיבוי. למחוק אותו?"
+
+#~ msgid "_Quit"
+#~ msgstr "_יציאה"
+
+#~ msgid "Create a new personal key"
+#~ msgstr "צור מפתח ציבורי חדש"
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "יבא מפתחות לקבוצת המפתחות שלך מקובץ"
+
+#~ msgid "User ID"
+#~ msgstr "זיהוי משתמש"
+
+#~ msgid "_Close"
+#~ msgstr "_סגור"
+
+#~ msgid "_Key"
+#~ msgstr "_מפתח"
+
+#~ msgid "_About"
+#~ msgstr "_אודות"
+
+#~ msgid "P_roperties"
+#~ msgstr "מ_אפיינים"
+
+#~ msgid "E_xport Public Key..."
+#~ msgstr "י_צא מפתח ציבורי..."
+
+#~ msgid "_Copy Public Key"
+#~ msgstr "הע_תק מפתח ציבורי"
+
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "העתק את החלק הציבורי של מפתח לקובץ"
+
+#~ msgid "_Delete Key"
+#~ msgstr "_מחק מפתח"
+
+#~ msgid "Imported %d key"
+#~ msgid_plural "Imported %d keys"
+#~ msgstr[0] "מפתח אחד יובא"
+#~ msgstr[1] "%d מפתחות יובאו"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "לא ניתן לקרוא קובץ"
+
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "גבה קבוצות מפתחות לארכיון"
+
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "_גבה את קבוצות המפתחות..."
+
+#~ msgid "Back up all keys"
+#~ msgstr "גבה את כל המפתחות"
+
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "הגדר מחשב עבור _SSH..."
+
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "לא ניתן לקבל את מידע המפתח"
+
+#~ msgid "Couldn't write key to file"
+#~ msgstr "לא ניתן לכתוב את המפתח לקובץ"
+
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "לא ניתן ליבא מפתות לקבוצת המפתחות"
+
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "לא ניתן לכתוב מפתחות לקובץ: %s"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "שמור מפתחות מרוחקים"
+
+#~ msgid "No matching keys found"
+#~ msgstr "לא נמצאו מפתחות מתאימים"
+
+#~ msgid "Save Key As..."
+#~ msgstr "שמור מפתח בשם..."
+
+#~ msgid "Save selected keys as a file"
+#~ msgstr "בחר את המפתחות שנבחרו לקובץ"
+
+#~ msgid "_Copy Key"
+#~ msgstr "ה_עתק מפתח"
+
+#~ msgid "<b>You have selected multiple files or folders</b>"
+#~ msgstr "<b>בחרת קבצים או ספריות מרובות</b>"
+
+#~ msgid ""
+#~ "Because the files are located remotely, each file will be encrypted "
+#~ "separately."
+#~ msgstr "מכיוון שהקבצים ממוקמים במיקום מרוחק, כל קובץ יוצפן בנפרד."
+
+#~ msgid "Encrypt Multiple Files"
+#~ msgstr "הצפן קבצים מרובים "
+
+#~ msgid "Encrypt each file separately"
+#~ msgstr "הצפן כל קובץ בנפרד"
+
+#~ msgid "Package Name:"
+#~ msgstr "שם חבילה:"
+
+#~ msgid "encrypted-package"
+#~ msgstr "חבילה-מוצפנת"
+
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "מפתחות הצפנה מרוחקים"
+
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "בדקתי שמפתח זה שייך ל-'%s'"
+
+#~ msgid "PGP Key: %s"
+#~ msgstr "מפתח PGP: %s"
+
+#~ msgid "Cache _Preferences"
+#~ msgstr "ה_עדפות מטמון:"
+
+#~ msgid "_Clear Cache"
+#~ msgstr "_נקה את המטמון"
+
+#~ msgid "_Show Window"
+#~ msgstr "הצג _חלון"
+
+#~ msgid "Do not daemonize bastile-agent"
+#~ msgstr "Do not daemonize bastile-agent"
+
+#~ msgid "Print variables in for a C type shell"
+#~ msgstr "Print variables in for a C type shell"
+
+#~ msgid "Display environment variables (the default)"
+#~ msgstr "Display environment variables (the default)"
+
+#~ msgid "Allow GPG agent request from any display"
+#~ msgstr "Allow GPG agent request from any display"
+
+#~ msgid "command..."
+#~ msgstr "command..."
+
+#~ msgid "Encryption Key Agent (Bastile)"
+#~ msgstr "מנהל מפתחות הצפנה (Bastile)"
+
+#~ msgid "no command specified to execute"
+#~ msgstr "no command specified to execute"
+
+#~ msgid "Key Name"
+#~ msgstr "שם מפתח"
+
+#~ msgid ""
+#~ "After performing an decrypt or verify operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "After performing an decrypt or verify operation from the applet, display "
+#~ "the resulting text in a window."
+
+#~ msgid ""
+#~ "After performing an encrypt or signing operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "After performing an encrypt or signing operation from the applet, display "
+#~ "the resulting text in a window."
+
+#~ msgid "Display cache reminder in the notification area"
+#~ msgstr "Display cache reminder in the notification area"
+
+#~ msgid "Display clipboard after decrypting"
+#~ msgstr "Display clipboard after decrypting"
+
+#~ msgid "Display clipboard after encrypting"
+#~ msgstr "Display clipboard after encrypting"
+
+#~ msgid "Expire passwords in the cache"
+#~ msgstr "Expire passwords in the cache"
+
+#~ msgid ""
+#~ "If set to 'mate' uses mate-keyring to cache passwords. When set to "
+#~ "'internal' uses internal cache."
+#~ msgstr ""
+#~ "If set to 'mate' uses mate-keyring to cache passwords. When set to "
+#~ "'internal' uses internal cache."
+
+#~ msgid "Prompt before using GPG passwords in cache"
+#~ msgstr "Prompt before using GPG passwords in cache"
+
+#~ msgid ""
+#~ "Reflect the contents of the clipboard (whether encrypted, signed, etc...) "
+#~ "in the panel applet icon."
+#~ msgstr ""
+#~ "Reflect the contents of the clipboard (whether encrypted, signed, etc...) "
+#~ "in the panel applet icon."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set to 'true' to enable display of the cache reminder in the notification "
+#~ "area of your panel."
+#~ msgstr ""
+#~ "Set to 'false' to disable display of the cache reminder in the "
+#~ "notification area of your panel."
+
+#~ msgid ""
+#~ "Set to 'true' to have bastile-agent prompt before giving out passwords "
+#~ "it has cached."
+#~ msgstr ""
+#~ "Set to 'true' to have bastile-agent prompt before giving out passwords "
+#~ "it has cached."
+
+#~ msgid "Show clipboard state in panel"
+#~ msgstr "Show clipboard state in panel"
+
+#~ msgid "The time (in minutes) to cache GPG passwords"
+#~ msgstr "The time (in minutes) to cache GPG passwords"
+
+#~ msgid ""
+#~ "This is the amount of time, specified in minutes, to cache GPG passwords "
+#~ "in bastile-agent."
+#~ msgstr ""
+#~ "This is the amount of time, specified in minutes, to cache GPG passwords "
+#~ "in bastile-agent."
+
+#~ msgid ""
+#~ "This option enables the GPG password cache in the bastile-agent program. "
+#~ "The 'use-agent' setting in gpg.conf affects this setting."
+#~ msgstr ""
+#~ "This option enables the GPG password cache in the bastile-agent program. "
+#~ "The 'use-agent' setting in gpg.conf affects this setting."
+
+#~ msgid ""
+#~ "When set, bastile-agent expires GPG passwords in its cache after a "
+#~ "period of time."
+#~ msgstr ""
+#~ "When set, bastile-agent expires GPG passwords in its cache after a "
+#~ "period of time."
+
+#~ msgid "Whether the GPG password cache is enabled"
+#~ msgstr "Whether the GPG password cache is enabled"
+
+#~ msgid "<b>Default Key</b>"
+#~ msgstr "<b>מפתח ברירת מחדל</b>"
+
+#~ msgid "Encryption"
+#~ msgstr "הצפנה"
+
+#~ msgid "_Default key:"
+#~ msgstr "מפתח _ברירת מחדל:"
+
+#~ msgid "Clipboard Text Encryption"
+#~ msgstr "Clipboard Text Encryption"
+
+#~ msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+#~ msgstr "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+
+#~ msgid "Bastile Applet Factory"
+#~ msgstr "Bastile Applet Factory"
+
+#~ msgid "_Preferences"
+#~ msgstr "_העדפות"
+
+#~ msgid "bastile-applet"
+#~ msgstr "יישומון Bastile"
+
+#~ msgid "Encrypted Text"
+#~ msgstr "טקסט מוצפן"
+
+#~ msgid "Encryption Failed"
+#~ msgstr "הצפנה נכשלה"
+
+#~ msgid "Signed Text"
+#~ msgstr "טקסט חתום"
+
+#~ msgid "Signing Failed"
+#~ msgstr "חתימה נכשלה"
+
+#~ msgid "No PGP data found."
+#~ msgstr "לא נמצא מידע PGP."
+
+#~ msgid "Encryption Applet"
+#~ msgstr "יישומון הצפנה"
+
+#~ msgid "_Encrypt"
+#~ msgstr "ה_צפן"
+
+#~ msgid "_Import Key"
+#~ msgstr "_יבא מפתח"
+
+#~ msgid "Encrypted text"
+#~ msgstr "טקסט מוצפן"
+
+#~ msgid "Signed text"
+#~ msgstr "טקסט חתום"
+
+#~ msgid "_Encrypt..."
+#~ msgstr "_הצפן..."
+
+#~ msgid "Encrypt the selected text"
+#~ msgstr "הצפן את הטקסט הנבחר"
+
+#~ msgid "Sig_n..."
+#~ msgstr "_חתום..."
+
+#~ msgid "Sign the selected text"
+#~ msgstr "חתום על הטקסט הנבחר"
+
+#~ msgid "Text Encryption"
+#~ msgstr "הצפנת טקסט"
+
+#~ msgid "Encrypt..."
+#~ msgstr "הצפן..."
+
+#, fuzzy
+#~ msgid "Encryption and Keyrings"
+#~ msgstr "מנהל מפתח הצפנה"
+
+#~ msgid "file..."
+#~ msgstr "קובץ..."
+
+#~ msgid "Choose Signer"
+#~ msgstr "בחר חותם"
+
+#~ msgid "Import is complete"
+#~ msgstr "הייבוא הסתיים"
+
+#~ msgid "Importing keys ..."
+#~ msgstr "מייבא מפתחות ..."
+
+#~ msgid "Encrypting"
+#~ msgstr "מצפין"
+
+#~ msgid "Signing"
+#~ msgstr "חותם"
+
+#~ msgid "Importing"
+#~ msgstr "מייבא"
+
+#~ msgid "Decrypting"
+#~ msgstr "מפענח"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+
+#~ msgid "Self-extracting zip (.exe)"
+#~ msgstr "‏zip נפתח מעצמו (‎.exe)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "‏Tar מכווץ (‎.tar)"
+
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "‏Tar מכווץ עם  bzip ‏(‎.tar.bz)"
+
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "‏Tar מכווץ עם  bzip2 ‏(‎.tar.bz2)"
+
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "‏Tar מכווץ עם  gzip ‏(‎.tar.gz)"
+
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "‏Tar מכווץ עם  lzo ‏(‎.tar.lzo)"
+
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "‏Tar מכווץ עם  כיווץ ‏(‎.tar.Z)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+
+#~ msgid "Zip (.zip)"
+#~ msgstr "Zip (.zip)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+
+#~ msgid "You have selected %d file "
+#~ msgid_plural "You have selected %d files "
+#~ msgstr[0] "בחרת קובץ אחד"
+#~ msgstr[1] "בחרת %d קבצים"
+
+#~ msgid "<b>%s%s</b>"
+#~ msgstr "<b>%s%s</b>"
+
+#~ msgid "Decrypt File"
+#~ msgstr "פענח קובץ"
+
+#~ msgid ""
+#~ "Display variables instead of editing conf files (gpg.conf, SSH agent "
+#~ "socket)"
+#~ msgstr ""
+#~ "Display variables instead of editing conf files (gpg.conf, SSH agent "
+#~ "socket)"
+
+#~ msgid "couldn't drop privileges properly"
+#~ msgstr "couldn't drop privileges properly"
+
+#~ msgid ""
+#~ "When set bastile-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+#~ msgstr ""
+#~ "When set bastile-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+
+#~ msgid "Whether to automatically load SSH keys on demand."
+#~ msgstr "Whether to automatically load SSH keys on demand."

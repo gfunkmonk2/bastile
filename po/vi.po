@@ -1,0 +1,2840 @@
+# Vietnamese translation for Bastile.
+# Copyright © 2009 Free Software Foundation, Inc.
+# Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2007.
+# Clytie Siddall <clytie@riverland.net.au>, 2006-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile 2.25.90\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=bastile&component=general\n"
+"POT-Creation-Date: 2009-02-04 18:28+0000\n"
+"PO-Revision-Date: 2009-02-08 18:36+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.8\n"
+
+#: ../daemon/bastile-daemon.c:69
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Đừng chạy bastile-daemon ở chế độ nền"
+
+#: ../daemon/bastile-daemon.c:87
+msgid "couldn't fork process"
+msgstr "không thể tạo tiến trình con"
+
+#: ../daemon/bastile-daemon.c:93
+msgid "couldn't create new process group"
+msgstr "không thể tạo nhóm tiến trình mới"
+
+#: ../daemon/bastile-daemon.c:207
+msgid "Encryption Daemon (Bastile)"
+msgstr "Trình nền mã hoá (Bastile)"
+
+#: ../daemon/bastile-daemon.desktop.in.in.h:1
+#| msgid "bastile"
+msgid "Bastile Daemon"
+msgstr "Trình nền Bastile"
+
+#: ../daemon/bastile-service.c:110
+#: ../daemon/bastile-service.c:134
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Kiểu khoá không hợp lệ hay không được nhận ra: %s"
+
+#: ../daemon/bastile-service.c:183
+#: ../daemon/bastile-service-keyset.c:129
+#: ../daemon/bastile-service-keyset.c:158
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Khoá không hợp lệ hay không được nhận ra: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:160
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Ký bởi <i><key id='%s'/> <b>hết hạn</b></i> vào %s."
+
+#: ../daemon/bastile-service-crypto.c:161
+msgid "Invalid Signature"
+msgstr "Chữ ký không hợp lệ"
+
+#: ../daemon/bastile-service-crypto.c:167
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Ký bởi <i><key id='%s'/></i> vào %s <b>đã hết hạn</b>."
+
+#: ../daemon/bastile-service-crypto.c:168
+msgid "Expired Signature"
+msgstr "Chữ ký đã hết hạn"
+
+#: ../daemon/bastile-service-crypto.c:174
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Ký bởi <i><key id='%s'/> <b>đã hủy bỏ</b></i> vào %s."
+
+#: ../daemon/bastile-service-crypto.c:175
+msgid "Revoked Signature"
+msgstr "Chữ ký bị hủy bỏ"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:181
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Ký bởi <i><key id='%s'/></i> vào %s."
+
+#: ../daemon/bastile-service-crypto.c:182
+msgid "Good Signature"
+msgstr "Chữ ký tốt"
+
+#: ../daemon/bastile-service-crypto.c:187
+msgid "Signing key not in keyring."
+msgstr "Khóa ký không nằm trong vòng khoá."
+
+#: ../daemon/bastile-service-crypto.c:188
+msgid "Unknown Signature"
+msgstr "Chữ ký lạ"
+
+#: ../daemon/bastile-service-crypto.c:192
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Chữ ký sai hay giả. Dữ liệu được ký bị sửa đổi."
+
+#: ../daemon/bastile-service-crypto.c:193
+msgid "Bad Signature"
+msgstr "Chữ ký sai"
+
+#: ../daemon/bastile-service-crypto.c:201
+msgid "Couldn't verify signature."
+msgstr "Không thể thẩm tra chữ ký."
+
+#: ../daemon/bastile-service-crypto.c:257
+#: ../daemon/bastile-service-crypto.c:364
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Người ký không hợp lệ hay không được nhận ra: %s"
+
+#: ../daemon/bastile-service-crypto.c:264
+#: ../daemon/bastile-service-crypto.c:371
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Khoá không hợp lệ để ký: %s"
+
+#: ../daemon/bastile-service-crypto.c:276
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Người nhận không hợp lệ hay không được nhận ra: %s"
+
+#: ../daemon/bastile-service-crypto.c:284
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Khoá không phải là người nhận hợp lệ để mã hoá: %s"
+
+#: ../daemon/bastile-service-crypto.c:293
+#, c-format
+msgid "No recipients specified"
+msgstr "Chưa ghi rõ người nhận nào"
+
+#: ../daemon/bastile-service-crypto.c:359
+#, c-format
+msgid "No signer specified"
+msgstr "Chưa ghi rõ người ký nào"
+
+#: ../daemon/bastile-service-crypto.c:414
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Kiểu khoá không hợp lệ để giải mã: %s"
+
+#: ../daemon/bastile-service-crypto.c:477
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Kiểu khoá không hợp lệ để thẩm tra: %s"
+
+#: ../daemon/bastile-service-keyset.c:194
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Mã nhận diện khoá không hợp lệ: %s"
+
+#: ../daemon/bastile-sharing.c:72
+#: ../daemon/bastile-sharing.c:216
+msgid "Couldn't share keys"
+msgstr "Không thể chia sẻ khoá"
+
+#: ../daemon/bastile-sharing.c:73
+msgid "Can't publish discovery information on the network."
+msgstr "Không thể xuất bản thông tin tìm ra trên mạng."
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:93
+#, c-format
+msgid "%s's encryption keys"
+msgstr "Khoá mã hoá của %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid "A list of key server URIs to search for remote PGP keys. In later versions a display name can be included, by appending a space and then the name."
+msgstr "Danh sách các địa chỉ Mạng của máy phục vụ khoá nơi cần tìm kiếm khoá PGP từ xa. Trong phiên bản mới hơn, cũng có thể gồm tên hiển thị, bằng cách phụ thêm một dấu cách, rồi tên đó."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Tự động lấy các khoá"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Tự động đồng bộ hóa khoá"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Hiện/ẩn cột « hết hạn » cho bộ quản lý khoá."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Hiện/ẩn cột tin cậy cho bộ quản lý khoá."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Hiện/ẩn cột « kiểu » cho bộ quản lý khoá."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Hiện/ẩn cột « độ hợp lệ » cho bộ quản lý khoá."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Bật chia sẻ DNS-SD"
+
+#: ../data/bastile.schemas.in.h:9
+msgid "Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be running and must be built with HKP and DNS-SD support."
+msgstr "Hiệu lực cách chia sẻ khoá kiểu DNS-SD (Apple Bonjour). Trình nền bastile-daemon phải đang chạy và cũng phải được xây dựng với khả năng hỗ trợ HKP và DNS-SD."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "ID của khoá mặc định"
+
+#: ../data/bastile.schemas.in.h:11
+msgid "If set to true, then files encrypted with bastile will be ASCII armor encoded."
+msgstr "Đặt là true (đúng) thì các tập tin được mã hoá bằng Bastile sẽ được mã hoá bọc sắt ASCII."
+
+#: ../data/bastile.schemas.in.h:12
+msgid "If set to true, then the default key will always be added to an encryption recipients list."
+msgstr "Nếu đặt là « true » (đúng) thì khoá mặc định luôn luôn sẽ được thêm vào danh sách người nhận mã hoá."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Mẫu tìm kiếm máy chủ khoá cuối cùng"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Máy phục vụ khoá dùng cuối cùng"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Khoá được dùng cuối cùng để ký thư."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "Máy phục vụ khoá PGP"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Xuất khoá tới máy phục vụ khoá này."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Hiện cột « hết hạn » trong bộ quản lý khoá"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Hiện cột « tin cậy » trong bộ quản lý khoá"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Hiện cột « kiểu » trong bộ quản lý khoá"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Hiện cột « độ hợp lệ » trong bộ quản lý khoá"
+
+#: ../data/bastile.schemas.in.h:22
+msgid "Specify the column to sort the recipients window by. Columns are: 'name' and 'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr "Ghi rõ cột theo đó cần sắp xếp cửa sổ người nhận. Các cột là 'name' (tên) và 'id' (mã nhận diện). Để dấu trừ '-' nằm trước tên cột để sắp xếp theo thứ tự giảm dần."
+
+#: ../data/bastile.schemas.in.h:23
+msgid "Specify the column to sort the bastile key manager main window by. Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in front of the column name to sort in descending order."
+msgstr "Ghi rõ cột theo đó cần sắp xếp cửa sổ chính của bộ quản lý khoá Bastile. Cột là : 'name' (tên), 'id', 'validity' (hợp lệ), 'expires' (hết hạn), 'trust' (tin cậy) và 'type' (kiểu). Có thể sắp xếp giảm dần nếu bạn chèn một dấu gạch nối trước tên cột đó."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "Mã nhận diện (ID) của khoá bí mật cuối cùng được dùng để ký thư."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Cột theo nó cần sắp xếp các người nhận"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Cột theo nó cần sắp xếp các khoá Bastile"
+
+#: ../data/bastile.schemas.in.h:27
+msgid "The key server to publish PGP keys to. Or empty to suppress publishing of PGP keys."
+msgstr "Máy phục vụ khoá nơi cần xuất khoá PGP. Để rỗng để ngăn xuất khoá PGP."
+
+#: ../data/bastile.schemas.in.h:28
+msgid "The last key server a search was performed against or empty for all key servers."
+msgstr "Máy phục vụ khoá cuối cùng được tìm kiếm, hoặc rỗng để đại diện mọi máy phục vụ khoá"
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "Mẫu tìm kiếm cuối cùng được dùng để tìm kiếm trên một máy phục vụ khoá."
+
+#: ../data/bastile.schemas.in.h:30
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "Đây xác định khoá mặc định cần dùng trong một số thao tác riêng, phần lớn là việc ký tên."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "Có nên tự động lấy các khoá từ các máy phục vụ khoá hay không."
+
+#: ../data/bastile.schemas.in.h:32
+msgid "Whether or not modified keys should be automatically synced with the default key server."
+msgstr "Có nên tự động đồng bộ hoá các khoá đã sửa đổi với máy phục vụ khoá mặc định hay không."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Có nên luôn luôn mã hoá bằng khoá mặc định hay không"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Có nên dùng bọc kim ASCII hay không"
+
+#: ../gkr/bastile-add-keyring.glade.h:1
+msgid "Add Password Keyring"
+msgstr "Thêm vòng khoá mật khẩu"
+
+#: ../gkr/bastile-add-keyring.glade.h:2
+msgid "New Keyring Name:"
+msgstr "Tên vòng khoá mới:"
+
+#: ../gkr/bastile-add-keyring.glade.h:3
+msgid "Please choose a name for the new keyring. You will be prompted for an unlock password."
+msgstr "Hãy chọn tên cho vòng khoá mới. Bạn sẽ được nhắc nhập mật khẩu gỡ khoá."
+
+#: ../gkr/bastile-add-keyring.glade.h:4
+#: ../libbastile/bastile-add-keyserver.glade.h:5
+#: ../ssh/bastile-ssh-upload.glade.h:3
+msgid "The host name or address of the server."
+msgstr "Tên máy hay địa chỉ của máy phục vụ."
+
+#: ../gkr/bastile-gkr-add-keyring.c:121
+msgid "Couldn't add keyring"
+msgstr "Không thể thêm vòng khoá"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Mật khẩu Web"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Mật khẩu mạng"
+
+#: ../gkr/bastile-gkr-item.c:474
+#: ../gkr/bastile-gkr-item-properties.c:106
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+#| msgid "Are you sure you want to permanently delete the '%s' keyring?"
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Bạn có chắc muốn xoá mật khẩu « %s » không?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+#| msgid "Are you sure you want to permanently delete %s?"
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Bạn có chắc muốn xoá %d mật khẩu không?"
+
+#: ../gkr/bastile-gkr-item-properties.c:65
+msgid "Access a network share or resource"
+msgstr "Truy cập một vùng chia sẻ hay tài nguyên của mảng"
+
+#: ../gkr/bastile-gkr-item-properties.c:68
+msgid "Access a website"
+msgstr "Truy cập một địa chỉ Web"
+
+#: ../gkr/bastile-gkr-item-properties.c:71
+msgid "Unlocks a PGP key"
+msgstr "Gỡ khoá một khoá PGP"
+
+#: ../gkr/bastile-gkr-item-properties.c:74
+msgid "Unlocks a Secure Shell key"
+msgstr "Gỡ khoá một khoá SSH"
+
+#: ../gkr/bastile-gkr-item-properties.c:77
+msgid "Saved password or login"
+msgstr "Mật khẩu hay thông tin đăng nhập đã lưu"
+
+#: ../gkr/bastile-gkr-item-properties.c:101
+msgid "Network Credentials"
+msgstr "Thông tin xác thực mạng"
+
+#: ../gkr/bastile-gkr-item-properties.c:244
+msgid "Couldn't change password."
+msgstr "Không thể thay đổi mật khẩu."
+
+#: ../gkr/bastile-gkr-item-properties.c:346
+msgid "Couldn't set description."
+msgstr "Không thể đặt mô tả."
+
+#: ../gkr/bastile-gkr-item-properties.c:652
+msgid "Couldn't set application access."
+msgstr "Không thể đặt cách truy cập đến ứng dụng."
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Mật khẩu :</b>"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Đường dẫn:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Quyền hạn:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:4
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:9
+#: ../ssh/bastile-ssh-key-properties.glade.h:9
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Chi tiết kỹ thuật:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:5
+msgid "Applications"
+msgstr "Ứng dụng"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:6
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:71
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:23
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:20
+#: ../ssh/bastile-ssh-key-properties.glade.h:17
+msgid "Details"
+msgstr "Chi tiết"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.glade.h:19
+msgid "Key"
+msgstr "Khoá"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:8
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:30
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:30
+#: ../ssh/bastile-ssh-key-properties.glade.h:20
+msgid "Key Properties"
+msgstr "Thuộc tính khoá"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:9
+msgid "Login:"
+msgstr "Đăng nhập:"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:10
+msgid "Server:"
+msgstr "Máy phục vụ :"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:11
+msgid "Show pass_word"
+msgstr "Hiện _mật khẩu"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:12
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:42
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:36
+msgid "Type:"
+msgstr "Kiểu :"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.glade.h:14
+msgid "Use:"
+msgstr "Dùng:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.glade.h:16
+#: ../src/bastile-viewer.c:496
+msgid "_Delete"
+msgstr "_Xoá"
+
+#: ../gkr/bastile-gkr-item-properties.glade.h:17
+#: ../pgp/bastile-revoke.glade.h:5
+msgid "_Description:"
+msgstr "_Mô tả:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.glade.h:19
+msgid "_Read"
+msgstr "Đọ_c"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.glade.h:21
+msgid "_Write"
+msgstr "_Ghi"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Đang liệt kê các mật khẩu"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.glade.h:2
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:20
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:19
+msgid "Created:"
+msgstr "Tạo :"
+
+#: ../gkr/bastile-gkr-keyring.glade.h:3
+#| msgid "Key Sharing"
+msgid "Keyring"
+msgstr "Vòng khoá"
+
+#: ../gkr/bastile-gkr-keyring.glade.h:4
+#| msgid "Key Properties"
+msgid "Keyring Properties"
+msgstr "Thuộc tính Vòng khoá"
+
+#: ../gkr/bastile-gkr-keyring.glade.h:5
+#| msgid "Name"
+msgid "_Name:"
+msgstr "Tê_n:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Truy cập vòng khoá bị từ chối"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Trình nền vòng khoá mate-keyring hiện thời không chạy"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Vòng khoá đã được mở"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Không có vòng khoá như vậy"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Không thể liên lạc với trình nền vòng khoá"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Mục đã có"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Gặp lỗi nội bộ khi truy cập mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238
+#: ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Đang lưu mục..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+#| msgid "Saving item..."
+msgid "Deleting item..."
+msgstr "Đang xoá mục..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+#| msgid "Retrieving keys..."
+msgid "Deleting keyring..."
+msgstr "Đang xoá vòng khoá..."
+
+#: ../gkr/bastile-gkr-source.c:234
+#| msgid "Listing passwords"
+msgid "Listing password keyrings"
+msgstr "Đang liệt kê các vòng khoá mật khẩu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:87
+#| msgid "Password Keyrings"
+msgid "Password Keyring"
+msgstr "Vòng khoá Mật khẩu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:88
+#| msgid "_Location for application passwords:"
+msgid "Used to store application and network passwords"
+msgstr "Dùng để lưu trữ các mật khẩu kiểu ứng dụng và mạng"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:101
+#| msgid "Couldn't add keyring"
+msgid "Couldn't unlock keyring"
+msgstr "Không thể mở khoá vòng khoá"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:141
+#| msgid "Couldn't add keyring"
+msgid "Couldn't lock keyring"
+msgstr "Không thể khoá vòng khoá"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:181
+#| msgid "Couldn't set default password keyring"
+msgid "Couldn't set default keyring"
+msgstr "Không thể đặt vòng khoá mặc định"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:219
+msgid "Couldn't change keyring password"
+msgstr "Không thể thay đổi mật khẩu của vòng khoá"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:250
+msgid "_Lock"
+msgstr "_Khoá"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:251
+msgid "Lock the password storage keyring so a master password is required to unlock it."
+msgstr "Khoá vòng khoá lưu trữ mật khẩu để yêu cầu một mật khẩu chủ để mở khoá nó."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:252
+msgid "_Unlock"
+msgstr "_Mở khoá"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:253
+msgid "Unlock the password storage keyring with a master password so it is available for use."
+msgstr "Mở khoá vòng khoá lưu trữ mật khẩu dùng một mật khẩu chủ để nó sẵn sàng sử dụng."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:254
+msgid "_Set as default"
+msgstr "Đặt là _mặc định"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:255
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "Ứng dụng thường lưu mật khẩu mới vào vòng khoá mặc định."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:256
+#| msgid "Change Unlock _Password"
+msgid "Change _Password"
+msgstr "Đổi _mật khẩu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Thay đổi mật khẩu sẽ mở khoá vòng khoá lưu trữ mật khẩu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:320
+#, c-format
+#| msgid "Are you sure you want to permanently delete the '%s' keyring?"
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Bạn có chắc muốn xoá vòng khoá mật khẩu « %s » không?"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:173
+msgid "All Keys"
+msgstr "Mọi khoá"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+msgid "Selected Recipients"
+msgstr "Người nhận đã chọn"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+msgid "Search Results"
+msgstr "Kết quả tìm"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:185
+msgid "Search _for:"
+msgstr "Tì_m:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:243
+msgid "None (Don't Sign)"
+msgstr "Không (đừng ký)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:256
+#, c-format
+#| msgid "_Sign message as:"
+msgid "Sign this message as %s"
+msgstr "Ký thư này dưới %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:278
+msgid "_Sign message as:"
+msgstr "_Ký thư với tên:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:121
+#: ../pgp/bastile-pgp-key-properties.c:890
+#: ../src/bastile-key-manager-store.c:828
+msgid "Name"
+msgstr "Tên"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:126
+#: ../pgp/bastile-pgp-key-properties.c:1823
+#: ../src/bastile-key-manager-store.c:840
+msgid "Key ID"
+msgstr "ID khoá"
+
+#: ../libegg/egg-datetime.c:313
+msgid "Display flags"
+msgstr "Hiển thị cờ"
+
+#: ../libegg/egg-datetime.c:314
+msgid "Displayed date and/or time properties"
+msgstr "Thuộc tính ngày/giờ đã hiển thị"
+
+#: ../libegg/egg-datetime.c:319
+msgid "Lazy mode"
+msgstr "Chế độ lười"
+
+#: ../libegg/egg-datetime.c:320
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "Chế độ lười thì không chuẩn hoá các giá trị ngày tháng và thời gian"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Year"
+msgstr "Năm"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed year"
+msgstr "Năm đã hiển thị"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Month"
+msgstr "Tháng"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Displayed month"
+msgstr "Tháng đã hiển thị"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Day"
+msgstr "Ngày"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed day of month"
+msgstr "Ngày của tháng đã hiển thị"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Hour"
+msgstr "Giờ"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed hour"
+msgstr "Giờ đã hiển thị"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Minute"
+msgstr "Phút"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed minute"
+msgstr "Phút đã hiển thị"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Second"
+msgstr "Giây"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed second"
+msgstr "Giây đã hiển thị"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Lower limit year"
+msgstr "Năm giới hạn dưới"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Year part of the lower date limit"
+msgstr "Phần năm của giới hạn ngày dưới"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Upper limit year"
+msgstr "Năm giới hạn trên"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Year part of the upper date limit"
+msgstr "Phần năm của giới hạn ngày trên"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit month"
+msgstr "Tháng giới hạn dưới"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Month part of the lower date limit"
+msgstr "Phần tháng của giới hạn ngày dưới"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit month"
+msgstr "Tháng giới hạn trên"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Month part of the upper date limit"
+msgstr "Phần tháng của giới hạn ngày trên"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit day"
+msgstr "Ngày giới hạn dưới"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Day of month part of the lower date limit"
+msgstr "Phần ngày của tháng của giới hạn ngày dưới"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit day"
+msgstr "Ngày giới hạn trên"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Day of month part of the upper date limit"
+msgstr "Phần ngày của tháng của giới hạn ngày trên"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit hour"
+msgstr "Giờ giới hạn dưới"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Hour part of the lower time limit"
+msgstr "Phần giờ của giới hạn ngày dưới"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit hour"
+msgstr "Giờ giới hạn trên"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Hour part of the upper time limit"
+msgstr "Phần giờ của giới hạn ngày trên"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit minute"
+msgstr "Phút giới hạn dưới"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Minute part of the lower time limit"
+msgstr "Phần phút của giới hạn ngày dưới"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit minute"
+msgstr "Phút giới hạn trên"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Minute part of the upper time limit"
+msgstr "Phần phút của giới hạn ngày trên"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit second"
+msgstr "Giây giới hạn dưới"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Second part of the lower time limit"
+msgstr "Phần giây của giới hạn ngày dưới"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit second"
+msgstr "Giây giới hạn trên"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Second part of the upper time limit"
+msgstr "Phần giây của giới hạn ngày trên"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:470
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Date"
+msgstr "Ngày"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Enter the date directly"
+msgstr "Nhập trực tiếp ngày tháng"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select Date"
+msgstr "Chọn ngày"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select the date from a calendar"
+msgstr "Chọn ngày tháng trong một lịch"
+
+#: ../libegg/egg-datetime.c:517
+#: ../libegg/egg-datetime.c:2192
+msgid "Time"
+msgstr "Giờ"
+
+#: ../libegg/egg-datetime.c:517
+msgid "Enter the time directly"
+msgstr "Nhập trực tiếp thời gian"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select Time"
+msgstr "Chọn giờ"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select the time from a list"
+msgstr "Chọn thời gian trong một lịch"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:791
+msgid "24hr: no"
+msgstr "24hr: no"
+
+#: ../libegg/egg-datetime.c:795
+#: ../libegg/egg-datetime.c:1253
+#: ../libegg/egg-datetime.c:1257
+msgid "AM"
+msgstr "sáng"
+
+#: ../libegg/egg-datetime.c:797
+#: ../libegg/egg-datetime.c:1254
+#: ../libegg/egg-datetime.c:1261
+msgid "PM"
+msgstr "chiều"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:805
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:808
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:812
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:815
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1169
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1234
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Tập tin không phải là một tập tin .desktop hợp lệ"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Không nhận ra tập tin desktop Phiên bản « %s »"
+
+#: ../libegg/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Đang khởi chạy %s"
+
+#: ../libegg/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Ứng dụng không chấp nhận tài liệu trên dòng lệnh"
+
+#: ../libegg/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Không nhận ra tuỳ chọn khởi chạy: %d"
+
+#: ../libegg/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Không thể gửi địa chỉ URI của tài liệu cho một mục nhập môi trường « Type=Link » (Kiểu=Liên kết)"
+
+#: ../libegg/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Không phải một mục có thể khởi chạy được"
+
+#: ../libegg/eggsmclient.c:224
+msgid "Disable connection to session manager"
+msgstr "Tắt kết nối đến trình quản lý buổi hợp"
+
+#: ../libegg/eggsmclient.c:227
+msgid "Specify file containing saved configuration"
+msgstr "Xác định tập tin chứa cấu hình đã lưu"
+
+#: ../libegg/eggsmclient.c:227
+msgid "FILE"
+msgstr "TẬP TIN"
+
+#: ../libegg/eggsmclient.c:230
+msgid "Specify session management ID"
+msgstr "Xác định mã số quản lý buổi hợp"
+
+#: ../libegg/eggsmclient.c:230
+#: ../pgp/bastile-pgp-key-properties.c:1378
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:244
+msgid "Session management options:"
+msgstr "Các tuỳ chọn quản lý buổi hợp:"
+
+#: ../libegg/eggsmclient.c:245
+msgid "Show session management options"
+msgstr "Hiển thị các tuỳ chọn quản lý buổi hợp"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:2
+msgid "Add Key Server"
+msgstr "Thêm máy phục vụ khoá"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:3
+msgid "Host:"
+msgstr "Máy:"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:4
+msgid "Key Server Type:"
+msgstr "Kiểu máy phục vụ khoá :"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:6
+msgid "The port to access the server on."
+msgstr "Cổng nơi cần truy cập máy phục vụ."
+
+#: ../libbastile/bastile-notification.c:566
+#: ../libbastile/bastile-notification.c:594
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Khoá đã nhập"
+
+#: ../libbastile/bastile-notification.c:570
+#: ../libbastile/bastile-notification.c:593
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Đã nhập %i khoá"
+
+#: ../libbastile/bastile-notification.c:572
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Khoá đã được nhập cho"
+
+#: ../libbastile/bastile-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "Thông điệp thông báo"
+
+#: ../libbastile/bastile-object.c:216
+#| msgid "Sync Keys"
+msgid "Symmetric Key"
+msgstr "Khoá đối sứng"
+
+#: ../libbastile/bastile-object.c:219
+#| msgid "Public PGP Key"
+msgid "Public Key"
+msgstr "Khoá công"
+
+#: ../libbastile/bastile-object.c:222
+#| msgid "Private PGP Key"
+msgid "Private Key"
+msgstr "Khoá riêng"
+
+#: ../libbastile/bastile-object.c:225
+#| msgid "Network Credentials"
+msgid "Credentials"
+msgstr "Thông tin xác thực"
+
+#: ../libbastile/bastile-object.c:228
+msgid "Identity"
+msgstr "Cá tính"
+
+#: ../libbastile/bastile-passphrase.c:196
+msgid "Passphrase"
+msgstr "Cụm từ mật khẩu"
+
+#: ../libbastile/bastile-passphrase.c:199
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Mật khẩu :"
+
+#: ../libbastile/bastile-passphrase.c:262
+msgid "Confirm:"
+msgstr "Xác nhận:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Không phải địa chỉ máy phục vụ khoá hợp lệ."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid "For help contact your system adminstrator or the administrator of the key server."
+msgstr "Để được trợ giúp, hãy liên lạc với quản trị hệ thống, hoặc với quản trị của máy phục vụ khoá."
+
+#: ../libbastile/bastile-prefs.c:174
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:356
+msgid "Custom"
+msgstr "Tự chọn"
+
+#: ../libbastile/bastile-prefs.c:430
+msgid "None: Don't publish keys"
+msgstr "Không: đừng xuất bản khoá"
+
+#: ../libbastile/bastile-prefs.glade.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Tự động lấy các khoá từ các máy phục vụ _khoá"
+
+#: ../libbastile/bastile-prefs.glade.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Tự động đồng bộ hoá các khoá đã sửa đổi với các _máy phục vụ khoá"
+
+#: ../libbastile/bastile-prefs.glade.h:3
+msgid "Key Servers"
+msgstr "Máy phục vụ khoá"
+
+#: ../libbastile/bastile-prefs.glade.h:4
+msgid "Key Sharing"
+msgstr "Chia sẻ khoá"
+
+#: ../libbastile/bastile-prefs.glade.h:5
+#| msgid "Prefere_nces"
+msgid "Preferences"
+msgstr "Tuỳ thích"
+
+#: ../libbastile/bastile-prefs.glade.h:6
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've collected. This means they can automatically encrypt things for you or those you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+"Việc chia sẻ khoá thì cho phép người khác trên cùng một mạng có khả năng sử dụng những khoá bạn đã tập hợp. Có nghĩa là họ có thể tự động mã hoá các thứ cho bạn, hoặc cho những người bạn biết được, không cần bạn gửi khoá cho họ.\n"
+"\n"
+"<b>Ghi chú :</b> việc này không có tác động những khoá riêng của bạn."
+
+#: ../libbastile/bastile-prefs.glade.h:9
+msgid "_Find keys via:"
+msgstr "_Tìm khoá bằng:"
+
+#: ../libbastile/bastile-prefs.glade.h:10
+msgid "_Publish keys to:"
+msgstr "_Xuất bản khoá tới :"
+
+#: ../libbastile/bastile-prefs.glade.h:11
+msgid "_Share my keys with others on my network"
+msgstr "Chia _sẻ các khoá của tôi với người khác trên cùng mạng"
+
+#: ../libbastile/bastile-progress.glade.h:1
+msgid "Progress Title"
+msgstr "Tựa tiến hành"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Không sẵn sàng"
+
+#: ../libbastile/bastile-util.c:206
+msgid "%Y-%m-%d"
+msgstr "%d-%m-%Y"
+
+#: ../libbastile/bastile-util.c:440
+msgid "Key Data"
+msgstr "Dữ liệu khoá"
+
+#: ../libbastile/bastile-util.c:442
+msgid "Multiple Keys"
+msgstr "Đa khoá"
+
+#: ../libbastile/bastile-util.c:697
+msgid "Couldn't run file-roller"
+msgstr "Không thể chạy chương trình file-roller"
+
+#: ../libbastile/bastile-util.c:703
+msgid "Couldn't package files"
+msgstr "Không thể đóng gói các tập tin"
+
+#: ../libbastile/bastile-util.c:704
+msgid "The file-roller process did not complete successfully"
+msgstr "Tiến trình file-roller đã không chạy xong thành công"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:813
+msgid "All key files"
+msgstr "Mọi tập tin khoá"
+
+#: ../libbastile/bastile-util.c:824
+#: ../libbastile/bastile-util.c:864
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Mọi tập tin"
+
+#: ../libbastile/bastile-util.c:857
+msgid "Archive files"
+msgstr "Tập tin kho lưu"
+
+#: ../libbastile/bastile-util.c:906
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Tập tin tên đó đã có.</b>\n"
+"\n"
+"Bạn có muốn thay thế nó bằng một tập tin mới không?"
+
+#: ../libbastile/bastile-util.c:909
+msgid "_Replace"
+msgstr "Tha_y thế"
+
+#: ../libbastile/bastile-validity.c:34
+#: ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1182
+msgid "Unknown"
+msgstr "Không rõ"
+
+#: ../libbastile/bastile-validity.c:36
+#: ../pgp/bastile-pgp-key-properties.c:1188
+#| msgid "Never"
+msgctxt "Validity"
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: ../libbastile/bastile-validity.c:38
+#: ../pgp/bastile-pgp-key-properties.c:1195
+msgid "Marginal"
+msgstr "Sát giới hạn"
+
+#: ../libbastile/bastile-validity.c:40
+#: ../pgp/bastile-pgp-key-properties.c:1201
+msgid "Full"
+msgstr "Đầy"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1207
+msgid "Ultimate"
+msgstr "Cuối cùng"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1415
+msgid "Disabled"
+msgstr "Bị tắt"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1411
+msgid "Revoked"
+msgstr "Bị hủy bỏ"
+
+#: ../libbastile/bastile-widget.c:365
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Không thể hiển thị trợ giúp: %s"
+
+#: ../libmatecryptui/cryptui.c:222
+msgid "No encryption keys were found with which to perform the operation you requested.  The program <b>Passwords and Encryption Keys</b> will now be started so that you may either create a key or import one."
+msgstr "Không tìm thấy khoá mật mã cần dùng để thực hiện thao tác yêu cầu. Chương trình <b>Mật khẩu và Khoá Mật mã</b> sắp được khởi chạy để cho phép bạn hoặc tạo một khoá mới hoặc nhập một khoá đã có."
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+#| msgid "Are you sure you want to permanently delete %s?"
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Bạn có chắc muốn xoá chứng nhận « %s » không?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:110
+#, c-format
+#| msgid "Are you sure you want to permanently delete %d key?"
+#| msgid_plural "Are you sure you want to permanently delete %d keys?"
+msgid "Are you sure you want to delete %d certificates?"
+msgstr "Bạn có chắc muốn xoá %d chứng nhận không?"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:107
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:67
+msgid "Certificate"
+msgstr "Chứng nhận"
+
+#: ../pgp/bastile-add-subkey.glade.h:1
+msgid "Expiration Date:"
+msgstr "Ngày hết hạn:"
+
+#: ../pgp/bastile-add-subkey.glade.h:2
+msgid "Generate a new subkey"
+msgstr "Tạo ra khoá phụ mới"
+
+#: ../pgp/bastile-add-subkey.glade.h:3
+msgid "If key never expires"
+msgstr "Nếu khoá vô hạn"
+
+#: ../pgp/bastile-add-subkey.glade.h:4
+msgid "Key _Length:"
+msgstr "_Dài khoá :"
+
+#: ../pgp/bastile-add-subkey.glade.h:5
+msgid "Key _Type:"
+msgstr "_Kiểu khoá :"
+
+#: ../pgp/bastile-add-subkey.glade.h:6
+msgid "Length of Key"
+msgstr "Độ dài của khoá"
+
+#: ../pgp/bastile-add-subkey.glade.h:7
+msgid "Never E_xpires"
+msgstr "_Vô hạn"
+
+#: ../pgp/bastile-add-uid.glade.h:1
+msgid "Add User ID"
+msgstr "Thêm ID người dùng"
+
+#: ../pgp/bastile-add-uid.glade.h:2
+msgid "Create the new user ID"
+msgstr "Tạo ID người dùng mới"
+
+#: ../pgp/bastile-add-uid.glade.h:3
+#: ../pgp/bastile-pgp-generate.glade.h:8
+msgid "Full _Name:"
+msgstr "Tê_n đầy đủ :"
+
+#: ../pgp/bastile-add-uid.glade.h:4
+msgid "Key Co_mment:"
+msgstr "_Ghi chú khoá :"
+
+#: ../pgp/bastile-add-uid.glade.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Độ dài ít nhất 5 ký tự"
+
+#: ../pgp/bastile-add-uid.glade.h:6
+msgid "Optional comment describing key"
+msgstr "Chú thích tùy chọn mà diễn tả khoá"
+
+#: ../pgp/bastile-add-uid.glade.h:7
+msgid "Optional email address"
+msgstr "Địa chỉ thư điện tử tùy chọn"
+
+#: ../pgp/bastile-add-uid.glade.h:8
+#: ../pgp/bastile-pgp-generate.glade.h:14
+msgid "_Email Address:"
+msgstr "Đị_a chỉ thư :"
+
+#: ../pgp/bastile-expires.glade.h:1
+msgid "C_hange"
+msgstr "Đổ_i"
+
+#: ../pgp/bastile-expires.glade.h:2
+#: ../pgp/bastile-revoke.glade.h:4
+msgid "Revoke key"
+msgstr "Hủy bỏ khoá"
+
+#: ../pgp/bastile-expires.glade.h:3
+msgid "_Never expires"
+msgstr "Vô hạ_n"
+
+#: ../pgp/bastile-gpgme.c:51
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Lỗi giải mã. Rất có thể là bạn không có khoá giải mã."
+
+#: ../pgp/bastile-gpgme-add-subkey.c:144
+msgid "Couldn't add subkey"
+msgstr "Không thể thêm khoá phụ"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:163
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Thêm khoá phụ vào %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:179
+#: ../pgp/bastile-gpgme-generate.c:96
+msgid "DSA (sign only)"
+msgstr "DSA (chỉ ký)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:187
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (chỉ mã hoá)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:193
+#: ../pgp/bastile-gpgme-generate.c:97
+msgid "RSA (sign only)"
+msgstr "RSA (chỉ ký)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:199
+msgid "RSA (encrypt only)"
+msgstr "RSA (chỉ mã hoá)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Không thể thêm ID người dùng"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Thêm ID người dùng vào %s"
+
+#: ../pgp/bastile-gpgme-expires.c:58
+#| msgid "Invalid Signature"
+msgid "Invalid expiry date"
+msgstr "Ngày hết hạn không hợp lệ"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Ngày hết hạn phải nằm trong tương lai"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Không thể thay đổi ngày hết hạn"
+
+#: ../pgp/bastile-gpgme-expires.c:137
+#, c-format
+#| msgid "Expiry for %s"
+msgid "Expiry: %s"
+msgstr "Hết hạn: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:65
+msgid "PGP Key"
+msgstr "Khoá PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:66
+msgid "Used to encrypt email and files"
+msgstr "Dùng để mã hoá thư điện tử và tập tin"
+
+# Name: don't translate/Tên: đừng dịch
+#: ../pgp/bastile-gpgme-generate.c:95
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:106
+msgid "Couldn't generate PGP key"
+msgstr "Không thể tạo ra khoá PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:213
+msgid "Passphrase for New PGP Key"
+msgstr "Cụm từ mật khẩu cho khoá PGP mới"
+
+#: ../pgp/bastile-gpgme-generate.c:214
+msgid "Enter the passphrase for your new key twice."
+msgstr "Gõ hai lần cụm từ mật khẩu cho khoá mới ."
+
+#: ../pgp/bastile-gpgme-generate.c:223
+msgid "Couldn't generate key"
+msgstr "Không thể tạo ra khoá"
+
+#: ../pgp/bastile-gpgme-generate.c:225
+msgid "Generating key"
+msgstr "Đang tạo ra khoá"
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Ảnh chụp quá lớn</b></big>\n"
+"Kích cỡ khuyến khích của ảnh chụp trên khoá là %d × %d điểm ảnh."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_Không đổi cỡ"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "Đổ_i cỡ"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid "This is not a image file, or an unrecognized kind of image file. Try to use a JPEG image."
+msgstr "Không phải tập tin ảnh, hoặc không nhận ra kiểu tập tin ảnh. Hãy thử dùng ảnh kiểu JPEG."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Mọi tập tin ảnh"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Mọi tập tin JPEG"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Chọn ảnh chụp cần thêm vào khoá"
+
+#: ../pgp/bastile-gpgme-photos.c:290
+#: ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Không thể thêm ảnh chụp"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Tập tin không nạp được; có lẽ nó có định dạng không hợp lệ"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Bạn có chắc muốn gỡ bỏ ảnh chụp hiện thời khỏi khoá của bạn không?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Không thể xoá ảnh chụp"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Không thể hủy bỏ khoá phụ"
+
+#: ../pgp/bastile-gpgme-revoke.c:94
+#, c-format
+#| msgid "Revoke %s"
+msgid "Revoke: %s"
+msgstr "Hủy bỏ : %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:105
+msgid "No reason"
+msgstr "Không có lý do"
+
+#: ../pgp/bastile-gpgme-revoke.c:106
+msgid "No reason for revoking key"
+msgstr "Không có lý do hủy bỏ khoá"
+
+#: ../pgp/bastile-gpgme-revoke.c:112
+msgid "Compromised"
+msgstr "Bị xâm nhập"
+
+#: ../pgp/bastile-gpgme-revoke.c:113
+msgid "Key has been compromised"
+msgstr "Khoá đã bị xâm nhập"
+
+#: ../pgp/bastile-gpgme-revoke.c:119
+msgid "Superseded"
+msgstr "Bị thay thế"
+
+#: ../pgp/bastile-gpgme-revoke.c:120
+msgid "Key has been superseded"
+msgstr "Khoá bị thay thế vì quá cũ"
+
+#: ../pgp/bastile-gpgme-revoke.c:126
+msgid "Not Used"
+msgstr "Không dùng"
+
+#: ../pgp/bastile-gpgme-revoke.c:127
+msgid "Key is no longer used"
+msgstr "Khoá không còn được dùng lại"
+
+#: ../pgp/bastile-gpgme-revoke.c:164
+#, c-format
+msgid "You are about to add %s as a revoker for %s. This operation cannot be undone! Are you sure you want to continue?"
+msgstr "Bạn sắp thêm %s là bộ hủy bỏ cho %s. Thao tác này không thể được hồi lại. Bạn vẫn muốn tiếp tục không?"
+
+#: ../pgp/bastile-gpgme-revoke.c:176
+msgid "Couldn't add revoker"
+msgstr "Không thể thêm bộ hủy bỏ"
+
+#: ../pgp/bastile-gpgme-sign.c:96
+msgid "Couldn't sign key"
+msgstr "Không thể ký khoá"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:149
+#: ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Không có khoá nào ký được"
+
+#: ../pgp/bastile-gpgme-sign.c:150
+msgid "You have no personal PGP keys that can be used to indicate your trust of this key."
+msgstr "Bạn không có khoá PGP riêng nào có thể được dùng để ghi độ tin cậy của bạn trên khoá này."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Cụm từ mật khẩu không đúng."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Gõ cụm từ mật khẩu mới cho « %s »"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Gõ cụm từ mật khẩu cho « %s »"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.glade.h:4
+msgid "Enter new passphrase"
+msgstr "Gõ cụm từ mật khẩu mới"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Gõ cụm từ mật khẩu"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Đã nạp %d khoá"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Đang nạp các khoá..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid "Invalid key data (missing UIDs). This may be due to a computer with a date set in the future or a missing self-signature."
+msgstr "Gặp dữ liệu khoá không hợp lệ (thiếu UID). Có thể do máy tính có ngày tháng được đặt trong tương lai, hay chữ tự ký bị thiếu."
+
+#: ../pgp/bastile-gpgme-source.c:910
+msgid "Importing Keys"
+msgstr "Đang nhập khoá"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Đang xuất khoá"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:330
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "Chuỗi tìm kiếm không đủ dứt khoát nên máy phục vụ « %s » tìm thấy quá nhiều khoá."
+
+#: ../pgp/bastile-hkp-source.c:332
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Không thể liên lạc với máy phục vụ « %s »: %s"
+
+#: ../pgp/bastile-hkp-source.c:573
+msgid "Searching for keys..."
+msgstr "Đang tìm kiếm khoá..."
+
+#: ../pgp/bastile-hkp-source.c:644
+msgid "Uploading keys..."
+msgstr "Đang tải lên khoá ..."
+
+#: ../pgp/bastile-hkp-source.c:722
+msgid "Retrieving keys..."
+msgstr "Đang lấy khoá..."
+
+#: ../pgp/bastile-hkp-source.c:828
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Đang tìm kiếm khoá trên: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:905
+#: ../pgp/bastile-hkp-source.c:978
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Đang kết nối đến: %s"
+
+#: ../pgp/bastile-hkp-source.c:1002
+msgid "HTTP Key Server"
+msgstr "Máy phục vụ khoá HTTP"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Không thể liên lạc với « %s »: %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Không thể quyết định địa chỉ: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Đang quyết định địa chỉ của máy phục vụ : %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Đang tìm kiếm khoá chứa « %s »..."
+
+#: ../pgp/bastile-ldap-source.c:982
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Đang tìm kiếm ID khoá « %s »..."
+
+#: ../pgp/bastile-ldap-source.c:1087
+msgid "Retrieving remote keys..."
+msgstr "Đang lấy khoá từ xa..."
+
+#: ../pgp/bastile-ldap-source.c:1219
+msgid "Sending keys to key server..."
+msgstr "Đang gửi khoá cho máy phục..."
+
+#: ../pgp/bastile-ldap-source.c:1421
+msgid "LDAP Key Server"
+msgstr "Máy phục vụ khoá LDAP"
+
+#: ../pgp/bastile-pgp-commands.c:103
+#| msgid "_Sign..."
+msgid "_Sign Key..."
+msgstr "_Ký khoá..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Ký khoá công"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Bạn có chắc muốn xoá hoàn toàn %s không?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+#| msgid "Are you sure you want to permanently delete %d key?"
+#| msgid_plural "Are you sure you want to permanently delete %d keys?"
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Bạn có chắc muốn xoá hẳn %d khoá và cá tính không?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+#| msgid "Are you sure you want to permanently delete %d key?"
+#| msgid_plural "Are you sure you want to permanently delete %d keys?"
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Bạn có chắc muốn xoá hẳn %d khoá không?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+#| msgid "Are you sure you want to permanently delete %d key?"
+#| msgid_plural "Are you sure you want to permanently delete %d keys?"
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Bạn có chắc muốn xoá hẳn %d cá tính không?"
+
+#: ../pgp/bastile-pgp-generate.glade.h:1
+#: ../ssh/bastile-ssh-generate.glade.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>Tùy chọn khoá cấp c_ao</b>"
+
+#: ../pgp/bastile-pgp-generate.glade.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "Khoá PGP cho bạn có khả năng mã hoá thư điện tử hay tập tin cho người khác."
+
+#: ../pgp/bastile-pgp-generate.glade.h:3
+msgid "Algorithms here"
+msgstr "Thuật toán ở đây"
+
+#: ../pgp/bastile-pgp-generate.glade.h:4
+msgid "C_reate"
+msgstr "Tạ_o"
+
+#: ../pgp/bastile-pgp-generate.glade.h:5
+msgid "Create a PGP Key"
+msgstr "Tạo một khoá PGP"
+
+#: ../pgp/bastile-pgp-generate.glade.h:6
+msgid "E_xpiration Date:"
+msgstr "Ngà_y hết hạn:"
+
+#: ../pgp/bastile-pgp-generate.glade.h:7
+#: ../ssh/bastile-ssh-generate.glade.h:4
+msgid "Encryption _Type:"
+msgstr "_Kiểu mã hoá:"
+
+#: ../pgp/bastile-pgp-generate.glade.h:9
+msgid "Generate a new key"
+msgstr "Tạo ra một khoá mới"
+
+#: ../pgp/bastile-pgp-generate.glade.h:10
+#: ../ssh/bastile-ssh-generate.glade.h:6
+msgid "Key _Strength (bits):"
+msgstr "_Mạnh khoá (bit):"
+
+#: ../pgp/bastile-pgp-generate.glade.h:11
+msgid "Ne_ver Expires"
+msgstr "_Vô hạn"
+
+#: ../pgp/bastile-pgp-generate.glade.h:12
+msgid "New PGP Key"
+msgstr "Khoá PGP mới"
+
+#: ../pgp/bastile-pgp-generate.glade.h:13
+msgid "_Comment:"
+msgstr "_Chú thích:"
+
+#: ../pgp/bastile-pgp-key.c:196
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:36
+msgid "Private PGP Key"
+msgstr "Khoá PGP riêng"
+
+#: ../pgp/bastile-pgp-key.c:199
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:32
+msgid "Public PGP Key"
+msgstr "Khoá PGP công"
+
+#: ../pgp/bastile-pgp-key.c:565
+#: ../pgp/bastile-pgp-key-properties.c:1413
+msgid "Expired"
+msgstr "Đã hết hạn"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Không thể thay đổi ID người dùng chính"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Bạn có chắc muốn xoá hoàn toàn ID người dùng « %s »  không?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+#| msgid "Couldn't delete user id"
+msgid "Couldn't delete user ID"
+msgstr "Không thể xoá ID người dùng"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1526
+msgid "[Unknown]"
+msgstr "[Không rõ]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1820
+msgid "Name/Email"
+msgstr "Tên/Địa chỉ thư"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "ID chữ ký"
+
+#: ../pgp/bastile-pgp-key-properties.c:566
+msgid "Couldn't change primary photo"
+msgstr "Không thể thay đổi ảnh chụp chính"
+
+#: ../pgp/bastile-pgp-key-properties.c:826
+msgid "(unknown)"
+msgstr "(không rõ)"
+
+#: ../pgp/bastile-pgp-key-properties.c:829
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Khoá này đã hết hạn vào : %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:997
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Bạn có chắc muốn xoá hoàn toàn khoá phụ %d của %s không?"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006
+msgid "Couldn't delete subkey"
+msgstr "Không thể xoá khoá phụ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1042
+#: ../pgp/bastile-pgp-key-properties.c:1489
+msgid "Unable to change trust"
+msgstr "Không thể thay đổi tình trạng đáng tin"
+
+#: ../pgp/bastile-pgp-key-properties.c:1056
+#: ../src/bastile-viewer.c:312
+#: ../ssh/bastile-ssh-key-properties.c:167
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Không thể xuất khẩu khoá tới « %s »"
+
+#: ../pgp/bastile-pgp-key-properties.c:1084
+#: ../ssh/bastile-ssh-key-properties.c:191
+msgid "Export Complete Key"
+msgstr "Xuất toàn bộ khoá"
+
+#: ../pgp/bastile-pgp-key-properties.c:1109
+#: ../ssh/bastile-ssh-key-properties.c:213
+#| msgid "Couldn't export key"
+msgid "Couldn't export key."
+msgstr "Không thể xuất khẩu khoá."
+
+#: ../pgp/bastile-pgp-key-properties.c:1331
+#: ../pgp/bastile-pgp-key-properties.c:1420
+#| msgid "Never"
+msgctxt "Expires"
+msgid "Never"
+msgstr "Không bao giờ"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1381
+#: ../src/bastile-key-manager-store.c:859
+msgid "Type"
+msgstr "Kiểu"
+
+#: ../pgp/bastile-pgp-key-properties.c:1384
+msgid "Created"
+msgstr "Tạo"
+
+#: ../pgp/bastile-pgp-key-properties.c:1387
+msgid "Expires"
+msgstr "Hết hạn"
+
+#: ../pgp/bastile-pgp-key-properties.c:1390
+msgid "Status"
+msgstr "Trạng thái"
+
+#: ../pgp/bastile-pgp-key-properties.c:1393
+msgid "Strength"
+msgstr "Mạnh"
+
+#: ../pgp/bastile-pgp-key-properties.c:1417
+msgid "Good"
+msgstr "Tốt"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Hành vi</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:2
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Chú thích:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Ngày</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:4
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>Địa chỉ thư :</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Vân tay</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:6
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>ID khoá:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Tên khoá và chữ ký</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:8
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:7
+#: ../ssh/bastile-ssh-key-properties.glade.h:7
+msgid "<b>Name:</b>"
+msgstr "<b>Tên:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:9
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>Ảnh chụp </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>Chi tiết kỹ thuật</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:11
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Khoá này đã bị hủy bỏ</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:12
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>Khoá này đã hết hạn dùng<b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:13
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:12
+#: ../ssh/bastile-ssh-key-properties.glade.h:11
+msgid "<b>Type:</b>"
+msgstr "<b>Kiểu :</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:15
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:14
+#: ../ssh/bastile-ssh-key-properties.glade.h:13
+msgid "<b>Use:</b>"
+msgstr "<b>Dùng:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:16
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>Khoá _phụ</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:17
+msgid "Add"
+msgstr "Thêm"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:18
+msgid "Add a photo to this key"
+msgstr "Thêm ảnh chụp vào khoá này"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:19
+#: ../ssh/bastile-ssh-key-properties.glade.h:16
+msgid "Change _Passphrase"
+msgstr "Đổi _cụm từ mật khẩu"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "Giải mã tập tin và thư điện tử được gửi cho bạn."
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:22
+msgid "Delete"
+msgstr "Xoá"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:24
+msgid "Expire"
+msgstr "Hết hạn"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:25
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:22
+msgid "Expires:"
+msgstr "Hết hạn:"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:26
+msgid "Export"
+msgstr "Xuất"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:27
+msgid "Go to next photo"
+msgstr "Tới ảnh chụp kế"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:28
+msgid "Go to previous photo"
+msgstr "Về ảnh chụp trước"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:29
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:29
+msgid "Key ID:"
+msgstr "ID khoá:"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:31
+msgid "Make this photo the primary photo"
+msgstr "Làm cho ảnh chụp này là ảnh chụp chính"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:32
+msgid "Names and Signatures"
+msgstr "Tên và Chữ ký"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:33
+msgid "Override Owner _Trust:"
+msgstr "Ghi đè lên _tình trạng tin cậy của người sở hữu :"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:34
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:31
+msgid "Owner"
+msgstr "Sở hữu"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:35
+msgid "Primary"
+msgstr "Chính"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:37
+msgid "Remove this photo from this key"
+msgstr "Gỡ bỏ ảnh chụp này khỏi khoá này"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:38
+msgid "Revoke"
+msgstr "Hủy bỏ"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:39
+msgid "Sign"
+msgstr "Ký"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:40
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:33
+msgid "Strength:"
+msgstr "Độ mạnh:"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:41
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:34
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "Người sở hữu khoá đã hủy bỏ khoá đó nên nó vô ích."
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:43
+msgid ""
+"Unknown\n"
+"Never\n"
+"Marginal\n"
+"Full\n"
+"Ultimate"
+msgstr ""
+"Không rõ\n"
+"Không bao giờ\n"
+"Sát giới hạn\n"
+"Đầy\n"
+"Cuối cùng"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:48
+msgid "_Add Name"
+msgstr "Thê_m tên"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:49
+msgid "_Export Complete Key:"
+msgstr "_Xuất toàn bộ khoá:"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Ngày:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:4
+#: ../ssh/bastile-ssh-key-properties.glade.h:4
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Vân tay:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Ghi tin cậy</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Độ tin cậy của bạn với khoá này</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Tên khác:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Người đã ký khoá này:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "Mã hoá tập tin và thư cho người sử hữu khoá này "
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Tin cậy các chữ ký từ « %s » trên các khoá khác "
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:26
+#, no-c-format
+msgid "If you believe that the person that owns this key is '%s', <i>sign</i> this key:"
+msgstr "Để ghi rằng bạn tin cậy người sở hữu khoá này là « %s », <i>ký</i> khoá này:"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:28
+#, no-c-format
+msgid "If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr "Nếu bạn không còn tin cậy lại « %s » sở hữu khoá này, <i>hủy bỏ</i> chữ ký của bạn:"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:35
+#: ../src/bastile-key-manager-store.c:853
+msgid "Trust"
+msgstr "Tin cậy"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:37
+msgid ""
+"Unknown\n"
+"Never\n"
+"Marginally\n"
+"Fully\n"
+"Ultimately"
+msgstr ""
+"Không rõ\n"
+"Không bao giờ\n"
+"Sát giới hạn\n"
+"Đầy đủ\n"
+"Cuối cùng"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:42
+msgid "You _Trust the Owner:"
+msgstr "Bạn _tin cậy người sở hữu :"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Độ tin cậy của bạn được ghi rõ bằng tay trên thanh <i>Chi tiết</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "_Chỉ hiển thị chữ ký của những người tôi tin cậy"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:45
+msgid "_Revoke Signature"
+msgstr "_Hủy bỏ chữ ký"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:46
+msgid "_Sign this Key"
+msgstr "_ Ký khoá này"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+#| msgid "Revoke Subkey %d of %s"
+msgid "Subkey %d of %s"
+msgstr "Khoá phụ %d của %s"
+
+#: ../pgp/bastile-revoke.glade.h:1
+msgid "Optional description of revocation"
+msgstr "Mô tả tùy chọn của sự hủy bỏ"
+
+#: ../pgp/bastile-revoke.glade.h:2
+msgid "Re_voke"
+msgstr "Hủ_y bỏ"
+
+#: ../pgp/bastile-revoke.glade.h:3
+msgid "Reason for revoking the key"
+msgstr "Lý do hủy bỏ khoá này"
+
+#: ../pgp/bastile-revoke.glade.h:6
+msgid "_Reason:"
+msgstr "_Lý do :"
+
+#: ../pgp/bastile-sign.glade.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Bao đã kiểm tra khoá này một cách cẩn thận bao nhiêu?</b>"
+
+#: ../pgp/bastile-sign.glade.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Hình thức của chữ ký này cho người khác:</b>"
+
+#: ../pgp/bastile-sign.glade.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Ký chữ ký như là:</b>"
+
+#: ../pgp/bastile-sign.glade.h:4
+#| msgid ""
+#| "<i>Casually:</i> means you have done a casual verification that the key\n"
+#| "is owned by the person who claims to own it. For example, you could\n"
+#| "read the key fingerprint to the owner over the phone. "
+msgid "<i>Casually:</i> means you have done a casual verification that the key is owned by the person who claims to own it. For example, you could read the key fingerprint to the owner over the phone. "
+msgstr "<i>Cẩu thả:</i> có nghĩa là bạn đã thẩm tra cẩu thả khoá đó thuộc về người tuyên bố sở hữu nó. Ví dụ, bạn có thể đọc vân tay khoá qua điện thoại khi nói với người sở hữu."
+
+#: ../pgp/bastile-sign.glade.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Tên khoá</i>"
+
+#: ../pgp/bastile-sign.glade.h:6
+#| msgid ""
+#| "<i>Not at all:</i> means you believe the key is owned by the person who \n"
+#| "claims to own it, but you could not or did not verify this to be a fact."
+msgid "<i>Not at all:</i> means you believe the key is owned by the person who claims to own it, but you could not or did not verify this to be a fact."
+msgstr "<i>Không bằng cách nào cả:</i> có nghĩa là bạn cho rằng khoá này thuộc về người tuyên bố sở hữu nó, nhưng bạn chưa hay không thể thẩm tra đây là thật."
+
+#: ../pgp/bastile-sign.glade.h:7
+#| msgid ""
+#| "<i>Very Carefully:</i> Select this only if you are absolutely sure that "
+#| "this\n"
+#| "key is genuine."
+msgid "<i>Very Carefully:</i> Select this only if you are absolutely sure that this key is genuine."
+msgstr "<i>Rất cẩn thận:</i> chọn mục này chỉ nếu bạn có chắc chắn hoàn toàn rằng khoá này là thật và đúng."
+
+#: ../pgp/bastile-sign.glade.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Bằng cách ký, bạn ghi rằng bạn tin cậy khoá này thuộc về:"
+
+#: ../pgp/bastile-sign.glade.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Tôi có thể _hủy bỏ chữ ký này vào ngày sau."
+
+#: ../pgp/bastile-sign.glade.h:10
+#| msgid "_Sign this Key"
+msgid "Sign Key"
+msgstr " Ký khoá"
+
+#: ../pgp/bastile-sign.glade.h:11
+#| msgid ""
+#| "You could use a hard to forge photo identification (such as a passport) \n"
+#| "to personally check that the name on the key is correct. You should \n"
+#| "have also used email to check that the email address belongs to the\n"
+#| "owner."
+msgid "You could use a hard to forge photo identification (such as a passport) to personally check that the name on the key is correct. You should have also used email to check that the email address belongs to the owner."
+msgstr "Bạn có thể sử dụng một mục nhận diện khó giả mạo (v.d. một hộ chiếu) để tự kiểm tra tên trên khoá là đúng không. Khuyên bạn cũng sử dụng thư điện tử để kiểm tra địa chỉ thư điện tử của khoá có phải thuộc về người sở hữu đó."
+
+#: ../pgp/bastile-sign.glade.h:12
+msgid "_Casually"
+msgstr "_Cẩu thả"
+
+#: ../pgp/bastile-sign.glade.h:13
+msgid "_Not at all"
+msgstr "Khô_ng bằng cách nào cả"
+
+#: ../pgp/bastile-sign.glade.h:14
+msgid "_Others may not see this signature"
+msgstr "_Không cho phép người khác xem chữ ký này"
+
+#: ../pgp/bastile-sign.glade.h:15
+msgid "_Sign"
+msgstr "_Ký"
+
+#: ../pgp/bastile-sign.glade.h:16
+msgid "_Signer:"
+msgstr "Người _ký:"
+
+#: ../pgp/bastile-sign.glade.h:17
+msgid "_Very Carefully"
+msgstr "_Rất cẩn thận"
+
+#: ../pgp/bastile-signer.c:62
+msgid "You have no personal PGP keys that can be used to sign a document or message."
+msgstr "Bạn không có khoá PGP riêng nào có thể được dùng để ký tài liệu hay thư."
+
+#: ../pgp/bastile-signer.glade.h:1
+msgid "_Sign message with key:"
+msgstr "_Ký thư bằng khoá:"
+
+#: ../src/bastile-change-passphrase.glade.h:1
+msgid "Change Passphrase"
+msgstr "Đổi cụm từ mật khẩu"
+
+#: ../src/bastile-change-passphrase.glade.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_Xác nhận cụm từ mật khẩu :"
+
+#: ../src/bastile-change-passphrase.glade.h:3
+msgid "Confirm new passphrase"
+msgstr "Xác nhận cụm từ mật khẩu mới"
+
+#: ../src/bastile-change-passphrase.glade.h:5
+msgid "New _Passphrase:"
+msgstr "_Cụm từ mật khẩu mới :"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Quản lý các mật khẩu và khoá mã hoá của bạn"
+
+#: ../src/bastile.desktop.in.in.h:2
+msgid "Passwords and Encryption Keys"
+msgstr "Mật khẩu và khoá mã hoá"
+
+#: ../src/bastile-generate-select.glade.h:1
+#| msgid "<b>_Select the kind of key you wish to create:</b>"
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>_Chọn kiểu khoá cần tạo :</b>"
+
+#: ../src/bastile-generate-select.glade.h:2
+msgid "C_ontinue"
+msgstr "_Tiếp tục"
+
+#: ../src/bastile-generate-select.glade.h:3
+#| msgid "_Create New Key..."
+msgid "Create New ..."
+msgstr "Tạo mục mới..."
+
+#: ../src/bastile-key-manager.glade.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Tùy chọn lần đầu tiên:</b></big>"
+
+#: ../src/bastile-key-manager.glade.h:2
+msgid "Generate a new key of your own: "
+msgstr "Tạo ra một khoá mới của mình: "
+
+#: ../src/bastile-key-manager.glade.h:3
+msgid "Import existing keys from a file:"
+msgstr "Nhập khoá đã có từ tập tin:"
+
+#: ../src/bastile-key-manager.glade.h:4
+msgid "My _Personal Keys"
+msgstr "Khoá _cá nhân của tôi"
+
+#: ../src/bastile-key-manager.glade.h:5
+msgid "Other _Collected Keys"
+msgstr "_Các khoá đã tập hợp khác"
+
+#: ../src/bastile-key-manager.glade.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "Để mã hoá, cần thiết có khoá."
+
+#: ../src/bastile-key-manager.glade.h:7
+msgid "_Import"
+msgstr "_Nhập"
+
+#: ../src/bastile-key-manager.glade.h:8
+msgid "_Passwords"
+msgstr "_Mật khẩu"
+
+#: ../src/bastile-key-manager.glade.h:9
+msgid "_Trusted Keys"
+msgstr "Khoá đáng _tin"
+
+#: ../src/bastile-key-manager-store.c:648
+#: ../src/bastile-viewer.c:279
+#| msgid "Couldn't export key"
+msgid "Couldn't export keys"
+msgstr "Không thể xuất khoá"
+
+# Name: don't translate / Tên: đừng dịch
+#: ../src/bastile-key-manager-store.c:846
+msgid "Validity"
+msgstr "Hợp lệ"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:865
+msgid "Expiration Date"
+msgstr "Ngày hết hạn"
+
+#: ../src/bastile-keyserver-search.glade.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Máy phục vụ khoá:</b>"
+
+#: ../src/bastile-keyserver-search.glade.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Khoá dùng chung gần tôi:</b>"
+
+#: ../src/bastile-keyserver-search.glade.h:3
+msgid "Find Remote Keys"
+msgstr "Tìm khoá từ xa"
+
+#: ../src/bastile-keyserver-search.glade.h:4
+msgid "This will find keys for others on the Internet. These keys can then be imported into your local key ring."
+msgstr "Việc này sẽ tìm khoá của người khác trên Mạng. Tìm được thì có thể nhập khoá vào vòng khoá của bạn."
+
+#: ../src/bastile-keyserver-search.glade.h:5
+msgid "Where to search:"
+msgstr "Nơi cần tìm:"
+
+#: ../src/bastile-keyserver-search.glade.h:6
+msgid "_Search"
+msgstr "_Tìm"
+
+#: ../src/bastile-keyserver-search.glade.h:7
+msgid "_Search for keys containing: "
+msgstr "_Tìm khoá chứa: "
+
+#: ../src/bastile-keyserver-sync.c:45
+#| msgid "Couldn't publish keys to server: %s"
+msgid "Couldn't publish keys to server"
+msgstr "Không thể xuất khoá tới máy phục vụ"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Không thể lấy khoá từ máy phục vụ : %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d khoá được chọn để đồng bộ hoá</b>"
+
+#: ../src/bastile-keyserver-sync.c:221
+msgid "Synchronizing keys"
+msgstr "Đang đồng bộ hoá khoá"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:253
+msgid "Synchronizing keys..."
+msgstr "Đang đồng bộ hoá khoá..."
+
+#: ../src/bastile-keyserver-sync.glade.h:1
+msgid "<b>X keys are selected for synchronizing</b>"
+msgstr "<b>X khoá được chọn để đồng bộ hoá</b>"
+
+#: ../src/bastile-keyserver-sync.glade.h:2
+msgid "Sync Keys"
+msgstr "Đồng bộ hóa khoá"
+
+#: ../src/bastile-keyserver-sync.glade.h:3
+msgid "This will publish the keys in your key ring so they're available for others to use. You'll also get any changes others have made since you received their keys."
+msgstr "Việc này sẽ xuất các khoá trong vòng khoá của bạn, để người khác sử dụng. Bạn sẽ cũng nhận thay đổi nào của người khác kể từ lần bạn nhận khoá họ cuối cùng."
+
+#: ../src/bastile-keyserver-sync.glade.h:4
+msgid "This will retrieve any changes others have made since you received their keys. No key server has been chosen for publishing, so your keys will not be made available to others."
+msgstr "Việc này sẽ lấy thay đổi nào của người khác kể từ lần bạn nhận khoá họ cuối cùng. Chưa chọn máy phục vụ khoá nơi cần xuất nên người khác sẽ không thể sử dụng khoá của bạn."
+
+#: ../src/bastile-keyserver-sync.glade.h:5
+msgid "_Key Servers"
+msgstr "Máy phục vụ _khoá"
+
+#: ../src/bastile-keyserver-sync.glade.h:6
+msgid "_Sync"
+msgstr "Đồng _bộ"
+
+#: ../src/bastile-main.c:72
+#: ../src/bastile-viewer.c:167
+msgid "Encryption Key Manager"
+msgstr "Bộ quản lý khoá mã hoá"
+
+#: ../src/bastile-viewer.c:138
+msgid "Contributions:"
+msgstr "Đóng góp:"
+
+#: ../src/bastile-viewer.c:169
+msgid "translator-credits"
+msgstr "Nhóm Việt hóa Mate <matevi-list@lists.sourceforge.net>"
+
+#: ../src/bastile-viewer.c:172
+msgid "Bastile Project Homepage"
+msgstr "Trang chủ Dự án Bastile"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:191
+#| msgid "Filter:"
+msgid "_File"
+msgstr "_Tập tin"
+
+#: ../src/bastile-viewer.c:192
+msgid "_Edit"
+msgstr "_Sửa"
+
+#: ../src/bastile-viewer.c:193
+msgid "_View"
+msgstr "_Xem"
+
+#: ../src/bastile-viewer.c:194
+msgid "_Help"
+msgstr "Trợ g_iúp"
+
+#: ../src/bastile-viewer.c:196
+msgid "Prefere_nces"
+msgstr "Tù_y thích"
+
+#: ../src/bastile-viewer.c:197
+msgid "Change preferences for this program"
+msgstr "Thay đổi tùy thích cho chương trình này"
+
+#: ../src/bastile-viewer.c:199
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#: ../src/bastile-viewer.c:200
+msgid "About this program"
+msgstr "Giới thiệu về chương trình này"
+
+#: ../src/bastile-viewer.c:201
+msgid "_Contents"
+msgstr "Mục lụ_c"
+
+#: ../src/bastile-viewer.c:202
+msgid "Show Bastile help"
+msgstr "Hiện trợ giúp Bastile"
+
+#: ../src/bastile-viewer.c:299
+msgid "Export public key"
+msgstr "Xuất khẩu khoá công"
+
+#: ../src/bastile-viewer.c:317
+msgid "Exporting keys"
+msgstr "Đang xuất khẩu khoá"
+
+#: ../src/bastile-viewer.c:342
+msgid "Couldn't retrieve data from key server"
+msgstr "Không thể lấy dữ liệu từ máy phục vụ khoá"
+
+#: ../src/bastile-viewer.c:360
+#| msgid "Copied %d key"
+#| msgid_plural "Copied %d keys"
+msgid "Copied keys"
+msgstr "Khoá đã sao chép"
+
+#: ../src/bastile-viewer.c:380
+msgid "Retrieving keys"
+msgstr "Đang lấy các khoá"
+
+#: ../src/bastile-viewer.c:395
+#| msgid "Couldn't delete key"
+msgid "Couldn't delete."
+msgstr "Không thể xoá."
+
+#: ../src/bastile-viewer.c:429
+msgid "Deleting..."
+msgstr "Đang xoá..."
+
+#: ../src/bastile-viewer.c:458
+#, c-format
+#| msgid ""
+#| "%s is a private key. Make sure you have a backup. Do you still want to "
+#| "delete it?"
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s là một khoá riêng. Bạn có chắc muốn tiếp tục không?"
+
+#: ../src/bastile-viewer.c:461
+msgid "One or more of the deleted keys are private keys. Are you sure you want to proceed?"
+msgstr "Một hay nhiều khoá bị xoá cũng là khoá riêng. Bạn có chắc muốn tiếp tục không?"
+
+#: ../src/bastile-viewer.c:494
+msgid "P_roperties"
+msgstr "Th_uộc tính"
+
+#: ../src/bastile-viewer.c:495
+#| msgid "Show key properties"
+msgid "Show properties"
+msgstr "Hiện thuộc tính"
+
+#: ../src/bastile-viewer.c:497
+#| msgid "Delete selected keys"
+msgid "Delete selected items"
+msgstr "Xoá các mục đã chọn"
+
+#: ../src/bastile-viewer.c:501
+#| msgid "_Import..."
+msgid "E_xport..."
+msgstr "_Xuất..."
+
+#: ../src/bastile-viewer.c:502
+#| msgid "Export public part of key to a file"
+msgid "Export to a file"
+msgstr "Xuất vào tập tin"
+
+#: ../src/bastile-viewer.c:503
+#| msgid "_Copy Key"
+msgid "_Copy"
+msgstr "_Chép"
+
+#: ../src/bastile-viewer.c:504
+#| msgid "Copy selected keys to the clipboard"
+msgid "Copy to the clipboard"
+msgstr "Chép sang bảng nháp"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Nhập vào cụm từ mật khẩu SSH:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+#| msgid "Configuring Secure Shell Keys..."
+msgid "Configure Key for _Secure Shell..."
+msgstr "Cấu hình khoá cho trình bao bảo mật (_SSH)..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid "Send public Secure Shell key to another machine, and enable logins using that key."
+msgstr "Gửi khoá SSH công cho máy tính khác, và hiệu lực khả năng đăng nhập bằng khoá đó."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+#| msgid "Are you sure you want to permanently delete the '%s' keyring?"
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "Bạn có chắc muốn xoá khoá trình bao bảo mật (SSH) « %s » không?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+#| msgid "Are you sure you want to permanently delete %d key?"
+#| msgid_plural "Are you sure you want to permanently delete %d keys?"
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "Bạn có chắc muốn xoá %d khoá trình bao bảo mật (SSH) không?"
+
+#: ../ssh/bastile-ssh-generate.c:59
+#: ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95
+#: ../ssh/bastile-ssh-key-properties.glade.h:21
+msgid "Secure Shell Key"
+msgstr "Khoá SSH"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Dùng để truy cập máy tính khác (v.d. thông qua thiết bị cuối)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Không thể tạo ra khoá SSH"
+
+#: ../ssh/bastile-ssh-generate.c:205
+msgid "Creating Secure Shell Key"
+msgstr "Đang tạo khoá SSH"
+
+#: ../ssh/bastile-ssh-generate.glade.h:2
+#| msgid ""
+#| "<i>Use your email address, and any other reminder\n"
+#| " you need about what this key is for.</i>"
+msgid "<i>Use your email address, and any other reminder you need about what this key is for.</i>"
+msgstr "<i>Sử dụng địa chỉ thư điện tử của bạn, và bất cứ lời nhắc nhở nào khác cần thiết để nhớ mục đích của khoá này.</i>"
+
+#: ../ssh/bastile-ssh-generate.glade.h:3
+#| msgid ""
+#| "A Secure Shell (SSH) key lets you connect securely to trusted\n"
+#| "computers using SSH, without entering a different password \n"
+#| "for each of them."
+msgid "A Secure Shell (SSH) key lets you connect securely to trusted computers using SSH, without entering a different password for each of them."
+msgstr "Một khoá Trình bao Bảo mật (SSH) thì cho phép bạn kết nối an toàn bằng SSH tới máy tính đáng tin, mà không cần nhập một mật khẩu riêng cho mỗi máy."
+
+#: ../ssh/bastile-ssh-generate.glade.h:5
+#| msgid ""
+#| "If there is already a computer you want to use this key with, you \n"
+#| "can set up that computer to recognize your key now. "
+msgid "If there is already a computer you want to use this key with, you can set up that computer to recognize your key now. "
+msgstr "Có một máy tính với đó bạn muốn sử dụng khoá này thì bạn có thể thiết lập máy đó để nhận diện khoá của bạn ngay bây giờ."
+
+#: ../ssh/bastile-ssh-generate.glade.h:7
+msgid "New Secure Shell Key"
+msgstr "Khoá SSH mới"
+
+#: ../ssh/bastile-ssh-generate.glade.h:8
+msgid "_Create and Set Up"
+msgstr "Tạ_o và Thiết lập"
+
+#: ../ssh/bastile-ssh-generate.glade.h:9
+msgid "_Just Create Key"
+msgstr "_Chỉ tạo khoá"
+
+#: ../ssh/bastile-ssh-generate.glade.h:10
+msgid "_Key Description:"
+msgstr "_Mô tả khoá:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Khoá SSH không đọc được)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Không hợp lệ"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Khoá SSH riêng"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Khoá SSH công"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Không thể thay đổi tên của khoá."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Không thể thay đổi thông tin xác thực cho khoá đó."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+#| msgid "Couldn't change passhrase for key."
+msgid "Couldn't change passphrase for key."
+msgstr "Không thể thay đổi cụm từ mật khẩu cho khoá đó."
+
+# Literal: don't translate/Nghĩa chữ : đừng dịch
+#: ../ssh/bastile-ssh-key-properties.glade.h:1
+msgid "/home/nate/.ssh/blah_rsa"
+msgstr "/home/nate/.ssh/blah_rsa"
+
+# Literal: don't translate/Nghĩa chữ : đừng dịch
+#: ../ssh/bastile-ssh-key-properties.glade.h:2
+msgid "00:00:00:00:00"
+msgstr "00:00:00:00:00"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:3
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Thuật toán:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:5
+msgid "<b>Identifier:</b>"
+msgstr "<b>Bộ nhận diện:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:6
+msgid "<b>Location:</b>"
+msgstr "<b>Vị trí:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:8
+msgid "<b>Strength:</b>"
+msgstr "<b>Độ mạnh:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:10
+msgid "<b>Trust</b>"
+msgstr "<b>Tin cậy</b>"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:15
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Chỉ áp dụng cho tài khoản « %s ».</i>"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:18
+msgid "E_xport Complete Key"
+msgstr "_Xuất toàn bộ khoá"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:22
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "Người sở hữu khoá này có _quyền kết nối đến máy tính này"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:23
+msgid "Used to connect to other computers."
+msgstr "Dùng để kết nối tới máy tính khác."
+
+#: ../ssh/bastile-ssh-operation.c:143
+#: ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "Lệnh SSH bị chấm dứt bất thường."
+
+#: ../ssh/bastile-ssh-operation.c:151
+#: ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "Lệnh SSH bị lỗi."
+
+#: ../ssh/bastile-ssh-operation.c:445
+#: ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "Khoá SSH"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Cụm từ mật khẩu:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+#| msgid "Network Password"
+msgid "Remote Host Password"
+msgstr "Mật khẩu máy ở xa"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Cụm từ mật khẩu khoá cũ"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Gõ cụm từ mật khẩu cũ cho : %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Cụm từ mật khẩu khoá mới"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Gõ cụm từ mật khẩu mới cho : %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Gõ cụm từ mật khẩu khoá"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Cụm từ mật khẩu cho khoá SSH mới"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Gõ cụm từ mật khẩu cho khoá SSH mới của bạn."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Đang nhập khẩu khoá: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Đang nhập khẩu khoá — gõ cụm từ mật khẩu"
+
+#: ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Nhập khoá"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Không có tập tin khoá riêng nào sẵn sàng cho khoá này."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "Không thể cấu hình khoá SSH trên máy tính từ xa."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Đang cấu hình khoá SSH..."
+
+#: ../ssh/bastile-ssh-upload.glade.h:1
+#| msgid "<i>eg: fileserver.example.com</i>"
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>v.d.: máy_phục_vụ_tập_tin.thí_dụ.com:cổng</i>"
+
+#: ../ssh/bastile-ssh-upload.glade.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Thiết lập máy tính để kết nối bằng SSH"
+
+#: ../ssh/bastile-ssh-upload.glade.h:4
+#| msgid ""
+#| "To use your Secure Shell key with another computer that\n"
+#| "uses SSH, you must already have a login account on that \n"
+#| "computer."
+msgid "To use your Secure Shell key with another computer that uses SSH, you must already have a login account on that computer."
+msgstr "Để sử dụng khoá SSH của bạn với một máy tính khác có chạy SSH, trước tiên bạn cần phải thiết lập một tài khoản đăng nhập trên máy tính đó."
+
+#: ../ssh/bastile-ssh-upload.glade.h:5
+msgid "_Computer Name:"
+msgstr "Tên _máy tính:"
+
+#: ../ssh/bastile-ssh-upload.glade.h:6
+msgid "_Login Name:"
+msgstr "Tê_n đăng nhập:"
+
+#: ../ssh/bastile-ssh-upload.glade.h:7
+msgid "_Set Up"
+msgstr "Thiết _lập"

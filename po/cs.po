@@ -1,0 +1,3063 @@
+# Czech translation of bastile.
+# Copyright (C) 1996, 2003, 2008 the author(s) of bastile.
+# Copyright (C) 2004, 2005 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the bastile package.
+#
+# Petr Domansky <doman@atlas.cz>, 2000.
+# Michal Bukovjan <bukm@centrum.cz>, 2003.
+# Miloslav Trmac <mitr@volny.cz>, 2003 – 2005.
+# Petr Kovar <pknbe@volny.cz>, 2008.
+# Lucas Lommer <llommer@svn.mate.org>, 2008.
+# Vitezslav Kotrla <vitezslav.kotrla@gmail.com>, 2007 – 2009.
+# Marek Černocký <marek@manet.cz>, 2010, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=bastile&component=general\n"
+"POT-Creation-Date: 2011-01-19 20:34+0000\n"
+"PO-Revision-Date: 2011-01-24 15:29+0100\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <mate-cs-list@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Nespouštět bastile-daemon jako démon"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "nelze provést fork procesu"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "nebylo možno vytvořit novou skupinu procesů"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "Šifrovací démon (Bastile)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Neplatný nebo nerozpoznaný typ klíče: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Tento typ klíče není podporován: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "Podpora této funkce nebyla povolena při překladu"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Neplatný nebo nerozpoznaný klíč: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Podepsáno: <i><key id='%s'/> <b>vypršel</b></i> dne %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Neplatný podpis"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+"Podepsáno klíčem <i><key id='%s'/></i> dne %s <b>Platnost klíče vypršela</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Podpis s vypršenou platností"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Podepsáno klíčem <i><key id='%s'/> <b>Klíč odvolán</b></i> dne %s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Odvolaný podpis"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Podepsáno klíčem <i><key id='%s'/></i> dne %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Správný podpis"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "Podpisový klíč v klíčence chybí."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Neznámý podpis"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Špatný nebo padělaný podpis. Podepsaná data byla změněna."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Špatný podpis"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Nebylo možno ověřit podpis."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Neplatný nebo nerozpoznaný autor podpisu: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Klíč je pro podepisování neplatný: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Neplatný nebo nerozpoznaný příjemce: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Klíč příjemce není platný pro šifrování: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Žádný příjemce nebyl zadán"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Neplatný typ klíče pro dešifrování: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Nastavte prosím URI originálního souboru (clearuri)"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Nastavte prosím URI šifrovaného souboru (crypturi)"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "Chyba otevírání URI originálního souboru (clearuri)"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Žádný podpis nebyl zadán"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Neplatný typ klíče pro ověření: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Neplatné ID klíče: %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Seznam URI serverů klíčů, na kterých se mají vzdálené PGP klíče hledat. V "
+"pozdějších verzích může být přidáno zobrazitelné jméno (přidejte mezeru, a "
+"potom zobrazitelné jméno)."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Automatické stažení klíčů"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Automaticky synchronizovat klíče"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Ovládá viditelnost sloupce vypršení v správci klíčů."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Ovládá viditelnost sloupce důvěry v správci klíčů."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Ovládá viditelnost sloupce typu v správci klíčů."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Ovládá viditelnost sloupce platnosti v správci klíčů."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Povolit sdílení DNS-SD"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"Povolí sdílení klíčů pomocí DNS-SD (Apple Bonjour). Program bastile-daemon "
+"musí běžet a také musí být sestaven s podporou HKP a DNS-SD."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "ID výchozího klíče"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"Je-li nastaveno, soubory šifrované pomocí bastile budou kódovány jako ASCII "
+"armor."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Je-li nastaveno, bude výchozí klíč vždy přidán do seznamu příjemců šifrování."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Poslední hledaný vzor serveru klíčů"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Poslední použité servery klíčů"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Poslední klíč používaný pro podepisování zprávy."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "Servery klíčů PGP"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Zveřejnit klíče na tomto serveru klíčů."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Zobrazovat sloupec vypršení v správci klíčů"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Zobrazovat sloupec důvěry v správci klíčů"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Zobrazovat sloupec typu v správci klíčů"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Zobrazovat sloupec vlastnosti v správci klíčů"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Zadejte sloupec, podle kterého bude řazeno okno příjemců. Sloupce jsou "
+"„name“ a „id“. Přidáním „-“ před název sloupce zvolíte sestupné řazení."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Určení sloupce, podle kterého řadit hlavní okno správce klíčů bastile. "
+"Sloupce jsou „Jméno“, „ID klíče“, „Platnost“, „Datum vypršení“, „Důvěra“, "
+"„Délka“ a „Typ“. Řaďte sestupně umístěním „-“ před název sloupce."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "ID posledního tajného klíče používaného pro podepisování zprávy."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Sloupec, podle kterého řadit příjemce"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Sloupec, podle kterého řadit klíče bastile"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"Server klíčů, na který budou PGP klíče zveřejňovány. Pokud není vyplněno, "
+"bude zveřejňování PGP klíčů potlačeno."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"Poslední server klíčů, na kterém se hledalo. Prázná hodnota znamená všechny "
+"servery klíčů."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "Poslední vzor hledaný na serveru klíčů."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "Toto určuje výchozí klíč pro některé operace, především podepisování."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr ""
+"Tato volba určuje, zda mají být klíče automaticky stahovány ze serverů klíčů."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Tato volba určuje, zda mají být změněné klíče automaticky synchronizovány s "
+"výchozím serverem klíčů."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Tato volba určuje, zda vždy šifrovat pro výchozí klíč"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Jestli používat ASCII Armor"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Přidat klíčenku hesel"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Název nové klíčenky:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"Zvolte prosím název nové klíčenky. Bude třeba zadat heslo pro odemčení."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Název nebo adresa serveru."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Nebylo možno přidat klíčenku"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Přidat heslo"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:15 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_Popis:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_Klíčenka:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_Heslo:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "Ukázat he_slo"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Heslo pro web"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Síťové heslo"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Heslo"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Chcete opravdu odstranit heslo „%s“?"
+
+# This couldn't be translated well, plural forms should be used here
+# See MATEBUG #552991
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Opravdu chcete smazat %d heslo?"
+msgstr[1] "Opravdu chcete smazat %d hesla?"
+msgstr[2] "Opravdu chcete smazat %d hesel?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Přístup k síťovému sdílenému prostředku"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Přístup k webu"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "Odemkne PGP klíč"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Odemkne SSH klíč"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Uložené heslo nebo přihlašovací jméno"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Přihlašovací údaje pro síť"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Nebylo možné změnit heslo."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Nebylo možné nastavit popis."
+
+#: ../gkr/bastile-gkr-item-properties.c:654
+msgid "Couldn't set application access."
+msgstr "Nebylo možno nastavit aplikační přístup."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Heslo:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Cesta:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Oprávnění:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Technické detaily:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Aplikace"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Detaily"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Klíč"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Vlastnosti klíče"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Přihlašovací jméno:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Server:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Ukázat h_eslo"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+msgid "Type:"
+msgstr "Typ:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Použití:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:17
+msgid "_Read"
+msgstr "Čís_t"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Write"
+msgstr "Z_apisovat"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:20
+#| msgid "_Delete"
+msgctxt "infinitive"
+msgid "_Delete"
+msgstr "_Smazat"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Výpis hesel"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Hesla: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Hesla:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Klíčenka hesel"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Používá se pro ukládání aplikačních a síťových hesel"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Uložené heslo"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Bezpečně uložit heslo."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Nebylo možné odemknout klíčenku"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Nebylo možné zamknout klíčenku"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Nebylo možné nastavit výchozí klíčenku"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Nebylo možno změnit heslo klíčenky"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Zamknout"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr "Zamknout klíčenku, k odemčení bude třeba zadat hlavní heslo"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_Odemknout"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"Aby bylo možné zamčenou klíčenku používat, je třeba odemknout ji použitím "
+"hlavního hesla."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "Na_stavit jako výchozí"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "Aplikace obvykle ukládají nová hesla do výchozí klíčenky"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "_Změnit heslo"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Změnit heslo pro odemknutí klíčenky"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Chcete opravdu odstranit klíčenku „%s“?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "Created:"
+msgstr "Vytvořen:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Klíčenka"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Vlastnosti klíčenky"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "Jmé_no:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Přístup ke klíčence byl odepřen"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Proces mate-keyring neběží"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Klíčenka už byla odemčena"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Taková klíčenka neexistuje"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Nebylo možno spojit se s procesem klíčenky"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Položka už existuje"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Při přístupu k procesu mate-keyring došlo k vnitřní chybě"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Ukládá se položka…"
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Položka je odstraňována…"
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Klíčenka je odstraňována…"
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Vypisují se klíčenky"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"Nebyly nalezeny žádné šifrovací klíče umožňující provedení požadované "
+"operace. Bude spuštěn program <b>Hesla a šifrovací klíče</b>, ve kterém "
+"můžete klíč buď vytvořit nebo importovat."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "Všechny klíče"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "Zvolení příjemci"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "Výsledky hledání"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "_Hledat:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "Žádný (nepodepisovat)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Podepsat zprávu jako %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "Podep_sat zprávu jako:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Jméno"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "ID klíče"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "Zobrazení částí"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "Vlastnosti zobrazení data a času"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "„Líný“ režim"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "„Líný“ režim nenormalizuje zadané hodnoty data a času"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "Rok"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "Zobrazení roku"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "Měsíc"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "Zobrazení měsíce"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "Den"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "Zobrazení dne v měsíci"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "Hodina"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "Zobrazení hodiny"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "Minuta"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "Zobrazení minuty"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "Sekunda"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "Zobrazení sekundy"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "Dolní limit (rok)"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "Dolní limit pro roky"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "Horní limit (rok)"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "Horní limit pro roky"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "Dolní limit (měsíc)"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "Dolní limit pro měsíce"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "Horní limit (měsíc)"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "Horní limit pro měsíce"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "Dolní limit (den)"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "Dolní limit pro dny"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "Horní limit (den)"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "Horní limit pro dny"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "Dolní limit (hodina)"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "Dolní limit pro hodiny"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "Horní limit (hodina)"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "Horní limit pro hodiny"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "Dolní limit (minuta)"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "Dolní limit pro minuty"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "Horní limit (minuta)"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "Horní limit pro minuty"
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "Dolní limit (sekunda)"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "Dolní limit pro sekundy"
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "Horní limit (sekunda)"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "Horní limit pro sekundy"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:1"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "Datum"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "Zadejte datum ručně"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "Vybrat datum"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "Vyberte datum z kalendáře"
+
+#: ../libegg/egg-datetime.c:529 ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "Čas"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "Zadejte čas ručně"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "Vybrat čas"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "Vyberte čas ze seznamu"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "24hr: yes"
+
+#: ../libegg/egg-datetime.c:814 ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "dop"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "odp"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Soubor není platný soubor typu .desktop"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Nerozpoznaný soubor plochy verze „%s“"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Spouští se %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Aplikace nepřijímá dokumenty na příkazové řádce"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Neznámá spouštěcí volba: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Nebylo možné předat URI dokumentu do položky plochy druhu „Type=Link“"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Toto není spustitelná položka"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Zakázat spojení se správcem sezení"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Zadat soubor obsahující uložené nastavení"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Zadat ID správy sezení"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Volby pro správu sezení:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Ukázat volby správy sezení"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Přidat server klíčů"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Počítač:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Typ serveru klíčů:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Port, na kterém se má přistupovat k serveru."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "počáteční dočasná položka"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Importovaný klíč"
+msgstr[1] "Importované klíče"
+msgstr[2] "Importovat"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importován %i klíč"
+msgstr[1] "Importováno %i klíčů"
+msgstr[2] "Importováno %i klíčů"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importován klíč pro"
+msgstr[1] "Importovány klíče pro"
+msgstr[2] "Importován klíč"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Upozornění"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Symetrický klíč"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Veřejný klíč"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Soukromý klíč"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Přihlašovací údaje"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Indentita"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "Heslo"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Heslo:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "Potvrďte:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Chybná adresa serveru klíčů."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr "Požádejte o pomoc správce systému nebo správce serveru klíčů."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Vlastní"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "Žádný: nezveřejňovat klíče"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Automaticky _získat klíče ze serverů klíčů"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Automaticky _synchronizovat změněné klíče se servery klíčů"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Servery klíčů"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "Nastavení"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "_Hledat klíče pomocí:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "Z_veřejňovat klíče na:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Nadpis průběhu"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Není k dispozici"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%d.%m.%Y"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "Data klíče"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "Více klíčů"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "Nebylo možno spustit file-roller"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "Nebylo možno zabalit soubory"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "Proces file-roller neskončil úspěšně"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "Všechny soubory klíčů"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Všechny soubory"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "Soubory archivů"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Již existuje soubor s tímto názvem.</b>\n"
+"\n"
+"Chcete jej nahradit novým souborem?"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "Na_hradit"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Unknown"
+msgstr "Neznámo"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "Nikdy"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Marginal"
+msgstr "Částečná důvěra"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Full"
+msgstr "Plná důvěra"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+msgid "Ultimate"
+msgstr "Bezmezná důvěra"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Odvolaný"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Nebylo možno zobrazit nápovědu: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Datum vypršení platnosti:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Vygenerovat nový podklíč"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Pokud klíč nikdy nevyprší"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "Dé_lka klíče:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "_Typ klíče:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Délka klíče"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Nikdy ne_vyprší"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Přidat ID uživatele"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Vytvořit nové ID uživatele"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "Celé jmé_no:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "_Komentář klíče:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Musí být alespoň 5 znaků dlouhé"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Nepovinná poznámka popisující klíč"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "Nepovinná e-mailová adresa"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_E-mail:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_Změnit"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Odvolat klíč"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_Nevyprší nikdy"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Nebylo možno přidat podklíč"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Přidat podklíč k %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "DSA (jen pro podpis)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (jen pro zašifrování)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "RSA (jen pro podpis)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (jen pro zašifrování)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Nebylo možno přidat id uživatele"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Přidat ID uživatele k %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Dešifrování selhalo. Pravděpodobně nemáte dešifrovací klíč."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Neplatné datum vypršení"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Datum vypršení musí být v budoucnosti"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Nebylo možno změnit datum vypršení"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Vypršení: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "PGP klíč"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Pro šifrování souborů a elektronické pošty"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "DSA/ElGamal"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "Nebylo možno vygenerovat PGP klíč"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "Heslo pro nový PGP klíč"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "Zadejte dvakrát heslo ke svému novému klíči."
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "Nebylo možno vygenerovat klíč"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "Vytváření klíče"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Nesprávné heslo"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr ""
+"Toto je potřetí, co jste zadali nesprávné heslo. Zkuste to prosím znovu."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Fotografie je příliš velká</b></big>\n"
+"Doporučená velikost fotografie pro klíč je %d x %d bodů."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_Neměnit velikost"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "Změnit _velikost"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"Zadaný soubor není obrázek, nebo se jedná o neznámý formát. Zkuste použít "
+"obrázek ve formátu JPEG."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Všechny obrázkové soubory"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Všechny soubory JPEG"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Vyberte fotografii pro přidání ke klíči"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Nebylo možno přidat fotografii"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Soubor nemohl být načten. Možná je v neplatném formátu"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Opravdu chcete odstranit zvolenou fotografii ze svého klíče?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Nebylo možné odstranit fotografii"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Nebylo možno odvolat podklíč"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Odvolání: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Bez důvodu"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Žádný důvod odvolání klíče"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Kompromitovaný"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Klíč byl kompromitován"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Nahrazen"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Klíč byl nahrazen"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Nepoužívá se"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Klíč se již nepoužívá"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"Chystáte se přidat %s pro odvolání klíče %s. Tato operace nemůže být vrácena "
+"zpět! Opravdu chcete pokračovat?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Nebylo možno přidat odvolání"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"Tento klíč již podepsal\n"
+"„%s“"
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "Nebylo možno podepsat klíč"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Žádný klíč pro podpis není k dispozici"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"Nemáte žádný osobní PGP klíč, který by bylo možno použít pro určení důvěry "
+"tomuto klíči."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Špatné heslo."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Zadejte nové heslo pro „%s“"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Zadejte heslo pro „%s“"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Zadejte nové heslo"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Zadejte heslo"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Načten %d klíč"
+msgstr[1] "Načteny %d klíče"
+msgstr[2] "Načteno %d klíčů"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Načítají se klíče…"
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"Neplatná data klíče (chybějí UID). Může to být tím, že chybí vlastní podpis, "
+"nebo je datum v počítači nastaveno do budoucnosti."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "Import klíčů"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Export klíčů"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr ""
+"Zadání nebylo dostatečně přesné. Server „%s“ nalezl příliš mnoho klíčů."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Nebylo možno spojit se s „%s“: %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Probíhá hledání klíčů…"
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Probíhá odesílání klíčů…"
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Probíhá stahování klíčů…"
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Probíhá hledání klíčů na: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Probíhá připojování k: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "Servery klíčů HTTP"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Nebylo možno komunikovat s „%s“: %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Nelze rozlišit adresu %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Zjišťuje se adresa serveru: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Probíhá hledání klíčů obsahujících „%s“…"
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Probíhá hledání klíče id „%s“…"
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Probíhá stahování vzdálených klíčů…"
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Probíhá odesílání klíčů na klíčový server…"
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "Servery klíčů LDAP"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "Podep_sat klíč…"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Podepsat veřejný klíč"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Opravdu chcete navždy odstranit %s?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Chcete opravdu navždy smazat klíče a identity %d?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Chcete opravdu navždy smazat klíče %d?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Chcete opravdu navždy smazat identity %d?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Pokročilé možnosti</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+"PGP klíč umožňuje zašifrovat soubory nebo elektronickou poštu (vždy pro "
+"konkrétního příjemce)."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Algoritmy"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_Vytvořit"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "Datum _vypršení platnosti:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "_Typ šifrování:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Vygenerovat nový klíč"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "_Délka klíče (v bitech):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "Nikdy ne_vyprší"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "Nový PGP klíč"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_Poznámka:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Private PGP Key"
+msgstr "Soukromý PGP klíč"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Public PGP Key"
+msgstr "Veřejný PGP klíč"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Vypršel"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Nebylo možno změnit primární ID uživatele"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Opravdu že chcete navždy odstranit ID uživatele „%s“?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Nelze smazat ID uživatele"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Neznámý]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Jméno / E-mail"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "ID podpisu"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Nebylo možno změnit primární fotografii"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(neznámý)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Tento klíč vyprší dne: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Opravdu chcete navždy odstranit podklíč %d z %s?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Nebylo možno smazat podklíč"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "Nebylo možno změnit stav důvěry"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:290
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Nebylo možno exportovat klíč do „%s“"
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Exportovat celý klíč"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Klíč nelze exportovat."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "Nikdy"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Typ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Vytvořen"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Vyprší"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Stav"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Síla"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "V pořádku"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Akce</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Poznámka:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Data</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>E-mail:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Otisk klíče</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>ID klíče:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Jména klíčů a podpisy</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+msgid "<b>Photo </b>"
+msgstr "<b>Fotografie</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+msgid "<b>Technical Details</b>"
+msgstr "<b>Technické detaily</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Tento klíč byl odvolán</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has expired</b>"
+msgstr "<b>Platnost tohoto klíče vypršela</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Typ:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:14
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:13
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Použití:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Podklíče</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+msgid "Add"
+msgstr "Přidat"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add a photo to this key"
+msgstr "Přidat ke klíči fotografii"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Změnit _heslo"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "Dešifrovat soubory a příchozí poštu."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Delete"
+msgstr "Smazat"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+msgid "Expire"
+msgstr "Vypršet"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Expires:"
+msgstr "Vyprší:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+msgid "Export"
+msgstr "Exportovat"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Go to next photo"
+msgstr "Další fotografie"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to previous photo"
+msgstr "Předchozí fotografie"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+msgid "Key ID:"
+msgstr "ID klíče:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+msgid "Make this photo the primary photo"
+msgstr "Nastavit jako primární fotografii"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Names and Signatures"
+msgstr "Jména a podpisy"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Never"
+msgstr "Nikdy"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+msgid "Override Owner _Trust:"
+msgstr "_Potlačit důvěru vlastníka:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Owner"
+msgstr "Vlastník"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+msgid "Primary"
+msgstr "Primární"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Remove this photo from this key"
+msgstr "Odstranit z klíče tuto fotografii"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Revoke"
+msgstr "Odvolat"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Sign"
+msgstr "Podepsat"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Strength:"
+msgstr "Síla:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "Vlastník klíče jej odvolat. Klíč je nyní nepoužitelný."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+msgid "_Add Name"
+msgstr "_Přidat jméno"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Export Complete Key:"
+msgstr "_Exportovat celý klíč:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+#| msgid "<b>Name:</b>"
+msgctxt "name-of-key"
+msgid "<b>Name:</b>"
+msgstr "<b>Název:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Datum:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Otisk klíče:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Stav důvěry:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Jak moc důvěřujete tomuto klíči</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Jiná jména:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Osoby, které podepsaly tento klíč:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "Šifrování souborů a elektronické pošty pro vlastníka tohoto klíče "
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Fully"
+msgstr "Plně"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Důvěřuji podpisům, kterými „%s“ opatřuje jiné klíče"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:26
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"Pokud věříte, že osoba vlastnící tento klíč je „%s“, můžete tento klíč "
+"<i>podepsat</i>:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:28
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"Pokud nadále nevěříte, že „%s“ tento klíč vlastní, můžete <i>odvolat</i> "
+"svůj podpis:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+msgid "Marginally"
+msgstr "Nepatrně"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Důvěra"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Ultimately"
+msgstr "Zcela"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "You _Trust the Owner:"
+msgstr "_Důvěra tomuto vlastníkovi:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Úroveň vaší důvěry je ručně zadána v záložce <i>Podrobnosti</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "Zobrazit _pouze podpisy osob, kterým důvěřuji"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Revoke Signature"
+msgstr "_Odvolat podpis"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Sign this Key"
+msgstr "_Podepsat klíč"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Podklíč %d z %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Nepovinný popis odvolání"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "_Odvolat"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Důvod odvolání klíče"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_Důvod:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"Nemáte žádný osobní PGP klíč, který by bylo možno použít k podpisu dokumentu "
+"nebo zprávy."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Jak pečlivě byl tento klíč ověřen?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Jak ostatní uvidí tento podpis:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Podepsat klíč jako:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>Zběžně:</i> Znamená to, že bylo provedeno pouze nahodilé ověření toho,že "
+"je klíč skutečně vlastněn osobou, která se za jeho vlastníka prohlašuje. "
+"Můžete například ověřit otisk klíče tak, že ho domnělému vlastníkovi řeknete "
+"po telefonu."
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Název klíče</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>Vůbec:</i> Znamená to, že věříte, že klíč je vlastněn osobou, která se za "
+"jeho vlastníka prohlašuje. Tato skutečnost ovšem nebyla (nebo nemohla být) "
+"nikterak ověřena."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>Velmi pečlivě:</i> Tuto možnost vyberte pouze tehdy, pokud máte naprostou "
+"a nezpochybnitelnou jistotu o původu klíče."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Svým podpisem vyjadřujete svoji důvěru, že vlastníkem tohoto klíče je:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Tento podpis _může být později odvolán."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Podepsat klíč"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"Pro kontrolu jména můžete použít těžko padělatelný doklad, který obsahuje "
+"fotografickou identifikaci (například pas). Také adresu elektronické pošty "
+"je vhodné ověřit zasláním e-mailu vlastníkovi."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_Zběžně"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_Vůbec"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_Ostatní nesmí vidět tento podpis"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "Podep_sat"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Autor podpisu:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_Velmi pečlivě"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_Podepsat zprávu klíčem:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "Certifikát"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Opravdu chcete odstranit certifikát „%s“?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Opravdu chcete smazat  %d certifikát?"
+msgstr[1] "Opravdu chcete smazat %d certifikáty?"
+msgstr[2] "Opravdu chcete smazat %d certifikátů?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Změnit heslo"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "P_otvrdit heslo:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Potvrdit nové heslo"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "Nové _heslo:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Spravovat svá hesla a šifrovací klíče"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "Hesla a šifrovací klíče"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>Zvo_lte druh položky, kterou chcete vytvořit:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "P_okračovat"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Vytvořit nový…"
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Vybrán %d klíč"
+msgstr[1] "Vybrány %d klíče"
+msgstr[2] "Vybráno %d klíčů"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:458
+msgid "Couldn't import keys"
+msgstr "Nebylo možno importovat klíče"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:463
+msgid "Imported keys"
+msgstr "Importované klíče"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "Importují se klíče"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Importovat klíč"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Nerozpoznaný typ klíče, nebo neplatný formát dat"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_Vzdálené"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "Ukončit program"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "_Nový…"
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "Vytvořit nový klíč nebo položku"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "_Importovat…"
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "Importovat ze souboru"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "Importovat ze schránky"
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_Hledat vzdálené klíče…"
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "Hledat klíče na serveru klíčů"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "_Synchronizovat a zveřejnit klíče…"
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Zveřejnit a/nebo synchronizovat vaše klíče s klíči online."
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "T_ypy"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "Ukázat sloupec typ"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "Datu_m vypršení"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "Zobrazovat sloupec vypršení"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "_Důvěru"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "Zobrazovat sloupec důvěry"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "_Platnost"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "Zobrazovat sloupec platnosti"
+
+#: ../src/bastile-key-manager.c:931
+msgid "Filter:"
+msgstr "Filtr:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Možnosti při prvním použití:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Vygenerovat nový klíč: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Importovat existující klíče ze souboru:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "Mo_je osobní klíče"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Další _klíče"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "Abyste mohli začít používat šifrování, budete potřebovat klíče."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:522
+msgid "_Import"
+msgstr "_Importovat"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_Hesla"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:256
+msgid "Couldn't export keys"
+msgstr "Nelze exportovat klíče"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Platnost"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Datum vypršení"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "Zavřít toto okno"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "_Rozbalit vše"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "Rozbalit všechny výpisy"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "_Sbalit vše"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "Sbalit všechny výpisy"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "Vzdálené klíče"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Vzdálené klíče obsahující „%s“"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Servery klíčů:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Sdílené klíče v mé blízkosti:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Hledat vzdálené klíče"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"Hledání klíčů jiných osob na Internetu. Tyto klíče je potom možno vložit do "
+"své místní klíčenky."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Kde hledat:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_Hledat"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_Hledat klíče obsahující: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Nelze zveřejnit klíče na serveru"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Nebylo možno získat klíče ze serveru: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>Pro synchronizaci je vybrán %d klíč</b>"
+msgstr[1] "<b>Pro synchronizaci jsou vybrány %d klíče</b>"
+msgstr[2] "<b>Pro synchronizaci je vybráno %d klíčů</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Synchronizují se klíče"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Synchronizují se klíče…"
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Synchronizovat klíče"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"Tato akce zveřejní klíče ve vaší klíčence, aby je mohli používat i ostatní. "
+"Také získáte změny, které druzí provedli od té doby, co jste přijali jejich "
+"klíče."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"Tato akce získá všechny změny klíčů, které ostatní provedli od doby, kdy "
+"jste jejich klíče získali. Ke zveřejnění nebyl zvolen server klíčů, takže "
+"vaše klíče ostatním zpřístupněny nebudou."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_Servery klíčů"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Synchronizovat"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Verze této aplikace"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "Správce šifrovacích klíčů"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "Přispěli:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"Petr Domanský <doman@atlas.cz>\n"
+"Michal Bukovjan <bukm@centrum.cz>\n"
+"Miloslav Trmač <mitr@volny.cz>\n"
+"Petr Kovář <pknbe@volny.cz>\n"
+"Lucas Lommer <llommer@svn.mate.org>\n"
+"Vítězslav Kotrla <vitezslav.kotrla@gmail.com>"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "Domovská stránka projektu Bastile"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:168
+msgid "_File"
+msgstr "_Soubor"
+
+#: ../src/bastile-viewer.c:169
+msgid "_Edit"
+msgstr "_Upravit"
+
+#: ../src/bastile-viewer.c:170
+msgid "_View"
+msgstr "_Zobrazit"
+
+#: ../src/bastile-viewer.c:171
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../src/bastile-viewer.c:173
+msgid "Prefere_nces"
+msgstr "_Nastavení"
+
+#: ../src/bastile-viewer.c:174
+msgid "Change preferences for this program"
+msgstr "Změnit nastavení tohoto programu"
+
+#: ../src/bastile-viewer.c:177
+msgid "About this program"
+msgstr "O této aplikaci"
+
+#: ../src/bastile-viewer.c:178
+msgid "_Contents"
+msgstr "_Obsah"
+
+#: ../src/bastile-viewer.c:179
+msgid "Show Bastile help"
+msgstr "Ukázat nápovědu"
+
+#: ../src/bastile-viewer.c:276
+msgid "Export public key"
+msgstr "Exportovat veřejný klíč"
+
+#: ../src/bastile-viewer.c:296
+msgid "Exporting keys"
+msgstr "Exportují se klíče"
+
+#: ../src/bastile-viewer.c:321
+msgid "Couldn't retrieve data from key server"
+msgstr "Nebylo možno získat data ze serveru klíčů"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:340
+msgid "Copied keys"
+msgstr "Zkopírované klíče"
+
+#: ../src/bastile-viewer.c:360
+msgid "Retrieving keys"
+msgstr "Stahují se klíče"
+
+#: ../src/bastile-viewer.c:375
+msgid "Couldn't delete."
+msgstr "Nebylo možno odstranit."
+
+#: ../src/bastile-viewer.c:409
+msgid "Deleting..."
+msgstr "Odstraňuje se…"
+
+#: ../src/bastile-viewer.c:435
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s je soukromý klíč. Opravdu chcete pokračovat?"
+
+#: ../src/bastile-viewer.c:483
+msgid "Importing keys from key servers"
+msgstr "Import klíčů ze serveru"
+
+#: ../src/bastile-viewer.c:509
+msgid "Show properties"
+msgstr "Ukázat vlastnosti"
+
+#: ../src/bastile-viewer.c:510
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_Smazat"
+
+#: ../src/bastile-viewer.c:511
+msgid "Delete selected items"
+msgstr "Smazat vybrané položky"
+
+#: ../src/bastile-viewer.c:515
+msgid "E_xport..."
+msgstr "E_xportovat…"
+
+#: ../src/bastile-viewer.c:516
+msgid "Export to a file"
+msgstr "Exportovat do souboru"
+
+#: ../src/bastile-viewer.c:518
+msgid "Copy to the clipboard"
+msgstr "Kopírovat do schránky"
+
+#: ../src/bastile-viewer.c:523
+msgid "Import selected keys to local key ring"
+msgstr "Importovat vybrané klíče do místní klíčenky"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Zadejte své heslo k SSH:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Nastavit klíč pro _SSH…"
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"Poslat veřejný SSH klíč na jiný počítač a povolit přihlášení tímto klíčem."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "Chcete opravdu odstranit klíč k SSH „%s“?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "Chcete opravdu smazat „%d“ klíče k SSH?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "SSH klíč"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Pro přístup k jiným počítačům (např. terminálem)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Nebylo možno vytvořit SSH klíč"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "Vytvoření SSH klíče"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>Použijte svoji adresu elektronické pošty a podle potřeby jakoukoliv další "
+"poznámku pro označení účelu tohoto klíče.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"SSH (Secure Shell) klíč umožňuje vzdálené zabezpečené připojení k "
+"důvěryhodným počítačům pomocí SSH bez nutnosti zadávat pro každý počítač "
+"zvláštní heslo."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"Pokud již existuje počítač, pro který chcete tento klíč použít, můžete jej "
+"nyní pro použití tohoto klíče nastavit. "
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Nový SSH klíč"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_Vytvořit a nastavit"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Pouze vytvořit klíč"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_Popis klíče:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Nečitelný SSH klíč)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Neplatné"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Soukromý SSH klíč"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Veřejný SSH klíč"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Nebylo možno přejmenovat klíč."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Nebylo možno změnit autorizaci klíče."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Nebylo možno změnit heslo klíče."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Algoritmus:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Identifikátor:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Umístění:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Jméno:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Síla:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Důvěra</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Platí pouze pro účet „%s“</i>."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "E_xportovat celý klíč"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "Vlastník tohoto klíče je autorizován pro připojení k to_muto počítači"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Pro připojení k jiným počítačům."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "Příkaz SSH neočekávaně skončil."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "Příkaz SSH selhal."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "SSH klíč"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Heslo:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Odstranit heslo počítače"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Původní heslo"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Zadejte původní heslo pro: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Nové heslo"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Zadejte nové heslo pro: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Zadejte heslo"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Heslo pro nový SSH klíč"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Zadejte heslo pro svůj nový klíč SSH."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Import klíče: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Import klíče. Zadejte heslo"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Pro tento klíč není k dispozici žádný soubor se soukromým klíčem."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "Na vzdáleném počítači nebylo možno nastavit SSH klíč."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Nastavují se klíče SSH…"
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>např.: fileserver.neco.cz:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Nastavit počítač pro připojení pomocí SSH"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"Aby bylo možné pro připojení ke vzdálenému počítači použít SSH klíč, musí "
+"takový počítač používat SSH a také na něm musíte mít uživatelský účet."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "Název _počítače:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "Přihlašovací _jméno:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_Nastavit"

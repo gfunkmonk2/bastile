@@ -1,0 +1,27 @@
+Contributors:
+	
+	Jose Carlos Garcia Sogo for bug fixes, spanish, translation,
+	overall assistance, and letting me manage bastile(2)
+	
+	Jean Schurger for rpms and the new icon
+	
+	Erich Schubert for testing, bug fixes, 
+	and initial german translation
+	
+	Yanko Kaneti for bug fixes and a spec file
+	
+	Adam Schreiber for contributions and patches 
+	
+	Albrecht Dreß the initial GPGME upgrade patch
+    
+    Fernando Herrera for the Caja 2.10 support
+	
+	Mate translation & doc teams, especially Jordi Mallach
+	for package help
+	
+bastile(1) authors:
+	
+	Jose Carlos Garcia Sogo, Anthony Mulcahy, Steffen Zahn, Stef Walter
+
+GnuPG, GPGME, and GPA teams, specifically Miguel Coca, Marcus Brinkmann,
+and Werner Koch, for their assistance and hard work.

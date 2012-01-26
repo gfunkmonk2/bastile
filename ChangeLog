@@ -1,0 +1,5702 @@
+# Generated automatically. Do not edit.
+
+commit c1d9daf45633d98be71682bb6e9c3bbb79d44b70
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-05-09
+
+    Release version 3.1.1
+
+ NEWS         |    8 ++++++++
+ configure.ac |    2 +-
+ 2 files changed, 9 insertions(+), 1 deletions(-)
+
+commit 8a99ee3f6ca8d662f1a9e286a2badccd17aa4c08
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-27
+
+    pkcs11: Fix up implementing of GcrCertificate for new gcr version.
+
+ configure.ac                         |    2 +-
+ pkcs11/bastile-pkcs11-certificate.c |   10 +++++++---
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+
+commit 89848934f9bd09bdc2b0fb09a5416bc0f5453dd9
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2011-04-27
+
+    Updated Spanish translation
+
+ help/es/es.po |   33 +++++++++++++++++++++------------
+ 1 files changed, 21 insertions(+), 12 deletions(-)
+
+commit 43a6ae1f6329a925e506509b39db8c4a93303905
+Author: Muhammet Kara <muhammet.k@gmail.com>
+Date:   2011-04-27
+
+    Updated Turkish translation
+
+ po/tr.po |  959 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 500 insertions(+), 459 deletions(-)
+
+commit abe1603ece39465b418bfbfaa47d728f39cbfe44
+Author: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>
+Date:   2011-04-25
+
+    Updated Japanese translation
+
+ po/ja.po |  638 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 321 insertions(+), 317 deletions(-)
+
+commit 6dd01874da814127e9746ecee5e7e6c791fabee7
+Author: Tomáš Virgl <tomas@virgl.net>
+Date:   2011-04-25
+
+    Updated Slovak translation
+
+ po/sk.po |  676 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 340 insertions(+), 336 deletions(-)
+
+commit 83f1ebc3a0a74a91ed09a15a0b71ee5c237bcfbe
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-25
+
+    Rename configure.in to configure.ac
+
+ autogen.sh   |    2 +-
+ configure.ac |  670 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ configure.in |  670 ----------------------------------------------------------
+ 3 files changed, 671 insertions(+), 671 deletions(-)
+
+commit f3b8f56cf37e91b87a2d88d4799b2f921eeb7985
+Merge: a8c5bac 3bc5e80
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-25
+
+    Merge branch 'mate-3-0'
+    
+    Conflicts:
+    	po/da.po
+
+commit 3bc5e8027ff6d70bf2caf1098f76dc277a71e8e2
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-25
+
+    Release version 3.0.1
+
+ NEWS         |    8 ++++++++
+ configure.in |    2 +-
+ 2 files changed, 9 insertions(+), 1 deletions(-)
+
+commit 072e0510b781811b71b3c3535e0a481eb7af2298
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-25
+
+    Build with GTK+3 by default.
+    
+     * Accept arguments like --with-gtk=2 and --with-gtk=3 instead
+       of strict --with-gtk=3.0.
+
+ configure.in |   12 +++++++-----
+ 1 files changed, 7 insertions(+), 5 deletions(-)
+
+commit a8c5bac5ec6c4411b3eaedb819e75bed2b783db1
+Author: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Date:   2011-04-22
+
+    Updated Thai translation.
+
+ po/th.po |  344 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 180 insertions(+), 164 deletions(-)
+
+commit 46339f71147d542f587c09c54eb7867f46606dad
+Author: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Date:   2011-04-22
+
+    Updated Thai translation.
+
+ po/th.po |  344 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 180 insertions(+), 164 deletions(-)
+
+commit 40a8e37a4ad93ad9e6017e57f52fd8e9c66a4d72
+Author: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Date:   2011-04-21
+
+    Add Esperanto translation
+
+ po/LINGUAS |    1 +
+ po/eo.po   | 2958 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 2959 insertions(+), 0 deletions(-)
+
+commit f093fc5bea9bf8d3418866cda089fbf1802ed14e
+Author: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Date:   2011-04-21
+
+    Add Esperanto translation
+
+ po/LINGUAS |    1 +
+ po/eo.po   | 2958 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 2959 insertions(+), 0 deletions(-)
+
+commit 8f643e3eca0aa918d6befa9ca44b689f9b79170f
+Author: Tomas Bzatek <tbzatek@redhat.com>
+Date:   2011-04-01
+
+    Remove GtkDialog.has-separator properties
+    
+    Not valid for GTK+ 3.0 anymore.
+
+ gkr/bastile-add-keyring.xml                |    1 -
+ gkr/bastile-gkr-add-item.xml               |    1 -
+ gkr/bastile-gkr-item-properties.xml        |    1 -
+ gkr/bastile-gkr-keyring.xml                |    1 -
+ libbastile/bastile-add-keyserver.xml      |    1 -
+ libbastile/bastile-notify.xml             |    1 -
+ libbastile/bastile-prefs.xml              |    1 -
+ libbastile/bastile-progress.xml           |    1 -
+ pgp/bastile-add-subkey.xml                 |    1 -
+ pgp/bastile-add-uid.xml                    |    1 -
+ pgp/bastile-expires.xml                    |    1 -
+ pgp/bastile-pgp-generate.xml               |    1 -
+ pgp/bastile-pgp-private-key-properties.xml |    1 -
+ pgp/bastile-revoke.xml                     |    1 -
+ pgp/bastile-signer.xml                     |    1 -
+ src/bastile-change-passphrase.xml          |    1 -
+ src/bastile-generate-select.xml            |    1 -
+ src/bastile-keyserver-search.xml           |    1 -
+ src/bastile-keyserver-sync.xml             |    1 -
+ ssh/bastile-ssh-generate.xml               |    1 -
+ ssh/bastile-ssh-key-properties.xml         |    1 -
+ ssh/bastile-ssh-upload.xml                 |    1 -
+ 22 files changed, 0 insertions(+), 22 deletions(-)
+
+commit abef8bd54e56b3c7dbcaa9a839a49a3eb8f2374d
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-12
+
+    Fix problem importing SSH keys.
+    
+     * Files weren't being read completely.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=634064
+
+ libbastile/bastile-util.c |    5 ++++-
+ 1 files changed, 4 insertions(+), 1 deletions(-)
+
+commit 032b3d01cc887ced3fc2a11ce21bb528e9ff4ffc
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-12
+
+    cryptui: Fix building of tests with GTK+ 3.0
+
+ libmatecryptui/tests/cryptui-test-ui.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit f834f7561dcd5d5917243c397b88523d272c97ba
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   2011-04-09
+
+    Updated Korean translation
+
+ po/ko.po |   44 ++++++++++++++++++++++----------------------
+ 1 files changed, 22 insertions(+), 22 deletions(-)
+
+commit 4b203897eebfacd50e269a994a6e04b1a9dc6b24
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   2011-04-09
+
+    Updated Korean translation
+
+ po/ko.po |   44 ++++++++++++++++++++++----------------------
+ 1 files changed, 22 insertions(+), 22 deletions(-)
+
+commit 2ea04bc447f0ddc79dd218e46d5f605ca2d4a0ba
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-04-04
+
+    Release version 3.0.0
+
+ .gitignore         |    1 +
+ NEWS               |    5 +++++
+ configure.in       |    2 +-
+ pkcs11/Makefile.am |    3 ++-
+ 4 files changed, 9 insertions(+), 2 deletions(-)
+
+commit 55566ecaf01d1582b6cc7c0e4204d4bc091d5aae
+Author: Jordi Serratosa <serratosa@gmail.com>
+Date:   2011-04-04
+
+    [l10n]Fixes on Catalan translation
+
+ po/ca.po |   78 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 39 insertions(+), 39 deletions(-)
+
+commit a13cdf0ee0024199facac2a4968bbd64b11b79d4
+Author: Jordi Serratosa <serratosa@gmail.com>
+Date:   2011-04-04
+
+    [l10n]Fixes on Catalan translation
+
+ po/ca.po |   78 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 39 insertions(+), 39 deletions(-)
+
+commit 679b29dd05b7497d19aa9d7879532a76c640f438
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:   2011-04-04
+
+    Updated Basque language
+
+ po/eu.po |  679 +++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 323 insertions(+), 356 deletions(-)
+
+commit 350d1993e9df853d8cfd993f5433eb950eaf33f8
+Author: Marek Černocký <marek@manet.cz>
+Date:   2011-04-02
+
+    Updated Czech translation
+
+ po/cs.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 4f408471d6450674040749c5ea79859621ab3b02
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2011-04-02
+
+    Updated Danish translation
+
+ po/da.po |  636 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 320 insertions(+), 316 deletions(-)
+
+commit cb61fde1323f13190894be2bc2e2c03487ea7c34
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2011-04-02
+
+    Updated Danish translation
+
+ po/da.po |  636 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 320 insertions(+), 316 deletions(-)
+
+commit ebf072aa3113baffd6bbbada082c2254a1bcff1d
+Author: Dr.T.Vasudevan <agnihot3@gmail.com>
+Date:   2011-04-01
+
+    Updated Tamil translation
+
+ po/ta.po |  468 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 234 insertions(+), 234 deletions(-)
+
+commit 1f7ca43b33d6a491f32d0ca768ff88b9c4d971f7
+Author: Amitakhya Phukan <amitakhya@svn.mate.org>
+Date:   2011-03-31
+
+    Updated Assamese translations
+
+ po/as.po |  984 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 508 insertions(+), 476 deletions(-)
+
+commit 232b064d44bbcfb9b2c9fab6bcf113ae1db0ca27
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2011-03-30
+
+    Don't check for HAVE_CONFIG_H
+
+ libegg/egg-datetime.c                    |    2 --
+ libbastile/bastile-keyserver-control.c |    2 --
+ src/bastile-keyserver-search.c          |    2 --
+ ssh/bastile-algo.c                      |    6 ++----
+ 4 files changed, 2 insertions(+), 10 deletions(-)
+
+commit 65280aa0efa2ba73892f6789887af0c2c37097eb
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2011-03-28
+
+    Do #include <config.h> in the .c files only.
+
+ daemon/bastile-daemon.h                 |    1 -
+ libegg/egg-datetime.c                    |    4 ++++
+ libbastile/bastile-keyserver-control.c |    4 ++++
+ libbastile/bastile-util.h              |    1 -
+ pgp/bastile-ldap-source.h               |    1 -
+ src/bastile-keyserver-search.c          |    3 +++
+ ssh/bastile-algo.c                      |    4 ++++
+ 7 files changed, 15 insertions(+), 3 deletions(-)
+
+commit 1da34ac91defd55764426155187fe69996aaed36
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-29
+
+    Use pool.sks-keyservers.net instead of pgp.mit.edu
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=645995
+
+ data/bastile.schemas.in |    2 +-
+ help/C/bastile.xml      |    4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit acdb641983999434c6392fbbfbf733d47f2a3e7d
+Author: Duarte Loreto <happyguy_pt@hotmail.com>
+Date:   2011-03-29
+
+    Updated Portuguese translation
+
+ po/pt.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit eb570135deba13ce516711dcac380c7861065359
+Author: Krix Apolinário <krixapolinario@gmail.com>
+Date:   2011-03-28
+
+    Updated Brazilian Portuguese translation
+
+ po/pt_BR.po |  192 +++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 96 insertions(+), 96 deletions(-)
+
+commit 4fbc95c89fe8a7b4f96e319bd6d5c06a169e1626
+Author: Rodrigo Padula de Oliveira <contato@rodrigopadula.com>
+Date:   2011-03-27
+
+    Updated Brazilian Portuguese translation. Reviewed by Enrico Nicoletto.
+
+ po/pt_BR.po |  463 ++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 233 insertions(+), 230 deletions(-)
+
+commit ff8f973ddc153de1d4ba708932b3a081da194e41
+Author: Abduxukur Abdurixit <abdurixit@gmail.com>
+Date:   2011-03-27
+
+    Added UG translation
+
+ po/ug.po |  289 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 148 insertions(+), 141 deletions(-)
+
+commit 9370ab96956d3cf25e7521833f11137b0d1d23c4
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-25
+
+    Release version 2.91.93
+
+ NEWS         |    5 +++++
+ configure.in |    2 +-
+ 2 files changed, 6 insertions(+), 1 deletions(-)
+
+commit 6c4e35de42e101966abe3977ca437b779b6f6e6b
+Author: Cosimo Cecchi <cosimoc@mate.org>
+Date:   2011-03-22
+
+    key-manager: set the primary-toolbar style class on the toolbar
+    
+    This time, in a GTK2-compatible fashion.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=644216
+
+ src/bastile-key-manager.c |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+commit 9f36bdde631861ce809b4fd90da6ebf76f1f6eee
+Author: Runa Bhattacharjee <runab@redhat.com>
+Date:   2011-03-24
+
+    Updated Bengali India Translation
+
+ po/bn_IN.po | 1009 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 526 insertions(+), 483 deletions(-)
+
+commit 39e9011299a3f2e56b74c076ab455f222957603c
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2011-03-23
+
+    [l10n] Updated Italian translation
+
+ po/it.po |  607 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 291 insertions(+), 316 deletions(-)
+
+commit 23199c49e320e66941aed1b8ee62961597317b46
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-21
+
+    Release version 2.91.92
+
+ NEWS         |    9 +++++++++
+ configure.in |    2 +-
+ 2 files changed, 10 insertions(+), 1 deletions(-)
+
+commit 5f06a1f7599b8d7f71c20f2a02aa5d2418c89b50
+Author: Yuri Myasoedov <omerta13@yandex.ru>
+Date:   2011-03-19
+
+    Updated Russian translation
+
+ po/ru.po |  592 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 286 insertions(+), 306 deletions(-)
+
+commit 97e66b73b36994da25d4f62b7d59589cc050ecc1
+Author: Dirgita <dirgitadevina@yahoo.co.id>
+Date:   2011-03-19
+
+    Updated Indonesian translation
+
+ po/id.po | 1106 ++++++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 603 insertions(+), 503 deletions(-)
+
+commit 02369a2345d35cbe3424d6b2cad1b1df0a50660e
+Author: Wei Li <lw124124@gmail.com>
+Date:   2011-03-19
+
+    Update Simplified Chinese translation.
+
+ po/zh_CN.po |  128 +++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 60 insertions(+), 68 deletions(-)
+
+commit 70e455095c0608d7aba8481ac09178d835f4484c
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2011-03-17
+
+    [l10n] Updated German translation
+
+ po/de.po |  464 ++++++++++++++++++++++++--------------------------------------
+ 1 files changed, 176 insertions(+), 288 deletions(-)
+
+commit d407dac93a8ec3c544bb26cc87f84f2fa2146758
+Author: Bruce Cowan <bruce@bcowan.me.uk>
+Date:   2011-03-17
+
+    Updated British English translation
+
+ po/en_GB.po |  637 ++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 320 insertions(+), 317 deletions(-)
+
+commit 527b10b0dd4ef73d0227bc8cdd2d541bed32084a
+Author: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Date:   2011-03-16
+
+    Updated Romanian translation
+
+ po/ro.po |   20 ++++++++++----------
+ 1 files changed, 10 insertions(+), 10 deletions(-)
+
+commit 82050149d43debfd0454b3529a56bdec373717d1
+Author: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Date:   2011-03-16
+
+    Updated Romanian translation
+
+ po/ro.po |  217 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 116 insertions(+), 101 deletions(-)
+
+commit 681d25cc4087ab48830a0547030af53d24adc03e
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-15
+
+    Revert "key-manager: set the primary-toolbar style class on the toolbar"
+    
+    This reverts commit 283ed05a53dc32892bc115b7d7e2c69d31f875c6.
+    
+    This broke the display of the main bastile window on GTK+ 2.x
+    
+    See https://bugzilla.mate.org/show_bug.cgi?id=644216
+
+ src/bastile-key-manager.xml |    3 ---
+ 1 files changed, 0 insertions(+), 3 deletions(-)
+
+commit d83424f86f3aaf06a06f552c6b312cb466c283e5
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-14
+
+    Update icons, and add 256x256 icon.
+    
+    Icons by Jakub Steiner.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=643991
+
+ data/icons/Makefile.am                       |    1 +
+ data/icons/hicolor_apps_16x16_bastile.png   |  Bin 773 -> 857 bytes
+ data/icons/hicolor_apps_22x22_bastile.png   |  Bin 1417 -> 1349 bytes
+ data/icons/hicolor_apps_24x24_bastile.png   |  Bin 1449 -> 1355 bytes
+ data/icons/hicolor_apps_256x256_bastile.png |  Bin 0 -> 35962 bytes
+ data/icons/hicolor_apps_32x32_bastile.png   |  Bin 2458 -> 2288 bytes
+ data/icons/hicolor_apps_48x48_bastile.png   |  Bin 4298 -> 3665 bytes
+ data/icons/svg/bastile.svg                  | 6273 +++++++++++++++++---------
+ 8 files changed, 4258 insertions(+), 2016 deletions(-)
+
+commit ad9638ace3f799161b26a325c1be505ba5e43d8c
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-10
+
+    Stop parsing SSH private keys if all data was consumed.
+    
+    This fixes a crash.
+
+ ssh/bastile-ssh-key-data.c |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+commit e1e3e65754a8e583c481eb992a53dcd62148a832
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2011-03-13
+
+    Updated Polish translation
+
+ po/pl.po |  609 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 292 insertions(+), 317 deletions(-)
+
+commit 23032802f86e5f0ba32ebbc9dbe132407a1ddd6d
+Author: Duarte Loreto <happyguy_pt@hotmail.com>
+Date:   2011-03-12
+
+    Updated Portuguese translation
+
+ po/pt.po |  638 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 321 insertions(+), 317 deletions(-)
+
+commit 9335671cc5fc6e626dbb322b8894ffded7ce7ddb
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-10
+
+    When changing a PGP key's passpharse, ask for confirmation.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=638350
+
+ pgp/bastile-gpgme-source.c |   11 +++++++----
+ 1 files changed, 7 insertions(+), 4 deletions(-)
+
+commit ecb70c1e531369fd1f9efb57ec31e06cb42fcc46
+Author: Craig Keomh <cskeomh@adam.com.au>
+Date:   2011-02-06
+
+    Honor aclocal flags (MATE bug 641657)
+
+ Makefile.am |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit d481949b1cb54894f7862e541a5970d65618304f
+Author: Cosimo Cecchi <cosimoc@mate.org>
+Date:   2011-03-08
+
+    viewer: set the about dialog transient for the main window
+    
+    So it will be attached to it with the shell effect.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=644220
+
+ src/bastile-viewer.c |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 283ed05a53dc32892bc115b7d7e2c69d31f875c6
+Author: Cosimo Cecchi <cosimoc@mate.org>
+Date:   2011-03-08
+
+    key-manager: set the primary-toolbar style class on the toolbar
+    
+    This ensures the primary toolbar takes the right theme.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=644216
+
+ src/bastile-key-manager.xml |    3 +++
+ 1 files changed, 3 insertions(+), 0 deletions(-)
+
+commit ebef77434ac4cd93cab03aac5dab23ad73a0a405
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-03-07
+
+    Release version 2.91.91
+
+ NEWS         |    8 ++++++++
+ configure.in |    2 +-
+ 2 files changed, 9 insertions(+), 1 deletions(-)
+
+commit 411798117445d1b4a7aad35abd4d74a8ca58eb32
+Author: A S Alam <aalam@users.sf.net>
+Date:   2011-03-05
+
+    update Punjabi Translation by A S Alam
+
+ po/pa.po |  768 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 414 insertions(+), 354 deletions(-)
+
+commit 945c705fe4ae04d9f3ca45af3d2f8bf914e0120b
+Author: Gabor Kelemen <kelemeng@mate.hu>
+Date:   2011-03-04
+
+    Updated Hungarian translation
+
+ po/hu.po |  620 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 293 insertions(+), 327 deletions(-)
+
+commit 2b5947c626d16caf936cd351d763ca65828529e0
+Author: Manoj Kumar Giri <mgiri@redhat.com>
+Date:   2011-03-04
+
+    Updated Oriya Translation
+
+ po/or.po | 1038 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 536 insertions(+), 502 deletions(-)
+
+commit 24ac51adfe1cdf69dc13cabd1f49192dd859cf62
+Author: Gil Forcada <gforcada@mate.org>
+Date:   2011-03-03
+
+    [l10n] Updated Catalan translation
+
+ po/ca.po |  638 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 321 insertions(+), 317 deletions(-)
+
+commit 109ced70f321058378e3427e814ebdd034f4c6bd
+Author: Wei Li <lw124124@gmail.com>
+Date:   2011-03-01
+
+    Update Simplified Chinese translation.
+
+ po/zh_CN.po |  267 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 142 insertions(+), 125 deletions(-)
+
+commit 6859dcfc423fc6c6aa903e2b5e423cc45338bea5
+Author: Rudolfs Mazurs <rudolfs.mazurs@gmail.com>
+Date:   2011-03-01
+
+    Updated Latvian translation.
+
+ po/lv.po |  670 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 340 insertions(+), 330 deletions(-)
+
+commit c80eaed610f09a5657ce26845231a88ff9574c16
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   2011-02-27
+
+    Updated Korean translation
+
+ po/ko.po |  261 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 138 insertions(+), 123 deletions(-)
+
+commit 3f5076849dda9f18b1ae1454ac5f375e94633774
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2011-02-23
+
+    Updated Norwegian bokmål translation.
+
+ po/nb.po |    8 ++++----
+ 1 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 3600a22f73fe5d4832654d2bce84b07c431b7988
+Author: Bruno Brouard <annoa.b@gmail.com>
+Date:   2011-02-23
+
+    Updated French translation
+
+ po/fr.po |  631 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 317 insertions(+), 314 deletions(-)
+
+commit 2a7e948dd44116802a2db17f0c02caed3729923e
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2011-02-20
+
+    Updated Spanish translation
+
+ help/es/es.po |   77 ++++++++++++++++++++++++++++++++------------------------
+ 1 files changed, 44 insertions(+), 33 deletions(-)
+
+commit 4ebd1394fe9f84d731686529d6c5ddc3f50673c7
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2011-02-20
+
+    Updated Spanish translation
+
+ po/es.po |   22 ++++++++++------------
+ 1 files changed, 10 insertions(+), 12 deletions(-)
+
+commit 8982cec589077a669dc2a7a9e87508ffdf83a5d8
+Author: Daniel Korostil <ted.korostiled@gmail.com>
+Date:   2011-02-17
+
+    Uploaded Ukranian
+
+ po/uk.po |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 61c22df2421b6358fd55e142ad494a14ac45beae
+Author: Daniel Korostil <ted.korostiled@gmail.com>
+Date:   2011-02-17
+
+    Uploaded Ukranian
+
+ po/uk.po |  687 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 349 insertions(+), 338 deletions(-)
+
+commit ccde80cec06a953dbd0d70479b5fecd3d4106b12
+Author: Wouter Bolsterlee <wbolster@mate.org>
+Date:   2011-02-17
+
+    Updated Dutch translation by Wouter Bolsterlee
+
+ po/nl.po |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit eb51c72a6d92c949ef57f6f16881001b3fc9f18e
+Author: Wouter Bolsterlee <wbolster@mate.org>
+Date:   2011-02-16
+
+    Updated Dutch translation by Wouter Bolsterlee
+
+ po/nl.po |  196 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 100 insertions(+), 96 deletions(-)
+
+commit a7a55af467f357ad8ea198768d2898bfe8415553
+Author: Alexander Shopov <ash@kambanaria.org>
+Date:   2011-02-16
+
+    Updated Bulgarian translation
+
+ po/bg.po |  190 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 97 insertions(+), 93 deletions(-)
+
+commit 3f197c8d8149fcfc3764e95bdd3103099e601b36
+Author: Khaled Hosny <khaledhosny@eglug.org>
+Date:   2011-02-05
+
+    Updated Arabic translation
+
+ po/ar.po |  437 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 218 insertions(+), 219 deletions(-)
+
+commit 66d407eae68ab57e62fa3581fee891ed251adc9d
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-02-04
+
+    Fix infinite loop when a keyring item is open.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=641018
+
+ gkr/bastile-gkr-item.c |   18 +++++++++++-------
+ 1 files changed, 11 insertions(+), 7 deletions(-)
+
+commit c6491c78cea42cdf9dcd389f49c7bf2d9029c332
+Author: Fran Diéguez <fran.dieguez@mabishu.com>
+Date:   2011-01-27
+
+    QA of Galician translations
+
+ po/gl.po |   68 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 34 insertions(+), 34 deletions(-)
+
+commit 9ff4e924eae7235f6eeac022d4087d32d92aed3c
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2011-01-24
+
+    Updated Slovenian translation
+
+ po/sl.po |  193 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 97 insertions(+), 96 deletions(-)
+
+commit d2debd5f727f2620496cb14ab73186c50a91521f
+Author: Marek Černocký <marek@manet.cz>
+Date:   2011-01-24
+
+    Updated Czech translation
+
+ po/cs.po |  191 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 98 insertions(+), 93 deletions(-)
+
+commit 32f0d62e2180adaf6350c43861f44639b7cc7d4b
+Author: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>
+Date:   2011-01-23
+
+    Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+ po/zh_HK.po |  674 ++++++++++++++++++++++++++++++-----------------------------
+ po/zh_TW.po |  675 ++++++++++++++++++++++++++++++-----------------------------
+ 2 files changed, 680 insertions(+), 669 deletions(-)
+
+commit 6453c023736964ce4640b57a0a22ebaf6e815189
+Author: Daniel Nylander <po@danielnylander.se>
+Date:   2011-01-22
+
+    Updated Swedish translation
+
+ po/sv.po |  192 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 98 insertions(+), 94 deletions(-)
+
+commit 9a7bda121e64f9bb5bf225ad4d5fcbbc9580046e
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2011-01-22
+
+    [l10n] Updated Estonian translation
+
+ po/et.po |   57 ++++++++++++++++++---------------------------------------
+ 1 files changed, 18 insertions(+), 39 deletions(-)
+
+commit 6e092f50ab8b8ce8893d42373a1a3838d7ba85df
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2011-01-20
+
+    Updated Spanish translation
+
+ po/es.po |  215 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 111 insertions(+), 104 deletions(-)
+
+commit c36dafbdb597ff8387dd4017062fe77bd9099b75
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2011-01-20
+
+    Updated Norwegian bokmål translation
+
+ po/nb.po |   46 +++++++++++++++++++++++-----------------------
+ 1 files changed, 23 insertions(+), 23 deletions(-)
+
+commit f5705282c3798f6158681c980547ec3d2881e477
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2011-01-20
+
+    Updated Norwegian bokmål translation
+
+ po/nb.po |  188 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 96 insertions(+), 92 deletions(-)
+
+commit 7caa5c12edfb6c6ae3500b319fc778bfc0335f66
+Author: Yaron Shahrabani <sh.yaron@gmail.com>
+Date:   2011-01-20
+
+    Updated Hebrew translation.
+
+ po/he.po |  186 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 95 insertions(+), 91 deletions(-)
+
+commit cb763cbecef3956e6d6e69d5fe1181d4530a3670
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-01-19
+
+    Destroy window even when BastileWidget still has refs.
+    
+    This makes sure that windows are closed when the user requests it.
+
+ libbastile/bastile-widget.c |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 571e656f82ec4d3965f43a59a784d66d98328416
+Author: Fran Diéguez <fran.dieguez@mabishu.com>
+Date:   2011-01-19
+
+    Updated Galician translations
+
+ po/gl.po |  184 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 94 insertions(+), 90 deletions(-)
+
+commit 8ef5bb3206c93fb92b2e9147dd7a8757138a74f0
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-01-19
+
+    Don't use_underline on checkbox that has PGP uid names in text.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=635097
+
+ pgp/bastile-pgp-public-key-properties.xml |    8 +-------
+ 1 files changed, 1 insertions(+), 7 deletions(-)
+
+commit 1217669712d3279377f7ed2ac123f847e7983474
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-01-19
+
+    Escape attribute keyring attribute names properly.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=633568
+
+ gkr/bastile-gkr-item-properties.c |    4 +++-
+ 1 files changed, 3 insertions(+), 1 deletions(-)
+
+commit 35f8f8be68074f24d2e903c477d828a1b118a9ac
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2011-01-19
+
+    Added context to translatable strings.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=629217
+
+ gkr/bastile-gkr-item-properties.xml        |    2 +-
+ pgp/bastile-pgp-private-key-properties.xml |    2 +-
+ pgp/bastile-pgp-public-key-properties.xml  |    2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit ab07cefa89724d464de155b6b2e2e8406cc68fb0
+Author: Marios Zindilis <m.zindilis@dmajor.org>
+Date:   2011-01-19
+
+    Updated Greek translation
+
+ po/el.po |  461 ++++++++++++++++++++++++++------------------------------------
+ 1 files changed, 191 insertions(+), 270 deletions(-)
+
+commit 93fe1d6ed0495a67cb3e6ca2b59f667f9b3d7b22
+Author: Alexander Shopov <ash@kambanaria.org>
+Date:   2011-01-12
+
+    Updated Bulgarian translation
+
+ po/bg.po |  404 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 187 insertions(+), 217 deletions(-)
+
+commit 514808f46e6bdadbf2925e92e05897bcb9716659
+Author: Fran Diéguez <fran.dieguez@mabishu.com>
+Date:   2011-01-09
+
+    Updated Galician translations
+
+ po/gl.po |  448 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 224 insertions(+), 224 deletions(-)
+
+commit 4ebd269f748351fb7dc1b8024e2a867c1c9cf419
+Author: Wouter Bolsterlee <wbolster@mate.org>
+Date:   2011-01-08
+
+    Updated Dutch translation by Wouter Bolsterlee
+
+ po/nl.po |  435 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 218 insertions(+), 217 deletions(-)
+
+commit f039cdf7c7607e771838c8698cdda79ec6cc0aad
+Author: Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>
+Date:   2011-01-03
+
+    [l10n] Updated German translation
+
+ po/de.po |  558 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 283 insertions(+), 275 deletions(-)
+
+commit e2b55eb9ef118d3dd81c2a5927bc69d44812a891
+Author: Daniel Nylander <po@danielnylander.se>
+Date:   2010-12-29
+
+    Updated Swedish translation
+
+ po/sv.po |  434 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 216 insertions(+), 218 deletions(-)
+
+commit 8ace06d20359e0d64a7948908444a6b198728903
+Author: Marek Černocký <marek@manet.cz>
+Date:   2010-12-28
+
+    Updated Czech translation
+
+ po/cs.po |  405 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 189 insertions(+), 216 deletions(-)
+
+commit 9d611d886538a0bf4d16345c42bbcdf784bdd5f9
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-12-24
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 6b12530a79eaf9d5126ca256c9842c3fcbceb0e0
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-12-24
+
+    Release version 2.91.4
+
+ NEWS         |   10 ++++++++++
+ configure.in |    2 +-
+ 2 files changed, 11 insertions(+), 1 deletions(-)
+
+commit 9318b28f9ea039ea8322b778d42235a88b68aa3d
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-12-24
+
+    [libegg] Update to work with GTK+3
+    
+    A copy of Matthias Clasen's changes to libegg:
+    http://git.mate.org/browse/libegg/commit/?id=0be81fa47fb5dabba2be40888ed5d4b16f0ae6a3
+
+ libegg/eggsmclient-private.h |    6 ++++++
+ libegg/eggsmclient-xsmp.c    |    7 ++++++-
+ 2 files changed, 12 insertions(+), 1 deletions(-)
+
+commit d01e85b98b3b091d0af1b92ea8ad7c559ac13a4f
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-12-24
+
+    [pkcs11] Fix build issues with pkcs11 stuff.
+    
+    This doesn't result in the PKCS#11 stuff working. Just an
+    initial commit to get it compiling again after gcr changes.
+
+ pkcs11/bastile-pkcs11-certificate-props.c |    2 +-
+ pkcs11/bastile-pkcs11-certificate-props.h |    2 +-
+ pkcs11/bastile-pkcs11-certificate.c       |    3 +--
+ pkcs11/bastile-pkcs11-helpers.c           |    1 -
+ pkcs11/bastile-pkcs11-object.c            |    1 -
+ pkcs11/bastile-pkcs11-operations.c        |    1 -
+ 6 files changed, 3 insertions(+), 7 deletions(-)
+
+commit 033e8b8f134fdea65d90f1b89b9cad64c55c9b83
+Author: Gheyret T.Kenji <gheyret@gmail.com>
+Date:   2010-12-23
+
+    Added UG translation
+
+ po/ug.po |  167 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 86 insertions(+), 81 deletions(-)
+
+commit 39af6f3ade4bdf1b4a7c2a19befd13721dd5cc35
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2010-12-20
+
+    [l10n] Updated Estonian translation
+
+ po/et.po |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit 251ea0a5c0c6721a90fae720e447de01fecae992
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2010-12-17
+
+    Updated Norwegian bokmål translation
+
+ po/nb.po |  402 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 187 insertions(+), 215 deletions(-)
+
+commit 4a5c6db502dfa22262070be683b98dc65b744096
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-12-15
+
+    Updated Slovenian translation
+
+ po/sl.po | 5952 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 2977 insertions(+), 2975 deletions(-)
+
+commit 2ebbdf178e5222a593548f466966242756741c7d
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2010-12-15
+
+    [l10n] Updated Estonian translation
+
+ po/et.po |  373 ++++++++++++++++++++++++++++++++++++++++++++------------------
+ 1 files changed, 266 insertions(+), 107 deletions(-)
+
+commit 72767bb8d5b4e56fb479c53d7eb487cf525c47c8
+Author: Yaron Shahrabani <sh.yaron@gmail.com>
+Date:   2010-12-13
+
+    Updated Hebrew translation.
+
+ po/he.po |  439 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 219 insertions(+), 220 deletions(-)
+
+commit 7cedce14a43ae3527fc9d26c097de6122810f95c
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2010-12-13
+
+    Updated Spanish translation
+
+ po/es.po |  421 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 210 insertions(+), 211 deletions(-)
+
+commit 762c04906a63ed80d07cb3ca0801a5d173dc2600
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-03-02
+
+    More info when --version parameter is specified.
+    
+    Show path to GNUPG executable and version for which
+    bastile was compiled
+
+ configure.in        |    1 +
+ src/bastile-main.c |    3 ++-
+ 2 files changed, 3 insertions(+), 1 deletions(-)
+
+commit 5bb9786c52a13463d8f172cf7fa2c57c7bd0362d
+Author: nobled <nobled@dreamwidth.org>
+Date:   2010-02-22
+
+    pgp: Fix setting key trust to "never"
+    
+    The value of NEVER is less than UNKNOWN in
+    libmatecryptui/cryptui.h, so don't use UNKNOWN as the minimum
+    trust level. Fixes a comparison of a BastileValidity type
+    with a gpgme_validity_t. Also make the documentation accurate,
+    and make the relative ordering clearer in the code.
+    
+    Thanks to Pablo Castellano for debugging.
+    Closes: bgo#609344.
+
+ libbastile/bastile-validity.h |    2 +-
+ pgp/bastile-gpgme-key-op.c     |   18 +++++++++---------
+ 2 files changed, 10 insertions(+), 10 deletions(-)
+
+commit b6a37957bd2b12dc243d7cc4070342f5c96e6b31
+Author: nobled <nobled@dreamwidth.org>
+Date:   2010-02-22
+
+    pgp: Define default key length for each algorithm
+    
+    Avoid hardcoding 2048 bits as the default, since defaults for
+    key algorithms can change and new algorithms can be added.
+    
+    Closes: bgo#605497.
+
+ pgp/bastile-gpgme-add-subkey.c |    6 +++---
+ pgp/bastile-gpgme-generate.c   |   31 ++++++++++++++++---------------
+ pgp/bastile-gpgme-key-op.h     |    4 +++-
+ 3 files changed, 22 insertions(+), 19 deletions(-)
+
+commit 42691a5b192ce753beb4218202733db2b99c572d
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-21
+
+    Show information message when you try to sign an UID...
+    
+    ... which was already signed with that key.
+    Before, nothing happened and this was confusing some users,
+    specially because self-signatures are not shown.
+    
+    Part of: https://bugzilla.mate.org/show_bug.cgi?id=357322
+
+ pgp/bastile-gpgme-key-op.c |    6 +-----
+ pgp/bastile-gpgme-sign.c   |   18 +++++++++++++-----
+ 2 files changed, 14 insertions(+), 10 deletions(-)
+
+commit 66f3c65fd7ef596062b7c7f1f127ca70e95c6a16
+Author: Adi Roiban <adi@roiban.ro>
+Date:   2010-12-06
+
+    Updated Romanian translation
+
+ po/ro.po |  545 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 270 insertions(+), 275 deletions(-)
+
+commit bf9454bf47416b8ad8cbf896100d4ddce9161375
+Author: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Date:   2010-11-23
+
+    Updated Thai translation.
+
+ po/th.po |  397 ++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 195 insertions(+), 202 deletions(-)
+
+commit 3ecdb585af8c871b55e8cbc89909114698918459
+Author: Gheyret T.Kenji <gheyret@gmail.com>
+Date:   2010-11-20
+
+    Added UG translation
+
+ po/ug.po |   64 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 32 insertions(+), 32 deletions(-)
+
+commit d66ec3ca7c9ca97a7c5e2ff16016599e1dc87d5a
+Author: Gheyret T.Kenji <gheyret@gmail.com>
+Date:   2010-11-14
+
+    Added UG translation
+
+ po/LINGUAS |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 996ed372d892e4779f93d59493aace9469d2aa39
+Author: Gheyret T.Kenji <gheyret@gmail.com>
+Date:   2010-11-13
+
+    Added UG translation
+
+ po/ug.po | 2940 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 2940 insertions(+), 0 deletions(-)
+
+commit b4158e5296063391c20af8f6737979c07ebed806
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-11-09
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 501c65c816f7f1aae86e3048e0b4cfa4e6d2c62a
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-11-09
+
+    Release version 2.91.2
+
+ NEWS |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+commit a6c1089473d9800f5bbec4757e0b3b604ed532f3
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-11-07
+
+    Escape markup properly when displaying keyring item attributes.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=633568
+
+ gkr/bastile-gkr-item-properties.c |    7 +++++--
+ 1 files changed, 5 insertions(+), 2 deletions(-)
+
+commit c548f3b610f1a925bcca0203b19200ef07a50d7a
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-11-02
+
+    NOTIFY_CHECK_VERSION define should eat arguments.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=633773
+
+ libbastile/bastile-notification.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 5b9aa67a8841cd54744fd365973ceed8c8524987
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-11-02
+
+    Fixes related to new GTK+3 GtkComboText class.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=633773
+
+ gkr/bastile-gkr-add-item.c   |    6 +++++-
+ libbastile/bastile-prefs.c  |   10 ++++++++--
+ pgp/bastile-gpgme-generate.c |    6 ++++++
+ ssh/bastile-ssh-generate.c   |    8 ++++++++
+ 4 files changed, 27 insertions(+), 3 deletions(-)
+
+commit 4556596c7848357fa1f1fdb79f8fb832f214e2c8
+Author: Carles Ferrando <carles.ferrando@gmail.com>
+Date:   2010-10-29
+
+    Updated Catalan (Valencian) translation
+
+ po/ca@valencia.po |  443 ++++++++++++++++++++++++++---------------------------
+ 1 files changed, 220 insertions(+), 223 deletions(-)
+
+commit 9610326815309079f448ff5d42a2da15cebb9cff
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-21
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 30ee1da7a4750e9bb119a73229f94475d61cc86e
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-21
+
+    Release version 2.91.1.1
+
+ NEWS         |   10 ++++++++++
+ configure.in |    6 +++---
+ 2 files changed, 13 insertions(+), 3 deletions(-)
+
+commit a6a21d1cc8f52f956e2f2bbab057ea301be18257
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-20
+
+    Fix build with libmatenotify 0.7
+
+ libbastile/bastile-notification.c |   12 +++++++++++-
+ 1 files changed, 11 insertions(+), 1 deletions(-)
+
+commit 77c537b5523ca2ceff3de1f1ea76c306384d536f
+Author: Matthias Clasen <mclasen@redhat.com>
+Date:   2010-10-20
+
+    [libmatecryptui] Migrate to new GtkComboBoxText widget in GTK3
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=632604
+
+ libmatecryptui/cryptui-key-chooser.c |    7 +++++++
+ 1 files changed, 7 insertions(+), 0 deletions(-)
+
+commit 2d13926f655d8c0a525eb56ecfe10f81824ec0dd
+Author: Tomas Bzatek <tbzatek@redhat.com>
+Date:   2010-10-19
+
+    [pkcs11] Fix build issues on gtk+-3.0
+
+ pkcs11/bastile-pkcs11-certificate-props.c |    4 +---
+ 1 files changed, 1 insertions(+), 3 deletions(-)
+
+commit 5b35b922c748798a0bd69c7fd64345f4fedafe98
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-10-14
+
+    Added sl for Slovenian translation
+
+ help/Makefile.am |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 341abdc73f82f65c618a90c53a09deba067d7e0d
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-10-14
+
+    Added Slovenian translation
+
+ help/sl/sl.po | 1134 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 1134 insertions(+), 0 deletions(-)
+
+commit 2610cddc7cae34a3db0716f0bf24ddceea25d533
+Author: Martin Paljak <martin@martinpaljak.net>
+Date:   2010-10-13
+
+    build with latest gcr which only has GcrCertificateWidget
+
+ pkcs11/bastile-pkcs11-certificate-props.c |   35 ++++++++-------------------
+ 1 files changed, 11 insertions(+), 24 deletions(-)
+
+commit 46b51cc9967abe46b325e7ba59bbe0a200c4bb1e
+Author: YunQiang Su <wzssyqa@gmail.com>
+Date:   2010-10-13
+
+    Update Simplified Chinese translation, partially sync from ubuntu-l10n-zh-cn team.
+
+ po/zh_CN.po | 1269 ++++++++++-------------------------------------------------
+ 1 files changed, 217 insertions(+), 1052 deletions(-)
+
+commit e4e91bed87360f1562757d55f69882a28cd4c35c
+Author: Andreas Henriksson <andreas@fatal.se>
+Date:   2010-10-12
+
+    Avoid hard-coding Gtk+ API version in gir generation command
+    
+    The included Gtk+ gir should match the version we're building
+    against.
+
+ libmatecryptui/Makefile.am |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit b2d0c94cff1f94c6e986f3cc306edacb7c6141fc
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   2010-10-09
+
+    Updated Korean translation
+
+ po/ko.po |  414 ++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 204 insertions(+), 210 deletions(-)
+
+commit eee80ac605b06ec4885f32b214ee5d13767d631b
+Author: Diego Escalante Urrelo <descalante@igalia.com>
+Date:   2010-03-30
+
+    ui: add icons and clear action to the filter entry
+    
+    This patch adds the stock search and clear icons to the filter entry in the
+    main window. It also implements the clear entry text action when clicking on
+    the clear icon.
+    
+    Bug #614332
+
+ src/bastile-key-manager.c |   24 +++++++++++++++++++++++-
+ 1 files changed, 23 insertions(+), 1 deletions(-)
+
+commit 4a3e2415fa9b2486ed72ac821c31ccd9efbb419a
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-08
+
+    Bump version number.
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit e9a3ecd6874814de39662baa39071f2f1c4a9521
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-08
+
+    Release version 2.91.1
+
+ NEWS   |    7 +++++++
+ README |    1 -
+ 2 files changed, 7 insertions(+), 1 deletions(-)
+
+commit 3660af92919b1f25f511c367980cbe41187ad4db
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-06
+
+    Add back libmatecryptui package version.
+    
+    Accidentally dropped in migration to GTK3
+
+ configure.in |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+commit 106786f532fbd5d914707a494c7a9824bec29cfc
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-06
+
+    Migrate to GTK3
+    
+    Use the --with-gtk=3.0 option to build with GTK3
+
+ .gitignore                           |    1 +
+ configure.in                         |   49 +++++++++++++++-----
+ daemon/Makefile.am                   |    3 +-
+ libmatecryptui/Makefile.am               |    5 +-
+ libmatecryptui/cryptui-keyset.h          |   10 ++--
+ libegg/egg-datetime.c                |   41 ++++++++++++-----
+ libbastile/bastile-context.c       |   27 ++++++++----
+ libbastile/bastile-context.h       |   20 +++++----
+ libbastile/bastile-object-widget.c |   10 +----
+ libbastile/bastile-passphrase.c    |    6 ++-
+ libbastile/bastile-set.h           |   12 +++---
+ libbastile/bastile-util.c          |    1 +
+ libbastile/bastile-widget.c        |   81 ++++++++++++++++++++-------------
+ libbastile/bastile-widget.h        |   20 +++++---
+ src/bastile-key-manager.c           |    2 +-
+ src/bastile-viewer.c                |   26 -----------
+ 16 files changed, 179 insertions(+), 135 deletions(-)
+
+commit 2ddd0ffe2e1105fe9cb7e38252ba6ac9966f9467
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-06
+
+    Fix compile warnings.
+    
+    Fix compiler warnings in bastile_gpgme_get_keytype_table()
+    and bastile_service_generate_credentials()
+
+ daemon/bastile-service.c |   12 ++++++------
+ pgp/bastile-gpgme.c      |    8 ++++----
+ 2 files changed, 10 insertions(+), 10 deletions(-)
+
+commit 16e8b3edbfccaeedbce475856f8b4e48cdaf4712
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-06
+
+    [pkcs11] Use new libgck library instead of gp11
+    
+    Migrate to libgck from libgp11, now that gck is in mate-keyring.
+
+ configure.in                         |   22 ++++----
+ pkcs11/Makefile.am                   |    1 +
+ pkcs11/bastile-pkcs11-certificate.c |   40 +++++++-------
+ pkcs11/bastile-pkcs11-certificate.h |    4 +-
+ pkcs11/bastile-pkcs11-helpers.c     |   16 +++---
+ pkcs11/bastile-pkcs11-helpers.h     |    6 +-
+ pkcs11/bastile-pkcs11-module.c      |   15 ++---
+ pkcs11/bastile-pkcs11-object.c      |  105 ++++++++++++++++++----------------
+ pkcs11/bastile-pkcs11-object.h      |   14 ++--
+ pkcs11/bastile-pkcs11-operations.c  |   44 +++++++-------
+ pkcs11/bastile-pkcs11-source.c      |   14 ++--
+ pkcs11/bastile-pkcs11-source.h      |    8 +-
+ 12 files changed, 148 insertions(+), 141 deletions(-)
+
+commit 9be069017e73ce47f12c343986a8dba2f1fbf12d
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-03
+
+    Bump release number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 5a370ab67e039aa9a25f50c381361e5cae72dc54
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-03
+
+    Release version 2.91.0
+
+ NEWS           |    5 +++++
+ configure.in   |    2 +-
+ po/POTFILES.in |    1 -
+ 3 files changed, 6 insertions(+), 2 deletions(-)
+
+commit e3514baed3588f916048df4bfee901ab0829b64a
+Merge: f5e2333 f55f0e3
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-03
+
+    Merge branch 'no-sharing'
+
+commit f55f0e3b2194e23da28090e46a8a334cf0b58263
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-08-30
+
+    Remove key sharing from bastile into its own project.
+
+ daemon/Makefile.am                       |   10 +-
+ daemon/bastile-daemon.1                 |    3 +-
+ daemon/bastile-daemon.c                 |   15 -
+ daemon/bastile-daemon.h                 |   29 -
+ daemon/bastile-hkp-server.c             |  668 ------------------
+ daemon/bastile-sharing.c                |  348 ----------
+ libbastile/bastile-mateconf.h             |    2 -
+ libbastile/bastile-gtkstock.c          |    1 -
+ libbastile/bastile-gtkstock.h          |    1 -
+ libbastile/bastile-prefs.c             |   26 -
+ libbastile/bastile-prefs.xml           |   71 +--
+ pixmaps/22x22/Makefile.am                |    2 -
+ pixmaps/22x22/bastile-share-keys.png    |  Bin 1127 -> 0 bytes
+ pixmaps/22x22/bastile-share-keys.svg    | 1091 ------------------------------
+ pixmaps/48x48/Makefile.am                |    1 -
+ pixmaps/48x48/bastile-share-keys.png    |  Bin 2966 -> 0 bytes
+ pixmaps/scalable/Makefile.am             |    1 -
+ pixmaps/scalable/bastile-share-keys.svg |  528 ---------------
+ 18 files changed, 4 insertions(+), 2793 deletions(-)
+
+commit f5e23332f3da40dbb519fc946baebb277a2f3076
+Author: Žygimantas Beručka <zygis@mate.org>
+Date:   2010-10-02
+
+    Updated Lithuanian translation
+
+ po/lt.po |  130 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 68 insertions(+), 62 deletions(-)
+
+commit f2b42aebdecb802c187afcc492aeba4b0a7e41b1
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:   2010-10-01
+
+    Updated Basque language
+
+ po/eu.po |  194 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 103 insertions(+), 91 deletions(-)
+
+commit 99cf4cf0e2016161daee41fb109ebc8664031205
+Author: Simos Xenitellis <simos@mate.org>
+Date:   2010-09-30
+
+    l10n: Updated Greek translation for bastile
+
+ po/el.po |  103 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 55 insertions(+), 48 deletions(-)
+
+commit 7e5e668fd37c614d477486d39e43d0c37e5a6f95
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-09-27
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 92ebfaee5e91d3fc2772372eba46a15a66e416b6
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-09-27
+
+    Release version 2.32.0
+
+ Makefile.am         |    3 ++-
+ NEWS                |    5 +++++
+ configure.in        |    4 ++--
+ help/zh_CN/zh_CN.po |    2 +-
+ 4 files changed, 10 insertions(+), 4 deletions(-)
+
+commit 8d578af1f31692a90413b09cbad1ec432175a1c3
+Author: Yuri Myasoedov <ymyasoedov@src.mate.org>
+Date:   2010-09-25
+
+    Updated Russian translation
+
+ po/ru.po |  574 +++++++++++++++++++++++++-------------------------------------
+ 1 files changed, 234 insertions(+), 340 deletions(-)
+
+commit 5582761d220b7082291d0074a0ed769d85375017
+Author: Khaled Hosny <khaledhosny@eglug.org>
+Date:   2010-09-23
+
+    Updated Arabic translation
+
+ po/ar.po |  518 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 274 insertions(+), 244 deletions(-)
+
+commit 846609192eea04d976b680cb747e6392f29d4390
+Author: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>
+Date:   2010-09-20
+
+    Updated Japanese translation
+
+ po/ja.po |   26 +++++++++++++-------------
+ 1 files changed, 13 insertions(+), 13 deletions(-)
+
+commit e92e91a72a851912618c56c9b1c97e409f7023b8
+Author: Kenneth Nielsen <k.nielsen81@gmail.com>
+Date:   2010-09-19
+
+    Updated Danish translation
+
+ po/da.po |  104 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 55 insertions(+), 49 deletions(-)
+
+commit 35a9ed0a2efb4d7b58de5b88c6c98fcc1688fa15
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2010-09-14
+
+    Updated Polish translation
+
+ po/pl.po |  105 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 55 insertions(+), 50 deletions(-)
+
+commit f7dca7fb971dc02c4b39c0685bd6dd425b078689
+Author: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>
+Date:   2010-09-12
+
+    Updated Japanese translation.
+
+ po/ja.po |  153 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 77 insertions(+), 76 deletions(-)
+
+commit efd6bda57124729a877cb38cab81fc1c6e38f562
+Author: Yasumichi Akahoshi <yasumichi@vinelinux.org>
+Date:   2010-09-12
+
+    Updated Japanese translation.
+
+ help/ja/figures/bastile-window.png |  Bin 0 -> 20435 bytes
+ help/ja/ja.po                       |   32 +++++++++++++++++---------------
+ 2 files changed, 17 insertions(+), 15 deletions(-)
+
+commit 163183780ae6fc69d3a127e7b6373d3168a517dc
+Author: Wouter Bolsterlee <wbolster@mate.org>
+Date:   2010-09-12
+
+    Updated Dutch translation by Wouter Bolsterlee
+
+ po/nl.po |  104 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 55 insertions(+), 49 deletions(-)
+
+commit e13ca7657f9296904b2ffdb379108b6f84d782ed
+Author: André Gondim <andregondim@ubuntu.com>
+Date:   2010-09-10
+
+    Updated Brazilian Portuguese translation
+
+ po/pt_BR.po |  116 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 61 insertions(+), 55 deletions(-)
+
+commit 4f37e4b5e7ecc42be0353266ba3cae83226a6662
+Author: Philip Withnall <philip@tecnocode.co.uk>
+Date:   2010-09-01
+
+    Update British English translation
+
+ po/en_GB.po |  108 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 57 insertions(+), 51 deletions(-)
+
+commit 7c6239901b49129d7b04fb908a80ec4a80cafa50
+Author: Gabor Kelemen <kelemeng@mate.hu>
+Date:   2010-08-31
+
+    Updated Hungarian translation
+
+ po/hu.po |  132 ++++++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 73 insertions(+), 59 deletions(-)
+
+commit e948e1cde78175f6cb7adca837466d1eff11b2d9
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-08-30
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit b9239b8d573022b1d9610fee56b8c35fddf71fbd
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-08-30
+
+    Release version 2.31.91
+
+ NEWS         |    8 ++++++++
+ configure.in |    2 +-
+ 2 files changed, 9 insertions(+), 1 deletions(-)
+
+commit 1242e2695063e9bac90f305a3fcf86e10d0284f0
+Author: Милош Поповић <gpopac@gmail.com>
+Date:   2010-08-29
+
+    Updated Serbian translation
+
+ po/sr.po       |   68 +++++++++++++++++++++++++++++++++----------------------
+ po/sr@latin.po |   68 +++++++++++++++++++++++++++++++++----------------------
+ 2 files changed, 82 insertions(+), 54 deletions(-)
+
+commit be855ae7e424a547095b09292180f0eb9a7b231e
+Author: Petr Kovar <pknbe@volny.cz>
+Date:   2010-08-23
+
+    Update Czech translation by Marek Cernocky
+
+ po/cs.po |   72 +++++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 39 insertions(+), 33 deletions(-)
+
+commit 500dee6cc33a6585d69556ad6258199c21fe96da
+Author: Alexander Shopov <ash@contact.bg>
+Date:   2010-08-23
+
+    Updated Bulgarian translation
+
+ po/bg.po |  104 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 55 insertions(+), 49 deletions(-)
+
+commit acc85534ba8e124839939a491574e981bfcd552d
+Author: David Planella <david.planella@gmail.com>
+Date:   2010-08-22
+
+    Updated Catalan translation
+
+ po/ca.po |  121 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 64 insertions(+), 57 deletions(-)
+
+commit bf74f4c6188392cff11a1b03e06c82b955e5b8e5
+Author: Duarte Loreto <happyguy_pt@hotmail.com>
+Date:   2010-08-22
+
+    Updated Portuguese translation
+
+ po/pt.po |  108 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 57 insertions(+), 51 deletions(-)
+
+commit e83850f35dc363fb014af4eae4ae758000e64529
+Author: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>
+Date:   2010-08-21
+
+    Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+ po/zh_HK.po |  119 ++++++++++++++++++++++++++++++----------------------------
+ po/zh_TW.po |  119 ++++++++++++++++++++++++++++++----------------------------
+ 2 files changed, 124 insertions(+), 114 deletions(-)
+
+commit a58f000e467a79d3d44ff69f1e377816cc000892
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-08-16
+
+    Updated Slovenian translation
+
+ po/sl.po |   55 +++++++++++++++++++++++++++----------------------------
+ 1 files changed, 27 insertions(+), 28 deletions(-)
+
+commit aa750d2d2bbc72e12777456424d43164c91209bf
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2010-08-15
+
+    Updated Spanish translation
+
+ po/es.po |   54 +++++++++++++++++++++++++++---------------------------
+ 1 files changed, 27 insertions(+), 27 deletions(-)
+
+commit c715fdb3622685594bab9afeab1aa7836e0707b9
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2010-08-15
+
+    [l10n] Updated Italian translation
+
+ po/it.po |  119 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 63 insertions(+), 56 deletions(-)
+
+commit a134a7d5057189979433b201d222aa4e7d5b3288
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   2010-08-14
+
+    Updated French translation
+
+ po/fr.po |  221 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 111 insertions(+), 110 deletions(-)
+
+commit dc57628a493d9f77f7c86da3f4d3cbae9039999e
+Author: Aron Xu <aronxu@mate.org>
+Date:   2010-08-13
+
+    Update Simplified Chinese translation.
+
+ po/zh_CN.po |   78 +++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 39 insertions(+), 39 deletions(-)
+
+commit 58d032815f27c2f2cf3c9794378ca1ee0b11b22d
+Author: Daniel Nylander <po@danielnylander.se>
+Date:   2010-08-06
+
+    Updated Swedish translation
+
+ po/sv.po |  109 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 57 insertions(+), 52 deletions(-)
+
+commit 88374f629758bad1213aef15b4cd0dba0f5f56bf
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-08-04
+
+    Updated Slovenian translation
+
+ po/sl.po |  227 +-------------------------------------------------------------
+ 1 files changed, 2 insertions(+), 225 deletions(-)
+
+commit 19f0cc0b93d49993049cdab6ba38f3f2e6a8b551
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2010-08-04
+
+    Updated Norwegian bokmål translation
+
+ po/nb.po |  253 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 130 insertions(+), 123 deletions(-)
+
+commit ea39f32bd762a6b3feb95e663b38cd985142a04f
+Author: Tomáš Virgl <tomas@virgl.net>
+Date:   2010-08-04
+
+    Updated Slovak translation
+
+ po/sk.po | 4819 ++++++++++++++++++++++++++++++++++++++++----------------------
+ 1 files changed, 3086 insertions(+), 1733 deletions(-)
+
+commit 466ae6ca4b3040eaf5c799ad71609faf0f8d2420
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2010-08-04
+
+    Partial documentation for bastile-keyserver-results.c
+    
+    This patch adds full documentation for bastile-keyserver-results.
+    Static functions are commented in a non-specific way, the other functions in a GTK-Doc style.
+
+ src/bastile-keyserver-results.c |  102 +++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 101 insertions(+), 1 deletions(-)
+
+commit af9025e2c2e504d9cb15554ea19aa2519a6bdbf6
+Author: A S Alam <aalam@users.sf.net>
+Date:   2010-08-04
+
+    update Translation in master for Punjabi by A S Alam
+
+ po/pa.po |  203 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 103 insertions(+), 100 deletions(-)
+
+commit c426881dd7da3225dd87326e2b798491a27c3214
+Author: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+Date:   2010-08-04
+
+    Updated Japanese translation.
+
+ po/ja.po |  356 ++++++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 196 insertions(+), 160 deletions(-)
+
+commit f4df11704679c27f2e4fe7b87626497e46e9f5dc
+Author: Yasumichi Akahoshi <yasumichi@vinelinux.org>
+Date:   2010-08-04
+
+    Added Japanese translation.
+
+ help/Makefile.am |    2 +-
+ help/ja/ja.po    | 1667 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 1668 insertions(+), 1 deletions(-)
+
+commit 5b5ac4bf6329972199fd4d447cbee41c481d7c10
+Author: Matthias Ferdinand <mf@14v.de>
+Date:   2010-08-01
+
+    Fix compile error in bastile_util.c
+    
+    For the declaration of mode_t, sys/types.h needs to be included.
+    
+    Fixes bug #625506
+
+ libbastile/bastile-util.c |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+commit 981866be8ec2d19838e3001aec1a48ac9b55a6f6
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-08-01
+
+    Ignore *.mo and bastile.xml files in help/
+
+ help/.gitignore |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+commit 2708c6c9779c98cb06876cc96986d9ae2ac01bee
+Author: Mattias Põldaru <mahfiaz gmail com>
+Date:   2010-07-29
+
+    [l10n] Updated Estonian translation
+
+ po/et.po |  318 ++++++++++++++++----------------------------------------------
+ 1 files changed, 83 insertions(+), 235 deletions(-)
+
+commit 828c2acb33415fbaa360f05d74fc51ff857915ba
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2010-07-27
+
+    [i18n] Updated German translation
+
+ po/de.po |  222 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 113 insertions(+), 109 deletions(-)
+
+commit d0a7b2a9a32fa443b2ce5ebb0bf6b23751d7c4ba
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2010-07-26
+
+    Updated Spanish translation
+
+ po/es.po |   52 +++++++++++++++++++++++++++-------------------------
+ 1 files changed, 27 insertions(+), 25 deletions(-)
+
+commit 1e9c991760b62f06a9347d599a73d2814b033417
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-07-25
+
+    Updated Slovenian translation
+
+ po/sl.po | 6393 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 3199 insertions(+), 3194 deletions(-)
+
+commit 8ae4760cb0e86490927402199339ca3a05ccb0c2
+Author: drtv <vasudeven@git.mate.org>
+Date:   2010-07-24
+
+    Updated Tamil translation
+
+ po/ta.po |   82 +++++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 44 insertions(+), 38 deletions(-)
+
+commit c5a0bc77e49e1befbf07dddce350935c57ea3189
+Author: Aron Xu <aronxu@mate.org>
+Date:   2010-07-24
+
+    Update Simplified Chinese translation.
+
+ po/zh_CN.po |   31 +++++++++++++++++--------------
+ 1 files changed, 17 insertions(+), 14 deletions(-)
+
+commit 10d65ae63ccb7d1ba3fad8b53d393fab52d43d92
+Author: Fran Diéguez <fran.dieguez@mabishu.com>
+Date:   2010-07-21
+
+    Updated Galician translations
+
+ po/gl.po |  165 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 77 insertions(+), 88 deletions(-)
+
+commit d492093cda08ffbc271a3d0a3fcb311c9252239a
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-07-20
+
+    Bug 624836  - Build error, pkcs11 must link against libgcr
+    
+    Add GCR_CFLAGS and LIBS to BASTILE_CFLAGS and LIBS
+
+ configure.in |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit e710cf592e6eff1be1da78e89be2b7ea68d770fd
+Author: Yaron Shahrabani <sh.yaron@gmail.com>
+Date:   2010-07-20
+
+    Updated Hebrew translation.
+
+ po/he.po |   29 +++++++++++++++++------------
+ 1 files changed, 17 insertions(+), 12 deletions(-)
+
+commit 312277d27e7f8a0a399afaab51a9bc2f58e89419
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-05-14
+
+    Separate check for GCR and GP11 in building phase.
+
+ configure.in |   14 ++++++++++----
+ 1 files changed, 10 insertions(+), 4 deletions(-)
+
+commit be62ac21f22b102aa5404037f008087502a1bdca
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-05-16
+
+    Removed deprecated GTK macro
+    
+    GTK_WIDGET_VISIBLE -> gtk_widget_get_visible
+
+ pkcs11/bastile-pkcs11-commands.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit f49d577c887e1df609e1d9c526e44f8fb718cfda
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-07-19
+
+    Bug 618718  - Bastile won't build with --disable-pgp
+    
+    ifdef'd around this one appropriately.
+
+ daemon/bastile-service.c |   74 +++++++++++++++++++++++++-------------------
+ 1 files changed, 42 insertions(+), 32 deletions(-)
+
+commit fbd62228e335b68e7d4d797993833323d1d1acfa
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-07-19
+
+    Bug 622534  - Use smaller icons in "new" dialog
+    
+    Changed from GTK_ICON_SIZE_DIALOG to _DND
+
+ src/bastile-generate-select.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit b3af3c9c41f54f7a06233e9c014bf21bbb98a0cd
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-07-18
+
+    Use GDK accessor functions instead direc access (GSEAL fixes)
+    
+    Incorporate changes from Javier Jardon's patch, but add ifdefs so
+    that building with gdk less than 2.22.0 doesn't break.
+
+ src/bastile-key-manager-store.c |   48 +++++++++++++++++++++++++++++++++----
+ 1 files changed, 42 insertions(+), 6 deletions(-)
+
+commit fe7cf95feb3b30e003e8e449000738d3a95aa42a
+Author: Yaron Shahrabani <sh.yaron@gmail.com>
+Date:   2010-07-18
+
+    Updated Hebrew translation.
+
+ po/he.po | 1752 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 882 insertions(+), 870 deletions(-)
+
+commit 75a9f71e586378a823fc7921ed1751382c09cee2
+Author: Aron Xu <aronxu@mate.org>
+Date:   2010-07-15
+
+    Update Simplified Chinese translation.
+
+ po/zh_CN.po |  298 +++++++++++++++++++++++++++++++++--------------------------
+ 1 files changed, 165 insertions(+), 133 deletions(-)
+
+commit 44a8441deabc17e803338d150f2a4385855f946d
+Author: Petr Kovar <pknbe@volny.cz>
+Date:   2010-07-11
+
+    Update Czech translation by Marek Cernocky
+
+ po/cs.po |   46 ++++++++++++++++++++++------------------------
+ 1 files changed, 22 insertions(+), 24 deletions(-)
+
+commit 95d7f03ee0945c8eca89a80a9fc4a10a99583721
+Author: TeliuTe <teliute@163.com>
+Date:   2010-06-27
+
+    Add Simplified Chinese user guide translation.
+
+ help/Makefile.am    |    2 +-
+ help/zh_CN/zh_CN.po | 1565 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 1566 insertions(+), 1 deletions(-)
+
+commit 67e69694b91697cd7cff2b68f7a3ad31a2c3e731
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2010-06-22
+
+    [i18n] Updated German translation, fixed bug #622330
+
+ help/de/de.po |   22 +++++++---------------
+ 1 files changed, 7 insertions(+), 15 deletions(-)
+
+commit df8956f8e63ec2b8b838f952c4c49d3015b7a236
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-06-20
+
+    Finish making bastile build with DGSEAL
+
+ libbastile/bastile-widget.c |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+
+commit afd76065c742338700217aba05b9bd1c563fe94d
+Author: Sira Nokyoongtong <gumaraa@gmail.com>
+Date:   2010-06-07
+
+    Updated Thai translation.
+
+ po/th.po |  190 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 95 insertions(+), 95 deletions(-)
+
+commit 3e2919a60658af1205a6e3a20abb83616db54bb3
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2010-06-04
+
+    Full documentation for bastile-progress.c
+    
+    This patch adds full documentation for bastile-progress.c.
+    Static functions are commented in a non-specific way, the other functions in a GTK-Doc style.
+
+ libbastile/bastile-progress.c |  133 +++++++++++++++++++++++++++++++++++++--
+ 1 files changed, 127 insertions(+), 6 deletions(-)
+
+commit 69b25da92993dfaadce19eec1006bcf972fe02f0
+Author: Thomas Thurman <tthurman@mate.org>
+Date:   2010-05-20
+
+    Updated Shavian translation
+
+ po/en@shaw.po |  186 +++++++++++++++++----------------------------------------
+ 1 files changed, 54 insertions(+), 132 deletions(-)
+
+commit 0f297b9af395b7b8095dc6163ec94d7c00fa3ca1
+Author: Thomas Thurman <tthurman@mate.org>
+Date:   2010-05-12
+
+    Updated Shavian transliteration
+
+ po/en@shaw.po | 1184 ++++++++++++++++++++++++++++++++++++++++++++++++---------
+ 1 files changed, 1010 insertions(+), 174 deletions(-)
+
+commit 8c24fda5d48c53fcbd886af8012f7aaf00c16c69
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-04-29
+
+    post release bump
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 4814aa20587ff04ca3bdf81452b8a1ded943c85a
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-04-29
+
+    make 2.30.1 release
+
+ NEWS   |   14 ++++++++++++++
+ README |    2 +-
+ 2 files changed, 15 insertions(+), 1 deletions(-)
+
+commit 812052d9594dc4f78fe2900e3adbf8ba732fc72a
+Author: Andika Triwidada <andika@gmail.com>
+Date:   2010-04-27
+
+    Updated Indonesian translation
+
+ po/id.po |  504 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 254 insertions(+), 250 deletions(-)
+
+commit 3835f13f5472b6a77c727c4a774b9cc95879c7ee
+Author: Andika Triwidada <andika@gmail.com>
+Date:   2010-04-25
+
+    Updated Indonesian translation
+
+ po/id.po |  437 ++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 201 insertions(+), 236 deletions(-)
+
+commit 5f2ba1eb6701cd544b74b1bdbde22e55e4e62e34
+Author: Andika Triwidada <andika@gmail.com>
+Date:   2010-04-25
+
+    Added Indonesian translation
+    Added id to LINGUAS
+
+ po/LINGUAS |    1 +
+ po/id.po   | 2975 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 2976 insertions(+), 0 deletions(-)
+
+commit cf66db4f5533437b581147c69e5122cfe66d2b92
+Author: Peteris Krisjanis <pecisk@gmail.com>
+Date:   2010-04-24
+
+    Updated Latvian translation.
+
+ po/lv.po |  186 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 92 insertions(+), 94 deletions(-)
+
+commit 6de674d53328986e8637a3b6ac5cc3f752957669
+Author: Carles Ferrando <carles.ferrando@gmail.com>
+Date:   2010-04-21
+
+    Updated Catalan (Valencian) translation
+
+ po/ca@valencia.po |  360 ++++++++++++++++++++++++++++------------------------
+ 1 files changed, 194 insertions(+), 166 deletions(-)
+
+commit 964b3702ced10c59a9d13956c52054858cfa3f76
+Author: Andre Klapper <a9016009@gmx.de>
+Date:   2010-04-17
+
+    Fix last commit.
+
+ libbastile/bastile-util.c |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit ba122ff38ceaa0a2938c88f960c0f857fdd1a8be
+Author: Andre Klapper <a9016009@gmx.de>
+Date:   2010-04-13
+
+    Fixes all but one issue for compiling with -DGSEAL_ENABLE. See bug 612494.
+
+ gkr/bastile-gkr-dialogs.c        |   18 +++++++++++++-----
+ libmatecryptui/cryptui.c              |    6 +++---
+ libegg/egg-datetime.c             |   18 ++++++++++--------
+ libbastile/bastile-passphrase.c |   12 ++++++------
+ libbastile/bastile-util.c       |    9 +++++----
+ pgp/bastile-pgp-key-properties.c |    2 +-
+ src/bastile-key-manager-store.c  |    2 +-
+ 7 files changed, 39 insertions(+), 28 deletions(-)
+
+commit 3843fefedce6cf22eb0d7aac6fa467d2f5e52162
+Author: Jordi Serratosa <jordis.lists@gmail.com>
+Date:   2010-04-02
+
+    Fixes to Catalan translation
+
+ po/ca.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 9d9a893ba9fb335f69284567c0ccf35feb23bdfb
+Author: Javier Jardón <jjardon@mate.org>
+Date:   2010-03-31
+
+    Remove deprecated GTK+ symbol
+    
+    Use gtk_widget_is_toplevel() instead GTK_WIDGET_TOPLEVEL()
+
+ libbastile/bastile-util.c |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 03a3e92e211195eba521ad2e4dc38298a093030f
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2010-03-31
+
+    Updated Spanish translation
+
+ po/es.po |  203 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 103 insertions(+), 100 deletions(-)
+
+commit 4238ebcc28ad483488b2fc1126370af8a31f9abf
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-03-30
+
+    Post-release version bump
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 64ab945abf8884d7a303ce11a37fc56c1c281164
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-03-30
+
+    Release 2.30.0
+
+ NEWS         |   29 +++++++++++++++++++++++++++++
+ README       |    2 +-
+ configure.in |    2 +-
+ po/es.po     |   23 +++++++++++------------
+ 4 files changed, 42 insertions(+), 14 deletions(-)
+
+commit c3c5af66a60aee53bb98ccf3e8e280b71764f62f
+Author: Branko Kokanović <branko.kokanovic@gmail.com>
+Date:   2010-03-29
+
+    Updated Serbian translations
+
+ po/sr.po       |  533 +++++++++++++++++++++++++++++---------------------------
+ po/sr@latin.po |  533 +++++++++++++++++++++++++++++---------------------------
+ 2 files changed, 546 insertions(+), 520 deletions(-)
+
+commit 0b5440b13d9fef3c55a5ac4f9e7244af8a1558ec
+Author: Simos Xenitellis <simos@mate.org>
+Date:   2010-03-29
+
+    Updated Greek translation for bastile documentation
+
+ help/el/el.po |   20 +++++++++-----------
+ 1 files changed, 9 insertions(+), 11 deletions(-)
+
+commit 0cfe2c685b157c81fafc0a283affcd46ff41d1ba
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2010-03-28
+
+    Full documentation for bastile-hkp-source.c
+    
+    This patch adds full documentation for bastile-hkp-source.c.
+    Static functions are commented in a non-specific way, the other functions in a GTK-Doc style.
+
+ pgp/bastile-hkp-source.c |  201 +++++++++++++++++++++++++++++++++++++++++++--
+ 1 files changed, 193 insertions(+), 8 deletions(-)
+
+commit da0a9a24488214864433928765ede6bfeff53251
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2010-03-27
+
+    Updated Danish translation
+
+ po/da.po |  450 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 239 insertions(+), 211 deletions(-)
+
+commit 079bddde320b1bffb52678513733d2dc610ce7c7
+Author: Jamil Ahmed <itsjamil@gmail.com>
+Date:   2010-03-27
+
+    Updated Bengali translation
+
+ po/bn.po | 6146 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 3081 insertions(+), 3065 deletions(-)
+
+commit 0f5a35ea9606d9c5521ed27cb0276323576e7b53
+Author: Gintautas Miliauskas <gintautas@miliauskas.lt>
+Date:   2010-03-27
+
+    Updated Lithuanian translation.
+
+ po/lt.po |  400 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 213 insertions(+), 187 deletions(-)
+
+commit decfb47de659141f8648e649c5b7e2c06b64b982
+Author: Maxim V. Dziumanenko <dziumanenko@gmail.com>
+Date:   2010-03-26
+
+    Updated Ukrainian translation
+
+ po/uk.po |  474 +++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 225 insertions(+), 249 deletions(-)
+
+commit dd4775e3b3af42e4771c8bd9a69d77ee54a630a5
+Author: Gil Forcada <gforcada@mate.org>
+Date:   2010-03-23
+
+    Updated Catalan translation
+
+ po/ca.po |  403 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 215 insertions(+), 188 deletions(-)
+
+commit 203a7b369209a0465ba25d786bdc0468dfc0600e
+Author: Nikos Bakaoukas <nikolaos.x1@gmail.com>
+Date:   2010-03-23
+
+    Updated Greek translation for bastile
+
+ po/el.po | 1593 ++++++++++++++++++++++++++++++++++++--------------------------
+ 1 files changed, 921 insertions(+), 672 deletions(-)
+
+commit ca8e3cbe62d8e059caf1810c8dfb924c7652e1a4
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2010-03-20
+
+    Full documentation for bastile-dns-sd.c
+    
+    This patch adds full documentation for bastile-dns-sd.c.
+    Static functions are commented in a non-specific way, the other functions in a GTK-Doc style.
+
+ libbastile/bastile-dns-sd.c |  123 ++++++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 122 insertions(+), 1 deletions(-)
+
+commit 76e57b4c69fb388f4493a550cf0dfd3a4a69d678
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2010-03-22
+
+    This patch adds full documentation for bastile-server-source.c.
+    
+    Static functions are commented in a non-specific way, the other functions in a GTK-Doc style.
+
+ pgp/bastile-server-source.c |  103 +++++++++++++++++++++++++++++++++++++++--
+ 1 files changed, 98 insertions(+), 5 deletions(-)
+
+commit 0b32a5f8db4a1e32a50e46522c026df05169672d
+Author: Leonid Kanter <leon@asplinux.ru>
+Date:   2010-03-20
+
+    Update Russian translation from Юрий Козлов
+
+ po/ru.po |  233 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 120 insertions(+), 113 deletions(-)
+
+commit 78684be7cdf53e1dfb4f13b42b53875d5fe08c69
+Author: Tommi Vainikainen <thv@iki.fi>
+Date:   2010-03-19
+
+    Updated Finnish translation
+
+ po/fi.po |  477 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 251 insertions(+), 226 deletions(-)
+
+commit ddf25721659b2a50088d82f645dec12b46fd0ea8
+Author: A S Alam <aalam@users.sf.net>
+Date:   2010-03-18
+
+    update Punjabi Translation by A S Alam
+
+ po/pa.po |  362 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 189 insertions(+), 173 deletions(-)
+
+commit b57f6462e4762e409fa2b6b2c8f983c85ff7c707
+Author: Wouter Bolsterlee <wbolster@mate.org>
+Date:   2010-03-16
+
+    Dutch translation updated by Wouter Bolsterlee
+
+ po/nl.po |  246 +++++++++++++++++++++++++++++++++++---------------------------
+ 1 files changed, 138 insertions(+), 108 deletions(-)
+
+commit 8bc57f2cf4f96c562a62b87d77328a93d4f06d03
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   2010-03-14
+
+    Updated Korean translation
+
+ po/ko.po |  474 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 251 insertions(+), 223 deletions(-)
+
+commit 672bfab671bbe0d90e68916e0d0a8a80f0ee41d4
+Author: Duarte Loreto <happyguy_pt@hotmail.com>
+Date:   2010-03-09
+
+    Updated Portuguese translation
+
+ po/pt.po |  471 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 248 insertions(+), 223 deletions(-)
+
+commit c59bcc647667b786682b078fd07322a8873b7272
+Author: Peteris Krisjanis <pecisk@gmail.com>
+Date:   2010-03-08
+
+    Updated Latvian translation.
+
+ po/lv.po |  255 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 137 insertions(+), 118 deletions(-)
+
+commit cc68e6bd86661f4ce1136f004906f5374d974e6d
+Author: Marek Černocký <marek@manet.cz>
+Date:   2010-03-07
+
+    Update Czech translation
+
+ po/cs.po |  539 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 277 insertions(+), 262 deletions(-)
+
+commit 82081084d4c34f330a720077bd99aad24424e68d
+Author: Gabor Kelemen <kelemeng@mate.hu>
+Date:   2010-03-05
+
+    Updated Hungarian translation
+
+ po/hu.po |  150 ++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 74 insertions(+), 76 deletions(-)
+
+commit 15642c2ec2ce64a572cba65944e3650f00bd4416
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:   2010-03-05
+
+    Updated Basque language
+
+ po/eu.po |   29 +++++++++++++++++++++++------
+ 1 files changed, 23 insertions(+), 6 deletions(-)
+
+commit d1dbcf04084592c9c7125ebcbd390fa4a59cc1fd
+Author: Gabor Kelemen <kelemeng@mate.hu>
+Date:   2010-03-05
+
+    Updated Hungarian translation
+
+ po/hu.po |  380 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 194 insertions(+), 186 deletions(-)
+
+commit 17388abac930e819f66bea869bc6acd7ad8a5af9
+Author: Daniel Nylander <po@danielnylander.se>
+Date:   2010-02-28
+
+    Updated Swedish translation
+
+ po/sv.po |  513 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 269 insertions(+), 244 deletions(-)
+
+commit 29c383d73b6560234c0a8ee83cf1df20fbe453f1
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2010-02-26
+
+    Updated Polish translation
+
+ po/pl.po |  589 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 296 insertions(+), 293 deletions(-)
+
+commit e2194dcd9016891f900e786c707ff7cd70c7211c
+Author: Bruce Cowan <bcowan@fastmail.co.uk>
+Date:   2010-02-24
+
+    Updated British English translation
+
+ po/en_GB.po |  451 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 240 insertions(+), 211 deletions(-)
+
+commit 182b9cecdb9e33c156ace365bfb4a56b1bcb8fd1
+Author: Leonid Kanter <leon@asplinux.ru>
+Date:   2010-02-23
+
+    Updated Russian translation
+
+ po/ru.po |  285 ++++++++++++++++++++++++++++----------------------------------
+ 1 files changed, 130 insertions(+), 155 deletions(-)
+
+commit a90b0735e75f4b532fce6a2a247bfdbffbc32730
+Author: Alexander Shopov <ash@contact.bg>
+Date:   2010-02-23
+
+    Updated Bulgarian translation
+
+ po/bg.po |  181 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 95 insertions(+), 86 deletions(-)
+
+commit 039e5d347bb80e38f01012bf7898ea3face5a1a6
+Author: Antonio Fernandes C. Neto <fernandes@pelivre.org>
+Date:   2010-02-22
+
+    Updated Brazilian Portuguese translation
+
+ po/pt_BR.po |  446 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 237 insertions(+), 209 deletions(-)
+
+commit f14055cd1c67a508b15e4df49bd6d53dfb446e47
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-21
+
+    Post-release version bump
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 3021d049c7bbb803efa47354b7cd4765f1eff130
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-21
+
+    Make 2.29.91 release
+
+ NEWS   |   29 +++++++++++++++++++++++++++++
+ README |    2 +-
+ 2 files changed, 30 insertions(+), 1 deletions(-)
+
+commit dd47282ec4dfc4d7319004e3ea1810d4667b881c
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-21
+
+    Change default key lengths for subkey generation.
+
+ pgp/bastile-gpgme-add-subkey.c |    3 +++
+ 1 files changed, 3 insertions(+), 0 deletions(-)
+
+commit 77e8dad64c35d80970be52409babbfc7a986a0c8
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-21
+
+    Remove unused variables
+
+ pgp/bastile-gpgme-generate.c |    3 ---
+ 1 files changed, 0 insertions(+), 3 deletions(-)
+
+commit ef5874328c8a3155e8f38be3ec396f9583b9ba1b
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-20
+
+    Revoking subkey now works again. Also minor documentation changes.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=592956
+
+ libbastile/bastile-util.c |    6 +++---
+ pgp/bastile-gpgme-key-op.c |   14 +++++++++-----
+ 2 files changed, 12 insertions(+), 8 deletions(-)
+
+commit dd94f42f9fd5fb3a642035aa269e503ddb0176a8
+Author: vasudeven <agnihot3@gmail.com>
+Date:   2010-02-18
+
+    updated Tamil translation
+
+ po/ta.po |  494 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 260 insertions(+), 234 deletions(-)
+
+commit 262aec9f1f109f9e2ad670c67b4db535cef2017c
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-17
+
+    Don't show the passphrase in plaintext.
+    
+    Bug introduced in 6bfb8025ed42f47748b6d83d604a4fa71aec61df
+
+ libbastile/bastile-passphrase.c |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+commit 3593d4c58363b8d584aae179f532ba5ceedd5d9e
+Author: nobled <nobled@dreamwidth.org>
+Date:   2010-02-16
+
+    Check the OpenPGP engine only
+
+ pgp/bastile-gpgme.c |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+commit c1447172c212aafb92f0dcce0dfa5923e498d037
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:   2010-02-16
+
+    Updated Basque language
+
+ po/eu.po |  457 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 223 insertions(+), 234 deletions(-)
+
+commit 511277254fbb1ab0bcb6fb9867e7404558f0225e
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-16
+
+    Fixed wrong variable names in comments
+    
+    Thanks to nobled for reporting:
+    https://bugzilla.mate.org/show_bug.cgi?id=605326
+
+ pgp/bastile-gpgme-key-op.h |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 0eec7838a411870636ac797f1de4046719b4920b
+Author: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>
+Date:   2010-02-16
+
+    Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+ po/zh_HK.po |  491 +++++++++++++++++++++++++++++++----------------------------
+ po/zh_TW.po |  491 +++++++++++++++++++++++++++++++----------------------------
+ 2 files changed, 516 insertions(+), 466 deletions(-)
+
+commit 869f6d95bab44abd73e04511985b39530d8c79e2
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2010-02-15
+
+    Really updated Italian translation, removed the fuzzy
+
+ po/it.po |   12 +++++-------
+ 1 files changed, 5 insertions(+), 7 deletions(-)
+
+commit 81e781443e14df283693948efe8ea9bea2b20320
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2010-02-15
+
+    Updated Italian translation
+
+ po/it.po |  455 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 235 insertions(+), 220 deletions(-)
+
+commit d8ff80a2b43baec7daa136e07583fe179fec1d75
+Author: nobled <nobled@dreamwidth.org>
+Date:   2010-02-07
+
+    Clean up version constants
+    
+    Add an inline macro to make the declarations readable
+
+ libbastile/bastile-util.h |    3 +++
+ pgp/bastile-gpgme.c        |   15 ++++++---------
+ 2 files changed, 9 insertions(+), 9 deletions(-)
+
+commit fe2ed7691666ab7b773fc02bbcb4d13ef08021f0
+Author: Fran Diéguez <frandieguez@ubuntu.com>
+Date:   2010-02-15
+
+    Updated Galician Translation
+
+ po/gl.po |  639 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 334 insertions(+), 305 deletions(-)
+
+commit b5ad0d7e7153305b36b460ff6469a9bceb105586
+Author: Bruno Brouard <bbrouard@src.mate.org>
+Date:   2010-02-15
+
+    Updated French translation
+
+ po/fr.po |  430 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 228 insertions(+), 202 deletions(-)
+
+commit a88703f481e10a0c0199cbd47eaccc66ec453193
+Author: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Date:   2010-02-14
+
+    Update Romanian translation
+
+ po/ro.po |  636 +++++++++++++++++++++++++++++++++++++++-----------------------
+ 1 files changed, 399 insertions(+), 237 deletions(-)
+
+commit 5b61e396582b451d47cbc3c07d17ecc20e29bbc9
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2010-02-13
+
+    Estonian translation updated
+
+ po/et.po |   31 ++++++++++++++-----------------
+ 1 files changed, 14 insertions(+), 17 deletions(-)
+
+commit 353446a7d6308316b1b4525eae17a09fce6e429b
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-13
+
+    Fixed two warnings at compile time
+    
+    - Added missing cast GTK_TOGGLE_BUTTON
+    - Corrected case syntax
+
+ gkr/bastile-gkr-item-properties.c |    2 +-
+ pgp/bastile-gpgme-key-op.c        |    3 ++-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 326b399cf90019a80c0abeff98b44a39e1cd9455
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-13
+
+    Unescape URI's before presenting them to the user.
+
+ daemon/bastile-service-crypto.c  |    6 ++++--
+ pgp/bastile-pgp-key-properties.c |   12 +++++++-----
+ src/bastile-viewer.c             |   10 ++++++----
+ ssh/bastile-ssh-key-properties.c |   12 +++++++-----
+ 4 files changed, 24 insertions(+), 16 deletions(-)
+
+commit 149434f8d13415ab16866534bcd9a70a2665d1be
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-12
+
+    Updated year in the copyright string of the about dialog
+    
+    Part of: https://bugzilla.mate.org/show_bug.cgi?id=609418
+
+ src/bastile-viewer.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit e4ea26b9ae7394dd72b8749df14cd7c3f98b097c
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-12
+
+    Fixed incorrect signal name
+    
+    In the signing key dialog, it was causing the descriptions for
+    "Not at all/Casually/Very Carefully" not being updated when the
+    radiobutton changed.
+
+ pgp/bastile-sign.xml |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 08b392d6b800e3856325919dc877429dded186e6
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-02-12
+
+    Fixed bug in the public key properties GUI.
+    
+    With handlers specified in the UI file you cannot pass parameters.
+    It was causing an assertion error and you couldn't see the people
+    who had signed any public key you had.
+    The solution is using g_signal_object as far as I have seen.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=609708
+
+ pgp/bastile-pgp-key-properties.c          |    2 +-
+ pgp/bastile-pgp-public-key-properties.xml |    1 -
+ 2 files changed, 1 insertions(+), 2 deletions(-)
+
+commit 4027328a8aa4ff30ef3a618061787b47abf16125
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-02-11
+
+    Updated Slovenian translation
+
+ po/sl.po |   73 +++++++++++++++++++++++++++++++++++--------------------------
+ 1 files changed, 42 insertions(+), 31 deletions(-)
+
+commit 06e6c3d0773bc1c0adcab7d391a14d10be25dc5b
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2010-02-10
+
+    Updated Norwegian bokmål translation
+
+ po/nb.po |   43 ++++++++++++++++++++++++++-----------------
+ 1 files changed, 26 insertions(+), 17 deletions(-)
+
+commit ae2a1cd801f0a712e48b6eb91442129f7264128f
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-08
+
+    Post bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 852d2a1ef78d6be6718a4a7a11ff1a493fe06534
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-08
+
+    Make 2.29.90 release
+
+ NEWS         |   16 ++++++++++++++++
+ README       |    2 +-
+ configure.in |    2 +-
+ 3 files changed, 18 insertions(+), 2 deletions(-)
+
+commit fda4190561a1488ef1166c6bd0673c115b403186
+Author: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Date:   2010-02-08
+
+    Updated Thai translation.
+
+ po/th.po |   46 +++++++++++++++++++++++++++++-----------------
+ 1 files changed, 29 insertions(+), 17 deletions(-)
+
+commit 8f63c6bab966e3af8512264991f2f9388895a33d
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-07
+
+    Fix formatting of g_strsplit to add space before parens
+
+ libbastile/bastile-util.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit e2092a387868e7a71db7f0c230e7b18da5bbc844
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-07
+
+    Remove daemon autostart file from lists
+
+ po/POTFILES.in   |    1 -
+ po/POTFILES.skip |    1 -
+ 2 files changed, 0 insertions(+), 2 deletions(-)
+
+commit 8d80091e8fe708d2c7e771a797946f04b50868a9
+Author: nobled <nobled@dreamwidth.org>
+Date:   2010-01-20
+
+    pgp: Make subkey creation more robust
+    
+    Creating subkeys depends on a hack based on the numbers gpg happens to use
+    for each keytype in its UI, which can change at random with new versions.
+    
+    This detects the gpg version in use at runtime and sends the appropriate
+    keytype selection number instead of a defined constant. Bastile no longer
+    depends on using the same gpg version as at compile-time.
+    
+    This also adds support for creating subkeys using gnupg 1.2.x.
+    
+    Closes: bgo#605967.
+
+ pgp/bastile-gpgme-key-op.c |   16 ++++++++++++++--
+ 1 files changed, 14 insertions(+), 2 deletions(-)
+
+commit c7671f25e6c752924c1957491b9fff16f79b4e2d
+Author: nobled <nobled@dreamwidth.org>
+Date:   2010-01-20
+
+    pgp: Add keytype numbers
+    
+    Add the keytype selection numbers used by gpg from 1.2.0
+    to 2.0.14.
+
+ pgp/bastile-gpgme.c |   65 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ pgp/bastile-gpgme.h |    8 ++++++
+ 2 files changed, 73 insertions(+), 0 deletions(-)
+
+commit e992586c5058b4639c422c02818bd0665030791f
+Author: nobled <nobled@dreamwidth.org>
+Date:   2010-01-20
+
+    libbastile: Add version string parsing
+
+ libbastile/bastile-util.c |   28 +++++++++++++++++++++++++++-
+ libbastile/bastile-util.h |    4 ++++
+ 2 files changed, 31 insertions(+), 1 deletions(-)
+
+commit e53ff18f839871a60eb70d450062c5a1f357f046
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2010-02-07
+
+    Updated Spanish translation
+
+ po/es.po |   33 +++++++++++++++++++++++++--------
+ 1 files changed, 25 insertions(+), 8 deletions(-)
+
+commit 395506b50e0a60aea0c73397f98ee918a48fe153
+Author: Martin Pitt <martin.pitt@ubuntu.com>
+Date:   2010-01-25
+
+    Drop daemon autostart file
+    
+    Do not install an autostart desktop file for the daemon any more. It takes a
+    lot of CPU resources on startup, and is not needed for most day to day
+    operations. The SSH/GPG agent functionality does not need it at all, and for
+    the GUIs (bastile-preferences and the caja plugins) a slightly increased
+    startup cost is a small price to pay for getting a faster desktop startup.
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=608012
+
+ configure.in                         |    1 -
+ daemon/Makefile.am                   |    8 --------
+ daemon/bastile-daemon.desktop.in.in |   13 -------------
+ 3 files changed, 0 insertions(+), 22 deletions(-)
+
+commit 4dcbc1f5bac4331b5bef5f3a15b839bba9fd8925
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2010-02-07
+
+    Updated German translation
+
+ po/de.po |  171 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 91 insertions(+), 80 deletions(-)
+
+commit ba8bcf321291f8cd8f91ba60e1f05ebcdbea300c
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2010-02-07
+
+    Bug 608010 - Crashes if autostart desktop file is not present
+    
+    Update eggdesktopfile.[ch] from libegg/smclient
+
+ libegg/eggdesktopfile.c |  103 +++++++++++++++++++++++++++++++++-------------
+ libegg/eggdesktopfile.h |    8 +++-
+ 2 files changed, 80 insertions(+), 31 deletions(-)
+
+commit c388601bf88412756621e4382c691829bc903ab0
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2010-02-01
+
+    Adds a DBus interface to create keys
+    
+    User name, email address and comments can be passed over DBus. The only
+    dialog being shown is the password creation dialog.
+
+ daemon/bastile-service.c     |   72 ++++++++++++++++++++++++++
+ daemon/bastile-service.h     |    3 +
+ daemon/bastile-service.xml   |    7 +++
+ pgp/bastile-gpgme-dialogs.h  |   14 +++++-
+ pgp/bastile-gpgme-generate.c |  111 ++++++++++++++++++++++++++++++----------
+ 5 files changed, 178 insertions(+), 29 deletions(-)
+
+commit c6681cd99a4bfbeb5ada3e396accb06a378a67d5
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-09-14
+
+    changed GPG_ERR_CANCELED to GPG_ERR_BAD_PASSPHRASE
+
+ pgp/bastile-gpgme-key-op.c |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 8e37fabd89fcfd3fe0f267e2cc5d9563d2365aa7
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-08-22
+
+    Error windows after the third wrong pasword is displayed now.
+
+ pgp/bastile-gpgme-key-op.c |    5 +++++
+ 1 files changed, 5 insertions(+), 0 deletions(-)
+
+commit b2e176fe36424efcf2a78a543a377e50a1789ef3
+Author: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Date:   2010-02-07
+
+    Updated Thai translation.
+
+ po/th.po |  361 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 187 insertions(+), 174 deletions(-)
+
+commit 2d7ad2bc35cfe2c957e32997e8808cf9e2fae609
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2010-02-01
+
+    Updated Spanish translation
+
+ po/es.po |  402 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 207 insertions(+), 195 deletions(-)
+
+commit 6a85f6e93660ccb6a9943feab9a858b2db861252
+Author: Mattias Põldaru <mahfiaz gmail com>
+Date:   2010-02-01
+
+    Updating Estonian translation
+
+ po/et.po |    8 ++++----
+ 1 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 3e560335a4dc44dc2f1b5cb8e251505a26961c2c
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2010-01-31
+
+    Updated Norwegian bokmål translation
+
+ po/nb.po |    8 ++++----
+ 1 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 148848196cbb292e337b727f475d230e221b2c76
+Author: Christian Kirbach <Christian.Kirbach@googlemail.com>
+Date:   2010-01-29
+
+    Fixed: POTFILES.in references non-existing file
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=608248
+
+ po/POTFILES.in |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+
+commit f4c06b573b20172bbbbd44634fdf6bfc830eb427
+Author: Jamil Ahmed <itsjamil@gmail.com>
+Date:   2010-01-29
+
+    Updated Bengali translation
+
+ po/bn.po | 6116 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 3065 insertions(+), 3051 deletions(-)
+
+commit 16b5de56416f64f2f3a65ed7ec965bb783eda7c9
+Author: Christian Kirbach <Christian.Kirbach@googlemail.com>
+Date:   2010-01-28
+
+    Fixed typo in daemon/bastile-service-crypto.c
+    
+    https://bugzilla.mate.org/show_bug.cgi?id=608256
+
+ daemon/bastile-service-crypto.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit c06b59c95921d3ae12e9262a1451f4ab6c422f97
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2010-01-28
+
+    Updating Estonian translation
+
+ po/et.po |   62 ++++++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 34 insertions(+), 28 deletions(-)
+
+commit d92ff4314c64c5366693ce7f9850221ce7c1db47
+Author: Christian Kirbach <Christian.Kirbach@googlemail.com>
+Date:   2010-01-27
+
+    Updated German translation
+
+ po/de.po |  379 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 196 insertions(+), 183 deletions(-)
+
+commit 17d9d43ca6aa6f4c885db48a3ddd38b0810c4233
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2010-01-27
+
+    Updated Slovenian translation
+
+ po/sl.po |  506 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 260 insertions(+), 246 deletions(-)
+
+commit 369fb7930f91edbd671f5c8757c1ceeb5607b787
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2010-01-26
+
+    Updated HACKING file
+
+ HACKING |   21 ++-------------------
+ 1 files changed, 2 insertions(+), 19 deletions(-)
+
+commit 287fa9c4925e1e4faa8a4f97c6b9bf9682039895
+Author: Alexander Shopov <ash@contact.bg>
+Date:   2010-01-25
+
+    Updated Bulgarian translation
+
+ po/bg.po |  363 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 180 insertions(+), 183 deletions(-)
+
+commit 9bf8b84ebcbb9cfadae7decae0c7d9ea8de611c6
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2010-01-22
+
+    Updated Norwegian bokmål translation
+
+ po/nb.po |  385 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 191 insertions(+), 194 deletions(-)
+
+commit 6bfb8025ed42f47748b6d83d604a4fa71aec61df
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-01-21
+
+    Use GTK+ GtkEntryBuffer for secure password entry.
+    
+    Remove our own copy of GtkEntry, and use the new GtkEntryBuffer
+    in GTK+ 2.18. Bump requred GTK+ version.
+
+ common/Makefile.am                  |    4 +-
+ common/bastile-secure-buffer.c     |  196 +++
+ common/bastile-secure-buffer.h     |   57 +
+ configure.in                        |    2 +-
+ gkr/bastile-gkr-add-item.c         |   20 +-
+ gkr/bastile-gkr-item-properties.c  |   50 +-
+ libbastile/Makefile.am             |    1 -
+ libbastile/bastile-passphrase.c   |   44 +-
+ libbastile/bastile-prefs.c        |    1 -
+ libbastile/bastile-secure-entry.c | 3007 -----------------------------------
+ libbastile/bastile-secure-entry.h |  187 ---
+ 11 files changed, 322 insertions(+), 3247 deletions(-)
+
+commit a066a303e4a167f107eeb981d3b4a7f9c96f3331
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2009-12-21
+
+    Adds Dbus commands to encrypt/decrypt files
+    
+    This adds the DBus commands EncryptFile and DecryptFile to process a file and store
+    the results in another file.  The second file will be overwritten. These commands
+    are meant to allow people to encrypt/decrypt binary data using DBus commands.
+
+ daemon/bastile-service-crypto.c   |  417 ++++++++++++++++++++++++++++--------
+ daemon/bastile-service-crypto.xml |   20 ++
+ daemon/bastile-service.h          |   16 ++
+ 3 files changed, 367 insertions(+), 86 deletions(-)
+
+commit 8330d061885ce133d3b6dd8792879b167f7a82d1
+Author: Wouter Bolsterlee <wbolster@mate.org>
+Date:   2010-01-17
+
+    Updated Dutch translation
+
+ po/nl.po | 1202 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 622 insertions(+), 580 deletions(-)
+
+commit 3233b32ff70566ce1c7da61388a3087a9e58a960
+Author: Xandru Armesto Fernandez <xandru@softastur.org>
+Date:   2010-01-04
+
+    Updated asturian translation
+
+ po/ast.po | 2930 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 2930 insertions(+), 0 deletions(-)
+
+commit 8c8323351679826a47035c74ec3c5ff429f66f0e
+Author: Xandru Armesto Fernandez <xandru@softastur.org>
+Date:   2010-01-04
+
+    Added asturian language
+
+ po/LINGUAS |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 8572a86718b4f8d07417713eafe597ba7b09c165
+Author: Matthias Clasen <mclasen@redhat.com>
+Date:   2010-01-02
+
+    Bug 604541 - wrong use of gdk_property_get
+    
+    Check return value of gdk_property_get before returning value.
+
+ src/bastile-key-manager-store.c |   15 ++++++++-------
+ 1 files changed, 8 insertions(+), 7 deletions(-)
+
+commit e329c309f8330c140acb86d270f531f2fc1cca64
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-12-29
+
+    Fixed bad usage of g_strconcat: missing NULL
+    
+    Closes: bgo#605367
+
+ pgp/bastile-gpg-options.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 5e233999df4fb0ee11422020a93b9577c810f128
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-12-24
+
+    [release] post-release bump to 2.29.5
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 24c55a5ba010fae3a3424991132b21e1ef877539
+Merge: 23d181e f98a38f
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-12-24
+
+    Merge branch 'releasing-2.29.4'
+
+commit f98a38fd3ecd1824da15c138f00bfc885832a38d
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-12-24
+
+    [release] 2.29.4
+
+ NEWS   |   14 ++++++++++++++
+ README |    2 +-
+ 2 files changed, 15 insertions(+), 1 deletions(-)
+
+commit 176b907abc137ccaf9ce637c1f2792587c7321c2
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-12-24
+
+    Fix distcheck with introspection
+
+ libmatecryptui/Makefile.am |   24 ++++++++++++------------
+ 1 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 3eee55c4234f8642c0c9e17fb3ca715fa071d6d7
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-12-23
+
+    Fix build after gp11 API change
+    
+    gp11_slot_open_session_async now takes two additional arguments.
+
+ configure.in                        |    2 +-
+ pkcs11/bastile-pkcs11-operations.c |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 23d181ea19ce7c7f611c5114f811bb8c2497697a
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-12-23
+
+    Fix build after gp11 API change
+    
+    gp11_slot_open_session_async now takes two additional arguments.
+
+ pkcs11/bastile-pkcs11-operations.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit e852cb47ed77ef71610d6a87b2271271156d1029
+Author: Pablo Castellano <pablog@src.mate.org>
+Date:   2009-11-30
+
+    Provide a man-page for bastile
+    
+    Closes: bgo#592959
+
+ src/Makefile.am |    3 +++
+ src/bastile.1  |   53 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 56 insertions(+), 0 deletions(-)
+
+commit b497a91cfeea3d24eab10e39ba6485754c92717f
+Author: Emilio Pozuelo Monfort <pochu27@gmail.com>
+Date:   2009-12-14
+
+    Bug 604494: Don't use fixed MAXPATHLEN size buffers
+    
+    Use dynamic allocation instead, since MAXPATHLEN may not be
+    defined on some platforms. Fixes the build on GNU/Hurd.
+
+ pgp/bastile-gpg-options.c |   15 ++++++++-------
+ 1 files changed, 8 insertions(+), 7 deletions(-)
+
+commit 5f42e1e9aad249cf1ed6fc018dac817cecdb12de
+Author: Thorsten Sick <tsick@src.mate.org>
+Date:   2009-12-08
+
+    Full documentation for bastile-context.c
+    
+    This patch adds full documentation for bastile-context.c.
+    Static functions are commented in a non-specific way, the other functions in a GTK-Doc style.
+
+ libbastile/bastile-context.c |  377 +++++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 375 insertions(+), 2 deletions(-)
+
+commit d4089fc45bdc5423d48bbbe57655cb961bc3b48e
+Author: Tao Wei <weitao1979@gmail.com>
+Date:   2009-12-08
+
+    Updated Simplified Chinese translation.
+
+ po/zh_CN.po |  266 +++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 132 insertions(+), 134 deletions(-)
+
+commit b62f080b94c98ec69b68dc105c9dbe0de67fc8f7
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-12-07
+
+    Remove underscore from enum to fix introspection generation
+
+ libmatecryptui/cryptui.h |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 1281ac54286a9e9f3450dcd11f5d8c85b65aa8b4
+Author: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
+Date:   2009-12-05
+
+    Update Romanian translation
+
+ po/ro.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit ed5b6c9f1280b05baf52a29f8d80cd8d8a8c6c45
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-12-04
+
+    Initial support for introspection of libmatecryptui
+    
+    WARNING: Don't use this, it's relatively untested and there's at
+    least one known bug.
+    https://bugzilla.mate.org/show_bug.cgi?id=603812
+
+ configure.in           |   29 +++++++++------
+ libmatecryptui/.gitignore  |    2 +
+ libmatecryptui/Makefile.am |   52 ++++++++++++++++++++++++---
+ m4/introspection.m4    |   92 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 158 insertions(+), 17 deletions(-)
+
+commit e4df7d98ee6b21edc24c6af8093db3e6dc612477
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-11-29
+
+    Bump version to 2.29.4
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 3620093350b45fb4697bf6fd58c1dbcc613e6575
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-11-29
+
+    Release 2.29.3
+
+ NEWS         |   17 +++++++++++++++++
+ README       |    2 +-
+ configure.in |    2 +-
+ 3 files changed, 19 insertions(+), 2 deletions(-)
+
+commit 268dae261e4ce9dedc5b377569977882db97f944
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-11-29
+
+    Update my email address
+
+ MAINTAINERS |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit e02d3ecda17b82bfea5ce61739b54dd79b5de43b
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-11-29
+
+    Set sane default length on keys
+    
+    Set to 2048 bits unless > algo max
+
+ pgp/bastile-gpgme-generate.c |    6 ++++++
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+
+commit 6ef33b44e8546b095c74c8b99762d3fcbcfca28f
+Author: nobled <nobled@dreamwidth.org>
+Date:   2009-11-29
+
+    Bug 598203 - Generate a new RSA-sign/RSA-encrypt key in one pass
+    
+    This adds the option "RSA" to the top of the list of available
+    key types.
+
+ pgp/bastile-gpgme-generate.c |    1 +
+ pgp/bastile-gpgme-key-op.c   |   13 ++++++++-----
+ pgp/bastile-gpgme-key-op.h   |    6 +++++-
+ 3 files changed, 14 insertions(+), 6 deletions(-)
+
+commit 418dd39300417cd5bc8f7effdd73673fa84916e3
+Author: Jeff Cai <jeff.cai@sun.com>
+Date:   2009-11-29
+
+    Bug 599015 - Bastile should support GnuPG 2.0
+    
+    Patch the configure script
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 62a391f53f6e455c3683941654519aed380b7015
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-11-03
+
+    Fixed signals (they were "pressed" and must be "clicked")
+
+ ssh/bastile-ssh-key-properties.xml |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 2804e28c5d997c780239588467877b46cccda67b
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-11-04
+
+    Added delete_event to key search dialog
+    
+    Before, if you closed the dialog using the top right X
+    the dialog window wouldn't open again
+
+ src/bastile-keyserver-search.xml |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit a226f506a8e428b17c2a6299919c9e912e3d85b0
+Author: Adi Roiban <adi@roiban.ro>
+Date:   2009-11-27
+
+    Add po/ro.po and update LINGUAS
+
+ po/ro.po | 2948 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 2948 insertions(+), 0 deletions(-)
+
+commit 9461aa809b350b162681d9193405c8b8b8fdd788
+Author: Adi Roiban <adi@roiban.ro>
+Date:   2009-11-27
+
+    Update Romanian translation
+
+ po/LINGUAS |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 1ce79b38205830b96547cfae9283800dc2de2447
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-11-26
+
+    Fix compile warnings
+
+ libbastile/bastile-util.c |    3 +--
+ src/bastile-key-manager.c  |    2 +-
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+
+commit b076f383fc80ee50e233fb19544e9b2bcaa6032b
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-11-26
+
+    Full documentation for bastile-operation.c
+    
+    This patch adds full documentation for bastile-operation.c.
+    Static functions are commented in a non-specific way, the other functions in a GTK-Doc style.
+
+ libbastile/bastile-operation.c |  284 +++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 279 insertions(+), 5 deletions(-)
+
+commit 29a76c5be321061555aefd7e17273fcc215a5a61
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-11-21
+
+    bastile-source.c full documentation
+
+ libbastile/bastile-source.c |   99 ++++++++++++++++++++++++++++++++++++++---
+ 1 files changed, 92 insertions(+), 7 deletions(-)
+
+commit 702a8156ee7b4ecaff7d33d3435c9978ef3cec40
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-11-21
+
+    update documentation for bastile-source.h
+
+ libbastile/bastile-source.h |    9 ++++-----
+ 1 files changed, 4 insertions(+), 5 deletions(-)
+
+commit 52f318c4e8a0f26b7eb6e99bf8f80c8ea8ea8243
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-11-15
+
+    bastile-widget.c documented
+
+ libbastile/bastile-widget.c |  130 ++++++++++++++++++++++++++++++++++++++--
+ 1 files changed, 123 insertions(+), 7 deletions(-)
+
+commit 99e5e881df3287ff304c7240f9d610c052327a40
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-11-11
+
+    full documentation for bastile-keyserver-search.c
+
+ src/bastile-keyserver-search.c |  130 +++++++++++++++++++++++++++++++++++++--
+ 1 files changed, 125 insertions(+), 5 deletions(-)
+
+commit a0dba5c66456fbcb28968fbcefe6f253d03a8e59
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-10-17
+
+    full documentation for bastile-daemon.c For the sake of completeness. This file is not very complex. Things happen somewhere else
+
+ daemon/bastile-daemon.c |   48 ++++++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 48 insertions(+), 0 deletions(-)
+
+commit 2a82b9e1f02fc8f71d880c22c355242fde4056ad
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-10-17
+
+    bastile-sharing.c full documentation
+
+ daemon/bastile-sharing.c |   83 ++++++++++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 82 insertions(+), 1 deletions(-)
+
+commit 003fa6b145e181ecf9c8fdafa71c58e93e049c28
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-10-16
+
+    bastile-hkp-server full documentation
+
+ daemon/bastile-hkp-server.c |  147 +++++++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 146 insertions(+), 1 deletions(-)
+
+commit 7116e8c7b647680607c28d8a754473e60ec7b2ce
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-10-16
+
+    bastile-service-keyset full documentation
+
+ daemon/bastile-service-keyset.c |  108 ++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 108 insertions(+), 0 deletions(-)
+
+commit 0a88643393a881d7edd438c6645ba730ea88ca5c
+Author: Thomas Thurman <tthurman@mate.org>
+Date:   2009-11-25
+
+    Shavian translation
+
+ po/LINGUAS    |    1 +
+ po/en@shaw.po | 2320 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 2321 insertions(+), 0 deletions(-)
+
+commit 2a842387c4fe0cbdbe6e5d29e4d06ac106425dbd
+Author: Peteris Krisjanis <pecisk@gmail.com>
+Date:   2009-11-21
+
+    Updated Latvian translation.
+
+ po/lv.po | 4945 ++++++++++++++++++++++++++++----------------------------------
+ 1 files changed, 2245 insertions(+), 2700 deletions(-)
+
+commit 31bdeb23a74f2810c4ab10e89a806a44ffba7537
+Author: Jeff Cai <jeff.cai@sun.com>
+Date:   2009-11-06
+
+    Fix #556670
+    This patch can fix the error that happens when a user imports a SSH key file.
+    But it doesn't fix the issue when importing from the clipboard.
+
+ libbastile/bastile-util.c |   18 +++++++++++++++---
+ 1 files changed, 15 insertions(+), 3 deletions(-)
+
+commit e90930b27d60c459955729d0a9620fc6405ae82b
+Author: Carles Ferrando <carles.ferrando@gmail.com>
+Date:   2009-11-05
+
+    Updated Catalan (Valencian) translation
+
+ po/ca@valencia.po | 2161 +++++++++++++++++++++++++++++++++++++++++++++++++----
+ 1 files changed, 2010 insertions(+), 151 deletions(-)
+
+commit f89de7228f9a58eb8b1645dde369c086a1c5d200
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-11-03
+
+    Modify the API documentation to support introspection comments
+
+ reference/libmatecryptui/libmatecryptui-docs.sgml   |    1 +
+ reference/libbastile/libbastile-docs.sgml |    6 +++---
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 2c9bf49c8603ddfec0dd1fb8f0fece9bbcd07ccb
+Author: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>
+Date:   2009-11-03
+
+    Updated Japanese translation
+
+ po/ja.po | 1132 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 589 insertions(+), 543 deletions(-)
+
+commit 508533c82b0e20669b916d6371d871ad06fb94e3
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-10-31
+
+    Release 2.29.1
+
+ NEWS         |    5 +++++
+ README       |    2 +-
+ configure.in |    2 +-
+ 3 files changed, 7 insertions(+), 2 deletions(-)
+
+commit 2153aab3cdd457732204a4988eb13c56d52fd567
+Author: Jeff Cai <jeff.cai@sun.com>
+Date:   2009-10-21
+
+    Revert "Use g_file_info_get_content_type instead of g_content_type_guess"
+    
+    This reverts commit 38849c3de2465b731ac3564c5069d96b02549018.
+
+ libbastile/bastile-util.c |   18 +++---------------
+ 1 files changed, 3 insertions(+), 15 deletions(-)
+
+commit 38849c3de2465b731ac3564c5069d96b02549018
+Author: Jeff Cai <jeff.cai@sun.com>
+Date:   2009-10-21
+
+    Use g_file_info_get_content_type instead of g_content_type_guess
+    Fix #556670
+
+ libbastile/bastile-util.c |   18 +++++++++++++++---
+ 1 files changed, 15 insertions(+), 3 deletions(-)
+
+commit 8b327d0bf85efd0343ff56cf3b57ee28ffa5d00f
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-17
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 7d92015ee4945e360b391ad49c924a0b0d7b9d40
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-17
+
+    Release 2.28.1
+
+ NEWS   |   16 ++++++++++++++++
+ README |    2 +-
+ 2 files changed, 17 insertions(+), 1 deletions(-)
+
+commit e270921c6f712b1132d78a0885cc747f0caf69a6
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-10-13
+
+    full documentation for bastile-service-crypto.c
+
+ daemon/bastile-service-crypto.c |  110 +++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 108 insertions(+), 2 deletions(-)
+
+commit dbc15703a35ac78efeba285d20e627f755070c73
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-10-11
+
+    bastile-service.c fully documented
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ daemon/bastile-service.c |   95 +++++++++++++++++++++++++++++++++++++--------
+ 1 files changed, 79 insertions(+), 16 deletions(-)
+
+commit 5f8867464217f505c825892189b1cda25c2b6950
+Author: Gil Forcada <gforcada@mate.org>
+Date:   2009-10-13
+
+    Updated Catalan translation
+
+ po/ca.po | 1048 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 544 insertions(+), 504 deletions(-)
+
+commit 0159fb43a1e32832fdcefa333c2abac1adf834a6
+Author: Leonid Kanter <leon@asplinux.ru>
+Date:   2009-10-11
+
+    Updated Russian translation
+
+ po/ru.po | 1073 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 562 insertions(+), 511 deletions(-)
+
+commit 9065861cdb314a6351fe241145c73436f9252a8f
+Author: nobled <nobled@dreamwidth.org>
+Date:   2009-10-10
+
+    Set usage flags during unattended key generation
+    
+    Add lines for "Key-Usage:" and "Subkey-Usage:" to the standard input
+    to `gpg --batch --gen-key`, as documented in GnuPG's doc/DETAILS.
+    
+    Closes: bgo#555205
+
+ pgp/bastile-gpgme-key-op.c |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit b0cef6e39c8aa2643dd78b79f4ddf73a704e5273
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-10
+
+    Set bits setting properly when creating SSH key.
+    
+    The key bit size setting was not set properly in the SSH
+    key generate dialog.
+
+ ssh/bastile-ssh-generate.c |   23 ++++++++++++-----------
+ 1 files changed, 12 insertions(+), 11 deletions(-)
+
+commit 05d133f818b574fab1a36a8f71ae14993e20e26c
+Author: nobled <nobled@dreamwidth.org>
+Date:   2009-10-10
+
+    Add support for GnuPG DSA2 keys
+    
+    Newer versions of GPG have support for 3072-bit DSA keys
+    turned on by default. This tests for supported GPG versions
+    at compile-time with the new macro GPG_MICRO.
+    
+    Closes: bgo#594707
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-gpgme-key-op.c |    2 +-
+ pgp/bastile-gpgme-key-op.h |   12 +++++++++---
+ 2 files changed, 10 insertions(+), 4 deletions(-)
+
+commit 5773f60e19156ac4c20a9af5cd3ed15e423a7245
+Author: nobled <nobled@dreamwidth.org>
+Date:   2009-10-10
+
+    Use the right macro names; create GPG_MICRO version macro
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ configure.in                |    1 +
+ pgp/bastile-gpgme-key-op.h |    4 ++--
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 01a06706174d04f9e19b63892299b1d2516c1248
+Author: Petr Kovar <pknbe@volny.cz>
+Date:   2009-10-10
+
+    Added Czech translation by Marek Cernocky
+    
+    Reviewed by: Petr Kovar.
+
+ help/cs/cs.po | 1558 +++++++++++++++++++++++++++++++++++++++------------------
+ 1 files changed, 1071 insertions(+), 487 deletions(-)
+
+commit 1e1e68896263a043334ae744b22a1d878502af86
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-09-09
+
+    Prevent opening help window twice.
+    
+    Fixes bug #593695
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-pgp-generate.xml |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+
+commit 44b1bb974b3d3cab80171fa8f3d7e0cd906b8a32
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-10
+
+    Remove translatable attribute from placeholder strings.
+    
+    Actually, we also remove the placeholder strings all together.
+    It's (slightly) inefficient to have these here, and better to
+    just leave them blank in glade.
+    
+    Fixes bug: #594269
+
+ src/bastile-keyserver-sync.xml     |    2 +-
+ ssh/bastile-ssh-key-properties.xml |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit a9034b0d23ed3156e6a64319713f3c1cb90ac0fa
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-10
+
+    Fix build problem with libmatecryptui libraries.
+    
+    Fixes botched fix in commit dc8d2827...
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 433bb13701b754f3cb2c0e8b93ec8b52744685b8
+Author: nobled <nobled@dreamwidth.org>
+Date:   2009-09-10
+
+    Fix subkey creation on newer GnuPG versions
+    
+    gpg 2.0.12 and 1.4.10 and later, changed their --edit-key options
+    for creating subkeys. The prompts have changed in a backwards
+    incompatible manner.
+    
+    Closes: bgo#594809
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-gpgme-key-op.h |   21 ++++++++++++++++++++-
+ 1 files changed, 20 insertions(+), 1 deletions(-)
+
+commit ec4795be0b8f1a62d078fc02e4bcf01350dd33be
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-09-20
+
+    bastile-gpgme-generate.c fully documented
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-gpgme-generate.c |   75 +++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 75 insertions(+), 0 deletions(-)
+
+commit 34a674c2a96b38f805fcd6b628d621373a0fc1e7
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-09-14
+
+    complete documentation for bastile-gpgme
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-gpgme.c |   58 +++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 57 insertions(+), 1 deletions(-)
+
+commit 5c272eb9dfff23c2cde308419327131398e600c7
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-08-24
+
+    documented the process of creating a new gkr keyring
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ gkr/bastile-gkr-add-keyring.c      |   39 +++++++++++++++++++++++++++++++++++
+ gkr/bastile-gkr-keyring-commands.c |    7 ++++++
+ libbastile/bastile-widget.c       |   15 +++++++++++++
+ 3 files changed, 61 insertions(+), 0 deletions(-)
+
+commit dc8d28276204dbd9b47e6ff6fb2f3419a648bc1b
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-09
+
+    Link libmatecryptui to dbus-glib and dbus
+    
+    Fixes bug #596691
+
+ configure.in |    8 +++++---
+ 1 files changed, 5 insertions(+), 3 deletions(-)
+
+commit 2dcd1fb71e0406fa48c64e9d04b43f5b1e11b23d
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-09
+
+    Fix location label in SSH key properties.
+    
+    Fixed gtkbuilder identifier for location label. Also removed some
+    useless placeholder text that was marked as translatable.
+    
+    Fixes bug #597583
+
+ ssh/bastile-ssh-key-properties.xml |   10 +++++-----
+ 1 files changed, 5 insertions(+), 5 deletions(-)
+
+commit e344df96c7828f321d13eca670c04c9484090067
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-10-09
+
+    Fix assertion when destroying object with children.
+    
+    This is due to a modify while iterating a list. We copy the list
+    so that the original is modified, while we iterate the copy.
+    
+    Fixes bug #596842
+
+ libbastile/bastile-object.c |    8 +++++---
+ 1 files changed, 5 insertions(+), 3 deletions(-)
+
+commit c210d3b3592c51d5371cd8bda79f2a00d4339a0c
+Author: Gintautas Miliauskas <gintautas@miliauskas.lt>
+Date:   2009-10-06
+
+    Updated Lithuanian translation.
+
+ po/lt.po | 1146 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 599 insertions(+), 547 deletions(-)
+
+commit c65ba7c1554859f3c919f1020ec5caa4379adb12
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-10-04
+
+    Premtively fix 'bogus' handling of the flags type
+
+ common/bastile-bind.c |   11 ++---------
+ 1 files changed, 2 insertions(+), 9 deletions(-)
+
+commit 432d298ed320ea0aaccd27e6d6200bfe345e8c2d
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-10-04
+
+    Bug 596592 - Can't paste into filter field
+    
+    Check to see if the filter field has focus when pasting and if so
+    paste to it instead of trying to import text.  When filter doesn't
+    have focus, importing is attempted.
+
+ src/bastile-key-manager.c |   10 +++++++---
+ 1 files changed, 7 insertions(+), 3 deletions(-)
+
+commit 457ebc5a23fe88a777e4b7f1238cbe557d6d9ff2
+Author: Bastien Nocera <hadess@hadess.net>
+Date:   2009-10-04
+
+    Bug 596583 - Fix property bindings when using enums
+    
+    The enums won't ever get to the G_TYPE_ENUM case because they're
+    sub-classes of G_TYPE_ENUM. Check whether the value holds an enum
+    instead and manually check for equality.
+
+ common/bastile-bind.c |   17 ++++++-----------
+ 1 files changed, 6 insertions(+), 11 deletions(-)
+
+commit 5834ab2c23ddab6b27525c339bf5c74e5f3d460c
+Author: Peteris Krisjanis <pecisk@gmail.com>
+Date:   2009-10-03
+
+    Fix for wrongly translated term 'keys' in Latvian translation.
+
+ po/lv.po |   20 ++++++++++----------
+ 1 files changed, 10 insertions(+), 10 deletions(-)
+
+commit c4fcd75a6b826a2b8306c8fa5acea43d34b596cb
+Author: Manoj Kumar Giri <mgiri@mgiri.csb>
+Date:   2009-09-22
+
+    Upadated Oriya Translation
+
+ po/or.po |  311 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 162 insertions(+), 149 deletions(-)
+
+commit 26d8e6410ba0203e9ce4f8dcbbc1a69333e7725e
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-09-21
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit cccda296b89f6b3dad942c18b84b9812f07a8d08
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-09-21
+
+    Release 2.28.0
+
+ NEWS   |    5 +++++
+ README |    2 +-
+ 2 files changed, 6 insertions(+), 1 deletions(-)
+
+commit fbac78f56ff6a6f8c6699d8f1bbc44c2639ef881
+Author: Vitezslav Kotrla <vitezslav.kotrla@gmail.com>
+Date:   2009-09-20
+
+    Update Czech translation
+
+ po/cs.po | 1049 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 532 insertions(+), 517 deletions(-)
+
+commit 5843615ec2f96d2700bf3cf5df19683629876fbd
+Author: Amitakhya Phukan <aphukan@fedoraproject.org>
+Date:   2009-09-20
+
+    Updating Assamese translations.
+
+ po/as.po | 1187 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 623 insertions(+), 564 deletions(-)
+
+commit 161c624a9f4c61ab85223e12fce6629f6b1084be
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   2009-09-19
+
+    Updated French translation
+
+ help/fr/fr.po |  525 +++++++++++++++++++++++++++------------------------------
+ po/fr.po      |    8 +-
+ 2 files changed, 249 insertions(+), 284 deletions(-)
+
+commit e52942e6b47a20dd3b6ee663c69822930a5a007f
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:   2009-09-18
+
+    maithili update, translated by Sangeeta Kumari
+
+ po/LINGUAS |    1 +
+ po/mai.po  | 2954 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 2955 insertions(+), 0 deletions(-)
+
+commit eb81fc385040cb44cebe398a7cddaf9e0cd734a0
+Author: Shankar Prasad <svenkate@redhat.com>
+Date:   2009-09-18
+
+    Updated Kannada(kn) translation
+
+ po/kn.po | 1151 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 559 insertions(+), 592 deletions(-)
+
+commit 15ab1c32de7060e505591279da1199c3d4d4ef48
+Author: Jeff Cai <jeff.cai@sun.com>
+Date:   2009-09-18
+
+    The void function should not return a value.
+
+ libbastile/bastile-view.c |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 37def1157a24ef3e26f5c79558aa5790e0617fb6
+Author: Maxim V. Dziumanenko <dziumanenko@gmail.com>
+Date:   2009-09-17
+
+    Added Ukrainian translation
+
+ po/uk.po |  927 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 488 insertions(+), 439 deletions(-)
+
+commit 20701577bfa2d040a0986a5b4f368999cbd2dabd
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2009-09-16
+
+    Updated Italian translation
+
+ po/it.po | 1819 ++++++++++++++++++--------------------------------------------
+ 1 files changed, 516 insertions(+), 1303 deletions(-)
+
+commit e44901eafca64c6c334b54d9996f1202fda80f3b
+Author: Matej Urbančič <mateju@svn.mate.org>
+Date:   2009-09-16
+
+    Updated Slovenian translation
+
+ po/sl.po | 1068 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 563 insertions(+), 505 deletions(-)
+
+commit 6af80c768791b1cb320856f8977a7e57ca5fefd6
+Author: Carlos José Pereira <carlao2005@gmail.com>
+Date:   2009-09-15
+
+    Corrected an error in Brazilian Portuguese translation
+
+ po/pt_BR.po |  148 +++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 74 insertions(+), 74 deletions(-)
+
+commit b7cfee76509f3e461c6af8a6134fd4a8dcb24428
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2009-09-15
+
+    Updated Danish translation
+
+ po/da.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 8e8dd8ef6af2c23b815faa209b7c22de16faa3f5
+Author: Ani <peter.ani@gmail.com>
+Date:   2009-09-15
+
+    Updated Malayalam Translations
+
+ po/ml.po |  301 +++++++++++++++++++++++++++++++++++++------------------------
+ 1 files changed, 182 insertions(+), 119 deletions(-)
+
+commit 01d61c5c708c84a2b2770e85a066a3aef9f99868
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:   2009-09-15
+
+    hindi update by Rajesh Ranjan
+
+ po/hi.po |  162 ++++++++++++++++++++++++++++++++++---------------------------
+ 1 files changed, 90 insertions(+), 72 deletions(-)
+
+commit 31c49b498cd43fa90e17332424151b8b51bd6979
+Author: Ani <peter.ani@gmail.com>
+Date:   2009-09-15
+
+    Updaeted Malayalam Translations
+
+ po/ml.po | 1073 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 534 insertions(+), 539 deletions(-)
+
+commit da9f04679bb54dd883e7989b68df310adba9c958
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:   2009-09-14
+
+    hindi update by Rajesh Ranjan
+
+ po/hi.po |  295 +++++++++++++++++++++++++++-----------------------------------
+ 1 files changed, 129 insertions(+), 166 deletions(-)
+
+commit 62d5046cc965e80e4492a31903d2e7f9fd2f9dfa
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-09-13
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit d9836104f391a912dcb7c043e54a18a73c10c290
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-09-13
+
+    Release version 2.27.92
+
+ NEWS         |   17 +++++++++++++++++
+ README       |    2 +-
+ configure.in |    2 +-
+ 3 files changed, 19 insertions(+), 2 deletions(-)
+
+commit 40820ee20fd64a3e4a84aa2aeca601617eb1497d
+Author: Vincent Untz <vuntz@mate.org>
+Date:   2009-09-09
+
+    Include config.h to avoid build breakage when gpgme is compiled with LFS
+    
+    http://bugzilla.mate.org/show_bug.cgi?id=594627
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-gpg-op.c      |    2 ++
+ pgp/bastile-gpg-options.c |    2 ++
+ 2 files changed, 4 insertions(+), 0 deletions(-)
+
+commit f8e8263faa2e9ba6cc29e9a6dacd7007099bfe16
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-09-09
+
+    Updated all gtkbuilder files to gtk+ 2.16
+    
+    libbastile/bastile-notify.xml
+    pgp/bastile-signer.xml
+    src/bastile-change-passphrase.xml
+    src/bastile-generate-select.xml
+    src/bastile-keyserver-sync.xml
+    ssh/bastile-ssh-generate.xml
+    ssh/bastile-ssh-upload.xml
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ libbastile/bastile-notify.xml    |   86 ++++-----
+ pgp/bastile-signer.xml            |   33 ++-
+ src/bastile-change-passphrase.xml |  168 ++++++----------
+ src/bastile-generate-select.xml   |  149 ++++++--------
+ src/bastile-keyserver-sync.xml    |  205 ++++++++-----------
+ ssh/bastile-ssh-generate.xml      |  397 ++++++++++--------------------------
+ ssh/bastile-ssh-upload.xml        |  215 +++++++-------------
+ 7 files changed, 447 insertions(+), 806 deletions(-)
+
+commit 8678f49f5c74fc315cf91746fcb0b1fd3c806876
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-09-13
+
+    Fix gtkbuilder load problems.
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-pgp-private-key-properties.xml |   26 +++++---------------------
+ 1 files changed, 5 insertions(+), 21 deletions(-)
+
+commit c40c40e0e2b4d808cce0d1119fd07ebf1af1d6aa
+Author: A S Alam <aalam@users.sf.net>
+Date:   2009-09-13
+
+    Updating Translation for Punjabi
+
+ po/pa.po |  960 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 510 insertions(+), 450 deletions(-)
+
+commit dedc7df3c790d9cc2c9c507722d86a3930437e92
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2009-09-13
+
+    Updated Danish translation
+
+ po/da.po |  949 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 497 insertions(+), 452 deletions(-)
+
+commit 0bc9a35100a6b91824786adcdf760e6e27de9b70
+Author: Philip Withnall <philip@tecnocode.co.uk>
+Date:   2009-09-12
+
+    Updated British English translation
+
+ po/en_GB.po | 1148 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 598 insertions(+), 550 deletions(-)
+
+commit 1014f37958bd23746a2bc1aa8b48a0f0ba0074b1
+Author: Kostas Papadimas <pkst@mate.org>
+Date:   2009-09-12
+
+    Updated Greek help translation.
+
+ help/el/el.po | 1791 ++++++++++++++++++++++++++++++++++++++++-----------------
+ 1 files changed, 1252 insertions(+), 539 deletions(-)
+
+commit f7c3ce3121aa8f035e094cc80338c8d151128011
+Author: Rajesh Ranjan <rranjan@rranjan.csb>
+Date:   2009-09-11
+
+    hindi update by Rajesh Ranjan
+
+ po/hi.po | 1079 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 550 insertions(+), 529 deletions(-)
+
+commit c015714c5de04d5054c4c4494e6f7376202b69b1
+Author: Gabor Kelemen <kelemeng@mate.hu>
+Date:   2009-09-11
+
+    Updated Hungarian translation
+
+ po/hu.po |    8 ++++----
+ 1 files changed, 4 insertions(+), 4 deletions(-)
+
+commit f95bf6fa9189f54f5e83222d506bcfef35536aad
+Author: Gabor Kelemen <kelemeng@mate.hu>
+Date:   2009-09-10
+
+    Hungarian translation updated
+
+ po/hu.po | 1036 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 530 insertions(+), 506 deletions(-)
+
+commit e219d7d59cda0f4a385faae643e861aff4d26351
+Author: Sweta Kothari <swkothar@redhat.com>
+Date:   2009-09-09
+
+    Updated Gujarati Translations
+
+ po/gu.po | 1126 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 534 insertions(+), 592 deletions(-)
+
+commit 7974cc7c9060cd62252781d397f3929e2521f00b
+Author: Carles Ferrando <carles.ferrando@gmail.com>
+Date:   2009-09-07
+
+    Added Catalan (Valencian) translation
+
+ po/LINGUAS        |    1 +
+ po/ca@valencia.po | 3146 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 3147 insertions(+), 0 deletions(-)
+
+commit a86a85417405047306efec41cf0ddc4f516e8d91
+Author: Aron Xu <aronxu@mate.org>
+Date:   2009-09-06
+
+    Updated Simplified Chinese translation.
+
+ po/zh_CN.po | 1070 +++++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 556 insertions(+), 514 deletions(-)
+
+commit 16db30074ee873a1df59268530966fc44d04d27a
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2009-09-05
+
+    Updating Estonian translation
+
+ po/et.po |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit bd55f113880d0e2a5c121206c5fd2f751817c61d
+Author: Khaled Hosny <khaledhosny@eglug.org>
+Date:   2009-08-31
+
+    Updated Arabic translation
+
+ po/ar.po | 1421 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 708 insertions(+), 713 deletions(-)
+
+commit eb6477b4ee290bcfb5cbb92e5a6defd8b49d46a5
+Author: Manoj Kumar Giri <mgiri@mgiri.csb>
+Date:   2009-08-31
+
+    Updated Oriya Translation
+
+ po/or.po |  306 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 147 insertions(+), 159 deletions(-)
+
+commit 9f001491b44bcf6e27152b5a05b74e8257f1bc75
+Author: Manoj Kumar Giri <mgiri@mgiri.csb>
+Date:   2009-08-31
+
+    Updated Oriya Translation
+
+ po/or.po |  608 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 305 insertions(+), 303 deletions(-)
+
+commit 79de37cf7049009fe9cf881082595f82f5179a5c
+Author: Sandeep Shedmake <sshedmak@redhat.com>
+Date:   2009-08-31
+
+    Updated Marathi Translations
+
+ po/mr.po | 1199 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 579 insertions(+), 620 deletions(-)
+
+commit e4501606d86fd47c9b3f808e253ddaf86228e60b
+Author: Denis Arnaud <darnaud@src.mate.org>
+Date:   2009-08-31
+
+    Updated breton translation
+
+ po/br.po | 3485 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 1773 insertions(+), 1712 deletions(-)
+
+commit 08efca69a3f5db7efc29839f5101ecf0bc45a932
+Author: Baris Cicek <baris@teamforce.name.tr>
+Date:   2009-08-30
+
+    Updated Turkish translation.
+
+ po/tr.po | 1019 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 536 insertions(+), 483 deletions(-)
+
+commit 87d58af5e07fa0b512597c220e0e24ddd2f3f10e
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-08-29
+
+    Fix problem with 'Type:' label of SSH key displaying location.
+    
+    Fixes bug #590540
+
+ ssh/bastile-ssh-key-properties.xml |   13 ++++++++-----
+ 1 files changed, 8 insertions(+), 5 deletions(-)
+
+commit fcb092c3d803363e566b899fb43c8f3099adf3c8
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-08-29
+
+    Update context display after keyring operation.
+    
+    Fixes bug #592888.
+
+ gkr/bastile-gkr-keyring-commands.c |   57 ++++++++++++++++++++++++----------
+ 1 files changed, 40 insertions(+), 17 deletions(-)
+
+commit 844ccf8a6bc05fb2064f98d7a2fd20bc64853c38
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-08-29
+
+    Fix more compiler warnings.
+
+ pgp/bastile-gpgme-key-op.c      |    6 +++---
+ pgp/bastile-ldap-source.c       |    2 ++
+ src/bastile-key-manager-store.c |    2 +-
+ src/bastile-viewer.c            |   10 ++--------
+ ssh/bastile-ssh-operation.c     |    2 +-
+ 5 files changed, 9 insertions(+), 13 deletions(-)
+
+commit d91809ad3f9efbeab4866966f405ad9efa57c4f3
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-24
+
+    Use AM_SILENT_RULES
+
+ configure.in           |    1 +
+ libmatecryptui/Makefile.am |    6 +++---
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 1cc4a05280e68bc0702dcf608f3af6eaf2dec0e6
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-24
+
+    Fixed warnings compiling bastile
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ pgp/bastile-hkp-source.c         |    2 +-
+ src/bastile-viewer.c             |    2 +-
+ ssh/bastile-ssh-generate.c       |    2 +-
+ ssh/bastile-ssh-key-properties.c |    4 ++--
+ 4 files changed, 5 insertions(+), 5 deletions(-)
+
+commit a601d0b4ad7a64cf0cc651977ff6eb548f8abee8
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-23
+
+    Libglade clean up
+    
+    Signed-off-by: Stef Walter <stef@memberwebs.com>
+
+ gkr/.gitignore         |    1 -
+ libbastile/.gitignore |    1 -
+ pgp/.gitignore         |    1 -
+ src/.gitignore         |    3 ---
+ 4 files changed, 0 insertions(+), 6 deletions(-)
+
+commit 3325ba05d627747101e09c46e232a03c1e9c42bb
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-22
+
+    Removed old CVS stuff.
+
+ .cvsignore                  |   26 --------------------------
+ README.cvs                  |   16 ----------------
+ autogen.sh                  |    2 +-
+ daemon/.cvsignore           |   11 -----------
+ data/.cvsignore             |    4 ----
+ help/.cvsignore             |    3 ---
+ help/C/.cvsignore           |    4 ----
+ help/it/.cvsignore          |    1 -
+ libmatecryptui/.cvsignore       |    8 --------
+ libmatecryptui/tests/.gitignore |    1 -
+ libbastile/.cvsignore      |   19 -------------------
+ m4/.cvsignore               |    3 ---
+ pixmaps/.cvsignore          |    2 --
+ pixmaps/22x22/.cvsignore    |    2 --
+ pixmaps/48x48/.cvsignore    |    2 --
+ pixmaps/scalable/.cvsignore |    2 --
+ po/.cvsignore               |   15 ---------------
+ src/.cvsignore              |   19 -------------------
+ 18 files changed, 1 insertions(+), 139 deletions(-)
+
+commit 5abe0dfcb80ac107870100b960db425fc904eb2e
+Author: Matthias Clasen <mclasen@redhat.com>
+Date:   2009-08-29
+
+    Respect the button-images setting, and cleanup gtkbuilder xml.
+
+ pgp/bastile-pgp-generate.xml       |   44 ++----------
+ src/bastile-generate-select.xml    |   67 ++----------------
+ src/bastile-keyserver-search.xml   |   44 ++----------
+ src/bastile-keyserver-sync.xml     |  134 ++++-------------------------------
+ ssh/bastile-ssh-generate.xml       |   69 ++----------------
+ ssh/bastile-ssh-key-properties.xml |   88 ++++-------------------
+ ssh/bastile-ssh-upload.xml         |   67 ++----------------
+ 7 files changed, 64 insertions(+), 449 deletions(-)
+
+commit e870820825a26544a7b91e5d5af2a982c14de92e
+Author: Tomasz Dominikowski <dominikowski@gmail.com>
+Date:   2009-08-29
+
+    Updated Polish translation
+
+ po/pl.po | 2164 +++++++++++++++-----------------------------------------------
+ 1 files changed, 531 insertions(+), 1633 deletions(-)
+
+commit ad680ca660cef0588233d145aec92fc568e18848
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:   2009-08-29
+
+    Updated Basque language
+
+ po/eu.po |   26 +++++++++++++++++++++++---
+ 1 files changed, 23 insertions(+), 3 deletions(-)
+
+commit 63f008616a119a8f6d0169234dd154df68083da5
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   2009-08-29
+
+    Updated French translation
+
+ po/fr.po |  982 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 506 insertions(+), 476 deletions(-)
+
+commit 6ad1e4419e85bce5bc3653e93a2f971f34fd779f
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   2009-08-29
+
+    Update Korean translation
+
+ po/ko.po | 1085 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 542 insertions(+), 543 deletions(-)
+
+commit aaf525b45b1a350b44be83b52a60bb4f40ea9d6a
+Author: Branko Kokanović <branko.kokanovic@gmail.com>
+Date:   2009-08-28
+
+    Updated Serbian translation
+
+ po/sr.po       | 4451 ++++++++++++++++++--------------------------------------
+ po/sr@latin.po | 4451 ++++++++++++++++++--------------------------------------
+ 2 files changed, 2866 insertions(+), 6036 deletions(-)
+
+commit b7516c70de0bd551267c5df63da74a0201b4858b
+Author: krishnababu k <kkrothap@redhat.ocm>
+Date:   2009-08-28
+
+    Updated Telugu Translations
+
+ po/te.po | 1316 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 622 insertions(+), 694 deletions(-)
+
+commit 59f33835e7568f47d3c645c129413af0140c4b03
+Author: Duarte Loreto <happyguy_pt@hotmail.com>
+Date:   2009-08-28
+
+    Updated Portuguese translation
+
+ po/pt.po | 1128 ++++++++++++++++++++++++++++++--------------------------------
+ 1 files changed, 551 insertions(+), 577 deletions(-)
+
+commit cf1bbf38e241a3d641a6b65e8f913e04f222cd49
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2009-08-27
+
+    Updated German doc translation
+
+ help/de/de.po |  584 ++++++++++++++++++++++++++++++---------------------------
+ 1 files changed, 305 insertions(+), 279 deletions(-)
+
+commit 0c6ac661d075fa0036e5c7560d31a352905fa4ba
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:   2009-08-27
+
+    Updated Basque language
+
+ po/eu.po |  995 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 500 insertions(+), 495 deletions(-)
+
+commit a0c2a077e0b772b7e4c4e820b3224cd5ac5731de
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2009-08-26
+
+    Updated Spanish translation
+
+ help/es/es.po | 1009 +++++++++++++++------------------------------------------
+ 1 files changed, 262 insertions(+), 747 deletions(-)
+
+commit a4359a84b8b9cf46ee2baff889d79a10f970f2e0
+Author: Paul Cutler <pcutler@mate.org>
+Date:   2009-08-23
+
+    Fix bug 581820 (add a keyring docs)
+
+ help/C/bastile.xml |    3 +--
+ 1 files changed, 1 insertions(+), 2 deletions(-)
+
+commit c9d379432ad04ffb78b3276bdc07a099211bb791
+Author: Paul Cutler <pcutler@mate.org>
+Date:   2009-08-23
+
+    Fix bug 583184 (Remove keyring docs)
+
+ help/C/bastile.xml |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit bb43e416e0802537bf2798f4a91227429f67bd3e
+Author: Jamil Ahmed <itsjamil@gmail.com>
+Date:   2009-08-24
+
+    Updated Bengali translation
+
+ po/bn.po | 6446 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 3060 insertions(+), 3386 deletions(-)
+
+commit 2d90e1a515a29481056654fe56c27407af52bb43
+Author: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Date:   2009-08-23
+
+    Updated Thai translation.
+
+ po/th.po | 1071 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 557 insertions(+), 514 deletions(-)
+
+commit 54ba9489d67c538b1af62c094deccd643ff8c592
+Merge: 53aefd8 7be78a7
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-08-19
+
+    Merge branch 'gtk-doc'
+
+commit 7be78a778a4d77027212e69318079372e0332ad8
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-08-19
+
+    mixed comments in gpgme and key operations
+
+ pgp/bastile-gpgme-key-op.c |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 53aefd8c7559615a0281e9c3cb816a90d320d28d
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-08-19
+
+     Bug 585538 -  Add GTK-Doc comments
+    
+    Fix gtk-doc warnings
+
+ libbastile/bastile-context.c              |   23 ++++++++---
+ libbastile/bastile-context.h              |   40 +++++++++++---------
+ libbastile/bastile-dns-sd.h               |   22 ++++++----
+ libbastile/bastile-keyserver-control.h    |   25 +++++++-----
+ libbastile/bastile-object-model.h         |   21 ++++++----
+ libbastile/bastile-object.c               |    3 +-
+ libbastile/bastile-operation.h            |   55 +++++++++++++++-----------
+ libbastile/bastile-prefs.c                |    6 ++-
+ libbastile/bastile-set-model.h            |   13 ++++--
+ libbastile/bastile-set.h                  |   53 ++++++++++++++------------
+ libbastile/bastile-source.c               |   12 +++---
+ libbastile/bastile-transfer-operation.h   |   28 +++++++------
+ libbastile/bastile-unknown-source.h       |   30 ++++++++------
+ libbastile/bastile-util.c                 |    2 +-
+ libbastile/bastile-widget.h               |   33 +++++++++-------
+ reference/libbastile/libbastile-docs.sgml |    7 ++-
+ 16 files changed, 215 insertions(+), 158 deletions(-)
+
+commit 9789966dcd63523f1afb834eee55869278776576
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-08-18
+
+    mixed dbus related comments
+
+ daemon/bastile-dbus-server.c    |   19 +++++++++++
+ daemon/bastile-service-keyset.c |   10 +++++-
+ daemon/bastile-service.c        |   63 ++++++++++++++++++++++++++++++++++++++
+ libbastile/bastile-context.c   |   15 +++++++++
+ libbastile/bastile-source.c    |    9 +++++-
+ 5 files changed, 114 insertions(+), 2 deletions(-)
+
+commit d865cc80236e98cc800ba3f7a9f1b0d6a2aa7978
+Author: Antón Méixome <meixome@mancomun.org>
+Date:   2009-08-19
+
+    Updated Galician Translation
+
+ po/gl.po |   76 ++++++++++++++-----------------------------------------------
+ 1 files changed, 18 insertions(+), 58 deletions(-)
+
+commit 6bf01abad4ed7ade09921fd8c88cc79018f17973
+Author: Alexander Shopov <ash@contact.bg>
+Date:   2009-08-18
+
+    Updated Bulgarian translation
+
+ po/bg.po |  988 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 505 insertions(+), 483 deletions(-)
+
+commit a92461a4920fdfcfae5939cc7ff2acc6cf307a87
+Author: Tommi Vainikainen <thv@iki.fi>
+Date:   2009-08-15
+
+    Updated Finnish translation
+
+ po/fi.po |  990 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 523 insertions(+), 467 deletions(-)
+
+commit 9ffc7b9630cbb930690eb4eed2e2a670c9aa3f7b
+Author: Manoj Kumar Giri <mgiri@mgiri.csb>
+Date:   2009-08-13
+
+    Updated Oriya Translation
+
+ po/or.po | 1078 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 559 insertions(+), 519 deletions(-)
+
+commit 8158027d1f2b750f8e2876eda81ce711888a4b1e
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2009-08-12
+
+    Small fix in German translation
+
+ po/de.po |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 72f5187db39f25401294c245a97b0b09838cf0f2
+Author: Antón Méixome <meixome@mancoumun.org>
+Date:   2009-08-12
+
+    Updated Galician translation
+
+ po/gl.po | 1152 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 607 insertions(+), 545 deletions(-)
+
+commit d4eb6ecf3578dd6bcff3efe3075d1f06d01979d3
+Author: Thorsten Sick <thorsten.sick@email.de>
+Date:   2009-08-11
+
+    Bug 585538 – Add GTK-Doc comments
+    
+    gtk-doc comments
+
+ libbastile/bastile-mateconf.c         |  143 +++++++++++++-
+ libbastile/bastile-gtkstock.c      |   40 ++++
+ libbastile/bastile-object.c        |  366 ++++++++++++++++++++++++++++++++--
+ libbastile/bastile-prefs.c         |   16 ++
+ libbastile/bastile-secure-memory.c |   52 +++++
+ libbastile/bastile-util.c          |  362 ++++++++++++++++++++++++++++++----
+ libbastile/bastile-validity.c      |    6 +
+ 7 files changed, 933 insertions(+), 52 deletions(-)
+
+commit 84a8296898c4a214e3e3cb67d45399b9d81e6221
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-08-11
+
+    Bug 585538 – Add GTK-Doc comments
+    
+    Add gtk-doc files and a .gitignore file
+
+ reference/libbastile/.gitignore                |   16 +
+ reference/libbastile/libbastile-docs.sgml     |   64 +++
+ reference/libbastile/libbastile-sections.txt  |  651 +++++++++++++++++++++++
+ 3 files changed, 731 insertions(+), 0 deletions(-)
+
+commit ffe7794801a22dbee9a03fa70043eb542095c0fe
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-08-11
+
+    Bug 585538 – Add GTK-Doc comments
+    
+    Add dynamic version file
+
+ reference/libbastile/version.xml.in |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 58ab74fcf5d356a18e700963581e1f83516505df
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-08-11
+
+    Bug 585538 – Add GTK-Doc comments
+    
+    Build magic for gtk-doc comments in libbastile
+
+ configure.in                      |    2 +
+ reference/Makefile.am             |    3 +-
+ reference/libbastile/Makefile.am |   65 +++++++++++++++++++++++++++++++++++++
+ 3 files changed, 69 insertions(+), 1 deletions(-)
+
+commit 3353ceb235160869c2d369af43319fe5ffaa3303
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-08-10
+
+    Bump version number to 2.27.91
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit d95de9ab897e17e610c43e7b24a64e011262daec
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-08-10
+
+    Release 2.27.90
+
+ NEWS   |    5 +++++
+ README |    2 +-
+ 2 files changed, 6 insertions(+), 1 deletions(-)
+
+commit 227aaae70cd2f282f76c59263d1ffce60c794b83
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2009-08-09
+
+    Updated German translation
+
+ po/de.po | 1078 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 570 insertions(+), 508 deletions(-)
+
+commit 67c1e5574b15577148b8cd6875d3e99618d4b34c
+Author: Seán de Búrca <leftmostcat@gmail.com>
+Date:   2009-08-07
+
+    Updated Irish translation
+
+ po/ga.po | 4228 +++++++++++++++++++++++++++-----------------------------------
+ 1 files changed, 1861 insertions(+), 2367 deletions(-)
+
+commit 30a18f365435de433a51e0f7debba557eec58773
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2009-08-06
+
+    Updated Norwegian bokmål translation.
+
+ po/nb.po |  963 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 497 insertions(+), 466 deletions(-)
+
+commit 802fdfb1b275ffb2733df301567b6d8e95eda9f4
+Author: André Gondim <andregondim@ubuntu.com>
+Date:   2009-08-05
+
+    Updated Brazilian Portuguese translation.
+    
+    Translation provided by André Gondim and myself.
+
+ po/pt_BR.po | 1044 +++++++++++++++++++++++++++++++---------------------------
+ 1 files changed, 558 insertions(+), 486 deletions(-)
+
+commit 4a1bfa6a3d399d93a9b0dc7b1ab45977ef859e80
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-08-06
+
+    Fix problem with missing password tab.
+    
+    Fixes bug #590331
+
+ src/bastile-key-manager.xml |   25 ++++++++++++++++++++++---
+ 1 files changed, 22 insertions(+), 3 deletions(-)
+
+commit a8673f88e4ac3043a5cdedfe5cc96d54a642b851
+Author: Denis Arnaud <darnaud@src.mate.org>
+Date:   2009-07-28
+
+    Added br in Linguas
+
+ po/LINGUAS |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit f838c10ca974c524f3f96d5e0985ab710ec2544d
+Author: Denis Arnaud <darnaud@src.mate.org>
+Date:   2009-07-28
+
+    Added breton translation
+
+ po/br.po | 2905 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 2905 insertions(+), 0 deletions(-)
+
+commit 485ffab159cd8f5ede6e720e403b17ae875a7747
+Author: Paul Cutler <pcutler@mate.org>
+Date:   2009-07-27
+
+    Removed backup references from documentation
+
+ help/C/bastile.xml |   35 -----------------------------------
+ 1 files changed, 0 insertions(+), 35 deletions(-)
+
+commit 87a7dd7f2d27defed6e638343572ed545c4696d6
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-27
+
+    Ignore files built for cs translation
+
+ help/cs/.gitignore |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+commit 76b1cd683d50881d9d3d502bf788571b813036ef
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-27
+
+    Bump version number
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 598902c5001e6937970a3d0216e30d9b3894744d
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-27
+
+    Release version 2.27.5
+
+ NEWS         |   16 ++++++++++++++++
+ configure.in |    2 +-
+ 2 files changed, 17 insertions(+), 1 deletions(-)
+
+commit 7ac75c5b9c1e453ba71aa2b5f61f7089506ef2d6
+Author: Petr Kovar <pknbe@volny.cz>
+Date:   2009-07-26
+
+    Added Czech help translation by Marek Cernocky
+
+ help/Makefile.am                    |    2 +-
+ help/cs/cs.po                       | 1160 +++++++++++++++++++++++++++++++++++
+ help/cs/figures/bastile-window.png |  Bin 0 -> 29600 bytes
+ 3 files changed, 1161 insertions(+), 1 deletions(-)
+
+commit 20cdc65e9a278534f5dbb464f47726e7c06e96b3
+Author: Mario Blättermann <mariobl@mate.org>
+Date:   2009-07-26
+
+    Updated German translation
+
+ help/de/de.po |  601 ++++++++++++++++++++++++++++++---------------------------
+ 1 files changed, 314 insertions(+), 287 deletions(-)
+
+commit 8ac922bc6fc1d9d2817833bd667d7d3f248cc76d
+Author: Gil Forcada <gforcada@mate.org>
+Date:   2009-07-26
+
+    Added cy to LINGUAS
+
+ po/LINGUAS |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit e0d9a542eb8de055bb4b3b47e279aee171e03d9f
+Author: Daniel Nylander <po@danielnylander.se>
+Date:   2009-07-22
+
+    Updated Swedish translation
+
+ po/sv.po |  856 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 453 insertions(+), 403 deletions(-)
+
+commit 1bca34cd4a83a1c25b4ff95e234ad1b92dced6c8
+Author: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>
+Date:   2009-07-22
+
+    Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+ po/zh_HK.po | 1023 +++++++++++++++++++++++++++++++----------------------------
+ po/zh_TW.po | 1023 +++++++++++++++++++++++++++++++----------------------------
+ 2 files changed, 1074 insertions(+), 972 deletions(-)
+
+commit b83f88949cc9f70d83f92eedd738c74efae916a6
+Author: drtvasudevan <agnihot3@gmail.com>
+Date:   2009-07-20
+
+    Updated Tamil translation
+
+ po/ta.po |  861 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 457 insertions(+), 404 deletions(-)
+
+commit 182819bf5c5951a92b622e344c68ed98bde4a8d9
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2009-07-19
+
+    Updating Estonian translation
+
+ po/et.po |  124 ++++++++++++++++++++++++++++++++++++++++----------------------
+ 1 files changed, 80 insertions(+), 44 deletions(-)
+
+commit 32ab2109b99e903521537f6f6a2238a58702ce66
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2009-07-18
+
+    Updated Spanish translation
+
+ po/es.po |   28 +++++++++-------------------
+ 1 files changed, 9 insertions(+), 19 deletions(-)
+
+commit dbc9cc7b859d06e3c0ebd9941946acb32b817296
+Author: Runa Bhattacharjee <runab@redhat.com>
+Date:   2009-07-15
+
+    Updated Bengali India Translations
+
+ po/bn_IN.po | 1137 ++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 583 insertions(+), 554 deletions(-)
+
+commit a8629d13f50623ec7cc705cb3d849d85ed0be5b6
+Author: Kjartan Maraas <kmaraas@mate.org>
+Date:   2009-07-14
+
+    Fix GTK+ single include
+
+ libbastile/bastile-widget.h |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 6b7d1de066011d04db35548217f0b64e607abe4b
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-13
+
+    Move password tab to first place.
+    
+    Also change the label of the other keys.
+
+ src/bastile-key-manager.xml |   44 +++++++++++------------------------------
+ 1 files changed, 12 insertions(+), 32 deletions(-)
+
+commit f56f0bb48adf30d7ca406885c15a4808b030ada3
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2009-07-12
+
+    Updated Spanish translation
+
+ po/es.po |  850 +++++++++++++++++++++++++++++++++-----------------------------
+ 1 files changed, 456 insertions(+), 394 deletions(-)
+
+commit e9d379fa809beac670f19c1c608dc305bf479072
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-11
+
+    Add support for adding manual keyring secrets.
+    
+    User can now manually add items to keyrings from the File | New
+    menu. 'Stored Password' is the name.
+
+ gkr/Makefile.am                     |    4 +-
+ gkr/bastile-gkr-add-item.c         |  172 +++++++++++++++++++++++++++++++
+ gkr/bastile-gkr-add-item.xml       |  191 +++++++++++++++++++++++++++++++++++
+ gkr/bastile-gkr-add-keyring.c      |   78 +--------------
+ gkr/bastile-gkr-dialogs.c          |   99 ++++++++++++++++++
+ gkr/bastile-gkr-dialogs.h          |    7 ++
+ gkr/bastile-gkr-keyring-commands.c |   11 ++-
+ gkr/bastile-gkr-keyring.c          |    1 +
+ libbastile/bastile-gtkstock.c     |    1 +
+ po/POTFILES.in                      |    2 +
+ 10 files changed, 488 insertions(+), 78 deletions(-)
+
+commit 25a1e1010a6a6aaa94bb268f548501331cf08709
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   2009-07-11
+
+    Update POTFILES.in after GTKBuilder migration.
+
+ po/POTFILES.in |   50 +++++++++++++++++++++++++-------------------------
+ 1 files changed, 25 insertions(+), 25 deletions(-)
+
+commit ce616ee6aa9027c818b06346404dcd08dcab11bb
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-11
+
+    Use GtkBuilder instead of libglade.
+    
+    Automatic connecting of handlers is used. Handlers are exported via
+    G_MODULE style exports. All handlers start with 'on_'.
+    
+    Most of the work done by  Andreas Brauchli. Fixes bug# 577875
+
+ configure.in                                  |    2 +-
+ daemon/Makefile.am                            |    7 +-
+ gkr/Makefile.am                               |   14 +-
+ gkr/bastile-add-keyring.glade                |  175 --
+ gkr/bastile-add-keyring.xml                  |  132 ++
+ gkr/bastile-gkr-add-keyring.c                |   14 +-
+ gkr/bastile-gkr-item-properties.c            |   40 +-
+ gkr/bastile-gkr-item-properties.glade        |  919 --------
+ gkr/bastile-gkr-item-properties.xml          |  562 +++++
+ gkr/bastile-gkr-keyring-properties.c         |    9 +-
+ gkr/bastile-gkr-keyring.glade                |  287 ---
+ gkr/bastile-gkr-keyring.xml                  |  195 ++
+ libmatecryptui/Makefile.am                        |    6 +-
+ libbastile/Makefile.am                       |   16 +-
+ libbastile/bastile-add-keyserver.glade      |  263 ---
+ libbastile/bastile-add-keyserver.xml        |  201 ++
+ libbastile/bastile-notify.glade             |   98 -
+ libbastile/bastile-notify.xml               |   90 +
+ libbastile/bastile-passphrase.c             |    2 -
+ libbastile/bastile-prefs.c                  |  112 +-
+ libbastile/bastile-prefs.glade              |  441 ----
+ libbastile/bastile-prefs.xml                |  312 +++
+ libbastile/bastile-progress.c               |   20 +-
+ libbastile/bastile-progress.glade           |  189 --
+ libbastile/bastile-progress.xml             |  128 ++
+ libbastile/bastile-widget.c                 |  100 +-
+ libbastile/bastile-widget.h                 |   13 +-
+ pgp/Makefile.am                               |   26 +-
+ pgp/bastile-add-subkey.glade                 |  298 ---
+ pgp/bastile-add-subkey.xml                   |  220 ++
+ pgp/bastile-add-uid.glade                    |  263 ---
+ pgp/bastile-add-uid.xml                      |  188 ++
+ pgp/bastile-expires.glade                    |  186 --
+ pgp/bastile-expires.xml                      |  142 ++
+ pgp/bastile-gpgme-add-subkey.c               |   34 +-
+ pgp/bastile-gpgme-add-uid.c                  |   33 +-
+ pgp/bastile-gpgme-expires.c                  |   28 +-
+ pgp/bastile-gpgme-generate.c                 |   33 +-
+ pgp/bastile-gpgme-revoke.c                   |   19 +-
+ pgp/bastile-gpgme-sign.c                     |   51 +-
+ pgp/bastile-pgp-generate.glade               |  651 ------
+ pgp/bastile-pgp-generate.xml                 |  452 ++++
+ pgp/bastile-pgp-key-properties.c             |  403 ++---
+ pgp/bastile-pgp-private-key-properties.glade | 2890 -------------------------
+ pgp/bastile-pgp-private-key-properties.xml   | 1771 +++++++++++++++
+ pgp/bastile-pgp-public-key-properties.glade  | 2393 --------------------
+ pgp/bastile-pgp-public-key-properties.xml    | 1435 ++++++++++++
+ pgp/bastile-revoke.glade                     |  174 --
+ pgp/bastile-revoke.xml                       |  190 ++
+ pgp/bastile-sign.glade                       |  475 ----
+ pgp/bastile-sign.xml                         |  514 +++++
+ pgp/bastile-signer.c                         |    2 +-
+ pgp/bastile-signer.glade                     |   95 -
+ pgp/bastile-signer.xml                       |   96 +
+ pkcs11/Makefile.am                            |    8 +-
+ src/Makefile.am                               |   22 +-
+ src/bastile-change-passphrase.glade          |  194 --
+ src/bastile-change-passphrase.xml            |  184 ++
+ src/bastile-generate-select.glade            |  222 --
+ src/bastile-generate-select.xml              |  207 ++
+ src/bastile-key-manager.c                    |   42 +-
+ src/bastile-key-manager.glade                |  586 -----
+ src/bastile-key-manager.xml                  |  360 +++
+ src/bastile-keyserver-results.c              |    4 +-
+ src/bastile-keyserver-results.glade          |  155 --
+ src/bastile-keyserver-results.xml            |   97 +
+ src/bastile-keyserver-search.c               |   57 +-
+ src/bastile-keyserver-search.glade           |  410 ----
+ src/bastile-keyserver-search.xml             |  273 +++
+ src/bastile-keyserver-sync.c                 |   25 +-
+ src/bastile-keyserver-sync.glade             |  346 ---
+ src/bastile-keyserver-sync.xml               |  324 +++
+ src/bastile-viewer.c                         |    4 +-
+ ssh/Makefile.am                               |   14 +-
+ ssh/bastile-ssh-generate.c                   |    2 +-
+ ssh/bastile-ssh-generate.glade               |  648 ------
+ ssh/bastile-ssh-generate.xml                 |  634 ++++++
+ ssh/bastile-ssh-key-properties.c             |   61 +-
+ ssh/bastile-ssh-key-properties.glade         | 1014 ---------
+ ssh/bastile-ssh-key-properties.xml           |  613 ++++++
+ ssh/bastile-ssh-upload.c                     |   25 +-
+ ssh/bastile-ssh-upload.glade                 |  351 ---
+ ssh/bastile-ssh-upload.xml                   |  331 +++
+ 83 files changed, 10163 insertions(+), 14459 deletions(-)
+
+commit b7a4c9f75254684ce6c8216283b6e8b24e7871cb
+Author: Jorge González <jorgegonz@svn.mate.org>
+Date:   2009-07-11
+
+    Updated Spanish translation
+
+ po/es.po |   86 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 43 insertions(+), 43 deletions(-)
+
+commit 6d356c1b6c9b8dc239858191f316ac44147d6640
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-10
+
+    Remove the 'trusted keys' tab and combine with 'other keys'.
+    
+    Also make 'passwords' tab first since that's what people seem
+    to use the most.
+
+ src/bastile-key-manager.c     |   13 -------
+ src/bastile-key-manager.glade |   76 +++++----------------------------------
+ 2 files changed, 10 insertions(+), 79 deletions(-)
+
+commit e92778463984f47fa913ebe954ed4215f7aa6a4e
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-10
+
+    Gray out displayed non-trusted keys.
+    
+    Gray out PGP keys that are not trusted in the main key display
+    and other places where they're rendered as markup.
+
+ pgp/bastile-pgp-uid.c |    9 ++++++++-
+ 1 files changed, 8 insertions(+), 1 deletions(-)
+
+commit 9b047fb6a974101fdb5cb74f693e0f795b7e1180
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-07-10
+
+    Ignore project files and backup files.
+
+ .gitignore |   21 +++++++++++++++------
+ 1 files changed, 15 insertions(+), 6 deletions(-)
+
+commit dd3f1b871fa57e4eddf5ab57650cfa40cb1fc989
+Author: Maxim V. Dziumanenko <dziumanenko@gmail.com>
+Date:   2009-07-09
+
+    Updated Ukrainian translation
+
+ po/uk.po |  822 +++-----------------------------------------------------------
+ 1 files changed, 37 insertions(+), 785 deletions(-)
+
+commit 13582f9987de9ac2d79004452684adc80cb67112
+Author: A S Alam <aalam@users.sf.net>
+Date:   2009-07-07
+
+    updating translation for Punjabi
+
+ po/pa.po |  283 ++++++++++++++++++++++++++------------------------------------
+ 1 files changed, 117 insertions(+), 166 deletions(-)
+
+commit 2e2a3d529b62ea39b69b707b6dde7a1425ba7ca4
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-07-02
+
+    Bug 587539 – bastile-daemon should autostart by default
+    
+    Remove the autostart condition on the sharing mateconf key.
+
+ daemon/bastile-daemon.desktop.in.in |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+
+commit 572e429904fc62bdc1c6eddbf1316b6b70fd2fd2
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2009-06-21
+
+    Updating Estonian translation
+
+ po/et.po |    7 ++-----
+ 1 files changed, 2 insertions(+), 5 deletions(-)
+
+commit e22cad4e318df704d865f97ea41a3f46a2c584f4
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2009-06-17
+
+    Updating Estonian translation
+
+ po/et.po |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 123cb92dcdb0ede08a179d34ac0f2d084543a347
+Author: Daniel Nylander <po@danielnylander.se>
+Date:   2009-06-14
+
+    Updated sv translation (Daniel Nylander)
+
+ po/sv.po |  180 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 92 insertions(+), 88 deletions(-)
+
+commit a6763731b54d929c12053a279dc4e5d00a453e2a
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2009-06-09
+
+    Updating Estonian translation
+
+ po/et.po |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 50bb662cfc8d7292aca391ba279776fd87002f7b
+Author: Ask H. Larsen <asklarsen@gmail.com>
+Date:   2009-05-30
+
+    Updated Danish translation
+
+ po/da.po |  214 ++++++++++++++++++++++----------------------------------------
+ 1 files changed, 75 insertions(+), 139 deletions(-)
+
+commit 3082358a3e788dbff9fa0af7f18319758f3ffa4d
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   2009-05-29
+
+    Updated French translation
+
+ help/fr/fr.po |  666 +++++++++++++++++++++++++++++---------------------------
+ 1 files changed, 345 insertions(+), 321 deletions(-)
+
+commit d7333ecea390bae86cb10d2406641e8dede33587
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-23
+
+    Bug 583656 – Old result in search dialog should be selected
+    
+    Initially select the old search text in the GtkEntry.
+
+ src/bastile-keyserver-search.c |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 34df28756a71b16ffa95135e04a02c06ed048c6e
+Author: drtvasudevan <agnihot3@gmail.com>
+Date:   2009-05-23
+
+    Updated Tamil translation
+
+ po/ta.po |  350 +++++++++++++++++++++++++++++---------------------------------
+ 1 files changed, 163 insertions(+), 187 deletions(-)
+
+commit 6eda8ecc06e4e114e5ebe8b8817e57363aad5287
+Author: Thomas Klausner <wiz@danbala.tuwien.ac.at>
+Date:   2009-05-21
+
+    Bug 583281 – Unportable test(1) construct in configure script
+    
+    Change == tests to = tests
+
+ configure.in |   10 +++++-----
+ 1 files changed, 5 insertions(+), 5 deletions(-)
+
+commit b0b0192ceeddb8383a4c0899be0ee19c7d5ef876
+Author: Josselin Mouette <joss@malsain.org>
+Date:   2009-05-20
+
+    Bug 583356 – Should not daemonize when autostarted by D-Bus
+    
+    Adds the --no-daemonize flag to the DBus autostart file.
+
+ daemon/org.mate.bastile.service.in |    3 +--
+ 1 files changed, 1 insertions(+), 2 deletions(-)
+
+commit 83ef5295fca7692d12df9f61f15ac4003985fce6
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2009-05-20
+
+    Updating Estonian translation
+
+ po/et.po |   97 ++++++++-----------------------------------------------------
+ 1 files changed, 13 insertions(+), 84 deletions(-)
+
+commit 8a529cfdacd70a5e4219cc34216d6e64c7ff6ab3
+Author: Simos Xenitellis <simos@mate.org>
+Date:   2009-05-20
+
+    updated Greek documentation translation
+
+ help/el/el.po | 1193 +++++++++++++++------------------------------------------
+ 1 files changed, 302 insertions(+), 891 deletions(-)
+
+commit c204f2848789b579a265d07d18f8ba2344acc2d6
+Author: Fotis Tsamis <ftsamis@gmail.com>
+Date:   2009-05-20
+
+    updated Greek documentation translation
+
+ help/el/el.po | 2660 +++++++++++++++++++++++++++++----------------------------
+ 1 files changed, 1352 insertions(+), 1308 deletions(-)
+
+commit fa86856ba00a9edd59773767263d30352cfc4973
+Author: Jorge Gonzalez <jorgegonz@svn.mate.org>
+Date:   2009-05-19
+
+    Updated Spanish translation
+
+ help/es/es.po |  622 +++++++++++++++++++++++++++++++--------------------------
+ 1 files changed, 339 insertions(+), 283 deletions(-)
+
+commit 9bfc8c5873e01c6534fa460390dd96948f029490
+Author: Jorge Gonzalez <jorgegonz@svn.mate.org>
+Date:   2009-05-19
+
+    Updated Spanish translation
+
+ po/es.po |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 814a307dada575e07f1ce6d1664a4d9d30ffe4e0
+Author: Jorge Gonzalez <jorgegonz@svn.mate.org>
+Date:   2009-05-18
+
+    Updated Spanish translation
+
+ po/es.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 0c54c0301b8b53d85a6645ea3696e8fc57dd0c4b
+Author: Paul Cutler <pcutler@foresightlinux.org>
+Date:   2009-05-07
+
+    Update docs / bug 580171
+
+ help/C/bastile.xml |   70 +++++++++++++++++++++++++++++++++++++++++++--------
+ 1 files changed, 59 insertions(+), 11 deletions(-)
+
+commit 3c39bec3bff25ac0e8b449044c1454924cc83b83
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-13
+
+    Fix whitespace errors
+
+ libmatecryptui/cryptui-key-chooser.h |    2 +-
+ libmatecryptui/cryptui-key-list.h    |    2 +-
+ libmatecryptui/cryptui.c             |    2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 51f876027692b0473376f2b577bee815e0387f91
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-13
+
+    Fix white space errors
+
+ libmatecryptui/cryptui-key-list.c |    2 +-
+ libmatecryptui/cryptui-key-list.h |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit aaed9690f94d433e1dbcf92632cf2b1aa37e4f22
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-13
+
+    Fix function definition
+
+ libmatecryptui/cryptui-key-store.c |    4 ++--
+ libmatecryptui/cryptui-key-store.h |    2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit b58c4e86b61ab8c09e0c4fe85e412c1d05445346
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-13
+
+    Add unimplemented function
+
+ libmatecryptui/cryptui-keyset.c |   15 +++++++++++++++
+ 1 files changed, 15 insertions(+), 0 deletions(-)
+
+commit 3ec1d9abb9d8cc5b6feac25a8736efd7949c2281
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-13
+
+    Document enums
+
+ libmatecryptui/cryptui.h |   76 ++++++++++++++++++++++++++++++++++++++-----------
+ 1 files changed, 59 insertions(+), 17 deletions(-)
+
+commit 7e953f440ae48e6d1b9b3e0c21644e04bbacd603
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-13
+
+    Fix gtk-doc make errors
+
+ libmatecryptui/cryptui-key-chooser.c |    6 ------
+ libmatecryptui/cryptui-key-combo.c   |    4 ----
+ libmatecryptui/cryptui-key-list.c    |    6 ------
+ libmatecryptui/cryptui-keyset.c      |   10 +---------
+ libmatecryptui/cryptui.c             |   10 ----------
+ 5 files changed, 1 insertions(+), 35 deletions(-)
+
+commit 6d1e191c8a45af154079141947d8ddf347925f03
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-13
+
+    Document cryptui-key-store
+
+ libmatecryptui/cryptui-key-store.c |  155 +++++++++++++++++++++++++++++++++++++++-
+ 1 files changed, 154 insertions(+), 1 deletions(-)
+
+commit 55abce79c4cf3f376b602d74e3f35b349556f194
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-12
+
+    Document cryptui-keyset.c
+
+ libmatecryptui/cryptui-keyset.c |  152 +++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 152 insertions(+), 0 deletions(-)
+
+commit 3b10ec965928ff0b7277ef1ec68ec84fc69a6ce4
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-03
+
+    Add annotations and harmonize function defs and implementations
+
+ libmatecryptui/cryptui-key-combo.c |   40 +++++++-------
+ libmatecryptui/cryptui-key-combo.h |    6 +-
+ libmatecryptui/cryptui-key-list.c  |  113 +++++++++++++++++++++++++++++++++------
+ libmatecryptui/cryptui-key-list.h  |   14 +++---
+ 4 files changed, 125 insertions(+), 48 deletions(-)
+
+commit 5a367e6f1f462ed1758d6d354c0be03e6a37fe7a
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-03
+
+    Add gtk-doc annotations to cryptui-key-combo.c
+
+ libmatecryptui/cryptui-key-combo.c |   88 +++++++++++++++++++++++++++++++---------
+ 1 files changed, 69 insertions(+), 19 deletions(-)
+
+commit 57c48766afc271e4bb9cc08b15fda9761026fd0b
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-03
+
+    Remove blank lines at end of file
+
+ libmatecryptui/cryptui-key-chooser.c |    2 --
+ 1 files changed, 0 insertions(+), 2 deletions(-)
+
+commit a21a950035a09f36db1f362ac80da47ff3cb983a
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-02
+
+    Fix trailing white space
+
+ libmatecryptui/cryptui-key-chooser.c |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 43a254c17950fcd5423c8518e5e58d7ff95f573e
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Fix function define formatting
+
+ libmatecryptui/cryptui-key-chooser.h |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit 784b0b3aa02d689013ff9007cac2c3a9b5260c9b
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Fix gtk-doc formatting
+
+ libmatecryptui/cryptui.c |   12 +-----------
+ 1 files changed, 1 insertions(+), 11 deletions(-)
+
+commit 52a842ee99b598feb9db435ebe13f78a93656c3f
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Add missing functions and fix gtk-doc formatting
+
+ libmatecryptui/cryptui-key-chooser.c |   44 ++++++++++++++++++++++++++++++++-----
+ 1 files changed, 38 insertions(+), 6 deletions(-)
+
+commit c8e9ec48a0ef23b4d90d8ff74a15baa74ad8bb5b
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Add defines for implemented functions
+
+ libmatecryptui/cryptui-key-chooser.h |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 57a27ccec066708c75d8d0e211e57a384967f83c
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Document the key chooser widget
+
+ libmatecryptui/cryptui-key-chooser.c |   65 ++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 65 insertions(+), 0 deletions(-)
+
+commit f58998347181cf993bc6790265e66b89825d33a9
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Fix trailing white space in gtk-doc comments
+
+ libmatecryptui/cryptui.c |   15 +++++++++------
+ 1 files changed, 9 insertions(+), 6 deletions(-)
+
+commit a4f63c558f157770f9594f690ac6945ebc3c35a5
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Finish documenting cryptui.c
+
+ libmatecryptui/cryptui.c |   86 ++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 files changed, 80 insertions(+), 6 deletions(-)
+
+commit bd5e30160ab7411420779dbc799866c2ae132ad8
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-11
+
+    Fix logic for setting owner trust combo
+    
+    The logic for the trust combo set it insensitive if it was not
+    disabled instead of the other way around.
+
+ pgp/bastile-pgp-key-properties.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit dc34e33e11bcc02904ea97f9ee08a5c9fcd6e13d
+Author: Marios Zindilis <m.zindilis@dmajor.org>
+Date:   2009-05-10
+
+    Updated Greek translation
+
+ po/el.po |  705 +++++++++++++++++++++-----------------------------------------
+ 1 files changed, 240 insertions(+), 465 deletions(-)
+
+commit 6ec0523ff9556a4c80ce92c757125e6978515081
+Author: Jorge Gonzalez <jorgegonz@svn.mate.org>
+Date:   2009-05-04
+
+    Updated Spanish translation
+
+ po/es.po |  127 +++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 65 insertions(+), 62 deletions(-)
+
+commit 5ba4b75ce38f341f5421a11301b077b34e6c5ac0
+Author: Jorge Gonzalez <jorgegonz@svn.mate.org>
+Date:   2009-05-04
+
+    Updated Spanish translation
+
+ po/es.po |   92 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 46 insertions(+), 46 deletions(-)
+
+commit ce471134a70ce79ffaba5b017af3ceb128429233
+Author: Alexander Faithfull <alec@snapdragon.demon.co.uk>
+Date:   2009-05-03
+
+    Bug 577235 – Bastile doesn't know about a --version parameter
+    
+    Patch from Alexander Faithfull.  I added a short option to it.
+    Signed-off-by: Adam Schreiber <sadam@mate.org>
+
+ src/bastile-main.c |   13 ++++++++++++-
+ 1 files changed, 12 insertions(+), 1 deletions(-)
+
+commit a228b7727371d679c62414f5f9ff41068cb06e71
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-03
+
+    Fix gtk-doc errors
+
+ libmatecryptui/cryptui.c |    2 --
+ 1 files changed, 0 insertions(+), 2 deletions(-)
+
+commit 586ae14e5229477455bb884301aa23dd68ff6258
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-03
+
+    Bump version for 2.27.1
+
+ NEWS         |   12 ++++++++++++
+ README       |    2 +-
+ configure.in |    2 +-
+ 3 files changed, 14 insertions(+), 2 deletions(-)
+
+commit 3d59806230c34c132fc45c81aca42de578423069
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-01
+
+    Fixed po/cy.po
+    
+    Copied the plurals line from evolution, changed the charset to
+    UTF-8, and entered my date and time as the po-revision-date.
+
+ po/cy.po |    8 ++++----
+ 1 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 5021860ef90e78b70b5d31dbacd1a9ad5dd45081
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-01
+
+    Added fuzzy param to errored string.
+
+ po/ne.po |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 46c550b5a5b284c0b099980d94a4b0ea0a69a470
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-05-01
+
+    Change default package name to bastile
+
+ po/ku.po |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 82088e4e73eb34b4e21cbfc2d4701bfce6360e41
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-29
+
+    Add fuzzy to two translations
+    
+    When creating a new remote branch, a pre-commit hook flaged this
+    translation.  Adding fuzzy to the strings fixes the problem.
+
+ po/bn.po |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit c9e8df6ee8d653b00cefe811f2fa27ee75388e64
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-26
+
+    Fix ChangeLog version
+
+ Makefile.am |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit da994bb7aa5690ad6ff2df992d981c206e4b81e9
+Author: Maxim V. Dziumanenko <dziumanenko@gmail.com>
+Date:   2009-04-28
+
+    Updated Ukrainian translation
+
+ po/uk.po | 5492 ++++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 2862 insertions(+), 2630 deletions(-)
+
+commit 497068cb3f7a0bb35cb6abe2a7c0eba5bdba5a38
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-26
+
+    Distribute earlier ChangeLogs
+
+ Makefile.am |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit b48a2d7e56023fe3150a7899fc3d3610e62ce88a
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-26
+
+    Fix typo in ChangeLog generation text
+
+ Makefile.am |    6 ++++--
+ 1 files changed, 4 insertions(+), 2 deletions(-)
+
+commit 897f192925404f63dd5fd60fb6b1bd6aed409a1f
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-26
+
+    Add mailto: urls
+
+ bastile.doap |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 90c06070bd536085542dfa5e2b8d9ce9a2dbfa46
+Author: Ivar Smolin <okul@linux.ee>
+Date:   2009-04-25
+
+    Updating Estonian translation
+
+ po/et.po |   10 +++++-----
+ 1 files changed, 5 insertions(+), 5 deletions(-)
+
+commit b911de1b26c8dc936a8ab79b7d70faa5d952a032
+Author: Adam Schreiber <sadam@mate.org>
+Date:   2009-04-23
+
+    Bug 579891 – Import option given on non-key objects
+    
+    Moved the import context menu item and callbacks to BastileViewer
+    and added an importable predicate to control the
+    visibility/sensitivity of the item.
+
+ src/bastile-keyserver-results.c |   49 ------------------------------
+ src/bastile-viewer.c            |   61 ++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 61 insertions(+), 49 deletions(-)
+
+commit cd5d7c337cb36b240d08f63f46e8f449a2fcbf7f
+Author: Olav Vitters <olav@bkor.dhs.org>
+Date:   2009-04-23
+
+    [DOAP] Add to desktop category
+
+ bastile.doap |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 8a71bc3e453be3e39c754ae36c76a48f3284feeb
+Author: Jordi Mas i Hernandez <jmas@softcatala.org>
+Date:   2009-04-22
+
+    Minor fixes to Catalan translation
+
+ po/ca.po |   96 +++++++++++++++++++++++++++++++-------------------------------
+ 1 files changed, 48 insertions(+), 48 deletions(-)
+
+commit 1b5f883bd60ea3c6bb021b7e8d954c85ad5f26b7
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-04-18
+
+    Add project description DOAP file
+    
+    Project description will show up at git.mate.org, and apparently
+    has other uses.
+
+ bastile.doap |   30 ++++++++++++++++++++++++++++++
+ 1 files changed, 30 insertions(+), 0 deletions(-)
+
+commit e822df87f0eec52a371108a84e72028fde7f5263
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-04-18
+
+    Ignore more built files
+    
+    Ignore gtk-doc built files, and object/library files no longer
+    automatically ignored by our version control.
+
+ .gitignore                      |   11 +++++++++--
+ m4/.gitignore                   |    1 +
+ reference/libmatecryptui/.gitignore |   14 ++++++++++++++
+ 3 files changed, 24 insertions(+), 2 deletions(-)
+
+commit 4aad9413deb80a7421f4325a3cf5a1a658eb83c7
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2009-04-18
+
+    Autogenerate the ChangeLog from git history
+    
+    Moved the old ChangeLog out of the way. Place instructions in
+    a placeholder ChangeLog.
+
+ ChangeLog          | 3229 +---------------------------------------------------
+ ChangeLog.pre-auto | 3216 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ Makefile.am        |   17 +
+ 3 files changed, 3256 insertions(+), 3206 deletions(-)

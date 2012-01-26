@@ -1,0 +1,3106 @@
+# Greek translation of Bastile
+# Copyright (C) 2007 - 2011, Free Software Foundation, Inc.
+# This file is distributed under the same license as the Bastile package.
+#
+# Kostas Papadimas <pkst@mate.org>, 2007.
+# Dimitrios Typaldos <dtfedora@yahoo.com>, 2007.
+# Simos Xenitellis <simos@mate.org>, 2008.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Marios Zindilis <m.zindilis@dmajor.org>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-19 12:51+0200\n"
+"PO-Revision-Date: 2011-01-16 22:31+0200\n"
+"Last-Translator: Marios Zindilis <m.zindilis@dmajor.org>\n"
+"Language-Team: Greek <team@mate.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Αποφυγή εκτέλεσης του bastile-daemon ως υπηρεσίας"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "αδύνατη η δικράνωση διεργασίας"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "αδύνατη η δημιουργία νέας ομάδας διεργασίας"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "Υπηρεσία κρυπτογράφησης (Bastile)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Μη έγκυρος ή μη αναγνωρίσιμος τύπος κλειδιού: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Ο τύπος κλειδιού δεν υποστηρίζεται: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr ""
+"Δεν ενεργοποιήθηκε η υποστήριξη για το χαρακτηριστικό αυτό κατά τη "
+"δημιουργία του εγκαταστάσιμου πακέτου"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Μη έγκυρο ή μη αναγνωρίσιμο κλειδί: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Υπογράφηκε από <i><key id='%s'/> <b>έληξε</b></i> στις %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Μη έγκυρη υπογραφή"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Υπογράφηκε από <i><key id='%s'/></i> στις %s <b>Έληξε</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Ληγμένη υπογραφή"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Υπογράφηκε από <i><key id='%s'/> <b>Ανακαλέστηκε</b></i> στις %s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Υπογραφή που έχει ανακληθεί"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Υπογράφηκε από <i><key id='%s'/></i> στις %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Καλή υπογραφή"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "Κλειδί υπογραφής δε βρίσκεται στη κλειδοθήκη."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Άγνωστη υπογραφή"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+"Κακή ή πλαστογραφημένη υπογραφή. Τα υπογεγραμμένα δεδομένα έχουν "
+"τροποποιηθεί."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Κακή υπογραφή"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Αδύνατη η επιβεβαίωση υπογραφής."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Μη έγκυρος ή μη αναγνωρίσιμο υπογράφον άτομο: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Μη έγκυρο κλειδί για υπογραφή: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Μη έγκυρος ή μη αναγνωρίσιμος παραλήπτης: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Το κλειδί δεν είναι έγκυρος παραλήπτης για κρυπτογράφηση: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Δεν ορίστηκαν παραλήπτες"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Μη έγκυρος τύπος κλειδιού για αποκρυπτογράφηση: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Παρακαλώ, καθορίστε το clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Παρακαλώ καθορίστε το crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "Σφάλμα στο άνοιγμα του clearuri"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Δεν έχει καθοριστεί υπογράφον άτομο"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Μη έγκυρος τύπος κλειδιού για διαπίστωση: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Μη έγκυρη ταυτότητα (ID) κλειδιού: %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Μία λίστα URI εξυπηρετητή κλειδιών προς αναζήτηση για απομακρυσμένα κλειδιά "
+"PGP. Σε μεταγενέστερες εκδόσεις μπορεί να περιληφθεί ένα όνομα οθόνης, "
+"εισάγοντας ένα κενό διάστημα και κατόπιν το όνομα."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Αυτόματη ανάκτηση κλειδιών"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Αυτόματος συγχρονισμός κλειδιών"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr ""
+"Ελέγχει την εμφάνιση των στηλών λήξης χρόνου για το διαχειριστή κλειδιών."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr ""
+"Ελέγχει την εμφάνιση της στήλης εμπιστοσύνης για το διαχειριστή κλειδιών."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Ελέγχει την εμφάνιση της στήλης τύπου για το διαχειριστή κλειδιών."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr ""
+"Ελέγχει την εμφάνιση της στήλης εγκυρότητας για το διαχειριστή κλειδιών."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Ενεργοποίηση κοινής χρήσης DNS-SD"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"Ενεργοποιεί την κοινή χρήση κλειδιών DNS-SD (Apple Bonjour). Το bastile-"
+"daemon πρέπει να εκτελείται και να είναι χτισμένο με HKP και DNS-SD "
+"υποστήριξη."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "Ταυτότητα (ID) προεπιλεγμένου κλειδιού"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"Αν τεθεί αληθές, τότε αρχεία κρυπτογραφημένα από το bastile θα "
+"κωδικοποιηθούν πρώτα σε μορφή ASCII."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Αν είναι καθορισμένο ως αληθές, τότε το προεπιλεγμένο κλειδί θα "
+"περιλαμβάνεται πάντα σε μία κρυπτογραφημένη λίστα παραληπτών."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Τελευταίο μοτίβο αναζήτησης εξυπηρετητή κλειδιών"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Τελευταίοι εξυπηρετητές κλειδιών που χρησιμοποιήθηκαν"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Τελευταίο κλειδί που χρησιμοποιήθηκε για υπογραφή μηνύματος."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "Εξυπηρετητές κλειδιών PGP"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Δημοσίευση κλειδιών σε αυτόν τον εξυπηρετητή κλειδιών."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Προβολή στήλης λήξης χρόνου στο διαχειριστή κλειδιών"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Προβολή στήλης εμπιστοσύνης στο διαχειριστή κλειδιών"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Προβολή στήλης τύπου στο διαχειριστή κλειδιών"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Προβολή στήλης εγκυρότητας στο διαχειριστή κλειδιών"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Καθορίστε τη στήλη προς ταξινόμηση από το παράθυρο παραληπτών. Οι στήλες "
+"είναι:'όνομα', και 'ταυτότητα (ID)'. Εισάγετε ένα '-' μπροστά από το όνομα "
+"της στήλης για ταξινόμηση με κατιούσα διάταξη."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Καθορίστε τη στήλη προς ταξινόμηση από το κύριο παράθυρο του διαχειριστή "
+"κλειδιών του bastile. Οι στήλες είναι: 'όνομα', 'ταυτότητα (id)', 'λήξη', "
+"'εμπιστοσύνη'. και 'τύπος'. Εισάγετε ένα '-' μπροστά από το όνομα της στήλης "
+"για ταξινόμηση με κατιούσα διάταξη."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+"Η ταυτότητα (ID) του τελευταίου απόρρητου κλειδιού που χρησιμοποιήθηκε για "
+"υπογραφή μηνύματος."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Η στήλη για ταξινόμηση των αποδεκτών ανά"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Η στήλη για ταξινόμηση των κλειδιών του bastile ανά"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"Ο εξυπηρετητής κλειδιών στον οποίον δημοσιεύτηκαν κλειδιά PGP. Ή κενό για "
+"αναβολή δημοσίευσης κλειδιών PGP."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"Ο τελευταίος εξυπηρετητής κλειδιών στον οποίον έγινε αναζήτηση ή κενό για "
+"όλους τους άλλους εξυπηρετητές."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr ""
+"Το τελευταίο μοτίβο αναζήτησης που τέθηκε σε αναζήτηση σε έναν εξυπηρετητή "
+"κλειδιών."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Αυτό καθορίζει το προεπιλεγμένο κλειδί προς χρήση για ορισμένες λειτουργίες, "
+"κυρίως για υπογραφή."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "Αν τα κλειδιά θα πρέπει να λαμβάνονται από εξυπηρετητές κλειδιών."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Αν τα τροποποιημένα κλειδιά θα πρέπει να συγχρονίζονται αυτόματα με τον "
+"προεπιλεγμένο εξυπηρετητή κλειδιών."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Αν θα πρέπει να κρυπτογραφείται πάντα το προεπιλεγμένο κλειδί"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Αν θα πρέπει να γίνεται αρχική μετατροπή σε μορφή ASCII"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Προσθήκη κλειδοθήκης κωδικών"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Νέο όνομα κλειδοθήκης:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"Παρακαλώ επιλέξτε ένα όνομα για τη νέα κλειδοθήκη. Θα ερωτηθείτε για κωδικό "
+"ξεκλειδώματος."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Όνομα συστήματος ή διεύθυνση εξυπηρετητή."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Αδύνατη η προσθήκη κλειδοθήκης"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Προσθήκη κωδικού πρόσβασης"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "Περι_γραφή:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_Κλειδοθήκη:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "Κωδικός _πρόσβασης:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "Εμφάνιση κωδικού _πρόσβασης"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Κωδικός πρόσβασης ιστού"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Κωδικός πρόσβασης δικτύου"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε τον κωδικό πρόσβασης '%s';"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε %d κωδικό πρόσβασης;"
+msgstr[1] "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε %d κωδικούς πρόσβασης;"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Πρόσβαση κοινόχρηστου δικτύου ή πόρου"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Πρόσβαση ιστοσελίδας"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "Ξεκλειδώνει ένα κλειδί PGP"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Ξεκλειδώνει ένα κλειδί Secure Shell (SSH)"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Αποθηκευμένος κωδικός ή στοιχεία σύνδεσης"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Πιστοποιητικά δικτύου"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Αδύνατη η αλλαγή κωδικού πρόσβασης."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Αδύνατος ο καθορισμός περιγραφής."
+
+#: ../gkr/bastile-gkr-item-properties.c:654
+msgid "Couldn't set application access."
+msgstr "Αδύνατος ο καθορισμός πρόσβασης της εφαρμογής."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Κωδικός:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Διαδρομή:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Δικαιώματα:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Τεχνικές λεπτομέρειες:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Εφαρμογές"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Κλειδί"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Ιδιότητες κλειδιού"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Όνομα ει_σόδου:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Εξυπηρετητής:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Εμφάνιση _κωδικού"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "Τύπος:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Χρήση:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "_Διαγραφή"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "_Ανάγνωση"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "_Εγγραφή"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Δημιουργία λίστας κωδικών"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Κωδικοί: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Κωδικοί:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Κλειδοθήκη κωδικών"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Χρησιμοποιείται για την αποθήκευση κωδικών για εφαρμογές και δίκτυα"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Αποθηκευμέμος κωδικός πρόσβασης"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Ασφαλής αποθήκευση ενός κωδικού πρόσβασης ή μυστικού."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Αδύνατο το ξεκλείδωμα της κλειδοθήκης"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Αδύνατο το κλείδωμα της κλειδοθήκης"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Αδύνατος ο καθορισμός προεπιλεγμένης κλειδοθήκης"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Αδύνατη η αλλαγή κωδικού της κλειδοθήκης"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Κλείδωμα"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr ""
+"Κλείδωμα της κλειδοθήκης αποθήκευσης κωδικών. Θα απαιτείται ένας κύριος "
+"κωδικός για το ξεκλείδωμα"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_Ξεκλείδωμα"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"Ξεκλείδωμα της κλειδοθήκης αποθήκευσης κωδικών με τον κύριο κωδικό, "
+"προκειμένου η κλειδοθήκη να καταστεί διαθέσιμη."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "_Ορισμός ως προεπιλογής"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr ""
+"Συνήθως, οι εφαρμογές αποθηκεύουν τους νέους κωδικούς στην προεπιλεγμένη "
+"κλειδοθήκη."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "Αλλαγή _κωδικού"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Αλλαγή του κωδικού ξεκλειδώματος της κλειδοθήκης αποθήκευσης κωδικών"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε να διαγράψετε την κλειδοθήκη κωδικών '%s';"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "Δημιουργήθηκε:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Κλειδοθήκη"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Ιδιότητες κλειδοθήκης"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "Όν_ομα:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Υπήρξε άρνηση για πρόσβαση στη κλειδοθήκη"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Η υπηρεσία mate-keyring (διαχειριστή κλειδοθήκης) δεν εκτελείται"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Η κλειδοθήκη είναι ήδη ξεκλείδωτη"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Δεν υπάρχει τέτοια κλειδοθήκη"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Δεν ήταν δυνατή η επικοινωνία με την υπηρεσία κλειδοθήκης"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Το αντικείμενο υπάρχει ήδη"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Εσωτερικό σφάλμα με πρόσβαση στο mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Αποθήκευση αντικειμένου..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Γίνεται διαγραφή..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Γίνεται διαγραφή της κλειδοθήκης..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Παράγεται η λίστα κλειδοθηκών κωδικών"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"Δε βρέθηκαν κλειδιά κωδικοποίησης για να εκτελεστεί η λειτουργία που "
+"ζητήσατε. Το πρόγραμμα <b>Κωδικοί πρόσβασης και κλειδιά κωδικοποίησης</b> θα "
+"ξεκινήσει τώρα ώστε να μπορέσετε είτε να δημιουργήσετε ή να εισάγετε ένα "
+"κλειδί."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "Όλα τα κλειδιά"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "Επιλεγμένοι παραλήπτες"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "Αναζήτηση _για:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "Κανένα (χωρίς υπογραφή)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Υπογραφή αυτού του μηνύματος ως %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "_Υπογραφή μηνύματος ως:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Όνομα"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "Ταυτότητα (ID) κλειδιού"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "Εμφάνιση σημαιών"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "Ιδιότητες "
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "Κατάσταση 'οκνηρίας' (lazy)"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr ""
+"Στην κατάσταση 'οκνηρίας' (lazy) οι τιμές ημερομηνίας και χρόνου που έχουν "
+"εισαχθεί δεν κανονικοποιούνται"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "Έτος"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "Έτος που εμφανίζεται"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "Μήνας"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "Μήνας που εμφανίζεται"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "Ημέρα"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "Ημέρα του μήνα που εμφανίζεται"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "Ώρα"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "Ώρα που εμφανίζεται"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "Λεπτό"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "Λεπτό που εμφανίζεται"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "Δευτερόλεπτο"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "Δευτερόλεπτο που εμφανίζεται"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "Έτος κατώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "Το κομμάτι του έτους για το κατώτερο όριο ημερομηνίας"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "Έτος ανώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "Το τμήμα του έτους για το ανώτερο όριο ημερομηνίας"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "Μήνας κατώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "Το κομμάτι του μήνα για το κατώτερο όριο ημερομηνίας"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "Μήνας ανώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "Το κομμάτι του μήνα για το ανώτερο όριο ημερομηνίας"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "Ημέρα κατώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "Το κομμάτι της ημέρας του μήνα για το κατώτερο όριο ημερομηνίας"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "Ημέρα ανώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "Το κομμάτι της ημέρας του μήνα για το ανώτερο όριο ημερομηνίας"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "Ώρα κατώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "Το κομμάτι της ώρας για το κατώτερο όριο χρόνου"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "Ώρα ανώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "Το κομμάτι της ώρας για το ανώτερο όριο χρόνου"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "Λεπτό κατώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "Το κομμάτι του λεπτού για το κατώτερο όριο χρόνου"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "Λεπτό ανώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "Το κομμάτι του λεπτού για το ανώτερο όριο χρόνου"
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "Δευτερόλεπτο κατώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "Το κομμάτι του δευτερολέπτου για το κατώτερο όριο χρόνου"
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "Δευτερόλεπτο ανώτερου ορίου"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "Το κομμάτι του δευτερολέπτου για το ανώτερο όριο χρόνου"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "Εισαγωγή της ημερομηνίας απευθείας"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "Επιλογή ημερομηνίας"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "Επιλογή της ημερομηνίας από ημερολόγιο"
+
+#: ../libegg/egg-datetime.c:529 ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "Χρόνος"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "Απευθείας εισαγωγή χρόνου"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "Επιλογή χρόνου"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "Επιλογή χρόνου από λίστα"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "24hr: no"
+
+#: ../libegg/egg-datetime.c:814 ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "πμ"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "μμ"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Μη έγκυρο αρχείο .desktop"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Μη αναγνωρίσιμη έκδοση ' %s' αρχείου επιφάνειας εργασίας"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Εκκίνηση του %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Η εφαρμογή δε δέχεται έγγραφα στη γραμμή εντολών."
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Μη αναγνωρίσιμη επιλογή εκκίνησης: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Δεν είναι δυνατή η μεταφορά του URI του εγγράφου σε καταχώριση 'Type=Link' "
+"της επιφάνειας εργασίας"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Μη εκκινήσιμο αντικείμενο"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Απενεργοποίηση της σύνδεσης με το διαχειριστή συνεδρίας"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Ορισμός του αρχείου που περιέχει τις αποθηκευμένες ρυθμίσεις"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "ΑΡΧΕΙΟ"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Ορισμός της ταυτότητας (ID) διαχείρισης της συνεδρίας"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Επιλογές διαχείρισης συνεδρίας:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Εμφάνιση των επιλογών διαχείρισης της συνεδρίας"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Προσθήκη εξυπηρετητή κλειδιών"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Σύστημα:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Τύπος εξυπηρετητή κλειδιών:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Θύρα πρόσβασης στον εξυπηρετητή."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "Αρχικό προσωρινό στοιχείο δεδομένων"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Το κλειδί εισήχθει"
+msgstr[1] "Τα κλειδιά εισήχθησαν"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Εισήχθει %i κλειδί"
+msgstr[1] "Εισήχθησαν %i κλειδιά"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Εισήχθει κλειδί για"
+msgstr[1] "Εισήχθησαν κλειδιά για"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Μηνύματα ειδοποίησης"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Συμμετρικό κλειδί"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Δημόσιο κλειδί"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Ιδιωτικό κλειδί"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Πιστοποιητικά"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Ταυτότητα"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "Συνθηματικό"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Κωδικός:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "Επιβεβαίωση:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Μη έγκυρη διεύθυνση εξυπηρετητή κλειδιών."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"Για βοήθεια ελάτε σε επαφή με το διαχειριστή του συστήματός σας ή το "
+"διαχειριστή του εξυπηρετητή κλειδιών."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "Κανένα: Μη δημοσίευση κλειδιών"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Αυτόματη λήψη κλειδιών από εξυπηρετη_τές κλειδιών."
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr ""
+"Αυτόματος συγχρονισμός _τροποποιημένων κλειδιών με εξυπηρετητές κλειδιών"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Εξυπηρετητές κλειδιών"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "_Εύρεση κλειδιών μέσω:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "_Δημοσίευση κλειδιών σε:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Τίτλος προόδου"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Μη διαθέσιμο"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "Δεδομένα κλειδιού"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "Πολλαπλά κλειδιά"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "Αδυναμία εκτέλεσης file-roller"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "Αδύνατη η πακετοποίηση αρχείων"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "Η διεργασία file-roller δεν ολοκληρώθηκε με επιτυχία"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "Όλα τα αρχεία κλειδιών"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Όλα τα αρχεία"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "Αρχειοθέτηση αρχείων"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Υπάρχει ήδη αρχείο με αυτό το όνομα.</b>\n"
+"\n"
+"Επιθυμείτε να το αντικαταστήσετε με ένα νέο αρχείο;"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "_Αντικατάσταση"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "Ποτέ"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "Οριακά"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "Πλήρης"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "Μέγιστη"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Μη ενεργό"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Ανακαλέστηκε"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Αδύνατη η προβολή βοήθειας: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Ημερομηνία λήξης:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Δημιουργία νέου υποκλειδιού"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Αν το κλειδί δε λήγει ποτέ"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "Μήκος _κλειδιού:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "Τύ_πος κλειδιού:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Μήκος του κλειδιού"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Δε λήγει π_οτέ"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Προσθήκη ταυτότητας (ID) χρήστη"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Δημιουργία νέας ταυτότητας (ID) χρήστη"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "Πλήρες όνομα:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "Σχό_λιο κλειδιού:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Πρέπει να αποτελείται από τουλάχιστον 5 χαρακτήρες"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Προαιρετικό περιγραφικό σχόλιο κλειδιού"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "Προαιρετική ηλεκτρονική διεύθυνση"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_Ηλεκτρονική διεύθυνση:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "Α_λλαγή"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Ανάκληση κλειδιού"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_Δε λήγει ποτέ"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Αδύνατη η προσθήκη υποκλειδιού"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Προσθήκη υποκλειδιού στο %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "DSA (μόνο υπογραφή)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (μόνο κρυπτογράφηση)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "RSA (μόνο υπογραφή)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (μόνο κρυπτογράφηση)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Αδύνατη η προσθήκη ταυτότητας χρήστη (id)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Προσθήκη ταυτότητας (ID) χρήστη στο %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr ""
+"Η αποκρυπτογράφηση απέτυχε. Προφανώς δε διαθέτετε το κλειδί "
+"αποκρυπτογράφησης."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Μη έγκυρη ημερομηνία λήξης"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Η ημερομηνία λήξης πρέπει να είναι μελλοντική"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Αδύνατη η αλλαγή ημερομηνίας λήξης"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Λήξη: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "Κλειδί PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Για κρυπτογράφηση ηλεκτρονικών μηνυμάτων και αρχείων"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "Αδύνατη η δημιουργία κλειδιού PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "Συνθηματικό για νέο κλειδί PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "Εισάγετε το συνθηματικό για το νέο σας κλειδί δυο φορές."
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "Αδύνατη η δημιουργία κλειδιού"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "Δημιουργείται κλειδί"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Λάθος κωδικός πρόσβασης"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr ""
+"Αυτή ήταν η τρίτη φορά που εισάγατε έναν λανθασμένο κωδικό πρόσβασης. "
+"Παρακαλώ προσπαθήστε ξανά."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b> Η φωτογραφία είναι πολύ μεγάλη</b></big>\n"
+"Το συνιστώμενο μέγεθος για μία φωτογραφία στο κλειδί σας είναι %d x %d "
+"εικονοστοιχεία."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "Ό_χι αλλαγή μεγέθους"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "Αλλαγή με_γέθους"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"Αυτό δεν είναι αρχείο εικόνας, ή κάποιο μη αναγνωρίσιμο είδος αρχείου "
+"εικόνας. Δοκιμάστε να χρησιμοποιήσετε μία εικόνα τύπου JPEG."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Όλα τα αρχεία εικόνων"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Όλα τα αρχεία JPEG"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Επιλογή φωτογραφίας για προσθήκη στο κλειδί"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Αδυναμία προσθήκης φωτογραφίας"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr ""
+"Το αρχείο δε μπόρεσε να φορτωθεί. Μπορεί να διαθέτει κάποια μη έγκυρη μορφή"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε να απομακρύνετε την τρέχουσα φωτογραφία από το "
+"κλειδί σας;"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Αδυναμία διαγραφής φωτογραφίας"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Αδύνατη η ανάκληση υποκλειδιού"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Ανάκληση: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Χωρίς αιτιολογία"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Δεν υπάρχει αιτία για την ανάκληση του κλειδιού"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Έχει διαρρεύσει"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Το κλειδί έχει διαρρεύσει"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Έχει ξεπεραστεί"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Το κλειδί έχει ξεπεραστεί από κάποιο νεώτερο"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Εκτός χρήσης"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Το κλειδί δεν είναι πια σε χρήση"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"Βρίσκεστε σχεδόν στην ολοκλήρωση της ενέργειας προσθήκης %s ως λειτουργός "
+"απόσυρσης για το %s. Αυτή η λειτουργία δεν είναι αναστρέψιμη. Είστε σίγουροι "
+"ότι επιθυμείτε να συνεχίσετε;"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Αδύνατη η προσθήκη λειτουργού απόσυρσης"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"Αυτό το κλειδί ήταν ήδη υπογραμμένο από\n"
+"«%s»"
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "Αδύνατη η υπογραφή κλειδιού"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Δεν υπάρχουν διαθέσιμα κλειδιά για χρήση σε ψηφιακή υπογραφή"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"Δεν έχετε προσωπικά κλειδιά PGP που μπορούν να χρησιμοποιηθούν για να "
+"δηλώσετε την εμπιστοσύνη σας για το συγκεκριμένο κλειδί."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Λανθασμένο συνθηματικό."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Εισαγωγή νέου συνθηματικού για '%s'"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Εισαγωγή συνθηματικού για '%s'"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Εισαγωγή νέου συνθηματικού"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Εισαγωγή συνθηματικού"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Φορτώθηκε %d κλειδί"
+msgstr[1] "Φορτώθηκαν %d κλειδιά"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Φόρτωση κλειδιών..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"Άκυρα δεδομένα κλειδιού (απουσία UID). Αυτό μπορεί να συμβαίνει εξαιτίας "
+"ενός υπολογιστή με ημερομηνία καθορισμένη σε μελλοντικό χρόνο ή λόγω "
+"απουσίας ιδιο-υπογραφής."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "Εισαγωγή κλειδιών"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Εξαγωγή κλειδιών"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr ""
+"Ανεπαρκώς καθορισμένη αναζήτηση. Ο εξυπηρετητής '%s' βρήκε πάρα πολλά "
+"κλειδιά."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Αδύνατη η επικοινωνία με τον εξυπηρετητή '%s': %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Αναζήτηση για κλειδιά..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Αποστολή κλειδιών..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Ανάκτηση κλειδιών..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Αναζήτηση για κλειδιά στο: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Σύνδεση στο: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "Eξυπηρετητής κλειδιών HTTP"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Αδύνατη η επικοινωνία με '%s': %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Αδύνατη η ανάλυση διεύθυνσης: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Γίνεται ανάλυση διεύθυνσης εξυπηρετητή: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Αναζήτηση κλειδιών που περιέχουν '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Αναζήτηση της ταυτότητας (ID) κλειδιού '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Ανάκτηση απομακρυσμένων κλειδιών..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Αποστολή κλειδιών στον εξυπηρετητή κλειδιών..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "Εξυπηρετητής κλειδιών LDAP"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "Υπογρα_φή κλειδιού..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Υπογραφή δημοσίου κλειδιού"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε μόνιμα το %s;"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε να διαγράψετε μόνιμα %d κλειδιά και "
+"αναγνωριστικά;"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε μόνιμα %d κλειδιά;"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε μόνιμα %d αναγνωριστικά;"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Προχωρημένες επιλογές κλειδιού</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+"Ένα κλειδί PGP σας δίνει τη δυνατότητα κρυπτογράφησης ηλεκτρονικής "
+"αλληλογραφίας\n"
+"ή αρχεία για άλλους χρήστες."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Αλγόριθμοι εδώ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "Δη_μιουργία"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "Ημερομηνία λή_ξης:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "Τύπος _κρυπτογράφησης:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Δημιουργία νέου κλειδιού"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "_Ισχύς κλειδιού (μπιτ):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "Δεν λήγει _ποτέ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "Νέο κλειδί PGP"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_Σχόλιο:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "Ιδιωτικό κλειδί PGP"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "Δημόσιο κλειδί PGP"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Έληξε"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Αδυναμία αλλαγής κύριας ταυτότητας χρήστη "
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε να διαγράψετε μόνιμα την ταυτότητα (ID) του "
+"χρήστη '%s';"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Αδυναμία διαγραφής του αναγνωριστικού (ID) του χρήστη"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Άγνωστο]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Όνομα/Ηλ. διεύθυνση"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "Ταυτότητα (ID ) υπογραφής"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Αδύνατη η αλλαγή βασικής φωτογραφίας"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(άγνωστο)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Αυτό το κλειδί έληξε: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε το υποκλειδί %d του %s;"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Αδύνατη η διαγραφή υποκλειδιού"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "Αδύνατη η αλλαγή τύπου εμπιστοσύνης"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:290
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Αδύνατη η εξαγωγή κλειδιού στο \"%s\""
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Εξαγωγή πλήρους κλειδιού"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Αδυναμία εξαγωγής κλειδιού."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "Ποτέ"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Τύπος"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Δημιουργήθηκε"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Λήγει"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Ισχύς"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "Καλή"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Ενέργειες</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Σχόλιο:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Ημερομηνίες</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>Ηλεκτρονική διεύθυνση:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Αποτύπωμα</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>ID κλειδιού:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Ονόματα κλειδιών και υπογραφές</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Όνομα:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>Φωτογραφία</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>Τεχνικές λεπτομέρειες</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Αυτό το κλειδί έχει αποσυρθεί</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>Αυτό το κλειδί έχει λήξει</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Τύπος:</b> "
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Χρήση:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Υποκλειδιά</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "Προσθήκη μιας φωτογραφίας σε αυτό το κλειδί"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Αλλαγή _συνθηματικού"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "Αποκρυπτογράφηση αρχείων και ηλ. μηνυμάτων που έχετε λάβει."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "Λήξη"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "Λήγει:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "Μετάβαση στην επόμενη φωτογραφία"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "Μετάβαση στην προηγούμενη φωτογραφία"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "Ταυτότητα (ID) κλειδιού:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "Καθορισμός της παρούσας φωτογραφίας ως βασικής"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "Ονόματα και υπογραφές"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "Ποτέ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "Τροποποίηση ε_μπιστοσύνης ιδιοκτήτη:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "Ιδιοκτήτης"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "Πρωτεύον"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "Απομάκρυνση της φωτογραφίας από αυτό το κλειδί"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "Ανακάλεσε"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "Υπογραφή"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "Ισχύς:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr ""
+"Ο ιδιοκτήτης του κλειδιού ανακάλεσε το κλειδί. Δε θα μπορεί να είναι πλέον "
+"διαθέσιμο προς χρήση."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "_Προσθήκη ονόματος"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "Ε_ξαγωγή πλήρους κλειδιού:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Ημερομηνίες:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Αποτύπωμα:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Καθορισμός εμπιστοσύνης:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Η εμπιστοσύνη σας για το συγκεκριμένο κλειδί</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>Ά_λλα ονόματα:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Χρήστες που έχουν υπογράψει αυτό το κλειδί:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr ""
+"Κρυπτογράφηση αρχείων και ηλεκτρονικής αλληλογραφίας στον ιδιοκτήτη του "
+"κλειδιού"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "Πλήρης"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Εμπιστεύομαι τις υπογραφές από '%s' σε άλλα κλειδιά"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"Αν πιστεύετε ότι  ο ιδιοκτήτης αυτού του κλειδιού είναι ο '%s', "
+"<i>υπογράψτε</i> αυτό το κλειδί:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"Αν δεν εμπιστεύεστε πλέον ότι ο '%s' είναι ιδιοκτήτης αυτού του κλειδιού, "
+"<i>ανακαλέστε</i> την υπογραφή σας:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "Οριακό"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Εμπιστοσύνη"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "Τελικό"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "Έκφραση ε_μπιστοσύνης στον ιδιοκτήτη:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr ""
+"Η εμπιστοσύνη σας καθορίζεται χειρωνακτικά στην καρτέλα <i>Λεπτομέρειες</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "Να εμφανίζονται _μόνο οι υπογραφές των ανθρώπων που εμπιστεύομαι"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "_Ανάκληση υπογραφής"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "Υπογρα_φή αυτού του κλειδιού"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Υποκλειδί %d από %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Προαιρετική περιγραφή απόσυρσης"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "Από_συρση"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Αιτία για την ανάκληση του κλειδιού"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "Αι_τία:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"Δε διαθέτετε προσωπικά κλειδιά PGP που μπορούν να χρησιμοποιηθούν για "
+"υπογραφή εγγράφου ή μηνύματος."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Πόσο προσεχτικά ελέγξατε αυτό το κλειδί;</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Πως άλλοι θα βλέπουν αυτήν την υπογραφή:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b> Υπογραφή κλειδιού ως</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>Πρόχειρα:</i> σημαίνει ότι έχετε κάνει μία πρόχειρη διαπίστωση ότι το "
+"κλειδί ανήκει στο άτομο που ισχυρίζεται ότι είναι δικό του. Για παράδειγμα, "
+"θα μπορούσατε να διαβάσετε το αποτύπωμα του κλειδιού στον ιδιοκτήτη του μέσω "
+"τηλεφώνου. "
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Όνομα κλειδιού</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>Καθόλου:</i> σημαίνει ότι πιστεύετε ότι το κλειδί ανήκει στο άτομο που "
+"ισχυρίζεται ότι είναι δικό του, αλλά δε θα μπορούσατε ή δε διαπιστώσατε αν "
+"αυτό είναι πραγματικότητα."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>Πολύ προσεχτικά</i> Επιλέξτε αυτό μόνο αν είστε απολύτως σίγουρος (-η) "
+"ότι το κλειδί είναι αυθεντικό."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Με την υπογραφή δηλώνετε ότι εμπιστεύεστε ότι αυτό το κλειδί ανήκει:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Μπορώ να α_ποσύρω αυτήν την υπογραφή σε κάποια αργότερη ημερομηνία."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Υπογραφή κλειδιού"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"Θα μπορούσατε να χρησιμοποιήσετε επίσημο έγγραφο με φωτογραφία που είναι "
+"δύσκολο να πλαστογραφηθεί (π.χ. ταυτότητα) για να ελέγξετε ότι το όνομα στο "
+"κλειδί είναι σωστό. Θα έπρεπεεπίσης να έχετε στείλει μήνυμα στην ηλεκτρονική "
+"διεύθυνση για να διαπιστώσετε ότι αυτή ανήκει στον ιδιοκτήτη."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_Πρόχειρα"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_Καθόλου"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "Ά_λλοι  να μην δουν αυτό το κλειδί"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_Υπογραφή"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Υπογράφων:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_Πολύ προσεκτικά"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "Υ_πογραφή μηνύματος με κλειδί:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "Πιστοποίηση"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε το πιστοποιητικό '%s';"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε %d πιστοποιητικό;"
+msgstr[1] "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε %d πιστοποιητικά;"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Αλλαγή συνθηματικού"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "Επι_βεβαίωση συνθηματικού:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Επιβεβαίωση νέου συνθηματικού"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "Νέο _συνθηματικό:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Διαχείριση των κωδικών και των κλειδιών κρυπτογράφησης"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "Κωδικοί και κλειδιά κρυπτογράφησης"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr ""
+"<b>_Επιλογή του τύπου αντικειμένου που επιθυμείτε να δημιουργήσετε:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "_Συνέχεια"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Δημιουργία νέου..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Επιλεγμένο %d κλειδί"
+msgstr[1] "Επιλεγμένα %d κλειδιά"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:458
+msgid "Couldn't import keys"
+msgstr "Αδύνατη η εισαγωγή κλειδιών"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:463
+msgid "Imported keys"
+msgstr "Εισηγμένα κλειδιά"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "Εισαγωγή κλειδιών"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Εισαγωγή κλειδιού"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Μη αναγνωρίσιμος τύπος κλειδιού, ή μη έγκυρη μορφή δεδομένων"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_Απομακρυσμένο"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "Κλείσιμο προγράμματος"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "_Νέο..."
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "Δημιουργία νέου κλειδιού ή αντικειμένου"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "Ε_ισαγωγή..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "Εισαγωγή από αρχείο"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "Εισαγωγή από το πρόχειρο"
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_Εύρεση απομακρυσμένων κλειδιών..."
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "Αναζήτηση για κλειδιά σε έναν εξυπηρετητή κλειδιών"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "_Συγχρονισμός και δημοσίευση κλειδιών..."
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Δημοσίευση και/ή συγχρονισμός των κλειδιών σας με εκείνα του δικτύου."
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "_Τύποι"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "Εμφάνιση στήλης τύπου"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "_Λήξη"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "Εμφάνιση στήλης λήξης"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "_Εμπιστοσύνη"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "Εμφάνιση στήλης εμπιστοσύνης ιδιοκτήτη"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "_Εγκυρότητα"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "Εμφάνιση στήλης εγκυρότητας"
+
+#: ../src/bastile-key-manager.c:931
+msgid "Filter:"
+msgstr "Φίλτρο:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Επιλογές πρώτης φοράς:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Δημιουργία νέου κλειδιού για σας: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Εισαγωγή υπαρχόντων κλειδιών από αρχείο:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "Τα _προσωπικά μου κλειδιά"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Άλλα _κλειδιά"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "Για να ξεκινήσετε με κρυπτογράφηση θα χρειαστείτε κλειδιά."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:522
+msgid "_Import"
+msgstr "Ε_ισαγωγή"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "Κω_δικοί"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:256
+msgid "Couldn't export keys"
+msgstr "Αδυναμία εξαγωγής κλειδιών"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Εγκυρότητα"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Ημερομηνία λήξης"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "Κλείσιμο αυτού του παραθύρου"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "Ανάπτυ_ξη όλων"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "Ανάπτυξη για όλες τις λίστες"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "_Σύμπτυξη όλων"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "Σύμπτυξη όλων των λιστών"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "Απομακρυσμένα κλειδιά"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Απομακρυσμένα κλειδιά που περιέχουν '%s'"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Εξυπηρετητές κλειδιών:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b> Κοινόχρηστα κλειδιά κοντά σε μένα:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Εύρεση απομακρυσμένων κλειδιών"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"Θα γίνει αναζήτηση κλειδιών άλλων χρηστών στο διαδίκτυο. Αυτά τα κλειδιά "
+"μπορούν να εισαχθούν στην τοπική σας κλειδοθήκη."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Αναζήτηση σε:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "Ανα_ζήτηση"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_Αναζήτηση κλειδιών που περιέχουν: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Αδυναμία δημοσίευσης κλειδιών στον εξυπηρετητή"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Αδύνατη η λήψη κλειδιών από τον εξυπηρετητή: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d κλειδί είναι επιλεγμένο για συγχρονισμό</b>"
+msgstr[1] "<b>%d κλειδιά είναι επιλεγμένα για συγχρονισμό</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Συγχρονισμός κλειδιών"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Συγχρονισμός κλειδιών..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Συγχρονισμός κλειδιών"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"Θα γίνει δημοσίευση των κλειδιών από κλειδοθήκη σας ώστε να είναι διαθέσιμα "
+"και σε άλλους χρήστες. Θα λάβετε επίσης οποιεσδήποτε αλλαγές που έχουν κάνει "
+"άλλοι από τη στιγμή που λάβατε τα κλειδιά τους."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"Αυτό θα πραγματοποιήσει λήψη οποιωνδήποτε αλλαγών που έχουν κάνει άλλοι από "
+"τη στιγμή που λάβατε τα κλειδιά τους. Δεν έχει επιλεγεί κανένας εξυπηρετητής "
+"κλειδιών για δημοσίευση, και έτσι τα κλειδιά σας δε θα είναι διαθέσιμα σε "
+"άλλους."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "Ε_ξυπηρετητές κλειδιών"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Συγχρονισμός"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Η έκδοση της εφαρμογής"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "Διαχειριστής κλειδιών κρυπτογράφησης"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "Συντελεστές:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα MATE\n"
+" Κώστας Παπαδήμας <pkst@mate.org>\n"
+" Δημήτριος Τυπάλδος <dtfedora@yahoo.com>\n"
+" Νίκος Χαρωνιτάκης <nikosx@gmail.com>\n"
+" Σίμος Ξενιτέλλης <simos@mate.org>\n"
+" Νίκος Αγιαννιώτης <nickagian@gmail.com>\n"
+" Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
+"\n"
+"Για περισσότερα δείτε http://www.mate.gr/"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "Αρχική σελίδα του Έργου Bastile"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:168
+msgid "_File"
+msgstr "_Αρχείο"
+
+#: ../src/bastile-viewer.c:169
+msgid "_Edit"
+msgstr "_Επεξεργασία"
+
+#: ../src/bastile-viewer.c:170
+msgid "_View"
+msgstr "Προ_βολή"
+
+#: ../src/bastile-viewer.c:171
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../src/bastile-viewer.c:173
+msgid "Prefere_nces"
+msgstr "Προτι_μήσεις"
+
+#: ../src/bastile-viewer.c:174
+msgid "Change preferences for this program"
+msgstr "Αλλαγή προτιμήσεων για το συγκεκριμένο πρόγραμμα"
+
+#: ../src/bastile-viewer.c:177
+msgid "About this program"
+msgstr "Περί αυτού του προγράμματος"
+
+#: ../src/bastile-viewer.c:178
+msgid "_Contents"
+msgstr "_Περιεχόμενα"
+
+#: ../src/bastile-viewer.c:179
+msgid "Show Bastile help"
+msgstr "Εμφάνιση βοήθειας Bastile"
+
+#: ../src/bastile-viewer.c:276
+msgid "Export public key"
+msgstr "Εξαγωγή δημόσιου κλειδιού"
+
+#: ../src/bastile-viewer.c:296
+msgid "Exporting keys"
+msgstr "Εξαγωγή κλειδιών"
+
+#: ../src/bastile-viewer.c:321
+msgid "Couldn't retrieve data from key server"
+msgstr "Αδύνατη η ανάληψη δεδομένων από εξυπηρετητή κλειδιών"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:340
+msgid "Copied keys"
+msgstr "Τα κλειδιά αντιγράφτηκαν"
+
+#: ../src/bastile-viewer.c:360
+msgid "Retrieving keys"
+msgstr "Ανάκτηση κλειδιών"
+
+#: ../src/bastile-viewer.c:375
+msgid "Couldn't delete."
+msgstr "Αδυναμία διαγραφής."
+
+#: ../src/bastile-viewer.c:409
+msgid "Deleting..."
+msgstr "Γίνεται διαγραφή..."
+
+#: ../src/bastile-viewer.c:435
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr ""
+"Το %s είναι ένα ιδιωτικό κλειδί. Είστε βέβαιοι ότι επιθυμείτε να συνεχίσετε;"
+
+#: ../src/bastile-viewer.c:483
+msgid "Importing keys from key servers"
+msgstr "Εισαγωγή κλειδιών από εξυπηρετητές κλειδιών"
+
+#: ../src/bastile-viewer.c:509
+msgid "Show properties"
+msgstr "Προβολή ιδιοτήτων"
+
+#: ../src/bastile-viewer.c:510
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_Διαγραφή"
+
+#: ../src/bastile-viewer.c:511
+msgid "Delete selected items"
+msgstr "Διαγραφή επιλεγμένων αντικειμένων"
+
+#: ../src/bastile-viewer.c:515
+msgid "E_xport..."
+msgstr "Ε_ξαγωγή..."
+
+#: ../src/bastile-viewer.c:516
+msgid "Export to a file"
+msgstr "Εξαγωγή σε αρχείο"
+
+#: ../src/bastile-viewer.c:518
+msgid "Copy to the clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+#: ../src/bastile-viewer.c:523
+msgid "Import selected keys to local key ring"
+msgstr "Εισαγωγή επιλεγμένων κλειδιών στην τοπική κλειδοθήκη"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Εισάγετε το συνθηματικό σας Secure Shell (SSH):"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Ρύθμιση κλειδιού για Α_σφαλές Κέλυφος (SSH)..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"Αποστολή δημόσιου κλειδιού Secure Shell (SSH) σε άλλο σύστημα, και "
+"ενεργοποίηση συνδέσεων με χρήση αυτού του κλειδιού."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε να διαγράψετε το κλειδί ασφαλούς κελύφους '%s';"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε να διαγράψετε τα %d κλειδιά ασφαλούς κελύφους;"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "Κλειδί Secure Shell (SSH)"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Για πρόσβαση σε άλλους υπολογιστές (π.χ. μέσω τερματικού)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Αδύνατη η δημιουργία κλειδιού Secure Shell (SSH)"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "Δημιουργία κλειδιού Secure Shell"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>Χρησιμοποιήστε την ηλεκτρονική σας διεύθυνση, ή οτιδήποτε άλλο "
+"χρειάζεστε, για να θυμάστε ποια είναι η λειτουργία αυτού του κλειδιού.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"Τα κλειδιά Secure Shell (SSH) σας επιτρέπουν να συνδέεστε με ασφάλεια σε "
+"έμπιστους υπολογιστές μέσω SSH, χωρίς να απαιτείται διαφορετικός κωδικόςγια "
+"καθέναν από αυτούς."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"Αν υπάρχει ήδη υπολογιστής με τον οποίον επιθυμείτε να χρησιμοποιήσετε αυτό "
+"το κλειδί, μπορείτε τώρα να ρυθμίσετε τον υπολογιστή αυτό ώστε να "
+"αναγνωρίζει το κλειδί σας. "
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Νέο κλειδί Secure Shell"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_Δημιουργία και ρύθμιση"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Μόνο δημιουργία κλειδιού"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "Περιγραφή _κλειδιού:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Μη αναγνώσιμο κλειδί Secure Shell/SSH)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Μη έγκυρο"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Ιδιωτικό κλειδί Secure Shell (SSH)"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Δημόσιο κλειδί Secure Shell (SSH)"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Αδύνατη η μετονομασία κλειδιού."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Αδύνατη η αλλαγή εξουσιοδότησης για το κλειδί."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Αδύνατη η αλλαγή του συνθηματικού για το κλειδί."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Αλγόριθμος:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Αναγνωριστικό:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Τοποθεσία:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Ισχύς:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Εμπιστοσύνη</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Αυτό εφαρμόζεται μόνο στο λογαριασμό του '%s'</i>."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "Ε_ξαγωγή ολόκληρου κλειδιού"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr ""
+"Ο κάτοχος αυτού του κλειδιού είναι ε_ξουσιοδοτημένος να συνδέεται σε αυτόν "
+"τον υπολογιστή"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Συνήθως σύνδεση σε άλλους υπολογιστές."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "Η εντολή SSH τερματίστηκε απρόσμενα."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "Η εντολή SSH απέτυχε."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "Κλειδί Secure Shell"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Συνθηματικό:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Κωδικός πρόσβασης απομακρυσμένου συστήματος"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Παλιό συνθηματικό κλειδιού"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Εισαγωγή παλιού συνθηματικού για: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Νέο συνθηματικό κλειδιού"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Εισαγωγή νέου συνθηματικού για: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Εισαγωγή συνθηματικού κλειδιού"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Συνθηματικό για νέο κλειδί Secure Shell (SSH)"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Εισαγωγή συνθηματικού για το νέο σας κλειδί Secure Shell."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Εισαγωγή κλειδιού: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Εισαγωγή κλειδιού. Εισάγετε το συνθηματικό σας"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Δεν υπάρχει διαθέσιμο αρχείο προσωπικού κλειδιού για αυτό το κλειδί."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr ""
+"Αδύνατη η διαμόρφωση κλειδιών Secure Shell σε απομακρυσμένους υπολογιστές."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Γίνεται ρύθμιση των κλειδιών Secure Shell (SSH)..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>π.χ.: fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Ρύθμιση υπολογιστή για σύνδεση SSH"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"Για να χρησιμοποιήσετε το κλειδί σας Secure Shell (SSH) με άλλο υπολογιστή "
+"πουχρησιμοποιεί SSH, θα πρέπει να έχετε ήδη ένα λογαριασμό εισόδου σε αυτόν "
+"τον υπολογιστή."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "Όνομα _υπολογιστή:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "Όνομα ει_σόδου:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_Ρύθμιση"

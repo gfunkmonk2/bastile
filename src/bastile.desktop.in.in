@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name=Passwords and Encryption Keys
+_Comment=Manage your passwords and encryption keys
+Exec=bastile
+Terminal=false
+Type=Application
+Icon=bastile
+Categories=MATE;GTK;Security;Settings;
+StartupNotify=true
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=bastile
+X-MATE-Bugzilla-Component=general
+X-MATE-Bugzilla-Version=@VERSION@
+X-MATE-DocPath=bastile/bastile.xml

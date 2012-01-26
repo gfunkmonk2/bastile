@@ -1,0 +1,4035 @@
+# Thai translation of bastile.
+# Copyright (C) 2007-2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bastile package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2007-2011.
+# Sira Nokyoongtong <gumaraa@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?"
+"product=bastile&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-29 11:47+0000\n"
+"PO-Revision-Date: 2011-04-22 17:47+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "ไม่ต้องเรียกทำงาน bastile-daemon แบบดีมอน"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "ไม่สามารถ fork โพรเซสได้"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "ไม่สามารถสร้างกลุ่มโพรเซสใหม่ได้"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "ดีมอนเข้ารหัสลับ (Bastile)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "ชนิดกุญแจผิดพลาดหรือไม่รู้จัก: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "ไม่รองรับกุญแจชนิดนี้: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "การรองรับความสามารถนี้ไม่ได้เปิดไว้ขณะประกอบสร้าง"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "กุญแจผิดพลาดหรือไม่รู้จัก: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "เซ็นโดย <i><key id='%s'/> <b>หมดอายุแล้ว</b></i> เมื่อ %s"
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "ลายเซ็นใช้ไม่ได้"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "เซ็นโดย <i><key id='%s'/></i> เมื่อ %s <b>หมดอายุแล้ว</b>"
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "ลายเซ็นหมดอายุแล้ว"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "เซ็นโดย <i><key id='%s'/> <b>ถูกเพิกถอน</b></i> เมื่อ %s"
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "ลายเซ็นถูกเพิกถอนแล้ว"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "เซ็นโดย <i><key id='%s'/></i> เมื่อ %s"
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "ลายเซ็นใช้การได้"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "กุญแจที่เซ็นไม่ได้อยู่ในพวงกุญแจ"
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "ลายเซ็นไม่รู้จัก"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "ลายเซ็นเสียหรือถูกปลอมแปลง ข้อมูลที่เซ็นไว้มีการเปลี่ยนแปลง"
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "ลายเซ็นเสีย"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "ไม่สามารถตรวจสอบยืนยันลายเซ็น"
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "ผู้เซ็นผิดพลาดหรือไม่รู้จัก: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "กุญแจไม่สามารถใช้เซ็นได้: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "ผู้รับผิดพลาดหรือไม่รู้จัก: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "กุญแจไม่ใช่ผู้รับของการเข้ารหัสลับที่ถูกต้อง: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "ไม่ได้ระบุผู้รับ"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "ชนิดกุญแจไม่ถูกต้องสำหรับการถอดรหัสลับ: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "กรุณากำหนด clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "กรุณากำหนด crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "เกิดข้อผิดพลาดขณะเปิด clearuri"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "ไม่ได้ระบุผู้เซ็น"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "ชนิดกุญแจไม่ถูกต้องสำหรับการตรวจสอบยืนยัน: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "หมายเลขกุญแจไม่ถูกต้อง: %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"รายการ URI ของเซิร์ฟเวอร์กุญแจที่จะค้นหากุญแจ PGP ในเครือข่าย ในรุ่นหลังๆ "
+"จะสามารถป้อนชื่อที่ใช้แสดงได้ด้วย โดยแทรกช่องว่างต่อท้าย แล้วตามด้วยชื่อ"
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "ดึงข้อมูลกุญแจโดยอัตโนมัติ"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "ปรับข้อมูลกุญแจโดยอัตโนมัติ"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "เปิด-ปิดการแสดงคอลัมน์วันหมดอายุสำหรับโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "เปิด-ปิดการแสดงคอลัมน์ความเชื่อถือสำหรับโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "เปิด-ปิดการแสดงคอลัมน์ชนิดกุญแจสำหรับโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "เปิด-ปิดการแสดงคอลัมน์สถานะมีผลใช้งานสำหรับโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "เปิดใช้การใช้ร่วมแบบ DNS-SD"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"เปิดใช้การใช้กุญแจร่วมกันแบบ DNS-SD (Apple Bonjour) จะใช้งานได้ ต้องมี bastile-daemon "
+"ทำงานอยู่ และต้องคอมไพล์มาแบบรองรับ HKP และ DNS-SD ด้วย"
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "หมายเลขของกุญแจปริยาย"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"ถ้ากำหนดเป็นค่าจริง แฟ้มต่างๆ ที่เข้ารหัสลับด้วย bastile จะอยู่ในรูปที่หุ้มด้วย ASCII (ASCII "
+"armor)"
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "ถ้ากำหนดเป็นค่าจริง จะเพิ่มกุญแจปริยายเข้าในรายชื่อผู้รับในการเข้ารหัสลับเสมอ"
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "รูปแบบล่าสุดที่ใช้ค้นเซิร์ฟเวอร์กุญแจ"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "เซิร์ฟเวอร์กุญแจล่าสุดที่ใช้"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "กุญแจล่าสุดที่ใช้เซ็นกำกับข้อความ"
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "เซิร์ฟเวอร์กุญแจ PGP"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "ประกาศกุญแจที่เซิร์ฟเวอร์กุญแจนี้"
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "แสดงคอลัมน์วันหมดอายุในโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "แสดงคอลัมน์ความเชื่อถือในโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "แสดงคอลัมน์ชนิดกุญแจในโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "แสดงคอลัมน์สถานะมีผลใช้งานในโปรแกรมจัดการกุญแจ"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"ระบุคอลัมน์ที่จะใช้เรียงลำดับรายการในหน้าต่างผู้รับ คอลัมน์ที่มีคือ: 'name' และ 'id' "
+"คุณสามารถเติมเครื่องหมาย '-' หน้าชื่อคอลัมน์ เพื่อให้เรียงลำดับจากหลังมาหน้าได้"
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"ระบุคอลัมน์ที่จะใช้เรียงลำดับรายการในหน้าต่างหลักของโปรแกรมจัดการกุญแจ bastile "
+"คอลัมน์ที่มีคือ: 'name', 'id', 'validity', 'expires', 'trust', และ 'type' "
+"คุณสามารถเติมเครื่องหมาย '-' หน้าชื่อคอลัมน์ เพื่อให้เรียงลำดับจากหลังมาหน้าได้"
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "หมายเลขของกุญแจลับล่าสุดที่ใช้เซ็นกำกับข้อความ"
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "คอลัมน์ที่จะใช้เรียงลำดับผู้รับ"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "คอลัมน์ที่จะใช้เรียงลำดับกุญแจ bastile"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr "เซิร์ฟเวอร์กุญแจที่จะประกาศกุญแจ PGP หรือถ้าเป็นค่าว่าง ก็จะไม่ประกาศกุญแจ PGP"
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr "เซิร์ฟเวอร์กุญแจล่าสุดที่ใช้ค้นหากุญแจ หรือถ้าเป็นค่าว่าง จะหมายถึงเซิร์ฟเวอร์กุญแจทุกแหล่ง"
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "รูปแบบล่าสุดที่ใช้ค้นเซิร์ฟเวอร์กุญแจ"
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "ระบุกุญแจปริยายที่จะใช้สำหรับการดำเนินการบางอย่าง โดยเฉพาะการเซ็นกำกับ"
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "จะดึงข้อมูลกุญแจจากเซิร์ฟเวอร์กุญแจต่างๆ โดยอัตโนมัติหรือไม่"
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr "จะปรับข้อมูลกุญแจที่มีการเปลี่ยนแปลงให้ตรงกับเซิร์ฟเวอร์กุญแจปริยายโดยอัตโนมัติหรือไม่"
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "จะเข้ารหัสลับถึงกุญแจปริยายหรือไม่"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "จะใช้การหุ้มด้วย ASCII หรือไม่"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "สร้างพวงกุญแจเก็บรหัสผ่าน"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "ตั้งชื่อพวงกุญแจ:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr "กรุณาตั้งชื่อพวงกุญแจที่จะสร้าง โปรแกรมจะให้คุณตั้งรหัสผ่านสำหรับปลดล็อคพวงกุญแจในภายหลัง"
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "ชื่อโฮสต์หรือที่อยู่ของเซิร์ฟเวอร์"
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "ไม่สามารถเพิ่มพวงกุญแจ"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "เพิ่มรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:15 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_คำอธิบาย:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_พวงกุญแจ:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_รหัสผ่าน:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "แ_สดงรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-item.c:473
+msgid "Web Password"
+msgstr "รหัสผ่านเว็บ"
+
+#: ../gkr/bastile-gkr-item.c:475
+msgid "Network Password"
+msgstr "รหัสผ่านเครือข่าย"
+
+#: ../gkr/bastile-gkr-item.c:477 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบรหัสผ่าน '%s'?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "ยืนยันหรือไม่ว่าต้องการลบรหัสผ่านทั้ง %d รายการ?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "เข้าใช้โฟลเดอร์ใช้ร่วมหรือทรัพยากรในเครือข่าย"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "เข้าใช้เว็บไซต์"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "ไขกุญแจ PGP"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "ไขกุญแจเชลล์นิรภัย"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "รหัสผ่านหรือชื่อเข้าระบบที่บันทึกไว้"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "รหัสลับเครือข่าย"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "ไม่สามารถเปลี่ยนรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "ไม่สามารถกำหนดคำบรรยาย"
+
+#: ../gkr/bastile-gkr-item-properties.c:656
+msgid "Couldn't set application access."
+msgstr "ไม่สามารถกำหนดการเข้าถึงของโปรแกรมประยุกต์"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>รหัสผ่าน:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>พาธ:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>การอนุญาต:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>รายละเอียดทางเทคนิค:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "โปรแกรมประยุกต์"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "รายละเอียด"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "กุญแจ"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "คุณสมบัติกุญแจ"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "ชื่อเข้าระบบ:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "เซิร์ฟเวอร์:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "แสดง_รหัสผ่าน"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+msgid "Type:"
+msgstr "ชนิด:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "การใช้งาน:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:17
+msgid "_Read"
+msgstr "_อ่าน"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Write"
+msgstr "เ_ขียน"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:20
+msgctxt "infinitive"
+msgid "_Delete"
+msgstr "_ลบ"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "กำลังไล่เรียงรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "รหัสผ่าน: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>รหัสผ่าน:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "พวงกุญแจเก็บรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "ใช้เก็บรหัสผ่านของโปรแกรมและเครือข่ายต่างๆ"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "แหล่งเก็บรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "เก็บรหัสผ่านหรือรหัสลับแบบนิรภัย"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "ไม่สามารถปลดล็อคพวงกุญแจ"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "ไม่สามารถล็อคพวงกุญแจ"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "ไม่สามารถกำหนดพวงกุญแจปริยาย"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "ไม่สามารถเปลี่ยนรหัสผ่านพวงกุญแจ"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_ล็อค"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr "ล็อคพวงกุญแจเก็บรหัสผ่าน โดยต้องใช้รหัสผ่านหลักในการปลดล็อค"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "ปล_ดล็อค"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr "ปลดล็อคพวงกุญแจเก็บรหัสผ่านโดยใช้รหัสผ่านหลัก เพื่อให้สามารถใช้งานได้"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "_กำหนดเป็นพวงกุญแจปริยาย"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "โปรแกรมต่างๆ มักจะเก็บรหัสผ่านไว้ในพวงกุญแจปริยาย"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "เ_ปลี่ยนรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "เปลี่ยนรหัสผ่านที่จะใช้ปลดล็อคพวงกุญแจเก็บรหัสผ่าน"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบพวงกุญแจเก็บรหัสผ่าน '%s'?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "Created:"
+msgstr "สร้าง:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "พวงกุญแจ"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "คุณสมบัติพวงกุญแจ"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_ชื่อ:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "ไม่ได้รับอนุญาตให้เข้าใช้พวงกุญแจ"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "ดีมอน mate-keyring ไม่ได้ทำงานอยู่"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "พวงกุญแจถูกปลดล็อคไปแล้ว"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "ไม่มีพวงกุญแจที่ว่านี้อยู่"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "ไม่สามารถติดต่อสื่อสารกับดีมอนพวงกุญแจ"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "มีรายการนี้อยู่ก่อนแล้ว"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "เกิดข้อผิดพลาดภายในขณะเข้าใช้ mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "กำลังบันทึกรายการ..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "กำลังลบรายการ..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "กำลังลบพวงกุญแจ..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "กำลังไล่เรียงพวงกุญแจเก็บรหัสผ่าน"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"ไม่พบกุญแจเข้ารหัสลับที่จะใช้ดำเนินการตามที่คุณขอ ดังนั้น จะเรียกโปรแกรม "
+"<b>รหัสผ่านและกุญแจเข้ารหัสลับ</b> เพื่อที่คุณจะสามารถสร้างหรือนำเข้ากุญแจได้"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "กุญแจทุกดอก"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "ผู้รับที่เลือกไว้"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "ผลการค้นหา"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "ค้น_หา:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "ไม่ต้อง (ไม่เซ็น)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "เซ็นกำกับข้อความนี้ในนาม %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "เ_ซ็นกำกับข้อความในนาม:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "ชื่อ"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "หมายเลขกุญแจ"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "แฟล็กการแสดงผล"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "ตัวเลือกสำหรับการแสดงวันที่ และ/หรือ เวลา"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "โหมดเกียจคร้าน"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "โหมดเกียจคร้านจะไม่ปรับรูปแบบวันที่และเวลาที่ป้อนให้เข้ารูป"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "ปี"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "ปีที่แสดง"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "เดือน"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "เดือนที่แสดง"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "วันที่"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "วันที่ที่แสดง"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "ชั่วโมง"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "ชั่วโมงที่แสดง"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "นาที"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "นาทีที่แสดง"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "วินาที"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "วินาทีที่แสดง"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "ปีของกำหนดวันต่ำสุด"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "ปีของกำหนดวันต่ำสุด"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "ปีของกำหนดวันสูงสุด"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "ปีของกำหนดวันสูงสุด"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "เดือนของกำหนดวันต่ำสุด"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "เดือนของกำหนดวันต่ำสุด"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "เดือนของกำหนดวันสูงสุด"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "เดือนของกำหนดวันสูงสุด"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "วันที่ของกำหนดวันต่ำสุด"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "วันที่ของกำหนดวันต่ำสุด"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "วันที่ของกำหนดวันสูงสุด"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "วันที่ของกำหนดวันสูงสุด"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "ชั่วโมงของกำหนดเวลาต่ำสุด"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "ชั่วโมงของกำหนดเวลาต่ำสุด"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "ชั่วโมงของกำหนดเวลาสูงสุด"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "ชั่วโมงของกำหนดเวลาสูงสุด"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "นาทีของกำหนดเวลาต่ำสุด"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "นาทีของกำหนดเวลาต่ำสุด"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "นาทีของกำหนดเวลาสูงสุด"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "นาทีของกำหนดเวลาสูงสุด"
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "วินาทีของกำหนดเวลาต่ำสุด"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "วินาทีของกำหนดเวลาต่ำสุด"
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "วินาทีของกำหนดเวลาสูงสุด"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "วินาทีของกำหนดเวลาสูงสุด"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "วันที่"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "ป้อนวันที่โดยตรง"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "เลือกวันที่"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "เลือกวันที่จากปฏิทิน"
+
+#: ../libegg/egg-datetime.c:529 ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "เวลา"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "ป้อนเวลาโดยตรง"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "เลือกเวลา"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "เลือกเวลาจากรายการ"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "24hr: yes"
+
+#: ../libegg/egg-datetime.c:814 ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "แฟ้มนี้ไม่ใช่แฟ้ม .desktop ที่ใช้ได้"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "ไม่รู้จักแฟ้มเดสก์ท็อปรุ่น '%s'"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "กำลังเริ่ม %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "โปรแกรมไม่รับเอกสารในบรรทัดคำสั่ง"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "ไม่รู้จักตัวเลือกของการเรียกโปรแกรม: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "ไม่สามารถส่ง URI ของเอกสารไปยังรายการเดสก์ท็อปที่มี 'Type=Link'"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "ไม่ใช่รายการที่เรียกทำงานได้"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "ปิดใช้การเชื่อมต่อไปยังโปรแกรมจัดการวาระ"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "ระบุแฟ้มที่บันทึกค่าตั้งไว้"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "ระบุหมายเลขการจัดการวาระ"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "ตัวเลือกเกี่ยวกับการจัดการวาระ:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "แสดงตัวเลือกเกี่ยวกับการจัดการวาระ"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "เพิ่มเซิร์ฟเวอร์กุญแจ"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "โฮสต์:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "ชนิดของเซิร์ฟเวอร์กุญแจ:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "หมายเลขพอร์ตที่จะเข้าใช้เซิร์ฟเวอร์"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "รายการชั่วคราวเริ่มแรก"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "นำเข้ากุญแจแล้ว"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "นำเข้ากุญแจ %i ดอกแล้ว"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "นำเข้ากุญแจสำหรับ"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "ข้อความแจ้ง"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "กุญแจสมมาตร"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "กุญแจสาธารณะ"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "กุญแจส่วนตัว"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "รหัสลับ"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "เอกลักษณ์บุคคล"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "วลีรหัสผ่าน"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "รหัสผ่าน:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "ยืนยัน:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "ที่อยู่เซิร์ฟเวอร์กุญแจไม่ถูกต้อง"
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"หากต้องการความช่วยเหลือ กรุณาติดต่อผู้ดูแลระบบของคุณ หรือผู้ดูแลระบบของเครื่องเซิร์ฟเวอร์กุญแจ"
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "ไม่ต้อง: ไม่ต้องประกาศกุญแจ"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "ดึ_งข้อมูลกุญแจจากเซิร์ฟเวอร์กุญแจโดยอัตโนมัติ"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "ปรั_บข้อมูลกุญแจที่มีการเปลี่ยนแปลงให้ตรงกับเซิร์ฟเวอร์กุญแจโดยอัตโนมัติ"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "เซิร์ฟเวอร์กุญแจ"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "ปรับแต่ง"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "_หากุญแจผ่าน:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "_ประกาศกุญแจไปที่:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "ชื่อเรื่องของความคืบหน้า"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "ไม่มี"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%d/%m/%Ey"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "ข้อมูลกุญแจ"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "กุญแจหลายดอก"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "ไม่สามารถเรียก file-roller"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "ไม่สามารถจัดเก็บแฟ้ม"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "โพรเซส file-roller ทำงานไม่สำเร็จสมบูรณ์"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "แฟ้มกุญแจทั้งหมด"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "แฟ้มทั้งหมด"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "แฟ้มจัดเก็บ"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>มีแฟ้มชื่อนี้อยู่ก่อนแล้ว</b>\n"
+"\n"
+"คุณต้องการเขียนทับด้วยแฟ้มใหม่หรือไม่?"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "เขียน_ทับ"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "ไม่เคยเปิดใช้"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Marginal"
+msgstr "ก้ำกึ่ง"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Full"
+msgstr "เต็มที่"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+msgid "Ultimate"
+msgstr "เต็มพิกัด"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "ปิดใช้งาน"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "เพิกถอน"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "ไม่สามารถแสดงวิธีใช้: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "วันหมดอายุ:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "สร้างกุญแจย่อยใหม่"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "กุญแจไม่มีวันหมดอายุใช่หรือไม่"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "ความ_ยาวกุญแจ:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "_ชนิดกุญแจ:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "ความยาวของกุญแจ"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "ไม่มีวันห_มดอายุ"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "เพิ่มหมายเลขผู้ใช้"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "เพิ่มหมายเลขผู้ใช้ใหม่"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "_ชื่อเต็ม:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "ห_มายเหตุกุญแจ:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "ต้องยาวอย่างน้อย 5 ตัวอักษร"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "หมายเหตุอธิบายกุญแจ จะมีหรือไม่ก็ได้"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "ที่อยู่อีเมล จะมีหรือไม่ก็ได้"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "ที่อยู่_อีเมล:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "เ_ปลี่ยน"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "เพิกถอนกุญแจ"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "ไ_ม่มีวันหมดอายุ"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "ไม่สามารถเพิ่มกุญแจย่อย"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "เพิ่มกุญแจย่อยใน %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "DSA (เซ็นเท่านั้น)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (เข้ารหัสลับเท่านั้น)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "RSA (เซ็นเท่านั้น)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (เข้ารหัสลับเท่านั้น)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "ไม่สามารถเพิ่มหมายเลขผู้ใช้"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "เพิ่มหมายเลขผู้ใช้ใน %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "ถอดรหัสลับไม่สำเร็จ คุณอาจไม่มีกุญแจสำหรับถอดรหัสลับ"
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "วันหมดอายุผิดพลาด"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "วันหมดอายุต้องเป็นเวลาในอนาคต"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "ไม่สามารถเปลี่ยนวันหมดอายุ"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "หมดอายุ: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "กุญแจ PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "ใช้สำหรับเข้ารหัสลับอีเมลและแฟ้มต่างๆ"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "ไม่สามารถสร้างกุญแจ PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "วลีรหัสผ่านสำหรับกุญแจ PGP ใหม่"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "กรุณาป้อนวลีรหัสผ่านสำหรับกุญแจใหม่ของคุณซ้ำสองครั้ง"
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "ไม่สามารถสร้างกุญแจ"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "กำลังสร้างกุญแจ"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "รหัสผ่านไม่ถูกต้อง"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "นี่เป็นครั้งที่สามแล้วที่คุณป้อนรหัสผ่านผิด กรุณาลองอีกครั้ง"
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>รูปใหญ่เกินไป</b></big>\n"
+"ขนาดที่แนะนำสำหรับรูปในกุญแจของคุณคือ %d x %d จุด"
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "ไ_ม่ต้องปรับขนาด"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "_ปรับขนาด"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr "นี่ไม่ใช่แฟ้มรูปภาพ หรือเป็นแฟ้มรูปภาพชนิดที่ไม่รู้จัก กรุณาลองใช้รูปภาพ JPEG"
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "แฟ้มรูปภาพทั้งหมด"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "แฟ้ม JPEG ทั้งหมด"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "เลือกรูปที่จะเพิ่มในกุญแจ"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "ไม่สามารถเพิ่มรูป"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "ไม่สามารถโหลดแฟ้มได้ อาจเป็นแฟ้มที่ผิดรูปแบบ"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "ยืนยันหรือไม่ ว่าคุณต้องการลบรูปปัจจุบันออกจากกุญแจของคุณ?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "ไม่สามารถลบรูป"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "ไม่สามารถเพิกถอนกุญแจย่อย"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "เพิกถอน: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "ไม่ระบุเหตุผล"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "ไม่ระบุเหตุลสำหรับการเพิกถอนกุญแจ"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "ถูกเจาะ"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "กุญแจถูกเจาะ"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "ถูกแทนที่"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "มีกุญแจอื่นแทนที่"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "ไม่ใช้"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "ไม่ใช้กุญแจอีกแล้ว"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"คุณกำลังจะเพิ่ม %s เป็นผู้เพิกถอนสำหรับ %s การกระทำนี้จะไม่สามารถย้อนคืนได้! "
+"ยืนยันที่จะทำต่อไปหรือไม่?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "ไม่สามารถเพิ่มผู้เพิกถอน"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"กุญแจนี้มีการเซ็นรับรองไปแล้วโดย\n"
+"\"%s\""
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "ไม่สามารถเซ็นรับรองกุญแจ"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "ไม่มีกุญแจที่จะใช้เซ็นกำกับได้"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr "คุณไม่มีกุญแจส่วนตัวที่สามารถใช้แสดงความเชื่อมั่นกับกุญแจนี้"
+
+#: ../pgp/bastile-gpgme-source.c:102
+#, c-format
+msgid "Wrong passphrase."
+msgstr "วลีรหัสผ่านไม่ถูกต้อง"
+
+#: ../pgp/bastile-gpgme-source.c:106
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "กรุณาตั้งวลีรหัสผ่านใหม่สำหรับ '%s'"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "กรุณาป้อนวลีรหัสผ่านสำหรับ '%s'"
+
+#: ../pgp/bastile-gpgme-source.c:111
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "กรุณาตั้งวลีรหัสผ่านใหม่"
+
+#: ../pgp/bastile-gpgme-source.c:113
+msgid "Enter passphrase"
+msgstr "กรุณาป้อนวลีรหัสผ่าน"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:725
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "โหลดกุญแจแล้ว %d ดอก"
+
+#: ../pgp/bastile-gpgme-source.c:780
+msgid "Loading Keys..."
+msgstr "กำลังโหลดกุญแจ..."
+
+#: ../pgp/bastile-gpgme-source.c:823
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"ข้อมูลกุญแจไม่ถูกต้อง (ขาด UID) "
+"สาเหตุอาจเกิดจากการตั้งเวลาของเครื่องคอมพิวเตอร์ไว้เป็นเวลาอนาคต "
+"หรือกุญแจไม่มีลายเซ็นเจ้าของกำกับ"
+
+#: ../pgp/bastile-gpgme-source.c:913 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "กำลังนำเข้ากุญแจ"
+
+#: ../pgp/bastile-gpgme-source.c:949
+msgid "Exporting Keys"
+msgstr "กำลังส่งออกกุญแจ"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "การค้นหายังไม่เจาะจงพอ พบกุญแจในเซิร์ฟเวอร์ '%s' จำนวนมากเกินไป"
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "ไม่สามารถติดต่อสื่อสารกับเซิร์ฟเวอร์ '%s': %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "กำลังค้นหากุญแจ..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "กำลังอัปโหลดกุญแจ..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "กำลังดึงกุญแจ..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "กำลังค้นหากุญแจที่: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "กำลังเชื่อมต่อไปยัง: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "เซิร์ฟเวอร์กุญแจ HTTP"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "ไม่สามารถติดต่อสื่อสารกับ '%s': %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "ไม่สามารถเปิดหาที่อยู่: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "กำลังเปิดหาที่อยู่เซิร์ฟเวอร์: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "กำลังค้นหากุญแจที่มี '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "กำลังค้นหากุญแจหมายเลข '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "กำลังดึงกุญแจจากเครือข่าย..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "กำลังส่งกุญแจไปยังเซิร์ฟเวอร์กุญแจ..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "เซิร์ฟเวอร์กุญแจ LDAP"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "เ_ซ็นรับรองกุญแจ..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "เซ็นรับรองกุญแจสาธารณะ"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบ %s อย่างถาวร?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบกุญแจและหมายเลขประจำตัวทั้ง %d รายการอย่างถาวร?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบกุญแจทั้ง %d ดอกอย่างถาวร?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบเลขประจำตัวทั้ง %d รายการอย่างถาวร?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>ตัวเลือกโดย_ละเอียดสำหรับกุญแจ</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "กุญแจ PGP จะช่วยให้คุณสามารถเข้ารหัสลับอีเมลหรือแฟ้มที่ส่งให้ผู้อื่นได้"
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "อัลกอริทึม"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_สร้าง"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "วันห_มดอายุ:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "_ชนิดการเข้ารหัสลับ:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "สร้างกุญแจใหม่"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "ความแ_ข็งแรงของกุญแจ (จำนวนบิต):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "ไ_ม่มีวันหมดอายุ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "กุญแจ PGP ใหม่"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_หมายเหตุ:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Private PGP Key"
+msgstr "กุญแจ PGP ส่วนตัว"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Public PGP Key"
+msgstr "กุญแจ PGP สาธารณะ"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "หมดอายุ"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "ไม่สามารถเปลี่ยนหมายเลขผู้ใช้หลัก"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบหมายเลขผู้ใช้ '%s' อย่างถาวร?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "ไม่สามารถลบหมายเลขผู้ใช้"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[ไม่ทราบ]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "ชื่อ/อีเมล"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "หมายเลขลายเซ็น"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "ไม่สามารถเปลี่ยนรูปภาพหลัก"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(ไม่ทราบ)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "กุญแจนี้หมดอายุแล้วเมื่อ: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบกุญแจย่อย %d ของ %s อย่างถาวร?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "ไม่สามารถลบกุญแจย่อย"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "ไม่สามารถเปลี่ยนค่าความเชื่อถือ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:291
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "ไม่สามารถส่งออกกุญแจไปยัง \"%s\""
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "ส่งออกกุญแจทั้งหมด"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "ไม่สามารถส่งออกกุญแจ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "ไม่มีวันหมดอายุ"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "ชนิด"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "สร้าง"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "หมดอายุ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "สถานะ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "ความแข็งแรง"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "ดี"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>การกระทำ</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>หมายเหตุ:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>วันที่</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>อีเมล:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>ลายนิ้วมือ</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>หมายเลขกุญแจ:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>ชื่อกุญแจและลายเซ็น</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+msgid "<b>Photo </b>"
+msgstr "<b>รูป</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+msgid "<b>Technical Details</b>"
+msgstr "<b>รายละเอียดทางเทคนิค</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>กุญแจนี้ถูกเพิกถอนแล้ว</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has expired</b>"
+msgstr "<b>กุญแจนี้หมดอายุแล้ว</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>ชนิด:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:14
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:13
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>การใช้งาน:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>กุญแจ_ย่อย</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+msgid "Add"
+msgstr "เพิ่ม"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add a photo to this key"
+msgstr "เพิ่มรูปให้กับกุญแจนี้"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "เปลี่ยน_วลีรหัสผ่าน"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "ถอดรหัสลับแฟ้มและอีเมลที่ส่งถึงคุณ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Delete"
+msgstr "ลบ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+msgid "Expire"
+msgstr "หมดอายุ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Expires:"
+msgstr "หมดอายุ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+msgid "Export"
+msgstr "ส่งออก"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Go to next photo"
+msgstr "ไปยังรูปถัดไป"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to previous photo"
+msgstr "ไปยังรูปก่อนหน้า"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+msgid "Key ID:"
+msgstr "หมายเลขกุญแจ:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+msgid "Make this photo the primary photo"
+msgstr "กำหนดให้รูปนี้เป็นรูปหลัก"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Names and Signatures"
+msgstr "ชื่อและลายเซ็น"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Never"
+msgstr "ไม่เลย"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+msgid "Override Owner _Trust:"
+msgstr "ทับค่าความเ_ชื่อถือของเจ้าของ:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Owner"
+msgstr "เจ้าของ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+msgid "Primary"
+msgstr "กุญแจหลัก"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Remove this photo from this key"
+msgstr "ลบรูปนี้จากกุญแจนี้"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Revoke"
+msgstr "เพิกถอน"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Sign"
+msgstr "เซ็นกำกับ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Strength:"
+msgstr "ความแข็งแรง:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "เจ้าของกุญแจได้เพิกถอนกุญแจแล้ว จึงไม่สามารถใช้การได้อีก"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+msgid "_Add Name"
+msgstr "เ_พิ่มชื่อ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Export Complete Key:"
+msgstr "_ส่งออกกุญแจทั้งดอก:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgctxt "name-of-key"
+msgid "<b>Name:</b>"
+msgstr "<b>ชื่อ:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>วันที่:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>ลายนิ้วมือ:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>ระบุความเชื่อถือ:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>ความเชื่อถือของคุณต่อกุญแจนี้</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>ชื่อ_อื่น:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_ผู้ที่เซ็นรับรองกุญแจนี้:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "เข้ารหัสลับแฟ้มและอีเมลที่ส่งถึงเจ้าของกุญแจ"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Fully"
+msgstr "เต็มที่"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "ฉันเชื่อถือลายเซ็นของ '%s' ในกุญแจอื่น"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:26
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr "ถ้าคุณเชื่อว่าเจ้าของกุญแจนี้คือ '%s' จริง ก็ให้ <i>เซ็นรับรอง</i> กุญแจนี้:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:28
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"ถ้าคุณไม่เชื่อถืออีกต่อไป ว่า '%s' เป็นเจ้าของกุญแจนี้ ก็ให้ <i>เพิกถอน</i> ลายเซ็นของคุณ:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+msgid "Marginally"
+msgstr "ก้ำกึ่ง"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "เชื่อถือ"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Ultimately"
+msgstr "เต็มพิกัด"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "You _Trust the Owner:"
+msgstr "คุณ_เชื่อถือเจ้าของ:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "ความเชื่อถือของคุณ คุณต้องระบุเองในแท็บ <i>รายละเอียด</i>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "แสดงลายเซ็นของผู้ที่ฉันเชื่อถือเ_ท่านั้น"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Revoke Signature"
+msgstr "เ_พิกถอนลายเซ็น"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Sign this Key"
+msgstr "เ_ซ็นรับรองกุญแจนี้"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "กุญแจย่อยที่ %d ของ %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "คำอธิบายเสริมสำหรับการเพิกถอน"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "เ_พิกถอน"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "เหตุผลสำหรับการเพิกถอนกุญแจ"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "เ_หตุผล:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr "คุณไม่มีกุญแจ PGP ส่วนตัวที่สามารถใช้เซ็นกำกับเอกสารหรือข้อความได้"
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>คุณได้ตรวจสอบกุญแจนี้อย่างระมัดระวังแค่ไหน?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>ผู้อื่นจะมองเห็นลายเซ็นนี้อย่างไร:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>เซ็นรับรองกุญแจในนาม:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>นิดหน่อย:</i> หมายความว่า คุณได้ตรวจสอบยืนยันบ้างนิดหน่อย "
+"ว่ากุญแจนี้เป็นของบุคคลที่อ้างว่าเป็นเจ้าของจริง ตัวอย่างเช่น "
+"คุณสามารถอ่านลายนิ้วมือของกุญแจให้เจ้าของฟังทางโทรศัพท์"
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>ชื่อกุญแจ</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>ไม่ได้ตรวจเลย:</i> หมายความว่า คุณเชื่อว่ากุญแจเป็นของบุคคลที่อ้างว่าเป็นเจ้าของจริง "
+"แต่คุณไม่สามารถหรือไม่ได้ตรวจสอบยืนยัน"
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr "<i>ระมัดระวังมาก:</i> เลือกตัวเลือกนี้ก็ต่อเมื่อคุณมั่นใจเต็มที่ว่ากุญแจนี้เป็นของจริงแท้แน่นอน"
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "ด้วยการเซ็นรับรองนี้ คุณแสดงความเชื่อมั่นว่ากุญแจนี้เป็นของ:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "ฉันสามารถเ_พิกถอนลายเซ็นนี้ได้ในภายหลัง"
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "เซ็นรับรองกุญแจ"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"คุณสามารถใช้รูปถ่ายในเอกสารประจำตัวที่ปลอมแปลงได้ยาก (เช่น หนังสือเดินทาง) "
+"เพื่อตรวจสอบตัวบุคคลว่าชื่อที่อยู่ในกุญแจนั้นถูกต้อง "
+"คุณควรใช้อีเมลเพื่อตรวจสอบด้วยว่าที่อยู่อีเมลเป็นของเจ้าของจริง"
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_นิดหน่อย"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "ไ_ม่ได้ตรวจเลย"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "ผู้_อื่นไม่สามารถมองเห็นลายเซ็นนี้ได้"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "เ_ซ็นกำกับ"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_ผู้เซ็น:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_ระมัดระวังมาก"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "เ_ซ็นกำกับข้อความด้วยกุญแจ:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "ใบรับรอง"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบใบรับรอง '%s'?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "ยืนยันหรือไม่ว่าต้องการลบใบรับรองทั้ง %d รายการ?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "เปลี่ยนวลีรหัสผ่าน"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_ยืนยันวลีรหัสผ่าน:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "ยืนยันวลีรหัสผ่าน"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "วลีรหัสผ่านให_ม่:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "จัดการรหัสผ่านและกุญแจเข้ารหัสลับของคุณ"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "รหัสผ่านและกุญแจเข้ารหัสลับ"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>เ_ลือกชนิดของรายการที่ต้องการสร้าง:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "_ต่อไป"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "สร้างรายการใหม่ ..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "เลือกกุญแจ %d ดอก"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:459
+msgid "Couldn't import keys"
+msgstr "ไม่สามารถนำเข้ากุญแจ"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:464
+msgid "Imported keys"
+msgstr "กุญแจนำเข้า"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "กำลังนำเข้ากุญแจ"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "นำเข้ากุญแจ"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "ไม่รู้จักชนิดกุญแจ หรือรูปแบบข้อมูลไม่ถูกต้อง"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "เ_ครือข่าย"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "ปิดโปรแกรมนี้"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "ใ_หม่..."
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "สร้างกุญแจหรือรายการใหม่"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "_นำเข้า..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "นำเข้าจากแฟ้ม"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "นำเข้าจากคลิปบอร์ด"
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_หากุญแจในเครือข่าย..."
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "ค้นหากุญแจในเซิร์ฟเวอร์กุญแจ"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "_ปรับและประกาศกุญแจ..."
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "ประกาศ และ/หรือ ปรับข้อมูลกุญแจของคุณกับค่าออนไลน์ให้ตรงกัน"
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "_ชนิด"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "แสดงคอลัมน์ชนิดกุญแจ"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "วันห_มดอายุ"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "แสดงคอลัมน์วันหมดอายุกุญแจ"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "ความเชื่อ_ถือ"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "แสดงคอลัมน์ความเชื่อถือของเจ้าของ"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "สถานะ_มีผลใช้งาน"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "แสดงคอลัมน์สถานะมีผลใช้งาน"
+
+#: ../src/bastile-key-manager.c:937
+msgid "Filter:"
+msgstr "ตัวกรอง:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>ตัวเลือกสำหรับการใช้งานครั้งแรก:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "สร้างกุญแจใหม่ของคุณเอง:"
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "นำเข้ากุญแจจากแฟ้ม:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "กุญแจ_ส่วนตัวของฉัน"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "กุญแจ_อื่นๆ"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "เพื่อจะเริ่มเข้ารหัสลับข้อมูล คุณต้องมีกุญแจเสียก่อน"
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:523
+msgid "_Import"
+msgstr "_นำเข้า"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_รหัสผ่าน"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:257
+msgid "Couldn't export keys"
+msgstr "ไม่สามารถส่งออกกุญแจ"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "มีผลใช้งาน"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "วันหมดอายุ"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "ปิดหน้าต่างนี้"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "_ขยายทั้งหมด"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "ขยายรายการทั้งหมด"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "ยุ_บทั้งหมด"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "ยุบรายการทั้งหมด"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "กุญแจจากเครือข่าย"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "กุญแจจากเครือข่ายที่มี '%s'"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>เซิร์ฟเวอร์กุญแจ:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>กุญแจใช้ร่วมในเครือข่ายใกล้เคียง:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "หากุญแจจากเครือข่าย"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"หน้าต่างนี้จะค้นหากุญแจของผู้อื่นในอินเทอร์เน็ต "
+"กุญแจเหล่านี้สามารถนำเข้ามาสู่พวงกุญแจในเครื่องของคุณได้"
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "แหล่งค้นหา:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_ค้นหา"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "ค้น_หากุญแจที่มี:"
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "ไม่สามารถประกาศกุญแจไปที่เซิร์ฟเวอร์"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "ไม่สามารถดึงกุญแจจากเซิร์ฟเวอร์: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>มีกุญแจ %d ดอกถูกเลือกสำหรับปรับข้อมูล</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "กำลังปรับข้อมูลกุญแจ"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "กำลังปรับข้อมูลกุญแจ..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "ปรับกุญแจ"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"หน้าต่างนี้จะประกาศกุญแจในพวงกุญแจของคุณ เพื่อให้ผู้อื่นใช้งานได้ คุณจะได้รับการเปลี่ยนแปลงต่างๆ "
+"ที่คนอื่นๆ ได้ทำนับตั้งแต่คุณรับกุญแจของพวกเขาครั้งสุดท้ายด้วย"
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"หน้าต่างนี้จะดึงการเปลี่ยนแปลงต่างๆ ที่คนอื่นๆ ได้ทำนับตั้งแต่คุณรับกุญแจของพวกเขาครั้งสุดท้าย "
+"คุณไม่ได้เลือกเซิร์ฟเวอร์กุญแจสำหรับประกาศ ดังนั้น จะไม่มีการประกาศกุญแจของคุณให้ผู้อื่นใช้"
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "เซิร์ฟเวอร์กุญแ_จ"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_ปรับข้อมูล"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "รุ่นของโปรแกรมนี้"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "โปรแกรมจัดการกุญแจเข้ารหัสลับ"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "ผู้ร่วมสมทบ:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr "เทพพิทักษ์ การุญบุญญานันท์ <thep@linux.thai.net>"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "โฮมเพจโครงการ Bastile"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:169
+msgid "_File"
+msgstr "แ_ฟ้ม"
+
+#: ../src/bastile-viewer.c:170
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#: ../src/bastile-viewer.c:171
+msgid "_View"
+msgstr "มุ_มมอง"
+
+#: ../src/bastile-viewer.c:172
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#: ../src/bastile-viewer.c:174
+msgid "Prefere_nces"
+msgstr "ปรับแ_ต่ง"
+
+#: ../src/bastile-viewer.c:175
+msgid "Change preferences for this program"
+msgstr "ปรับแต่งโปรแกรมนี้"
+
+#: ../src/bastile-viewer.c:178
+msgid "About this program"
+msgstr "เกี่ยวกับโปรแกรมนี้"
+
+#: ../src/bastile-viewer.c:179
+msgid "_Contents"
+msgstr "เนื้อ_หา"
+
+#: ../src/bastile-viewer.c:180
+msgid "Show Bastile help"
+msgstr "แสดงวิธีใช้ Bastile"
+
+#: ../src/bastile-viewer.c:277
+msgid "Export public key"
+msgstr "ส่งออกกุญแจสาธารณะ"
+
+#: ../src/bastile-viewer.c:297
+msgid "Exporting keys"
+msgstr "กำลังส่งออกกุญแจ"
+
+#: ../src/bastile-viewer.c:322
+msgid "Couldn't retrieve data from key server"
+msgstr "ไม่สามารถดึงข้อมูลจากเซิร์ฟเวอร์กุญแจ"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:341
+msgid "Copied keys"
+msgstr "ทำสำเนากุญแจแล้ว"
+
+#: ../src/bastile-viewer.c:361
+msgid "Retrieving keys"
+msgstr "กำลังดึงข้อมูลกุญแจ"
+
+#: ../src/bastile-viewer.c:376
+msgid "Couldn't delete."
+msgstr "ไม่สามารถลบ"
+
+#: ../src/bastile-viewer.c:410
+msgid "Deleting..."
+msgstr "กำลังลบ..."
+
+#: ../src/bastile-viewer.c:436
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s เป็นกุญแจส่วนตัว คุณยังคงต้องการดำเนินการต่อไปหรือไม่?"
+
+#: ../src/bastile-viewer.c:484
+msgid "Importing keys from key servers"
+msgstr "กำลังนำเข้ากุญแจจากเซิร์ฟเวอร์พวงกุญแจ"
+
+#: ../src/bastile-viewer.c:510
+msgid "Show properties"
+msgstr "แสดงคุณสมบัติ"
+
+#: ../src/bastile-viewer.c:511
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_ลบ"
+
+#: ../src/bastile-viewer.c:512
+msgid "Delete selected items"
+msgstr "ลบรายการที่เลือก"
+
+#: ../src/bastile-viewer.c:516
+msgid "E_xport..."
+msgstr "_ส่งออก..."
+
+#: ../src/bastile-viewer.c:517
+msgid "Export to a file"
+msgstr "ส่งออกลงในแฟ้ม"
+
+#: ../src/bastile-viewer.c:519
+msgid "Copy to the clipboard"
+msgstr "คัดลอกเข้าคลิปบอร์ด"
+
+#: ../src/bastile-viewer.c:524
+msgid "Import selected keys to local key ring"
+msgstr "นำเข้ากุญแจที่เลือกเข้าในพวงกุญแจในเครื่อง"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "ป้อนวลีรหัสผ่านเชลล์นิรภัย:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "ตั้งค่ากุญแจเชลล์นิรภัย..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr "ส่งกุญแจสาธารณะสำหรับเชลล์นิรภัยไปยังเครื่องอื่น และเปิดใช้การเข้าระบบด้วยกุญแจดังกล่าว"
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบกุญแจเชลล์นิรภัย '%s'?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "ยืนยันหรือไม่ว่าต้องการลบกุญแจเชลล์นิรภัยทั้ง %d ดอก?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "กุญแจเชลล์นิรภัย"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "ใช้สำหรับเข้าใช้คอมพิวเตอร์อื่น (เช่น ผ่านเทอร์มินัล)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "ไม่สามารถสร้างกุญแจเชลล์นิรภัย"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "กำลังสร้างกุญแจเชลล์นิรภัย"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr "<i>ใช้ที่อยู่อีเมลของคุณ และสิ่งเตือนอย่างอื่นที่จำเป็น สำหรับระบุวัตถุประสงค์ของกุญแจนี้</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"กุญแจเชลล์นิรภัย (SSH) จะช่วยให้คุณเชื่อมต่อกับคอมพิวเตอร์ต่างๆ ที่คุณเชื่อใจได้อย่างนิรภัยผ่าน SSH "
+"โดยไม่ต้องป้อนรหัสผ่านที่ต่างกันสำหรับแต่ละเครื่อง"
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"ถ้ามีคอมพิวเตอร์ที่คุณต้องการใช้กุญแจนี้ด้วยอยู่แล้ว คุณสามารถตั้งค่าเครื่องนั้นให้รู้จักกุญแจของคุณได้เลย"
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "กุญแจเชลล์นิรภัยใหม่"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_สร้างและตั้งค่า"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "สร้างกุญแจเ_ท่านั้น"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "คำ_บรรยายกุญแจ:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(กุญแจเชลล์นิรภัยที่อ่านไม่ได้)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "ผิดพลาด"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "กุญแจส่วนตัวสำหรับเชลล์นิรภัย"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "กุญแจสาธารณะสำหรับเชลล์นิรภัย"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "ไม่สามารถเปลี่ยนชื่อกุญแจ"
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "ไม่สามารถเปลี่ยนการอนุญาตสิทธิ์ของกุญแจ"
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "ไม่สามารถเปลี่ยนวลีรหัสผ่านของกุญแจ"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>อัลกอริทึม:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>หมายเลขประจำกุญแจ:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>ตำแหน่ง:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>ชื่อ:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>ความแข็งแรง:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>ความเชื่อมั่น</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>ตัวเลือกนี้ใช้ได้กับบัญชี '%s' เท่านั้น</i>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "_ส่งออกกุญแจทั้งดอก"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "เจ้าของกุญแจนี้ได้รับ_อนุญาตให้เชื่อมต่อกับคอมพิวเตอร์นี้"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "ใช้เชื่อมต่อไปยังคอมพิวเตอร์เครื่องอื่น"
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "คำสั่ง SSH จบการทำงานกลางคัน"
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "คำสั่ง SSH ล้มเหลว"
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "กุญแจเชลล์นิรภัย"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "วลีรหัสผ่าน:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "รหัสผ่านของเครื่องฝั่งโน้น"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "วลีรหัสผ่านเก่าสำหรับกุญแจ"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "กรุณาป้อนวลีรหัสผ่านเก่าสำหรับ: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "วลีรหัสผ่านใหม่สำหรับกุญแจ"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "กรุณาตั้งวลีรหัสผ่านใหม่สำหรับ: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "กรุณาป้อนวลีรหัสผ่านสำหรับกุญแจ"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "วลีรหัสผ่านสำหรับกุญแจเชลล์นิรภัยใหม่"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "กรุณาตั้งวลีรหัสผ่านสำหรับกุญแจเชลล์นิรภัยใหม่ของคุณ"
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "กำลังนำเข้ากุญแจ: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "กำลังนำเข้ากุญแจ กรุณาป้อนวลีรหัสผ่าน"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "ไม่มีแฟ้มกุญแจส่วนตัวสำหรับกุญแจนี้"
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "ไม่สามารถตั้งค่ากุญแจเชลล์นิรภัยในคอมพิวเตอร์ในเครือข่ายได้"
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "กำลังตั้งค่ากุญแจเชลล์นิรภัย..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>เช่น: fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "ตั้งค่าคอมพิวเตอร์สำหรับการเชื่อมต่อ SSH"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"ในการใช้กุญแจเชลล์นิรภัยกับคอมพิวเตอร์เครื่องอื่นที่ใช้ SSH นั้น "
+"คุณต้องมีบัญชีสำหรับเข้าระบบในเครื่องนั้นอยู่ก่อนแล้ว"
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "ชื่อ_คอมพิวเตอร์:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "ชื่อเ_ข้าระบบ:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_ตั้งค่า"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "ไม่สามารถเปิดกุญแจให้ใช้ร่วมได้"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "ไม่สามารถประกาศข้อมูลสำหรับการตรวจหาลงในเครือข่ายได้"
+
+#~ msgid "%s's encryption keys"
+#~ msgstr "กุญแจเข้ารหัสลับของ %s"
+
+#~ msgid "Key Sharing"
+#~ msgstr "การเปิดกุญแจให้ใช้ร่วม"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "การเปิดกุญแจของคุณให้ผู้อื่นใช้ร่วม ทำให้ผู้อื่นในเครือข่ายของคุณสามารถใช้กุญแจต่างๆ "
+#~ "ที่คุณเก็บไว้ได้ ซึ่งหมายความว่า พวกเขาจะสามารถเข้ารหัสลับข้อมูลต่างๆ "
+#~ "ส่งถึงคุณหรือคนที่คุณรู้จักได้โดยอัตโนมัติ โดยที่คุณไม่ต้องส่งกุญแจของคุณให้กับพวกเขา\n"
+#~ "\n"
+#~ "<b>หมายเหตุ:</b> กุญแจส่วนตัวของคุณจะไม่ถูกเปิดเผย"
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "เปิดกุญแจของฉันให้ผู้อื่นใ_ช้ร่วมในเครือข่าย"
+
+#~ msgid "Bastile Daemon"
+#~ msgstr "ดีมอน Bastile"
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>มีกุญแจ X ดอกถูกเลือกสำหรับปรับข้อมูล</b>"
+
+#~ msgid ""
+#~ "One or more of the deleted keys are private keys. Are you sure you want "
+#~ "to proceed?"
+#~ msgstr "กุญแจที่ลบอย่างน้อยหนึ่งดอกเป็นกุญแจส่วนตัว คุณยังคงต้องการดำเนินการต่อไปหรือไม่?"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "สร้างกุญแจ PGP"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "ไม่ทราบ\n"
+#~ "ไม่เลย\n"
+#~ "ก้ำกึ่ง\n"
+#~ "เต็มที่\n"
+#~ "เต็มพิกัด"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "ไม่ทราบ\n"
+#~ "ไม่เลย\n"
+#~ "ก้ำกึ่ง\n"
+#~ "เต็มที่\n"
+#~ "เต็มพิกัด"
+
+#~ msgid "_Quit"
+#~ msgstr "_ออก"
+
+#~ msgid "_Paste"
+#~ msgstr "_แปะ"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "กุญแจ_อื่นๆ"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "กุญแจเ_ชื่อถือ"
+
+#~ msgid "_Close"
+#~ msgstr "ปิ_ด"
+
+#~ msgid "_About"
+#~ msgstr "เ_กี่ยวกับ"
+
+#~ msgid "P_roperties"
+#~ msgstr "คุณ_สมบัติ"
+
+#~ msgid "_Copy"
+#~ msgstr "_คัดลอก"
+
+#~ msgid "Retrieving key"
+#~ msgstr "กำลังดึงกุญแจ"
+
+#~ msgid "Removing item"
+#~ msgstr "กำลังลบรายการ"
+
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>ปลดล็อคโดยอัตโนมัติเมื่อผู้ใช้เข้าระบบ</i>"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "ไม่สามารถอ่านพวงกุญแจปริยายสำหรับเก็บรหัสผ่าน"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "ไม่สามารถอ่านรายชื่อพวงกุญแจเก็บรหัสผ่าน"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "ไม่สามารถลบพวงกุญแจ"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "ยืนยันหรือไม่ว่าต้องการลบพวงกุญแจ '%s' อย่างถาวร?"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>พวงกุญแจปริยาย</b>"
+
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>พวงกุญแจเก็บรหัสผ่าน</b>"
+
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "ค่าตั้งรหัสผ่านและการเข้ารหัสลับ"
+
+#~ msgid "_Add Keyring"
+#~ msgstr "เ_พิ่มพวงกุญแจ"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "_ลบพวงกุญแจ"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "กุญแจไม่รู้จัก: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "กุญแจไม่รู้จัก"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "กุญแจไม่มีอยู่"
+
+#~ msgid "X509 Certificate"
+#~ msgstr "ใบรับรอง X509"
+
+#~ msgid "Loading..."
+#~ msgstr "กำลังโหลด..."
+
+#~ msgid "Invalid or unrecognized object."
+#~ msgstr "อ็อบเจกต์ผิดพลาดหรือไม่รู้จัก"
+
+#~ msgid "Exporting is not yet supported."
+#~ msgstr "ยังไม่รองรับการส่งออก"
+
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "วันหมดอายุสำหรับกุญแจย่อย %d ของ %s"
+
+#~ msgid "Create a new personal key"
+#~ msgstr "สร้างกุญแจส่วนตัวใหม่"
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "นำเข้ากุญแจจากแฟ้มเข้าในพวงกุญแจของคุณ"
+
+#~ msgid "_Key"
+#~ msgstr "กุญแ_จ"
+
+#~ msgid "E_xport Public Key..."
+#~ msgstr "_ส่งออกกุญแจสาธารณะ..."
+
+#~ msgid "_Copy Public Key"
+#~ msgstr "_คัดลอกกุญแจสาธารณะ"
+
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "คัดลอกข้อมูลส่วนสาธารณะของกุญแจลงในคลิปบอร์ด"
+
+#~ msgid "_Delete Key"
+#~ msgstr "_ลบกุญแจ"
+
+#~ msgid "Secure Shell Passphrase"
+#~ msgstr "วลีรหัสผ่านเชลล์นิรภัย"
+
+#~ msgid "Secure Shell Key Passphrase"
+#~ msgstr "วลีรหัสผ่านสำหรับกุญแจเชลล์นิรภัย"
+
+#~ msgid "Enter the passphrase for: %s"
+#~ msgstr "กรุณาป้อนวลีรหัสผ่านสำหรับ: %s"
+
+#~ msgid "Save this passphrase in my keyring"
+#~ msgstr "บันทึกวลีรหัสผ่านนี้ในพวงกุญแจของฉัน"
+
+#~ msgid ""
+#~ "%s is a private key. Make sure you have a backup. Do you still want to "
+#~ "delete it?"
+#~ msgstr "%s เป็นกุญแจส่วนตัว กรุณาแน่ใจว่าคุณได้สำรองข้อมูลไว้ คุณยังคงต้องการลบกุญแจนี้หรือไม่?"
+
+#~ msgid "Couldn't delete key"
+#~ msgstr "ไม่สามารถลบกุญแจ"
+
+#~ msgid "User ID"
+#~ msgstr "หมายเลขผู้ใช้"
+
+#~ msgid "Imported %d key"
+#~ msgid_plural "Imported %d keys"
+#~ msgstr[0] "นำเข้ากุญแจแล้ว %d ดอก"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "ไม่สามารถอ่านแฟ้ม"
+
+#~ msgid "Copied %d key"
+#~ msgid_plural "Copied %d keys"
+#~ msgstr[0] "ทำสำเนากุญแจแล้ว %d ดอก"
+
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "สำรองพวงกุญแจลงในแฟ้มจัดเก็บ"
+
+#~ msgid "bastile"
+#~ msgstr "bastile"
+
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "สำ_รองพวงกุญแจ..."
+
+#~ msgid "Back up all keys"
+#~ msgstr "สำรองกุญแจทั้งหมด"
+
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "ตั้งค่าคอมพิวเตอร์สำหรับเ_ชลล์นิรภัย..."
+
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "ไม่สามารถนำเข้ากุญแจเข้าในพวงกุญแจ"
+
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "ไม่สามารถเขียนกุญแจลงแฟ้ม: %s"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "บันทึกกุญแจจากเครือข่าย"
+
+#~ msgid "No matching keys found"
+#~ msgstr "ไม่พบกุญแจที่ตรงกัน"
+
+#~ msgid "Save Key As..."
+#~ msgstr "บันทึกกุญแจเป็น..."
+
+#~ msgid "Save selected keys as a file"
+#~ msgstr "บันทึกกุญแจที่เลือกลงแฟ้ม"
+
+#~ msgid "<b>You have selected multiple files or folders</b>"
+#~ msgstr "<b>คุณได้เลือกแฟ้มหรือโฟลเดอร์หลายรายการ</b>"
+
+#~ msgid ""
+#~ "Because the files are located remotely, each file will be encrypted "
+#~ "separately."
+#~ msgstr "เนื่องจากแฟ้มต่างๆ ถูกเก็บไว้ในเครือข่าย แต่ละแฟ้มจะถูกเข้ารหัสลับแยกกัน"
+
+#~ msgid "Encrypt Multiple Files"
+#~ msgstr "เข้ารหัสลับแฟ้มหลายแฟ้ม"
+
+#~ msgid "Encrypt each file separately"
+#~ msgstr "เข้ารหัสลับแต่ละแฟ้มแยกกัน"
+
+#~ msgid "Encrypt packed together in a package"
+#~ msgstr "เข้ารหัสลับโดยอัดรวมกันในแพกเกจ"
+
+#~ msgid "Package Name:"
+#~ msgstr "ชื่อแพกเกจ:"
+
+#~ msgid "Packaging:"
+#~ msgstr "การทำแพกเกจ:"
+
+#~ msgid "encrypted-package"
+#~ msgstr "encrypted-package"
+
+#~ msgid "Please enter a passphrase to use."
+#~ msgstr "กรุณาป้อนวลีรหัสผ่านที่จะใช้"
+
+#~ msgid "Unparseable Key ID"
+#~ msgstr "หมายเลขกุญแจอยู่ในรูปแบบที่แจงไม่ได้"
+
+#~ msgid "Unknown/Invalid Key"
+#~ msgstr "กุญแจไม่รู้จัก/ผิดพลาด"
+
+#~ msgid "PGP Key: %s"
+#~ msgstr "กุญแจ PGP: %s"
+
+#~ msgid ""
+#~ "<b>Warning</b>: Your system is not configured to cache passphrases in "
+#~ "secure memory."
+#~ msgstr ""
+#~ "<b>คำเตือน</b>: ระบบของคุณไม่ได้ตั้งค่าไว้ให้เก็บแคชวลีรหัสผ่านไว้ในหน่วยความจำที่นิรภัย"
+
+#~ msgid "Cache _Preferences"
+#~ msgstr "ปรับแ_ต่งแคช"
+
+#~ msgid "Cached Encryption Keys"
+#~ msgstr "กุญแจเข้ารหัสลับที่เก็บไว้ในแคช"
+
+#~ msgid "Change passphrase cache settings."
+#~ msgstr "เปลี่ยนแปลงค่าตั้งของแคชวลีรหัสผ่าน"
+
+#~ msgid "Clear passphrase cache"
+#~ msgstr "ล้างแคชวลีรหัสผ่าน"
+
+#~ msgid "_Clear Cache"
+#~ msgstr "_ล้างแคช"
+
+#~ msgid "_Show Window"
+#~ msgstr "แ_สดงหน้าต่าง"
+
+#~ msgid "Do not daemonize bastile-agent"
+#~ msgstr "ไม่ต้องแปรสภาพ bastile-agent เป็นดีมอน"
+
+#~ msgid "Print variables in for a C type shell"
+#~ msgstr "พิมพ์การกำหนดตัวแปรสำหรับเชลล์แบบ C"
+
+#~ msgid "Display environment variables (the default)"
+#~ msgstr "แสดงตัวแปรสภาพแวดล้อม (ค่าปริยาย)"
+
+#~ msgid "Allow GPG agent request from any display"
+#~ msgstr "ยอมให้ส่งคำร้องเอเจนต์ GPG จากดิสเพลย์ใดก็ได้"
+
+#~ msgid "command..."
+#~ msgstr "คำสั่ง..."
+
+#~ msgid "Encryption Key Agent (Bastile)"
+#~ msgstr "เอเจนต์กุญแจเข้ารหัสลับ (Bastile)"
+
+#~ msgid "no command specified to execute"
+#~ msgstr "ไม่ได้ระบุคำสั่งที่จะเรียกทำงาน"
+
+#~ msgid "Authorize Passphrase Access"
+#~ msgstr "อนุญาตเข้าใช้วลีรหัสผ่าน"
+
+#~ msgid "The passphrase is cached in memory."
+#~ msgstr "วลีรหัสผ่านถูกแคชไว้ในหน่วยความจำ"
+
+#~ msgid "Always ask me before using a cached passphrase"
+#~ msgstr "ถามเสมอก่อนใช้วลีรหัสผ่านที่แคชไว้"
+
+#~ msgid "_Authorize"
+#~ msgstr "_อนุญาต"
+
+#~ msgid "Key Name"
+#~ msgstr "ชื่อกุญแจ"
+
+#~ msgid ""
+#~ "After performing an decrypt or verify operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "หลังจากที่ดำเนินการถอดรหัสลับหรือตรวจสอบยืนยันจากตัวแอพเพล็ตเสร็จแล้ว "
+#~ "ให้แสดงข้อความผลลัพธ์ในหน้าต่าง"
+
+#~ msgid ""
+#~ "After performing an encrypt or signing operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "หลังจากที่ดำเนินการเข้ารหัสลับหรือเซ็นกำกับจากตัวแอพเพล็ตเสร็จแล้ว "
+#~ "ให้แสดงข้อความผลลัพธ์ในหน้าต่าง"
+
+#~ msgid "Display cache reminder in the notification area"
+#~ msgstr "เตือนเนื้อหาแคชในพื้นที่แจ้งเตือน"
+
+#~ msgid "Display clipboard after decrypting"
+#~ msgstr "แสดงคลิปบอร์ดหลังการถอดรหัสลับ"
+
+#~ msgid "Display clipboard after encrypting"
+#~ msgstr "แสดงคลิปบอร์ดหลังการเข้ารหัสลับ"
+
+#~ msgid "Expire passwords in the cache"
+#~ msgstr "เลิกใช้รหัสผ่านในแคชตามกำหนดเวลา"
+
+#~ msgid ""
+#~ "If set to 'mate' uses mate-keyring to cache passwords. When set to "
+#~ "'internal' uses internal cache."
+#~ msgstr ""
+#~ "ถ้ากำหนดเป็น 'mate' ก็จะใช้ mate-keyring เก็บแคชรหัสผ่าน ถ้ากำหนดเป็น 'internal' "
+#~ "ก็จะใช้แคชภายใน"
+
+#~ msgid "Prompt before using GPG passwords in cache"
+#~ msgstr "ถามก่อนใช้รหัสผ่าน GPG ในแคช"
+
+#~ msgid ""
+#~ "Reflect the contents of the clipboard (whether encrypted, signed, etc...) "
+#~ "in the panel applet icon."
+#~ msgstr ""
+#~ "แสดงสถานะเนื้อหาของคลิปบอร์ด (ว่าเข้ารหัสลับแล้ว, เซ็นแล้ว ฯลฯ) "
+#~ "ในไอคอนของแอพเพล็ตบนพาเนล"
+
+#~ msgid ""
+#~ "Set to 'true' to enable display of the cache reminder in the notification "
+#~ "area of your panel."
+#~ msgstr "กำหนดเป็นค่าจริง เพื่อเปิดใช้การเตือนเนื้อหาแคชในพื้นที่แจ้งเตือนของพาเนลของคุณ"
+
+#~ msgid ""
+#~ "Set to 'true' to have bastile-agent prompt before giving out passwords "
+#~ "it has cached."
+#~ msgstr "กำหนดเป็นค่าจริง ถ้าต้องการให้ bastile-agent ถามก่อนที่จะให้ใช้รหัสผ่านที่แคชไว้"
+
+#~ msgid "Show clipboard state in panel"
+#~ msgstr "แสดงสถานะคลิปบอร์ดในพาเนล"
+
+#~ msgid "The time (in minutes) to cache GPG passwords"
+#~ msgstr "ระยะเวลา (เป็นนาที) ที่จะแคชรหัสผ่าน GPG"
+
+#~ msgid ""
+#~ "This is the amount of time, specified in minutes, to cache GPG passwords "
+#~ "in bastile-agent."
+#~ msgstr "ระยะเวลาเป็นนาทีที่จะแคชรหัสผ่าน GPG ไว้ใน bastile-agent"
+
+#~ msgid ""
+#~ "This option enables the GPG password cache in the bastile-agent program. "
+#~ "The 'use-agent' setting in gpg.conf affects this setting."
+#~ msgstr ""
+#~ "ตัวเลือกนี้เปิดใช้แคชรหัสผ่าน GPG ในโปรแกรม bastile-agent ค่าตั้ง 'use-agent' ใน "
+#~ "gpg.conf จะมีผลต่อค่านี้"
+
+#~ msgid ""
+#~ "When set, bastile-agent expires GPG passwords in its cache after a "
+#~ "period of time."
+#~ msgstr ""
+#~ "เมื่อกำหนดใช้ข้อนี้ bastile-agent จะเลิกใช้รหัสผ่าน GPG ในแคชหลังจากครบกำหนดเวลา"
+
+#~ msgid "Whether the GPG password cache is enabled"
+#~ msgstr "จะเปิดใช้แคชรหัสผ่าน GPG หรือไม่"
+
+#~ msgid "None. Prompt for a key."
+#~ msgstr "ไม่มี ให้ถามหากุญแจเอา"
+
+#~ msgid "<b>Default Key</b>"
+#~ msgstr "<b>กุญแจปริยาย</b>"
+
+#~ msgid "<b>Remember PGP Passphrases</b>"
+#~ msgstr "<b>จำวลีรหัสผ่าน PGP</b>"
+
+#~ msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+#~ msgstr "<i>ไม่มีเอเจนต์สำหรับแคชวลีรหัสผ่าน PGP ที่รองรับทำงานอยู่</i>"
+
+#~ msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+#~ msgstr "<i>กุญแจนี้จะถูกใช้ในการเซ็นกำกับข้อความเมื่อไม่มีการเลือกกุญแจอื่น</i>"
+
+#~ msgid "As_k me before using a cached passphrase"
+#~ msgstr "_ถามก่อนที่จะใช้วลีรหัสผ่านที่แคชไว้"
+
+#~ msgid "Encryption"
+#~ msgstr "การเข้ารหัสลับ"
+
+#~ msgid "PGP Passphrases"
+#~ msgstr "วลีรหัสผ่าน PGP"
+
+#~ msgid "Show _icon in status area when passphrases are in memory"
+#~ msgstr "แสดงไ_อคอนในพื้นที่สถานะเมื่อมีวลีรหัสผ่านอยู่ในหน่วยความจำ"
+
+#~ msgid "When _encrypting, always include myself as a recipient"
+#~ msgstr "เมื่อเ_ข้ารหัสลับ นับฉันเป็นผู้รับด้วย"
+
+#~ msgid "_Always remember passphrases whenever logged in"
+#~ msgstr "จำวลีรหัสผ่านเ_สมอเมื่อเข้าระบบ"
+
+#~ msgid "_Default key:"
+#~ msgstr "กุญแจ_ปริยาย:"
+
+#~ msgid "_Never remember passphrases"
+#~ msgstr "ไ_ม่จำวลีรหัสผ่าน"
+
+#~ msgid "_Remember passphrases for"
+#~ msgstr "_จำวลีรหัสผ่านเป็นเวลา"
+
+#~ msgid "Couldn't set permissions on backup file."
+#~ msgstr "ไม่สามารถกำหนดสิทธิ์ให้กับแฟ้มสำรอง"
+
+#~ msgid "Clipboard Text Encryption"
+#~ msgstr "การเข้ารหัสลับข้อความในคลิปบอร์ด"
+
+#~ msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+#~ msgstr ""
+#~ "เข้ารหัสลับ, ถอดรหัสลับ, หรือเซ็นกำกับข้อความในคลิปบอร์ด (โดยใช้การเข้ารหัสลับแบบ PGP)"
+
+#~ msgid "Bastile Applet Factory"
+#~ msgstr "โรงงานแอพเพล็ต Bastile"
+
+#~ msgid "_Preferences"
+#~ msgstr "_ปรับแต่ง"
+
+#~ msgid "bastile-applet"
+#~ msgstr "bastile-applet"
+
+#~ msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+#~ msgstr ""
+#~ "ใช้ PGP/GPG ในการ เข้ารหัสลับ/ถอดรหัสลับ/เซ็นกำกับ/ตรวจสอบยืนยัน/นำเข้า "
+#~ "ข้อความในคลิปบอร์ด"
+
+#~ msgid "Choose Recipient Keys"
+#~ msgstr "เลือกกุญแจผู้รับ"
+
+#~ msgid "Encrypted Text"
+#~ msgstr "ข้อความเข้ารหัสลับ"
+
+#~ msgid "Encryption Failed"
+#~ msgstr "เข้ารหัสลับไม่สำเร็จ"
+
+#~ msgid "The clipboard could not be encrypted."
+#~ msgstr "ไม่สามารถเข้ารหัสลับข้อความในคลิปบอร์ดได้"
+
+#~ msgid "Choose Key to Sign with"
+#~ msgstr "เลือกกุญแจที่จะใช้เซ็น"
+
+#~ msgid "Signed Text"
+#~ msgstr "ข้อความเซ็นกำกับ"
+
+#~ msgid "Signing Failed"
+#~ msgstr "เซ็นกำกับไม่สำเร็จ"
+
+#~ msgid "The clipboard could not be Signed."
+#~ msgstr "ไม่สามารถเซ็นกำกับข้อความในคลิปบอร์ดได้"
+
+#~ msgid "Import Failed"
+#~ msgstr "นำเข้าไม่สำเร็จ"
+
+#~ msgid "Keys were found but not imported."
+#~ msgstr "พบกุญแจแต่นำเข้าไม่สำเร็จ"
+
+#~ msgid "Decrypting Failed"
+#~ msgstr "ถอดรหัสลับไม่สำเร็จ"
+
+#~ msgid "Text may be malformed."
+#~ msgstr "ข้อความอาจมีรูปแบบไม่ถูกต้อง"
+
+#~ msgid "No PGP key or message was found on clipboard"
+#~ msgstr "ไม่พบกุญแจหรือข้อความ PGP ในคลิปบอร์ด"
+
+#~ msgid "No PGP data found."
+#~ msgstr "ไม่พบข้อมูล PGP"
+
+#~ msgid "Decrypted Text"
+#~ msgstr "ข้อความถอดรหัสลับแล้ว"
+
+#~ msgid "Could not display the help file"
+#~ msgstr "ไม่สามารถแสดงแฟ้มวิธีใช้"
+
+#~ msgid "_Encrypt Clipboard"
+#~ msgstr "เ_ข้ารหัสลับคลิปบอร์ด"
+
+#~ msgid "_Sign Clipboard"
+#~ msgstr "เ_ซ็นกำกับคลิปบอร์ด"
+
+#~ msgid "_Decrypt/Verify Clipboard"
+#~ msgstr "_ถอดรหัสลับ/ตรวจสอบยืนยันคลิปบอร์ด"
+
+#~ msgid "_Import Keys from Clipboard"
+#~ msgstr "_นำเข้ากุญแจจากคลิปบอร์ด"
+
+#~ msgid "Encryption Applet"
+#~ msgstr "แอพเพล็ตเข้ารหัสลับ"
+
+#~ msgid "<b>Display clipboard contents after:</b>"
+#~ msgstr "<b>แสดงเนื้อหาคลิปบอร์ดหลังจาก:</b>"
+
+#~ msgid "Clipboard Encryption Preferences"
+#~ msgstr "ปรับแต่งการเข้ารหัสลับคลิปบอร์ด"
+
+#~ msgid "_Decrypting or verifying the clipboard"
+#~ msgstr "_ถอดรหัสลับหรือตรวจสอบยืนยันคลิปบอร์ด"
+
+#~ msgid "_Encrypting or signing the clipboard"
+#~ msgstr "เ_ข้ารหัสลับหรือเซ็นกำกับคลิปบอร์ด"
+
+#~ msgid "_Show clipboard state in panel"
+#~ msgstr "แ_สดงสถานะคลิปบอร์ดในพาเนล"
+
+#~ msgid "_Encrypt"
+#~ msgstr "เ_ข้ารหัสลับ"
+
+#~ msgid "_Decrypt/Verify"
+#~ msgstr "_ถอดรหัสลับ/ตรวจสอบยืนยัน"
+
+#~ msgid "_Import Key"
+#~ msgstr "_นำเข้ากุญแจ"
+
+#~ msgid "Couldn't connect to bastile-daemon"
+#~ msgstr "ไม่สามารถติดต่อไปยัง bastile-daemon"
+
+#~ msgid "Encrypted text"
+#~ msgstr "ข้อความเข้ารหัสลับ"
+
+#~ msgid "Couldn't encrypt text"
+#~ msgstr "ไม่สามารถเข้ารหัสลับข้อความ"
+
+#~ msgid "Keys found but not imported"
+#~ msgstr "พบกุญแจแต่ไม่ได้นำเข้า"
+
+#~ msgid "Couldn't decrypt text"
+#~ msgstr "ไม่สามารถถอดรหัสลับข้อความ"
+
+#~ msgid "Couldn't verify text"
+#~ msgstr "ไม่สามารถตรวจสอบยืนยันข้อความ"
+
+#~ msgid "No encrypted or signed text is selected."
+#~ msgstr "ไม่ได้เลือกข้อความที่เข้ารหัสลับหรือเซ็นกำกับไว้"
+
+#~ msgid "Decrypted text"
+#~ msgstr "ข้อความถอดรหัสลับแล้ว"
+
+#~ msgid "Verified text"
+#~ msgstr "ข้อความตรวจสอบยืนยันแล้ว"
+
+#~ msgid "Signed text"
+#~ msgstr "ข้อความเซ็นกำกับ"
+
+#~ msgid "Couldn't sign text"
+#~ msgstr "ไม่สามารถเซ็นกำกับข้อความ"
+
+#~ msgid "_Encrypt..."
+#~ msgstr "เ_ข้ารหัสลับ..."
+
+#~ msgid "Encrypt the selected text"
+#~ msgstr "เข้ารหัสลับข้อความที่เลือก"
+
+#~ msgid "Decr_ypt/Verify"
+#~ msgstr "_ถอดรหัสลับ/ตรวจสอบยืนยัน"
+
+#~ msgid "Decrypt and/or Verify text"
+#~ msgstr "ถอดรหัสลับ และ/หรือ ตรวจสอบยืนยันข้อความ"
+
+#~ msgid "Sig_n..."
+#~ msgstr "เซ็_นกำกับ..."
+
+#~ msgid "Sign the selected text"
+#~ msgstr "เซ็นกำกับข้อความที่เลือก"
+
+#~ msgid "Enable the bastile encryption plugin for pluma."
+#~ msgstr "เปิดใช้ปลั๊กอินเข้ารหัสลับ bastile สำหรับ pluma"
+
+#~ msgid "Enable the bastile pluma plugin"
+#~ msgstr "เปิดใช้ปลั๊กอิน bastile สำหรับ pluma"
+
+#~ msgid "Text Encryption"
+#~ msgstr "เข้ารหัสลับข้อความ"
+
+#~ msgid "This plugin performs encryption operations on text."
+#~ msgstr "ดำเนินการเข้ารหัสลับกับข้อความ"
+
+#~ msgid "Encrypt..."
+#~ msgstr "เข้ารหัสลับ..."
+
+#~ msgid "Encrypt (and optionally sign) the selected file"
+#~ msgid_plural "Encrypt the selected files"
+#~ msgstr[0] "เข้ารหัสลับ (และอาจเซ็นกำกับ) แฟ้มที่เลือก"
+
+#~ msgid "Sign the selected file"
+#~ msgid_plural "Sign the selected files"
+#~ msgstr[0] "เซ็นกำกับแฟ้มที่เลือก"
+
+#~ msgid "For internal use"
+#~ msgstr "สำหรับใช้เป็นการภายใน"
+
+#~ msgid "Encryption Preferences"
+#~ msgstr "ปรับแต่งการเข้ารหัสลับ"
+
+#~ msgid "Configure key servers and other encryption settings"
+#~ msgstr "ตั้งค่าเซิร์ฟเวอร์กุญแจและค่าตั้งอื่นๆ เกี่ยวกับการเข้ารหัสลับ"
+
+#~ msgid "Encryption and Keyrings"
+#~ msgstr "การเข้ารหัสลับและพวงกุญแจ"
+
+#~ msgid "Encrypt file"
+#~ msgstr "เข้ารหัสลับแฟ้ม"
+
+#~ msgid "Sign file with default key"
+#~ msgstr "เซ็นกำกับแฟ้มด้วยกุญแจปริยาย"
+
+#~ msgid "Encrypt and sign file with default key"
+#~ msgstr "เข้ารหัสลับและเซ็นกำกับแฟ้มด้วยกุญแจปริยาย"
+
+#~ msgid "Decrypt encrypted file"
+#~ msgstr "ถอดรหัสลับแฟ้ม"
+
+#~ msgid "Verify signature file"
+#~ msgstr "ตรวจสอบยืนยันแฟ้มลายเซ็น"
+
+#~ msgid "Read list of URIs on standard in"
+#~ msgstr "อ่านรายการ URI จากอินพุตมาตรฐาน"
+
+#~ msgid "file..."
+#~ msgstr "แฟ้ม..."
+
+#~ msgid "Choose Recipients"
+#~ msgstr "เลือกผู้รับ"
+
+#~ msgid "Couldn't load keys"
+#~ msgstr "ไม่สามารถโหลดกุญแจ"
+
+#~ msgid "Choose Encrypted File Name for '%s'"
+#~ msgstr "ตั้งชื่อแฟ้มเข้ารหัสลับสำหรับ '%s'"
+
+#~ msgid "Choose Signer"
+#~ msgstr "เลือกผู้เซ็น"
+
+#~ msgid "Choose Signature File Name for '%s'"
+#~ msgstr "ตั้งชื่อแฟ้มลายเซ็นสำหรับ '%s'"
+
+#~ msgid "Import is complete"
+#~ msgstr "การนำเข้าเสร็จสมบูรณ์"
+
+#~ msgid "Importing keys ..."
+#~ msgstr "กำลังนำเข้ากุญแจ..."
+
+#~ msgid "Choose Decrypted File Name for '%s'"
+#~ msgstr "ตั้งชื่อแฟ้มถอดรหัสลับสำหรับ '%s'"
+
+#~ msgid "Choose Original File for '%s'"
+#~ msgstr "ตั้งชื่อแฟ้มสำหรับข้อมูลเริ่มแรกสำหรับ '%s'"
+
+#~ msgid "No valid signatures found"
+#~ msgstr "ไม่พบลายเซ็นที่ใช้การได้"
+
+#~ msgid "File Encryption Tool"
+#~ msgstr "เครื่องมือเข้ารหัสลับแฟ้ม"
+
+#~ msgid "Encrypting"
+#~ msgstr "กำลังเข้ารหัสลับ"
+
+#~ msgid "Couldn't encrypt file: %s"
+#~ msgstr "ไม่สามารถเข้ารหัสลับแฟ้ม: %s"
+
+#~ msgid "Signing"
+#~ msgstr "กำลังเซ็นกำกับ"
+
+#~ msgid "Couldn't sign file: %s"
+#~ msgstr "ไม่สามารถเซ็นกำกับแฟ้ม: %s"
+
+#~ msgid "Importing"
+#~ msgstr "กำลังนำเข้า"
+
+#~ msgid "Couldn't import keys from file: %s"
+#~ msgstr "ไม่สามารถนำเข้ากุญแจจากแฟ้ม: %s"
+
+#~ msgid "Decrypting"
+#~ msgstr "กำลังถอดรหัสลับ"
+
+#~ msgid "Couldn't decrypt file: %s"
+#~ msgstr "ไม่สามารถถอดรหัสลับแฟ้ม: %s"
+
+#~ msgid "Verifying"
+#~ msgstr "กำลังตรวจสอบยืนยัน"
+
+#~ msgid "Couldn't verify file: %s"
+#~ msgstr "ไม่สามารถตรวจสอบยืนยันแฟ้ม: %s"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+
+#~ msgid "Self-extracting zip (.exe)"
+#~ msgstr "Zip ที่แตกตัวเอง (.exe)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "Tar ที่ไม่บีบอัด (.tar)"
+
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "Tar ที่บีบอัดด้วย bzip (.tar.bz)"
+
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "Tar ที่บีบอัดด้วย bzip2 (.tar.bz2)"
+
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "Tar ที่บีบอัดด้วย gzip (.tar.gz)"
+
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "Tar ที่บีบอัดด้วย lzop (.tar.lzo)"
+
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "Tar ที่บีบอัดด้วย compress (.tar.Z)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+
+#~ msgid "Zip (.zip)"
+#~ msgstr "Zip (.zip)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+
+#~ msgid "You have selected %d file "
+#~ msgid_plural "You have selected %d files "
+#~ msgstr[0] "คุณได้เลือกแฟ้ม %d แฟ้ม "
+
+#~ msgid "and %d folder"
+#~ msgid_plural "and %d folders"
+#~ msgstr[0] "และโฟลเดอร์ %d โฟลเดอร์"
+
+#~ msgid "<b>%s%s</b>"
+#~ msgstr "<b>%s%s</b>"
+
+#~ msgid "You have selected %d files"
+#~ msgstr "คุณได้เลือกแฟ้ม %d แฟ้ม"
+
+#~ msgid "You have selected %d folder"
+#~ msgid_plural "You have selected %d folders"
+#~ msgstr[0] "คุณได้เลือกโฟลเดอร์ %d โฟลเดอร์"
+
+#~ msgid "Couldn't list files"
+#~ msgstr "ไม่สามารถไล่เรียงรายการแฟ้ม"
+
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "ไม่สามารถดึงข้อมูลกุญแจ"
+
+#~ msgid "Couldn't write key to file"
+#~ msgstr "ไม่สามารถเขียนกุญแจลงแฟ้ม"
+
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "กุญแจเข้ารหัสลับจากเครือข่าย"
+
+#~ msgid "Decrypt File"
+#~ msgstr "ถอดรหัสลับแฟ้ม"
+
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "ฉันได้ตรวจสอบแล้วว่ากุญแจนี้เป็นของ '%s'"
+
+#~ msgid "Verify Signature"
+#~ msgstr "ตรวจสอบยืนยันลายเซ็น"
+
+#~ msgid "couldn't read gpg configuration, will try to create"
+#~ msgstr "ไม่สามารถอ่านค่าตั้ง gpg ได้ จะพยายามสร้างค่าตั้ง"
+
+#~ msgid "couldn't modify gpg configuration: %s"
+#~ msgstr "ไม่สามารถเปลี่ยนแปลงค่าตั้ง gpg ได้: %s"
+
+#~ msgid ""
+#~ "Display variables instead of editing conf files (gpg.conf, SSH agent "
+#~ "socket)"
+#~ msgstr "แสดงตัวแปรแทนการแก้ไขแฟ้มค่าตั้ง (gpg.conf, ซ็อกเก็ตของเอเจนต์ SSH)"
+
+#~ msgid "couldn't drop privileges properly"
+#~ msgstr "ไม่สามารถลดอภิสิทธิ์ได้อย่างเหมาะสม"
+
+#~ msgid ""
+#~ "When set bastile-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+#~ msgstr ""
+#~ "เมื่อเปิดใช้ค่านี้ bastile-agent จะพยายามโหลดกุญแจ SSH "
+#~ "ของผู้ใช้โดยอัตโนมัติเมื่อจำเป็นต้องใช้ การโหลดดังกล่าวมีผลเสมือนกับใช้เครื่องมือ ssh-add "
+#~ "นั่นเอง"
+
+#~ msgid "Whether to automatically load SSH keys on demand."
+#~ msgstr "จะโหลดกุญแจ SSH โดยอัตโนมัติตามความต้องการหรือไม่"
+
+#~ msgid "Couldn't open the Session Properties"
+#~ msgstr "ไม่สามารถเปิดเครื่องมือตั้งค่าของวาระ"
+
+#~ msgid "Couldn't start the 'bastile-agent' program"
+#~ msgstr "เรียกโปรแกรม 'bastile-agent' ไม่สำเร็จ"
+
+#~ msgid "The 'bastile-agent' program exited unsuccessfully."
+#~ msgstr "โปรแกรม 'bastile-agent' จบการทำงานแบบไม่สำเร็จ"
+
+#~ msgid ""
+#~ "<b>Note:</b> The 'bastile-agent' program has been started. This program "
+#~ "is necessary in order to cache passphrases. "
+#~ msgstr ""
+#~ "<b>หมายเหตุ:</b> โปรแกรม 'bastile-agent' กำลังทำงานอยู่ "
+#~ "จำเป็นต้องใช้โปรแกรมนี้ในการแคชวลีรหัสผ่าน"
+
+#~ msgid "<b>Secure Shell Keys</b>"
+#~ msgstr "<b>กุญแจเชลล์นิรภัย</b>"
+
+#~ msgid ""
+#~ "<b>Warning:</b> The 'bastile-agent' program is not running. This program "
+#~ "is necessary in order to cache passphrases. "
+#~ msgstr ""
+#~ "<b>คำเตือน:</b> โปรแกรม 'bastile-agent' ไม่ได้ทำงานอยู่ "
+#~ "จำเป็นต้องใช้โปรแกรมนี้ในการแคชวลีรหัสผ่าน"
+
+#~ msgid ""
+#~ "<i>No SSH caching agent is running. Cannot load Secure Shell keys.</i>"
+#~ msgstr "<i>ไม่มีเอเจนต์สำหรับแคช SSH ทำงานอยู่ จึงไม่สามารถโหลดกุญแจเชลล์นิรภัยได้</i>"
+
+#~ msgid "Automatically load _Secure Shell keys"
+#~ msgstr "โหลดกุญแจเ_ชลล์นิรภัยโดยอัตโนมัติ"
+
+#~ msgid ""
+#~ "Changing the master password failed.  Make certain that you entered the "
+#~ "correct original master password."
+#~ msgstr "เปลี่ยนรหัสผ่านหลักไม่สำเร็จ แน่ใจหรือว่าคุณได้ป้อนรหัสผ่านหลักเดิมถูกต้อง"
+
+#~ msgid "Confirm Master Password:"
+#~ msgstr "ยืนยันรหัสผ่านหลัก:"
+
+#~ msgid ""
+#~ "MATE Keyring stores passwords, network keys, passphrases and other "
+#~ "secrets required for authentication.  A <b>master password</b> is used to "
+#~ "protect these secrets.  The <b>master password</b> can be changed below."
+#~ msgstr ""
+#~ "พวงกุญแจ MATE จะเก็บรหัสผ่าน, กุญแจเครือข่าย, วลีรหัสผ่าน "
+#~ "และรหัสลับสำหรับยืนยันตัวบุคคลทั้งหลาย <b>รหัสผ่านหลัก</b> จะใช้รักษาข้อมูลลับเหล่านี้ "
+#~ "ซึ่งคุณสามารถเปลี่ยน <b>รหัสผ่านหลัก</b> ได้ที่ด้านล่างนี้"
+
+#~ msgid "New Master Password:"
+#~ msgstr "ตั้งรหัสผ่านหลัก:"
+
+#~ msgid "Original Master Password:"
+#~ msgstr "รหัสผ่านหลักเดิม:"
+
+#~ msgid "Passphrase Cache"
+#~ msgstr "แคชวลีรหัสผ่าน"
+
+#~ msgid "Session Properties"
+#~ msgstr "ตั้งค่าวาระ"
+
+#~ msgid "The master password was successfully changed."
+#~ msgstr "เปลี่ยนรหัสผ่านหลักเรียบร้อยแล้ว"
+
+#~ msgid ""
+#~ "To avoid manually starting the 'bastile-agent' in the future\n"
+#~ "add it to the Session Manager. "
+#~ msgstr ""
+#~ "เพื่อเลี่ยงการเรียก 'bastile-agent' เองทุกครั้งในครั้งต่อๆ ไป\n"
+#~ "คุณสามารถเพิ่มการเรียกในโปรแกรมจัดการวาระได้เลย"
+
+#~ msgid "<b>Progress Message</b>"
+#~ msgstr "<b>ข้อความความคืบหน้า</b>"
+
+#~ msgid "Progress Status"
+#~ msgstr "สถานะของความคืบหน้า"
+
+#~ msgid "<b>Login:</b>"
+#~ msgstr "<b>ชื่อเข้าระบบ:</b>"
+
+#~ msgid "<b>Server:</b>"
+#~ msgstr "<b>เซิร์ฟเวอร์:</b>"
+
+#~ msgid "[details]\n"
+#~ msgstr "[รายละเอียด]\n"
+
+#~ msgid "[login]"
+#~ msgstr "[ชื่อเข้าระบบ]"
+
+#~ msgid "[server]"
+#~ msgstr "[เซิร์ฟเวอร์]"
+
+#~ msgid "gtk-apply"
+#~ msgstr "gtk-apply"
+
+#~ msgid "gtk-clear"
+#~ msgstr "gtk-clear"
+
+#~ msgid "Cursor Position"
+#~ msgstr "ตำแหน่งเคอร์เซอร์"
+
+#~ msgid "The current position of the insertion cursor in chars"
+#~ msgstr "ตำแหน่งปัจจุบันของเคอร์เซอร์สำหรับแทรก ในหน่วยอักขระ"
+
+#~ msgid "Selection Bound"
+#~ msgstr "ขอบเขตการเลือก"
+
+#~ msgid ""
+#~ "The position of the opposite end of the selection from the cursor in chars"
+#~ msgstr "ตำแหน่งอีกปลายข้างหนึ่งของการเลือกจากเคอร์เซอร์ ในหน่วยอักขระ"
+
+#~ msgid "Maximum length"
+#~ msgstr "ความยาวสูงสุด"
+
+#~ msgid "Maximum number of characters for this entry. Zero if no maximum"
+#~ msgstr "จำนวนอักขระสูงสุดสำหรับช่องป้อนข้อความนี้ ค่าศูนย์หมายถึงไม่มีขีดจำกัด"
+
+#~ msgid "Has Frame"
+#~ msgstr "มีกรอบ"
+
+#~ msgid "FALSE removes outside bevel from entry"
+#~ msgstr "ค่า FALSE จะลบขอบออกจากช่องป้อนนี้"
+
+#~ msgid "Invisible character"
+#~ msgstr "อักขระปกปิด"
+
+#~ msgid ""
+#~ "The character to use when masking entry contents (in \"password mode\")"
+#~ msgstr "อักขระที่จะใช้ปกปิดเนื้อหาที่ป้อน (ใน \"โหมดรหัสผ่าน\")"
+
+#~ msgid ""
+#~ "Whether to activate the default widget (such as the default button in a "
+#~ "dialog) when Enter is pressed"
+#~ msgstr "จะเรียกวิดเจ็ตปริยาย (เช่น ปุ่มปริยายในกล่องโต้ตอบ) เมื่อมีการกด Enter หรือไม่"
+
+#~ msgid "Width in chars"
+#~ msgstr "ความกว้างเป็นอักขระ"
+
+#~ msgid "Number of characters to leave space for in the entry"
+#~ msgstr "จำนวนอักขระที่จะเว้นที่ไว้ให้ในช่องป้อนข้อความ"
+
+#~ msgid "Scroll offset"
+#~ msgstr "ออฟเซ็ตการเลื่อน"
+
+#~ msgid "Number of pixels of the entry scrolled off the screen to the left"
+#~ msgstr "จำนวนพิกเซลที่ช่องป้อนข้อความมีการเลื่อนออกนอกกรอบไปทางซ้าย"
+
+#~ msgid "Text"
+#~ msgstr "ข้อความ"
+
+#~ msgid "The contents of the entry"
+#~ msgstr "เนื้อหาในช่องป้อนข้อความ"
+
+#~ msgid "Visibility"
+#~ msgstr "การเปิดเผยเนื้อหา"
+
+#~ msgid "Whether contents are drawn using invisible character"
+#~ msgstr "จะแสดงเนื้อหาโดยใช้อักขระปกปิดหรือไม่"
+
+#~ msgid "Key type / algorithm"
+#~ msgstr "ชนิด / อัลกอริทึม ของกุญแจ"
+
+#~ msgid "[Type here]"
+#~ msgstr "[ชนิด]"
+
+#~ msgid "[Use here]"
+#~ msgstr "[วิธีใช้]"
+
+#~ msgid "This key expired on: (placeholder)"
+#~ msgstr "กุญแจนี้หมดอายุแล้วเมื่อ: (placeholder)"
+
+#~ msgid "Imported %d keys"
+#~ msgstr "นำเข้ากุญแจแล้ว %d ดอก"
+
+#~ msgid "Selected %d keys"
+#~ msgstr "เลือกกุญแจ %d ดอก"

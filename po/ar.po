@@ -1,0 +1,3227 @@
+# translation of bastile.HEAD.po to Arabic
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010, 2011.
+# Ahmad Farghal <ahmad.farghal@gmail.com>, 2007.
+# Usama Akkad <uak@aya.sy>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-05 19:15+0200\n"
+"PO-Revision-Date: 2011-02-05 19:14+0300\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Virtaal 0.6.1\n"
+"X-Poedit-Language: Arabic\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "لا تشغِّل bastile-daemon كعفريت"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "تعذّر تشعيب العملية"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "تعذّر بدأ مجموعة عملية جديدة"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "عفريت التعمية (حصان البحر)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "نوع مفتاح مجهول أو غير صالح: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "نوع المفتاح هذا غير مدعوم: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "لم يفعّل دعم هذه الخاصية أثناء البناء"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "مفتاح مجهول أو غير صالح: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "وقّعه <i><key id='%s'/> <b>انتهت صلاحيته</b></i> في  %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "توقيع غير صالح"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "وقّعه <i><key id='%s'/> في %s <b>انتهت صلاحيته</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "توقيع منتهي الصلاحية"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "وقّعه <i><key id='%s'/> <b>نُقِض</b></i> في %s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "توقيع منقوض"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "وقّعه <i><key id='%s'/> في %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "توقيع سليم"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "مفتاح التوقيع ليس في حلقة المفاتيح."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "توقيع مجهول"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "توقيع سيء أو مُزوّر. لقد عُدِّلت البيانات المُوقّعة."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "توقيع سيّء"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "تعذّر التحقق من التوقيع"
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "مُوقِّع مجهول أو غير صالح: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "لا يصلح المفتاح للتوقيع: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "مُستلِم مجهول أو غير صالح: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "ليس المفتاخ مُستلِما صالحا للتعمية: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "لم يحدّد أي مُستلِم"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "نوع مفتاح غير صالح لاستخراج التعمية: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "لم يحدّد أي مُوقِّع"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "نوع مفتاح غير صالح للتحقق: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "معرّف مفتاح غير صالح: %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"قائمة بخواديم المفاتيح أو مسارات لمفاتيح PGP البعيدة. في الإصدارة الأخيرة "
+"يُمكن تضمين اسم عرض، بإلحاق مسافة ثم الاسم."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "اجلب المفاتيح آليا"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "زامن المفاتيح آليا"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "يتحكم في ظهور عمود انتهاء الصلاحية في مدير المفاتيح."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "يتحكم في ظهور عمود الثقة في مدير المفاتيح."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "يتحكم في ظهور عمود النوع في مدير المفاتيح."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "يتحكم في ظهور عمود الصلاحية في مدير المفاتيح."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "فعِّل مُشاركة DNS-SD"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"فعِّل مُشاركة ‪DNS-SD (Apple Bonjour)‬ للمفاتيح. يجب أن يكون bastile-daemon "
+"مُشتغلا وأن يكون قد بُنِي بدعم HKP و DNS-SD."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "هويّة المفتاح المبدئي"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"إذا ضُبِط لصحيح، فستُصبح الملفات المعمّاة بواسطة حصان البحر مرمّزة بأسكي مصفّح."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "إذا ضُبِط لصحيح، سيُضاف المُفتاح المبدئي دائما إلى قائمة مُستلِمي التعمية."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "آخر نمط بحث في خادوم مفاتيح"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "آخر خادوم مفاتيح استُخدِم"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "آخر مفتاح استُخدِم لتوقيع رسالة."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "خواديم مفاتيح PGP"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "انشر في خادوم المفاتيح هذا."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "اعرض عمود انتهاء الصلاحية في مدير المفاتيح"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "اعرض عمود الثقة في مدير المفاتيح"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "اعرض عمود النوع في مدير المفاتيح"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "اعرض عمود الصلاحية في مدير المفاتيح"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"حدد العمود الذي سترتب نافذة المستلمين طبقا له، الأعمدة هي 'name' و 'id'. ضع "
+"'-' أمام اسم العمود لترتب تنازليا."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"حدد العمود الذي سترتب نافذة مدير مفاتيح حصان البحر طبقا له. أسماء الأعمدة هي "
+"'name'، و 'id'، و 'validity'، و 'expires'، و trust' و 'type'. ضع '-' أمام "
+"اسم العمود لترتب تنازليا."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "معرّف آخر مفتاح سري استخدم لتوقيع رسالة."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "العمود الذي سيرتب المستلمون طبقا له"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "العمود الذي سترتب مفاتيح حصان البحر طبقا له"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"خادوم المفاتيح الذي ستنشر به مفاتيح PGP. أو اجعله خاليا لتثبِّط نشر مفاتيح PGP."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr "آخر خادوم مفاتيح بُحث به أو فارغا لكل خواديم المفاتيح."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "آخر نمط بحث بحث عنه في خادوم مفاتيح."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "يحدد هذا المفتاح المبدئي الذي سيستخدم في عمليات معيّنة، غالبا التوقيع."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr ""
+"ما إذا كان من المتعين الحصول آليا على المفاتيح المعدّلة من خادوم المفاتيح "
+"المبدئي أم لا."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"ما إذا كان من المتعين مزامنة المفاتيح المعدّلة آليا مع خادوم المفاتيح المبدئي "
+"أم لا."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "ما إذا كان سيُعمِّي دائما بالمفتاح المبدئي"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "فيما إذا سيستخدم أسكي مُحصّن"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "أضِف حلقة كلمات سر"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "اسم الحلقة الجديدة:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr "من فضلك اختر اسما للحلقة الجديدة. ستسأل عن كلمة سر للفتح."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "اسم المستضيف أو عنوان الخادوم."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "تعذّر إضافة حلقة مفاتيح"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "أضف كلمة سر"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "ال_وصف:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_حلقة المفاتيح:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_كلمة السر:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "أ_ظهر كلمة السر"
+
+#: ../gkr/bastile-gkr-item.c:473
+msgid "Web Password"
+msgstr "كلمة سر وِِب"
+
+#: ../gkr/bastile-gkr-item.c:475
+msgid "Network Password"
+msgstr "كلمة السر شبكة"
+
+#: ../gkr/bastile-gkr-item.c:477 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "كلمة السر"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "أمتأكد من رغبتك بحذف كلمة السر '%s'؟"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "أمتأكد من رغبتك بحذف %d كلمات سر؟"
+msgstr[1] "أمتأكد من رغبتك بحذف كلمة سر واحدة؟"
+msgstr[2] "أمتأكد من رغبتك بحذف كلمتي سر؟"
+msgstr[3] "أمتأكد من رغبتك بحذف %d كلمات سر؟"
+msgstr[4] "أمتأكد من رغبتك بحذف %d كلمة سر؟"
+msgstr[5] "أمتأكد من رغبتك بحذف %d كلمة سر؟"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "انفُذ إلى مشاركة أو مورِد على شبكة"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "انفُذ لموقع وِب"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "يفتح مفتاح PGP"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "يفتح مفتاح صدفة آمنة"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "كلمة سر أو ولوج محفوظ"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "مُؤهلات الشبكة"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "تعذّر تغيير كلمة السر."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "تعذّر وضع وصف."
+
+#: ../gkr/bastile-gkr-item-properties.c:656
+msgid "Couldn't set application access."
+msgstr "تعذّر ضبط نفاذ التطبيق."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>كلمة السر:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>المسار:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>الصلاحيات:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>التفاصيل التقنية:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "التطبيقات"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "التفاصيل"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "مفتاح"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "خصائص المفتاح"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "الولوج:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "الخادوم:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "أظهر _كلمة السر"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "النّوع:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "الاستخدام:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "_احذف"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "_اقرأ"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "ا_كتب"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "يجري سرد كلمات السر"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "كلمات السر: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>كلمات السر:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "حلقة مفاتيح كلمات السر"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "تستخدم لحفظ كلمات سر التطبيقات والشبكة:"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "كلمات السر المحفوظة"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "احفظ كلمة سر أو أمر سري بأمان."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "تعذّر فتح حلقة المفاتيح"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "تعذّر إيصاد حلقة المفاتيح"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "تعذّر تحديد حلقة المفاتيح المبدئية"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "تعذّر تغيير كلمة سر حلقة المفاتيح"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "أو_صد"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr ""
+"أوصد حلقة مفاتيح تخزين كلمات السر بحيث تحتاج إلى كلمة سر رئيسية لفتحها."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "ا_فتح"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"افتح حلقة مفاتيح تخزين كلمات السر بكلمة السر الرئيسية بحيث تتاح للاستخدام."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "اجعلها المب_دئية"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "عادة ما تحفظ التطبيقات كلمات السر في حلقة المفاتيح المبدئية."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "_غيّر كلمة السر"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "غير كلمة سر حلقة مفاتيح تخزين كلمات الير"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "أمتأكد من رغبتك بحذف حلقة مفاتيح كلمات السر '%s'؟"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "تاريخ الإنشاء:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "حلقة مفاتيح"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "خصائص حلقة المفاتيح"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "الا_سم:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "مُنِع الوصول لحلقة المفاتيح"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "رقيب حلقة مفاتيح جنوم غير مشغل"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "لقد فُتحت حلقة المفتيح مُسبقا"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "ليس ثمّة مفتاح"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "تعذر التواصل مع رقيب حلقة المفاتيح"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "العنصر موجود مسبقا"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "خطأ داخلي أثناء محاولة الوصول لحلقة مفاتيح جنوم"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "يحفظ العنصر..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "يحذف العنصر..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "يحذف حلقة المفاتيح..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "يسرد حلقات المفاتيح"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"لا مفاتيح تعمية لتأدية العملية التي طلبتها.  برنامج <b>كلمات السر و مفاتيح "
+"التعمية </b> لن يبدأ لذا عليك إنشاء مفتاح أو استيراد واحد."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "كل المفاتيح"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "المستلمون المُحددون"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "ا_بحث عن:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "لا شيء (لا تُوقِّع)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "وقع الرسالة كـ %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "_وقِّع الرسالة كـ:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "الاسم"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "معرّف المفتاح"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "اعرض الشارات"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "خصائص التاريخ و/أو الوقت المعروضة"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "الطور الكسول"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "الطور الكسول لا يُطبّع قيم التاريخ والوقت المدخلة"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "السنة"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "السنة المعروضة"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "الشهر"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "الشهر المعروض"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "اليوم"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "يوم الشهر المعروض"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "الساعة"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "الساعة المعروضة"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "الدقيقة"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "الدقيقة المعروضة"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "الثانية"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "الثانية المعروضة"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "سنة الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "جزء السنة من تاريخ الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "سنة الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "جزء السنة من تاريخ الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "شهر الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "جزء الشهر من تاريخ الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "شهر الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "جزء الشهر من تاريخ الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "يوم الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "جزء اليوم من تاريخ الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "يوم الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "جزء اليوم من تاريخ الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "ساعة الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "جزء الساعة من تاريخ الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "ساعة الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "جزء الساعة من تاريخ الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "دقيقة الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "جزء الدقيقة من تاريخ الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "دقيقة الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "جزء الدقيقة من تاريخ الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "ثانية الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "جزء الثانية من تاريخ الحد الأدنى"
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "ثانية الحد الأقصى"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "جزء الثانية من تاريخ الحد الأدنى"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "التاريخ"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "أدخِل التاريخ مباشرة"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "اختر تاريخا"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "اختر تاريخا من التقويم"
+
+#: ../libegg/egg-datetime.c:529 ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "الوقت"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "أدخل الوقت مباشرة"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "اختر وقتا"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "اختر وقتا من القائمة"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "24hr: no"
+
+#: ../libegg/egg-datetime.c:814 ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "ص"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "م"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%I02d:%I02d:%I02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%I02d:%I02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%I02d:%I02d:%I02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%I02d:%I02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%I04d-%I02d-%I02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%Iu:%Iu:%Iu"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "ليس الملف ملف .desktop سليم"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "إصدارة ملف سطح مكتب غير معروفة '%s'"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "بدء %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "التطبيق لا يقبل مستندات في سطر الأوامر"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "خيار إطلاق غير معروف %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "تعذّر تمرير مسارات المستندات إلى 'Type=Link' في مدخلة سطح المكتب"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "عنصر لا يُطلق"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "عطّل الاتصال بمدير الجلسات"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "حدد ملفا يحتوي الإعدادات المحفوظة"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "حدد معرف إدارة الجلسة"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "المعرّف"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "خيارات إدارة الجلسات:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "اعرض خيارات إدارة الجلسات"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "أضِف خادوم مفاتيح"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "المستضيف:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "نوع خادوم المفاتيح:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "المنفذ الذي يتم الوصول إلى الخادوم عبره."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "عنصر مؤقت أولي"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "لم تستورد مفاتيح"
+msgstr[1] "استورد مفتاح"
+msgstr[2] "استورد مفتاحين"
+msgstr[3] "استوردت مفاتيح"
+msgstr[4] "استوردت مفاتيح"
+msgstr[5] "استوردت مفاتيح"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "لم تستورد مفاتيح"
+msgstr[1] "استورد مفتاح واحد"
+msgstr[2] "استورد مفتاحين"
+msgstr[3] "استورد %i مفاتيح"
+msgstr[4] "استورد %i مفتاحا"
+msgstr[5] "استورد %i مفتاح"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "لم تستورد مفاتيح لـ"
+msgstr[1] "استورد مفتاح واحد لـ"
+msgstr[2] "استورد مفتاحين لـ"
+msgstr[3] "استوردت مفاتيح لـ"
+msgstr[4] "استوردت مفاتيح لـ"
+msgstr[5] "استوردت مفاتيح لـ"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "رسائل التنبيه"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "مفتاح متماثل"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "مفتاح علني"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "مفتاح سري"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "الاعتمادات"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "الهوية"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "عبارة السر"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "كلمة السر:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "أكِّد:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "ليس عنوانا سليما لخادوم مفاتيح."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr "اتصل بمدير نظامك أو بمدير خادوم المفاتيح لتحصل على مساعدة."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "مسار"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "مخصّص"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "لا: لا تنشر المفاتيح"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "ا_جلب المفاتيح آليا من خواديم المفاتيح"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "_زامن المفاتيح المعدّلة آليا مع خواديم المفاتيح."
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "خواديم المفاتيح"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "التفضيلات"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "ا_بحث عن المفاتيح بواسطة:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "ا_نشر المفاتيح في:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "عنوان التقدّم"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "غير متوفّر"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%OG-%Om-%Od"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "بيانات المفتاح"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "مفاتيح متعددة"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "تعذّر تشغيل مُأرشف الملفات"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "تعذّر تحزيم الملفات"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "لم تُكمل عملية مُأرشف الملفات بنجاح"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "كل ملفات المفاتيح"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "كل الملفات"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "ملفات الأرشيفات"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>يوجد بالفعل ملف بهذا الاسم.</b>\n"
+"\n"
+"أترغب في استبداله بملف جديد؟"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "است_بدل"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "مجهول"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "أبدًا"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "هامشي"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "كامل"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "نهائي"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "معطل"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "منقوض"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "تعذّر عرض المساعدة: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "تاريخ الانتهاء:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "ولِّد مفتاح فرعي جديد"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "إذا كان المفتاح لا ينتهي أبدًا"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "_طول المفتاح:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "نوع ال_مفتاح:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "طول المفتاح"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "لا ينت_هي أبدا"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "أضف معرّف المستخدم"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "أنشئ معرّف مستخدم جديد"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "الاسم الكامل:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "_تعليق المُفتاح:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "يجب أن يكون طوله 5 محارف على الأقل"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "تعليق اختياري يصف المفتاح"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "عنوان بريد إلكتروني اختياري"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_عنوان البريد الإلكتروني:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_غيِّر"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "انقض المفتاح"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "لا _ينتهي أبدا"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "تعذّر إضافة مفتاح فرعي"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "أضِف مفتاحا فرعيا إلى %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "‏DSA (توقيع فقط)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "الجمل (تعمية فقط)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "‏RSA (توقيع فقط)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "‏RSA (تعمية فقط)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "تعذّر إضافة معرّف المستخدم"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "أضف معرّف المستخدم إلى %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "فشل استخراج التعمية. ؤبما لا تملك مفتاح التعمية."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "تاريخ انتهاء غير سليم"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "يجب أن يكون تاريخ انتهاء الصلاحية في المستقبل"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "تعذّر تغيير تاريخ الانتهاء"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "انتهاء الصلاحية: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "مفتاح PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "يُستُخدم لتعمية البريد والملفات"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "خوارزمية الجمل للتوقيع الإلكتروني"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "تعذّر توليد مفتاح PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "عبارة السر لمفتاح PGP الجديد"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "أدخل عبارة السر لمفتاحك الجديد مرتين."
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "تعذّر توليد المفتاح"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "يجري توليد المفتاح"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "كلمة السر خطأ"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "هذه المرة الثالثة التي تدخل فيها كلمة سر خطأ. أعد المحاولة من فضلك."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>الصورة كبيرة جدا</b></big>\n"
+"المقاس المنصوح به لمفتاحك هو %Id × %Id بكسِل"
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_لا تُعِد التحجيم"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "أ_عِد التحجيم"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"لليس هذا بملف صورة، أو بنوع معروف من مفات الصور. حاوِل استخدام صورة JPEG."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "كل ملفات الصور"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "كل ملفات JPEG"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "اختر صورة لتُضاف إلى المفتاح"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "تعذّر إضافة الصورة"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "تعذّر تحميل الملف. قد يكون بتنسيق غير صالح"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "أواثق من رغبتك في حذف الصورة الحالية من المفتاح؟"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "تعذّر حذف الصورة"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "تعذّر نقض المفتاح الفرعي"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "انقض: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "لا سبب"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "لا سبب لسحب المفتاح"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "معرّض للمخاطِر"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "لقد تعرّض هذا المفتاح للخطر"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "أُلغِي"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "أُلغِي المفتاح"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "غير مُستخدَم"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "لم يعد هذا المفتاح مًستخدما بعد الآن"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"أنت على وشك إضافة %s كناقض لـ %s. لا يمكن التراجع في هذا! أواثق من رغبتك في "
+"المتابعة؟"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "تعذّر إضافة الناقض"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"هذا المفتاح وقعه سابقا\n"
+"\"%s\""
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "تعذّر توقيع المفتاح"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "لا توجد مفاتيح قابلة للتوقيع"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr "لا تملك مفتاح PGP شخصي يُمكن استخدامه ليبيِّن ثقتك في هذا المفتاح."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "عبارة السر خاطئة."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "أدخل عبارة سر جديدة لـ'%s'"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "أدخل عبارة السر لـ'%s'"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "أدخل عبارة سر جديدة"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "أدخل عبارة السر"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "لم تُحمّل أي مفاتيح"
+msgstr[1] "حُمِّل مفتاح واحد"
+msgstr[2] "حُمِّل مفتاحين"
+msgstr[3] "حُمِّلت %Id مفاتيح"
+msgstr[4] "حُمِّل %Id مفتاحا"
+msgstr[5] "حُمِّل %Id مفتاح"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "يجري تحميل المفاتيح..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"بيانات غير صالحة (تفتقد UID). قد يكون هذا بسبب حاسوب ضُبط تاريخه إلى تاريخ "
+"مستقبلي أو لفقد التوقيع الذاتي."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "يستورد المفاتيح"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "يحمّل المفاتيح"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "الجمل"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "البحث لم يكن محددًا بما فيه الكفاية. وجد الخادوم '%s' مفاتيح كثيرة جدًا."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "تعذّر التواصل مع الخادوم '%s': %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "يبحث عن المفاتيح..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "يرفع المفاتيح..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "يجلب المفاتيح..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "يبحث عن المفاتيح على: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "يتصل بـ: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "خادوم مفاتيح HTTP"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "تعذّر التواصل مع '%s': %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "تعذّر حل العنوان: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "يجري حل عنوان الخادوم: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "يبحث عن المفاتيح التي تحتوي '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "يبحث عن معرّف المفتاح '%s'..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "يجلب المفاتيح البعيدة..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "يرسل المفاتيح لخادوم المفاتيح..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "خادوم مفاتيح LDAP"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "_وقّع المفتاح..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "وقِّع المفتاح العلني"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "أمتأكد أنك تريد حذف %s نهائيا؟"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "أمتأكد من رغبتك بحذف مفاتيح و معرّفات %d نهائيا؟"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "أمتأكد من رغبتك بحذف مفاتيح %d نهائيا؟"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "أمتأكد من رغبتك بحذف معرّفات %d نهائيا؟"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>خيارات المفتاح ال_متقدّمة</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "يسمح لك مفتاح PGP بتعمية البريد الإلكتروني أو الملفات للآخرين."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "الخوازميات هنا"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "أن_شيء"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "تاريخ ا_نتهاء الصلاحية"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "_نوع التعمية:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "ولِّد مفتاحًا جديدًا"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "شدة المفتاح (ثنائيات):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "لا تنتهي صلاحيته أ_بدًا"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "مفتاح PGP جديد"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_تعليق:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "مفتاح PGP سري"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "مفتاح PGP علني"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "منتهي الصلاحية"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "تعذّر تغيير معرّف المستخدم الأوليّ"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "أمتأكدٌ أنّك تريد حذف معرّف المستخدم '%s' نهائيا؟"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "تعذر حذف معرّف المستخدم"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[مجهول]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "اسم/بريد إلكتروني"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "معرّف التوقيع"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "تعذّر تغيير الصورة الأوّلية"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(مجهول)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "انتهت صلاحية هذا المفتاح في: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "أمتأكدٌ أنّك تريد حذف المفتاح الفرعي %Id من %s نهائيًا؟"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "تعذّر حذف المفتاح الفرعي"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "تعذّر تغيير الثقة"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:290
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "تعذّر تصدير المفتاح إلى \"%s\""
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "صدِّر المفتاح كاملًا"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "تعذر تصدير المفتاح."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "أبدًا"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "النّوع"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "تاريخ الإنشاء"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "الحالة"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "الشدة"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "جيّد"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>إجراءات</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>تعليق:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>تواريخ</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>البريد الإلكتروني:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>البصمة</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>معرّف المفتاح:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>أسماء وتوقيعات المفاتيح</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>الاسم:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>صورة </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>تفاصيل تقنيّة</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>تم نقض هذا المفتاح</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>انتهت صلاحية هذا المفتاح</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>النوع:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>الاستخدام:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>مفاتيح _فرعية</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "أضِف"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "أضِف صورة لهذا المفتاح"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "غيِّر _عبارة السر"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "استخرج تعمية الملفات والبريد الإلكتروني المرسل إليك."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "احذف"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "انهِ صلاحيّته"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "تنتهي صلاحيته:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "صدِّر"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "إذهب إلى الصورة التالية"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "إذهب إلى الصورة السابقة"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "معرّف المفتاح:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "ا_جعل هذه الصورة الصورة الأوليّة"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "أسماء وتوقيعات"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "أبدًا"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "تخطّى _ثقة المالِك:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "المالك"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "أوّلي"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "ازل هذه الصورة من هذا المفتاح"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "انقض"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "وقِّع"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "الشدة:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "لقد نُقِض هذا المفتح من قِبَل مالِكه. لم يعد من الممكن استخدامه."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "أ_ضف اسمًا"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "_صدِّر المفتاح كاملًا:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>التواريخ:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>البصمة:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>بيِّن الثقة:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>ثقتك في هذا المفتاح</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>أسما_ء أخرى:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>الأشخاص الذين وقّعوا هذا المفتاح:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "عمِّ ملفات وأرسلها إلى مالك المفتاح"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "كليا"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "أثِق بتوقيع '%s' على المفاتيح الأخرى"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"إذا كنت تثق في أن الشخص الذي يمتلك هذا المفتاح هو '%s'، <i>وقّع</i> هذا "
+"المفتاح:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr "إذا لم تعد تثق في أن '%s' يمتلك هذا المفتاح؛ <i>انقض</i> توقيعك."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "هامشيا"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "الثقة"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "نهائيا"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "_تثِق في المالك:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "تحدد ثِقتك يدويا في لِسان <i>التفاصيل</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "لا تظهر _سوى توقيعات من أثق بهم"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "ا_نقض التوقيع"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "_وقِّع هذا المفتاح"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "المفتاح الفرعي %Id من %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "وصف إختياري للسحب"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "أَبْ_طِل"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "سبب سحب المفتاح"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "ال_سبب:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr "لا توجد مفاتيح PGP شخصية يمكن استخدامها لتوقيع الملف أو الرسالة."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>ما مدى حرصك عند فحص هذا المُفتاح؟</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>كيف سيرى الآخرون هذا التوقيع:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>وقع المفتاح باسم:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>معتاد:</i> يعني أنك قمت بتحقق عادي من أن هذا المفتاح ملك للشخص الذي يدِّعي "
+"ملكيته. مثلا، قد تقرأ بصمة المفتاح مع المالك عبر الهاتف."
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>اسم المفتاح</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>بتاتًا:</i> يعني أنك تؤمن بأن المفتاح ملك للشخص الذي يدعي ملكيته  لكنك لم "
+"تستطع أو لم تتحقق من هذه الحقيقة."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>بحرص شديد:</i> اختر هذا إذا كنت واثقا بشكل تام من أن هذا المفتاح أصيل."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "بالتوقيع تبيِّن أنك تثق في انتماء هذا المفتاح إلى:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "يمكنني _نقض هذا التوقيع في وقت لاحق."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "وقّع المفتاح"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"يمكنك استخدام هوية صورة يصعب تزويرها (مثل جواز السفر) لتتأكد شخصيا من أن "
+"الاسم في المفتاح صحيح. يجب أن تكون قد استخدمت البريد أيضا لتتأكد من أن "
+"العناوين تخصّ المالك."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_معتاد"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_بتاتا"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "يمكن للآ_خرين رؤية هذا التوقيع"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_وقِّع"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "ال_مُوقّع:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "بحر_ص شديد"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_وقّع الرسالة بالمفتاح:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "شهادة"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "أمتأكد من رغبتك بحذف الشهادة '%s'؟"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "أمتأكد من رغبتك بحذف %d شهادة؟"
+msgstr[1] "أمتأكد من رغبتك بحذف شهادة واحدة؟"
+msgstr[2] "أمتأكد من رغبتك بحذف شهادتين؟"
+msgstr[3] "أمتأكد من رغبتك بحذف %d شهادات؟"
+msgstr[4] "أمتأكد من رغبتك بحذف %d شهادة؟"
+msgstr[5] "أمتأكد من رغبتك بحذف %d شهادة؟"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "غيّر عبارة السر"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "أ_كد عبارة السر:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "أكِّد عبارة السر الجديدة"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "_عبارة سر جديدة:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "أدِر كلمات سرّك ومفاتيح تعميتك"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "كلمات السرِّ ومفاتيح التعمية"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>ا_ختر نوع العنصر الذي ترغب بإنشائه</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "_تابِع"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "أن_شئ جديدًا..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "لا مفاتيح محددة"
+msgstr[1] "مفتاح واحد محدد"
+msgstr[2] "مفتاحين محددين"
+msgstr[3] "%Id مفاتيح محددة"
+msgstr[4] "%Id مفتاحا محددا"
+msgstr[5] "%Id مفتاح محدد"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:458
+msgid "Couldn't import keys"
+msgstr "تعذّر استيراد المفاتيح"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:463
+msgid "Imported keys"
+msgstr "المفاتيح المستوردة"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "يستورد المفاتيح"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "استورد مفتاح"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "نوع مفتاح لم يُتعرّف عليه"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_بعيد"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "أغلق هذا البرنامج"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "_جديد..."
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "أنشئ مفتاحا أو عنصرا جديدا"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "ا_ستورد..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "استورد من ملف"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "استورد من الحافظة"
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "اع_ثر على مفاتيح بعيدة..."
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "ابحث عن مفاتيح في خادوم المفاتيح"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "_زامن وانشر المفاتيح..."
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "انشر و/أو زامن مفاتيحك مع من على الخط."
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "الأ_نواع"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "أظهر عمود النوع"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "انتهاء ال_صلاحية"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "اظهر عمود انتهاء الصلاحية"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "ال_ثقة"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "اظهر عمود ثقة المالك"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "ال_صلاحية"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "اظهر عمود الصلاحية"
+
+#: ../src/bastile-key-manager.c:931
+msgid "Filter:"
+msgstr "مرشِّح:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>خيارات المرة الأولى:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "ولِّد مفتاحا جديدا لك:"
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "استورد مفاتيح موجودة من ملف:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "مفاتيحي ال_شخصية"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "مفاتيح أ_خرى"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "لتبدأ بالتعمية ستحتاج مفاتيح."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:522
+msgid "_Import"
+msgstr "ا_ستورد"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_كلمات السر"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:256
+msgid "Couldn't export keys"
+msgstr "تعذر تصدير المفاتيح"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "الصلاحية"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "أغلق هذه النافذة"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "و_سّع الكل"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "وسِّع كل السّرْد"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "إ_طوِ الكل"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "إطوِ كل السّرْد"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "المفاتيح البعيدة"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "المفاتيح البعيدة التي تحتوي على '%s'"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>خواديم المفاتيح:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>المفاتيح المُشاركة القريبة منِّي</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "اعثر على مفاتيح بعيدة"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"سيُعثر هذا على مفاتيح الآخرين عبى الإنترنت. يُمكن بعد ذلك استيراد هذه المفاتيح "
+"إلى حلقة مفاتيحك المحليّة."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "مكان البحث:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "ا_بحث"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "ا_بحث عن المفاتيح التي تحتوي: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "تعذر نشر المفاتيح للخادوم"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "تعذّر الحصول على المفاتيح من الخادوم: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>لم تُحدّد مفاتيح للمُزامنة</b>"
+msgstr[1] "<b>حُدِّد مفتاح واحد للمُزامنة</b>"
+msgstr[2] "<b>حُدِّد مفتاحين للمُزامنة</b>"
+msgstr[3] "<b>حُدِّدت %Id مفاتيح للمُزامنة</b>"
+msgstr[4] "<b>حُدِّد %Id مفتاحًا للمُزامنة</b>"
+msgstr[5] "<b>حُدِّد %Id مفتاح للمُزامنة</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "يجري مزامنة المفاتيح"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "يجري مزامنة المفاتيح..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "زامِن المفاتيح"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"سيُنشر هذا المفاتيح في حلقة مفاتيحك لتتوفّر للآخرين ليستخدموها. أيضا ستحصل على "
+"أي تغييرات قام بها الآخرون منذ تلقيّت مفاتيحهم."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"سيحصل هذا على أي تغييرات قام با الآخرون منذ تلقّيت مفاتيحهم. لم يُحدد أي خادوم "
+"مفاتيح للنشر، لذا لن تتوفّر مفاتيحك للآخرون."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_خواديم المفاتيح"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_زامِن"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "إصدارة هذا التطبيق"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "مدير مفاتيح التعمية"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "المساهمات:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"فريق عربآيز للترجة http://www.arabeyes.org:\n"
+"خالد حسني\t<khaledhosny@eglug.org>"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "صفحة مشروع حصان البحر"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:168
+msgid "_File"
+msgstr "_ملف"
+
+#: ../src/bastile-viewer.c:169
+msgid "_Edit"
+msgstr "_تحرير"
+
+#: ../src/bastile-viewer.c:170
+msgid "_View"
+msgstr "_عرض"
+
+#: ../src/bastile-viewer.c:171
+msgid "_Help"
+msgstr "_مساعدة"
+
+#: ../src/bastile-viewer.c:173
+msgid "Prefere_nces"
+msgstr "التف_ضيلات"
+
+#: ../src/bastile-viewer.c:174
+msgid "Change preferences for this program"
+msgstr "غيّر تفضيلات هذا البرنامج"
+
+#: ../src/bastile-viewer.c:177
+msgid "About this program"
+msgstr "عن هذا البرنامج"
+
+#: ../src/bastile-viewer.c:178
+msgid "_Contents"
+msgstr "ال_محتويات"
+
+#: ../src/bastile-viewer.c:179
+msgid "Show Bastile help"
+msgstr "اعرض مساعدة حصان البحر"
+
+#: ../src/bastile-viewer.c:276
+msgid "Export public key"
+msgstr "صدّر المفتاح العلني"
+
+#: ../src/bastile-viewer.c:296
+msgid "Exporting keys"
+msgstr "يصدّر المفاتيح"
+
+#: ../src/bastile-viewer.c:321
+msgid "Couldn't retrieve data from key server"
+msgstr "تعذّر الحصول على البيانات من خادوم المفاتيح"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:340
+msgid "Copied keys"
+msgstr "نُسخت المفاتيح"
+
+#: ../src/bastile-viewer.c:360
+msgid "Retrieving keys"
+msgstr "يجلب المفاتيح"
+
+#: ../src/bastile-viewer.c:375
+msgid "Couldn't delete."
+msgstr "تعذّر الحذف."
+
+#: ../src/bastile-viewer.c:409
+msgid "Deleting..."
+msgstr "يحذف..."
+
+#: ../src/bastile-viewer.c:435
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "‏%s مفتاح سري. أمتأكد أنك ترغب في المواصلة؟"
+
+#: ../src/bastile-viewer.c:483
+msgid "Importing keys from key servers"
+msgstr "يجري استيراد المفاتيح من خادوم المفاتيح"
+
+#: ../src/bastile-viewer.c:509
+msgid "Show properties"
+msgstr "أظهر الخصائص"
+
+#: ../src/bastile-viewer.c:510
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "ا_حذف"
+
+#: ../src/bastile-viewer.c:511
+msgid "Delete selected items"
+msgstr "احذف العناصر المختارة"
+
+#: ../src/bastile-viewer.c:515
+msgid "E_xport..."
+msgstr "_صدِّر..."
+
+#: ../src/bastile-viewer.c:516
+msgid "Export to a file"
+msgstr "صدّر إلى ملف"
+
+#: ../src/bastile-viewer.c:518
+msgid "Copy to the clipboard"
+msgstr "انسخ للحافظة"
+
+#: ../src/bastile-viewer.c:523
+msgid "Import selected keys to local key ring"
+msgstr "استورد المفاتيح المُنتقاة لحلقة المفاتيح المحليّة"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "عبارة سر لمفتاح الصدفة الآمنة :"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "اضبط مفتاح الصدفة الآ_منة..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"أرسل مفتاح الصدفة الآمنة العلني لجهاز آخر، لتُفعِّل الولوج باستخدام هذا المفتاح."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "أمتأكد من رغبتكدب حذفمفتاح الصدفة الآمنة  '%sًّا؟"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "أمتأكد من رغبتك بحذف %d مفاتيح الصدفة الآمنة؟"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "مفتاح صدفة آمنة"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "يستخدم للنفاذ لحواسيب أخرى (مثلا: عبر الطرفية)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "تعذّر توليد مفتاح صدفة آمنة"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "يجري إنشاء مفتاح صدفة آمنة"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>استعمل عناوين بريدك الإلكتروني، وأي مُذكِّر آخر تحتاجه لتعرف لأي شيء هذا "
+"المفتاح.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"يسمح لك مفتاح الصدفة الآمنة (SSH) بالاتصال بشكل آمن بحواسيب موثوقة باستخدام "
+"SSH، بدون إدخال كلمة سر مختلفة لكل واحد منهم."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"إذا كان هناك بالفعل حاسوب ترغب في استعمال هذا المفتاح معه، يمكنك ضبط ذلك "
+"الحاسوب ليتعرّف على مفتاحك الآن."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "مفتاح صدفة آمنة جديد"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "أ_نشيء واضبط"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "أنشئ مفتاح _فقط"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "و_صف المفتاح:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(مفتاح صدفة آمنة غير مقروء)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "غير صالح"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "مفتاح صدفة آمنة سري"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "مفتاح صدفة آمنة علني"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "تعذّر تغيير اسم المفتاح."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "تعذّر تغيير سماحية المفتاح."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "تعذّر تغيير عبارة سر المفتاح."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>الخوارزمية:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>المميز:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>الموقع:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>الشدة:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>الثقة</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i> ينطبق هذا فقط على حساب '%s'</i>."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "_صدِّر المفتاح كاملًا"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "يُ_سمح لمالك هذا المفتاح بالاتصال بهذا الحاسوب"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "يُستخدم للاتصال بالحواسيب الأخرى."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "لقد انتهى أمر ssh بشكل غير متوقّع."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "فشل أمر SSH."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "مفتاح صدفة آمنة"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "عبارة السر:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "كلمة سر المستضيف البعيد"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "عبارة سر المفتاح القديمة"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "أدخل عبارة السر القديمة لـ: %s "
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "عبارة سر مفتاح جديدة"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "أدخل عبارة السر الجديدة لـ: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "أدخل عبارة سر المفتاح"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "عبارة سر لمفتاح الصدفة الآمنة الجديد"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "أدخل عبارة سر لمفتاح صدفتك الآمنة الجديد."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "استيراد المفتاح: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "يستورد المفتاح. أدخل عبارة السر"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "لا ملف مفتاح خاص متوفر لهذا المفتاح."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "تعذّر إعداد مفتاح الصدفة الآمنة على الحاسوب البعيد."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "اضبط مفاتيح الصدفة الآمنة..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>مثلا: fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "اضبط الحاسوب لاتصال SSH"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"لتستخدم مفتاح الصدفة الآمنة خاصتك مع حاسوب آخر يستخدم SSH، يجب أن يكون لك "
+"بالفعل حساب ولوج على ذاك الحاسوب."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "اسم ال_حاسوب:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "اسم ال_ولوج:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_ركِّب"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "تعذّر مشاركة المفاتيح"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "تعذّر نشر معلومات الاستكشاف عبر الشبكة."
+
+#~ msgid "%s's encryption keys"
+#~ msgstr "مفاتيح تعمية %s"
+
+#~ msgid "Key Sharing"
+#~ msgstr "مشاركة المفاتيح"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "تسمح مشاركة مفاتيح للأناس الآخرون على شبكتك باستخدام المفاتيح التي "
+#~ "جمعتها. يعني هذا أن بإمكانهم تعمية الأشياء آليا لك أو لهؤلاء الذين "
+#~ "تعرفهم، بدون أن تحتاج لإرسال مفاتيحك إليهم.\n"
+#~ "\n"
+#~ "<b>ملحوظة:</b>لن يعرض هذا مفاتيحك الشخصية للخطر."
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "_شارك مفاتيحي مع الآخرين على شبكتي"
+
+#~ msgid "Bastile Daemon"
+#~ msgstr "عفريت حصان البحر"
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>حُدِّد س من المفاتيح للمُزامنة</b>"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "أنشئ مفتاح PGP جديد"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "مجهول\n"
+#~ "أبدا\n"
+#~ "هامشي\n"
+#~ "كامل\n"
+#~ "نهائي"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "مجهول\n"
+#~ "أبدا\n"
+#~ "هامشي\n"
+#~ "كامل\n"
+#~ "نهائي"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "مفاتيح _مجمّعة أخرى"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "المفاتيح المو_ثوق بها"
+
+#, fuzzy
+#~ msgid "P_roperties"
+#~ msgstr "خصائص المفتاح"
+
+#~ msgid "Retrieving key"
+#~ msgstr "يجري جلب المفتاح"
+
+#~ msgid "Removing item"
+#~ msgstr "يُحذف العنصر"
+
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>الغ القفل آليا عن ولوج المستخدم.</i>"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "لا وجود لكلمة سر مبدئية في حلقة المفاتيح"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "تعذّر سرد حلقات كلمات السر"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "تعذّر حذف حلقة المفاتيح"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "أمتأكدٌ أنّك تريد حذف حلقة المفاتيح '%s' نهائيًّا؟"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>حلقة المفاتيح المبدئيّة</b>"
+
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>حلقات كلمات السر</b>"
+
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "إعدادات كلمة السرِّ والتعمية"
+
+#~ msgid "_Add Keyring"
+#~ msgstr "أ_ضِف حلقة مفاتيح"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "ا_حذف حلقة المفاتيح"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "مفتاح مجهول: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "مفتاح مجهول"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "مفتاح غير متوفّر"
+
+#~ msgid "X509 Certificate"
+#~ msgstr "شهادة X509"
+
+#~ msgid "Loading..."
+#~ msgstr "يُحمّل..."
+
+#~ msgid "Invalid or unrecognized object."
+#~ msgstr "كائن غير صالح أو غير معروف."
+
+#~ msgid "Exporting is not yet supported."
+#~ msgstr "التصدير غير مدعوم بعد."
+
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "الانتهاء للمفتاح الفرعي %Id من %s"
+
+#~ msgid "_Quit"
+#~ msgstr "إ_نهِ"
+
+#~ msgid "Create a new personal key"
+#~ msgstr "انشئ مفتاحًا شخصيًا جديدًا"
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "استورد المفاتيح إلى حلقة مفاتيحك من ملف"
+
+#~ msgid "_Close"
+#~ msgstr "أ_غلق"
+
+#, fuzzy
+#~ msgid "_Key"
+#~ msgstr "مفتاح"
+
+#, fuzzy
+#~ msgid "_Delete Key"
+#~ msgstr "_احذف"
+
+#, fuzzy
+#~ msgid "E_xport Public Key..."
+#~ msgstr "_صدِّر المفتاح كاملًا"
+
+#, fuzzy
+#~ msgid "_Copy Public Key"
+#~ msgstr "مفتاح PGP علني"
+
+#, fuzzy
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "استورد مفاتيح من الحافظة"
+
+#~ msgid "Secure Shell Passphrase"
+#~ msgstr "عبارة سر صدفة آمنة"
+
+#~ msgid "Secure Shell Key Passphrase"
+#~ msgstr "عبارة سر مفتاح صدفة آمنة"
+
+#~ msgid "Enter the passphrase for: %s"
+#~ msgstr "أدخل عبارة سر: %s"
+
+#~ msgid "Save this passphrase in my keyring"
+#~ msgstr "احفظ عبارة السر في حلقة مفاتيحي"

@@ -1,0 +1,13 @@
+debian/bastile.xpm /usr/share/pixmaps
+debian/tmp/etc/mateconf
+debian/tmp/usr/bin
+debian/tmp/usr/lib/bastile
+debian/tmp/usr/share/man
+debian/tmp/usr/share/omf
+debian/tmp/usr/share/mate
+debian/tmp/usr/share/icons
+debian/tmp/usr/share/dbus-1
+debian/tmp/usr/share/bastile
+debian/tmp/usr/share/locale
+debian/tmp/usr/share/applications
+debian/tmp/usr/share/pixmaps

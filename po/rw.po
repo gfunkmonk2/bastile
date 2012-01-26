@@ -1,0 +1,2536 @@
+# translation of bastile to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bastile package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-01 21:08-0700\n"
+"PO-Revision-Date: 2005-03-31 20:55-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"ULL NAME <EMAIL@ADDRESS>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: agent/eggtrayicon.c:121
+msgid "Orientation"
+msgstr "Icyerekezo"
+
+#: agent/eggtrayicon.c:122
+#, fuzzy
+msgid "The orientation of the tray."
+msgstr "Icyerekezo Bya i"
+
+#: agent/gtk-secure-entry.c:457
+msgid "Cursor Position"
+msgstr ""
+
+#: agent/gtk-secure-entry.c:459
+#, fuzzy
+msgid "The current position of the insertion cursor in chars"
+msgstr "KIGEZWEHO Ibirindiro Bya i Iyinjizamo indanga in"
+
+#: agent/gtk-secure-entry.c:466
+msgid "Selection Bound"
+msgstr ""
+
+#: agent/gtk-secure-entry.c:468
+#, fuzzy
+msgid ""
+"The position of the opposite end of the selection from the cursor in chars"
+msgstr "Ibirindiro Bya i Impera Bya i Ihitamo Bivuye i indanga in"
+
+#: agent/gtk-secure-entry.c:475
+#, fuzzy
+msgid "Maximum length"
+msgstr "Uburebure ntarengwa:"
+
+#: agent/gtk-secure-entry.c:477
+#, fuzzy
+msgid "Maximum number of characters for this entry. Zero if no maximum"
+msgstr "Umubare Bya Inyuguti kugirango iyi Icyinjijwe NIBA Oya Kinini"
+
+#: agent/gtk-secure-entry.c:485
+msgid "Has Frame"
+msgstr ""
+
+#: agent/gtk-secure-entry.c:487
+#, fuzzy
+msgid "FALSE removes outside bevel from entry"
+msgstr "Hanze Bivuye Icyinjijwe"
+
+#: agent/gtk-secure-entry.c:496
+#, fuzzy
+msgid "Invisible character"
+msgstr "Inyuguti"
+
+#: agent/gtk-secure-entry.c:498
+#, fuzzy
+msgid "The character to use when masking entry contents (in \"password mode\")"
+msgstr ""
+"Inyuguti Kuri Gukoresha Ryari: Icyinjijwe Ibigize in Ijambobanga... Ubwoko"
+
+#: agent/gtk-secure-entry.c:507
+#, fuzzy
+msgid "Activates default"
+msgstr "Mburabuzi"
+
+#: agent/gtk-secure-entry.c:509
+#, fuzzy
+msgid ""
+"Whether to activate the default widget (such as the default button in a "
+"dialog) when Enter is pressed"
+msgstr ""
+"Kuri Kureka bigakora i Mburabuzi Nka i Mburabuzi Akabuto in a Ikiganiro "
+"Ryari: ni"
+
+#: agent/gtk-secure-entry.c:514
+#, fuzzy
+msgid "Width in chars"
+msgstr "in"
+
+#: agent/gtk-secure-entry.c:516
+#, fuzzy
+msgid "Number of characters to leave space for in the entry"
+msgstr "Bya Inyuguti Kuri Umwanya kugirango in i Icyinjijwe"
+
+#: agent/gtk-secure-entry.c:524
+#, fuzzy
+msgid "Scroll offset"
+msgstr "Nta- boneza"
+
+#: agent/gtk-secure-entry.c:526
+#, fuzzy
+msgid "Number of pixels of the entry scrolled off the screen to the left"
+msgstr "Bya Pigiseli Bya i Icyinjijwe Bidakora i Mugaragaza Kuri i Ibumoso:"
+
+#: agent/gtk-secure-entry.c:533
+msgid "Text"
+msgstr "Umwandiko"
+
+#: agent/gtk-secure-entry.c:535
+#, fuzzy
+msgid "The contents of the entry"
+msgstr "Ibigize Bya i Icyinjijwe"
+
+#: agent/gtk-secure-entry.c:692
+#, fuzzy
+msgid "Select on focus"
+msgstr "ku"
+
+#: agent/gtk-secure-entry.c:694
+#, fuzzy
+msgid "Whether to select the contents of an entry when it is focused"
+msgstr "Kuri Guhitamo i Ibigize Bya Icyinjijwe Ryari: ni"
+
+#: agent/bastile-agent-actions.c:97 src/bastile-generate-druid.glade.h:27
+msgid "Passphrase:"
+msgstr ""
+
+#: agent/bastile-agent-actions.c:98
+#, fuzzy
+msgid "Please enter a passphrase to use."
+msgstr "Injiza a Kuri Gukoresha"
+
+#: agent/bastile-agent-cache.c:46
+msgid "Unparseable Key ID"
+msgstr ""
+
+#: agent/bastile-agent-cache.c:47
+msgid "Unknown/Invalid Key"
+msgstr ""
+
+#: agent/bastile-agent-cache.glade.h:1
+#, fuzzy
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr "<B B Sisitemu ni OYA Kuri Ubwihisho in Ububiko"
+
+#: agent/bastile-agent-cache.glade.h:2
+msgid "Cached Encryption Passphrases"
+msgstr ""
+
+#: agent/bastile-agent-cache.glade.h:3
+#, fuzzy
+msgid "Clear passphrase cache"
+msgstr "Ubwihisho"
+
+#: agent/bastile-agent-cache.glade.h:4
+#, fuzzy
+msgid "_Clear Cache"
+msgstr "Hanagura Ubwihisho"
+
+#: agent/bastile-agent-cache.glade.h:5
+msgid "_Show Window"
+msgstr ""
+
+#: agent/bastile-agent-prompt.c:200 src/bastile-generate-druid.glade.h:25
+msgid "Passphrase"
+msgstr ""
+
+#: agent/bastile-agent-prompt.c:365
+msgid "Authorize Password Access"
+msgstr ""
+
+#: agent/bastile-agent-prompt.c:400
+#, fuzzy
+msgid "The passphrase is cached in memory."
+msgstr "ni in Ububiko"
+
+#: agent/bastile-agent-prompt.c:417
+msgid "_Authorize"
+msgstr ""
+
+#. Make the column
+#: agent/bastile-agent-status.c:126
+msgid "Cached Encryption Keys"
+msgstr ""
+
+#. Warn and put in defaults
+#: agent/bastile-agent.c:101
+#, fuzzy
+msgid "couldn't read gpg configuration, will try to create"
+msgstr "Gusoma Iboneza Kuri Kurema"
+
+#: agent/bastile-agent.c:123
+#, fuzzy, c-format
+msgid "couldn't modify gpg configuration: %s"
+msgstr "Guhindura Iboneza"
+
+#: agent/bastile-agent.c:143
+msgid "couldn't fork process"
+msgstr ""
+
+#: agent/bastile-agent.c:149
+#, fuzzy
+msgid "couldn't create new process group"
+msgstr "Kurema Gishya Itsinda"
+
+#: agent/bastile-agent.c:184
+#, fuzzy, c-format
+msgid "usage: bastile-agent [-cdv]\n"
+msgstr "Ikoresha:"
+
+#: agent/bastile-agent.c:282
+#, fuzzy
+msgid "couldn't drop privileges properly"
+msgstr "Uburenganzira..."
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:1
+msgid "Decrypt..."
+msgstr ""
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:2
+#, fuzzy
+msgid "Decryption operations on PGP encrypted files"
+msgstr "Ibikorwa: ku Bishunzwe: Idosiye"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:3
+#, fuzzy
+msgid "Encrypt and Sign..."
+msgstr "Na"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:4
+#, fuzzy
+msgid "Encrypt and sign operations on files"
+msgstr "Na IKIMENYETSO Ibikorwa: ku Idosiye"
+
+# filter/source\xsltdialog\xmlfiltertestdialog.src:DLG_XML_FILTER_TEST_DIALOG.FL_IMPORT.text
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:5
+msgid "Import"
+msgstr "Kuzana"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:6
+#, fuzzy
+msgid "Import operation on PGP key files"
+msgstr "ku Urufunguzo Idosiye"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:7
+#, fuzzy
+msgid "Bastile PGP decrypt operations"
+msgstr "Ibikorwa:"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:8
+#, fuzzy
+msgid "Bastile PGP encrypt and sign operations"
+msgstr "Shyiraho Umutekano Na IKIMENYETSO Ibikorwa:"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:9
+#, fuzzy
+msgid "Bastile PGP import operation"
+msgstr "Kuzana"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:10
+msgid "Bastile PGP verify operation"
+msgstr ""
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_PLUS_MINUS.text
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:11
+#: plugins/caja-ext/bastile-caja.c:133
+#, fuzzy
+msgid "Sign..."
+msgstr "IKIMENYETSO"
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:12
+msgid "Verify"
+msgstr ""
+
+#: matecomponent/Bastile_PGP_File_Listener.server.in.in.h:13
+#, fuzzy
+msgid "Verify operation on PGP signed files"
+msgstr "ku Idosiye"
+
+#: data/bastile.schemas.in.h:1
+#, fuzzy
+msgid "A list of key server URIs to search for remote PGP keys."
+msgstr "A Urutonde Bya Urufunguzo Seriveri Kuri Gushaka kugirango Utubuto"
+
+#: data/bastile.schemas.in.h:2
+#, fuzzy
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr ""
+"i Ukugaragara Bya i Yarenze igihe: Inkingi kugirango i Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:3
+#, fuzzy
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "i Ukugaragara Bya i Inkingi kugirango i Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:4
+#, fuzzy
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "i Ukugaragara Bya i Ubwoko Inkingi kugirango i Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:5
+#, fuzzy
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr ""
+"i Ukugaragara Bya i Ukugira agaciro Inkingi kugirango i Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:6
+#, fuzzy
+msgid "Expire passwords in the cache"
+msgstr "Amagambo banga in i Ubwihisho"
+
+#: data/bastile.schemas.in.h:7
+#, fuzzy
+msgid "How often to show progress during listing"
+msgstr "Kuri Garagaza Aho bigeze"
+
+#: data/bastile.schemas.in.h:8
+#, fuzzy
+msgid "ID of the default key"
+msgstr "Bya i Mburabuzi Urufunguzo"
+
+#: data/bastile.schemas.in.h:9
+#, fuzzy
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr "Gushyiraho Kuri NIBYO Hanyuma Idosiye Bishunzwe: Na:"
+
+#: data/bastile.schemas.in.h:10
+#, fuzzy
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Gushyiraho Kuri NIBYO Hanyuma i Mburabuzi Urufunguzo Buri gihe Kyongewe Kuri "
+"Bishunzwe: Abandikiwe... Urutonde"
+
+#: data/bastile.schemas.in.h:11
+#, fuzzy
+msgid "Last key used to sign a message."
+msgstr "Urufunguzo Kuri IKIMENYETSO a Ubutumwa"
+
+#: data/bastile.schemas.in.h:12
+#, fuzzy
+msgid "Last keyserver search pattern"
+msgstr "Gushaka Ishusho"
+
+#: data/bastile.schemas.in.h:13
+msgid "Last keyserver used"
+msgstr ""
+
+#: data/bastile.schemas.in.h:14
+msgid "PGP Key servers"
+msgstr ""
+
+#: data/bastile.schemas.in.h:15
+#, fuzzy
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Mbere ikoresha Amagambo banga in Ubwihisho"
+
+#: data/bastile.schemas.in.h:16
+#, fuzzy
+msgid ""
+"Set to 'true' to have bastile-agent prompt before giving out passwords it "
+"has cached."
+msgstr "Kuri Kuri Urwinjiriro Mbere Inyuma Amagambo banga"
+
+#: data/bastile.schemas.in.h:17
+#, fuzzy
+msgid "Show expires column in key manager"
+msgstr "Yarenze igihe: Inkingi in Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:18
+#, fuzzy
+msgid "Show trust column in key manager"
+msgstr "Inkingi in Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:19
+#, fuzzy
+msgid "Show type column in key manager"
+msgstr "Ubwoko Inkingi in Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:20
+#, fuzzy
+msgid "Show validity column in key manager"
+msgstr "Ukugira agaciro Inkingi in Urufunguzo Muyobozi"
+
+#: data/bastile.schemas.in.h:21
+#, fuzzy
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name', "
+"'id' and 'validity', Put a '-' in front of the column name to sort in "
+"descending order."
+msgstr ""
+"i Inkingi Kuri Ishungura i Abandikiwe... Idirishya ku Na a in Imbere Bya i "
+"Inkingi Izina: Kuri Ishungura in Ubujyesi Itondekanya"
+
+#: data/bastile.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"i Inkingi Kuri Ishungura i Urufunguzo Muyobozi Idirishya ku Na a in Imbere "
+"Bya i Inkingi Izina: Kuri Ishungura in Ubujyesi Itondekanya"
+
+#: data/bastile.schemas.in.h:23
+#, fuzzy
+msgid "The ID of the last secret key used to sign a message."
+msgstr "Bya i Iheruka Urufunguzo Kuri IKIMENYETSO a Ubutumwa"
+
+#: data/bastile.schemas.in.h:24
+#, fuzzy
+msgid "The column to sort the recipients by"
+msgstr "Inkingi Kuri Ishungura i Abandikiwe... ku"
+
+#: data/bastile.schemas.in.h:25
+#, fuzzy
+msgid "The column to sort the bastile keys by"
+msgstr "Inkingi Kuri Ishungura i Utubuto ku"
+
+#: data/bastile.schemas.in.h:26
+#, fuzzy
+msgid ""
+"The last keyserver a search was performed against. Or empty for all "
+"keyservers."
+msgstr "Iheruka a Gushaka ubusa kugirango Byose"
+
+#: data/bastile.schemas.in.h:27
+#, fuzzy
+msgid "The last search pattern searched for against a keyserver."
+msgstr "Iheruka Gushaka Ishusho kugirango a"
+
+#: data/bastile.schemas.in.h:28
+#, fuzzy
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "Igihe in Iminota Kuri Ubwihisho Amagambo banga"
+
+#: data/bastile.schemas.in.h:29
+#, fuzzy
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"bastile-agent."
+msgstr "ni i Igiteranyo Bya Igihe in Iminota Kuri Ubwihisho Amagambo banga in"
+
+#: data/bastile.schemas.in.h:30
+#, fuzzy
+msgid ""
+"This option enables the GPG password cache in the bastile-agent daemon."
+msgstr "Ihitamo i Ijambobanga... Ubwihisho in i"
+
+#: data/bastile.schemas.in.h:31
+#, fuzzy
+msgid ""
+"This specifies how often the progress signal is emitted during a listing "
+"operation. By default, the signal is emitted for every 20 keys processed. A "
+"value of -1 will cause the signal to never be emitted."
+msgstr ""
+"i Aho bigeze ni a Mburabuzi i ni kugirango buri 20 Utubuto A Agaciro Bya 1. "
+"i Kuri Nta narimwe"
+
+#: data/bastile.schemas.in.h:32
+#, fuzzy
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"i Mburabuzi Urufunguzo Kuri Gukoresha kugirango Ibikorwa: Ishirwaho umukono"
+
+#: data/bastile.schemas.in.h:33
+#, fuzzy
+msgid ""
+"When set bastile-agent expires GPG passwords in it's cache after a peried "
+"of time."
+msgstr ""
+"Gushyiraho Yarenze igihe: Amagambo banga in Ubwihisho Nyuma a Bya Igihe"
+
+#: data/bastile.schemas.in.h:34
+#, fuzzy
+msgid "Whether the GPG password cache is enabled"
+msgstr "i Ijambobanga... Ubwihisho ni Bikora"
+
+#: data/bastile.schemas.in.h:35
+#, fuzzy
+msgid "Whether to always encrypt to default key"
+msgstr "Kuri Buri gihe Shyiraho Umutekano Kuri Mburabuzi Urufunguzo"
+
+#: data/bastile.schemas.in.h:36
+#, fuzzy
+msgid "Whether to use ASCII Armor"
+msgstr "Kuri Gukoresha"
+
+#. Make the column
+#: libbastile/bastile-key-store.c:750 src/bastile-key-properties.c:400
+#: src/bastile-key-properties.c:494
+msgid "Name"
+msgstr "Izina"
+
+#. Make the column
+#: libbastile/bastile-key-store.c:753 src/bastile-key-properties.c:397
+msgid "Key ID"
+msgstr ""
+
+#: libbastile/bastile-ldap-source.c:651
+#, fuzzy, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "kugirango Utubuto"
+
+#. TODO: We can update a percentage when there's more than one key
+#: libbastile/bastile-ldap-source.c:825
+#, fuzzy
+msgid "Retrieving remote keys..."
+msgstr "Utubuto"
+
+#. TODO: We can update a percentage when there's more than one key
+#: libbastile/bastile-ldap-source.c:950
+#, fuzzy
+msgid "Sending keys to key server..."
+msgstr "Utubuto Kuri Urufunguzo Seriveri"
+
+#: libbastile/bastile-passphrase.c:61
+#, fuzzy, c-format
+msgid "Bad passphrase! Try again for '%s'"
+msgstr "kugirango"
+
+#: libbastile/bastile-passphrase.c:63
+#, fuzzy, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Gishya kugirango"
+
+#: libbastile/bastile-passphrase.c:65
+#, fuzzy, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "kugirango"
+
+#: libbastile/bastile-passphrase.glade.h:1
+#: libbastile/bastile-recipients.glade.h:1 src/bastile-add-uid.glade.h:1
+#: src/bastile-change-passphrase.glade.h:1
+#: src/bastile-generate-adv.glade.h:1 src/bastile-generate-druid.glade.h:1
+#: src/bastile-keyserver-search.glade.h:1
+#: src/bastile-multi-encrypt.glade.h:1 src/bastile-revoke.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: libbastile/bastile-passphrase.glade.h:2
+msgid "Enter Passphrase"
+msgstr ""
+
+#: libbastile/bastile-passphrase.glade.h:3
+#, fuzzy
+msgid "Passphrase for key"
+msgstr "kugirango Urufunguzo"
+
+#: libbastile/bastile-prefs-cache.c:352
+#, fuzzy
+msgid "Couldn't open the Session Properties"
+msgstr "Gufungura i"
+
+#: libbastile/bastile-prefs-cache.c:365
+#, fuzzy
+msgid "Couldn't start the 'bastile-agent' program"
+msgstr "Gutangira i Porogaramu"
+
+#: libbastile/bastile-prefs-cache.c:367
+#, fuzzy
+msgid "The 'bastile-agent' program exited unsucessfully."
+msgstr "Porogaramu"
+
+#: libbastile/bastile-prefs-cache.c:415
+#, fuzzy
+msgid ""
+"Another passphrase caching agent is running. Disabling cache preferences."
+msgstr "ni Ubwihisho Ibyahiswemo"
+
+#: libbastile/bastile-prefs.c:36
+#, fuzzy
+msgid "[Add a key server here]"
+msgstr "[a Urufunguzo Seriveri"
+
+#: libbastile/bastile-prefs.c:190
+msgid "URL"
+msgstr "URL"
+
+#: libbastile/bastile-prefs.c:339
+#, fuzzy
+msgid "_Encrypt to Self"
+msgstr "Kuri"
+
+#: libbastile/bastile-prefs.c:345
+#, fuzzy
+msgid "None. Prompt for a key."
+msgstr "kugirango a Urufunguzo"
+
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Save.Document.AutoSaveTimeIntervall.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Agenda.Elements.Minutes.text
+#: libbastile/bastile-prefs.glade.h:1
+#, fuzzy
+msgid " minutes"
+msgstr "Iminota"
+
+#: libbastile/bastile-prefs.glade.h:2
+#, fuzzy
+msgid ""
+"<b>Note:</b> The 'bastile-agent' program was started. This program is "
+"necessary in order for caching of passphrases. "
+msgstr "<B B Porogaramu Porogaramu ni in Itondekanya kugirango Bya"
+
+#: libbastile/bastile-prefs.glade.h:3
+#, fuzzy
+msgid ""
+"<b>Warning:</b> The 'bastile-agent' program is not running. This program is "
+"necessary in order for caching of passphrases. "
+msgstr "<B B Porogaramu ni OYA Porogaramu ni in Itondekanya kugirango Bya"
+
+#: libbastile/bastile-prefs.glade.h:4
+#, fuzzy
+msgid "Cache encryption _passphrases in memory"
+msgstr "Bishunzwe: in Ububiko"
+
+#: libbastile/bastile-prefs.glade.h:5
+#: plugins/caja/bastile-pgp-preferences.c:48
+#: plugins/caja/bastile-pgp-preferences.desktop.in.h:2
+msgid "Encryption Preferences"
+msgstr ""
+
+#: libbastile/bastile-prefs.glade.h:6
+msgid "Encryption Settings"
+msgstr ""
+
+#: libbastile/bastile-prefs.glade.h:7
+msgid "Key Servers"
+msgstr ""
+
+#: libbastile/bastile-prefs.glade.h:8
+msgid "Key Servers:"
+msgstr ""
+
+#: libbastile/bastile-prefs.glade.h:9
+msgid "Password Cache"
+msgstr ""
+
+#: libbastile/bastile-prefs.glade.h:10
+msgid "Session Properties"
+msgstr ""
+
+#: libbastile/bastile-prefs.glade.h:11
+#, fuzzy
+msgid "Start bastile-agent"
+msgstr "Gutangira"
+
+#: libbastile/bastile-prefs.glade.h:12
+#, fuzzy
+msgid "You can add it to your Startup Programs in: "
+msgstr "Kongeramo Kuri in"
+
+#: libbastile/bastile-prefs.glade.h:13
+#, fuzzy
+msgid "_Ask me before using a cached passphrase"
+msgstr "Mbere ikoresha a"
+
+#: libbastile/bastile-prefs.glade.h:14
+msgid "_Default Signing Key:"
+msgstr ""
+
+#: libbastile/bastile-prefs.glade.h:15
+#, fuzzy
+msgid "_Expire passphrases from memory after "
+msgstr "Bivuye Ububiko Nyuma"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: libbastile/bastile-pgp-source.c:632
+#, fuzzy, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Urufunguzo"
+
+#: libbastile/bastile-pgp-source.c:697
+msgid "Loading Keys..."
+msgstr ""
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/sdi\scslots.src:FID_VALIDATION.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\dbgui\validate.src:TAB_DLG_VALIDATION.text
+#: libbastile/bastile-recipients-store.c:153
+#: src/bastile-key-manager-store.c:379
+msgid "Validity"
+msgstr "Ukugira agaciro"
+
+#: libbastile/bastile-recipients.c:57
+#, fuzzy, c-format
+msgid "Selected %d recipient"
+msgid_plural "Selected %d recipients"
+msgstr[0] "Umukoresha"
+
+#: libbastile/bastile-recipients.c:61
+#, fuzzy, c-format
+msgid "Selected %d not fully valid recipient"
+msgid_plural "Selected %d not fully valid recipients"
+msgstr[0] "OYA Byemewe Umukoresha"
+
+#. TRANSLATOR: This string will become
+#. * "Selected %d recipients (%d not fully valid)"
+#: libbastile/bastile-recipients.c:69
+#, fuzzy, c-format
+msgid "Selected %d recipient "
+msgid_plural "Selected %d recipients "
+msgstr[0] "Umukoresha"
+
+#. TRANSLATOR: This string will become
+#. * "Selected %d recipients (%d not fully valid)"
+#: libbastile/bastile-recipients.c:74
+#, fuzzy, c-format
+msgid "(%d not fully valid)"
+msgid_plural "(%d not fully valid)"
+msgstr[0] "(%dOYA Byemewe"
+
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+#. TRANSLATOR: "%s%s" are "Selected %d recipients (%d not fully valid)"
+#. * Swap order with "%2$s%1$s" if needed
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: libbastile/bastile-recipients.c:79 src/bastile-process-multiple.c:58
+#, fuzzy, c-format
+msgid "%s%s"
+msgstr "%s%s"
+
+#: libbastile/bastile-recipients.c:170
+#, fuzzy
+msgid "None (Don't sign)"
+msgstr "IKIMENYETSO"
+
+#: libbastile/bastile-recipients.glade.h:2
+msgid ""
+"All Keys\n"
+"Selected Recipients\n"
+"Search Results"
+msgstr ""
+
+#: libbastile/bastile-recipients.glade.h:5
+msgid "Choose Recipients"
+msgstr ""
+
+#: libbastile/bastile-recipients.glade.h:6
+#, fuzzy
+msgid "Search _for: "
+msgstr "Gushakisha:"
+
+#: libbastile/bastile-recipients.glade.h:7
+#: libbastile/bastile-signer.glade.h:2
+#, fuzzy
+msgid "_Sign message with key:"
+msgstr "Ubutumwa Na: Urufunguzo"
+
+#: libbastile/bastile-signatures.c:49
+msgid "[Unknown Key]"
+msgstr ""
+
+#: libbastile/bastile-signatures.c:66
+#, fuzzy, c-format
+msgid "%s: Good signature from (<b>expired</b>) '%s' on %s"
+msgstr "%s:Isinya Bivuye B Byarengeje igihe B ku"
+
+#: libbastile/bastile-signatures.c:70
+#, fuzzy, c-format
+msgid "%s: <b>Expired</b> signature from '%s' on %s"
+msgstr "%s:<B B Isinya Bivuye ku"
+
+#: libbastile/bastile-signatures.c:74
+#, fuzzy, c-format
+msgid "%s: Good signature from (<b>revoked</b>) '%s' on %s"
+msgstr "%s:Isinya Bivuye B Byavanywemo B ku"
+
+#: libbastile/bastile-signatures.c:78
+#, fuzzy, c-format
+msgid "%s: Good signature from '%s' on %s"
+msgstr "%s:Isinya Bivuye ku"
+
+#: libbastile/bastile-signatures.c:82
+#, fuzzy, c-format
+msgid "%s: Signing key not in key ring"
+msgstr "%s:Urufunguzo OYA in Urufunguzo Kuvuza Inzogera"
+
+#: libbastile/bastile-signatures.c:85
+#, fuzzy, c-format
+msgid "%s: <b>Bad</b> signature"
+msgstr "%s:<B B Isinya"
+
+#: libbastile/bastile-signatures.c:88
+#, fuzzy, c-format
+msgid "%s: Not a signature"
+msgstr "%s:a Isinya"
+
+#: libbastile/bastile-signatures.c:91
+#, fuzzy, c-format
+msgid "%s: Verification error"
+msgstr "%s:Ikosa"
+
+#: libbastile/bastile-signatures.glade.h:1
+#, fuzzy
+msgid "<big><b>Signatures found are listed below:  </b></big>"
+msgstr "<B Byabonetse munsi B"
+
+#: libbastile/bastile-signatures.glade.h:2
+msgid "Signature Verification"
+msgstr ""
+
+#: libbastile/bastile-signer.glade.h:1
+msgid "Choose Signing Key"
+msgstr ""
+
+# desktop/source\app\ssodlg.src:DLG_SSOLOGIN.text
+#: libbastile/bastile-util.c:126
+#, fuzzy
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: libbastile/bastile-util.c:417
+msgid "Multiple Keys"
+msgstr ""
+
+#: libbastile/bastile-util.c:727
+#, fuzzy
+msgid "Couldn't run file-roller"
+msgstr "Gukoresha IDOSIYE"
+
+#: libbastile/bastile-util.c:732
+#, fuzzy
+msgid "The file-roller process did not complete successfully"
+msgstr "IDOSIYE OYA Byuzuye"
+
+#: libbastile/bastile-util.c:774
+#, fuzzy
+msgid "All key files"
+msgstr "Urufunguzo Idosiye"
+
+# 146
+#: libbastile/bastile-util.c:780 libbastile/bastile-util.c:820
+msgid "All files"
+msgstr "amadosiye yose"
+
+#: libbastile/bastile-util.c:813
+#, fuzzy
+msgid "Archive files"
+msgstr "Idosiye"
+
+#: libbastile/bastile-util.c:854
+#, fuzzy
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr "<B A IDOSIYE Na: iyi Izina: B Kuri Gusimbura Na: a Gishya IDOSIYE"
+
+# offmgr/source\offapp\dialog\autocdlg.src:RID_OFA_AUTOCORR_DLG.1.RID_OFAPAGE_AUTOCORR_REPLACE.text
+#: libbastile/bastile-util.c:857
+#, fuzzy
+msgid "_Replace"
+msgstr "Gusimbura"
+
+# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_UNKNOWN_APPLICATION.text
+#: libbastile/bastile-validity.c:31 src/bastile-key-properties.c:138
+#: src/bastile-key-properties.glade.h:30
+msgid "Unknown"
+msgstr "Kitazwi"
+
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Security.Scripting.OfficeBasic..0.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Content.Update.Link..2.text
+#: libbastile/bastile-validity.c:33 src/bastile-key-properties.c:154
+#: src/bastile-key-properties.c:247 src/bastile-key-properties.glade.h:23
+msgid "Never"
+msgstr "Nta narimwe"
+
+#: libbastile/bastile-validity.c:35 src/bastile-key-properties.glade.h:19
+msgid "Marginal"
+msgstr ""
+
+#: libbastile/bastile-validity.c:37 src/bastile-key-properties.glade.h:15
+msgid "Full"
+msgstr ""
+
+#: libbastile/bastile-validity.c:39 src/bastile-key-properties.glade.h:29
+msgid "Ultimate"
+msgstr ""
+
+#: libbastile/bastile-validity.c:41
+msgid "Disabled"
+msgstr "Yahagaritswe"
+
+#: libbastile/bastile-validity.c:43 src/bastile-key-properties.c:236
+msgid "Revoked"
+msgstr "Byavanywemo"
+
+#: libbastile/bastile-widget.c:210
+#, fuzzy, c-format
+msgid "Could not display help: %s"
+msgstr "OYA Kugaragaza Ifashayobora"
+
+#: plugins/pluma/bastile-pluma.c:45
+#, fuzzy
+msgid "_Encrypt..."
+msgstr "Shyiraho Umutekano"
+
+#: plugins/pluma/bastile-pluma.c:48
+#, fuzzy
+msgid "Encrypt the selected text"
+msgstr "i Byahiswemo Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:50
+msgid "Decr_ypt/Verify"
+msgstr ""
+
+#: plugins/pluma/bastile-pluma.c:53
+#, fuzzy
+msgid "Decrypt and/or Verify text"
+msgstr "Na Cyangwa Umwandiko"
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_PLUS_MINUS.text
+#: plugins/pluma/bastile-pluma.c:55
+#, fuzzy
+msgid "Sig_n..."
+msgstr "IKIMENYETSO"
+
+#: plugins/pluma/bastile-pluma.c:58
+#, fuzzy
+msgid "Sign the selected text"
+msgstr "i Byahiswemo Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:224
+#, fuzzy
+msgid "Couldn't encrypt text"
+msgstr "Shyiraho Umutekano Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:231
+#, fuzzy
+msgid "Encrypted text"
+msgstr "Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:249
+#, fuzzy
+msgid "Couldn't import keys"
+msgstr "Kuzana Utubuto"
+
+#: plugins/pluma/bastile-pluma.c:252
+#, fuzzy
+msgid "Keys found but not imported"
+msgstr "Byabonetse OYA cyavuye ahandi/ cyatumijwe"
+
+#: plugins/pluma/bastile-pluma.c:273 plugins/pluma/bastile-pluma.c:294
+#, fuzzy
+msgid "Couldn't decrypt text"
+msgstr "Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:357
+#, fuzzy
+msgid "No encrypted or signed text is selected."
+msgstr "Bishunzwe: Cyangwa Umwandiko ni Byahiswemo"
+
+#: plugins/pluma/bastile-pluma.c:388
+#, fuzzy
+msgid "Decrypted text"
+msgstr "Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:395
+#, fuzzy
+msgid "Verified text"
+msgstr "Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:426
+#, fuzzy, c-format
+msgid "Block %d"
+msgstr "Funga"
+
+#: plugins/pluma/bastile-pluma.c:441
+#, fuzzy, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "Urufunguzo"
+
+#: plugins/pluma/bastile-pluma.c:488
+#, fuzzy
+msgid "Couldn't sign text"
+msgstr "IKIMENYETSO Umwandiko"
+
+#: plugins/pluma/bastile-pluma.c:495
+#, fuzzy
+msgid "Signed text"
+msgstr "Umwandiko"
+
+#: plugins/pluma/bastile-pluma.schemas.in.h:1
+#, fuzzy
+msgid "Enable the bastile encryption plugin for pluma."
+msgstr "i Bishunzwe: kugirango"
+
+#: plugins/pluma/bastile-pluma.schemas.in.h:2
+#, fuzzy
+msgid "Enable the bastile pluma plugin"
+msgstr "i"
+
+#: plugins/pluma/bastile-pgp.pluma-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr ""
+
+#: plugins/pluma/bastile-pgp.pluma-plugin.desktop.in.h:2
+#, fuzzy
+msgid "This plugin performs encryption operations on text."
+msgstr "Bishunzwe: Ibikorwa: ku Umwandiko"
+
+#: plugins/caja/bastile-pgp-preferences.desktop.in.h:1
+#, fuzzy
+msgid "Configure key servers and other encryption settings"
+msgstr "Urufunguzo Na Ikindi Bishunzwe: Amagenamiterere"
+
+#: plugins/caja-ext/bastile-caja.c:126
+#, fuzzy
+msgid "Encrypt..."
+msgstr "Shyiraho Umutekano"
+
+#: plugins/caja-ext/bastile-caja.c:127
+#, fuzzy
+msgid "Encrypt the selected archive"
+msgstr "i Byahiswemo"
+
+#: plugins/caja-ext/bastile-caja.c:134
+#, fuzzy
+msgid "Sign the selected archive"
+msgstr "i Byahiswemo"
+
+#: src/main.c:49
+#, fuzzy
+msgid "Import keys from the file"
+msgstr "Utubuto Bivuye i IDOSIYE"
+
+#: src/main.c:52
+#, fuzzy
+msgid "Encrypt file"
+msgstr "IDOSIYE"
+
+#: src/main.c:55
+#, fuzzy
+msgid "Sign file with default key"
+msgstr "IDOSIYE Na: Mburabuzi Urufunguzo"
+
+#: src/main.c:58
+#, fuzzy
+msgid "Encrypt and sign file with default key"
+msgstr "Na IKIMENYETSO IDOSIYE Na: Mburabuzi Urufunguzo"
+
+#: src/main.c:61
+#, fuzzy
+msgid "Decrypt encrypted file"
+msgstr "Bishunzwe: IDOSIYE"
+
+#: src/main.c:64
+#, fuzzy
+msgid "Verify signature file"
+msgstr "Isinya IDOSIYE"
+
+#: src/main.c:67
+#, fuzzy
+msgid "Read list of URIs on standard in"
+msgstr "Urutonde Bya ku Bisanzwe in"
+
+#: src/main.c:147 src/bastile-key-manager.c:98
+#, fuzzy, c-format
+msgid "Couldn't import keys from \"%s\""
+msgstr "Kuzana Utubuto Bivuye"
+
+#: src/main.c:155
+#, fuzzy
+msgid "Imported key"
+msgstr "Urufunguzo"
+
+#: src/main.c:156
+#, fuzzy, c-format
+msgid "Imported %d keys"
+msgstr "Utubuto"
+
+#: src/main.c:195
+#, fuzzy, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Idosiye kugirango"
+
+#: src/main.c:207
+#, fuzzy, c-format
+msgid "Couldn't encrypt \"%s\""
+msgstr "Shyiraho Umutekano"
+
+#: src/main.c:261
+#, fuzzy, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Idosiye kugirango"
+
+#: src/main.c:269
+#, fuzzy, c-format
+msgid "Couldn't sign \"%s\""
+msgstr "IKIMENYETSO"
+
+#: src/main.c:301
+#, fuzzy, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Idosiye kugirango"
+
+#: src/main.c:308
+#, c-format
+msgid "Couldn't decrypt \"%s\""
+msgstr ""
+
+#: src/main.c:360
+#, fuzzy, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Idosiye kugirango"
+
+#: src/main.c:388
+#, c-format
+msgid "Couldn't verify \"%s\""
+msgstr ""
+
+#: src/main.c:434 src/bastile-key-manager.glade.h:18
+#: src/bastile.desktop.in.h:1
+msgid "Encryption Key Manager"
+msgstr ""
+
+#: src/bastile-add-subkey.c:110
+#, fuzzy
+msgid "Couldn't add subkey"
+msgstr "Kongeramo"
+
+#: src/bastile-add-subkey.c:126
+#, fuzzy, c-format
+msgid "Add subkey to %s"
+msgstr "Kuri"
+
+#: src/bastile-add-subkey.glade.h:1 src/bastile-generate-adv.glade.h:5
+#, fuzzy
+msgid "DSA (sign only)"
+msgstr "IKIMENYETSO"
+
+#: src/bastile-add-subkey.glade.h:2
+#, fuzzy
+msgid "ElGamal (encrypt only)"
+msgstr "Shyiraho Umutekano"
+
+#: src/bastile-add-subkey.glade.h:3 src/bastile-generate-adv.glade.h:6
+#: src/bastile-generate-druid.glade.h:14
+msgid "Expiration Date:"
+msgstr ""
+
+#: src/bastile-add-subkey.glade.h:4
+#, fuzzy
+msgid "Generate a new subkey"
+msgstr "a Gishya"
+
+#: src/bastile-add-subkey.glade.h:5 src/bastile-generate-adv.glade.h:10
+#, fuzzy
+msgid "If key never expires"
+msgstr "Urufunguzo Nta narimwe Yarenze igihe:"
+
+#: src/bastile-add-subkey.glade.h:6 src/bastile-generate-adv.glade.h:12
+msgid "Key _Length:"
+msgstr ""
+
+# #-#-#-#-#  sw.pot (PACKAGE VERSION)  #-#-#-#-#
+# sw/source\ui\index\cnttab.src:TP_TOX_SELECT.FT_SORTALG.text
+# #-#-#-#-#  sw.pot (PACKAGE VERSION)  #-#-#-#-#
+# sw/source\ui\misc\srtdlg.src:DLG_SORTING.FT_KEYTYP.text
+#: src/bastile-add-subkey.glade.h:7 src/bastile-generate-adv.glade.h:13
+#, fuzzy
+msgid "Key _Type:"
+msgstr "Ubwoko bw'agakandisho"
+
+#: src/bastile-add-subkey.glade.h:8 src/bastile-generate-adv.glade.h:14
+#, fuzzy
+msgid "Key type / algorithm"
+msgstr "Ubwoko"
+
+#: src/bastile-add-subkey.glade.h:9 src/bastile-generate-adv.glade.h:15
+#, fuzzy
+msgid "Length of Key"
+msgstr "Bya"
+
+#: src/bastile-add-subkey.glade.h:10 src/bastile-generate-adv.glade.h:17
+msgid "Never E_xpires"
+msgstr ""
+
+#: src/bastile-add-subkey.glade.h:11
+#, fuzzy
+msgid "RSA (encrypt only)"
+msgstr "Shyiraho Umutekano"
+
+#: src/bastile-add-subkey.glade.h:12 src/bastile-generate-adv.glade.h:21
+#, fuzzy
+msgid "RSA (sign only)"
+msgstr "IKIMENYETSO"
+
+#: src/bastile-add-uid.c:81
+#, fuzzy
+msgid "Couldn't add user id"
+msgstr "Kongeramo Ukoresha: ID"
+
+#: src/bastile-add-uid.c:104
+#, fuzzy, c-format
+msgid "Add user ID to %s"
+msgstr "Ukoresha: Kuri"
+
+#: src/bastile-add-uid.glade.h:2
+msgid "Add User ID"
+msgstr ""
+
+#: src/bastile-add-uid.glade.h:3
+#, fuzzy
+msgid "Create the new user ID"
+msgstr "i Gishya Ukoresha:"
+
+#: src/bastile-add-uid.glade.h:4 src/bastile-generate-adv.glade.h:7
+msgid "Full _Name:"
+msgstr ""
+
+#: src/bastile-add-uid.glade.h:5 src/bastile-generate-adv.glade.h:11
+msgid "Key Co_mment:"
+msgstr ""
+
+#: src/bastile-add-uid.glade.h:6 src/bastile-generate-adv.glade.h:16
+#, fuzzy
+msgid "Must be at least 5 characters long"
+msgstr "ku 5 Inyuguti"
+
+#: src/bastile-add-uid.glade.h:7 src/bastile-generate-adv.glade.h:18
+#: src/bastile-generate-druid.glade.h:23
+#, fuzzy
+msgid "Optional comment describing key"
+msgstr "Icyo wongeraho Urufunguzo"
+
+#: src/bastile-add-uid.glade.h:8 src/bastile-generate-adv.glade.h:19
+#: src/bastile-generate-druid.glade.h:24
+#, fuzzy
+msgid "Optional email address"
+msgstr "imeli Aderesi"
+
+#: src/bastile-add-uid.glade.h:9 src/bastile-generate-adv.glade.h:22
+#, fuzzy
+msgid "_Email Address:"
+msgstr "Aderesi ya imeli:"
+
+#: src/bastile-change-passphrase.glade.h:2
+msgid "Change Passphrase"
+msgstr ""
+
+#: src/bastile-change-passphrase.glade.h:3
+#: src/bastile-generate-adv.glade.h:2
+msgid "Con_firm Passphrase:"
+msgstr ""
+
+#: src/bastile-change-passphrase.glade.h:4
+#, fuzzy
+msgid "Confirm new passphrase"
+msgstr "Gishya"
+
+#: src/bastile-change-passphrase.glade.h:5
+#, fuzzy
+msgid "Enter new passphrase"
+msgstr "Gishya"
+
+#: src/bastile-change-passphrase.glade.h:6
+msgid "New _Passphrase:"
+msgstr ""
+
+#: src/bastile-delete.c:39
+#, fuzzy, c-format
+msgid "%s is a key pair! Do you still want to delete it?"
+msgstr "%sni a Urufunguzo Kuri Gusiba"
+
+#: src/bastile-delete.c:70
+#, fuzzy, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Kuri Gusiba"
+
+#: src/bastile-delete.c:116
+#, fuzzy
+msgid "Couldn't delete key"
+msgstr "Gusiba Urufunguzo"
+
+#: src/bastile-delete.c:134
+#, fuzzy, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Kuri Gusiba Bya"
+
+#: src/bastile-delete.c:156
+#, fuzzy
+msgid "Couldn't delete subkey"
+msgstr "Gusiba"
+
+#: src/bastile-delete.c:174
+#, fuzzy, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Kuri Gusiba i Ukoresha:"
+
+#: src/bastile-delete.c:197
+#, fuzzy
+msgid "Couldn't delete user id"
+msgstr "Gusiba Ukoresha: ID"
+
+#: src/bastile-expires.c:62
+#, fuzzy
+msgid "Couldn't change expiry date"
+msgstr "Guhindura>> Itariki"
+
+#: src/bastile-expires.c:115
+#, fuzzy, c-format
+msgid "Expiry for Subkey %d of %s"
+msgstr "kugirango Bya"
+
+#: src/bastile-expires.c:117
+#, fuzzy, c-format
+msgid "Expiry for %s"
+msgstr "kugirango"
+
+#: src/bastile-expires.glade.h:1
+#, fuzzy
+msgid "C_hange"
+msgstr "Guhindura"
+
+#: src/bastile-expires.glade.h:2 src/bastile-revoke.glade.h:12
+#, fuzzy
+msgid "Revoke key"
+msgstr "Urufunguzo"
+
+#: src/bastile-expires.glade.h:3
+#, fuzzy
+msgid "This key should e_xpire on:"
+msgstr "Urufunguzo ku"
+
+#: src/bastile-generate-adv.c:141 src/bastile-generate-druid.c:167
+#, fuzzy
+msgid "Couldn't generate key"
+msgstr "Urufunguzo"
+
+#: src/bastile-generate-adv.glade.h:3
+#, fuzzy
+msgid "Confirmation of passphrase"
+msgstr "Bya"
+
+#: src/bastile-generate-adv.glade.h:4
+msgid "DSA & ElGamal"
+msgstr ""
+
+#: src/bastile-generate-adv.glade.h:8
+#, fuzzy
+msgid "Generate a Key"
+msgstr "a"
+
+#: src/bastile-generate-adv.glade.h:9
+#, fuzzy
+msgid "Generate a new key"
+msgstr "a Gishya Urufunguzo"
+
+#: src/bastile-generate-adv.glade.h:20 src/bastile-generate-druid.glade.h:26
+#, fuzzy
+msgid "Passphrase to secure key"
+msgstr "Kuri Urufunguzo"
+
+#: src/bastile-generate-adv.glade.h:23
+msgid "_Generate"
+msgstr ""
+
+#: src/bastile-generate-adv.glade.h:24
+msgid "_Passphrase:"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:2
+#, fuzzy
+msgid ""
+"Before selecting apply to start key generation, please make sure all of your "
+"previous settings are correct."
+msgstr ""
+"Gukurikiza Kuri Gutangira Urufunguzo Ubwoko Byose Bya Ibanjirije "
+"Amagenamiterere"
+
+#: src/bastile-generate-druid.glade.h:3
+#, fuzzy
+msgid ""
+"Choosing a passphrase is an integral part of creating a strong key. Like a "
+"password, a passphrase should contain letters, numbers, and punctuation. "
+"Additionally, a passphrase can contain spaces, meaning it can contain many "
+"words. \n"
+"\n"
+"You should pick a phrase that is easy to rememeber and contains punctuation. "
+"Take this phrase, adjust the case of various letters, and change some of the "
+"letters into numbers or punctuation, reminiscent of \"leet speak\", but "
+"don't make it so obscure to the point where you can't remember it."
+msgstr ""
+"a ni Umubare Wuzuye Bya a Urufunguzo a Ijambobanga... a Imibare Na a Imyanya "
+"Igisobanuro Amagambo a ni Kuri Na Kirimo iyi i Bya Na Guhindura>> Bya i "
+"Imibare Cyangwa Bya Ubwoko Kuri i Akadomo"
+
+# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_COMMENT.text
+#: src/bastile-generate-druid.glade.h:6 src/bastile-key-properties.glade.h:7
+msgid "Comment:"
+msgstr "Icyo wongeraho"
+
+#: src/bastile-generate-druid.glade.h:7
+msgid "Confirm"
+msgstr "Emeza"
+
+#: src/bastile-generate-druid.glade.h:8
+msgid "Confirm Passphrase:"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:9
+msgid "Confirm passphrase"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:10
+#, fuzzy
+msgid "Date the Key Expires"
+msgstr "i"
+
+#: src/bastile-generate-druid.glade.h:11
+#, fuzzy
+msgid "Email Address:"
+msgstr "Aderesi ya imeli:"
+
+#: src/bastile-generate-druid.glade.h:12
+#, fuzzy
+msgid "Enter Name - Must be at least five letters."
+msgstr "ku"
+
+#: src/bastile-generate-druid.glade.h:13 src/bastile-key-manager-store.c:391
+msgid "Expiration Date"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:15
+msgid "Extra High Security"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:16
+msgid "Full Name:"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:17
+msgid "High Security"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:18
+msgid "Key Generation Assistant"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:19
+msgid "Key Generation Assistant Complete"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:20
+#, fuzzy
+msgid ""
+"Keys must be given an appropriate expiration date. For most people, the "
+"default option of \"never expires\" is sufficient. If you only plan on using "
+"the key for a certain period of time, i.e. for a specific project, you "
+"should pick an expiration date after the projected completion of your "
+"project. After the expiration date, your private key will still be able to "
+"decrypt messages or data encrypted with your public key. However, your "
+"private key will no longer sign messages or data."
+msgstr "E."
+
+#: src/bastile-generate-druid.glade.h:21
+msgid "Medium Security"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:22
+msgid "Never Expires"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:28
+msgid "Personal Information"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:29
+msgid "Bastile Key Generation Assistant"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:30
+msgid "Security Level"
+msgstr "Urwego rw'umutekano"
+
+#: src/bastile-generate-druid.glade.h:31
+#, fuzzy
+msgid ""
+"The Medium Security level is the default and should be acceptable for "
+"general everyday usage.  \n"
+"\n"
+"The High Security level should be selected if you know your data will be "
+"actively scrutinized.  The Extra High level should be selected if you know "
+"your data is actively scrutinized and will be under cryptographic attack."
+msgstr ""
+"urwego ni i Mburabuzi Na kugirango Rusange Ikoresha: urwego Byahiswemo NIBA "
+"Ibyatanzwe urwego Byahiswemo NIBA Ibyatanzwe ni Na"
+
+#: src/bastile-generate-druid.glade.h:34
+#, fuzzy
+msgid ""
+"This assistant will guide you through the steps of creating a PGP key pair."
+msgstr "Gihinguranya i Intambwe Bya a Urufunguzo"
+
+#: src/bastile-generate-druid.glade.h:35
+#, fuzzy
+msgid ""
+"To create a key and tie it to your identity, the following information is "
+"needed: Full Name, Email Address, and Comment.  \n"
+"\n"
+"These values will be given to the name of your key in the following "
+"manner:                              \n"
+"\n"
+"Full Name (Comment) <email address>."
+msgstr ""
+"Kurema a Urufunguzo Na Kuri Ikiranga i Ibisobanuro ni Na Uduciro Kuri i "
+"Izina: Bya Urufunguzo in i imeli Aderesi"
+
+#: src/bastile-generate-druid.glade.h:40
+msgid "druidpage_pass"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:41
+msgid "druidpage_pinfo"
+msgstr ""
+
+#: src/bastile-generate-druid.glade.h:42
+msgid "keygen_druid"
+msgstr ""
+
+#: src/bastile-generate-select.glade.h:1
+msgid "Advanced"
+msgstr "Urwego rwo hejuru"
+
+#: src/bastile-generate-select.glade.h:2
+msgid "Assistant"
+msgstr ""
+
+#: src/bastile-generate-select.glade.h:3
+msgid "Continue"
+msgstr "Gukomeza"
+
+#: src/bastile-generate-select.glade.h:4
+msgid "Generate Key"
+msgstr ""
+
+#: src/bastile-generate-select.glade.h:5
+#, fuzzy
+msgid "Generate a key via the assistant."
+msgstr "a Urufunguzo Biturutse i"
+
+#: src/bastile-generate-select.glade.h:6
+#, fuzzy
+msgid "Generate a key with the advanced dialog."
+msgstr "a Urufunguzo Na: i Urwego rwo hejuru Ikiganiro"
+
+#: src/bastile-generate-select.glade.h:7
+#, fuzzy
+msgid "Select a method to generate your new key:"
+msgstr "a Uburyo Kuri Gishya Urufunguzo"
+
+#: src/bastile-generate-select.glade.h:8
+msgid "radio_druid"
+msgstr ""
+
+#: src/bastile-key-manager-store.c:176 src/bastile-key-properties.c:238
+msgid "Expired"
+msgstr "Byarengeje igihe"
+
+#: src/bastile-key-manager-store.c:191
+msgid "Private PGP Key"
+msgstr ""
+
+#: src/bastile-key-manager-store.c:193
+msgid "Public PGP Key"
+msgstr ""
+
+# 6375
+#: src/bastile-key-manager-store.c:210
+msgid "User ID"
+msgstr "koresha Indango"
+
+#: src/bastile-key-manager-store.c:322
+#, fuzzy
+msgid "Couldn't export key(s)"
+msgstr "Kohereza Urufunguzo S"
+
+#: src/bastile-key-manager-store.c:338 src/bastile-key-manager.c:198
+#: src/bastile-key-properties.c:296 src/bastile-keyserver-results.c:130
+#, fuzzy, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Kohereza Urufunguzo Kuri"
+
+#: src/bastile-key-manager-store.c:383
+msgid "Trust"
+msgstr ""
+
+# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_COLUMN_HEADER_TYPE.text
+#: src/bastile-key-manager-store.c:387
+msgid "Type"
+msgstr "Ubwoko"
+
+#: src/bastile-key-manager.c:89
+msgid "Import Key"
+msgstr ""
+
+#: src/bastile-key-manager.c:119
+#, fuzzy
+msgid "Couldn't import keys from clipboard"
+msgstr "Kuzana Utubuto Bivuye Ububikokoporora"
+
+#: src/bastile-key-manager.c:154
+#, fuzzy
+msgid "Couldn't export key to clipboard"
+msgstr "Kohereza Urufunguzo Kuri Ububikokoporora"
+
+#: src/bastile-key-manager.c:187
+msgid "Export Key"
+msgstr ""
+
+#: src/bastile-key-manager.c:217
+#, fuzzy
+msgid "Backup Keyrings to Archive"
+msgstr "Kuri"
+
+#: src/bastile-key-manager.c:386
+msgid "translator_credits"
+msgstr ""
+
+#: src/bastile-key-manager.c:406
+msgid "bastile"
+msgstr ""
+
+#: src/bastile-key-manager.c:571
+#, fuzzy, c-format
+msgid "Couldn't import key from \"%s\""
+msgstr "Kuzana Urufunguzo Bivuye"
+
+#: src/bastile-key-manager.glade.h:1
+#, fuzzy
+msgid "<big><b>First time options:</b></big>"
+msgstr "<B Igihe Amahitamo B"
+
+#: src/bastile-key-manager.glade.h:2
+msgid "Add P_hoto ID..."
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:3
+msgid "Add Sub_key..."
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:4
+msgid "Add _Revoker..."
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:5
+msgid "Add _User ID..."
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:6
+#, fuzzy
+msgid "Add a new subkey"
+msgstr "a Gishya"
+
+#: src/bastile-key-manager.glade.h:7
+#, fuzzy
+msgid "Add a new user ID"
+msgstr "a Gishya Ukoresha:"
+
+#: src/bastile-key-manager.glade.h:8
+#, fuzzy
+msgid "Add a photo ID"
+msgstr "a Ifoto"
+
+#: src/bastile-key-manager.glade.h:9
+#, fuzzy
+msgid "Add the default key as a revoker"
+msgstr "i Mburabuzi Urufunguzo Nka a"
+
+#: src/bastile-key-manager.glade.h:10
+#, fuzzy
+msgid "Backup all keys"
+msgstr "Byose Utubuto"
+
+#: src/bastile-key-manager.glade.h:11
+#, fuzzy
+msgid "Change passphrase of secret key"
+msgstr "Bya Urufunguzo"
+
+#: src/bastile-key-manager.glade.h:12
+#, fuzzy
+msgid "Collapse all listings"
+msgstr "Byose"
+
+#: src/bastile-key-manager.glade.h:13
+#, fuzzy
+msgid "Create a new key"
+msgstr "a Gishya Urufunguzo"
+
+#: src/bastile-key-manager.glade.h:14
+#, fuzzy
+msgid "Create a revocation certificate"
+msgstr "a Impamyabushobozi"
+
+#: src/bastile-key-manager.glade.h:15
+#, fuzzy
+msgid "Delete key"
+msgstr "Urufunguzo"
+
+# filter/source\pdf\impdialog.src:RID_PDF_EXPORT_DLG.BT_OK.text
+# filter/source\xsltdialog\xmlfiltertestdialog.src:DLG_XML_FILTER_TEST_DIALOG.FL_EXPORT.text
+#: src/bastile-key-manager.glade.h:16
+#, fuzzy
+msgid "E_xport"
+msgstr "Kohereza"
+
+#: src/bastile-key-manager.glade.h:17
+#, fuzzy
+msgid "E_xport..."
+msgstr "Kohereza..."
+
+#: src/bastile-key-manager.glade.h:19
+#, fuzzy
+msgid "Expand all listings"
+msgstr "Byose"
+
+#: src/bastile-key-manager.glade.h:20
+#: src/bastile-keyserver-results.glade.h:2
+#, fuzzy
+msgid "Export key"
+msgstr "Urufunguzo"
+
+#: src/bastile-key-manager.glade.h:21
+#: src/bastile-keyserver-results.glade.h:3
+#, fuzzy
+msgid "Export public key"
+msgstr "Rusange Urufunguzo"
+
+#: src/bastile-key-manager.glade.h:22
+#, fuzzy
+msgid "Filter: "
+msgstr "Muyunguruzi..."
+
+#: src/bastile-key-manager.glade.h:23
+#, fuzzy
+msgid "Generate a new key of your own: "
+msgstr "a Gishya Urufunguzo Bya"
+
+#: src/bastile-key-manager.glade.h:24
+#, fuzzy
+msgid "Import existing keys from a file:"
+msgstr "Utubuto Bivuye a IDOSIYE"
+
+#: src/bastile-key-manager.glade.h:25
+#, fuzzy
+msgid "Import keys"
+msgstr "Utubuto"
+
+#: src/bastile-key-manager.glade.h:26
+#, fuzzy
+msgid "Search for keys on a key server"
+msgstr "kugirango Utubuto ku a Urufunguzo Seriveri"
+
+#: src/bastile-key-manager.glade.h:27
+#: src/bastile-keyserver-results.glade.h:9
+#, fuzzy
+msgid "Show Bastile help"
+msgstr "Ifashayobora"
+
+#: src/bastile-key-manager.glade.h:28
+#: src/bastile-keyserver-results.glade.h:10
+#, fuzzy
+msgid "Show key properties"
+msgstr "Urufunguzo Indangakintu..."
+
+#: src/bastile-key-manager.glade.h:29
+#: src/bastile-keyserver-results.glade.h:11
+#, fuzzy
+msgid "Sign key"
+msgstr "Urufunguzo"
+
+#: src/bastile-key-manager.glade.h:30
+#, fuzzy
+msgid "Sign public key"
+msgstr "Rusange Urufunguzo"
+
+#: src/bastile-key-manager.glade.h:31
+#, fuzzy
+msgid "To get started with encryption you'll need keys."
+msgstr "Kubona Na: Bishunzwe: Utubuto"
+
+#: src/bastile-key-manager.glade.h:32
+msgid "_Backup Keyrings..."
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:33
+msgid "_Change Passphrase..."
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:34
+msgid "_Collapse All"
+msgstr ""
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\dbgui\validate.src:TP_VALIDATION_INPUTHELP.FL_CONTENT.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\dbgui\validate.src:TP_VALIDATION_ERROR.FL_CONTENT.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\navipi\navipi.src:RID_SCDLG_NAVIGATOR.TBX_CMD.IID_ZOOMOUT.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\navipi\navipi.src:SCSTR_CONTENT_ROOT.text
+#: src/bastile-key-manager.glade.h:35
+#: src/bastile-keyserver-results.glade.h:12
+#, fuzzy
+msgid "_Contents"
+msgstr "Ibigize"
+
+# dbaccess/source/ui/inc/toolbox.hrc:MID_SBA_QRY_COPY.text
+#: src/bastile-key-manager.glade.h:36
+#, fuzzy
+msgid "_Copy"
+msgstr "Gukoporora"
+
+#: src/bastile-key-manager.glade.h:37
+#: src/bastile-keyserver-results.glade.h:13
+msgid "_Copy Key"
+msgstr ""
+
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_DELETECURRENT.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_DEL.text
+#: src/bastile-key-manager.glade.h:38 src/bastile-key-properties.glade.h:35
+#, fuzzy
+msgid "_Delete"
+msgstr "Gusiba"
+
+#: src/bastile-key-manager.glade.h:39
+msgid "_Delete Key"
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:40
+msgid "_Expand All"
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:41
+msgid "_Find Remote Keys..."
+msgstr ""
+
+#: src/bastile-key-manager.glade.h:42
+msgid "_Generate Revocation Certificate..."
+msgstr ""
+
+# filter/source\xsltdialog\xmlfiltertestdialog.src:DLG_XML_FILTER_TEST_DIALOG.FL_IMPORT.text
+#: src/bastile-key-manager.glade.h:43
+#: src/bastile-keyserver-results.glade.h:14
+#, fuzzy
+msgid "_Import"
+msgstr "Kuzana"
+
+# padmin/source\padialog.src:RID_ADDP_PAGE_CHOOSEDRIVER.RID_ADDP_CHDRV_BTN_ADD.text
+#: src/bastile-key-manager.glade.h:44
+#, fuzzy
+msgid "_Import..."
+msgstr "Kuzana"
+
+# svtools/source\dialogs\colrdlg.src:DLG_COLOR.FT_KEY.text
+#: src/bastile-key-manager.glade.h:45
+#: src/bastile-keyserver-results.glade.h:16
+#, fuzzy
+msgid "_Key"
+msgstr "Urufunguzo"
+
+# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_NEWLIB.text
+#: src/bastile-key-manager.glade.h:46
+#, fuzzy
+msgid "_New..."
+msgstr "Gishya..."
+
+#: src/bastile-key-manager.glade.h:47
+msgid "_Paste Key"
+msgstr ""
+
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_POPUP_BRKPROPS.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_SHOW_PROPERTYBROWSER.text
+#: src/bastile-key-manager.glade.h:48
+#: src/bastile-keyserver-results.glade.h:17
+#, fuzzy
+msgid "_Properties"
+msgstr "indangakintu"
+
+#: src/bastile-key-manager.glade.h:49
+msgid "_Remote Search"
+msgstr ""
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_PLUS_MINUS.text
+#: src/bastile-key-manager.glade.h:50 src/bastile-key-properties.glade.h:38
+#: src/bastile-sign.glade.h:17
+#, fuzzy
+msgid "_Sign"
+msgstr "IKIMENYETSO"
+
+# sc/source\core\src\compiler.src:RID_SC_FUNCTION_NAMES.SC_OPCODE_PLUS_MINUS.text
+#: src/bastile-key-manager.glade.h:51
+#, fuzzy
+msgid "_Sign..."
+msgstr "IKIMENYETSO"
+
+#: src/bastile-key-properties.c:140
+msgid "ElGamal"
+msgstr ""
+
+# LOCALIZATION NOTE (ObjectProperties):Don't translate "%obj%" it will be replaced with one of above object nouns
+#: src/bastile-key-properties.c:180
+#, fuzzy, c-format
+msgid "%s Properties"
+msgstr "%sindangabintu ya %s%obj %s%"
+
+#. key id
+#: src/bastile-key-properties.c:211 src/bastile-key-properties.glade.h:17
+msgid "Key ID:"
+msgstr ""
+
+#: src/bastile-key-properties.c:211
+#, fuzzy
+msgid "Key identifier"
+msgstr "Ikiranga"
+
+# sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_FILE_TYP.text
+#. type
+#: src/bastile-key-properties.c:216 src/bastile-key-properties.glade.h:28
+msgid "Type:"
+msgstr "Ubwoko"
+
+#: src/bastile-key-properties.c:216
+msgid "Algorithm"
+msgstr ""
+
+# sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_CREATE.text
+#. created
+#: src/bastile-key-properties.c:224 src/bastile-key-properties.glade.h:8
+msgid "Created:"
+msgstr "Byakozwe"
+
+#: src/bastile-key-properties.c:224
+#, fuzzy
+msgid "Key creation date"
+msgstr "Itariki"
+
+# svx/source\gallery2\gallery.src:RID_SVXSTR_GALLERY_LENGTH.text
+#. length
+#: src/bastile-key-properties.c:228
+msgid "Length:"
+msgstr "Uburebure:"
+
+# svx/source\dialog\spldlg.src:RID_SVXDLG_SPELLCHECK.FI_STATE.quickhelptext
+#. status
+#: src/bastile-key-properties.c:233
+msgid "Status:"
+msgstr "Imimerere:"
+
+#: src/bastile-key-properties.c:234
+msgid "Good"
+msgstr ""
+
+#. expires
+#: src/bastile-key-properties.c:241 src/bastile-key-properties.glade.h:13
+msgid "Expires:"
+msgstr "Yarenze igihe:"
+
+#: src/bastile-key-properties.c:250
+msgid "Change Expiry Date"
+msgstr ""
+
+#: src/bastile-key-properties.c:286
+msgid "Export Complete Key"
+msgstr ""
+
+#: src/bastile-key-properties.c:322
+msgid "All Signatures"
+msgstr ""
+
+#: src/bastile-key-properties.c:573
+#, fuzzy
+msgid "Couldn't change primary user ID"
+msgstr "Guhindura>> Ukoresha:"
+
+#: src/bastile-key-properties.c:646 src/bastile-key-properties.glade.h:37
+msgid "_Revoke"
+msgstr ""
+
+#: src/bastile-key-properties.c:650
+#, c-format
+msgid "Revoke subkey %d"
+msgstr ""
+
+#: src/bastile-key-properties.c:659
+#, c-format
+msgid "Subkey %d"
+msgstr ""
+
+#: src/bastile-key-properties.c:671
+#, c-format
+msgid "Delete subkey %d"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:1
+#, fuzzy
+msgid "<b>Dates</b>"
+msgstr "<B B"
+
+#: src/bastile-key-properties.glade.h:2
+#, fuzzy
+msgid "<b>Owner</b>"
+msgstr "<B B"
+
+#: src/bastile-key-properties.glade.h:3
+#, fuzzy
+msgid "<b>Properties</b>"
+msgstr "<B B"
+
+#: src/bastile-key-properties.glade.h:4
+#, fuzzy
+msgid "<b>_Trust</b>"
+msgstr "<B B"
+
+# basctl/source\basicide\basidesh.src:RID_STR_ALL.text
+#: src/bastile-key-properties.glade.h:5
+msgid "All"
+msgstr "Byose"
+
+#: src/bastile-key-properties.glade.h:6
+msgid "Change _Passphrase"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:9
+#, fuzzy
+msgid "Dis_abled"
+msgstr "Yahagaritswe"
+
+#: src/bastile-key-properties.glade.h:10
+#, fuzzy
+msgid "Disabled keys cannot be used for operations"
+msgstr "Utubuto kugirango Ibikorwa:"
+
+#: src/bastile-key-properties.glade.h:11
+msgid "E_xport Complete Key"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:12
+msgid "Email:"
+msgstr "Imeli:"
+
+#: src/bastile-key-properties.glade.h:14
+msgid "Fingerprint:"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:16
+msgid "Fully trust owner"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:18
+msgid "Key Properties"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:20
+msgid "Marginally trust owner"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:21
+msgid "Master Key"
+msgstr ""
+
+# sc/source\ui\dbgui\pvfundlg.src:RID_SCDLG_PIVOTSUBT.FT_NAMELABEL.text
+#: src/bastile-key-properties.glade.h:22
+msgid "Name:"
+msgstr "Izina:"
+
+#: src/bastile-key-properties.glade.h:24
+msgid "Never trust owner"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:25
+#, fuzzy
+msgid "Owner is unknown"
+msgstr "ni Kitazwi"
+
+#: src/bastile-key-properties.glade.h:26
+msgid "Signatures"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:27
+msgid "Strength:"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:31
+msgid "User IDs"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:32
+msgid "User IDs:"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:33
+#, fuzzy
+msgid "Your personal key"
+msgstr "Bwite Urufunguzo"
+
+#: src/bastile-key-properties.glade.h:34
+#, fuzzy
+msgid "_Add"
+msgstr "Kongeramo"
+
+#: src/bastile-key-properties.glade.h:36
+msgid "_Primary"
+msgstr ""
+
+#: src/bastile-key-properties.glade.h:39
+msgid "_Signatures:"
+msgstr ""
+
+#: src/bastile-keyserver-results.c:87 src/bastile-keyserver-results.c:157
+#, fuzzy
+msgid "Couldn't retrieve key data from key server"
+msgstr "Urufunguzo Ibyatanzwe Bivuye Urufunguzo Seriveri"
+
+#: src/bastile-keyserver-results.c:100
+#, fuzzy
+msgid "Couldn't import keys into keyring"
+msgstr "Kuzana Utubuto"
+
+#: src/bastile-keyserver-results.c:121
+#, fuzzy
+msgid "Save Remote Keys"
+msgstr "Kubika"
+
+#: src/bastile-keyserver-results.c:218
+#, fuzzy, c-format
+msgid "Selected %d keys"
+msgstr "Utubuto"
+
+#: src/bastile-keyserver-results.c:302
+msgid "Remote Keys"
+msgstr ""
+
+#: src/bastile-keyserver-results.c:304
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr ""
+
+#: src/bastile-keyserver-results.glade.h:1
+#, fuzzy
+msgid "Copy the selected key to the clipboard"
+msgstr "i Byahiswemo Urufunguzo Kuri i Ububikokoporora"
+
+#: src/bastile-keyserver-results.glade.h:4
+#, fuzzy
+msgid "Find Remote Keys on Key Servers"
+msgstr "ku"
+
+#: src/bastile-keyserver-results.glade.h:5
+msgid "Find Remote Keys..."
+msgstr ""
+
+#: src/bastile-keyserver-results.glade.h:6
+#, fuzzy
+msgid "Import selected keys to local keyring"
+msgstr "Byahiswemo Utubuto Kuri"
+
+#: src/bastile-keyserver-results.glade.h:7
+msgid "Remote Encryption Keys"
+msgstr ""
+
+#: src/bastile-keyserver-results.glade.h:8
+#, fuzzy
+msgid "Save the key to a file"
+msgstr "Kubika i Urufunguzo Kuri a IDOSIYE"
+
+#: src/bastile-keyserver-results.glade.h:15
+#, fuzzy
+msgid "_Import to Keyring..."
+msgstr "Kuri"
+
+#. The all key servers option
+#: src/bastile-keyserver-search.c:195
+msgid "All Key Servers"
+msgstr ""
+
+#: src/bastile-keyserver-search.glade.h:2
+msgid "Find Remote Keys"
+msgstr ""
+
+#: src/bastile-keyserver-search.glade.h:3
+#, fuzzy
+msgid "Search _for key containing:"
+msgstr "kugirango Urufunguzo"
+
+# svx/source\form\fmsearch.src:RID_SVXDLG_SEARCHFORM.FL_WHERE.text
+#: src/bastile-keyserver-search.glade.h:4
+#, fuzzy
+msgid "Where to search:"
+msgstr "Hehe ho gushakisha"
+
+# #-#-#-#-#  offmgr.pot (PACKAGE VERSION)  #-#-#-#-#
+# offmgr/source\offapp\dialog\inetdlg.src:RID_OFADLG_INTERNET.1.RID_SVXPAGE_INET_SEARCH.text
+# #-#-#-#-#  offmgr.pot (PACKAGE VERSION)  #-#-#-#-#
+# offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_INET_DLG.3.text
+#: src/bastile-keyserver-search.glade.h:5
+#, fuzzy
+msgid "_Search"
+msgstr "Gushaka"
+
+#: src/bastile-multi-encrypt.glade.h:2
+#, fuzzy
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<B Byahiswemo Igikubo Idosiye Cyangwa B"
+
+#: src/bastile-multi-encrypt.glade.h:3
+#, fuzzy
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"seperately."
+msgstr "i Idosiye IDOSIYE Bishunzwe:"
+
+#: src/bastile-multi-encrypt.glade.h:4
+msgid "Encrypt Multiple Files"
+msgstr ""
+
+#: src/bastile-multi-encrypt.glade.h:5
+#, fuzzy
+msgid "Encrypt each file seperately"
+msgstr "IDOSIYE"
+
+#: src/bastile-multi-encrypt.glade.h:6
+#, fuzzy
+msgid "Encrypt packed together in a package"
+msgstr "in a"
+
+#: src/bastile-multi-encrypt.glade.h:7
+msgid "Package Name:"
+msgstr ""
+
+#: src/bastile-multi-encrypt.glade.h:8
+msgid "Packaging:"
+msgstr ""
+
+#: src/bastile-multi-encrypt.glade.h:9
+#, fuzzy
+msgid "encrypted-package.rar"
+msgstr "Bishunzwe:"
+
+#: src/bastile-pgp-encrypted.desktop.in.h:1
+#, fuzzy
+msgid "Decrypt File"
+msgstr "Idosiye"
+
+#: src/bastile-pgp-signature.desktop.in.h:1
+msgid "Verify Signature"
+msgstr ""
+
+#: src/bastile-preferences.c:49 src/bastile-preferences.glade.h:3
+msgid "Key Manager"
+msgstr ""
+
+#: src/bastile-preferences.c:54
+msgid "Visible Columns:"
+msgstr ""
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/sdi\scslots.src:FID_VALIDATION.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\dbgui\validate.src:TAB_DLG_VALIDATION.text
+#: src/bastile-preferences.c:63
+#, fuzzy
+msgid "_Validity"
+msgstr "Ukugira agaciro"
+
+#: src/bastile-preferences.c:65 src/bastile-sign.glade.h:13
+#, fuzzy
+msgid "_Expires"
+msgstr "Brarenze igihe"
+
+#: src/bastile-preferences.c:67
+msgid "_Trust"
+msgstr ""
+
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+#: src/bastile-preferences.c:69
+#, fuzzy
+msgid "T_ype"
+msgstr "Ubwoko"
+
+#: src/bastile-preferences.glade.h:1
+#, fuzzy
+msgid "Close Preferences"
+msgstr "Funga"
+
+#: src/bastile-preferences.glade.h:2
+msgid "Default Key:"
+msgstr ""
+
+#: src/bastile-preferences.glade.h:4
+msgid "Preferences Help"
+msgstr ""
+
+#: src/bastile-preferences.glade.h:5
+msgid "Bastile Preferences"
+msgstr ""
+
+#: src/bastile-preferences.glade.h:6
+msgid "Visible Columns"
+msgstr ""
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: src/bastile-process-multiple.c:48
+#, fuzzy, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Byahiswemo IDOSIYE"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: src/bastile-process-multiple.c:53
+#, fuzzy, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "Na Ububiko"
+
+#. should never be called for just one file
+#: src/bastile-process-multiple.c:66
+#, fuzzy, c-format
+msgid "You have selected %d files"
+msgstr "Byahiswemo Idosiye"
+
+#: src/bastile-process-multiple.c:70
+#, fuzzy, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Byahiswemo Ububiko"
+
+#: src/bastile-revoke.c:53
+msgid "Couldn't revoke subkey"
+msgstr ""
+
+#: src/bastile-revoke.c:77
+#, fuzzy, c-format
+msgid "Revoke Subkey %d of %s"
+msgstr "Bya"
+
+#: src/bastile-revoke.c:79
+#, c-format
+msgid "Revoke %s"
+msgstr ""
+
+#: src/bastile-revoke.c:107
+#, fuzzy, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr "Ibyerekeye Kuri Kongeramo Nka a kugirango Kuri urifuzagukomeza"
+
+#: src/bastile-revoke.c:122
+#, fuzzy
+msgid "Couldn't add revoker"
+msgstr "Kongeramo"
+
+#: src/bastile-revoke.glade.h:2
+msgid "Compromised"
+msgstr ""
+
+#: src/bastile-revoke.glade.h:3
+msgid "Key has been compromised"
+msgstr ""
+
+#: src/bastile-revoke.glade.h:4
+msgid "Key has been superseded"
+msgstr ""
+
+#: src/bastile-revoke.glade.h:5
+#, fuzzy
+msgid "Key is no longer used"
+msgstr "ni Oya"
+
+#: src/bastile-revoke.glade.h:6
+msgid "No Reason"
+msgstr ""
+
+#: src/bastile-revoke.glade.h:7
+#, fuzzy
+msgid "No reason for revoking key"
+msgstr "kugirango Urufunguzo"
+
+#: src/bastile-revoke.glade.h:8
+msgid "Not Used"
+msgstr ""
+
+#: src/bastile-revoke.glade.h:9
+#, fuzzy
+msgid "Optional description of revocation"
+msgstr "Isobanuramiterere Bya"
+
+#: src/bastile-revoke.glade.h:10
+msgid "Re_voke"
+msgstr ""
+
+#: src/bastile-revoke.glade.h:11
+#, fuzzy
+msgid "Reason for revoking the key"
+msgstr "kugirango i Urufunguzo"
+
+#: src/bastile-revoke.glade.h:13
+msgid "Superseded"
+msgstr ""
+
+#: src/bastile-revoke.glade.h:14
+#, fuzzy
+msgid "_Description:"
+msgstr "Umwirondoro:"
+
+#: src/bastile-revoke.glade.h:15
+msgid "_Reason:"
+msgstr ""
+
+#: src/bastile-sign.c:57
+#, fuzzy
+msgid "Couldn't sign key"
+msgstr "IKIMENYETSO Urufunguzo"
+
+#: src/bastile-sign.c:81
+#, fuzzy, c-format
+msgid "Are you sure you want to sign all user IDs for %s?"
+msgstr "Kuri IKIMENYETSO Byose Ukoresha: kugirango"
+
+#: src/bastile-sign.c:127
+#, fuzzy, c-format
+msgid "Are you sure you want to sign the '%s' user ID?"
+msgstr "Kuri IKIMENYETSO i Ukoresha:"
+
+#: src/bastile-sign.glade.h:1
+msgid "Casually"
+msgstr ""
+
+#: src/bastile-sign.glade.h:2
+msgid "Default answer"
+msgstr ""
+
+#: src/bastile-sign.glade.h:3
+#, fuzzy
+msgid "Have casually checked key"
+msgstr "Ivivuwe Urufunguzo"
+
+#: src/bastile-sign.glade.h:4
+#, fuzzy
+msgid "Have checked key very carefully"
+msgstr "Ivivuwe Urufunguzo"
+
+#: src/bastile-sign.glade.h:5
+#, fuzzy
+msgid "Have not checked key"
+msgstr "OYA Ivivuwe Urufunguzo"
+
+#: src/bastile-sign.glade.h:6
+#, fuzzy
+msgid "If signature can be revoked"
+msgstr "Isinya Byavanywemo"
+
+#: src/bastile-sign.glade.h:7
+#, fuzzy
+msgid "If signature expires with key"
+msgstr "Isinya Yarenze igihe: Na: Urufunguzo"
+
+#: src/bastile-sign.glade.h:8
+#, fuzzy
+msgid ""
+"If signature is local to the key ring and won't be exported with the key"
+msgstr "Isinya ni Kuri i Urufunguzo Kuvuza Inzogera Na Na: i Urufunguzo"
+
+#: src/bastile-sign.glade.h:9
+msgid "No answer"
+msgstr ""
+
+#: src/bastile-sign.glade.h:10
+#, fuzzy
+msgid "Not at all"
+msgstr "ku Byose"
+
+#: src/bastile-sign.glade.h:11
+msgid "Sign Key"
+msgstr ""
+
+#: src/bastile-sign.glade.h:12
+msgid "Very carefully"
+msgstr ""
+
+#: src/bastile-sign.glade.h:14
+#, fuzzy
+msgid "_How carefully have you checked this key?"
+msgstr "Ivivuwe iyi Urufunguzo"
+
+#: src/bastile-sign.glade.h:15
+msgid "_Local"
+msgstr ""
+
+#: src/bastile-sign.glade.h:16
+msgid "_Revocable"
+msgstr ""
+
+#: src/bastile.desktop.in.h:2
+#, fuzzy
+msgid "Manage your encryption keys"
+msgstr "Bishunzwe: Utubuto"

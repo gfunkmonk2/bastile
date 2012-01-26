@@ -1,0 +1,3078 @@
+# translation of eu_to_be_translate.po to Basque
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu_to_be_translate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-01 00:02+0200\n"
+"PO-Revision-Date: 2010-10-01 00:02+0200\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../daemon/bastile-daemon.c:69
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Ez exekutatu bastile-daemon daemon gisa"
+
+#: ../daemon/bastile-daemon.c:99
+msgid "couldn't fork process"
+msgstr "ezin izan da prozesua sardetu"
+
+#: ../daemon/bastile-daemon.c:105
+msgid "couldn't create new process group"
+msgstr "ezin izan da prozesu-talde berria sortu"
+
+#: ../daemon/bastile-daemon.c:255
+msgid "Encryption Daemon (Bastile)"
+msgstr "Enkriptatze-daemona (Bastile)"
+
+#: ../daemon/bastile-service.c:163 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Gako mota ez da baliozkoa edo ez da ezagutzen: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Gako mota hori ez dago onartuta: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "Eginbide honen euskarria ez zen eraikitzeko garaian gaitu"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Gakoa ez da baliozkoa edo ez da ezagutzen: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "<i><key id='%s'/></i>(e)k sinatua, %s(e)an <i><b>iraungia</b></i>."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Sinadura baliogabea"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "<i><key id='%s'/></i>(e)k %s(e)an sinatua; <b>iraungia</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Sinadura iraungia"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "<i><key id='%s'/></i>(e)k sinatua, %s(e)an <i><b>errebokatua</b></i>."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Sinadura errebokatua"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "<i><key id='%s'/></i>(e)k %s(e)an sinatua."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Sinadura zuzena"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "Sinatzeko gakoa ez dago gako sortan."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Sinadura ezezaguna"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Sinadura okerra edo faltsutua. Sinatutako datuak aldatu egin dira."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Sinadura okerra"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Ezin izan da sinadura egiaztatu."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Sinatzailea ez da baliozkoa edo ez da ezagutzen: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Gakoak ez du sinatzeko balio: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Hartzailea ez da baliozkoa edo ez da ezagutzen: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Gakoa ez da enkriptatzeko baliozko hartzailea: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Ez da hartzailerik adierazi"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Gako mota ez da baliozkoa desenkriptatzeko: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Ezarri 'clearuri'-a"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Ezarri 'crypturi'-a"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "Errorea 'clearuri'-a irekitzean"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Ez da sinatzailerik adierazi"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Gako mota ez da baliozkoa egiaztatzeko: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Gakoaren id baliogabea: %s"
+
+#: ../daemon/bastile-sharing.c:84 ../daemon/bastile-sharing.c:269
+msgid "Couldn't share keys"
+msgstr "Ezin izan dira gakoak partekatu"
+
+#: ../daemon/bastile-sharing.c:85
+msgid "Can't publish discovery information on the network."
+msgstr "Ezin izan da aurkikuntza-informazioa sarean argitaratu."
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:112
+#, c-format
+msgid "%s's encryption keys"
+msgstr "%s(r)en enkriptatze-gakoak"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Urruneko PGP gakoak bilatzeko gako-zerbitzarien URIen zerrenda. Bertsio "
+"berrienetan bistaratze-izena sar daiteke, zuriune bat erantsi eta, ondoren, "
+"izena jarrita."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Berreskuratu gakoak automatikoki"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Sinkronizatu gakoak automatikoki"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr ""
+"Gako-kudeatzailearen Iraungitze-data zutabearen ikusgaitasuna kontrolatzen "
+"du."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr ""
+"Gako-kudeatzailearen Fidagarritasuna zutabearen ikusgaitasuna kontrolatzen "
+"du."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Gako-kudeatzailearen Mota zutabearen ikusgaitasuna kontrolatzen du."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr ""
+"Gako-kudeatzailearen Baliozkotasuna zutabearen ikusgaitasuna kontrolatzen du."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Gaitu DNS-SD partekatzea"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"DNS-SD bidez gakoak partekatzea gaitzen du (Apple-ren Bonjour). Bastile-"
+"daemon exekutatu behar da, eta HKP eta DNS-SD onartzeko konpilatua egon "
+"behar du."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "Gako lehenetsiaren IDa"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"Egia ezartzen bada, ASCII kodeketa blindatua izango dute bastile-k "
+"enkriptatutako fitxategiek."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Egia ezartzen bada, beti gehituko zaio gako lehenetsia enkriptaketen "
+"hartzaileen zerrendari."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Azken gako-zerbitzariaren bilaketa-eredua"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Erabilitako azken gako-zerbitzaria"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Mezu bat sinatzeko erabilitako azken gakoa."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP gako-zerbitzariak"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Argitaratu gakoak gako-zerbitzari honetan."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Erakutsi Iraungitze-data zutabea gako-kudeatzailean"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Erakutsi Fidagarritasuna zutabea gako-kudeatzailean"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Erakutsi Mota zutabea gako-kudeatzailean"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Erakutsi Baliozkotasuna zutabea gako-kudeatzailean"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Adierazi zein zutaberen arabera ordenatu behar den hartzaileen leihoa. Hauek "
+"dira zutabeak: Izena eta IDa. Jarri '-' zutabe-izenaren aurrean beherantz "
+"ordenatzeko."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Adierazi zein zutaberen arabera ordenatu behar den bastile gako-"
+"kudeatzailearen leiho nagusia. Hauek dira zutabeak: Izena, IDa, "
+"Baliozkotasuna, Iraungitze-data, Fidagarritasuna eta Mota. Jarri '-' zutabe-"
+"izenaren aurrean beherantz ordenatzeko."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "Mezu bat sinatzeko erabilitako azken gako sekretuaren IDa."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Hartzaileak zutabe horren arabera ordenatzen dira"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Bastile-ren gakoak zutabe horren arabera ordenatzen dira"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"PGP gakoak gako-zerbitzari horretan argitaratzen dira. Hutsik uzten da PGP "
+"gakoak ez argitaratzeko."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"Bilaketa bat egiteko erabili den azken gako-zerbitzaria, edo hutsik gako-"
+"zerbitzari guztientzat."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "Gako-zerbitzari batean bilatzeko erabili den azken bilaketa-eredua."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Eragiketa jakinetan (batez ere sinatzean) erabili beharreko gako lehenetsia "
+"zehazten du honek."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr ""
+"Gakoak gako-zerbitzarietatik automatikoki eskuratu behar diren ala ez "
+"adierazten du."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Aldatutako gakoak gako-zerbitzari lehenetsiarekin automatikoki sinkronizatu "
+"behar diren ala ez adierazten du."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr ""
+"Beti gako lehenetsiaren arabera enkriptatu behar den ala ez adierazten du"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "ASCII blindajea erabili behar den ala ez adierazten du"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Gehitu pasahitzen gako sorta"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Gako sorta berriaren izena:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"Aukeratu gako sorta berriaren izena. Desblokeatze-pasahitz bat eskatuko "
+"zaizu."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Zerbitzariaren ostalari-izena edo helbidea."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Ezin izan da gako sorta gehitu"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Gehitu pasahitza"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_Azalpena:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_Gako sorta:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_Pasahitza:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "_Erakutsi pasahitza"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Web-pasahitza"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Sareko pasahitza"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Pasahitza"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Ziur zaude '%s' pasahitza ezabatu nahi duzula?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Ziur zaude pasahitz %d ezabatu nahi duzula?"
+msgstr[1] "Ziur zaude %d pasahitz ezabatu nahi dituzula?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Atzitu sare partekatua edo baliabidea"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Atzitu webgunea"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "PGP gakoa desblokeatzen du"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Shell seguruaren gakoa desblokeatzen du"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Gordetako pasahitza edo erabiltzaile-izena"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Sareko kredentzialak"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Ezin izan da pasahitza aldatu."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Ezin izan da azalpena ezarri."
+
+#: ../gkr/bastile-gkr-item-properties.c:651
+msgid "Couldn't set application access."
+msgstr "Ezin izan da aplikazioaren atzipena ezarri."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Pasahitza:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Bide-izena:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Baimenak:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Xehetasun teknikoak:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Aplikazioak"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:72
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Xehetasunak"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Gakoa"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Gakoaren propietateak"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Erabiltzaile-izena:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Zerbitzaria:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Erakutsi pasa_hitza"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "Mota:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Erabili:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "_Ezabatu"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "_Irakurri"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "I_datzi"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Pasahitzak zerrendatzea"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Pasahitzak: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Pasahitzak:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Pasahitzen gako sorta"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Aplikazio eta sareko pasahitzak gordetzeko erabiltzen da"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Gordetako pasahitza"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Gorde modu seguruan pasahitz edo ezkutuko bat."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Ezin izan da gako sorta desblokeatu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Ezin izan da gako sorta blokeatu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Ezin izan da gako sorta lehenetsia ezarri"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Ezin izan da gako sortaren pasahitza aldatu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Blokeatu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr ""
+"Blokeatu pasahitzak gordetzeko gako sorta, horrela pasahitz maisua beharko "
+"da desblokeatzeko."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_Desblokeatu"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"Desblokeatu pasahitzak gordetzeko gako sorta, horrela erabiltzeko "
+"erabilgarri egongo da."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "Ezarri _lehenetsi gisa"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr ""
+"Normalean aplikazioek pasahitz berriak gako sorta lehenetsian gordetzen "
+"dituzte."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "Aldatu _pasahitza"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Aldatu pasahitzak gordetzeko gako sorta desblokeatzeko pasahitza"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Ziur zaude pasahitzen '%s' gako sorta ezabatu nahi duzula?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "Sortua:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Gako sorta"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Gako sortaren propietateak"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_Izena:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Gako sorta atzitzea ukatu egin da"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Mate-ren gako sortaren daemon-a ez dago martxan"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Gako sorta dagoeneko desblokeatu da"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Ez dago horrelako gako sortarik"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Ezin izan da gako sortaren daemon-arekin komunikatu"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Elementua badago lehendik"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Barne-errorea gertatu da mate-ren gako sorta atzitzean"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Elementua gordetzen..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Elementua ezabatzen..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Gako sorta ezabatzen..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Pasahitzen gako sortak zerrendatzen"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"Ez da enkriptatze-gakorik aurkitu zeinekin zuk eskatutako eragiketa egiteko. "
+"<b>Pasahitzak eta enkriptatze-gakoak</b> programa abiaraziko da zuk gako bat "
+"sortu edo inportatzeko."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:173
+msgid "All Keys"
+msgstr "Gako guztiak"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+msgid "Selected Recipients"
+msgstr "Hautatutako hartzaileak"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+msgid "Search Results"
+msgstr "Bilaketaren emaitza"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:185
+msgid "Search _for:"
+msgstr "_Bilatu hau:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:243
+msgid "None (Don't Sign)"
+msgstr "Bat ere ez (ez sinatu)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:256
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Sinatu mezua %s gisa"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:278
+msgid "_Sign message as:"
+msgstr "_Sinatu mezua honela:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Izena"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "Gakoaren IDa"
+
+#: ../libegg/egg-datetime.c:313
+msgid "Display flags"
+msgstr "Bistaratu banderak"
+
+#: ../libegg/egg-datetime.c:314
+msgid "Displayed date and/or time properties"
+msgstr "Bistaratutako data edo/eta orduaren propietateak"
+
+#: ../libegg/egg-datetime.c:319
+msgid "Lazy mode"
+msgstr "Modu alferra"
+
+#: ../libegg/egg-datetime.c:320
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr ""
+"Modu alferrak ez ditu sartutako dataren eta orduaren balioak normalizatzen"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Year"
+msgstr "Urtea"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed year"
+msgstr "Bistaratutako urtea"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Month"
+msgstr "Hilabetea"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Displayed month"
+msgstr "Bistaratutako hilabetea"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Day"
+msgstr "Eguna"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed day of month"
+msgstr "Bistaratutako hilabeteko eguna"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Hour"
+msgstr "Ordua"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed hour"
+msgstr "Bistaratutako ordua"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Minute"
+msgstr "Minutua"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed minute"
+msgstr "Bistaratutako minutua"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Second"
+msgstr "Segundoa"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed second"
+msgstr "Bistaratutako segundoa"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Lower limit year"
+msgstr "Urtearen behe-muga"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Year part of the lower date limit"
+msgstr "Dataren behe-mugan urteari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Upper limit year"
+msgstr "Urtearen goi-muga"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Year part of the upper date limit"
+msgstr "Dataren goi-mugan urteari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit month"
+msgstr "Hilabetearen behe-muga"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Month part of the lower date limit"
+msgstr "Dataren behe-mugan hilabeteari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit month"
+msgstr "Hilabetearen goi-muga"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Month part of the upper date limit"
+msgstr "Dataren goi-mugan hilabeteari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit day"
+msgstr "Egunaren behe-muga"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Day of month part of the lower date limit"
+msgstr "Dataren behe-mugan hilabeteko egunari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit day"
+msgstr "Egunaren goi-muga"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Day of month part of the upper date limit"
+msgstr "Dataren goi-mugan hilabeteko egunari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit hour"
+msgstr "Orduaren behe-muga"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Hour part of the lower time limit"
+msgstr "Orduaren behe-mugan orduari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit hour"
+msgstr "Orduaren goi-muga"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Hour part of the upper time limit"
+msgstr "Orduaren goi-mugan orduari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit minute"
+msgstr "Minutuaren behe-muga"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Minute part of the lower time limit"
+msgstr "Orduaren behe-mugan minutuari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit minute"
+msgstr "Minutuaren goi-muga"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Minute part of the upper time limit"
+msgstr "Orduaren goi-mugan minutuari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit second"
+msgstr "Segundoaren behe-muga"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Second part of the lower time limit"
+msgstr "Orduaren behe-mugan segundoari dagokion zatia"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit second"
+msgstr "Segundoaren goi-muga"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Second part of the upper time limit"
+msgstr "Orduaren goi-mugan segundoari dagokion zatia"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:470
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:1"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Date"
+msgstr "Data"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Enter the date directly"
+msgstr "Sartu data zuzenean"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select Date"
+msgstr "Hautatu data"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select the date from a calendar"
+msgstr "Hautatu data egutegitik"
+
+#: ../libegg/egg-datetime.c:517 ../libegg/egg-datetime.c:2194
+msgid "Time"
+msgstr "Ordua"
+
+#: ../libegg/egg-datetime.c:517
+msgid "Enter the time directly"
+msgstr "Sartu ordua zuzenean"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select Time"
+msgstr "Hautatu ordua"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select the time from a list"
+msgstr "Hautatu ordua zerrendatik"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:791
+msgid "24hr: no"
+msgstr "24hr: ez"
+
+#: ../libegg/egg-datetime.c:795 ../libegg/egg-datetime.c:1255
+#: ../libegg/egg-datetime.c:1259
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1256
+#: ../libegg/egg-datetime.c:1263
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:805
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:808
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:812
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:815
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1171
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1236
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Fitxategia ez da baliozko .desktop fitxategia"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Mahaigaineko (.desktop) fitxategiaren '%s' bertsioa ezezaguna"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "%s abiarazten"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Aplikazioak ez ditu dokumenturik onartzen komando-lerroan"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Abiarazteko aukera ezezaguna: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Ezin zaio dokumentuaren URIrik eman mahaigaineko 'Type=Link' sarrerari"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Ez da elementu abiarazgarria"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Desgaitu saio-kudeatzailearen konexioa"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Zehaztu gordetako konfigurazioa duen fitxategia"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FITXATEGIA"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Zehaztu saio-kudeatzailearen IDa"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "IDa"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Saio-kudeaketaren aukerak:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Erakutsi saio-kudeaketaren aukerak"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Gehitu gako-zerbitzaria"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Ostalaria:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Gako-zerbitzari mota:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Zerbitzaria atzitzeko ataka."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "hasierako aldi baterako elementua"
+
+#: ../libbastile/bastile-notification.c:566
+#: ../libbastile/bastile-notification.c:594
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Gakoa inportatu da"
+msgstr[1] "Gakoak inportatu dira"
+
+#: ../libbastile/bastile-notification.c:570
+#: ../libbastile/bastile-notification.c:593
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Gako %i inportatu da"
+msgstr[1] "%i gako inportatu dira"
+
+#: ../libbastile/bastile-notification.c:572
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Gako bat inportatu da honetarako:"
+msgstr[1] "Gakoak inportatu dira honetarako:"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Jakinarazpen-mezuak"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Gako simetrikoa"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Gako publikoa"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Gako pribatua"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Kredentzialak"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Identitatea"
+
+#: ../libbastile/bastile-passphrase.c:196
+msgid "Passphrase"
+msgstr "Pasaesaldia"
+
+#: ../libbastile/bastile-passphrase.c:199
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Pasahitza:"
+
+#: ../libbastile/bastile-passphrase.c:265
+msgid "Confirm:"
+msgstr "Berretsi:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Gako-zerbitzariaren helbidea ez da baliozkoa."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"Laguntza eskuratzeko, jarri harremanetan sistema-administratzailearekin edo "
+"gako-zerbitzariaren administratzailearekin."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URLa"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Pertsonalizatuta"
+
+#: ../libbastile/bastile-prefs.c:419
+msgid "None: Don't publish keys"
+msgstr "Bat ere ez: ez argitaratu gakorik"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Automatikoki eskuratu _gakoak gako-zerbitzarietatik"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Automatikoki sinkronizatu _aldatutako gakoak gako-zerbitzariekin"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Gako-zerbitzariak"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Key Sharing"
+msgstr "Gakoak partekatzea"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've "
+"collected. This means they can automatically encrypt things for you or those "
+"you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+"Gakoak partekatzen badituzu, sarean daudenek zuk bildutako gakoak erabil "
+"ditzakete. Ondorioz, automatikoki enkripta ditzakete gauzak zuretzat eta "
+"zure ezagunentzat, eta ez duzu zure gakoa bidali beharrik izango.\n"
+"\n"
+"<b>Oharra:</b> zure gako pertsonalak ez dira arriskuan jarriko."
+
+#: ../libbastile/bastile-prefs.xml.h:9
+msgid "_Find keys via:"
+msgstr "_Bilatu gakoak honen bidez:"
+
+#: ../libbastile/bastile-prefs.xml.h:10
+msgid "_Publish keys to:"
+msgstr "_Argitaratu gakoak hemen:"
+
+#: ../libbastile/bastile-prefs.xml.h:11
+msgid "_Share my keys with others on my network"
+msgstr "_Partekatu nire gakoak sarean "
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Progresioaren izenburua"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Ez dago erabilgarri"
+
+#: ../libbastile/bastile-util.c:239
+msgid "%Y-%m-%d"
+msgstr "%3$d-%2$m-%1$Y"
+
+#: ../libbastile/bastile-util.c:515
+msgid "Key Data"
+msgstr "Gakoaren datuak"
+
+#: ../libbastile/bastile-util.c:517
+msgid "Multiple Keys"
+msgstr "Gako anizkoitzak"
+
+#: ../libbastile/bastile-util.c:773
+msgid "Couldn't run file-roller"
+msgstr "Ezin izan da file-roller exekutatu"
+
+#: ../libbastile/bastile-util.c:779
+msgid "Couldn't package files"
+msgstr "Ezin izan dira fitxategiak paketatu"
+
+#: ../libbastile/bastile-util.c:780
+msgid "The file-roller process did not complete successfully"
+msgstr "File-roller prozesua ez da behar bezala osatu"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:956
+msgid "All key files"
+msgstr "Gako-fitxategi guztiak"
+
+#: ../libbastile/bastile-util.c:967 ../libbastile/bastile-util.c:1015
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Fitxategi guztiak"
+
+#: ../libbastile/bastile-util.c:1008
+msgid "Archive files"
+msgstr "Artxibo-fitxategiak"
+
+#: ../libbastile/bastile-util.c:1078
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Badago lehendik izen hori duen fitxategi bat.</b>\n"
+"\n"
+"Fitxategi berriarekin ordeztu nahi duzu?"
+
+#: ../libbastile/bastile-util.c:1081
+msgid "_Replace"
+msgstr "_Ordeztu"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "Marjinala"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "Osoa"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "Azkena"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Desgaituta"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Errebokatuta"
+
+#: ../libbastile/bastile-widget.c:463
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Ezin izan da laguntza erakutsi: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Iraungitze-data:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Sortu azpigako berri bat"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Gakoa inoiz ere iraungitzen ez bada"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "Gakoaren _luzera:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "Gako _mota:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Gakoaren luzera"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Ez da _iraungitzen"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Gehitu erabiltzailearen IDa"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Sortu erabiltzailearen ID berria"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "_Izen-abizenak:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "Gakoaren _iruzkina:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Gutxienez 5 karaktere izan behar ditu"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Gakoa deskribatzeko aukerako iruzkina"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "Aukerako helbide elektronikoa"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_Helbide elektronikoa:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_Aldatu"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Errebokatu gakoa"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_Ez da iraungitzen"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Ezin da azpigakoa gehitu"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Gehitu azpigakoa %s(r)i"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA (sign only)"
+msgstr "DSA (sinatzeko soilik)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (enkriptatzeko soilik)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:118
+msgid "RSA (sign only)"
+msgstr "RSA (sinatzeko soilik)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (enkriptatzeko soilik)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Ezin izan da erabiltzailearen IDa gehitu"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Gehitu erabiltzailearen IDa %s(r)i"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr ""
+"Huts egin du desenkriptatzean. Segur aski desenkriptatzeko gakoa falta duzu."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Iraungitze-data baliogabea"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Iraungitze-data etorkizunean izan behar du"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Ezin izan da iraungitze-data aldatu"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Iraungitu: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "PGP gakoa"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Mezu elektronikoak eta fitxategiak enkriptatzeko erabilia"
+
+#: ../pgp/bastile-gpgme-generate.c:115 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:116
+msgid "DSA Elgamal"
+msgstr "DSA ElGamal"
+
+#: ../pgp/bastile-gpgme-generate.c:134
+msgid "Couldn't generate PGP key"
+msgstr "Ezin izan da PGP gakoa sortu"
+
+#: ../pgp/bastile-gpgme-generate.c:194
+msgid "Passphrase for New PGP Key"
+msgstr "PGP gako berriaren pasaesaldia"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Enter the passphrase for your new key twice."
+msgstr "Idatzi gako berriaren pasaesaldia bi bider."
+
+#: ../pgp/bastile-gpgme-generate.c:204
+msgid "Couldn't generate key"
+msgstr "Ezin izan da gakoa sortu"
+
+#: ../pgp/bastile-gpgme-generate.c:206
+msgid "Generating key"
+msgstr "Gakoa sortzea"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Pasahitza ez da zuzena"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr ""
+"Okerreko pasahitza sartu duzun hirugarren aldia da unekoa. Saiatu berriro."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Argazkia handiegia da.</b></big>\n"
+"Zure gakoan jartzeko gomendatzen den tamaina %d x %d pixelekoa da."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_Ez aldatu tamaina"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "_Aldatu tamaina"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"Hori ez da irudi-fitxategi bat, edo irudi-fitxategi mota ezezaguna da. "
+"Saiatu JPEG irudi bat erabiltzen."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Irudi-fitxategi guztiak"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "JPEG fitxategi guztiak"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Aukeratu gakoari gehitzeko argazkia"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Ezin izan da argazkia gehitu"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr ""
+"Ezin izan da fitxategia kargatu. Litekeena da formatua baliogabea izatea"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Ziur zaude uneko argazkia gakotik kendu nahi duzula?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Ezin izan da argazkia ezabatu"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Ezin izan da azpigakoa errebokatu"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Errebokatu: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Ez dago arrazoirik"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Ez dago gakoa errebokatzeko arrazoirik"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Arriskuan jarrita"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Gakoa arriskuan jarrita dago"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Ordeztua"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Gakoa ordeztua izan da"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Erabili gabea"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Gakoa ez da gehiago erabiliko"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"%s %s(r)en errebokatzaile gisa gehitzera zoaz, eta eragiketa hori ezin da "
+"desegin. Ziur zaude jarraitu nahi duzula?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Ezin izan da errebokatzailea gehitu"
+
+#: ../pgp/bastile-gpgme-sign.c:96
+msgid "Couldn't sign key"
+msgstr "Ezin izan da gakoa sinatu"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:149 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Ez dago sinatzeko gako erabilgarririk"
+
+#: ../pgp/bastile-gpgme-sign.c:150
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"Gako honen fidagarritasuna adierazteko erabil daitekeen PGP gako pertsonalik "
+"ez duzu."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Pasaesaldi okerra."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Idatzi '%s'(r)en pasaesaldi berria"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Idatzi '%s'(r)en pasaesaldia"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Idatzi pasaesaldi berria"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Idatzi pasaesaldia"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Gako %d kargatu da"
+msgstr[1] "%d gako kargatu dira"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Gakoak kargatzen..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"Gako-datu baliogabeak (UIDak falta dira). Litekeena da ordenagailu baten "
+"data etorkizunekoa izatea, edo autosinadura bat falta izatea."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:538
+msgid "Importing Keys"
+msgstr "Gakoak inportatzea"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Gakoak esportatzea"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr ""
+"Bilaketa ez da nahiko zehatza. '%s' zerbitzariak gako gehiegi aurkitu ditu."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Ezin izan da '%s' zerbitzariarekin komunikatu: %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Gakoak bilatzen..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Gakoak kargatzen..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Gakoak eskuratzen..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Gakoak bilatzea, hemen: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Hona konektatzea: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "HTTP gako-zerbitzaria"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Ezin izan da '%s'(r)ekin komunikatu: %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Ezin izan da helbidea ebatzi: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Zerbitzariaren helbidea ebaztea: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "'%s' duten gakoak bilatzen..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "'%s' gako-identifikatzailea bilatzen..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Urruneko gakoak eskuratzen..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Gakoak gako zerbitzarira bidaltzen..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP gako-zerbitzaria"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "_Sinatu gakoa..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Gako publikoa sinatzen du"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Ziur zaude %s behin betiko ezabatu nahi duzula?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Ziur zaude %d gako eta identitate behin betiko ezabatu nahi dituzula?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Ziur zaude %d gako behin betiko ezabatu nahi dituzula?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Ziur zaude %d identitate behin betiko ezabatu nahi dituzula?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>Gako-aukera _aurreratuak</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+"Besteen mezuak edo fitxategiak enkriptatzeko aukera ematen dute PGP gakoek."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Algoritmoak"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "S_ortu"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "I_raungitze-data:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "Enkriptaketa _mota:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Sortu gako berri bat"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "Gakoaren _indarra (bitetan):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "_Ez da iraungitzen"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "PGP gako berria"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "I_ruzkina:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "PGP gako pribatua"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "PGP gako publikoa"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Iraungita"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Ezin izan da erabiltzailearen ID nagusia aldatu"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Ziur zaude '%s' erabiltzailearen IDa behin betiko ezabatu nahi duzula?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Ezin izan da erabiltzailearen IDa ezabatu"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Ezezaguna]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Izena/Helbide elektronikoa"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "Sinaduraren IDa"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Ezin izan da argazki nagusia aldatu"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(ezezaguna)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Gako hori data honetan iraungi zen: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Ziur zaude %2$s(r)en %1$d azpigakoa behin betiko ezabatu nahi duzula?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Ezin izan da azpigakoa ezabatu"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "Ezin izan da fidagarritasuna aldatu"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:316
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Ezin izan da gakoa \"%s\"(e)ra esportatu"
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Esportatu gako osoa"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Ezin izan da gakoa esportatu."
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Mota"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Sortuta"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Iraungitze-data"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Egoera"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Indarra"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "Ona"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Ekintzak</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Iruzkina:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Datak</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>Helbide elektronikoa:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Hatz-marka</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>Gakoaren IDa:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Gako-izenak eta sinadurak</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Izena:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>Argazkia </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>Xehetasun teknikoak</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Gako hori errebokatu egin da</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>Gako hori iraungi egin da</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Mota:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Erabilera:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Azpigakoak</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "Gehitu"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "Gehitu argazki bat gako horri"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Aldatu _pasaesaldia"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "Zuri bidalitako fitxategiak eta mezuak desenkriptatzen ditu."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "Iraungi"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "Iraungitze-data:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "Esportatu"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "Joan hurrengo argazkira"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "Joan aurreko argazkira"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "Gakoaren IDa:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "Bihurtu argazki hau argazki nagusi"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "Izenak eta sinadurak"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "Inoiz ere ez"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "Jaramonik ez egin jabearen _fidagarritasunari:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "Jabea"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "Nagusia"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "Kendu argazkia gako honetatik"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "Errebokatu"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "Sinatu"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "Indarra:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "Gakoaren jabeak gakoa errebokatu du. Ezin da gehiago erabili."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "_Gehitu izena"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "_Esportatu gako osoa:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Datak:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Hatz-marka:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Adierazi fidagarritasuna:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Gako horrek zure ustez duen fidagarritasuna</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Beste izen batzuk:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Gako hori sinatu duen jendea:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "Enkriptatu gakoaren jabearen fitxategiak eta mezuak "
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "Osoa"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "'%s'(r)en beste gako batzuen sinaduretan fidatzen naiz"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr "Gako honen jabea '%s' dela uste baduzu, <i>sinatu</i> gakoa:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"Ez bazara fidatzen gako honen jabea '%s' dela, <i>errebokatu</i> zure "
+"sinadura:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "Marjinala"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Fidagarritasuna"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "Azkena"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "Jabeaz _fidatzen zara:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Zure fidagarritasuna eskuz adierazten da <i>Xehetasunak</i> fitxan."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "_Soilik bistaratu nik fidagarritzat jotako sinadurak"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "_Errebokatu sinadura"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "_Sinatu gako hau"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "%2$s(r)en %1$d azpigakoa"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Errebokatzearen aukerako azalpena"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "Erre_bokatu"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Gakoa errebokatzeko arrazoia"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_Arrazoia:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"Ez duzu dokumentu edo mezu bat sinatzeko erabil daitekeen PGP gako "
+"pertsonalik."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Nola egiaztatu duzu gako hori?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Sinadura hori besteek nola ikusiko duten:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Sinatu gakoa honela:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>Azaletik:</i> gako horren jabea omen dena hala dela azaletik egiaztatu "
+"duzula adierazten du. Adibidez, gakoaren hatz-marka irakurri diozu jabeari "
+"telefonoz. "
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Gako-izena</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>Inola ere ez:</i> gakoa haren jabea omen denarena dela uste duzu, baina "
+"ezin izan duzu edo ez duzu hori egiaztatu."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>Kontu handiz:</i> hautatu hau soilik gako hori benetakoa dela erabat ziur "
+"bazaude."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Sinatzean adierazten duzu fidatzen zarela gako hori honena dela:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Geroago _erreboka dezaket sinadura hau."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Sinatu gakoa"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"Faltsutzen zaila den argazki-identifikazioa erabil dezakezu (pasaportea, "
+"kasu) gakoko izena zuzena dela pertsonalki egiaztatzeko. Posta elektronikoa "
+"ere erabili beharko zenuke helbide elektronikoa jabearena dela egiaztatzeko."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_Azaletik"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_Inola ere ez"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_Litekeena da besteek sinadura hau ez ikustea"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_Sinatu"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Sinatzailea:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_Kontu handiz"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_Sinatu mezua gako honekin:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:107
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:68
+msgid "Certificate"
+msgstr "Ziurtagiria"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Ziur zaude %s ziurtagiria ezabatu nahi duzula?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Ziur zaude ziurtagiri %d ezabatu nahi duzula?"
+msgstr[1] "Ziur zaude %d ziurtagiri ezabatu nahi dituzula?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Aldatu pasaesaldia"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "Be_rretsi pasaesaldia:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Berretsi pasaesaldi berria"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "_Pasaesaldi berria:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Kudeatu pasahitzak eta enkriptatze-gakoak"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:857
+msgid "Passwords and Encryption Keys"
+msgstr "Pasahitzak eta enkriptatze-gakoak"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>_Hautatu elementu mota sortzeko:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "_Jarraitu"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Sortu berria..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Gako %d hautatuta"
+msgstr[1] "%d gako hautatua"
+
+#: ../src/bastile-key-manager.c:404 ../src/bastile-key-manager.c:464
+#: ../src/bastile-key-manager.c:527 ../src/bastile-viewer.c:484
+msgid "Couldn't import keys"
+msgstr "Ezin izan dira gakoak inportatu"
+
+#: ../src/bastile-key-manager.c:409 ../src/bastile-viewer.c:489
+msgid "Imported keys"
+msgstr "Inportatutako gakoak"
+
+#: ../src/bastile-key-manager.c:458
+msgid "Importing keys"
+msgstr "Gakoak inportatzen"
+
+#: ../src/bastile-key-manager.c:481 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Inportatu gakoa"
+
+#: ../src/bastile-key-manager.c:527
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Gako mota ezezaguna, edo datu formatu baliogabea"
+
+#: ../src/bastile-key-manager.c:725 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_Urrunekoa"
+
+#: ../src/bastile-key-manager.c:727
+msgid "Close this program"
+msgstr "Itxi programa hau"
+
+#: ../src/bastile-key-manager.c:728
+msgid "_New..."
+msgstr "_Berria..."
+
+#: ../src/bastile-key-manager.c:729
+msgid "Create a new key or item"
+msgstr "Sortu gako edo elementu berri bat"
+
+#: ../src/bastile-key-manager.c:730
+msgid "_Import..."
+msgstr "_Inportatu..."
+
+#: ../src/bastile-key-manager.c:731
+msgid "Import from a file"
+msgstr "Inportatu fitxategi batetik"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Import from the clipboard"
+msgstr "Inportatu arbeletik"
+
+#: ../src/bastile-key-manager.c:738 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_Bilatu urruneko gakoak..."
+
+#: ../src/bastile-key-manager.c:739 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "Gakoak bilatzea gako zerbitzarian"
+
+#: ../src/bastile-key-manager.c:740
+msgid "_Sync and Publish Keys..."
+msgstr "_Sinkronizatu eta argitaratu gakoak..."
+
+#: ../src/bastile-key-manager.c:741
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Argitaratu edo/eta sinkronizatu zure gakoak linean daudenekin."
+
+#: ../src/bastile-key-manager.c:746
+msgid "T_ypes"
+msgstr "_Motak"
+
+#: ../src/bastile-key-manager.c:746
+msgid "Show type column"
+msgstr "Erakutsi Mota zutabea"
+
+#: ../src/bastile-key-manager.c:748
+msgid "_Expiry"
+msgstr "_Iraungi"
+
+#: ../src/bastile-key-manager.c:748
+msgid "Show expiry column"
+msgstr "Erakutsi Iraungitze-data zutabea"
+
+#: ../src/bastile-key-manager.c:750
+msgid "_Trust"
+msgstr "_Fidagarritasuna"
+
+#: ../src/bastile-key-manager.c:750
+msgid "Show owner trust column"
+msgstr "Erakutsi Fidagarritasuna zutabea"
+
+#: ../src/bastile-key-manager.c:752
+msgid "_Validity"
+msgstr "_Baliozkotasuna"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show validity column"
+msgstr "Erakutsi Baliozkotasuna zutabea"
+
+#: ../src/bastile-key-manager.c:926
+msgid "Filter:"
+msgstr "Iragazkia:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Lehen aldiko aukerak:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Sortu gako berri bat zuretzat: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Inportatu lehendik dauden gakoak fitxategi batetik:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "Nire gako _pertsonalak"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Beste _gako batzuk"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "Enkriptatzen hasteko gakoak beharko dituzu."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:548
+msgid "_Import"
+msgstr "_Inportatu"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_Pasahitzak"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:282
+msgid "Couldn't export keys"
+msgstr "Ezin izan dira gakoak esportatu"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Baliozkotasuna"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Iraungitze-data"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "Itxi leiho hau"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "_Zabaldu denak"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "Zabaldu zerrenda guztiak"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "_Tolestu denak"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "Tolestu zerrenda guztiak"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "Urruneko gakoak"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "'%s' duten urruneko gakoak"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Gako-zerbitzariak:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Nire inguruko gako partekatuak:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Bilatu urruneko gakoak"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"Horrek besteen gakoak bilatuko ditu Interneten. Gako horiek gako sorta "
+"lokalera inporta daitezke."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Non bilatu:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_Bilatu"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_Bilatu hau duten gakoak: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Ezin izan dira gakoak zerbitzarian argitaratu"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Ezin izan dira gakoak zerbitzaritik eskuratu: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>gako %d hautatu da sinkronizatzeko</b>"
+msgstr[1] "<b>%d gako hautatu dira sinkronizatzeko</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Gakoak sinkronizatzea"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Gakoak sinkronizatzen..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Gakoak sinkronizatzea"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"Zure gako sortako gakoak argitaratzen ditu horrek, beste erabiltzaileentzat "
+"erabilgarri egon daitezen. Besteen gakoak jaso zenituenetik haietan izandako "
+"aldaketak ere jasotzen ditu."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"Besteen gakoak jaso zenituenetik haietan egindako aldaketak eskuratzen ditu "
+"horrek. Ez da argitaratzeko gako-zerbitzaririk hautatu, beraz, zure gakoak "
+"ez dira besteentzat erabilgarri egongo."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_Gako-zerbitzariak"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Sinkronizatu"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Aplikazio honen bertsioa"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:170
+msgid "Encryption Key Manager"
+msgstr "Enkriptatzeko gakoen kudeatzailea"
+
+#: ../src/bastile-viewer.c:141
+msgid "Contributions:"
+msgstr "Ekarpenak:"
+
+#: ../src/bastile-viewer.c:172
+msgid "translator-credits"
+msgstr "Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>, 2008."
+
+#: ../src/bastile-viewer.c:175
+msgid "Bastile Project Homepage"
+msgstr "Bastile proiektuaren etxeko orria"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:194
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: ../src/bastile-viewer.c:195
+msgid "_Edit"
+msgstr "_Editatu"
+
+#: ../src/bastile-viewer.c:196
+msgid "_View"
+msgstr "_Ikuspegia"
+
+#: ../src/bastile-viewer.c:197
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../src/bastile-viewer.c:199
+msgid "Prefere_nces"
+msgstr "_Hobespenak"
+
+#: ../src/bastile-viewer.c:200
+msgid "Change preferences for this program"
+msgstr "Aldatu programa honen hobespenak"
+
+#: ../src/bastile-viewer.c:203
+msgid "About this program"
+msgstr "Programa honi buruz"
+
+#: ../src/bastile-viewer.c:204
+msgid "_Contents"
+msgstr "_Edukia"
+
+#: ../src/bastile-viewer.c:205
+msgid "Show Bastile help"
+msgstr "Erakutsi Bastile-ren laguntza"
+
+#: ../src/bastile-viewer.c:302
+msgid "Export public key"
+msgstr "Esportatu gako publikoa"
+
+#: ../src/bastile-viewer.c:322
+msgid "Exporting keys"
+msgstr "Gakoak esportatzea"
+
+#: ../src/bastile-viewer.c:347
+msgid "Couldn't retrieve data from key server"
+msgstr "Ezin izan dira datuak gako zerbitzaritik eskuratu"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:366
+msgid "Copied keys"
+msgstr "Kopiatutako gakoak"
+
+#: ../src/bastile-viewer.c:386
+msgid "Retrieving keys"
+msgstr "Gakoak eskuratzen"
+
+#: ../src/bastile-viewer.c:401
+msgid "Couldn't delete."
+msgstr "Ezin izan da ezabatu."
+
+#: ../src/bastile-viewer.c:435
+msgid "Deleting..."
+msgstr "Ezabatzen..."
+
+#: ../src/bastile-viewer.c:461
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s gako pribatua da. Aurrera jarraitzea nahi duzu?"
+
+#: ../src/bastile-viewer.c:509
+msgid "Importing keys from key servers"
+msgstr "Gakoak inportatzen gako zerbitzaritik"
+
+#: ../src/bastile-viewer.c:535
+msgid "Show properties"
+msgstr "Erakutsi propietateak"
+
+#: ../src/bastile-viewer.c:537
+msgid "Delete selected items"
+msgstr "Hautatutako elementuak ezabatzen ditu"
+
+#: ../src/bastile-viewer.c:541
+msgid "E_xport..."
+msgstr "E_sportatu..."
+
+#: ../src/bastile-viewer.c:542
+msgid "Export to a file"
+msgstr "Fitxategi batera esportatzen du"
+
+#: ../src/bastile-viewer.c:544
+msgid "Copy to the clipboard"
+msgstr "Kopiatu arbelean"
+
+#: ../src/bastile-viewer.c:549
+msgid "Import selected keys to local key ring"
+msgstr "Inportatu hautatutako gakoak lokaleko gako sortara"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Idatzi Shell seguruaren pasaesaldia:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Konfiguratu _shell seguruaren gakoa..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"Bidali Shell seguruaren gako publikoa beste makina batera, eta gaitu gako "
+"horrekin egiten diren saio-hasierak."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "Ziur zaude shell seguruko '%s' gakoa ezabatu nahi duzula?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "Ziur zaude shell seguruko %d gakoak ezabatu nahi dituzula?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "Shell seguruaren gakoa"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Beste ordenagailu batzuk atzitzeko erabilia (adibidez, terminal bat)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Ezin izan da Shell seguruaren gakoa sortu"
+
+#: ../ssh/bastile-ssh-generate.c:205
+msgid "Creating Secure Shell Key"
+msgstr "Shell seguruaren gakoa sortzea"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>Erabili helbide elektronikoa eta beharrezko beste edozein oroigarri, gako "
+"hori zertarako den jakiteko.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"Shell seguruaren (SSH) gakoak SSHren bidez konfiantzako ordenagailuekin era "
+"seguruan konektatzeko aukera ematen du, haietako bakoitzean pasahitza sartu "
+"beharrik gabe."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"Gako hori ordenagailu batean erabili nahi baduzu dagoeneko, zure gakoa "
+"ezagutzeko konfigura dezakezu orain ordenagailu hori. "
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Shell seguruaren gako berria"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_Sortu eta konfiguratu"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Soilik gakoa sortu"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_Gakoaren azalpena:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Shell seguruaren gako irakurtezina)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Baliogabea"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Shell seguruaren gako pribatua"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Shell seguruaren gako publikoa"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Ezin izan da gakoaren izena aldatu."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Ezin izan da gakoaren baimena aldatu."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Ezin izan da gakoaren pasaesaldia aldatu."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Algoritmoa:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Identifikatzailea:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Kokalekua:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Indarra:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Fidagarritasuna</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Hori '%s' kontuari soilik dagokio</i>."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "_Esportatu gako osoa"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "Gako honen jabeak ordenagailu honekin konektatzeko _baimena du"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Beste ordenagailuekin konektatzeko erabilia."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH komandoa ustekabean amaitu da."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "Huts egin du SSH komandoak."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "Shell seguruaren gakoa"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Pasaesaldia:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Urruneko ostalariaren pasahitza"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Gakoaren pasaesaldi zaharra"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Idatzi honen pasaesaldi zaharra: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Gakoaren pasaesaldi berria"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Idatzi honen pasaesaldi berria: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Idatzi gakoaren pasaesaldia"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Shell seguruaren gako berriaren pasaesaldia"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Idatzi Shell seguruaren gako berriaren pasaesaldia."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Gakoa inportatzea: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Gakoa inportatzea. Idatzi pasaesaldia"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Ez dago gako pribatuaren fitxategirik erabilgarri gako honentzako."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr ""
+"Ezin izan dira konfiguratu Shell seguruaren gakoak urruneko ordenagailuan."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Shell seguruaren gakoak konfiguratzen..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>adib. fitxategizerbitzaria.adibidea.com:ataka</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Konfiguratu ordenagailua SSH konexioak egiteko"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"Shell seguruaren gakoa SSH erabiltzen duen beste ordenagailu batean "
+"erabiltzeko, beharrezkoa da aurretik kontu bat izatea ordenagailu horretan."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "_Ordenagailuaren izena:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_Erabiltzaile-izena:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_Konfiguratu"
+
+#~| msgid "Never"
+#~ msgctxt "Validity"
+#~ msgid "Never"
+#~ msgstr "Inoiz ere ez"
+
+#~| msgid "Never"
+#~ msgctxt "Expires"
+#~ msgid "Never"
+#~ msgstr "Inoiz ere ez"
+
+#~| msgid "_Delete"
+#~ msgctxt ""
+#~ "This text refers to deleting an item from its type's backing store."
+#~ msgid "_Delete"
+#~ msgstr "_Ezabatu"

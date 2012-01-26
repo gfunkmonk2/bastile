@@ -1,0 +1,3012 @@
+# translation of bastile.master.po to Hindi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rajesh Ranjan <rranjan@redhat.com>, 2007, 2008, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=bastile&component=general\n"
+"POT-Creation-Date: 2009-09-14 17:02+0000\n"
+"PO-Revision-Date: 2009-09-15 13:11+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Hindi <hindi.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../daemon/bastile-daemon.c:69
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "सीहॉर्स डेमॉन को बतौर डेमॉन मत चलाएँ"
+
+#: ../daemon/bastile-daemon.c:87
+msgid "couldn't fork process"
+msgstr "प्रक्रिया तोड़ नहीं सका"
+
+#: ../daemon/bastile-daemon.c:93
+msgid "couldn't create new process group"
+msgstr "नयी प्रक्रिया समूह नहीं बना सका"
+
+#: ../daemon/bastile-daemon.c:207
+msgid "Encryption Daemon (Bastile)"
+msgstr "गोपन डेमॉन (Bastile)"
+
+#: ../daemon/bastile-daemon.desktop.in.in.h:1
+msgid "Bastile Daemon"
+msgstr "सीहोर्स डेमॉन"
+
+#: ../daemon/bastile-service.c:151 ../daemon/bastile-service.c:175
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "अवैध या अपरिचित कुंजी प्रकार: %s"
+
+#: ../daemon/bastile-service.c:224 ../daemon/bastile-service-keyset.c:135
+#: ../daemon/bastile-service-keyset.c:164
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "अवैध या अपरिचित कुंजी: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:160
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "<i><key id='%s'/> <b>expired</b></i> के द्वारा %s पर हस्ताक्षरित."
+
+#: ../daemon/bastile-service-crypto.c:161
+msgid "Invalid Signature"
+msgstr "अवैध हस्ताक्षर"
+
+#: ../daemon/bastile-service-crypto.c:167
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "<i><key id='%s'/></i> के द्वारा %s <b>Expired</b> पर हस्ताक्षरित."
+
+#: ../daemon/bastile-service-crypto.c:168
+msgid "Expired Signature"
+msgstr "समय समाप्त हस्ताक्षर"
+
+#: ../daemon/bastile-service-crypto.c:174
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "<i><key id='%s'/> <b>Revoked</b></i> के द्वारा %s पर हस्ताक्षरित."
+
+#: ../daemon/bastile-service-crypto.c:175
+msgid "Revoked Signature"
+msgstr "वापस लिया हस्ताक्षर"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:181
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "<i><key id='%s'/></i> के द्वारा %s पर हस्ताक्षरित."
+
+#: ../daemon/bastile-service-crypto.c:182
+msgid "Good Signature"
+msgstr "अच्छा हस्ताक्षर"
+
+#: ../daemon/bastile-service-crypto.c:187
+msgid "Signing key not in keyring."
+msgstr "कीरिंग में हस्ताक्षर कुंजी नहीं"
+
+#: ../daemon/bastile-service-crypto.c:188
+msgid "Unknown Signature"
+msgstr "अज्ञात हस्ताक्षर"
+
+#: ../daemon/bastile-service-crypto.c:192
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "खराब या बिगड़ा हुआ हस्ताक्षर. हस्ताक्षरित आँकड़ा बदला गया था."
+
+#: ../daemon/bastile-service-crypto.c:193
+msgid "Bad Signature"
+msgstr "खराब हस्ताक्षर"
+
+#: ../daemon/bastile-service-crypto.c:201
+msgid "Couldn't verify signature."
+msgstr "हस्ताक्षर जाँच नहीं सका."
+
+#: ../daemon/bastile-service-crypto.c:257
+#: ../daemon/bastile-service-crypto.c:364
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "अवैध या अपरिचित हस्ताक्षरकर्ता: %s"
+
+#: ../daemon/bastile-service-crypto.c:264
+#: ../daemon/bastile-service-crypto.c:371
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "कुंजी हस्ताक्षर के लिए वैध नहीं है: %s"
+
+#: ../daemon/bastile-service-crypto.c:276
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "अवैध या अपरिचित प्राप्तकर्ता: %s"
+
+#: ../daemon/bastile-service-crypto.c:284
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "कुंजी गोपन के लिए वैध प्राप्तकर्ता नहीं है: %s"
+
+#: ../daemon/bastile-service-crypto.c:293
+#, c-format
+msgid "No recipients specified"
+msgstr "कोई प्राप्तकर्ता निर्दिष्ट नहीं"
+
+#: ../daemon/bastile-service-crypto.c:359
+#, c-format
+msgid "No signer specified"
+msgstr "कोई हस्ताक्षरकर्ता निर्दिष्ट नहीं"
+
+#: ../daemon/bastile-service-crypto.c:414
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "अवैध कुंजी प्रकार विगोपन के लिए: %s"
+
+#: ../daemon/bastile-service-crypto.c:477
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "अवैध कुंजी प्रकार जाँच के लिए: %s"
+
+#: ../daemon/bastile-service-keyset.c:200
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "अवैध कुंजी आईडी: %s"
+
+#: ../daemon/bastile-sharing.c:72 ../daemon/bastile-sharing.c:216
+msgid "Couldn't share keys"
+msgstr "कुंजी साझा नहीं कर सका"
+
+#: ../daemon/bastile-sharing.c:73
+msgid "Can't publish discovery information on the network."
+msgstr "संजाल पर खोज सूचना नहीं प्रकाशित कर सका."
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:93
+#, c-format
+msgid "%s's encryption keys"
+msgstr "%s की गोपन कुंजी"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"दूरस्थ PGP कुंजी के लिए कुंजी सर्वर URI की सूची. बाद के संस्करण में प्रदर्शन नाम को शामिल "
+"किया जा सकता है, एक स्थान जोड़कर और फिर नाम."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "कुंजी स्वतः पाएँ"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "कुंजी स्वतः तुल्यकालित करें"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "कुंजी प्रबंधक के समय समाप्त हुए स्तंभ के लिए दृश्यता नियंत्रित करता है."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "कुंजी प्रबंधक के विश्वसनीय संत हुए स्तंभ के लिए दृश्यता नियंत्रित करता है."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "कुंजी प्रबंधक के प्रकार स्तंभ के लिए दृश्यता नियंत्रित करता है."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "कुंजी प्रबंधक के वैधता स्तंभ के लिए दृश्यता नियंत्रित करता है."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "DNS-SD साझा सक्रिय करें"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"DNS-SD (Apple Bonjour) कुंजी साझाकरण चल रहा है. सीहॉर्स डेमॉन को जरूर चलना चाहिए "
+"और जरूर HKP और DNS-SD समर्थन के साथ निर्मित होना चाहिए."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "तयशुदा कुंजी की आईडी"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr "यदि सही पर सेट है, तब सीहॉर्स से गोपित फ़ाइलें ASCII आर्मर एन्कोडेड होंगी."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr "यदि सही पर सेट है, फिर तयशुदा कुंजी को गोपन प्राप्तकर्ता सूची में हमेशा जोड़ा जाएगा."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "अंतिम कुंजी सर्वर खोज प्रारूप"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "अंतिम कुंजी सर्वर प्रयुक्त"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "किसी संदेश को हस्ताक्षरित करने के अंतिम कुंजी."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP कुंजी सर्वर"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "इस कुंजी सर्वर में कुंजी प्रकाशित करें."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "कुंजी प्रबंधक में समय समाप्त स्तंभ दिखाएँ"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "कुंजी प्रबंधक में ट्रस्ट स्तंभ दिखाएँ"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "कुंजी प्रबंधक में प्रकार स्तंभ दिखाएँ"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "कुंजी प्रबंधक में वैधता स्तंभ दिखाएँ"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"स्तंभ निर्दिष्ट करें जिससे प्राप्तकर्ता विंडो को छाँटना है. स्तंभ हैं: 'name' और 'id'. कोई "
+"'-' को स्तंभ नाम के सामने रखें अवरोही क्रम में छाँटने के लिए."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"स्तंभ निर्दिष्ट करें जिससे सीहॉर्स कुंजी प्रबंधक विंडो को छाँटना है. स्तंभ हैं: 'name' 'id', "
+"'validity', 'expires', 'trust', और 'type'. कोई '-' को स्तंभ नाम के सामने रखें "
+"अवरोही क्रम में छाँटने के लिए."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "अंतिम गुप्त कुंजी की ID किसी संदेश के हस्ताक्षर के लिए."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "प्राप्तकर्ता को इससे छाँटने के लिए स्तंभ"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "सीहॉर्स कुंजी को इससे छाँटने के लिए स्तंभ"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"मुख्य सर्वर जिसमें PGP कुंजी को प्रकाशित करना है. या PGP कुंजी को जबरदस्ती प्रकाशन के लिए "
+"रिक्त."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr "अंतिम कुंजी सर्वर जिसके लिए खोज को किया गया था या सभी कुंजी सर्वर के लिए सर्वर."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "किसी मुख्य सर्वर के लिए अंतिम खोज प्रारूप."
+
+#: ../data/bastile.schemas.in.h:30
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "यह खास संक्रिया के लिए तयशुदा कुंजी को निर्दिष्ट करता है, मुख्यतः हस्ताक्षर के लिए."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "क्या कुंजी को की सर्वर से स्वतः प्राप्त करना है या नहीं."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr "क्या रूपांतरित कुंजी को स्वतः तुल्यकालित करना है तयशुदा कुंजी सर्वर से."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "क्या हमेशा तयशुदा कुंजी को गोपित करना है"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "क्या ASCII आर्मर का प्रयोग करना है"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "कूटशब्द कीरिंग जोड़ें"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "नया कुंजीरिंग नाम:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"कृपया नए कीरिंग के लिए एक नाम चुनें. आपको किसी कूटशब्द को अनलॉक करने के लिए प्रांप्ट किया "
+"जाएगा."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "सर्वर का मेजबाननाम या पता"
+
+#: ../gkr/bastile-gkr-add-item.c:60 ../gkr/bastile-gkr-add-keyring.c:59
+msgid "Couldn't add keyring"
+msgstr "कीरिंग नहीं जोड़ सका"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "कूटशब्द जोड़ें"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "वर्णन (_D):"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "कीरिंग (_K):"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "कूटशब्द (_P):"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "कूटशब्द दिखाएँ (_S)"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "वेब कूटशब्द"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "नेटवर्क कूटशब्द"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "कूटशब्द"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "क्या आव वाकई '%s' कूटशब्द को मिटाना चाहते हैं?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "क्या आव वाकई %d कूटशब्द को मिटाना चाहते हैं?"
+msgstr[1] "क्या आव वाकई %d कूटशब्दों को मिटाना चाहते हैं?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "संजाल साझा या संसाधन की पहुँच लें"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "किसी वेबसाइट की पहुँच लें"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "PGP कुंजी अनलॉक करें"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "सिक्योर शेल की खोलें"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "सहेजा कूटशब्द या लॉगिन"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "संजाल श्रेय"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "कूटशब्द नहीं बदल सका."
+
+#: ../gkr/bastile-gkr-item-properties.c:347
+msgid "Couldn't set description."
+msgstr "विवरण सेट नहीं कर सका."
+
+#: ../gkr/bastile-gkr-item-properties.c:641
+msgid "Couldn't set application access."
+msgstr "अनुप्रयोग पहुँच सेट नहीं कर सका."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b> कूटशब्द:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b> पथ</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>अनुमति:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Technical Details:</b>"
+msgstr "<b>तकनीकी विवरण:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "अनुप्रयोग"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:72
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Details"
+msgstr "विवरण"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Key"
+msgstr "कुंजी"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "Key Properties"
+msgstr "कुंजी गुण"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "लॉगिन:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "सर्वरः"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "कूटशब्द दिखाएँ (_w)"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "प्रकार:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "प्रयोग:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "मिटाएँ (_D)"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "पढ़ें (_R)"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "लिखें (_W)"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "सूचीकरण कूटशब्द"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "कूटशब्द: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b> कूटशब्द:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:112
+msgid "Password Keyring"
+msgstr "कूटशब्द कीरिंग"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:113
+msgid "Used to store application and network passwords"
+msgstr "अनुप्रयोग और संजाल कूटशब्द के लिए प्रयुक्त"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:114
+msgid "Stored Password"
+msgstr "जमा कूटशब्द"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:115
+msgid "Safely store a password or secret."
+msgstr "कूटशब्द सुरक्षित रूप से जमा करें या गुप्त रूप से."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:129
+msgid "Couldn't unlock keyring"
+msgstr "कीरिंग खोल नहीं सका"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:170
+msgid "Couldn't lock keyring"
+msgstr "कुंजीरिंग खोल नहीं सका"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:211
+msgid "Couldn't set default keyring"
+msgstr "तयशुदा कुंजीरिंग सेट नहीं कर सका."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:250
+msgid "Couldn't change keyring password"
+msgstr "कुंजीरिंग कूटशब्द बदल नहीं सका."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:281
+msgid "_Lock"
+msgstr "खोलें (_L)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:282
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr "कूटशब्द भंडार कीरिंग को लॉक करें ताकि एक प्रधान कूटशब्द इसे खोलने के लिए जरूरी हो."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:283
+msgid "_Unlock"
+msgstr "अनलॉक करें (_U)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:284
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr "कूटशब्द भंडार कीरिंग को अनलॉक करें ताकि एक प्रधान कूटशब्द इसे खोलने के लिए उपलब्ध हो."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:285
+msgid "_Set as default"
+msgstr "तयशुदा रूप में सेट करें (_S)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:286
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "अनुप्रयोग सामान्यतः एक नया कूटशब्द को तयशुदा कीरिंग में जमा करता है."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:287
+msgid "Change _Password"
+msgstr "कूटशब्द बदलें (_P)"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "Change the unlock password of the password storage keyring"
+msgstr "कूटशब्द भंडारण कीरिंग के अनलॉक कूटशब्द को बदलें"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:353
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "क्या आप वाकई '%s' कूटशब्द कीरिंग को मिटाना चाहते हैं?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "उत्पन्न किया:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "कीरिंग"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "कीरिंग गुण"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "नाम (_N):"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "इस कीरिंग में पहुँच मना किया गया"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "गनोम कीरिंग डेमॉन चल नहीं रहा है"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "यह कुंजीरिंग पहले से खुला नहीं है"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "कोई ऐसा कुंजी मौजूद नहीं है"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "कीरिंग डेमॉन के साथ संचार नहीं कर सका"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "मद पहले से मौजूद है"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "आंतरिक त्रुटि गनोम कीरिंग की पहुँच पाने में"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "सहेज रहा है मद."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "मिटा रहे मद..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "मिटा रहे कीरिंग..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "अनुसूचन कूटशब्द कीरिंग"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"कोई गोपन कुंजी नहीं पाई गई थी जिसके साथ आपके द्वारा किए गए संक्रिया को करना है.  "
+"प्रोग्राम <b>Passwords and Encryption Keys</b> अब आरंभ किया जाएगा जिसे या तो आप "
+"किसी कुंजी को बना सकते हैं या कोई एक बना सकते हैं."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:173
+msgid "All Keys"
+msgstr "सभी कुंजी"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+msgid "Selected Recipients"
+msgstr "चयनित प्राप्तकर्ता"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+msgid "Search Results"
+msgstr "खोज परिणाम"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:185
+msgid "Search _for:"
+msgstr "इसके लिए ढूंढें :"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:243
+msgid "None (Don't Sign)"
+msgstr "कुछ नहीं (हस्ताक्षर नहीं करें)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:256
+#, c-format
+msgid "Sign this message as %s"
+msgstr "हस्ताक्षर यह संदेश जैसे %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:278
+msgid "_Sign message as:"
+msgstr "हस्ताक्षर संदेश जैसे:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:828
+msgid "Name"
+msgstr "नाम"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1743
+#: ../src/bastile-key-manager-store.c:840
+msgid "Key ID"
+msgstr "कुंजी आईडी"
+
+#: ../libegg/egg-datetime.c:313
+msgid "Display flags"
+msgstr "प्रदर्शक फ्लैग्स"
+
+#: ../libegg/egg-datetime.c:314
+msgid "Displayed date and/or time properties"
+msgstr "प्रदर्शित दिनांक और/या समय विशेषता"
+
+#: ../libegg/egg-datetime.c:319
+msgid "Lazy mode"
+msgstr "सुस्त विधि"
+
+#: ../libegg/egg-datetime.c:320
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "दाखिल दिनांक व समय मान को सुस्त मोड सामान्य नहीं करता है"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Year"
+msgstr "वर्ष"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed year"
+msgstr "प्रदर्शित साल"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Month"
+msgstr "महीना"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Displayed month"
+msgstr "प्रदर्शित महीना"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Day"
+msgstr "दिन"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed day of month"
+msgstr "प्रदर्शित दिन का महीना"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Hour"
+msgstr "घंटा"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed hour"
+msgstr "प्रदर्शित घंटा"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Minute"
+msgstr "मिनट"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed minute"
+msgstr "प्रदर्शित मिनट"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Second"
+msgstr "सेकेण्ड"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed second"
+msgstr "प्रदर्शित सेकण्ड"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Lower limit year"
+msgstr "निचला सीमा साल"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Year part of the lower date limit"
+msgstr "निचली तिथि सीमा का साल का हिस्सा"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Upper limit year"
+msgstr "ऊपरी सीमा साल"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Year part of the upper date limit"
+msgstr "ऊपरी तिथि सीमा का साल का हिस्सा"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit month"
+msgstr "निचला सीमा महीना"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Month part of the lower date limit"
+msgstr "निचली तिथि सीमा का महीने का हिस्सा"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit month"
+msgstr "ऊपरी सीमा महीना"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Month part of the upper date limit"
+msgstr "ऊपरी तिथि सीमा का महीने का हिस्सा"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit day"
+msgstr "निचला सीमा दिन"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Day of month part of the lower date limit"
+msgstr "निचली तिथि सीमा का महीने का हिस्सा का दिन"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit day"
+msgstr "ऊपरी सीमा दिन"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Day of month part of the upper date limit"
+msgstr "ऊपरी तिथि सीमा का महीने का हिस्सा का दिन"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit hour"
+msgstr "निचला सीमा घंटा"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Hour part of the lower time limit"
+msgstr "निचली तिथि सीमा का घंटे का हिस्सा"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit hour"
+msgstr "ऊपरी सीमा घंटा"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Hour part of the upper time limit"
+msgstr "ऊपरी तिथि सीमा का घंटे का हिस्सा"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit minute"
+msgstr "निचला सीमा मिनट"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Minute part of the lower time limit"
+msgstr "निचली समय सीमा का मिनट का हिस्सा"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit minute"
+msgstr "ऊपरी सीमा मिनट"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Minute part of the upper time limit"
+msgstr "ऊपरी समय सीमा का मिनट का हिस्सा"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit second"
+msgstr "निचला सीमा सेकण्ड"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Second part of the lower time limit"
+msgstr "निचली समय सीमा का सेकेंड का हिस्सा"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit second"
+msgstr "ऊपरी सीमा सेकण्ड"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Second part of the upper time limit"
+msgstr "ऊपरी समय सीमा का सेकेंड का हिस्सा"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:470
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Date"
+msgstr "तिथि"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Enter the date directly"
+msgstr "तिथि सीधे दाखिल करें"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select Date"
+msgstr "चुनें तिथि"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select the date from a calendar"
+msgstr "चुनें तिथि कैलेंडर से"
+
+#: ../libegg/egg-datetime.c:517 ../libegg/egg-datetime.c:2192
+msgid "Time"
+msgstr "समय"
+
+#: ../libegg/egg-datetime.c:517
+msgid "Enter the time directly"
+msgstr "प्रविष्ट करें समय सीधे"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select Time"
+msgstr "चुनें समय"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select the time from a list"
+msgstr "सूची से समय चुनें"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:791
+msgid "24hr: no"
+msgstr "24hr: no"
+
+#: ../libegg/egg-datetime.c:795 ../libegg/egg-datetime.c:1253
+#: ../libegg/egg-datetime.c:1257
+msgid "AM"
+msgstr "पूर्वाह्न"
+
+#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1254
+#: ../libegg/egg-datetime.c:1261
+msgid "PM"
+msgstr "अपराह्न"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:805
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:808
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:812
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:815
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1169
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1234
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "फ़ाइल वैध .desktop फ़ाइल नहीं है"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "अपरिचित डेस्कटॉप फ़ाइल संस्करण '%s'"
+
+#: ../libegg/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "%s शुरू हो रहा है"
+
+#: ../libegg/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "कमांड लाइन पर अनुप्रयोग दस्तावेज़ स्वीकार नहीं करता है"
+
+#: ../libegg/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "अपरिचित लॉन्च विकल्प: %d"
+
+#: ../libegg/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "दस्तावेज़ URI को 'Type=Link' डेस्कटॉप प्रविष्टि में भेज नहीं सकता है"
+
+#: ../libegg/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "चलाने योग्य प्रोग्राम नहीं है"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "सत्र प्रबंधक में संबंधन निष्क्रिय करें"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "सहेजा विन्यास समाहित करता फ़ाइल निर्दिष्ट करें"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "फ़ाइल"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "सत्र प्रबंधन ID निर्दिष्ट करें"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1312
+msgid "ID"
+msgstr "आईडी"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "सत्र प्रबंधन विकल्प:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "दिखाएँ सत्र प्रबंधन विकल्प"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "जोड़ें कुंजी सर्वर"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "होस्टः"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "कुंजी सर्वर प्रकार:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "सर्वर चालू करने के लिए पोर्ट में अभिगम."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "आरंभिक अस्थाई मद"
+
+#: ../libbastile/bastile-notification.c:566
+#: ../libbastile/bastile-notification.c:594
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "कुंजी आयातित"
+msgstr[1] "कुंजी आयातित"
+
+#: ../libbastile/bastile-notification.c:570
+#: ../libbastile/bastile-notification.c:593
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "आयातित %i कुंजी"
+msgstr[1] "आयातित %i कुंजियाँ"
+
+#: ../libbastile/bastile-notification.c:572
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "इसके लिए आयातित कुंजी"
+msgstr[1] "इसके लिए आयातित कुंजियाँ"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "अधिसूचना संदेश"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "सममितीय कुंजी"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "सार्वजनिक कुंजी"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "निजी कुंजी"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "श्रेय"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "उपयोक्ता"
+
+#: ../libbastile/bastile-passphrase.c:194
+msgid "Passphrase"
+msgstr "कूटशब्द"
+
+#: ../libbastile/bastile-passphrase.c:197
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "पासवर्ड: "
+
+#: ../libbastile/bastile-passphrase.c:260
+msgid "Confirm:"
+msgstr "संपुष्ट करें:"
+
+#: ../libbastile/bastile-prefs.c:63
+msgid "Not a valid Key Server address."
+msgstr "वैध कुंजी सर्वर पता नहीं."
+
+#: ../libbastile/bastile-prefs.c:64
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr "मदद के लिए तंत्र प्रशासक से संपर्क करें या कुंजी सर्वर का प्रशासक."
+
+#: ../libbastile/bastile-prefs.c:173
+msgid "URL"
+msgstr "यूआरएल"
+
+#: ../libbastile/bastile-prefs.c:353
+msgid "Custom"
+msgstr "अनुकूलित"
+
+#: ../libbastile/bastile-prefs.c:420
+msgid "None: Don't publish keys"
+msgstr "कुछ नहीं: कुंजी प्रकाशित नहीं करें"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "की सर्वर से स्वतः कुंजी पाएँ (_k)"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "की सर्वर से स्वतः रूपांतरित कुंजी तुल्यकालित करें (_m)"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "कुंजी सर्वर"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Key Sharing"
+msgstr "कुंजी साझेदारी"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "Preferences"
+msgstr "वरीयताएं"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've "
+"collected. This means they can automatically encrypt things for you or those "
+"you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+"अपनी कुंजी को साझा करना आपके संजाल पर दूसरे लोगों को आपके द्वारा जमा कुंजी को प्रयोग करने "
+"की अनुमति मिलती है. इसका मतलब है कि वे वस्तुओं को स्वतः गोपित करते हैं या वे जिसे तुम जानते "
+"हो, बिना तुम्हारे अपनी कुंजी भेजने के लिए.\n"
+"\n"
+"<b>नोट:</b> आपकी निजी कुंजी भेदा नहीं जा सकेगा."
+
+#: ../libbastile/bastile-prefs.xml.h:9
+msgid "_Find keys via:"
+msgstr "कुंजी इसससे ढूँढ़ें (_F):"
+
+#: ../libbastile/bastile-prefs.xml.h:10
+msgid "_Publish keys to:"
+msgstr "प्रकाशित करें कुंजी:"
+
+#: ../libbastile/bastile-prefs.xml.h:11
+msgid "_Share my keys with others on my network"
+msgstr "मेरे अपने संजाल पर मेरी कुंजी को दूसरे के साथ साझा करें (_S)"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "प्रगति शीर्षक"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "अनुपलब्ध"
+
+#: ../libbastile/bastile-util.c:237
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:513
+msgid "Key Data"
+msgstr "कुंजी डाटा"
+
+#: ../libbastile/bastile-util.c:515
+msgid "Multiple Keys"
+msgstr "बहुमुखी कुंजी"
+
+#: ../libbastile/bastile-util.c:771
+msgid "Couldn't run file-roller"
+msgstr "फाइल रोलर नहीं चला सका"
+
+#: ../libbastile/bastile-util.c:777
+msgid "Couldn't package files"
+msgstr "फाइल पैकेज नहीं कर सका"
+
+#: ../libbastile/bastile-util.c:778
+msgid "The file-roller process did not complete successfully"
+msgstr "फाइल रोलर प्रक्रिया सफलतापूर्वक नहीं चल सकी"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:943
+msgid "All key files"
+msgstr "सभी कुंजी फाइल"
+
+#: ../libbastile/bastile-util.c:954 ../libbastile/bastile-util.c:1002
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "सभी फ़ाइलें"
+
+#: ../libbastile/bastile-util.c:995
+msgid "Archive files"
+msgstr "अभिलेखागार फाइल"
+
+#: ../libbastile/bastile-util.c:1065
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>कोई फ़ाइल पहले से मौजूद है इसके नाम के साथ.</b>\n"
+"\n"
+"क्या आप इसे नई फ़ाइल के साथ बदलना चाहते हैं?"
+
+#: ../libbastile/bastile-util.c:1068
+msgid "_Replace"
+msgstr "बदलें (_R)"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1131
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1137
+msgctxt "Validity"
+msgid "Never"
+msgstr "कभी नहीं"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1144
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "आंशिक"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1150
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "भरा हुआ"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1156
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "सर्वश्रेष्ठ"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Disabled"
+msgstr "अक्षम"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1345
+msgid "Revoked"
+msgstr "रद्द"
+
+#: ../libbastile/bastile-widget.c:362
+#, c-format
+msgid "Could not display help: %s"
+msgstr "मदद दिखाई नहीं जा सकी: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "समय समाप्ति तिथि:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "नई उपकुंजी उत्पन्न करें"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "यदि कुंजी कभी समाप्त नहीं होती है"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "कुंजी लंबाई:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "कुंजी क़िस्म:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "कुंजी लंबाई"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "कभी नहीं समाप्त"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "जोड़ें उपयोक्ता आईडी"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "नया उपयोक्ता आईडी बनाएँ"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "पूरा नाम:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "कुंजी टिप्पणी:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "कम से कम 5 वर्ण लंबाई जरूर होना चाहिए"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "कुंजी का विवरण देता वैकल्पिक टिप्पणी"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "वैकल्पिक ईमेल पता"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "ईमेल पता:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "बदलें (_h)"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "कुंजी वापस लें"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "कभी नहीं समाप्त"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:144
+msgid "Couldn't add subkey"
+msgstr "उपकुंजी जोड़ नहीं सका"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:163
+#, c-format
+msgid "Add subkey to %s"
+msgstr "उपकुंजी %s में जोड़ें"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:179 ../pgp/bastile-gpgme-generate.c:96
+msgid "DSA (sign only)"
+msgstr "DSA (sign only)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:187
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (encrypt only)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:193 ../pgp/bastile-gpgme-generate.c:97
+msgid "RSA (sign only)"
+msgstr "RSA (sign only)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:199
+msgid "RSA (encrypt only)"
+msgstr "RSA (encrypt only)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "उपयोक्ता आईडी नहीं जोड़ सका"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "%s में उपयोक्ता आईडी जोड़ें"
+
+#: ../pgp/bastile-gpgme.c:51
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "विगोपन विफल. आपके पास संभवतः विगोपन कुंजी नहीं है."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "अवैध समाप्ति तिथि"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "समाप्ति तिथि भविष्य में होनी चाहिए"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "समाप्ति तिथि नहीं बदल सका"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "समाप्ति तिथि: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:65
+msgid "PGP Key"
+msgstr "पीजीपी कुंजी"
+
+#: ../pgp/bastile-gpgme-generate.c:66
+msgid "Used to encrypt email and files"
+msgstr "ईमेल और फाइल गोपित करने में प्रयुक्त"
+
+#: ../pgp/bastile-gpgme-generate.c:95
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:106
+msgid "Couldn't generate PGP key"
+msgstr "पीजीपी कुंजी नहीं बना सका"
+
+#: ../pgp/bastile-gpgme-generate.c:213
+msgid "Passphrase for New PGP Key"
+msgstr "नया पीजीपी कुंजी के लिए कूटशब्द"
+
+#: ../pgp/bastile-gpgme-generate.c:214
+msgid "Enter the passphrase for your new key twice."
+msgstr "अपनी नई कुंजी के लिए कूटशब्द दो बार दाखिल करें"
+
+#: ../pgp/bastile-gpgme-generate.c:223
+msgid "Couldn't generate key"
+msgstr "कुंजी नहीं बना सका"
+
+#: ../pgp/bastile-gpgme-generate.c:225
+msgid "Generating key"
+msgstr "कुंजी जनन"
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>ये फोटो काफी बड़े होते हैं</b></big>\n"
+"अनुशंसित आकार किसी फोटो के लिए आपकी कुंजी पर है %d x %d पिक्सेल."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "आकार मत बदलें (_D)"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "आकार बदलें (_R)"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"यह कोई छवि फ़ाइल नहीं है, या कोई अपिरिचित प्रकार की छवि फ़ाइल. JPEG छवि के पकड़े जाने "
+"की कोशिश करें."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "सभी चित्र फाइल"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "सभी JPEG फाइल"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "कुंजी में जोड़ने के लिए फोटो चुनें"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "फोटो जोड़ नहीं सका"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "फ़ाइल लोड नहीं की जा सकी. यह एक अवैध प्रारूप में हो सकता है"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "क्या आप निश्चित हैं कि आप मौजूदा फोटो को अपनी कुंजी से हटाना चाहते हैं?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "फोटो नहीं मिटा सका"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "उपकुंजी वापस नहीं ले सका"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "वापस लें: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "कोई कारण नहीं"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "कुंजी वापसीक के लिए कोई कारण नहीं"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "भेदा गया"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "कुंजी के  साथ छेड़ छाड़ की गई है"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "सुपरसीडेड"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "कुंजी सुपरसीडेड"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "नहीं प्रयुक्त"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "कुंजी अब नहीं प्रयुक्त"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "वापस लेने वाला नहीं जोड़ सका"
+
+#: ../pgp/bastile-gpgme-sign.c:96
+msgid "Couldn't sign key"
+msgstr "कुंजी हस्ताक्षर नहीं कर सका"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:149 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "हस्ताक्षर के लिए कोई कुंजी प्रयोग के लायक नहीं"
+
+#: ../pgp/bastile-gpgme-sign.c:150
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"आपके पास कोई निजी PGP कुंजी नहीं है जो कि इस कुंजी की भरोसे को संकेत देने के लिए प्रयोग की "
+"गई है."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "गलत कूटशब्द."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s' के लिए नया कूटशब्द दाखिल करें"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s' के लिए कूटशब्द दाखिल करें."
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "नया कूटशब्द दाखिल करें"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "कूटशब्द दाखिल करें"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "%d कुंजी लोड किया"
+msgstr[1] "%d कुंजियाँ लोड किया"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "कुंजी लोड हो रहा है."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"अवैध कुंजी आँकड़ा (अनुपस्थित UID). यह किसी कंप्यूटर के कारण हो सकता है जिसका दिनांक भविष्य "
+"में सेट हो या स्व हस्ताक्षर अनुपस्थित हो."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:538
+msgid "Importing Keys"
+msgstr "कुंजी आयात कर रहा है"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "कुंजी निर्यात किया जा रहा है"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:330
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "खोज विशिष्ट नहीं था. सर्वर '%s' ने कई कुंजियाँ पाई."
+
+#: ../pgp/bastile-hkp-source.c:332
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "सर्वर '%s' के साथ संचार नहीं कर सका: %s"
+
+#: ../pgp/bastile-hkp-source.c:576
+msgid "Searching for keys..."
+msgstr "कुंजी के लिए ढूंढा जा रहा है..."
+
+#: ../pgp/bastile-hkp-source.c:647
+msgid "Uploading keys..."
+msgstr "कुंजी अपलोड किया जा रहा है..."
+
+#: ../pgp/bastile-hkp-source.c:725
+msgid "Retrieving keys..."
+msgstr "कुंजी पुनःप्राप्त कर रहा है..."
+
+#: ../pgp/bastile-hkp-source.c:831
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "कुंजी के लिए खोज कर रहा है: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:908 ../pgp/bastile-hkp-source.c:981
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "इससे कनेक्ट कर रहा है: %s"
+
+#: ../pgp/bastile-hkp-source.c:1005
+msgid "HTTP Key Server"
+msgstr "HTTP कुंजी सर्वर"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "'%s' से संचार नहीं कर सका: %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "पता हल नहीं कर सका: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "सर्वर पता का हल: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "'%s' समाहित करते कुंजी के लिए खोज..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "'%s' कुंजी आईडी के लिए खोज..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "दूरस्थ कुंजी पुनःप्राप्त कर रहा है..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "कुंजी सर्वर में कुंजी भेजा जा रहा है..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP कुंजी सर्वर"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "हस्ताक्षर कुंजी (_S)..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "सार्वजनिक कुंजी हस्ताक्षर करें"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "क्या आप %s को स्थाई रूप से मिटाने के लिए निश्चित हैं?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "क्या आप %d कुंजी व पहचान को स्थाई रूप से मिटाने के लिए निश्चित हैं?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "क्या आप %d कुंजी को स्थाई रूप से मिटाने के लिए निश्चित हैं?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "क्या आप %d पहचान को स्थाई रूप से मिटाने के लिए निश्चित हैं?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b> उन्नत कुंजी विकल्प</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "कोई PGP कुंजी दूसरे लोगों की ईमेल या फ़ाइलों को गोपित करने की अनुमति देता है."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "अलगोरिथम यहाँ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "बनाएँ (_r)"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "समाप्ति तिथि:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "गोपन प्रकार:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "उत्पन्न करें नया कुंजी"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "कुंजी ताकत (bits):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "कभी समाप्त नहीं होता है"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "नया पीजीपी कुंजी"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "टिप्पणी (_C):"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "निजी पीजीपी कुंजी"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "सार्वजनिक पीजीपी कुंजी"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Expired"
+msgstr "मियाद ख़त्म"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "प्राथमिक उपयोक्ता आईडी बदल नहीं सका"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "क्या आप वाकई '%s' उपयोक्ता ID को स्थायी रूप से मिटाना चाहते हैं?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "उपयोक्ता आईडी मिटा नहीं सका"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1462
+msgid "[Unknown]"
+msgstr "[अज्ञात]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1740
+msgid "Name/Email"
+msgstr "नाम/ईमेल"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "हस्ताक्षर आईडी"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "प्रधान फोटो नहीं बदल सका"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(अज्ञात)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "यह कुंजी समाप्त होता है: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "क्या आप वाकई %d %s की उपकुंजी को स्थाई रूप से मिटाना चाहते हैं?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "उपकुंजी नहीं मिटा सका"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1425
+msgid "Unable to change trust"
+msgstr "ट्रस्ट नहीं बदलने में असमर्थ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1005 ../src/bastile-viewer.c:315
+#: ../ssh/bastile-ssh-key-properties.c:167
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "\"%s\" में कुंजी निर्यात नहीं कर सका"
+
+#: ../pgp/bastile-pgp-key-properties.c:1033
+#: ../ssh/bastile-ssh-key-properties.c:191
+msgid "Export Complete Key"
+msgstr "निर्यात पूर्ण कुंजी"
+
+#: ../pgp/bastile-pgp-key-properties.c:1058
+#: ../ssh/bastile-ssh-key-properties.c:213
+msgid "Couldn't export key."
+msgstr "कुंजी निर्यात नहीं कर सका."
+
+#: ../pgp/bastile-pgp-key-properties.c:1265
+#: ../pgp/bastile-pgp-key-properties.c:1354
+msgctxt "Expires"
+msgid "Never"
+msgstr "कभी नहीं"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1315
+#: ../src/bastile-key-manager-store.c:859
+msgid "Type"
+msgstr "प्रकार"
+
+#: ../pgp/bastile-pgp-key-properties.c:1318
+msgid "Created"
+msgstr "उत्पन्न किया"
+
+#: ../pgp/bastile-pgp-key-properties.c:1321
+msgid "Expires"
+msgstr "समाप्त"
+
+#: ../pgp/bastile-pgp-key-properties.c:1324
+msgid "Status"
+msgstr "स्तर"
+
+#: ../pgp/bastile-pgp-key-properties.c:1327
+msgid "Strength"
+msgstr "ताकत"
+
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Good"
+msgstr "अच्छा"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>क्रिया</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>टिप्पणी:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b> तिथि</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b> ईमेल:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b> फ़िंगरप्रिंट</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b> कुंजी आईडी</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b> कुंजी नाम और हस्ताक्षर</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Name:</b>"
+msgstr "<b>नाम:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b> फोटो</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b> तकनीकी विवरण</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>यह कुंजी वापस नहीं लिया जा सका</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>इस कुंजी का समय समाप्त हो गया</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Type:</b>"
+msgstr "<b>टाइप:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+msgid "<b>Use:</b>"
+msgstr "<b> उपयोग</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>उपकुंजी (_S)</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "जोड़ें"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "इस कुंजी में एक फोटो जोड़ें"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "Change _Passphrase"
+msgstr "बदलें कूटशब्द"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "फ़ाइलों व ईमेल जो आपकी भेजी गई हैं विगोपित करें."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "मिटाएँ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "समाप्त"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "खत्म होगाः"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "निर्यात"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "अगले फोटो में जाएँ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "पिछले फोटो में जाएँ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "कुंजी आईडी:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "इस फोटो को प्राथमिक फोटो बनाएँ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "नाम और हस्ताक्षर"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "कभी नहीं"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "Override Owner _Trust:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "मालिक"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "प्राथमिक"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "इस कुंजी से फोटो हटाएँ"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "वापस लें"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "हस्ताक्षर करें"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "सामर्थ्य:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "कुंजी के स्वामी ने कुंजी को वापस ले लिया. यह अब प्रयोग नहीं किया जा सकता है."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "जोड़ें नाम"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "निर्यात पूर्ण कुंजी:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b> तिथि</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Fingerprint:</b>"
+msgstr "<b> फ़िंगरप्रिंट</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>ट्रस्ट संकेत करें:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>इस कुंजी आपका ट्र्स्ट</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>अन्य नाम (_O):</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>लोग जिन्होंने इस कुंजी को हस्ताक्षर किया है (_P):</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "फ़ाइलों को गोपित करें और की स्वामी को ईमेल करें"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "पूर्णतः"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "मैं '%s' से दूसरी कुंजियों पर हस्ताक्षर पर भरोसा करता हूँ"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"यदि आप भरोसा करते हैं कि व्यक्ति जो कि इस कुंजी का स्वामी है वह है '%s', इस कुंजी के लिए "
+"<i>हस्ताक्षर करें</i> :"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid "If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"यदि आप अब भरोसा नहीं करते हैं कि '%s' ने इस कुंजी को स्वामित्व में लिया है, अपने हस्ताक्षर "
+"को <i>वापस</i> लें:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "आंशिक"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:853
+msgid "Trust"
+msgstr "ट्रस्ट"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "सर्वश्रेष्ठ"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "आप स्वामी पर ट्रस्ट करते हैं (_T):"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "आपका ट्रस्ट दस्ती रूप से <i>Details</i> टैब पर निर्दिष्ट है."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "केवल उन लोगों का हस्ताक्षर दिखाएँ जिसपर मैं भरोसा करता है (_O)"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "हस्ताक्षर वापस लें"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "यह कुंजी हस्ताक्षर करें (_S)"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "%d उपकुंजी %s का"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "वापसी के अनुकूलतम विवरण"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "वापस करें (_v)"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "कुंजी वापसी के कारण"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "कारण (_R):"
+
+#: ../pgp/bastile-signer.c:62
+msgid "You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"आपके पास कोई निजी PGP कुंजी नहीं है जो किसी दस्तावेज या संदेश को हस्ताक्षर करने के लिए "
+"प्रयोग की जाती है."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>कितनी सावधानी से आपने इस कुंजी जाँचा है?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>कैसे दूसरे इन हस्ताक्षर को देख पाएँगे:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>कुंजी इस रूप में हस्ताक्षर करें:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr "<i>Casually:</i> का अर्थ है कि आपने लापरवाही से जाँच की है कि कुंजी उसके द्वारा स्वामित्व में है जो इसके स्वामी होवे ता दावा करता है. उदाहरण के लिए, आप फोन पर कुंजी फिंगरप्रिंट को पढ़ सकते हैं. "
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>कुंजी नाम</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr "<i>बिलकुल नहीं:</i> का अर्थ है कि आप मानते हैं कि कुंजी उस व्यक्ति के द्वारा स्वामित्व में है जो इसका दावा करता है, लेकिन आप इसकी जाँच नहीं कर सके या नहीं किया."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr "<i>बहुत सावधानी से:</i> इसे केवल तभी चुनें जब आप पूरी तरह से निश्चित हैं कि यह कुंजी सही है."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "इसे हस्ताक्षर करके आप अपना भरोसा बताते हैं कि यह कुंजी इसका हिस्सा है:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "मैं इस हस्ताक्षर को बाद के दिनों में वापस ले सकता हूँ (_r)"
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "हस्ताक्षर कुंजी"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr "आप इसका प्रयोग फोटो पहचान के लिए कर सकते हैं (जैसे कि पासपोर्ट) व्यक्तिगत रूप से जाँचने के लिए कि कुंजी का नाम सही है. आपको जरूर ईमेल को प्रयोग करना चाहिए जो ईमेल पता स्वामी का अवयव है."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "आराम से (_C)"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "सब नहीं (_N)"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "अन्य हस्ताक्षर नहीं देख सकते हैं (_O)"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "हस्ताक्षर"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "हस्ताक्षरकर्ता (_S):"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "बहुत ध्यान से (_V)"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "कुंजी के साथ संदेश हस्ताक्षर करें:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:107
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:68
+msgid "Certificate"
+msgstr "प्रमाणपत्र"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "क्या आप वाकई '%s' प्रमाणपत्र को मिटाना चाहते हैं?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "क्या आप वाकई %d प्रमाणपत्र को मिटाना चाहते हैं?"
+msgstr[1] "क्या आप वाकई %d प्रमाणपत्रों को मिटाना चाहते हैं?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "बदलें कूटशब्द"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "कूटशब्द की पुष्टि करें:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "नया कूटशब्द की पुष्टि करें"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "नया कूटशब्द:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "अपना कूटशब्द और गोपन कुंजी प्रबंधित करें"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:853
+msgid "Passwords and Encryption Keys"
+msgstr "कूटशब्द व गोपन कुंजी"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>बनाने के लिए मद का प्रकार चुनें (_S):</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "जारी रखें (_o)"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "बनाएँ नया."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "%d कुंजी चयनित"
+msgstr[1] "%d कुंजियाँ चयनित"
+
+#: ../src/bastile-key-manager.c:404 ../src/bastile-key-manager.c:464
+#: ../src/bastile-key-manager.c:527 ../src/bastile-viewer.c:482
+msgid "Couldn't import keys"
+msgstr "कुंजी आयात नहीं कर सका"
+
+#: ../src/bastile-key-manager.c:409 ../src/bastile-viewer.c:487
+msgid "Imported keys"
+msgstr "आयात कुंजी"
+
+#: ../src/bastile-key-manager.c:458
+msgid "Importing keys"
+msgstr "कुंजी आयात कर रहा है"
+
+#: ../src/bastile-key-manager.c:481 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "कुंजी आयात करें"
+
+#: ../src/bastile-key-manager.c:527
+msgid "Unrecognized key type, or invalid data format"
+msgstr "अपरिचित कुंजी प्रकार, या अवैध आँकड़ा प्रारूप"
+
+#: ../src/bastile-key-manager.c:721 ../src/bastile-keyserver-results.c:207
+msgid "_Remote"
+msgstr "दूरस्थ (_R)"
+
+#: ../src/bastile-key-manager.c:723
+msgid "Close this program"
+msgstr "यह प्रोग्राम बंद करें"
+
+#: ../src/bastile-key-manager.c:724
+msgid "_New..."
+msgstr "नया (_N)..."
+
+#: ../src/bastile-key-manager.c:725
+msgid "Create a new key or item"
+msgstr "नई कुंजी या मद बनाएँ"
+
+#: ../src/bastile-key-manager.c:726
+msgid "_Import..."
+msgstr "आयात करें (_I)..."
+
+#: ../src/bastile-key-manager.c:727
+msgid "Import from a file"
+msgstr "किसी फाइल से आयात करें"
+
+#: ../src/bastile-key-manager.c:729
+msgid "Import from the clipboard"
+msgstr "किसी क्लिपबोर्ड से आयात करें"
+
+#: ../src/bastile-key-manager.c:734 ../src/bastile-keyserver-results.c:217
+msgid "_Find Remote Keys..."
+msgstr "दूरस्थ कुंजियाँ ढूँढ़ें (_F)..."
+
+#: ../src/bastile-key-manager.c:735 ../src/bastile-keyserver-results.c:218
+msgid "Search for keys on a key server"
+msgstr "कुंजी सर्वर पर कुंजी के लिए खोजें"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Sync and Publish Keys..."
+msgstr "तुल्यकालित करें और प्रकाशित करें..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "जो ऑनलाइन हैं उनसे अपनी कुंजी प्रकाशित और/या तुल्यकालित करें."
+
+#: ../src/bastile-key-manager.c:742
+msgid "T_ypes"
+msgstr "प्रकार"
+
+#: ../src/bastile-key-manager.c:742
+msgid "Show type column"
+msgstr "दिखाएँ प्रकार स्तंभ"
+
+#: ../src/bastile-key-manager.c:744
+msgid "_Expiry"
+msgstr "समय समाप्ति (_E)"
+
+#: ../src/bastile-key-manager.c:744
+msgid "Show expiry column"
+msgstr "दिखाएँ समाप्ति स्तंभ"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Trust"
+msgstr "ट्रस्ट (_T)"
+
+#: ../src/bastile-key-manager.c:746
+msgid "Show owner trust column"
+msgstr "दिखाएँ स्वामी ट्रस्ट स्तंभ"
+
+#: ../src/bastile-key-manager.c:748
+msgid "_Validity"
+msgstr "वैधता"
+
+#: ../src/bastile-key-manager.c:748
+msgid "Show validity column"
+msgstr "दिखाएँ वैधता स्तंभ"
+
+#: ../src/bastile-key-manager.c:922
+msgid "Filter:"
+msgstr "फ़िल्टर:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b> प्रथम समय विकल्प</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "स्वयं अपनी नई कुंजी बनाएँ: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "मौजूदा कुंजी को किसी फ़ाइल से आयात करें:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "मेरा निजी कुंजी"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "अन्य कुंजियाँ (_K)"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "गोपन के साथ शुरू करने के लिए आपको कुंजी की जरूरत है."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:546
+msgid "_Import"
+msgstr "आयात करें (_I)"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "कूटशब्द (_P)"
+
+#: ../src/bastile-key-manager-store.c:648 ../src/bastile-viewer.c:282
+msgid "Couldn't export keys"
+msgstr "कुंजी निर्यात नहीं कर सका"
+
+#: ../src/bastile-key-manager-store.c:846
+msgid "Validity"
+msgstr "वैधता"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:865
+msgid "Expiration Date"
+msgstr "समाप्ति तिथि"
+
+#: ../src/bastile-keyserver-results.c:209
+msgid "Close this window"
+msgstr "इस विंडो को बन्द करें"
+
+#: ../src/bastile-keyserver-results.c:210
+msgid "_Expand All"
+msgstr "सभी विस्तारित करें (_E)"
+
+#: ../src/bastile-keyserver-results.c:211
+msgid "Expand all listings"
+msgstr "सभी सूची फैलाएँ"
+
+#: ../src/bastile-keyserver-results.c:212
+msgid "_Collapse All"
+msgstr "सभी संकुचित करें (_C)"
+
+#: ../src/bastile-keyserver-results.c:213
+msgid "Collapse all listings"
+msgstr "सभी सूची समेटें"
+
+#: ../src/bastile-keyserver-results.c:275
+msgid "Remote Keys"
+msgstr "रिमोट कुंजी"
+
+#: ../src/bastile-keyserver-results.c:277
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "दूरस्थ कुंजी जो '%s' समाहित करता है"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b> कुंजी सर्वर</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b> साझेदारी कुंजी मेरे नजदीक</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "दूरस्थ कुंजी ढूँढ़ें"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr "यह इंटरनेट पर दूसरे के लिए कुंजी को ढूँढ़ेगा. इन कुंजियों को आपके स्थानीय की रिंग में आयातित किया जाएगा."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "कहाँ खोजना है:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "ढूंढें (_S)"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "कुंजी के लिए खोजे जो समाहित करता है (_S): "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "सर्वर में कुंजी प्रकाशित नहीं कर सका"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "सर्वर से कुंजियाँ नहीं पा सका: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d कुंजी तुल्यकालन के लिए चयनित है</b>"
+msgstr[1] "<b>%d कुंजियाँ तुल्यकालन के लिए चयनित है</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "कुंजी सिंक्रोनाइज किया जा रहा है"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "कुंजी सिंक्रोनाइज किया जा रहा है."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "<b>X keys are selected for synchronizing</b>"
+msgstr "<b>X कुंजी को तुल्यकालन के लिए चुना गया है</b>"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid "Sync Keys"
+msgstr "कुंजी तुल्यकालित करें"
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr "यह आपके कीरिंग में कुंजियों को प्रकाशित करेगा ताकि वे दूसरे के लिए प्रयोग के लिए उपलब्ध रहे. आप भी किसी परिवर्तन को पाएँगे जिसे दूसरे ने किया है जब आपने उनकी कुंजी पाई है."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr "यह किसी परिवर्तन को प्राप्त करेगा जिसे दूसरे ने किया है जब से आपने उनकी कुंजियों को पाया है. कोई कुंजी सर्वर को नहीं चुना गया है प्रकाशन के लिए, ताकि आपकी कुंजी दूसरों के लिए उपलब्ध नहीं रह पाएँगी."
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Key Servers"
+msgstr "कुंजी सर्वर"
+
+#: ../src/bastile-keyserver-sync.xml.h:6
+msgid "_Sync"
+msgstr "तुल्यकालित करें (_S)"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "इस अनुप्रयोग का संस्करण"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:170
+msgid "Encryption Key Manager"
+msgstr "गोपन कुंजी प्रबंधक"
+
+#: ../src/bastile-viewer.c:141
+msgid "Contributions:"
+msgstr "योगदान:"
+
+#: ../src/bastile-viewer.c:172
+msgid "translator-credits"
+msgstr "राजेश रंजन (rranjan@redhat.com; rajesh672@gmail.com)"
+
+#: ../src/bastile-viewer.c:175
+msgid "Bastile Project Homepage"
+msgstr "सीहोर्स परियोजना मुख पृष्ठ"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:194
+msgid "_File"
+msgstr "फ़ाइल (_F)"
+
+#: ../src/bastile-viewer.c:195
+msgid "_Edit"
+msgstr "संपादन (_E)"
+
+#: ../src/bastile-viewer.c:196
+msgid "_View"
+msgstr "देखें (_V)"
+
+#: ../src/bastile-viewer.c:197
+msgid "_Help"
+msgstr "मदद (_H)"
+
+#: ../src/bastile-viewer.c:199
+msgid "Prefere_nces"
+msgstr "वरीयताएँ (_n)"
+
+#: ../src/bastile-viewer.c:200
+msgid "Change preferences for this program"
+msgstr "इस प्रोग्राम के लिए वरीयता बदलें"
+
+#: ../src/bastile-viewer.c:203
+msgid "About this program"
+msgstr "इस प्रोग्राम का परिचय"
+
+#: ../src/bastile-viewer.c:204
+msgid "_Contents"
+msgstr "विषय सूची (_C)"
+
+#: ../src/bastile-viewer.c:205
+msgid "Show Bastile help"
+msgstr "दिखाएँ सीहोर्स मदद"
+
+#: ../src/bastile-viewer.c:302
+msgid "Export public key"
+msgstr "सार्वजनिक कुंजी निर्यात"
+
+#: ../src/bastile-viewer.c:320
+msgid "Exporting keys"
+msgstr "कुंजी निर्यात किया जा रहा है"
+
+#: ../src/bastile-viewer.c:345
+msgid "Couldn't retrieve data from key server"
+msgstr "कुंजी सर्वर से आँकड़ा पा नहीं सका"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:364
+msgid "Copied keys"
+msgstr "कुंजी नक़ल किया"
+
+#: ../src/bastile-viewer.c:384
+msgid "Retrieving keys"
+msgstr "कुंजी पुनःप्राप्त कर रहा है"
+
+#: ../src/bastile-viewer.c:399
+msgid "Couldn't delete."
+msgstr "मिटा नहीं सका."
+
+#: ../src/bastile-viewer.c:433
+msgid "Deleting..."
+msgstr "मिटा रहा है..."
+
+#: ../src/bastile-viewer.c:459
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s एक निजी कुंजी है. क्या आप वाकई आगे बढ़ना चाहते हैं?"
+
+#: ../src/bastile-viewer.c:507
+msgid "Importing keys from key servers"
+msgstr "कुंजी सर्वर से कुंजी आयात कर रहा है"
+
+#: ../src/bastile-viewer.c:533
+msgid "Show properties"
+msgstr "दिखाएँ गुण"
+
+#: ../src/bastile-viewer.c:534
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "मिटाएँ (_D)"
+
+#: ../src/bastile-viewer.c:535
+msgid "Delete selected items"
+msgstr "मिटाएँ चयनित वस्तुएँ"
+
+#: ../src/bastile-viewer.c:539
+msgid "E_xport..."
+msgstr "निर्यात करें (_x)..."
+
+#: ../src/bastile-viewer.c:540
+msgid "Export to a file"
+msgstr "एक फ़ाइल में निर्यात करें"
+
+#: ../src/bastile-viewer.c:542
+msgid "Copy to the clipboard"
+msgstr "इस क्लिपबोर्ड में नक़ल करें"
+
+#: ../src/bastile-viewer.c:547
+msgid "Import selected keys to local key ring"
+msgstr "स्थानीय कुंजी रिंग में चुने कुंजियों को आयात करें"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "अपना सिक्योर शेल कूटशब्द दाखिल करें:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "सिक्योर शेल के लिए कुंजी विन्यस्त करें (_S)..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr "सार्वजनिक सिक्योर शेल कुंजी को दूसरे मशीन में भेजता है, और उस कुंजी के प्रयोग लॉगिन सक्रिय करें."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "क्या आप वाकई '%s' सिक्योर शेल कुंजी को मिटाना चाहते हैं?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "क्या आप वाकई %d सिक्योर शेल कुंजी को मिटाना चाहते हैं?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Secure Shell Key"
+msgstr "सिक्योर शेल कुंजी"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "दूसरे कंप्यूटर की पहुँच में असमर्थ (उदा: टर्मिनल से होकर)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "सिक्योर शेल कुंजी नहीं उत्पन्न कर सका"
+
+#: ../ssh/bastile-ssh-generate.c:205
+msgid "Creating Secure Shell Key"
+msgstr "सिक्योर शेल कुंजी बना रहा है"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr "<i>अपने ईमेल पता का प्रयोग करें, और किसी दूसरे अनुस्मारक का जिसे आपको जरूरत है कि यह कुंजी किससे के लिए है.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr "सिक्योर शेल (SSH) कुंजी आपको सुरक्षित रूप से कनेक्ट करने की अनुमति देता है भरोसेमेंद कंप्यूटर को SSH के प्रयोग से, बिना भिन्न कूटशब्द को उनमें से प्रत्येक के लिए दाखिल किए."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr "यदि पहले से एक कंप्यूटर है जिसे आप इस कुंजी के साथ प्रयोग करना चाहते हैं, आप उन कंप्यूटर को सेट अफ करना चाहते हैं अपनी कुंजी को अब जानने के लिए. "
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "नया सिक्योर शेल कुंजी"
+
+#: ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "बनाएं और सेटअप करें (_C)"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "सिर्फ कुंजी बनाएं (_J)"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "कुंजी विवरण (_K):"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(अपठनीय सिक्योर शेल की)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "अवैध"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "निजी सिक्योर शेल कुंजी"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "सार्वजनिक सिक्योर शेल कुंजी"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "कुंजी का फिर नाम नहीं दे सका."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "कुंजी के लिए सत्यापन नहीं बदल सका"
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "कुंजी के लिए कूटशब्द बदल नहीं सका."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "/home/nate/.ssh/blah_rsa"
+msgstr "/home/nate/.ssh/blah_rsa"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "00:00:00:00:00"
+msgstr "00:00:00:00:00"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Algorithm:</b>"
+msgstr "<b>अलगोरिथम:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Identifier:</b>"
+msgstr "<b>पहचानकर्ता:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Location:</b>"
+msgstr "<b>अवस्थिति:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Strength:</b>"
+msgstr "<b>शक्ति:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:10
+msgid "<b>Trust</b>"
+msgstr "<b>विश्वास</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>यह केवल '%s'</i> खाता पर लागू होता है."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "E_xport Complete Key"
+msgstr "पूरी कुंजी भेजें (_x)"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:22
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "इस कुंजी का स्वामी इस कंप्यूटर के साथ कनेक्ट होने के लिए अधिकृत है (_a)"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:23
+msgid "Used to connect to other computers."
+msgstr "दूसरे कंप्यूटर के साथ कनेक्ट होने के लिए प्रयुक्त."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH कमांड को अप्रत्याशित रूप से रोक दिया गया."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "SSH कमांड विफल रहा."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "सिक्योर शेल कुंजी"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "कूटशब्द"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "रिमोट होस्ट कूटशब्द"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "पुराना कुंजी कूटशब्द"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "इसके लिए पुराना कूटशब्द दाखिल करें: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "नया कुंजी कूटशब्द"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "इसके लिए नया कूटशब्द दाखिल करें: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "कुंजी कूटशब्द दाखिल करें"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "नए सिक्योर शेल कुंजी के लिए कूटशब्द"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "अपनी नई सिक्योर शेल कुंजी के लिए कूटशब्द दाखिल करें."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "कुंजी आयात कर रहा है: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "कुंजी आयात कर रहा है. कूटशब्द प्रविष्ट करें"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "इस कुंजी के लिए कोई निजी कुंजी फ़ाइल उपलब्ध नहीं है."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "सिक्योर शेल कुंजी को दूरस्थ कंप्यूटर पर विन्यस्त नहीं कर सका."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "सिक्योर शेल कुंजी बिन्यस्त कर रहा है..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>उदा: fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "SSH संबंधन के लिए कंप्यूटर सेटअप करें"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr "अपनी सिक्योर शेल कुंजी को दूसरे कंप्यूटर के साथ प्रयोग करने के लिए जो कि SSH का प्रयोग करता है, आपको जरूर अपने उस कंप्यूटर पर लॉगिन खाता रखना चाहिए."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "कंप्यूटर नाम (_C):"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "लागिन नाम (_L)"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "सेट अप (_S)"

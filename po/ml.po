@@ -1,0 +1,3036 @@
+# translation of bastile.master.ml.po to
+# translation of bastile.HEAD.ml.po to
+# Copyright (C) 2003-2008 bastile'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FSF-India <locale@gnu.org.in>, 2003.
+# Ani Peter <apeter@redhat.com>, 2007, 2009.
+# Jeffrey|ജെഫ്രി  Antony|ആന്റണി <jeffreyantony@gmail.com>, 2008.
+# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile.master.ml\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=bastile&component=general\n"
+"POT-Creation-Date: 2009-09-14 19:43+0000\n"
+"PO-Revision-Date: 2009-09-15 18:05+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../daemon/bastile-daemon.c:69
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "സീഹോഴ്സ്-ഡെമണ്‍ നിരന്തരപ്രക്രിയയായി പ്രവര്‍ത്തിപ്പിക്കരുതു്"
+
+#: ../daemon/bastile-daemon.c:87
+msgid "couldn't fork process"
+msgstr "പ്രക്രിയ ഫോര്‍ക്ക് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../daemon/bastile-daemon.c:93
+msgid "couldn't create new process group"
+msgstr "പ്രക്രിയയ്ക്കുള്ള പുതിയ കൂട്ടം ഉണ്ടാക്കുവാന്‍ സാധിച്ചില്ല"
+
+#: ../daemon/bastile-daemon.c:207
+msgid "Encryption Daemon (Bastile)"
+msgstr "എന്‍ക്രിപ്ഷനുള്ള നിരന്തരപ്രവൃത്തി (സീഹോഴ്സ്)"
+
+#: ../daemon/bastile-daemon.desktop.in.in.h:1
+msgid "Bastile Daemon"
+msgstr "Bastile ഡെമണ്‍"
+
+#: ../daemon/bastile-service.c:151 ../daemon/bastile-service.c:175
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "%s: തെറ്റായ അല്ലെങ്കില്‍ തിരിച്ചറിയാത്ത ചാവിയുടെ തരം"
+
+#: ../daemon/bastile-service.c:224 ../daemon/bastile-service-keyset.c:135
+#: ../daemon/bastile-service-keyset.c:164
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "തെറ്റായ അല്ലെങ്കില്‍ തിരിച്ചറിയാത്ത ചാവി: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:160
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "ഒപ്പിട്ടത് <i><key id='%s'/><b>സമാപിച്ചത്</b></i> %s-ന്."
+
+#: ../daemon/bastile-service-crypto.c:161
+msgid "Invalid Signature"
+msgstr "അസാധുവായ ഒപ്പു്"
+
+#: ../daemon/bastile-service-crypto.c:167
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "ഒപ്പിട്ടത് <i><key id='%s'/></i> %s-ന് <b>സമാപിച്ചു</b>."
+
+#: ../daemon/bastile-service-crypto.c:168
+msgid "Expired Signature"
+msgstr "കാലാവധി അവസാനിച്ച ഒപ്പു്"
+
+#: ../daemon/bastile-service-crypto.c:174
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "ഒപ്പിട്ടത് <i><key id='%s'/><b>പിന്‍വലിച്ചതു്</b></i>%s-ന് ."
+
+#: ../daemon/bastile-service-crypto.c:175
+msgid "Revoked Signature"
+msgstr "പിന്‍വലിച്ച ഒപ്പു്"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:181
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "ഒപ്പിട്ടത് <i><key id='%s'/></i>%s-ന് ."
+
+#: ../daemon/bastile-service-crypto.c:182
+msgid "Good Signature"
+msgstr "നല്ല ഒപ്പു്"
+
+#: ../daemon/bastile-service-crypto.c:187
+msgid "Signing key not in keyring."
+msgstr "ഒപ്പിടുന്ന ചാവി ചാവിക്കൂട്ടത്തില്‍ ഇല്ല"
+
+#: ../daemon/bastile-service-crypto.c:188
+msgid "Unknown Signature"
+msgstr "അറിയപ്പെടാത്ത ഒപ്പു്"
+
+#: ../daemon/bastile-service-crypto.c:192
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "തെറ്റായ അല്ലെങ്കില്‍ കള്ള ഒപ്പു്. ഒപ്പിട്ട വിവരങ്ങള്‍ തിരുത്തിയിട്ടുണ്ടു്."
+
+#: ../daemon/bastile-service-crypto.c:193
+msgid "Bad Signature"
+msgstr "തെറ്റായ ഒപ്പു്"
+
+#: ../daemon/bastile-service-crypto.c:201
+msgid "Couldn't verify signature."
+msgstr "ഒപ്പു് ഉറപ്പാക്കാന്‍ സാധ്യമായില്ല"
+
+#: ../daemon/bastile-service-crypto.c:257
+#: ../daemon/bastile-service-crypto.c:364
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "%s :ഇടുന്നത് തെറ്റായ അല്ലെങ്കില്‍ തിരിച്ചറിയാത്ത ഒപ്പു്"
+
+#: ../daemon/bastile-service-crypto.c:264
+#: ../daemon/bastile-service-crypto.c:371
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "%s :ഒപ്പിടുന്നതിനായി ചാവി അസാധുവാണ്"
+
+#: ../daemon/bastile-service-crypto.c:276
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "അസാധു അല്ലെങ്കില്‍ അപരിചിതമായ സ്വീകരിക്കുന്നയാള്‍ : %s"
+
+#: ../daemon/bastile-service-crypto.c:284
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "എന്‍ക്രിപ്ഷനുള്ള ശരിയായ റസിപ്യന്റല്ല കീ: %s"
+
+#: ../daemon/bastile-service-crypto.c:293
+#, c-format
+msgid "No recipients specified"
+msgstr "റെസീപ്യന്റുകള്‍ വ്യക്തമാക്കിയിട്ടില്ല"
+
+#: ../daemon/bastile-service-crypto.c:359
+#, c-format
+msgid "No signer specified"
+msgstr "ഒപ്പിടുന്ന ആള് വ്യക്തമായിട്ടില്ല"
+
+#: ../daemon/bastile-service-crypto.c:414
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "%s: ഡീക്രിപ്റ്റ്ചെയ്യുന്നതിനായി തെറ്റായ ചാവിയുടെ തരം"
+
+#: ../daemon/bastile-service-crypto.c:477
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "ഉറപ്പാക്കുന്നതിനു് തെറ്റായ കീ തരം: %s"
+
+#: ../daemon/bastile-service-keyset.c:200
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "തെറ്റായ key id: %s"
+
+#: ../daemon/bastile-sharing.c:72 ../daemon/bastile-sharing.c:216
+msgid "Couldn't share keys"
+msgstr "ചാവികള്‍ പങ്ക് വയ്ക്കുവാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../daemon/bastile-sharing.c:73
+msgid "Can't publish discovery information on the network."
+msgstr "നെറ്റ്‌വര്‍ക്കില്‍ കണ്ടുപിടിച്ച വിവരങ്ങള്‍ പ്രസിദ്ധീകരിക്കുവാന്‍ സാധ്യമല്ല."
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:93
+#, c-format
+msgid "%s's encryption keys"
+msgstr "%s-ന്റെ എന്‍ക്രിപ്ഷന്‍ ചാവികള്‍"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"വിദൂര PGP കീകള്‍ തെരയുന്നതിനുള്ള കീ സര്‍വറുകളുടെ യുആര്‍ഐകളുടെ ലിസ്റ്റ്.  പിന്നീടുള്ള "
+"പതിപ്പുകളില്‍, ഒരു സ്പെയിസ് നല്‍കി പേരു് ചേര്‍ത്തു് ഒരു നാമം നല്‍കുവാന്‍ സാധിക്കുന്നു."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "ചാവികള്‍ സ്വയം ലഭ്യമാക്കുക"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "ഓട്ടോ സിംക് ചാവികള്‍"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "കീ പാലകനുള്ള കാലാവധിയുടെ അവസാനത്തിനുള്ള നിരയുടെ ദൃശ്യത നിയന്ത്രിക്കുന്നു."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "കീ പാലകനുള്ള വിശ്വസ്തതയ്ക്കുള്ള നിരയുടെ ദൃശ്യത നിയന്ത്രിക്കുന്നു."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "കീ പാലകനുള്ള ഏതു് തരം നിരയുടെ ദൃശ്യത നിയന്ത്രിക്കുന്നു."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "കീ പാലകനുള്ള കാലാവധി നിരയുടെ ദൃശ്യത നിയന്ത്രിക്കുന്നു."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "DNS-SD പങ്കുവയ്ക്കല്‍ സാധ്യമാക്കുക"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"കീകളുടെ DNS-SD (Apple Bonjour) പങ്കിടല്‍ പ്രവര്‍ത്തന സജ്ജമാക്കുന്നു. bastile-daemon "
+"പ്രവര്‍ത്തനത്തിലായിരിക്കണം. കൂടാതെ, HKP, DNS-SD പിന്തുണയുണ്ടായിരിക്കണം."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "സഹജമായ ചാവിയുടെ ഐഡി"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"true ആയി സജ്ജമാക്കിയാല്‍, bastile ഉപയോഗിച്ചു് എന്‍ക്രിപ്റ്റ് ചെയ്ത ഫയലുകള്‍ "
+"ASCII ആര്‍മര്‍ എന്‍കോഡഡായിരിക്കും."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"true ആയി സജ്ജമാക്കിയാല്‍, എന്‍ക്രിപ്ഷന്‍ റെസിപ്യന്റുകളുടെ പട്ടികയിലേക്ക് "
+"സ്വതവേയുള്ള കീ എപ്പോഴും ചേര്‍ക്കുന്നു."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "അവസാന ചാവി സെര്‍വറിന്റെ തിരച്ചില്‍ മാതൃക"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "അവസാനമായി ഉപയോഗിച്ച ചാവി സെര്‍വറുകള്‍"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "അവസാനമായി സന്ദേശം ഒപ്പു് വയ്ക്കാന്‍ ഉപയോഗിച്ച ചാവി"
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP ചാവി സെര്‍വറുകള്‍"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "ഈ ചാവി സെര്‍വറിലേക്ക് ചാവികള്‍ അറിയിക്കുക."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "കീ പാലകനില്‍ കാലാവധി തീരുന്നതിനുള്ള നിര കാണിക്കുക"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "കീ പാലകനില്‍ വിശ്വസ്തതയുടെ നിര കാണിക്കുക"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "കീ പാലകനില്‍ ഏതു് തരം എന്നതിനുള്ള നിര കാണിക്കുക"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "കീ പാലകനില്‍ കാലാവധിയ്ക്കുള്ള നിര കാണിക്കുക"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"റെസിപ്യെന്റ് ജാലകം ക്രമത്തിലാക്കുവാനുള്ള നിര വ്യക്തമാക്കുക. നിരകള്‍: 'പേരു്' and 'id'. "
+"കൂടുതലില്‍ നിന്നും കുറവിലേക്കെന്ന ക്രമത്തിലാക്കുന്നതിനായി നിരയുടെ പേരിനു് മുമ്പു് '-' ചേര്‍ക്കുക."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"bastile കീ മാനേജര്‍ പ്രധാന ജാലകം ക്രമത്തിലാക്കുന്നതിനുള്ള നിര വ്യക്തമാക്കുക. നിരകള്‍: "
+"'പേരു്', 'id', 'കാലാവധി', 'കാലാവധിയുടെ അവസാനം', 'വിശ്വാസ്യത', 'ഏതു് തരം'. കൂടുതലില്‍ "
+"നിന്നും കുറവിലേക്കെന്ന ക്രമത്തിലാക്കുന്നതിനായി നിരയുടെ പേരിനു് മുമ്പു് '-' ചേര്‍ക്കുക."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "അവസാനമായി സന്ദേശം ഒപ്പു് വയ്ക്കാന്‍ ഉപയോഗിച്ച രഹസ്യ ചാവിയുടെ ID"
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "റെസിപ്യെന്റുകള്‍ ഏതു് നിരയനുസരിച്ചു് ക്രമത്തിലാക്കണം"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "bastile കീകള്‍ ഏതു് നിരയനുസരിച്ചു് ക്രമത്തിലാക്കണം"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"PGP കീകള്‍ പബ്ലിഷ് ചെയ്യേണ്ട കീ സര്‍വര്‍. അല്ലെങ്കില്‍, PGP കീകളുടെ പബ്ലിഷിങ് "
+"നിര്‍ത്തുന്നതിനായി കാലിയാക്കുക."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"അവസാന തെരച്ചില്‍ നടത്തിയ കീ സര്‍വര്‍ അല്ലെങ്കില്‍ എല്ലാ കീ സര്‍വറുകളും "
+"കാലിയാക്കുക."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "ഒരു കീ സര്‍വറിനായി തെരയുന്ന അവസാന തെരച്ചില്‍ മാതൃക."
+
+#: ../data/bastile.schemas.in.h:30
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "ഒപ്പിടല്‍ പോലുള്ള ചില പ്രക്രിയകള്‍ക്കുപയോഗിക്കുന്ന സ്വതവേയുള്ള കീ ഇതു് വ്യക്തമാക്കുന്നു."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "കീ സര്‍വറുളില്‍ നിന്നും കീകള്‍ സ്വയമായി ലഭ്യമാക്കണമോ എന്നു്"
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"മാറ്റം വരുത്തിയ കീകള്‍ സ്വയമായി സ്വതവേയുള്ള കീ സര്‍വറുമായി സിന്‍ക് ചെയ്യണമോ "
+"വേണ്ടയോ എന്നു്"
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "എപ്പോഴും സ്വതവേയുള്ള കീ എന്‍ക്രിപ്റ്റ് ചെയ്യണമോ എന്നു്"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "ASCII ആര്‍മര്‍ ഉപയോഗിക്കണമോ എന്നു്"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "അടയാളവാക്കിന്റെ ചാവിക്കൂട്ടം ചേര്‍ക്കുക"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "പുതിയ ചാവിക്കൂട്ടത്തിന്റെ പേര്:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"പുതിയ കീറിങിനുള്ള ഒരു പേരു് ദയവായി തെരഞ്ഞെടുക്കുക. പൂട്ട് തുറക്കുന്നതിനുള്ള ഒരു "
+"അടയാളവാക്ക് ആവശ്യപ്പെടുന്നു."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "സെര്‍വറിന്റെ വിലാസം അല്ലെങ്കില്‍ ഹോസ്റ്റിന്റെ പേര്."
+
+#: ../gkr/bastile-gkr-add-item.c:60 ../gkr/bastile-gkr-add-keyring.c:59
+msgid "Couldn't add keyring"
+msgstr "ചാവിക്കൂട്ടം ചേര്‍ക്കുവാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "അടയാളവാക്കു് ചേര്‍ക്കുക"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:17 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "വിവരണം:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_കീറിങ്:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_അടയാളവാക്കു്:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "അടയാളവാക്കു് _കാണിക്കുക"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "വെബ് അടയാളവാക്കു്"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "ശൃംഖല അടയാളവാക്കു്"
+
+#: ../gkr/bastile-gkr-item.c:474 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "അടയാളവാക്കു്"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "നിങ്ങള്‍ക്ക് '%s' അടയാളവാക്കു് എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "നിങ്ങള്‍ക്ക് %d അടയാളവാക്കു് എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+msgstr[1] "നിങ്ങള്‍ക്ക് %d അടയാളവാക്കുകള്‍ എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "ഒരു നെറ്റ്‌വര്‍ക്ക് ഷെയര്‍ അല്ലെങ്കില്‍ ഒരു ഉടവിടത്തിലേക്കു് പ്രവേശിക്കുക"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "ഒരു വെബ് സൈറ്റിലേക്ക് പ്രവേശിക്കുക"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "ഒരു PGP ചാവി തുറക്കും"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "ഒരു സെക്യൂര്‍ ഷെല്‍ ചാവി തുറക്കും"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "സൂക്ഷിച്ച അടയാളവാക്കു് അല്ലെങ്കില്‍ ലോഗിന്‍"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "നെറ്റ്‌വര്‍ക്ക് യോഗ്യതകള്‍"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "അടയാളവാക്കു് മാറ്റുവാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../gkr/bastile-gkr-item-properties.c:347
+msgid "Couldn't set description."
+msgstr "വിവരണം നേരേയാക്കാന്‍ കഴിഞ്ഞില്ല."
+
+#: ../gkr/bastile-gkr-item-properties.c:641
+msgid "Couldn't set application access."
+msgstr "പ്രയോഗത്തിലേക്കുള്ള പ്രവേശനം സജ്ജമാക്കുവാന്‍ സാധ്യമായില്ല."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>അടയാളവാക്കു്:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>വഴി:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>അനുവാദങ്ങള്‍:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Technical Details:</b>"
+msgstr "<b>സാങ്കേതിക വിവരങ്ങള്‍:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "പ്രയോഗങ്ങള്‍"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:72
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Details"
+msgstr "വിവരങ്ങള്‍"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Key"
+msgstr "ചാവി"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "Key Properties"
+msgstr "ചാവിയുടെ ഗുണഗണങ്ങള്‍"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "ഉപയോക്താവിന്റെ പേരു്:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "സെര്‍വര്‍:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "അടയാള_വാക്കു് കാണിക്കുക"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Type:"
+msgstr "തരം:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "ഉപയോഗം:"
+
+#. To translators: This is the infinitive not the imperative.  This string refers to the ability of an application to delete this secret from its key ring.
+#: ../gkr/bastile-gkr-item-properties.xml.h:16
+msgid "_Delete"
+msgstr "_വെട്ടി മാറ്റുക"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Read"
+msgstr "_വായിക്കുക"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:21
+msgid "_Write"
+msgstr "_എഴുതുക"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "പാസ്‌വേര്‍ഡുകള്‍ നിരത്തുന്നു"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "പാസ്‌വേര്‍ഡുകള്‍: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>അടയാളവാക്കു്:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:112
+msgid "Password Keyring"
+msgstr "പാസ്‌വേര്‍ഡ് കീറിങ്"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:113
+msgid "Used to store application and network passwords"
+msgstr "പ്രയോഗവും നെറ്റ്‌വര്‍ക്ക് അടയാളവാക്കുകളും സൂക്ഷിക്കുന്നതിനായി ഉപയോഗിക്കുന്നു"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:114
+msgid "Stored Password"
+msgstr "സൂക്ഷിച്ചിട്ടുള്ള അടയാളവാക്കു്"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:115
+msgid "Safely store a password or secret."
+msgstr "സുരക്ഷിതമായി ഒരു അടയാളവാക്ക് അല്ലെങ്കില്‍ രഹസ്യം സൂക്ഷിക്കുക"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:129
+msgid "Couldn't unlock keyring"
+msgstr "കീറിങ് അണ്‍ലോക്ക് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:170
+msgid "Couldn't lock keyring"
+msgstr "കീറിങ് പൂട്ടുവാന്‍ സാധിച്ചില്ല"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:211
+msgid "Couldn't set default keyring"
+msgstr "സ്വതവേയുള്ള കീറിങ് സജ്ജമാക്കുവാന്‍ സാധിച്ചില്ല"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:250
+msgid "Couldn't change keyring password"
+msgstr "ചാവിക്കൂട്ടത്തിന്റെ അടയാളവാക്കു് മാറ്റുവാന്‍ സാധിച്ചില്ല"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:281
+msgid "_Lock"
+msgstr "_ലോക്ക് ചെയ്യുക"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:282
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr ""
+"അടയാളവാക്കിനുള്ള സംഭരണ കീറിങ് പൂട്ടി അതു് തുറക്കുന്നതിനായി ഒരു പ്രധാന അടയാളവാക്ക് "
+"ഉപയോഗിക്കുക."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:283
+msgid "_Unlock"
+msgstr "_അണ്‍ലോക്ക് ചെയ്യുക"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:284
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"അടയാളവാക്കിനുള്ള സംഭരണ കീറിങ് ഒരു പ്രധാന അടയാളവാക്കുപയോഗിച്ചു് "
+"അണ്‍ലോക്ക് ചെയ്യുക, അങ്ങനെ അവ ഉപയോഗിക്കുവാന്‍ സാധിക്കുന്നു."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:285
+msgid "_Set as default"
+msgstr "സഹജമായി _സജ്ജമാക്കുക"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:286
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "പ്രയോഗങ്ങള്‍ സാധാരണ സ്വതവേയുള്ള കീറിങില്‍ പുതിയ അടയാളവാക്കുകള്‍ സൂക്ഷിക്കുന്നു."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:287
+msgid "Change _Password"
+msgstr "_അടയാളവാക്കു് മാറ്റുക"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "Change the unlock password of the password storage keyring"
+msgstr "അടയാളവാക്കിനുള്ള സംഭരണ കീറിങിലുള്ള അണ്‍ലോക്ക് അടയാളവാക്ക് മാറ്റുക"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:353
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "നിങ്ങള്‍ക്ക് '%s' പാസ്‌വേര്‍ഡ് കീറിങ് എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+msgid "Created:"
+msgstr "ഉണ്ടാക്കിയതു്:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "കീറിങ്"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "കീറിങ് ഗുണഗണങ്ങള്‍"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_പേരു്:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "ചാവിക്കൂട്ടത്തിലേക്കുള്ള പ്രവേശനം നിഷേധിച്ചിരിക്കുന്നു"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "ഗ്നോം-ചാവിക്കൂട്ടം പ്രവര്‍ത്തിക്കുന്നില്ല"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "ഈ ചാവിക്കൂട്ടം ഇതിനുമുമ്പേ തുറന്നിട്ടുണ്ടു്"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "ഇങ്ങനെ ഒരു ചാവിക്കൂട്ടം നിലവിലില്ല"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "ചാവിക്കൂട്ടത്തിനുള്ള നിരന്തരപ്രക്രിയയുമായി ആശയവിനിമയം നടത്താന്‍ സാധിക്കുന്നില്ല"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "ഈ ഇനം ഇതിനു് മുമ്പേ നിലവിലുണ്ടു്"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "ഗ്നോം-ചാവിക്കൂട്ടത്തിലേക്ക് പ്രവേശിയ്ക്കുമ്പോള്‍ ആന്തരികമായ തെറ്റ്"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "ഇനം സൂക്ഷിക്കുന്നു..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "വസ്തു വെട്ടിനീക്കുന്നു..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "കീറിങ് വെട്ടിനീക്കുന്നു..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "പാസ്‌വേര്‍ഡ് കീറിങുകള്‍ ലഭ്യമാക്കുന്നു"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"നിങ്ങള്‍ ആവശ്യപ്പെട്ടതു് നടത്തുന്നതിനുള്ള എന്‍ക്രിപ്ഷന്‍ കീകള്‍ ലഭ്യമായില്ല. "
+"<b>അടയാളവാക്കുകളും എന്‍ക്രിപ്ഷന്‍ കീകളും</b> എന്ന പ്രോഗ്രം ഇപ്പോള്‍ ആരംഭിക്കുന്നു. "
+"അങ്ങനെ നിങ്ങള്‍ക്കു് ഒരു കീ ഉണ്ടാക്കാം അല്ലെങ്കില്‍ ഒരെണ്ണം ഇംപോര്‍ട്ട് ചെയ്യക."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:173
+msgid "All Keys"
+msgstr "എല്ലാ ചാവികളും"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+msgid "Selected Recipients"
+msgstr "തെരഞ്ഞെടുത്ത റെസീപ്യന്റുകള്‍"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+msgid "Search Results"
+msgstr "ഫലങ്ങള്‍ തെരയുക"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:185
+msgid "Search _for:"
+msgstr "തെരയേണ്ട_തു്:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:243
+msgid "None (Don't Sign)"
+msgstr "ഒന്നുമില്ല (ഒപ്പിടരുത്)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:256
+#, c-format
+msgid "Sign this message as %s"
+msgstr "ഈ സന്ദേശം %s ആയി ഒപ്പിടുക"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:278
+msgid "_Sign message as:"
+msgstr "ഈ സന്ദേശം _ഒപ്പിടേണ്ടതു്:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:828
+msgid "Name"
+msgstr "പേരു്"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1743
+#: ../src/bastile-key-manager-store.c:840
+msgid "Key ID"
+msgstr "ചാവിയുടെ ID"
+
+#: ../libegg/egg-datetime.c:313
+msgid "Display flags"
+msgstr "ഫ്ലാഗുകള്‍ പ്രദര്‍ശിപ്പിക്കുക"
+
+#: ../libegg/egg-datetime.c:314
+msgid "Displayed date and/or time properties"
+msgstr "തീയതി/സമയം ഗുണഗണങ്ങള്‍ പ്രദര്‍ശിപ്പിച്ചു"
+
+#: ../libegg/egg-datetime.c:319
+msgid "Lazy mode"
+msgstr "ലേസി മോഡ്"
+
+#: ../libegg/egg-datetime.c:320
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "നല്‍കിയ തീയതിയും സമയ മൂല്ല്യങ്ങളും ലേസി മോഡ് നോര്‍മലൈസ് ചെയ്യുന്നില്ല"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Year"
+msgstr "വര്‍ഷം"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed year"
+msgstr "പ്രദര്‍ശിപ്പിച്ച വര്‍ഷം"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Month"
+msgstr "മാസം"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Displayed month"
+msgstr "പ്രദര്‍ശിപ്പിച്ച മാസം"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Day"
+msgstr "ദിവസം"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed day of month"
+msgstr "പ്രദര്‍ശിപ്പിച്ച മാസത്തിലെ ദിനം"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Hour"
+msgstr "മണിക്കൂര്‍"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed hour"
+msgstr "പ്രദര്‍ശിപ്പിച്ച മണിക്കൂര്‍"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Minute"
+msgstr "മിനിട്ട്"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed minute"
+msgstr "പ്രദര്‍ശിപ്പിച്ച മിനിട്ട്"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Second"
+msgstr "സെക്കന്‍ഡ്"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed second"
+msgstr "പ്രദര്‍ശിപ്പിച്ച സെക്കന്‍ഡ്"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Lower limit year"
+msgstr "ലോവര്‍ ലിമിറ്റ് വര്‍ഷം"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Year part of the lower date limit"
+msgstr "കുറഞ്ഞ തീയതി പരിധിയുടെ വര്‍ഷ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Upper limit year"
+msgstr "അപ്പര്‍ ലിമിറ്റ് വര്‍ഷം"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Year part of the upper date limit"
+msgstr "കൂടിയ തീയതി പരിധിയുടെ വര്‍ഷ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit month"
+msgstr "ലോവര്‍ ലിമിറ്റ് മാസം"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Month part of the lower date limit"
+msgstr "കുറഞ്ഞ തീയതി പരിധിയുടെ മാസ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit month"
+msgstr "അപ്പര്‍ ലിമിറ്റ് മാസം"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Month part of the upper date limit"
+msgstr "കൂടിയ തീയതി പരിധിയുടെ മാസ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit day"
+msgstr "ലോവര്‍ ലിമിറ്റ് ഡേ"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Day of month part of the lower date limit"
+msgstr "കുറഞ്ഞ സമയ പരിധിയുടെ മാസത്തിലുള്ള ദിവസ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit day"
+msgstr "അപ്പര്‍ ലിമിറ്റ് ഡേ"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Day of month part of the upper date limit"
+msgstr "കൂടിയ സമയ പരിധിയുടെ മാസത്തിലുള്ള ദിവസ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit hour"
+msgstr "ലോവര്‍ ലിമിറ്റ് മണിക്കൂര്‍"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Hour part of the lower time limit"
+msgstr "കുറഞ്ഞ സമയ പരിധിയുടെ മണിക്കൂര്‍ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit hour"
+msgstr "അപ്പര്‍ ലിമിറ്റ് മണിക്കൂര്‍"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Hour part of the upper time limit"
+msgstr "കൂടിയ സമയ പരിധിയുടെ മണിക്കൂര്‍ ഭാഗം"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit minute"
+msgstr "ലോവര്‍ ലിമിറ്റ് മിനിറ്റ്"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Minute part of the lower time limit"
+msgstr "കുറഞ്ഞ സമയ പരിധിയുടെ മിനിറ്റ് ഭാഗം"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit minute"
+msgstr "അപ്പര്‍ ലിമിറ്റ് മിനിറ്റ്"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Minute part of the upper time limit"
+msgstr "കൂടിയ സമയ പരിധിയുടെ മിനിറ്റ് ഭാഗം"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit second"
+msgstr "ലോവര്‍ ലിമിറ്റ് സെക്കന്‍ഡ്"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Second part of the lower time limit"
+msgstr "കുറഞ്ഞ സമയ പരിധിയുടെ സെക്കന്‍ഡ് ഭാഗം"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit second"
+msgstr "അപ്പര്‍ ലിമിറ്റ് സെക്കന്‍ഡ്"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Second part of the upper time limit"
+msgstr "കൂടിയ സമയ പരിധിയുടെ സെക്കന്‍ഡ് ഭാഗം"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:470
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:0"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Date"
+msgstr "തീയതി"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Enter the date directly"
+msgstr "തീയതി നേരിട്ട് നല്‍കുക"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select Date"
+msgstr "ദിവസം തിരങ്ങെടുക്കുക"
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select the date from a calendar"
+msgstr "ഒരു കലണ്ടറില്‍ നിന്നും തീയതി തെരഞ്ഞെടുക്കുക"
+
+#: ../libegg/egg-datetime.c:517 ../libegg/egg-datetime.c:2192
+msgid "Time"
+msgstr "സമയം"
+
+#: ../libegg/egg-datetime.c:517
+msgid "Enter the time directly"
+msgstr "സമയം നേരിട്ടു് നല്‍കുക"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select Time"
+msgstr "സമയം തിരങ്ങെടുക്കുക"
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select the time from a list"
+msgstr "ലിസ്റ്റില്‍ നിന്നും സമയം തെരഞ്ഞെടുക്കുക"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:791
+msgid "24hr: no"
+msgstr "24hr: no"
+
+#: ../libegg/egg-datetime.c:795 ../libegg/egg-datetime.c:1253
+#: ../libegg/egg-datetime.c:1257
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1254
+#: ../libegg/egg-datetime.c:1261
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:805
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:808
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:812
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:815
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1169
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1234
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "ഫയല്‍ ഒരു ശരിയായ .desktop ഫയല്‍ അല്ല"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "അപരിചിതമായ പണിയിട ഫയല്‍ പതിപ്പു് '%s'"
+
+#: ../libegg/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "%s ആരംഭിക്കുന്നു"
+
+#: ../libegg/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "കമാന്‍ഡ് ലൈനില്‍ പ്രയോഗങ്ങള്‍ രേഖകള്‍ സ്വീകരിക്കുന്നില്ല"
+
+#: ../libegg/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "അപരിചിതമായ ലഭ്യമാക്കുന്ന ഉപാധി: %d"
+
+#: ../libegg/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "'Type=Link' പണിയിട എന്‍ട്രിയിലേക്ക് രേഖകളുടെ യുആര്‍ഐകള്‍ നല്‍കുവാന്‍ സാധ്യമല്ല"
+
+#: ../libegg/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "ലഭ്യമാക്കുവാന്‍ സാധിക്കുന്ന വസ്തു അല്ല"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "സെഷന്‍ മാനേജറിലേക്കുള്ള കണക്ഷന്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "സൂക്ഷിച്ചിട്ടുള്ള ക്രമീകരണം അടങ്ങുന്ന ഫയല്‍ നല്‍കുക"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "സെഷന്‍ മാനേജ്മെന്റ് ID നല്‍കുക"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1312
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "സെഷന്‍ മാനേജ്മെന്റ് ഉപാധികള്‍:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "സെഷന്‍ മാനേജ്മെന്റ് ഉപാധികള്‍ കാണിക്കുക"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "ചാവി സെര്‍വര്‍ ചേര്‍ക്കുക"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "ഹോസ്റ്റ്:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "കീ സര്‍വര്‍ തരം:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "സര്‍വര്‍ ലഭ്യമാക്കേണ്ട പോര്‍ട്ട്."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "പ്രാരംഭ താല്‍ക്കാലിക വസ്തു"
+
+#: ../libbastile/bastile-notification.c:566
+#: ../libbastile/bastile-notification.c:594
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "എടുത്ത ചാവി"
+msgstr[1] "എടുത്ത ചാവികള്‍"
+
+#: ../libbastile/bastile-notification.c:570
+#: ../libbastile/bastile-notification.c:593
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "എടുത്ത %i ചാവി"
+msgstr[1] "എടുത്ത %i ചാവികള്‍"
+
+#: ../libbastile/bastile-notification.c:572
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "ഒരു കീ ഇംപോര്‍ട്ട് ചെയ്തു"
+msgstr[1] "കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്തു"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "അറിയിപ്പു് സന്ദേശങ്ങള്‍"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "സിമ്മട്രിക് കീ"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "പബ്ലിക് കീ"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "സ്വകാര്യ കീ"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "യോഗ്യതകള്‍"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "ഐഡന്റിറ്റി"
+
+#: ../libbastile/bastile-passphrase.c:194
+msgid "Passphrase"
+msgstr "അടയാളവാക്ക്യം"
+
+#: ../libbastile/bastile-passphrase.c:197
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "അടയാളവാക്കു്:"
+
+#: ../libbastile/bastile-passphrase.c:260
+msgid "Confirm:"
+msgstr "ഉറപ്പാക്കുക:"
+
+#: ../libbastile/bastile-prefs.c:63
+msgid "Not a valid Key Server address."
+msgstr "തെറ്റായ കീ സര്‍വര്‍ വിലാസം."
+
+#: ../libbastile/bastile-prefs.c:64
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"സഹായത്തിനായി നിങ്ങളുടെ സിസ്റ്റം അഡ്മിനിസ്ട്രേറ്റര്‍ അല്ലെങ്കില്‍ കീ സര്‍വറിന്റെ "
+"അഡ്മിനിസ്ട്രേറ്ററുമായി ബന്ധപ്പെടുക."
+
+#: ../libbastile/bastile-prefs.c:173
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:353
+msgid "Custom"
+msgstr "ഇഷ്ടാനുസൃതം തയ്യാറാക്കുക"
+
+#: ../libbastile/bastile-prefs.c:420
+msgid "None: Don't publish keys"
+msgstr "ഒന്നുമില്ല: കീകള്‍ പബ്ലിഷ് ചെയ്യേണ്ട"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "_ചാവി സെര്‍വറുകളില്‍ നിന്നും ചാവികള്‍ സ്വയം ലഭ്യമാക്കുക"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "കീ സര്‍വറുകളുമായി ഓട്ടോമാറ്റിക്കായി _മാറ്റം വരുത്തിയ കീകള്‍ സിന്‍ക്രൊണൈസ് ചെയ്യുക"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "ചാവി സെര്‍വറുകള്‍"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Key Sharing"
+msgstr "കീ പങ്കിടല്‍"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "Preferences"
+msgstr "മുന്‍ഗണനകള്‍"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've "
+"collected. This means they can automatically encrypt things for you or those "
+"you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+"നിങ്ങളുടെ നെറ്റ്‌വര്‍ക്കിലുള്ള വ്യക്തികള്‍ക്കു് നിങ്ങള്‍ ശേഖരിച്ച കീകള്‍ ഉപയോഗിക്കുന്നതിനായി "
+"നിങ്ങളുടെ കീകള്‍ പങ്കിടുന്നതു് അനുവദിക്കുന്നു. അതായതു്, നിങ്ങള്‍ കീ അയച്ചു "
+"കൊടുക്കാതെ തന്നെ സ്വയമായി നിങ്ങള്‍ക്കുവേണ്ടി എന്‍ക്രിപ്റ്റ് ചെയ്യുന്നു.\n"
+"\n"
+"<b>കുറിപ്പു്:</b> നിങ്ങളുടെ സ്വകാര്യ കീകള്‍ ഒത്തുതീര്‍പ്പാക്കുന്നില്ല."
+
+#: ../libbastile/bastile-prefs.xml.h:9
+msgid "_Find keys via:"
+msgstr "കീകള്‍ _കണ്ടുപിടിക്കേണ്ട വഴി:"
+
+#: ../libbastile/bastile-prefs.xml.h:10
+msgid "_Publish keys to:"
+msgstr "കീകള്‍ എങ്ങോട്ട് _പബ്ലിഷ് ചെയ്യണം:"
+
+#: ../libbastile/bastile-prefs.xml.h:11
+msgid "_Share my keys with others on my network"
+msgstr "എന്റെ നെറ്റ്‌വര്‍ക്കില്‍ മറ്റുള്ളവരുമായി എന്റെ കീകള്‍ _പങ്കിടുക"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "പുരോഗതിയ്ക്കുള്ള തലക്കെട്ട്"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "ലഭ്യമല്ല"
+
+#: ../libbastile/bastile-util.c:237
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:513
+msgid "Key Data"
+msgstr "കീ ഡേറ്റാ"
+
+#: ../libbastile/bastile-util.c:515
+msgid "Multiple Keys"
+msgstr "ഒന്നിലധികം ചാവികള്‍"
+
+#: ../libbastile/bastile-util.c:771
+msgid "Couldn't run file-roller"
+msgstr "ഫയല്‍-റോളര്‍ പ്രവര്‍ത്തിക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../libbastile/bastile-util.c:777
+msgid "Couldn't package files"
+msgstr "ഫയലുകള്‍ പാക്കേജ് ചെയ്യുവാന്‍ സാധിച്ചില്ല"
+
+#: ../libbastile/bastile-util.c:778
+msgid "The file-roller process did not complete successfully"
+msgstr "ഫയല്‍-റോളര്‍ പ്രക്രിയ വിജയകരമായി പൂര്‍ത്തിയായില്ല."
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:943
+msgid "All key files"
+msgstr "എല്ലാം ചാവി ഫയലുകളും"
+
+#: ../libbastile/bastile-util.c:954 ../libbastile/bastile-util.c:1002
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "എല്ലാം ഫയലുകളും"
+
+#: ../libbastile/bastile-util.c:995
+msgid "Archive files"
+msgstr "ആര്‍ക്കൈവ് ഫയലുകള്‍"
+
+#: ../libbastile/bastile-util.c:1065
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>ഈ പേരില്‍ ഒരു ഫയല്‍ നിലവിലുണ്ടു്.</b>\n"
+"\n"
+"ഒരു പുതിയ ഫയല്‍ ഉപയോഗിച്ചു് ഇതു് മാറ്റി എഴുതണമോ?"
+
+#: ../libbastile/bastile-util.c:1068
+msgid "_Replace"
+msgstr "_മാറ്റിവയ്ക്കുക"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1131
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "Unknown"
+msgstr "അറിയപ്പെടാത്ത"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1137
+msgctxt "Validity"
+msgid "Never"
+msgstr "ഒരിക്കലും"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1144
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Marginal"
+msgstr "മാര്‍ജിനല്‍"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1150
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Full"
+msgstr "മുഴുവനും"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1156
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+msgid "Ultimate"
+msgstr "അത്യന്തികമായ"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Disabled"
+msgstr "പ്രവര്‍ത്തനരഹിതം"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1345
+msgid "Revoked"
+msgstr "പിന്‍വലിച്ചതു്"
+
+#: ../libbastile/bastile-widget.c:362
+#, c-format
+msgid "Could not display help: %s"
+msgstr "സഹായം ലഭ്യമാക്കുവാന്‍ സാധിച്ചില്ല: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "കാലാവധി അവസാനിക്കുന്ന തീയതി:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "ഒരു പുതിയ ചെറുചാവി ഉണ്ടാക്കുക"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "കീയുടെ കാലാവധി ഒരിക്കലും കഴിഞ്ഞില്ലെങ്കില്‍"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "കീയുടെ _നീളം:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "_ഏതു് തരത്തിലുള്ള കീ:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "കീയുടെ വ്യാപ്തി"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "ഒരിക്കലും _കാലാവധി തീരില്ല"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "ഉപയോക്താവിന്റെ ID കൂട്ടിച്ചേര്‍ക്കുക"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "പുതിയ ഉപയോക്താവിന്റെ ID ഉണ്ടാക്കുക"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "മുഴുവന്‍ പേര്"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "കീ സംബന്ധിച്ചുള്ള അ_ഭിപ്രായം:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "5 അക്ഷരം നീളമെങ്കിലും ഉണ്ടായിരിക്കണം"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "കീ വിശദീകരിക്കുന്ന അഭിപ്രായം (നിര്‍ബന്ധമില്ലാത്ത)"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "ഐഛികമായ ഈമെയില്‍ വിലാസം"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_ഈമെയില്‍ വിലാസം:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_മാറ്റുക"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "പിന്‍വലിച്ച ചാവി"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "കാലാവധി _ഒരിക്കലും അവസാനിക്കുകയില്ല"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:144
+msgid "Couldn't add subkey"
+msgstr "ചെറുചാവി കൂട്ടിചേര്‍ക്കുവാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:163
+#, c-format
+msgid "Add subkey to %s"
+msgstr "%s ലേക്ക് ചെറുചാവികള്‍ കൂട്ടിചേര്‍ക്കുക"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:179 ../pgp/bastile-gpgme-generate.c:96
+msgid "DSA (sign only)"
+msgstr "DSA (ഒപ്പു് മാത്രം)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:187
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (എന്‍ക്രിപ്ഷന്‍ മാത്രം)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:193 ../pgp/bastile-gpgme-generate.c:97
+msgid "RSA (sign only)"
+msgstr "RSA (ഒപ്പു് മാത്രം)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:199
+msgid "RSA (encrypt only)"
+msgstr "RSA (എന്‍ക്രിപ്ഷന്‍ മാത്രം)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "ഉപയോക്താവിന്റെ ID കൂട്ടിച്ചേര്‍ക്കുവാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "%s ലേക്ക് ഉപയോക്താവിന്റെ ID കൂട്ടിചേര്‍ക്കുക"
+
+#: ../pgp/bastile-gpgme.c:51
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "ഡീക്രിപ്ഷന്‍ പരാജയപ്പെട്ടു. ഒരു പക്ഷേ, നിങ്ങള്‍ക്കു് ഡീക്രിപ്ഷന്‍ കീ ലഭ്യമല്ലായിരിക്കാം."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "തെറ്റായവായ കാലാവധി അവസാനിക്കുന്ന തീയതി"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "കാലാവധി തീരുന്ന തീയതി ഭാവിയിലാണു്"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "കാലാവധി തീരുന്ന ദിവസം മാറ്റുവാന്‍ സാധിച്ചില്ല"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "കാലാവധി തീരുന്ന ദിവസം: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:65
+msgid "PGP Key"
+msgstr "PGP ചാവി"
+
+#: ../pgp/bastile-gpgme-generate.c:66
+msgid "Used to encrypt email and files"
+msgstr "ഈമെയിലും ഫയലും എന്‍ക്രിപ്റ്റ്  ചെയ്യാന്‍ ഉപയോഗിക്കുന്നു"
+
+#: ../pgp/bastile-gpgme-generate.c:95
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:106
+msgid "Couldn't generate PGP key"
+msgstr "PGP ചാവി ഉണ്ടാക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../pgp/bastile-gpgme-generate.c:213
+msgid "Passphrase for New PGP Key"
+msgstr "പുതിയ PGP ചാവിയ്ക്കുള്ള അടയാളവാക്ക്യം"
+
+#: ../pgp/bastile-gpgme-generate.c:214
+msgid "Enter the passphrase for your new key twice."
+msgstr "നിങ്ങളുടെ പുതിയ ചാവിയ്ക്കുള്ള അടയാളവാക്ക്യം രണ്ട് തവണ നല്‍കുക."
+
+#: ../pgp/bastile-gpgme-generate.c:223
+msgid "Couldn't generate key"
+msgstr "ചാവി ഉണ്ടാക്കുവാനായില്ല"
+
+#: ../pgp/bastile-gpgme-generate.c:225
+msgid "Generating key"
+msgstr "ചാവി ഉണ്ടാക്കുന്നു"
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>ഫോട്ടോ വളരെ വലുതാണു്</b></big>\n"
+"നിങ്ങളുടെ കീയിലുള്ള ഫോട്ടോയുടെ ആവശ്യമായ വ്യാപ്തി %d x %d പിക്സലുകളാണു്."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "വലിപ്പം _മാറ്റേണ്ട"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "വലിപ്പം മാ_റ്റുക"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"ഇതൊരു ഇമേജ് ഫയല്‍ അല്ലെങ്കില്‍ അപരിചിതമായ തരത്തിലുള്ള ഇമേജ് ഫയലല്ല. ഒരു "
+"JPEG ഇമേജുപയോഗിക്കുവാന്‍ ശ്രമിക്കുക."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "എല്ലാ ഇമേജ് ഫയലുകളും"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "എല്ലാ JPEG ഫയലുകളും"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "ചാവിയില്‍ ചേര്‍ക്കുന്നതിനായി ഫോട്ടോ തിരഞ്ഞെടുക്കുക"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "ഫോട്ടോ ചേര്‍ക്കുവാനായില്ല"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "ഫയല്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല. അത് ഒരു പക്ഷേ തെറ്റായ രീതിയിലാവാം."
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "നിങ്ങളുടെ ചാവിയില്‍ നിന്നും നിലവിലുള്ള ഫോട്ടോ നീക്കം ചെയ്യണം എന്നുറപ്പാണോ?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "ഫോട്ടോ വെട്ടി നീക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "സബ്കീ പിന്‍വലിക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "പിന്‍വലിയ്ക്കുക: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "കാരണം വ്യക്തമല്ല"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "ചാവി പിന്‍വലിയ്ക്കുവാനുള്ള കാരണം വ്യക്തമല്ല"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "ഒത്തുതീര്‍പ്പാക്കി"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "കീ ഒത്തുതീര്‍പ്പാക്കി"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "അസാധുവാക്കി"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "കീ അസാധുവാക്കി"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "ഉപയോഗിക്കുന്നില്ല"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "ചാവി ഉപയോഗത്തിലില്ല"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"%s %s-നുള്ള റിവോക്കറായി നിങ്ങള്‍ ചേര്‍ക്കുന്നു. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല! "
+"നിങ്ങള്‍ക്കു് തുടരണമെന്നുറപ്പാണോ?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "റിവോക്കര്‍ ചേര്‍ക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../pgp/bastile-gpgme-sign.c:96
+msgid "Couldn't sign key"
+msgstr "ചാവി ഒപ്പിടുവാന്‍ സാധ്യമായില്ല"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:149 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "ഒപ്പിനുള്ള കീകള്‍ ലഭ്യമല്ല"
+
+#: ../pgp/bastile-gpgme-sign.c:150
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"ഈ കീയുടെ വിശ്വാസ്യത തെളിയിക്കുന്നതിനുള്ള സ്വകാര്യ PGP കീകള്‍ നിങ്ങള്‍ക്കു് "
+"ലഭ്യമല്ല."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "തെറ്റായ അടയാളവാക്ക്യം."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "'%s'-നുള്ള പുതിയ അടയാളവാക്ക്യം"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "'%s'-നുള്ള അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "പുതിയ അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "അടയാളവാക്ക്യം നല്‍കുക"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "%d ചാവി ചേര്‍ത്തിരിയ്ക്കുന്നു"
+msgstr[1] "%d ചാവികള്‍ ചേര്‍ത്തിരിയ്ക്കുന്നു"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "ചാവി ചേര്‍ക്കുന്നു..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"തെറ്റായ കീ ഡേറ്റാ (UID ലഭ്യമല്ല). ഭാവിയിലുള്ളൊരു തീയതി സജ്ജമാക്കിയിരിക്കുന്ന കമ്പ്യൂട്ടര്‍ "
+"അല്ലെങ്കില്‍ ഒപ്പു് ലഭ്യമല്ലാത്തതിനാല്‍ ഇങ്ങനെ സംഭവിക്കാം."
+
+#: ../pgp/bastile-gpgme-source.c:910 ../src/bastile-key-manager.c:538
+msgid "Importing Keys"
+msgstr "ചാവി എടുക്കുന്നു"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "ചാവി പുറത്തെടുക്കുന്നു"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:330
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "തെരച്ചില്‍ വ്യക്തമായിരുന്നില്ല. സര്‍വര്‍ '%s' അനവധി കീകള്‍ കണ്ടുപിടിച്ചു."
+
+#: ../pgp/bastile-hkp-source.c:332
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "സര്‍വര്‍ '%s'-മായി ബന്ധപ്പെടുവാന്‍ സാധിച്ചില്ല: %s"
+
+#: ../pgp/bastile-hkp-source.c:576
+msgid "Searching for keys..."
+msgstr "ചാവികള്‍ക്കായി തെരയുന്നു..."
+
+#: ../pgp/bastile-hkp-source.c:647
+msgid "Uploading keys..."
+msgstr "കീകള്‍ അപ്‌ലോഡ് ചെയ്യുന്നു..."
+
+#: ../pgp/bastile-hkp-source.c:725
+msgid "Retrieving keys..."
+msgstr "ചാവികള്‍ ലഭ്യമാക്കുന്നു..."
+
+#: ../pgp/bastile-hkp-source.c:831
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "കീകള്‍ തെരയുന്നു: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:908 ../pgp/bastile-hkp-source.c:981
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "ബന്ധിപ്പിയ്ക്കുന്നു: %s"
+
+#: ../pgp/bastile-hkp-source.c:1005
+msgid "HTTP Key Server"
+msgstr "HTTP ചാവി സെര്‍വര്‍"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "'%s'-മായി ബന്ധപ്പെടുവാന്‍ സാധിച്ചില്ല: %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "വിലാസം പരിഹരിക്കുവാന്‍ സാധ്യമായില്ല: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "സര്‍വര്‍ വിലാസം പരിഹരിക്കുന്നു: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "'%s' അടങ്ങുന്ന കീകള്‍ തെരയുന്നു..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "കീ id ആയ'%s'-നായി തെരയുന്നു..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "ദൂരെയുള്ള ചാവികള്‍ ലഭ്യമാക്കുന്നു..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "ചാവി സെര്‍വറിലേക്ക് ചാവി അയയ്ക്കുന്നു..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP ചാവി സെര്‍വര്‍"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "കീ _ഒപ്പിടുക..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "മറ്റുള്ളവര്‍ക്കുള്ള ചാവി ഒപ്പിടുക"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "നിങ്ങള്‍ക്ക് '%s' എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "നിങ്ങള്‍ക്ക് %d കീകളും ഐഡന്റിറ്റികളും എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "നിങ്ങള്‍ക്ക് %d കീകള്‍ എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "നിങ്ങള്‍ക്ക് %d ഐഡന്റിറ്റികള്‍ എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_അധികമായ കീ ഉപാധികള്‍</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "മറ്റുള്ളവര്‍ക്ക് ഈമെയില്‍ അല്ലെങ്കില്‍ ഫയലുകള്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുന്നതിനായി ഒരു PGP കീ അനുവദിക്കുന്നു."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "അല്‍ഗോരിതങ്ങള്‍ ഇവിടെ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_ഉണ്ടാക്കുക"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "കാലാവധി _തീരുന്നത്:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "ഏത് _തരം എന്‍ക്രിപ്ഷന്‍:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "ഒരു പുതിയ ചാവി ഉണ്ടാക്കുക"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "ചാവിയുടെ _ശക്തി (bits):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "കാലാവധി _അവസാനിക്കുകയില്ല"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "പുതിയ PGP ചാവി"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_അഭിപ്രായം:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Private PGP Key"
+msgstr "സ്വകാര്യ PGP ചാവി"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Public PGP Key"
+msgstr "മറ്റുള്ളവര്‍ക്കുള്ള PGP ചാവി"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Expired"
+msgstr "കാലാവധി അവസാനിച്ചു"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "പ്രാഥമിക ഉപയോക്താവിന്റെ ID മാറ്റുവാന്‍ സാധ്യമായില്ല"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "'%s' ഉപയോക്താവിന്റെ ID എന്നേക്കുമായി വെട്ടി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "ഉപയോക്താവിന്റെ ID വെട്ടി നീക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1462
+msgid "[Unknown]"
+msgstr "[അറിയപ്പെടാത്ത]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1740
+msgid "Name/Email"
+msgstr "പേര്/ഈമെയില്‍"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "ഒപ്പിന്റെ ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "പ്രാഥമിക ഫോട്ടോ മാറ്റുവാന്‍ സാധ്യമായില്ല"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(അറിയപ്പെടാത്ത)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "ഈ ചാവിയുടെ കാലാവധി അവസാനിച്ചത്: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "നിങ്ങള്‍ക്ക് %2$s ചെറുചാവിയുടെ %1$d എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "ചെറുചാവി നീക്കുവാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1425
+msgid "Unable to change trust"
+msgstr "വിശ്വാസ്യത മാറ്റുവാന്‍ സാധ്യമല്ല"
+
+#: ../pgp/bastile-pgp-key-properties.c:1005 ../src/bastile-viewer.c:315
+#: ../ssh/bastile-ssh-key-properties.c:167
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "\"%s\" -നുള്ള ചാവി പുറത്തെടുക്കാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../pgp/bastile-pgp-key-properties.c:1033
+#: ../ssh/bastile-ssh-key-properties.c:191
+msgid "Export Complete Key"
+msgstr "പൂര്‍ണ്ണമായ ചാവി പുറത്തെടുക്കുക"
+
+#: ../pgp/bastile-pgp-key-properties.c:1058
+#: ../ssh/bastile-ssh-key-properties.c:213
+msgid "Couldn't export key."
+msgstr "കീ എക്സ്പോര്‍ട്ട് സാധ്യമായില്ല"
+
+#: ../pgp/bastile-pgp-key-properties.c:1265
+#: ../pgp/bastile-pgp-key-properties.c:1354
+msgctxt "Expires"
+msgid "Never"
+msgstr "ഒരിക്കലും"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1315
+#: ../src/bastile-key-manager-store.c:859
+msgid "Type"
+msgstr "തരം"
+
+#: ../pgp/bastile-pgp-key-properties.c:1318
+msgid "Created"
+msgstr "ഉണ്ടാക്കിയത്"
+
+#: ../pgp/bastile-pgp-key-properties.c:1321
+msgid "Expires"
+msgstr "കാലാവധി അവസാനിക്കുന്നു"
+
+#: ../pgp/bastile-pgp-key-properties.c:1324
+msgid "Status"
+msgstr "അവസ്ഥ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1327
+msgid "Strength"
+msgstr "ശക്തി"
+
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Good"
+msgstr "നല്ലത്"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>പ്റവര്‍ത്തികള്‍</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>അഭിപ്രായം:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>തീയതികള്‍</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>ഈമെയില്‍:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>വിരലടയാളം</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>ചാവി ID:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>ചാവിയുടെ പേരുകളും ഒപ്പുകളും</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Name:</b>"
+msgstr "<b>പേര്:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>ഫോട്ടോ </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>സാങ്കേതിക വിവരങ്ങള്‍</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>ഈ ചാവി പിന്‍വലിച്ചതാണു് </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>ഈ ചാവിയുടെ കാലാവധി തീര്‍ന്നു</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:13
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:12
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Type:</b>"
+msgstr "<b>ഏത് തരം:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+msgid "<b>Use:</b>"
+msgstr "<b>ഉപയോഗം:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_ചെറുചാവികള്‍</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add"
+msgstr "ചേര്‍ക്കുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+msgid "Add a photo to this key"
+msgstr "ഈ ചാവിയില്‍ ഒരു ഫോട്ടോ ചേര്‍ക്കുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "Change _Passphrase"
+msgstr "_അടയാളവാക്ക്യം മാറ്റുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Decrypt files and email sent to you."
+msgstr "നിങ്ങള്‍ക്ക് അയച്ച ഫയലുകളും ഈമെയിലും ഡീക്രിപ്റ്റ് ചെയ്യുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+msgid "Delete"
+msgstr "വെട്ടി മാറ്റുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+msgid "Expire"
+msgstr "കാലാവധി തീരുന്നത്"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Expires:"
+msgstr "കാലാവധി തീരുന്നത്:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Export"
+msgstr "പുറത്തെടുക്കുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to next photo"
+msgstr "അടുത്ത ഫോട്ടോയിലേക്ക് പോകുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+msgid "Go to previous photo"
+msgstr "മുമ്പുള്ള ഫോട്ടോയിലേക്ക് പോകുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+msgid "Key ID:"
+msgstr "ചാവി ID:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Make this photo the primary photo"
+msgstr "ഈ ഫോട്ടോ പ്രാഥമിക ഫോട്ടോ ആക്കുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+msgid "Names and Signatures"
+msgstr "പേരുകളും ഒപ്പുകളും"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Never"
+msgstr "ഒരിക്കലുമില്ല"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+msgid "Override Owner _Trust:"
+msgstr "ഉടമസ്ഥന്റെ _വിശ്വാസം മറികടക്കുക:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Owner"
+msgstr "ഉടമസ്ഥന്‍"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Primary"
+msgstr "പ്രാഥമികം"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Remove this photo from this key"
+msgstr "ഈ ചാവിയില്‍ നിന്നും ഫോട്ടോ നീക്കം ചെയ്യുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Revoke"
+msgstr "പിന്‍വലിച്ച"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+msgid "Sign"
+msgstr "ഒപ്പു്"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "Strength:"
+msgstr "ശക്തി"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "കീയുടെ ഉടമസ്ഥന്‍ കീ പിന്‍വലിച്ചു. ഇനി ഇതുപയോഗിക്കുവാന്‍ ലഭ്യമല്ല."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Add Name"
+msgstr "പേര് _ചേര്‍ക്കുക"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+msgid "_Export Complete Key:"
+msgstr "പൂര്‍ണ്ണമായ ചാവി _പുറത്തെടുക്കുക:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>തീയതികള്‍:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>വിരലടയാളം:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>വിശ്വാസം കാണിക്കുക:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>ഈ ചാവിയിലെ നിങ്ങളുടെ വിശ്വാസം</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_മറ്റു് പേരുകള്‍:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>ഈ കീയില്‍ ഒപ്പിട്ട _വ്യക്തികള്‍:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr "കീയുടെ ഉടമസ്ഥനു് ഫയലുകള്‍ എന്‍ക്രിപ്റ്റ് ചെയ്തു് ഈമെയില്‍ അയയ്ക്കുക"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:23
+msgid "Fully"
+msgstr "മുഴുവന്‍"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "മറ്റുള്ള കീകളില്‍ '%s'-ല്‍ നിന്നുള്ള ഒപ്പുകള്‍ വിശ്വസിക്കുന്നു"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:27
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"'%s' ആണു് ഈ കീയുടെ ഉടമസ്ഥനെന്നു് നിങ്ങള്‍ വിശ്വസിക്കുന്നെങ്കില്‍, ഈ കീയില്‍ "
+"<i>ഒപ്പിടുക</i>:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+#, no-c-format
+msgid "If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr "'%s' ഈ കീയുടെ ഉടമസ്ഥനല്ലെന്നു് നിങ്ങള്‍ വിശ്വസിക്കുന്നെങ്കില്‍, നിങ്ങളുടെ ഒപ്പു് <i>പിന്‍വലിക്കുക</i>:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Marginally"
+msgstr "മാര്‍ജിനലി"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+#: ../src/bastile-key-manager-store.c:853
+msgid "Trust"
+msgstr "വിശ്വാസം"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Ultimately"
+msgstr "അത്യന്തികമായി"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "You _Trust the Owner:"
+msgstr "നിങ്ങള്‍ ഉടമസ്ഥനെ _വിശ്വസിക്കുന്നു:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "നിങ്ങളുടെ വിശ്വാസ്യത മാനുവലായി <i>വിശദീകരണങ്ങള്‍ക്കുള്ള</i> റ്റാബില്‍ നല്‍കുന്നു."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr "വിശ്വസിക്കുന്ന വ്യക്തികളുടെ ഒപ്പുകള്‍ മാത്രം _പ്രദര്‍ശിപ്പിക്കുക."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Revoke Signature"
+msgstr "ഒപ്പു് _പിന്‍വലിയ്ക്കുക"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgid "_Sign this Key"
+msgstr "ഈ ചാവിയില്‍ _ഒപ്പിടുക"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Subkey %d of %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Optional description of revocation"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "പിന്‍വ_ലിയ്ക്കുക"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "ചാവി പിന്‍വലിയ്ക്കുവാനുള്ള കാരണം"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_കാരണം:"
+
+#: ../pgp/bastile-signer.c:62
+msgid "You have no personal PGP keys that can be used to sign a document or message."
+msgstr "ഒരു വിവരണം അല്ലെങ്കില്‍ സന്ദേശം ഒപ്പിടുന്നതിനുള്ള സ്വകാര്യ PGP കീകള്‍ ലഭ്യമല്ല."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>നിങ്ങള്‍ എത്രമാത്രം ഈ ചാവി പരിശോധിച്ചിട്ടുണ്ട്?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>ഈ ഒപ്പു് മറ്റുള്ളവര്‍ എങ്ങനെ കാണുന്നു:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>ചാവി ഒപ്പിടേണ്ടത്:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>സാധാരണയായി:</i> നിങ്ങള്‍ ഈ കീയുടെ ഉടമസ്ഥതയെപ്പറ്റി പൊതുവേ ഒരു "
+"ഉറപ്പാക്കല്‍ നടത്തിയിരിക്കുന്നു. ഉദാഹരണത്തിനു്, ഫോണിലൂടെ ഉടമസ്ഥനോടു് "
+"നിങ്ങളുടെ കീ ഫിംഗര്‍പ്രിന്റ് വായിച്ചു കേള്‍പ്പിക്കാം."
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>ചാവിയുടെ പേര്</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>ഒട്ടുമല്ല:</i> അതായതു് ഈ കീയുടെ ഉടമസ്ഥനെ നിങ്ങള്‍ വിശ്വസിക്കുന്നു,  "
+"പക്ഷേ നിങ്ങള്‍ക്കിതുറപ്പാക്കുവാന്‍ സാധ്യമല്ല."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>പ്രത്യേകം ശ്രദ്ധിച്ചു്:</i> ഈ കീ ശരിയാണെന്നുറപ്പുണ്ടെങ്കില്‍ മാത്രം ഈ കീ "
+"തെരഞ്ഞെടുക്കുക."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "ഒപ്പിട്ടുകൊണ്ടു് നിങ്ങള്‍ നിങ്ങളുടെ കീയുടെ വിശ്വാസ്യത സൂചിപ്പിക്കുന്നു:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "ഈ ഒപ്പു് പിന്നീടൊരിക്കല്‍ _പിന്‍വലിക്കാം."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "കീ ഒപ്പിടുക..."
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"കീയിലുള്ള പേരു് ശരിയെന്നുറപ്പിക്കുന്നതിനായി ഒരു ഫോട്ടോ തിരിച്ചറിയല്‍ സംവിധാനം "
+"നടത്തുക (പാസ്പോര്‍ട്ട്). ഈമെയില്‍ വിലാസം ശരിയെന്നുറപ്പിക്കുന്നതിനായി "
+"അതും ഉപയോഗിച്ചു നോക്കുക."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_അലസമായി"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_ഒരിക്കലുമില്ല"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_മറ്റുള്ളവര്‍ ഒരു പക്ഷേ ഈ ഒപ്പു് കാണുന്നുണ്ടാവില്ല"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_ഒപ്പു്"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_ഒപ്പിടുന്ന ആള്‍:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_വളരെ സൂക്ഷ്മതയോടെ"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "സന്ദേശം _ഒപ്പിടാനുപയോഗിയ്ക്കേണ്ട ചാവി:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:107
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:68
+msgid "Certificate"
+msgstr "സാക്ഷ്യപത്രം"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "നിങ്ങള്‍ക്ക് '%s' സര്‍ട്ടീഫിക്കേറ്റ് എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "നിങ്ങള്‍ക്ക് %d സര്‍ട്ടീഫിക്കേറ്റ് എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+msgstr[1] "നിങ്ങള്‍ക്ക് %d സര്‍ട്ടീഫിക്കേറ്റുകള്‍ എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "അടയാളവാക്ക്യം  മാറ്റുക"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "അടയാളവാക്ക്യം ഉറപ്പാക്കുക"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "പുതിയ അടയാളവാക്ക്യം ഉറപ്പാക്കുക"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "പുതിയ _അടയാളവാക്ക്യം"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "നിങ്ങളുടെ അടയാളവാക്കും എന്‍ക്രിപ്ഷന്‍ കീകളും കൈകാര്യം ചെയ്യുക"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:853
+msgid "Passwords and Encryption Keys"
+msgstr "അടയാളവാക്കും എന്‍ക്രിപ്ഷന്‍ കീകളും"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>ഉണ്ടാക്കുവാനുള്ള വസ്തു ഏതു് തരമെന്നു് _തെരഞ്ഞെടുക്കുക:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "തു_ടരുക"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "പുതിയതു് ഉണ്ടാക്കുക..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "തെരഞ്ഞെടുത്ത %d കീ"
+msgstr[1] "തെരഞ്ഞെടുത്ത %d കീകള്‍"
+
+#: ../src/bastile-key-manager.c:404 ../src/bastile-key-manager.c:464
+#: ../src/bastile-key-manager.c:527 ../src/bastile-viewer.c:482
+msgid "Couldn't import keys"
+msgstr "ചാവി എടുക്കുവാന്‍ സാധിച്ചില്ല"
+
+#: ../src/bastile-key-manager.c:409 ../src/bastile-viewer.c:487
+msgid "Imported keys"
+msgstr "എടുത്ത ചാവികള്‍"
+
+#: ../src/bastile-key-manager.c:458
+msgid "Importing keys"
+msgstr "ചാവികള്‍ എടുക്കുന്നു"
+
+#: ../src/bastile-key-manager.c:481 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "ചാവി എടുക്കുക"
+
+#: ../src/bastile-key-manager.c:527
+msgid "Unrecognized key type, or invalid data format"
+msgstr "അപരിചിതമായ തരത്തിലുള്ള കീ, അല്ലെങ്കില്‍ തെറ്റായ ഡേറ്റാ ശൈലി"
+
+#: ../src/bastile-key-manager.c:721 ../src/bastile-keyserver-results.c:207
+msgid "_Remote"
+msgstr "_ദൂരെയുള്ള"
+
+#: ../src/bastile-key-manager.c:723
+msgid "Close this program"
+msgstr "ഈ പ്രോഗ്രാം അടയ്ക്കുക"
+
+#: ../src/bastile-key-manager.c:724
+msgid "_New..."
+msgstr "_പുതിയ..."
+
+#: ../src/bastile-key-manager.c:725
+msgid "Create a new key or item"
+msgstr "ഒരു പുതിയ കീ അല്ലെങ്കില്‍ വസ്തു ഉണ്ടാക്കുക"
+
+#: ../src/bastile-key-manager.c:726
+msgid "_Import..."
+msgstr "എടുക്കുക..."
+
+#: ../src/bastile-key-manager.c:727
+msgid "Import from a file"
+msgstr "ഒരു ഫയലില്‍ നിന്നും ഇംപോര്‍ട്ട് ചെയ്യുക"
+
+#: ../src/bastile-key-manager.c:729
+msgid "Import from the clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡില്‍ നിന്നും ഇംപോര്‍ട്ട് ചെയ്യുക"
+
+#: ../src/bastile-key-manager.c:734 ../src/bastile-keyserver-results.c:217
+msgid "_Find Remote Keys..."
+msgstr "ദൂരെയുള്ള ചാവികള്‍ _കണ്ടുപിടിക്കുക..."
+
+#: ../src/bastile-key-manager.c:735 ../src/bastile-keyserver-results.c:218
+msgid "Search for keys on a key server"
+msgstr "ചാവി സെര്‍വറില്‍ ചാവി തെരയുക"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Sync and Publish Keys..."
+msgstr "കീകള്‍ _സിന്‍ക് ചെയ്തു് പബ്ലിഷ് ചെയ്യുക..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "ഓണ്‍ലൈനുള്ളവയുമായി നിങ്ങളുടെ കീകള്‍ പബ്ലിഷ് അല്ലെങ്കില്‍ സിന്‍ക്രൊണൈസ് ചെയ്യുക."
+
+#: ../src/bastile-key-manager.c:742
+msgid "T_ypes"
+msgstr "ത_രങ്ങള്‍"
+
+#: ../src/bastile-key-manager.c:742
+msgid "Show type column"
+msgstr "തരങ്ങള്‍ക്കുള്ള നിര കാണിക്കുക"
+
+#: ../src/bastile-key-manager.c:744
+msgid "_Expiry"
+msgstr "_കലാവധി തീരുന്നതു്"
+
+#: ../src/bastile-key-manager.c:744
+msgid "Show expiry column"
+msgstr "കാലാവധി തീരുന്നതിനുള്ള നിര കാണിക്കുക"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Trust"
+msgstr "_വിശ്വാസ്യത"
+
+#: ../src/bastile-key-manager.c:746
+msgid "Show owner trust column"
+msgstr "ഉടമസ്ഥ വിശ്വാസ്യതയ്ക്കുള്ള നിര കാണിക്കുക"
+
+#: ../src/bastile-key-manager.c:748
+msgid "_Validity"
+msgstr "_കാലാവധി"
+
+#: ../src/bastile-key-manager.c:748
+msgid "Show validity column"
+msgstr "കാലാവധിയ്ക്കുള്ള നിര കാണിക്കുക"
+
+#: ../src/bastile-key-manager.c:922
+msgid "Filter:"
+msgstr "ഫില്‍‌റ്റര്‍:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>ആദ്യത്തെ തവണ ലഭ്യമാകുന്ന ഉപാധികള്‍:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "നിങ്ങള്‍ക്ക് സ്വന്തമായി ഒരു ചാവി ഉണ്ടാക്കുക:"
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "ഒരു ഫയലില്‍ നിന്നും നിലവിലുള്ള ചാവി എടുക്കുക:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "എന്റെ _സ്വകാര്യ ചാവികള്‍"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "മറ്റുള്ള _ചാവികള്‍"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "എന്‍ക്രിപ്ഷന്‍ തുടങ്ങുന്നതിനായി നിങ്ങള്‍ക്കു് കീകള്‍ ആവശ്യമുണ്ടു്."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:546
+msgid "_Import"
+msgstr "_എടുക്കുക"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_അടയാളവാക്കുകള്‍"
+
+#: ../src/bastile-key-manager-store.c:648 ../src/bastile-viewer.c:282
+msgid "Couldn't export keys"
+msgstr "ചാവികള്‍ പുറത്തെടുക്കാന്‍ കഴിഞ്ഞില്ല"
+
+#: ../src/bastile-key-manager-store.c:846
+msgid "Validity"
+msgstr "കാലാവധി"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:865
+msgid "Expiration Date"
+msgstr "കാലാവധി തീരുന്നത്"
+
+#: ../src/bastile-keyserver-results.c:209
+msgid "Close this window"
+msgstr "ഈ ജാലകം അടയ്ക്കുക"
+
+#: ../src/bastile-keyserver-results.c:210
+msgid "_Expand All"
+msgstr "എല്ലാം _വികസിപ്പിയ്ക്കുക"
+
+#: ../src/bastile-keyserver-results.c:211
+msgid "Expand all listings"
+msgstr "എല്ലാ പട്ടികകളും വികസിപ്പിക്കുക"
+
+#: ../src/bastile-keyserver-results.c:212
+msgid "_Collapse All"
+msgstr "എല്ലാം _കൂട്ടിച്ചേ‌ര്‍ക്കുക"
+
+#: ../src/bastile-keyserver-results.c:213
+msgid "Collapse all listings"
+msgstr "എല്ലാ ലിസ്റ്റിങുകളും കൂട്ടിചേര്‍ക്കുക"
+
+#: ../src/bastile-keyserver-results.c:275
+msgid "Remote Keys"
+msgstr "ദൂരെയുള്ള ചാവികള്‍"
+
+#: ../src/bastile-keyserver-results.c:277
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "'%s' ഉള്ള റിമോട്ട് കീകള്‍"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>ചാവി സെര്‍വറുകള്‍:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>അടുത്തുള്ള പങ്കിടുന്ന കീകള്‍:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "റിമോട്ട് ആയ ചാവി കണ്ടുപിടിക്കുക"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"ഇന്റര്‍നെറ്റില്‍ മറ്റുള്ളവര്‍ക്കുള്ള കീകള്‍ ഇതു് ലഭ്യമാക്കുന്നു. ഇവ പിന്നീടു് നിങ്ങളുടെ "
+"ലോക്കല്‍ കീറിങിലേക്ക് ഇംപോര്‍ട്ട് ചെയ്യുവാന്‍ സാധിക്കുന്നു."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "എവിടെ തിരയണം:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_തെരയുക"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "ഇതടങ്ങുന്ന കീകള്‍ക്കായി _തെരയുക: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "സെര്‍വറില്‍ ചാവികള്‍ അറിയിക്കുവാനായില്ല"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "സെര്‍വറില്‍ നിന്നും ചാവി ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>സിന്‍ക്രൊണൈസ് ചെയ്യുന്നതിനായി %d കീ തെരഞ്ഞെടുത്തു</b>"
+msgstr[1] "<b>സിന്‍ക്രൊണൈസ് ചെയ്യുന്നതിനായി %d കീകള്‍ തെരഞ്ഞെടുത്തു</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "കീകള്‍ സിന്‍ക്രണൈസ് ചെയ്യുന്നു"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "കീകള്‍ സിന്‍ക്രണൈസ് ചെയ്യുന്നു..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "<b>X keys are selected for synchronizing</b>"
+msgstr "<b>സിന്‍ക്രൊണൈസ് ചെയ്യുന്നതിനായി X കീകള്‍ തെരഞ്ഞെടുത്തു</b>"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid "Sync Keys"
+msgstr "ചാവികള്‍ സിംക് ചെയ്യുക"
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"ഇതു് നിങ്ങളുടെ കീറിങില്‍ കീകള്‍ പബ്ലിഷ് ചെയ്യുന്നു. അങ്ങനെ അവ മറ്റുള്ളവര്‍ക്കുപയോഗത്തിനായി "
+"ലഭിക്കുന്നു. അവരുടെ കീകള്‍ നിങ്ങള്‍ ലഭിച്ചതിനു് ശേഷം അവര്‍ വരുത്തിയ മാറ്റങ്ങളും നിങ്ങള്‍ക്കു് "
+"ലഭിക്കുന്നു."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"മറ്റുള്ളവരുടെ കീകള്‍ നിങ്ങള്‍ക്കു് ലഭ്യമായതിനു് ശേഷം അവര്‍ വരുത്തിയ മാറ്റങ്ങള്‍ "
+"ഇതു് ലഭ്യമാക്കുന്നു. പബ്ലിഷ് ചെയ്യുന്നതിനായി ഒരു കീ സര്‍വറും തെരഞ്ഞെടുത്തിട്ടില്ല, "
+"അതിനാല്‍ നിങ്ങളുടെ കീ മറ്റുള്ളവര്‍ക്ക് ലഭ്യമാകുന്നതല്ല."
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Key Servers"
+msgstr "_ചാവി സെര്‍വറുകള്‍"
+
+#: ../src/bastile-keyserver-sync.xml.h:6
+msgid "_Sync"
+msgstr "_സിംക് ചെയ്യുക"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "ഈ പ്രയോഗത്തിന്റെ പതിപ്പു്"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:170
+msgid "Encryption Key Manager"
+msgstr "എന്‍ക്രിപ്ഷന്‍ കീ മാനേജര്‍‌"
+
+#: ../src/bastile-viewer.c:141
+msgid "Contributions:"
+msgstr "സംഭാവന ചെയ്തവര്‍:"
+
+#: ../src/bastile-viewer.c:172
+msgid "translator-credits"
+msgstr "Ani Peter|അനി പീറ്റര്‍ <apeter@redhat.com>"
+
+#: ../src/bastile-viewer.c:175
+msgid "Bastile Project Homepage"
+msgstr "Bastile സംരംഭത്തിനുള്ള പ്രധാനതാള്‍"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:194
+msgid "_File"
+msgstr "_ഫയല്‍"
+
+#: ../src/bastile-viewer.c:195
+msgid "_Edit"
+msgstr "_ചിട്ടപ്പെടുത്തുക"
+
+#: ../src/bastile-viewer.c:196
+msgid "_View"
+msgstr "_കാഴ്ച"
+
+#: ../src/bastile-viewer.c:197
+msgid "_Help"
+msgstr "_സഹായം"
+
+#: ../src/bastile-viewer.c:199
+msgid "Prefere_nces"
+msgstr "_മുന്‍ഗണനകള്‍"
+
+#: ../src/bastile-viewer.c:200
+msgid "Change preferences for this program"
+msgstr "ഈ പ്രോഗ്രാമിനുള്ള മുന്‍ഗണനകള്‍ മാറ്റുക"
+
+#: ../src/bastile-viewer.c:203
+msgid "About this program"
+msgstr "ഈ പ്രോഗ്രാമിനെക്കുറിച്ചു്"
+
+#: ../src/bastile-viewer.c:204
+msgid "_Contents"
+msgstr "_ഉള്ളടക്കം"
+
+#: ../src/bastile-viewer.c:205
+msgid "Show Bastile help"
+msgstr "Bastile സഹായം കാണിക്കുക"
+
+#: ../src/bastile-viewer.c:302
+msgid "Export public key"
+msgstr "പബ്ലിക് കീ എക്സ്പോര്‍ട്ട് ചെയ്യുക"
+
+#: ../src/bastile-viewer.c:320
+msgid "Exporting keys"
+msgstr "കീകള്‍ എക്സ്പോര്‍ട്ട് ചെയ്യുന്നു"
+
+#: ../src/bastile-viewer.c:345
+msgid "Couldn't retrieve data from key server"
+msgstr "കീ സെര്‍വറില്‍ നിന്നും ഡേറ്റാ ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:364
+msgid "Copied keys"
+msgstr "പകര്‍ത്തിയ കീകള്‍"
+
+#: ../src/bastile-viewer.c:384
+msgid "Retrieving keys"
+msgstr "കീകള്‍ ലഭ്യമാക്കുന്നു"
+
+#: ../src/bastile-viewer.c:399
+msgid "Couldn't delete."
+msgstr "വെട്ടി നീക്കുവാന്‍ സാധ്യമായില്ല."
+
+#: ../src/bastile-viewer.c:433
+msgid "Deleting..."
+msgstr "വെട്ടി നീക്കുന്നു..."
+
+#: ../src/bastile-viewer.c:459
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s ഒരു സ്വകാര്യ കീയാണു്. നിങ്ങള്‍ക്കു് തുടരണമെന്നു് ഉറപ്പാണോ?"
+
+#: ../src/bastile-viewer.c:507
+msgid "Importing keys from key servers"
+msgstr "ചാവി സെര്‍വറുകളില്‍ നിന്നും ചാവി എടുക്കുന്നു"
+
+#: ../src/bastile-viewer.c:533
+msgid "Show properties"
+msgstr "ഗുണഗണങ്ങള്‍ കാണിക്കുക"
+
+#: ../src/bastile-viewer.c:534
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_വെട്ടി മാറ്റുക"
+
+#: ../src/bastile-viewer.c:535
+msgid "Delete selected items"
+msgstr "തെരഞ്ഞെടുത്ത വസ്തുക്കള്‍ വെട്ടിനീക്കുക"
+
+#: ../src/bastile-viewer.c:539
+msgid "E_xport..."
+msgstr "_എക്സ്പോര്‍ട്ട് ചെയ്യുക..."
+
+#: ../src/bastile-viewer.c:540
+msgid "Export to a file"
+msgstr "ഒരു ഫയലിലേക്കു് എക്സ്പോര്‍ട്ട് ചെയ്യുക"
+
+#: ../src/bastile-viewer.c:542
+msgid "Copy to the clipboard"
+msgstr "ക്ലിപ്പ്ബോര്‍ഡിലേക്കു് പകര്‍ത്തുക"
+
+#: ../src/bastile-viewer.c:547
+msgid "Import selected keys to local key ring"
+msgstr "തിരഞ്ഞെടുത്ത ചാവികള്‍ പ്രാദേശിക ചാവിക്കൂട്ടത്തിലേയ്ക്കു് എടുക്കുക"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "നിങ്ങളുടെ സെക്യൂര്‍ ഷെല്‍ അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "_സെക്യൂര്‍ ഷെല്‍ ചാവി ക്രമികരിക്കുക..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"മറ്റൊരു സിസ്റ്റത്തിലേക്ക് പബ്ലിക് സെക്യുര്‍ ഷെല്‍ കീ അയയ്ക്കുക. ആ കീ ഉപയോഗിച്ചു് "
+"പ്രവേശനം സജ്ജമാക്കുക."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "നിങ്ങള്‍ക്ക് '%s' സെക്യൂര്‍ ഷെല്‍ കീ എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "നിങ്ങള്‍ക്ക് %d സെക്യൂര്‍ ഷെല്‍ കീകള്‍ എന്നേക്കുമായി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Secure Shell Key"
+msgstr "സെക്യൂര്‍ ഷെല്‍ ചാവി"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "മറ്റ് കമ്പ്യൂട്ടറുകളിലേയ്ക്ക് പ്രവേശിക്കാന്‍ ഉപയോഗിക്കുന്നു (ഉദാ: ടെര്‍മിനല്‍ വഴി)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "സെക്യൂര്‍ ഷെല്‍ ചാവി ഉണ്ടാക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../ssh/bastile-ssh-generate.c:205
+msgid "Creating Secure Shell Key"
+msgstr "സെക്യൂര്‍ ഷെല്‍ ചാവി ഉണ്ടാക്കുന്നു"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>നിങ്ങളുടെ ഈമെയില്‍ വിലാസം, ഈ കീ എന്തിനാണെന്നുള്ളതിനുള്ള റിമെയിണ്ടര്‍ എന്നിവ "
+"ഉപയോഗിക്കുക.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"SSH വഴി വിശ്വസനീയമായ കമ്പ്യൂട്ടറുകളിലേക്ക് സുരക്ഷിതമായി കണക്ട് ചെയ്യുന്നതിനു് "
+"ഒരു സെക്യുര്‍ ഷെല്‍ (SSH) കീ സഹായിക്കുന്നു. ഓരോ കമ്പ്യൂട്ടറിനും നിങ്ങള്‍ വെവ്വേറെ "
+"അടയാളവാക്കുകള്‍ നല്‍കേണ്ടതില്ല."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"നിങ്ങള്‍ക്കീ കീ ഉപയോഗിക്കുവാനുള്ള കമ്പ്യൂട്ടര്‍ നിലവിലുണ്ടെങ്കില്‍, നിങ്ങളുടെ കീ തിരിച്ചറിയുന്നതിനായി "
+"ഇപ്പോള്‍ ആ കമ്പ്യൂട്ടര്‍ സജ്ജീകരിക്കാം."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "പുതിയ സെക്യൂര്‍ ഷെല്‍ ചാവി"
+
+#: ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_ഉണ്ടാക്കി സജ്ജീകരിക്കുക"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "ചാവി ഉണ്ടാക്കിയാല്‍ _മാത്രം മതി"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_ചാവിയുടെ വിവരണം:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(ലഭ്യമല്ലാത്ത സെക്യുര്‍ ഷെല്‍ കീ)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "അസാധുവായതു്"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "സ്വകാര്യ സെക്യൂര്‍ ഷെല്‍ ചാവി"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "മറ്റുള്ളവര്‍ക്കുള്ള സെക്യൂര്‍ ഷെല്‍ ചാവി"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "ചാവിയുടെ പേര് മാറ്റുവാന്‍ സാധ്യമായില്ല."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "ചാവിയ്ക്കുള്ള ആധികാരികത മാറ്റുവാന്‍ സാധ്യമായില്ല"
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "കീയ്ക്കുള്ള അടയാളവാക്ക്യം മാറ്റുവാന്‍ സാധ്യമായില്ല."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "/home/nate/.ssh/blah_rsa"
+msgstr "/home/nate/.ssh/blah_rsa"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "00:00:00:00:00"
+msgstr "00:00:00:00:00"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Algorithm:</b>"
+msgstr "<b>ആല്‍ഗോരിതം:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Identifier:</b>"
+msgstr "<b>ഐഡന്റിഫയര്‍:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Location:</b>"
+msgstr "<b>സ്ഥാനം:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Strength:</b>"
+msgstr "<b>ശക്തി:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:10
+msgid "<b>Trust</b>"
+msgstr "<b>വിശ്വാസം</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>ഇതു് '%s' അക്കൌണ്ടിനു് മാത്രമേ ബാധകമാകുകയുള്ളു</i> ."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "E_xport Complete Key"
+msgstr "പൂര്‍ണ്ണമായ ചാവി _പുറത്തെടുക്കുക"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:22
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "ഈ കീയുടെ ഉടമസ്ഥനു് ഈ കമ്പ്യൂട്ടറിലേക്കു് കണക്ട് ചെയ്യുവാനുള്ള അധികാരമുണ്ടു്."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:23
+msgid "Used to connect to other computers."
+msgstr "മറ്റ് കമ്പ്യൂട്ടറുകളിലേയ്ക്കു് കണക്ട് ചെയ്യുന്നതിനായി ഉപയോഗിക്കുന്നു."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH കമാന്‍ഡ് അപ്രതീക്ഷിതമായി അവസാനിച്ചു."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "SSH കമാന്‍ഡ് പരാജയപ്പെട്ടു."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "സെക്യൂര്‍ ഷെല്‍ ചാവി"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "അടയാളവാക്ക്യം:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "റിമോട്ട് ഹോസ്റ്റ് അടയാളവാക്ക്"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "പഴയ ചാവി അടയാളവാക്ക്യം "
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr " %s: വേണ്ടി പഴയ അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "പുതിയ ചാവി അടയാളവാക്ക്യം "
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "%s: വേണ്ടി പുതിയ അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "ചാവി അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "പുതിയ സെക്യൂര്‍ ഷെല്‍ ചാവിക്ക് വേണ്ടി അടയാളവാക്ക്യം "
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "പുതിയ സെക്യൂര്‍ ഷെല്‍ ചാവിക്ക് വേണ്ടി അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "ചാവി എടുക്കുന്നു: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "ചാവി എടുക്കുന്നു. അടയാളവാക്ക്യം നല്‍കുക"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "ഈ കീയ്ക്ക് ഒരു സ്വകാര്യ കീ ഫയലും ലഭ്യമല്ല."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "റിമോട്ട് കമ്പ്യൂട്ടറില്‍ സെക്യൂര്‍ ഷെല്‍ ചാവി ക്രമികരിയ്ക്കുവാന്‍ സാധ്യമായില്ല."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "സെക്യൂര്‍ ഷെല്‍ ചാവി ക്രമികരിക്കുക..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>ഉദാ: fileserver.example.com:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "SSH കണക്ഷനു വേണ്ടി കമ്പ്യൂട്ടര്‍ സജ്ജീകരിക്കുക"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"SSH ഉപയോഗിക്കുന്ന മറ്റൊരു കമ്പ്യൂട്ടറിലേക്കു് നിങ്ങളുടെ സെക്യുര്‍ ഷെല്‍ കീ ഉപയോഗിക്കണമെങ്കില്‍, "
+"നിങ്ങള്‍ക്കു് ആ കമ്പ്യൂട്ടറില്‍ ഒരു ലോഗിന്‍ അക്കൌണ്ടു് ഉണ്ടായിരിക്കണം"
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "_കമ്പ്യൂട്ടറിന്റെ പേരു്:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_അകത്തുകയറുന്നതിനുള്ള പേരു്:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_സജ്ജീകരണം"

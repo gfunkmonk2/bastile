@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/autoreconf.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+
+LDFLAGS += -Wl,-O1 -Wl,--as-needed
+
+DEB_DH_MAKESHLIBS_ARGS_libmatecryptui0 += -V 'libmatecryptui0 (>= 1.1.0)'
+
+DEB_CONFIGURE_EXTRA_FLAGS += --disable-update-mime-database \
+			     --disable-schemas-install \
+			     --disable-scrollkeeper \
+			     --enable-pgp \
+			     --with-gtk=2.0

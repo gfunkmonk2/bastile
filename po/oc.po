@@ -1,0 +1,2955 @@
+# Translation of oc.po to Occitan
+# Occitan translation of bastile.
+# Copyright (C) 2000-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the bastile package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
+msgid ""
+msgstr ""
+"Project-Id-Version: oc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-03 09:52+0200\n"
+"PO-Revision-Date: 2008-06-11 12:44+0200\n"
+"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+"Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr ""
+
+#: ../daemon/bastile-daemon.c:82
+msgid "couldn't fork process"
+msgstr ""
+
+#: ../daemon/bastile-daemon.c:88
+msgid "couldn't create new process group"
+msgstr ""
+
+#: ../daemon/bastile-daemon.c:189
+msgid "Encryption Daemon (Bastile)"
+msgstr ""
+
+#: ../daemon/bastile-service.c:111 ../daemon/bastile-service.c:135
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr ""
+
+#: ../daemon/bastile-service.c:184 ../daemon/bastile-service-keyset.c:127
+#: ../daemon/bastile-service-keyset.c:156
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr ""
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:142
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:143
+msgid "Invalid Signature"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:149
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:150
+msgid "Expired Signature"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:156
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr ""
+
+# src/dialogs/bastile-signatures.glade2.h:
+#: ../daemon/bastile-service-crypto.c:157
+msgid "Revoked Signature"
+msgstr ""
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:163
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:164
+msgid "Good Signature"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:169
+msgid "Signing key not in keyring."
+msgstr ""
+
+# src/dialogs/bastile-signatures.glade2.h:
+#: ../daemon/bastile-service-crypto.c:170
+msgid "Unknown Signature"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:174
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:175
+msgid "Bad Signature"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:183
+msgid "Couldn't verify signature."
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:239
+#: ../daemon/bastile-service-crypto.c:346
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:246
+#: ../daemon/bastile-service-crypto.c:353
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:258
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:266
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:275
+#, c-format
+msgid "No recipients specified"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:341
+#, c-format
+msgid "No signer specified"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:396
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr ""
+
+#: ../daemon/bastile-service-crypto.c:459
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr ""
+
+#: ../daemon/bastile-service-keyset.c:190
+#, c-format
+msgid "Invalid key id: %s"
+msgstr ""
+
+#: ../daemon/bastile-sharing.c:72 ../daemon/bastile-sharing.c:216
+msgid "Couldn't share keys"
+msgstr ""
+
+#: ../daemon/bastile-sharing.c:73
+msgid "Can't publish discovery information on the network."
+msgstr ""
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:93
+#, c-format
+msgid "%s's encryption keys"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr ""
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item.c:240 ../pgp/bastile-pgp-key.c:144
+#: ../ssh/bastile-ssh-key.c:114
+msgid "Invalid"
+msgstr "Invalid"
+
+#: ../gkr/bastile-gkeyring-item.c:257
+msgid "Web Password"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item.c:259
+msgid "Network Password"
+msgstr "Mot de pas ret"
+
+#: ../gkr/bastile-gkeyring-item.c:261
+#: ../gkr/bastile-gkeyring-item-properties.c:123
+#: ../gkr/bastile-gkeyring-source.c:551
+msgid "Password"
+msgstr "Mot de pas"
+
+#: ../gkr/bastile-gkeyring-item-properties.c:95
+msgid "Access a network share or resource"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.c:99
+msgid "Access a website"
+msgstr "Accedir a un sit web"
+
+#: ../gkr/bastile-gkeyring-item-properties.c:103
+msgid "Unlocks a PGP key"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.c:106
+msgid "Unlocks a Secure Shell key"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.c:109
+msgid "Saved password or login"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.c:123
+msgid "Network Credentials"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.c:184
+msgid "Couldn't change password."
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.c:292
+msgid "Couldn't set description."
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.c:502
+msgid "Couldn't set application access."
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Mot de pas :</b>"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Camin :</b>"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Permissions : </b>"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:4
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:9
+#: ../ssh/bastile-ssh-key-properties.glade.h:9
+msgid "<b>Technical Details:</b>"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:5
+msgid "Applications"
+msgstr "Aplicacions"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:6
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:23
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:20
+#: ../ssh/bastile-ssh-key-properties.glade.h:17
+msgid "Details"
+msgstr "Detalhs"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:7
+#: ../ssh/bastile-ssh-key-properties.glade.h:19
+msgid "Key"
+msgstr "Clau"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:8
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:30
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:30
+#: ../ssh/bastile-ssh-key-properties.glade.h:20
+msgid "Key Properties"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:9
+msgid "Login:"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:10
+msgid "Server:"
+msgstr "Servidor :"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:11
+msgid "Show pass_word"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:12
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:42
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:36
+msgid "Type:"
+msgstr "Tipe :"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:14
+msgid "Use:"
+msgstr ""
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:16
+msgid "_Delete"
+msgstr "_Suprimir"
+
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:17
+#: ../pgp/bastile-revoke.glade.h:5
+msgid "_Description:"
+msgstr "_Descripcion :"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:19
+msgid "_Read"
+msgstr "_Lectura"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkeyring-item-properties.glade.h:21
+msgid "_Write"
+msgstr "_Escritura"
+
+#: ../gkr/bastile-gkeyring-operation.c:205
+msgid "Access to the key ring was denied"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-operation.c:208
+msgid "The mate-keyring daemon is not running"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-operation.c:211
+msgid "The key ring has already been unlocked"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-operation.c:214
+msgid "No such key ring exists"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-operation.c:217
+msgid "Couldn't communicate with key ring daemon"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-operation.c:220
+msgid "The item already exists"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-operation.c:226
+msgid "Internal error accessing mate-keyring"
+msgstr ""
+
+#: ../gkr/bastile-gkeyring-operation.c:283
+#: ../gkr/bastile-gkeyring-operation.c:315
+msgid "Saving item..."
+msgstr "Enregistrament de l'element..."
+
+#: ../gkr/bastile-gkeyring-source.c:408
+msgid "Retrieving key"
+msgstr ""
+
+#. Start listing of ids
+#: ../gkr/bastile-gkeyring-source.c:422
+msgid "Listing passwords"
+msgstr ""
+
+#: ../gkr/bastile-gkr-commands.vala:63
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Sètz segur que volètz suprimir per totjorn lo mot de pas '%s' ?"
+
+#: ../gkr/bastile-gkr-commands.vala:65
+#, c-format
+msgid "Are you sure you want to delete %d passwords?"
+msgstr "Sètz segur que volètz suprimir per totjorn los mots de pas %d ?"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:156
+msgid "All Keys"
+msgstr "Totas las claus"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:157
+msgid "Selected Recipients"
+msgstr ""
+
+#: ../libmatecryptui/cryptui-key-chooser.c:158
+msgid "Search Results"
+msgstr ""
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:168
+msgid "Search _for:"
+msgstr "_Recercar :"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:223
+msgid "_Sign message as:"
+msgstr ""
+
+#: ../libmatecryptui/cryptui-key-chooser.c:235
+msgid "None (Don't Sign)"
+msgstr ""
+
+#. TODO: Icons
+#: ../libmatecryptui/cryptui-key-list.c:117
+#: ../pgp/bastile-pgp-key-properties.c:881
+#: ../src/bastile-key-manager-store.c:1072
+msgid "Name"
+msgstr "Nom"
+
+#: ../libmatecryptui/cryptui-key-list.c:120
+#: ../pgp/bastile-pgp-key-properties.c:1712
+#: ../src/bastile-key-manager-store.c:1084
+msgid "Key ID"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:313
+msgid "Display flags"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:314
+msgid "Displayed date and/or time properties"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:319
+msgid "Lazy mode"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:320
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:325
+msgid "Year"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed year"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:331
+msgid "Month"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:332
+msgid "Displayed month"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:337
+msgid "Day"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed day of month"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:343
+msgid "Hour"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed hour"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:349
+msgid "Minute"
+msgstr "Minuta"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed minute"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:355
+msgid "Second"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed second"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:361
+msgid "Lower limit year"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:362
+msgid "Year part of the lower date limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:367
+msgid "Upper limit year"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:368
+msgid "Year part of the upper date limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit month"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:374
+msgid "Month part of the lower date limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit month"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:380
+msgid "Month part of the upper date limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit day"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:386
+msgid "Day of month part of the lower date limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit day"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:392
+msgid "Day of month part of the upper date limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit hour"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:398
+msgid "Hour part of the lower time limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit hour"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:404
+msgid "Hour part of the upper time limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit minute"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:410
+msgid "Minute part of the lower time limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit minute"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:416
+msgid "Minute part of the upper time limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit second"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:422
+msgid "Second part of the lower time limit"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit second"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:428
+msgid "Second part of the upper time limit"
+msgstr ""
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:470
+msgid "calendar:week_start:0"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:492
+msgid "Date"
+msgstr "Data"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Enter the date directly"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select Date"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:499
+msgid "Select the date from a calendar"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:517 ../libegg/egg-datetime.c:2192
+msgid "Time"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:517
+msgid "Enter the time directly"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select Time"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:524
+msgid "Select the time from a list"
+msgstr ""
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:791
+msgid "24hr: no"
+msgstr "a"
+
+#: ../libegg/egg-datetime.c:795 ../libegg/egg-datetime.c:1253
+#: ../libegg/egg-datetime.c:1257
+msgid "AM"
+msgstr ""
+
+#: ../libegg/egg-datetime.c:797 ../libegg/egg-datetime.c:1254
+#: ../libegg/egg-datetime.c:1261
+msgid "PM"
+msgstr ""
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:805
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr ""
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:808
+#, c-format
+msgid "%02d:%02d %s"
+msgstr ""
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:812
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:815
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1169
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr ""
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1234
+#, c-format
+msgid "%u:%u:%u"
+msgstr ""
+
+#: ../libbastile/bastile-add-keyring.glade.h:1
+msgid "Add Password Keyring"
+msgstr ""
+
+#: ../libbastile/bastile-add-keyring.glade.h:2
+msgid "New Keyring Name:"
+msgstr ""
+
+#: ../libbastile/bastile-add-keyring.glade.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+
+#: ../libbastile/bastile-add-keyring.glade.h:4
+#: ../libbastile/bastile-add-keyserver.glade.h:5
+#: ../ssh/bastile-ssh-upload.glade.h:3
+msgid "The host name or address of the server."
+msgstr ""
+
+#: ../libbastile/bastile-add-keyserver.glade.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:2
+msgid "Add Key Server"
+msgstr ""
+
+#: ../libbastile/bastile-add-keyserver.glade.h:3
+msgid "Host:"
+msgstr "Òste :"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:4
+msgid "Key Server Type:"
+msgstr ""
+
+#: ../libbastile/bastile-add-keyserver.glade.h:6
+msgid "The port to access the server on."
+msgstr ""
+
+#
+#: ../libbastile/bastile-notification.c:564
+#: ../libbastile/bastile-notification.c:592
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Clau importada"
+msgstr[1] "Claus importadas"
+
+#: ../libbastile/bastile-notification.c:568
+#: ../libbastile/bastile-notification.c:591
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Clau %i importada"
+msgstr[1] "Claus %i importadas"
+
+#: ../libbastile/bastile-notification.c:570
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../libbastile/bastile-notify.glade.h:1
+msgid "Notification Messages"
+msgstr ""
+
+#: ../libbastile/bastile-passphrase.c:174
+msgid "Passphrase"
+msgstr "Mot de pas"
+
+#: ../libbastile/bastile-passphrase.c:177
+msgid "Password:"
+msgstr "Mot de pas :"
+
+#: ../libbastile/bastile-passphrase.c:241
+msgid "Confirm:"
+msgstr "Confirmar :"
+
+#: ../libbastile/bastile-prefs.c:67
+msgid "Not a valid Key Server address."
+msgstr ""
+
+#: ../libbastile/bastile-prefs.c:68
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+
+#: ../libbastile/bastile-prefs.c:179
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:364
+msgid "Custom"
+msgstr "Personalizat"
+
+#: ../libbastile/bastile-prefs.c:434
+msgid "None: Don't publish keys"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:207
+msgid "<i>Automatically unlocked when user logs in.</i>"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:244
+msgid "Couldn't get default password keyring"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:267
+msgid "Couldn't get list of password keyrings"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:323
+msgid "Couldn't set default password keyring"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:405
+msgid "Couldn't remove keyring"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:423
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' keyring?"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:471
+msgid "Couldn't add keyring"
+msgstr ""
+
+#: ../libbastile/bastile-prefs-keyrings.c:528
+msgid "Couldn't change keyring password"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:1
+msgid "<b>Default Keyring</b>"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:2
+msgid "<b>Password Keyrings</b>"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:3
+msgid "Automatically retrieve keys from _key servers"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:4
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:5
+msgid "Change Unlock _Password"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:6
+msgid "Key Servers"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:7
+msgid "Key Sharing"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:8
+msgid "Password Keyrings"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:9
+msgid "Password and Encryption Settings"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:10
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've "
+"collected. This means they can automatically encrypt things for you or those "
+"you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:13
+msgid "_Add Keyring"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:14
+msgid "_Find keys via:"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:15
+msgid "_Location for application passwords:"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:16
+msgid "_Publish keys to:"
+msgstr "_Publicar de claus dins :"
+
+#: ../libbastile/bastile-prefs.glade.h:17
+msgid "_Remove Keyring"
+msgstr ""
+
+#: ../libbastile/bastile-prefs.glade.h:18
+msgid "_Share my keys with others on my network"
+msgstr "_Partejar mas claus amb d'autres sus ma ret"
+
+#: ../libbastile/bastile-progress.glade.h:1
+msgid "Progress Title"
+msgstr ""
+
+#: ../libbastile/bastile-unknown-key.c:68
+msgid "Unavailable"
+msgstr "Pas disponible"
+
+#: ../libbastile/bastile-unknown-key.c:88
+#, c-format
+msgid "Unknown Key: %s"
+msgstr "Clau desconeguda : %s"
+
+#: ../libbastile/bastile-unknown-key.c:120
+msgid "Unknown Key"
+msgstr "Clau desconeguda"
+
+#: ../libbastile/bastile-unknown-source.c:131
+msgid "Unavailable Key"
+msgstr ""
+
+#: ../libbastile/bastile-util.c:191
+msgid "%Y-%m-%d"
+msgstr "%d/%m/%Y"
+
+#: ../libbastile/bastile-util.c:417
+msgid "Key Data"
+msgstr ""
+
+#: ../libbastile/bastile-util.c:419
+msgid "Multiple Keys"
+msgstr ""
+
+#: ../libbastile/bastile-util.c:675
+msgid "Couldn't run file-roller"
+msgstr ""
+
+#: ../libbastile/bastile-util.c:681
+msgid "Couldn't package files"
+msgstr ""
+
+#: ../libbastile/bastile-util.c:682
+msgid "The file-roller process did not complete successfully"
+msgstr ""
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:791
+msgid "All key files"
+msgstr "Totes los fichièrs de clau"
+
+#: ../libbastile/bastile-util.c:802 ../libbastile/bastile-util.c:842
+#: ../pgp/bastile-pgp-photos.c:242
+msgid "All files"
+msgstr "Totes los fichièrs"
+
+#: ../libbastile/bastile-util.c:835
+msgid "Archive files"
+msgstr ""
+
+#: ../libbastile/bastile-util.c:876
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+
+#: ../libbastile/bastile-util.c:879
+msgid "_Replace"
+msgstr "_Remplaçar"
+
+#: ../libbastile/bastile-validity.c:32 ../pgp/bastile-pgp-key.c:698
+#: ../pgp/bastile-pgp-key-properties.c:1115
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: ../libbastile/bastile-validity.c:34
+#: ../pgp/bastile-pgp-key-properties.c:1121
+#: ../pgp/bastile-pgp-key-properties.c:1253
+#: ../pgp/bastile-pgp-key-properties.c:1325
+msgid "Never"
+msgstr "Jamai"
+
+#: ../libbastile/bastile-validity.c:36
+#: ../pgp/bastile-pgp-key-properties.c:1128
+msgid "Marginal"
+msgstr ""
+
+#: ../libbastile/bastile-validity.c:38
+#: ../pgp/bastile-pgp-key-properties.c:1134
+msgid "Full"
+msgstr "Complet"
+
+#: ../libbastile/bastile-validity.c:40
+#: ../pgp/bastile-pgp-key-properties.c:1140
+msgid "Ultimate"
+msgstr ""
+
+#: ../libbastile/bastile-validity.c:42
+msgid "Disabled"
+msgstr "Desactivat"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1321
+msgid "Revoked"
+msgstr ""
+
+#: ../libbastile/bastile-widget.c:331
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Impossible de visualizar l'ajuda : %s"
+
+#: ../pgp/bastile-add-subkey.glade.h:1
+msgid "Expiration Date:"
+msgstr ""
+
+#: ../pgp/bastile-add-subkey.glade.h:2
+msgid "Generate a new subkey"
+msgstr ""
+
+#: ../pgp/bastile-add-subkey.glade.h:3
+msgid "If key never expires"
+msgstr ""
+
+#: ../pgp/bastile-add-subkey.glade.h:4
+msgid "Key _Length:"
+msgstr "_Longor de clau :"
+
+#: ../pgp/bastile-add-subkey.glade.h:5
+msgid "Key _Type:"
+msgstr ""
+
+#: ../pgp/bastile-add-subkey.glade.h:6
+msgid "Length of Key"
+msgstr ""
+
+#: ../pgp/bastile-add-subkey.glade.h:7
+msgid "Never E_xpires"
+msgstr ""
+
+#: ../pgp/bastile-add-uid.glade.h:1
+msgid "Add User ID"
+msgstr ""
+
+#: ../pgp/bastile-add-uid.glade.h:2
+msgid "Create the new user ID"
+msgstr ""
+
+#: ../pgp/bastile-add-uid.glade.h:3 ../pgp/bastile-pgp-generate.glade.h:8
+msgid "Full _Name:"
+msgstr "_Nom complet :"
+
+#: ../pgp/bastile-add-uid.glade.h:4
+msgid "Key Co_mment:"
+msgstr ""
+
+#: ../pgp/bastile-add-uid.glade.h:5
+msgid "Must be at least 5 characters long"
+msgstr ""
+
+#: ../pgp/bastile-add-uid.glade.h:6
+msgid "Optional comment describing key"
+msgstr ""
+
+#: ../pgp/bastile-add-uid.glade.h:7
+msgid "Optional email address"
+msgstr ""
+
+#: ../pgp/bastile-add-uid.glade.h:8 ../pgp/bastile-pgp-generate.glade.h:14
+msgid "_Email Address:"
+msgstr "Adreça _electronica :"
+
+#: ../pgp/bastile-expires.glade.h:1
+msgid "C_hange"
+msgstr "Cambiar"
+
+#: ../pgp/bastile-expires.glade.h:2 ../pgp/bastile-revoke.glade.h:4
+msgid "Revoke key"
+msgstr ""
+
+#: ../pgp/bastile-expires.glade.h:3
+msgid "_Never expires"
+msgstr ""
+
+#: ../pgp/bastile-gpgmex-util.c:55
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr ""
+
+#: ../pgp/bastile-hkp-source.c:328
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr ""
+
+#: ../pgp/bastile-hkp-source.c:330
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr ""
+
+#: ../pgp/bastile-hkp-source.c:550
+msgid "Searching for keys..."
+msgstr ""
+
+#: ../pgp/bastile-hkp-source.c:621
+msgid "Uploading keys..."
+msgstr ""
+
+#: ../pgp/bastile-hkp-source.c:699
+msgid "Retrieving keys..."
+msgstr ""
+
+#: ../pgp/bastile-hkp-source.c:732 ../pgp/bastile-ldap-source.c:1269
+#: ../pgp/bastile-pgp-generator.vala:29 ../pgp/bastile-pgp-source.c:440
+#: ../pgp/bastile-server-source.c:213
+msgid "PGP Key"
+msgstr "Clau PGP"
+
+#: ../pgp/bastile-hkp-source.c:766
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr ""
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:863 ../pgp/bastile-hkp-source.c:936
+#: ../pgp/bastile-ldap-source.c:660
+#, c-format
+msgid "Connecting to: %s"
+msgstr ""
+
+#: ../pgp/bastile-ldap-source.c:453
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr ""
+
+#: ../pgp/bastile-ldap-source.c:633
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr ""
+
+#: ../pgp/bastile-ldap-source.c:709
+#, c-format
+msgid "Resolving server address: %s"
+msgstr ""
+
+#: ../pgp/bastile-ldap-source.c:913
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr ""
+
+#: ../pgp/bastile-ldap-source.c:940
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr ""
+
+#: ../pgp/bastile-ldap-source.c:1045
+msgid "Retrieving remote keys..."
+msgstr ""
+
+#: ../pgp/bastile-ldap-source.c:1177
+msgid "Sending keys to key server..."
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-subkey.c:166
+msgid "Couldn't add subkey"
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-subkey.c:187
+#, c-format
+msgid "Add subkey to %s"
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-subkey.c:204 ../pgp/bastile-pgp-generate.c:51
+msgid "DSA (sign only)"
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-subkey.c:212
+msgid "ElGamal (encrypt only)"
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-subkey.c:218 ../pgp/bastile-pgp-generate.c:52
+msgid "RSA (sign only)"
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-subkey.c:224
+msgid "RSA (encrypt only)"
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr ""
+
+#: ../pgp/bastile-pgp-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr ""
+
+#
+#: ../pgp/bastile-pgp-commands.vala:29
+msgid "_Sign Key..."
+msgstr ""
+
+#: ../pgp/bastile-pgp-commands.vala:30
+msgid "Sign public key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-commands.vala:77
+#, c-format
+msgid "Are you sure you want to delete the PGP key '%s'?"
+msgstr "Sètz segur que volètz suprimir per totjorn la clau PGP '%s' ?"
+
+#: ../pgp/bastile-pgp-commands.vala:79
+#, c-format
+msgid "Are you sure you want to delete %d PGP keys?"
+msgstr "Sètz segur que volètz suprimir per totjorn las claus PGP %d ?"
+
+#: ../pgp/bastile-pgp-delete.c:41 ../ssh/bastile-delete.c:41
+#, c-format
+msgid ""
+"%s is a private key. Make sure you have a backup. Do you still want to "
+"delete it?"
+msgstr ""
+
+#: ../pgp/bastile-pgp-delete.c:75 ../ssh/bastile-delete.c:75
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Sètz segur que volètz suprimir per totjorn %s ?"
+
+#: ../pgp/bastile-pgp-delete.c:81 ../ssh/bastile-delete.c:81
+#, c-format
+msgid "Are you sure you want to permanently delete %d key?"
+msgid_plural "Are you sure you want to permanently delete %d keys?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../pgp/bastile-pgp-delete.c:125 ../ssh/bastile-delete.c:125
+msgid "Couldn't delete key"
+msgstr "Impossible de suprimir la clau"
+
+#: ../pgp/bastile-pgp-delete.c:142 ../ssh/bastile-delete.c:142
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr ""
+
+#: ../pgp/bastile-pgp-delete.c:165 ../ssh/bastile-delete.c:165
+msgid "Couldn't delete subkey"
+msgstr ""
+
+#: ../pgp/bastile-pgp-delete.c:184 ../ssh/bastile-delete.c:184
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr ""
+
+#: ../pgp/bastile-pgp-delete.c:209 ../ssh/bastile-delete.c:209
+msgid "Couldn't delete user id"
+msgstr ""
+
+#: ../pgp/bastile-pgp-expires.c:70
+msgid "Couldn't change expiry date"
+msgstr ""
+
+#: ../pgp/bastile-pgp-expires.c:134
+#, c-format
+msgid "Expiry for Subkey %d of %s"
+msgstr ""
+
+#: ../pgp/bastile-pgp-expires.c:136
+#, c-format
+msgid "Expiry for %s"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.c:50
+msgid "DSA Elgamal"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.c:61
+msgid "Couldn't generate PGP key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.c:168
+msgid "Passphrase for New PGP Key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.c:169
+msgid "Enter the passphrase for your new key twice."
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.c:178
+msgid "Couldn't generate key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.c:180
+msgid "Generating key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:1
+#: ../ssh/bastile-ssh-generate.glade.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:3
+msgid "Algorithms here"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:4
+msgid "C_reate"
+msgstr "C_rear"
+
+#: ../pgp/bastile-pgp-generate.glade.h:5
+msgid "Create a PGP Key"
+msgstr "Crear una clau PGP"
+
+#: ../pgp/bastile-pgp-generate.glade.h:6
+msgid "E_xpiration Date:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:7
+#: ../ssh/bastile-ssh-generate.glade.h:7
+msgid "Encryption _Type:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:9
+msgid "Generate a new key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:10
+#: ../ssh/bastile-ssh-generate.glade.h:10
+msgid "Key _Strength (bits):"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:11
+msgid "Ne_ver Expires"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:12
+msgid "New PGP Key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-generate.glade.h:13
+msgid "_Comment:"
+msgstr "_Comentari :"
+
+#: ../pgp/bastile-pgp-generator.vala:30
+msgid "Used to encrypt email and files"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key.c:166
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:32
+msgid "Public PGP Key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key.c:169
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:36
+msgid "Private PGP Key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key.c:700
+msgid "ElGamal"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:215
+msgid "Couldn't change primary user ID"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:313
+#: ../pgp/bastile-pgp-key-properties.c:1433
+msgid "[Unknown]"
+msgstr "[Desconegut]"
+
+#: ../pgp/bastile-pgp-key-properties.c:411
+#: ../pgp/bastile-pgp-key-properties.c:1709
+msgid "Name/Email"
+msgstr "Nom/adreça electronica"
+
+# src/dialogs/bastile-signatures.glade2.h:
+#: ../pgp/bastile-pgp-key-properties.c:416
+msgid "Signature ID"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:568
+msgid "Couldn't change primary photo"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:816
+msgid "(unknown)"
+msgstr "(desconegut)"
+
+#: ../pgp/bastile-pgp-key-properties.c:819
+#, c-format
+msgid "This key expired on: %s"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:1002
+#: ../pgp/bastile-pgp-key-properties.c:1402
+msgid "Unable to change trust"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:1024
+#: ../ssh/bastile-ssh-key-properties.c:220
+msgid "Export Complete Key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:1052 ../src/bastile-viewer.vala:399
+#: ../ssh/bastile-ssh-key-properties.c:248
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:1297
+msgid "ID"
+msgstr "ID"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1300
+#: ../src/bastile-key-manager-store.c:1103
+msgid "Type"
+msgstr "Tipe"
+
+#: ../pgp/bastile-pgp-key-properties.c:1303
+msgid "Created"
+msgstr "Creat"
+
+#: ../pgp/bastile-pgp-key-properties.c:1306
+msgid "Expires"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:1309
+msgid "Status"
+msgstr "Estatut"
+
+#: ../pgp/bastile-pgp-key-properties.c:1312
+msgid "Strength"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:1321
+#: ../pgp/bastile-pgp-key-properties.c:1322
+msgid "Good"
+msgstr ""
+
+#: ../pgp/bastile-pgp-key-properties.c:1322
+#: ../src/bastile-key-manager-store.c:323
+msgid "Expired"
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:78
+msgid "_Don't Resize"
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:79
+msgid "_Resize"
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:224
+msgid "All image files"
+msgstr "Totes los fichièrs imatge"
+
+#: ../pgp/bastile-pgp-photos.c:237
+msgid "All JPEG files"
+msgstr "Totes los fichièrs JPEG"
+
+#: ../pgp/bastile-pgp-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:290 ../pgp/bastile-pgp-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Impossible d'apondre una fotografia"
+
+#: ../pgp/bastile-pgp-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:321
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr ""
+
+#: ../pgp/bastile-pgp-photos.c:334
+msgid "Couldn't delete photo"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Accions</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:2
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Comentari :</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Datas</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:4
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:3
+msgid "<b>Email:</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:5
+msgid "<b>Fingerprint</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:6
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:6
+msgid "<b>Key ID:</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:8
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:7
+#: ../ssh/bastile-ssh-key-properties.glade.h:7
+msgid "<b>Name:</b>"
+msgstr "<b>Nom :</b>"
+
+# #404785
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:9
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>Fotografia </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:10
+msgid "<b>Technical Details</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:11
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:12
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:11
+msgid "<b>This key has expired</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:13
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:12
+#: ../ssh/bastile-ssh-key-properties.glade.h:11
+msgid "<b>Type:</b>"
+msgstr "<b>Tipe :</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:15
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:14
+#: ../ssh/bastile-ssh-key-properties.glade.h:13
+msgid "<b>Use:</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:16
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:18
+msgid "<b>_Subkeys</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:17
+msgid "Add"
+msgstr "Apondre"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:18
+msgid "Add a photo to this key"
+msgstr "Apondre una fotografia a-n aquesta clau"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:19
+#: ../ssh/bastile-ssh-key-properties.glade.h:16
+msgid "Change _Passphrase"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:20
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:19
+msgid "Created:"
+msgstr "Creat :"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:21
+msgid "Decrypt files and email sent to you."
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:22
+msgid "Delete"
+msgstr "Suprimir"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:24
+msgid "Expire"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:25
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:22
+msgid "Expires:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:26
+msgid "Export"
+msgstr "Exportar"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:27
+msgid "Go to next photo"
+msgstr "Anar a la fotografia seguenta"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:28
+msgid "Go to previous photo"
+msgstr "Anar a la fotografia precedenta"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:29
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:29
+msgid "Key ID:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:31
+msgid "Make this photo the primary photo"
+msgstr ""
+
+# src/dialogs/bastile-signatures.glade2.h:
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:32
+msgid "Names and Signatures"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:33
+msgid "Override Owner _Trust:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:34
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:31
+msgid "Owner"
+msgstr "Propietari"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:35
+msgid "Primary"
+msgstr "Primari"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:37
+msgid "Remove this photo from this key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:38
+msgid "Revoke"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:39
+msgid "Sign"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:40
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:33
+msgid "Strength:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:41
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:34
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:43
+msgid ""
+"Unknown\n"
+"Never\n"
+"Marginal\n"
+"Full\n"
+"Ultimate"
+msgstr ""
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:48
+msgid "_Add Name"
+msgstr "_Apondre un nom"
+
+#: ../pgp/bastile-pgp-private-key-properties.glade.h:49
+msgid "_Export Complete Key:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Datas :</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:4
+#: ../ssh/bastile-ssh-key-properties.glade.h:4
+msgid "<b>Fingerprint:</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:15
+msgid "<b>Your trust of this key</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:16
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Autres noms :</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:17
+msgid "<b>_People who have signed this key:</b>"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:21
+msgid "Encrypt files and email to the key's owner "
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:26
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:28
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:35
+#: ../src/bastile-key-manager-store.c:1097
+msgid "Trust"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:37
+msgid ""
+"Unknown\n"
+"Never\n"
+"Marginally\n"
+"Fully\n"
+"Ultimately"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:42
+msgid "You _Trust the Owner:"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:43
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:44
+msgid "_Only display the signatures of people I trust"
+msgstr ""
+
+# src/dialogs/bastile-signatures.glade2.h:
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:45
+msgid "_Revoke Signature"
+msgstr ""
+
+#: ../pgp/bastile-pgp-public-key-properties.glade.h:46
+msgid "_Sign this Key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:75
+msgid "Couldn't revoke subkey"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:102
+#, c-format
+msgid "Revoke Subkey %d of %s"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:104
+#, c-format
+msgid "Revoke %s"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:115
+msgid "No reason"
+msgstr "Pas cap de rason"
+
+#: ../pgp/bastile-pgp-revoke.c:116
+msgid "No reason for revoking key"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:122
+msgid "Compromised"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:123
+msgid "Key has been compromised"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:129
+msgid "Superseded"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:130
+msgid "Key has been superseded"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:136
+msgid "Not Used"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:137
+msgid "Key is no longer used"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:176
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+
+#: ../pgp/bastile-pgp-revoke.c:191
+msgid "Couldn't add revoker"
+msgstr ""
+
+#: ../pgp/bastile-pgp-sign.c:96
+msgid "Couldn't sign key"
+msgstr ""
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-pgp-sign.c:159 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr ""
+
+#: ../pgp/bastile-pgp-sign.c:160
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+
+#: ../pgp/bastile-pgp-source.c:97
+#, c-format
+msgid "Wrong passphrase."
+msgstr ""
+
+#: ../pgp/bastile-pgp-source.c:101
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr ""
+
+#: ../pgp/bastile-pgp-source.c:103
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr ""
+
+#: ../pgp/bastile-pgp-source.c:106
+#: ../src/bastile-change-passphrase.glade.h:4
+msgid "Enter new passphrase"
+msgstr ""
+
+#: ../pgp/bastile-pgp-source.c:108
+msgid "Enter passphrase"
+msgstr ""
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-pgp-source.c:800
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../pgp/bastile-pgp-source.c:855
+msgid "Loading Keys..."
+msgstr ""
+
+#: ../pgp/bastile-pgp-source.c:898
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+
+#: ../pgp/bastile-pgp-source.c:1022 ../src/bastile-key-manager.vala:559
+msgid "Importing Keys"
+msgstr "Importacion de claus"
+
+#: ../pgp/bastile-pgp-source.c:1060
+msgid "Exporting Keys"
+msgstr ""
+
+#: ../pgp/bastile-revoke.glade.h:1
+msgid "Optional description of revocation"
+msgstr ""
+
+#: ../pgp/bastile-revoke.glade.h:2
+msgid "Re_voke"
+msgstr ""
+
+#: ../pgp/bastile-revoke.glade.h:3
+msgid "Reason for revoking the key"
+msgstr ""
+
+#: ../pgp/bastile-revoke.glade.h:6
+msgid "_Reason:"
+msgstr "_Rason :"
+
+#: ../pgp/bastile-server-source.c:470
+msgid "LDAP Key Server"
+msgstr ""
+
+#: ../pgp/bastile-server-source.c:473
+msgid "HTTP Key Server"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:3
+msgid "<b>Sign key as:</b>"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key\n"
+"is owned by the person who claims to own it. For example, you could\n"
+"read the key fingerprint to the owner over the phone. "
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:7
+msgid "<i>Key Name</i>"
+msgstr "<i>Nom de clau</i>"
+
+#: ../pgp/bastile-sign.glade.h:8
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who \n"
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:10
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that "
+"this\n"
+"key is genuine."
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:12
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:13
+msgid "I can _revoke this signature at a later date."
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:14
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) \n"
+"to personally check that the name on the key is correct. You should \n"
+"have also used email to check that the email address belongs to the\n"
+"owner."
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:18
+msgid "_Casually"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:19
+msgid "_Not at all"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:20
+msgid "_Others may not see this signature"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:21
+msgid "_Sign"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:22
+msgid "_Signer:"
+msgstr ""
+
+#: ../pgp/bastile-sign.glade.h:23
+msgid "_Very Carefully"
+msgstr ""
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+
+#: ../pgp/bastile-signer.glade.h:1
+msgid "_Sign message with key:"
+msgstr ""
+
+#: ../src/main.c:73 ../src/bastile-viewer.vala:229
+msgid "Encryption Key Manager"
+msgstr ""
+
+#: ../src/bastile-change-passphrase.glade.h:1
+msgid "Change Passphrase"
+msgstr ""
+
+#: ../src/bastile-change-passphrase.glade.h:2
+msgid "Con_firm Passphrase:"
+msgstr ""
+
+#: ../src/bastile-change-passphrase.glade.h:3
+msgid "Confirm new passphrase"
+msgstr ""
+
+#: ../src/bastile-change-passphrase.glade.h:5
+msgid "New _Passphrase:"
+msgstr ""
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr ""
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.vala:142
+msgid "Passwords and Encryption Keys"
+msgstr ""
+
+#: ../src/bastile-generate-select.glade.h:1
+msgid "<b>_Select the kind of key you wish to create:</b>"
+msgstr ""
+
+#: ../src/bastile-generate-select.glade.h:2
+msgid "C_ontinue"
+msgstr "C_ontunhar"
+
+#: ../src/bastile-generate-select.glade.h:3
+msgid "Create a New Key"
+msgstr "Crear una clau novèla"
+
+#: ../src/bastile-key-manager.glade.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr ""
+
+#: ../src/bastile-key-manager.glade.h:2
+msgid "Generate a new key of your own: "
+msgstr ""
+
+#: ../src/bastile-key-manager.glade.h:3
+msgid "Import existing keys from a file:"
+msgstr ""
+
+#: ../src/bastile-key-manager.glade.h:4
+msgid "My _Personal Keys"
+msgstr ""
+
+#: ../src/bastile-key-manager.glade.h:5
+msgid "Other _Collected Keys"
+msgstr ""
+
+#: ../src/bastile-key-manager.glade.h:6
+msgid "To get started with encryption you will need keys."
+msgstr ""
+
+#: ../src/bastile-key-manager.glade.h:7
+#: ../src/bastile-keyserver-results.vala:53
+msgid "_Import"
+msgstr "_Importar"
+
+#: ../src/bastile-key-manager.glade.h:8
+msgid "_Passwords"
+msgstr "Mots de _pas"
+
+#: ../src/bastile-key-manager.glade.h:9
+msgid "_Trusted Keys"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:105
+#: ../src/bastile-keyserver-results.vala:37
+msgid "_Remote"
+msgstr "_Distant"
+
+#: ../src/bastile-key-manager.vala:107
+msgid "_Quit"
+msgstr "_Sortir"
+
+#: ../src/bastile-key-manager.vala:108
+msgid "Close this program"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:110
+msgid "_Create New Key..."
+msgstr "_Crear una clau novèla..."
+
+#: ../src/bastile-key-manager.vala:111
+msgid "Create a new personal key"
+msgstr "Crear una clau personala novèla"
+
+#: ../src/bastile-key-manager.vala:112
+msgid "_Import..."
+msgstr "_Importar..."
+
+#: ../src/bastile-key-manager.vala:113
+msgid "Import keys into your key ring from a file"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:114
+msgid "Paste _Keys"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:115
+msgid "Import keys from the clipboard"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:119
+#: ../src/bastile-keyserver-results.vala:48
+msgid "_Find Remote Keys..."
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:120
+#: ../src/bastile-keyserver-results.vala:49
+msgid "Search for keys on a key server"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:121
+msgid "_Sync and Publish Keys..."
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:122
+msgid "Publish and/or synchronize your keys with those online."
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:126
+msgid "T_ypes"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:126
+msgid "Show type column"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:127
+msgid "_Expiry"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:127
+msgid "Show expiry column"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:128
+msgid "_Trust"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:128
+msgid "Show owner trust column"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:129
+msgid "_Validity"
+msgstr "_Validitat"
+
+#: ../src/bastile-key-manager.vala:129
+msgid "Show validity column"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:224
+msgid "Filter:"
+msgstr "Filtre :"
+
+#: ../src/bastile-key-manager.vala:469 ../src/bastile-key-manager.vala:516
+#: ../src/bastile-key-manager.vala:543
+#: ../src/bastile-keyserver-results.vala:214
+msgid "Couldn't import keys"
+msgstr "Impossible d'importar de claus"
+
+#
+#: ../src/bastile-key-manager.vala:473
+#: ../src/bastile-keyserver-results.vala:218
+msgid "Imported keys"
+msgstr "Claus importadas"
+
+#
+#: ../src/bastile-key-manager.vala:511
+msgid "Importing keys"
+msgstr "A importar de claus"
+
+#: ../src/bastile-key-manager.vala:520 ../ssh/bastile-ssh-operation.c:1094
+msgid "Import Key"
+msgstr "Importar una clau"
+
+#: ../src/bastile-key-manager.vala:544
+msgid "Unrecognized key type, or invalid data format"
+msgstr ""
+
+#: ../src/bastile-key-manager.vala:692
+#: ../src/bastile-keyserver-results.vala:250
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/bastile-key-manager-store.c:376
+msgid "User ID"
+msgstr ""
+
+#
+#: ../src/bastile-key-manager-store.c:852 ../src/bastile-viewer.vala:374
+msgid "Couldn't export keys"
+msgstr "Impossible d'exportar las claus"
+
+#: ../src/bastile-key-manager-store.c:1090
+msgid "Validity"
+msgstr "Validitat"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:1109
+msgid "Expiration Date"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:39
+msgid "_Close"
+msgstr "_Tampar"
+
+#: ../src/bastile-keyserver-results.vala:40
+msgid "Close this window"
+msgstr "Tampar la fenèstra"
+
+#: ../src/bastile-keyserver-results.vala:41
+msgid "_Expand All"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:42
+msgid "Expand all listings"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:43
+msgid "_Collapse All"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:44
+msgid "Collapse all listings"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:54
+msgid "Import selected keys to local key ring"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:65
+msgid "Remote Keys"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:67
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr ""
+
+#: ../src/bastile-keyserver-results.vala:229
+msgid "Importing keys from key servers"
+msgstr ""
+
+#: ../src/bastile-keyserver-search.glade.h:1
+msgid "<b>Key Servers:</b>"
+msgstr ""
+
+#: ../src/bastile-keyserver-search.glade.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr ""
+
+#: ../src/bastile-keyserver-search.glade.h:3
+msgid "Find Remote Keys"
+msgstr ""
+
+#: ../src/bastile-keyserver-search.glade.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+
+#: ../src/bastile-keyserver-search.glade.h:5
+msgid "Where to search:"
+msgstr ""
+
+#: ../src/bastile-keyserver-search.glade.h:6
+msgid "_Search"
+msgstr "_Recercar"
+
+#: ../src/bastile-keyserver-search.glade.h:7
+msgid "_Search for keys containing: "
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.c:150
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/bastile-keyserver-sync.c:217
+msgid "Synchronizing keys"
+msgstr ""
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:249
+msgid "Synchronizing keys..."
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.glade.h:1
+msgid "<b>X keys are selected for synchronizing</b>"
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.glade.h:2
+msgid "Sync Keys"
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.glade.h:3
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.glade.h:4
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.glade.h:5
+msgid "_Key Servers"
+msgstr ""
+
+#: ../src/bastile-keyserver-sync.glade.h:6
+msgid "_Sync"
+msgstr ""
+
+#. Top menu items
+#: ../src/bastile-viewer.vala:36
+msgid "_Key"
+msgstr "_Clau"
+
+#: ../src/bastile-viewer.vala:37
+msgid "_Edit"
+msgstr "_Edicion"
+
+#: ../src/bastile-viewer.vala:38
+msgid "_View"
+msgstr "_Visualizacion"
+
+#: ../src/bastile-viewer.vala:39
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../src/bastile-viewer.vala:41
+msgid "Prefere_nces"
+msgstr "Preferé_ncias"
+
+#: ../src/bastile-viewer.vala:42
+msgid "Change preferences for this program"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:43
+msgid "_About"
+msgstr "_A prepaus"
+
+#: ../src/bastile-viewer.vala:44
+msgid "About this program"
+msgstr "A prepaus del programa"
+
+#: ../src/bastile-viewer.vala:45
+msgid "_Contents"
+msgstr "_Ensenhador"
+
+#: ../src/bastile-viewer.vala:46
+msgid "Show Bastile help"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:50
+msgid "P_roperties"
+msgstr "_Propietats"
+
+#: ../src/bastile-viewer.vala:51
+msgid "Show key properties"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:52
+msgid "E_xport Public Key..."
+msgstr ""
+
+#: ../src/bastile-viewer.vala:53
+msgid "Export public part of key to a file"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:54
+msgid "_Copy Public Key"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:55
+msgid "Copy public part of selected keys to the clipboard"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:56
+msgid "_Delete Key"
+msgstr "_Suprimir la clau"
+
+#: ../src/bastile-viewer.vala:57
+msgid "Delete selected keys"
+msgstr "Suprimir las claus seleccionadas"
+
+#: ../src/bastile-viewer.vala:203
+msgid "Contributions:"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:231
+msgid "translator-credits"
+msgstr "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>"
+
+#: ../src/bastile-viewer.vala:234
+msgid "Bastile Project Homepage"
+msgstr "Sit web del projècte Bastile"
+
+#
+#: ../src/bastile-viewer.vala:288
+msgid "Couldn't delete keys."
+msgstr "Impossible de suprimir de claus"
+
+#: ../src/bastile-viewer.vala:308
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:310
+msgid ""
+"One or more of the deleted keys are private keys. Are you sure you want to "
+"proceed?"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:338
+msgid "Couldn't retrieve data from key server"
+msgstr ""
+
+#
+#: ../src/bastile-viewer.vala:356
+msgid "Copied keys"
+msgstr "Claus copiadas"
+
+#: ../src/bastile-viewer.vala:368
+msgid "Retrieving keys"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:383
+msgid "Export public key"
+msgstr ""
+
+#: ../src/bastile-viewer.vala:395
+msgid "Exporting keys"
+msgstr ""
+
+#: ../ssh/bastile-ssh-askpass.c:101
+msgid "Enter your Secure Shell passphrase:"
+msgstr ""
+
+#: ../ssh/bastile-ssh-commands.vala:29
+msgid "Configure Key for _Secure Shell..."
+msgstr ""
+
+#: ../ssh/bastile-ssh-commands.vala:30
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+
+#: ../ssh/bastile-ssh-commands.vala:77
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr ""
+
+#: ../ssh/bastile-ssh-commands.vala:79
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.c:47
+msgid "Couldn't generate Secure Shell key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.c:154
+msgid "Creating Secure Shell Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.glade.h:2
+msgid ""
+"<i>Use your email address, and any other reminder\n"
+" you need about what this key is for.</i>"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.glade.h:4
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted\n"
+"computers using SSH, without entering a different password \n"
+"for each of them."
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.glade.h:8
+msgid ""
+"If there is already a computer you want to use this key with, you \n"
+"can set up that computer to recognize your key now. "
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.glade.h:11
+msgid "New Secure Shell Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.glade.h:12
+msgid "_Create and Set Up"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.glade.h:13
+msgid "_Just Create Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generate.glade.h:14
+msgid "_Key Description:"
+msgstr "Descripcion de _clau :"
+
+#: ../ssh/bastile-ssh-generator.vala:29 ../ssh/bastile-ssh-key.c:96
+#: ../ssh/bastile-ssh-key.c:100 ../ssh/bastile-ssh-key-properties.glade.h:21
+#: ../ssh/bastile-ssh-source.c:753
+msgid "Secure Shell Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-generator.vala:30
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key.c:92
+msgid "(Unreadable Secure Shell Key)"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key.c:128
+msgid "Private Secure Shell Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key.c:131
+msgid "Public Secure Shell Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.c:118
+msgid "Couldn't rename key."
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.c:159
+msgid "Couldn't change authorization for key."
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.c:174
+msgid "Couldn't change passhrase for key."
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:1
+msgid "/home/nate/.ssh/blah_rsa"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:2
+msgid "00:00:00:00:00"
+msgstr "00:00:00:00:00"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:3
+msgid "<b>Algorithm:</b>"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:5
+msgid "<b>Identifier:</b>"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:6
+msgid "<b>Location:</b>"
+msgstr "<b>Opcions</b>"
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:8
+msgid "<b>Strength:</b>"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:10
+msgid "<b>Trust</b>"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:15
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:18
+msgid "E_xport Complete Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:22
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr ""
+
+#: ../ssh/bastile-ssh-key-properties.glade.h:23
+msgid "Used to connect to other computers."
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:138 ../ssh/bastile-ssh-operation.c:700
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:146 ../ssh/bastile-ssh-operation.c:707
+msgid "The SSH command failed."
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:444
+msgid "Secure Shell key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Mot de pas :"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:730
+msgid "Secure Shell Passphrase"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:818
+msgid "Old Key Passphrase"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:819
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:823
+msgid "New Key Passphrase"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:824
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:832
+msgid "Enter Key Passphrase"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:900
+msgid "Passphrase for New Secure Shell Key"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:901
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:1036
+msgid "Secure Shell Key Passphrase"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:1036
+#, c-format
+msgid "Enter the passphrase for: %s"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:1037
+msgid "Save this passphrase in my keyring"
+msgstr ""
+
+#: ../ssh/bastile-ssh-operation.c:1090
+#, c-format
+msgid "Importing key: %s"
+msgstr "Importacion de clau : %s"
+
+#: ../ssh/bastile-ssh-operation.c:1092
+msgid "Importing key. Enter passphrase"
+msgstr ""
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr ""
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr ""
+
+#: ../ssh/bastile-ssh-upload.glade.h:1
+msgid "<i>eg: fileserver.example.com</i>"
+msgstr ""
+
+#: ../ssh/bastile-ssh-upload.glade.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr ""
+
+#: ../ssh/bastile-ssh-upload.glade.h:4
+msgid ""
+"To use your Secure Shell key with another computer that\n"
+"uses SSH, you must already have a login account on that \n"
+"computer."
+msgstr ""
+
+#: ../ssh/bastile-ssh-upload.glade.h:7
+msgid "_Computer Name:"
+msgstr "Nom d'_ordenador :"
+
+#: ../ssh/bastile-ssh-upload.glade.h:8
+msgid "_Login Name:"
+msgstr ""
+
+#: ../ssh/bastile-ssh-upload.glade.h:9
+msgid "_Set Up"
+msgstr ""
+
+#~ msgid "Imported %d key"
+#~ msgid_plural "Imported %d keys"
+#~ msgstr[0] "Clau %d importada"
+#~ msgstr[1] "Claus %d importadas"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "Impossible de legir lo fichièr"
+
+#~ msgid "Couldn't export key"
+#~ msgstr "Impossible d'exportar la clau"
+
+#~ msgid "bastile"
+#~ msgstr "bastile"
+
+#~ msgid "Save Key As..."
+#~ msgstr "Enregistrar la clau coma..."
+
+#~ msgid "_Copy Key"
+#~ msgstr "_Copiar la clau"
+
+#~ msgid "Cache _Preferences"
+#~ msgstr "_Preferéncias de l'escondedor"
+
+#~ msgid "_Show Window"
+#~ msgstr "_Visualizar la fenèstra"
+
+#~ msgid "command..."
+#~ msgstr "comanda..."
+
+#~ msgid "<b>Default Key</b>"
+#~ msgstr "<b>Clau per defaut</b>"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Preferéncias"
+
+#~ msgid "bastile-applet"
+#~ msgstr "bastile-applet"
+
+#~ msgid "Import Failed"
+#~ msgstr "L'importacion a pas capitat"
+
+#~ msgid "_Import Key"
+#~ msgstr "_Importar una clau"
+
+#~ msgid "Import keys from the file"
+#~ msgstr "Importar de clau a partir del fichièr"
+
+#~ msgid "Import is complete"
+#~ msgstr "L'importacion es acabada"
+
+#~ msgid "Importing keys ..."
+#~ msgstr "Importacion de claus..."
+
+#~ msgid "Importing"
+#~ msgstr "A importar"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+
+#~ msgid "Zip (.zip)"
+#~ msgstr "Zip (.zip)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+
+#~ msgid "You have selected %d file "
+#~ msgid_plural "You have selected %d files "
+#~ msgstr[0] "Avètz seleccionat %d fichièr"
+#~ msgstr[1] "Avètz seleccionat %d fichièrs"
+
+#~ msgid "and %d folder"
+#~ msgid_plural "and %d folders"
+#~ msgstr[0] "e %d repertòri"
+#~ msgstr[1] "e %d repertòris"
+
+#~ msgid "<b>%s%s</b>"
+#~ msgstr "<b>%s%s</b>"
+
+#~ msgid "You have selected %d files"
+#~ msgstr "Avètz seleccionat %d fichièrs"
+
+#~ msgid "You have selected %d folder"
+#~ msgid_plural "You have selected %d folders"
+#~ msgstr[0] "Avètz seleccionat %d repertòri"
+#~ msgstr[1] "Avètz seleccionat %d repertòris"
+
+#~ msgid "Preparing..."
+#~ msgstr "Preparacion..."
+
+#~ msgid "Bastile Preferences"
+#~ msgstr "Preferéncias de Bastile"
+
+#~ msgid "Bastile"
+#~ msgstr "Bastile"

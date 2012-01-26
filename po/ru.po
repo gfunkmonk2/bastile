@@ -1,0 +1,2950 @@
+# translation of bastile.master.ru.po to Russian
+# translation of bastile to Russian
+# Copyright (C) 2000-2003, 2008, 2010 Free Software Foundation, Inc.
+#
+# Valek Filippov <frob@df.ru>, 2000-2003.
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008.
+# Vasiliy Faronov <qvvx@yandex.ru>, 2008.
+# Anisimov Victor <vicanis@gmail.com>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile trunk\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=bastile&component=general\n"
+"POT-Creation-Date: 2011-01-19 20:34+0000\n"
+"PO-Revision-Date: 2011-03-19 20:54+0400\n"
+"Last-Translator: Yuri Myaseodov <omerta13@yandex.ru>\n"
+"Language-Team: Russian <mate-cyr@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Не запускать bastile-daemon как службу"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "не удалось создать процесс"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "не удалось создать новую группу процессов"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "Демон шифрования (Bastile)"
+
+#: ../daemon/bastile-service.c:164
+#: ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Недопустимый или нераспознанный тип ключа: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Этот тип ключа не поддерживается: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "Поддержка этой возможности не была включена во время сборки"
+
+#: ../daemon/bastile-service.c:341
+#: ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Недопустимый или нераспознанный ключ: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Подписано <i><key id='%s'/> <b>истекло</b></i> %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Недопустимая подпись"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Подписано <i><key id='%s'/></i> %s <b>Срок действия истёк</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Просроченная подпись"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Подписано <i><key id='%s'/> <b>Подпись отозвана</b></i> %s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Отозванная подпись"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Подписано <i><key id='%s'/></i> %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Правильная подпись"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "В связке ключей отсутствует ключ для этой подписи."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Неизвестная подпись"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Неправильная или подложная подпись. Подписанные данные были изменены."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Неправильная подпись"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Не удалось проверить подпись."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Недопустимый или нераспознанный автор подписи: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Ключ не может использоваться для создания подписи: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Недопустимый или нераспознанный получатель: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Ключ не является допустимым получателем для шифрования: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Не задан получатель"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Недопустимый тип ключа для расшифровки: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Задайте clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Задайте crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "Ошибка открытия clearuri"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Не задан автор подписи"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Недопустимый тип ключа для проверки подписи: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Недопустимый идентификатор ключа: %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid "A list of key server URIs to search for remote PGP keys. In later versions a display name can be included, by appending a space and then the name."
+msgstr "Список URI серверов ключей для поиска ключей PGP. В более поздних версиях можно указать отображаемое имя через пробел."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Автоматически получать ключи"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Автоматически синхронизировать ключи"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Управляет видимостью столбца «Истекает» в менеджере ключей."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Управляет видимостью столбца «Доверие» в менеджере ключей."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Управляет видимостью столбца «Тип» в менеджере ключей."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Управляет видимостью столбца «Достоверность» в менеджере ключей."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Публиковать ключи через DNS-SD"
+
+#: ../data/bastile.schemas.in.h:9
+msgid "Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be running and must be built with HKP and DNS-SD support."
+msgstr "Публиковать ключи по протоколу DNS-SD (Apple Bonjour). Служба bastile-daemon должна оставаться в памяти и должна быть собрана с поддержкой HKP и DNS-SD."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "Идентификатор ключа, используемого по умолчанию"
+
+#: ../data/bastile.schemas.in.h:11
+msgid "If set to true, then files encrypted with bastile will be ASCII armor encoded."
+msgstr "Если установлено, зашифрованные файлы будут оборачиваться в ASCII."
+
+#: ../data/bastile.schemas.in.h:12
+msgid "If set to true, then the default key will always be added to an encryption recipients list."
+msgstr "Если установлено, то ключ по умолчанию будет всегда добавляться в список получателей шифрования."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Шаблон последнего поиска на сервере ключей"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Последний использованный сервер ключей"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Последний ключ, использованный для подписи."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "Серверы ключей PGP"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Экспортировать ключи на этот сервер."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Показывать столбец «Истекает»"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Показывать столбец «Доверие»"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Показывать столбец «Типа»"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Показывать столбец «Достоверность»"
+
+#: ../data/bastile.schemas.in.h:22
+msgid "Specify the column to sort the recipients window by. Columns are: 'name' and 'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr "Столбец, по которому нужно упорядочить таблицу получателей. Возможные значения: «name» и «id». Если значение начинается с «-», порядок меняется на обратный."
+
+#: ../data/bastile.schemas.in.h:23
+msgid "Specify the column to sort the bastile key manager main window by. Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in front of the column name to sort in descending order."
+msgstr "Столбец, по которому нужно упорядочить таблицу ключей в главном окне Bastile. Возможные значения: «name», «id», «validity», «expires», «trust» и «type». Если значение начинается с «-», то используется порядок убывания."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "Идентификатор последнего тайного ключа, использованного для подписи сообщения."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Столбец для упорядочивания получателей"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Столбец для упорядочивания ключей Bastile"
+
+#: ../data/bastile.schemas.in.h:27
+msgid "The key server to publish PGP keys to. Or empty to suppress publishing of PGP keys."
+msgstr "Сервер ключей, на котором надо публиковать ключи PGP. Если пусто, ключи PGP не публикуются."
+
+#: ../data/bastile.schemas.in.h:28
+msgid "The last key server a search was performed against or empty for all key servers."
+msgstr "Последний сервер, на котором искались ключи. Если пусто, то использовались все серверы."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "Последний шаблон поиска на сервере ключей."
+
+#: ../data/bastile.schemas.in.h:30
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "Ключ по умолчанию для некоторых операций, в основном для создания подписи."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "Загружать ли ключи с серверов автоматически."
+
+#: ../data/bastile.schemas.in.h:32
+msgid "Whether or not modified keys should be automatically synced with the default key server."
+msgstr "Следует ли автоматически синхронизировать изменённые ключи с сервером по умолчанию."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Всегда ли шифровать для ключа по умолчанию"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Использовать ли ASCII-обёртку"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Добавить связку ключей для паролей"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Имя новой связки ключей:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid "Please choose a name for the new keyring. You will be prompted for an unlock password."
+msgstr "Введите название новой связки ключей. Далее вас попросят ввести пароль для разблокировки."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Имя узла или адрес сервера."
+
+#: ../gkr/bastile-gkr-add-item.c:61
+#: ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Не удалось добавить связку ключей"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Добавить пароль"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:15
+#: ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "О_писание:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_Связка ключей:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "П_ароль:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "Показать _пароль"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Пароль для веба"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Сетевой пароль"
+
+#: ../gkr/bastile-gkr-item.c:474
+#: ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Пароль"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Уверены, что хотите безвозвратно удалить пароль «%s»?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Уверены, что хотите безвозвратно удалить %d пароль?"
+msgstr[1] "Уверены, что хотите безвозвратно удалить %d пароля?"
+msgstr[2] "Уверены, что хотите безвозвратно удалить %d паролей?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Даёт доступ к сетевому хранилищу или ресурсу"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Даёт доступ к веб-сайту"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "Разблокирует ключ PGP"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Разблокирует ключ SSH"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Сохранённый пароль или учётное имя"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Сетевые учётные сведения"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Не удалось изменить пароль."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Не удалось установить описание."
+
+#: ../gkr/bastile-gkr-item-properties.c:654
+msgid "Couldn't set application access."
+msgstr "Не удалось назначить доступ приложения."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Пароль:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Путь:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Права:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Подробности:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Приложения"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Подробности"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Ключ"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Свойства ключа"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Учётное имя:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Сервер:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Показать _пароль"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+msgid "Type:"
+msgstr "Тип:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Назначение:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:17
+msgid "_Read"
+msgstr "_Чтение"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Write"
+msgstr "_Запись"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:20
+#| msgid "_Delete"
+msgctxt "infinitive"
+msgid "_Delete"
+msgstr "_Удалить"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Идёт перечисление паролей"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Пароли: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Пароли:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Связка ключей для паролей"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Используется для хранения паролей приложений и сетевых узлов"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Сохраненный пароль"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Безопасно хранит пароль или секрет."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Не удалось разблокировать связку ключей"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Не удалось заблокировать связку ключей"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Не удалось назначить связку ключей по умолчанию"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Не удалось изменить пароль к связке ключей"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Заблокировать"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid "Lock the password storage keyring so a master password is required to unlock it."
+msgstr "Заблокировать связку ключей для хранения паролей. Для разблокирования связки ключей нужно будет ввести главный пароль."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_Разблокировать"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid "Unlock the password storage keyring with a master password so it is available for use."
+msgstr "Разблокировать связку ключей для хранения паролей с помощью главного пароля."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "_Установить по умолчанию"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "Приложения хранят свои пароли в связке ключей по умолчанию."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "Изменить _пароль"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Изменить пароль, разблокирующий связку ключей для паролей"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Уверены, что хотите удалить связку ключей для паролей «%s»?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "Created:"
+msgstr "Создан:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Связка ключей"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Свойства связки ключей"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_Имя:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Доступ к связке ключей запрещён"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Демон mate-keyring не запущен"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Связка ключей уже разблокирована"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Нет такой связки ключей"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Не удалось связаться со службой управления связками ключей"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Элемент уже существует"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Произошла внутренняя ошибка при обращении к mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238
+#: ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Сохранение элемента…"
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Удаление элемента…"
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Удаление связки ключей…"
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Перечисление связок ключей для паролей"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid "No encryption keys were found with which to perform the operation you requested.  The program <b>Passwords and Encryption Keys</b> will now be started so that you may either create a key or import one."
+msgstr "Не удалось найти ключей шифрования для затребованной операции. Будет запущено приложение <b>Пароли и ключи шифрования</b> для создания нового ключа или импорта существующего."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "Все ключи"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "Выбранные получатели"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "Ис_кать:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "Нет (не подписывать)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Подписать сообщение как %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "П_одписать сообщение как:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Имя"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "Идентификатор ключа"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "Флаги отображения"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "Свойства отображения даты и/или времени"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "Упрощённый режим"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "В этом режиме дата и время не приводятся к стандартному виду"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "Год"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "Отображаемый год"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "Месяц"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "Отображаемый месяц"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "День"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "Отображаемый день месяца"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "Час"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "Отображаемый час"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "Минуты"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "Отображаемые минуты"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "Секунды"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "Отображаемые секунды"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "Год нижней границы"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "Год нижней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "Год верхней границы"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "Год верхней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "Месяц нижней границы"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "Месяц нижней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "Месяц верхней границы"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "Месяц верхней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "День нижней границы"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "День нижней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "День верхней границы"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "День верхней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "Час нижней границы"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "Час нижней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "Час верхней границы"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "Час верхней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "Минуты нижней границы"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "Минуты нижней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "Минуты верхней границы"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "Минуты верхней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "Секунды нижней границы"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "Секунды нижней границы временного интервала"
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "Секунды верхней границы"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "Секунды верхней границы временного интервала"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:1"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "Дата"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "Введите дату"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "Выберите дату"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "Выберите дату с помощью календаря"
+
+#: ../libegg/egg-datetime.c:529
+#: ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "Время"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "Введите время"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "Выберите время"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "Выберите время из списка"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "24hr: yes"
+
+#: ../libegg/egg-datetime.c:814
+#: ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:816
+#: ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Файл не является корректным файлом формата .desktop"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Неизвестная версия файла .desktop «%s»"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Запускается %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Приложение не принимает документы в качестве аргументов командной строки"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Неизвестный ключ запуска: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Не удалось передать ссылку на документ в ярлык типа «Ссылка»"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Не запускаемый элемент"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Не соединяться с менеджером сеанса"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Задать файл, содержащий сохранённую конфигурацию"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Задать идентификатор сеанса"
+
+#: ../libegg/eggsmclient.c:231
+#: ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "Идентификатор"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Параметры сеанса:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Показать параметры сеанса"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Добавить сервер ключей"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Узел:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Тип сервера ключей:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Порт для доступа к серверу."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "временный элемент для инициализации"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Ключ импортирован"
+msgstr[1] "Ключи импортированы"
+msgstr[2] "Ключи импортированы"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Импортирован %i ключ"
+msgstr[1] "Импортировано %i ключа"
+msgstr[2] "Импортировано %i ключей"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Импортирован ключ для"
+msgstr[1] "Импортированы ключи для"
+msgstr[2] "Импортированы ключи для"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Сообщения уведомления"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Симметричный ключ"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Открытый ключ"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Секретный ключ"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Сведения"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Подпись"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "Пароль"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "Подтверждение:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Недопустимый адрес сервера ключей."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid "For help contact your system adminstrator or the administrator of the key server."
+msgstr "Для получения помощи обратитесь к вашему системному администратору или администратору сервера ключей."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Другой"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "Нет: не публиковать ключи"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Авто_матически загружать ключи с серверов"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Автоматически син_хронизировать изменённые ключи с серверами ключей"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Серверы ключей"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "Найти ключи с по_мощью:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "_Публиковать ключи на:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Заголовок выполнения"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Недоступно"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%d.%m.%Y"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "Данные ключа"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "Несколько ключей"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "Не удалось запустить менеджер архивов File-Roller"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "Не удалось запаковать файлы"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "Менеджер архивов File-Roller не завершился успешно"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "Все файлы ключей"
+
+#: ../libbastile/bastile-util.c:968
+#: ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Все файлы"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "Архивные файлы"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Файл с таким именем уже существует.</b>\n"
+"\n"
+"Заменить его новым файлом?"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "_Заменить"
+
+#: ../libbastile/bastile-validity.c:40
+#: ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "Не доверяю"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Marginal"
+msgstr "Слабо"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Full"
+msgstr "Полностью"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+msgid "Ultimate"
+msgstr "Безоговорочно"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Отключено"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Отозвано"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Не удалось показать справку: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Истекает:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Создать новый подключ"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Если срок действия ключа никогда не истекает"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "_Длина ключа:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "_Тип ключа:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Длина ключа"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Никогда не истекает"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Добавить идентификатор пользователя"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Создать новый идентификатор пользователя"
+
+#: ../pgp/bastile-add-uid.xml.h:3
+#: ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "_Полное имя:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "_Комментарий к ключу:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Должно быть не меньше 5 символов в длину"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Необязательный комментарий, описывающий ключ"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "Необязательный электронный адрес"
+
+#: ../pgp/bastile-add-uid.xml.h:8
+#: ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_Электронный адрес:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_Изменить"
+
+#: ../pgp/bastile-expires.xml.h:2
+#: ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Отозвать ключ"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "Нико_гда не истекает"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Не удалось добавить подключ"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Добавить подключ к %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182
+#: ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "DSA (только подписывание)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (только шифрование)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196
+#: ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "RSA (только подписывание)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (только шифрование)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Не удалось добавить идентификатор пользователя"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Добавить идентификатор пользователя к %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Не удалось расшифровать. Вероятно, у вас нет ключа для расшифровки."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Недопустимый срок действия"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Срок действия должен заканчиваться в будущем"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Не удалось изменить срок действия"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Годен до: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "Ключ PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Используется для шифрования почты и файлов"
+
+#: ../pgp/bastile-gpgme-generate.c:116
+#: ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "DSA ElGamal"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "Не удалось создать ключ PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "Пароль для нового ключа PGP"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "Введите пароль для нового ключа два раза."
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "Не удалось создать ключ"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "Создание ключа"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Неправильный пароль"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "Вы уже третий раз ввели неправильный пароль. Попробуйте ещё раз."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Фотография слишком велика</b></big>\n"
+"Рекомендуемый размер фотографии на ключе — %d × %d точек."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_Не менять размер"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "Из_менить размер"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid "This is not a image file, or an unrecognized kind of image file. Try to use a JPEG image."
+msgstr "Этот файл не содержит изображение, или содержит неизвестный тип изображения. Попробуйте использовать изображение в формате JPEG."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Все файлы изображений"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Все файлы формата JPEG"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Выберите фотографию для добавления к ключу"
+
+#: ../pgp/bastile-gpgme-photos.c:290
+#: ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Не удалось добавить фотографию"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Не удалось загрузить файл. Может быть, он имеет недопустимый формат"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Уверены, что хотите удалить текущую фотографию из вашего ключа?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Не удалось удалить фотографию"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Не удалось отозвать подключ"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Отозвать: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Нет причины"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Нет причины для отзыва ключа"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Скомпрометирован"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Ключ скомпрометирован"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Заменён"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Ключ заменён"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Не используется"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Ключ больше не используется"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid "You are about to add %s as a revoker for %s. This operation cannot be undone! Are you sure you want to continue?"
+msgstr "Вы собираетесь добавить %s в качестве отзывающего для %s. Это действие нельзя будет отменить! Вы хотите продолжить?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Не удалось добавить отзывающего"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"Этот ключ уже был подписан\n"
+"«%s»"
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "Не удалось подписать ключ"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157
+#: ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Нет ключей, которыми можно подписать"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid "You have no personal PGP keys that can be used to indicate your trust of this key."
+msgstr "У вас нет личных ключей PGP, с помощью которых можно было бы выразить доверие этому ключу."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Неправильный пароль."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Введите новый пароль для «%s»"
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Введите пароль для «%s»"
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Введите новый пароль"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Введите пароль"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Загружен %d ключ"
+msgstr[1] "Загружено %d ключа"
+msgstr[2] "Загружено %d ключей"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Загрузка ключей…"
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid "Invalid key data (missing UIDs). This may be due to a computer with a date set in the future or a missing self-signature."
+msgstr "Недопустимые данные ключа (отсутствуют идентификаторы пользователя). Причиной может быть неправильно установленное на компьютере время (время в будущем) или отсутствие собственной подписи."
+
+#: ../pgp/bastile-gpgme-source.c:910
+#: ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "Импорт ключей"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Экспорт ключей"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "Параметры поиска были недостаточно определёнными. Сервер «%s» нашёл по ним слишком много ключей."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Не удалось связаться с сервером «%s»: %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Поиск ключей…"
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Загрузка ключей…"
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Получение ключей…"
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Идёт поиск ключей на сервере: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072
+#: ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Устанавливается соединение с: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "Сервер ключей HTTP"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Не удалось связаться с «%s»: %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Не удалось определить адрес: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Идёт определение адреса сервера: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Поиск ключей, содержащих «%s»…"
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Поиск идентификатора ключа «%s»…"
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Получение удалённых ключей…"
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Передача ключей на сервер…"
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "Сервер ключей LDAP"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "Подписать _ключ…"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Подписать открытый ключ"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Уверены, что хотите безвозвратно удалить %s?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Уверены, что хотите безвозвратно удалить %d ключей и идентификаторов??"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Уверены, что хотите безвозвратно удалить %d ключей?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Уверены, что хотите безвозвратно удалить %d идентификаторов?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1
+#: ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Дополнительные параметры ключа</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "Ключ PGP позволяет шифровать почту и файлы для других людей."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Алгоритмы"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_Создать"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "Ср_ок истечения:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6
+#: ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "_Тип шифрования:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Создать новый ключ"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9
+#: ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "_Прочность ключа (в битах):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "Н_икогда не истекает"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "Новый ключ PGP"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_Комментарий:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Private PGP Key"
+msgstr "Секретный ключ PGP"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Public PGP Key"
+msgstr "Открытый ключ PGP"
+
+#: ../pgp/bastile-pgp-key.c:583
+#: ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Истёк"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Не удалось изменить главный идентификатор пользователя"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Уверены, что хотите безвозвратно удалить идентификатор пользователя «%s»?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Не удалось удалить идентификатор пользователя"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Неизвестно]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Имя/Электропочта"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "Идентификатор подписи"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Не удалось изменить главную фотографию"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(неизвестно)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Этот ключ истёк %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Уверены, что хотите безвозвратно удалить подключ %d ключа %s?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Не удалось удалить подключ"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "Не удалось сменить уровень доверия"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006
+#: ../src/bastile-viewer.c:290
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Не удалось экспортировать ключ в «%s»"
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Экспортировать ключ полностью"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Не удалось экспортировать ключ."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "Никогда"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Тип"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Создан"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Истекает"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Состояние"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Прочность"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "Хорошее"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Действия</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Комментарий:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Даты</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>Электронная почта:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Отпечаток</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>Идентификатор ключа:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Имена и подписи ключа</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+msgid "<b>Photo </b>"
+msgstr "<b>Фотография</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+msgid "<b>Technical Details</b>"
+msgstr "<b>Подробности</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Этот ключ был отозван</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has expired</b>"
+msgstr "<b>Срок действия этого ключа истёк</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Тип:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:14
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:13
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Назначение:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Подключи</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+msgid "Add"
+msgstr "Добавить"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add a photo to this key"
+msgstr "Добавить фотографию"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Изменить _пароль"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "Позволяет расшифровать файлы и почту."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+msgid "Expire"
+msgstr "Истекает"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Expires:"
+msgstr "Истекает:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+msgid "Export"
+msgstr "Экспортировать"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Go to next photo"
+msgstr "Перейти к следующей фотографии"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to previous photo"
+msgstr "Перейти к предыдущей фотографии"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+msgid "Key ID:"
+msgstr "Идентификатор ключа:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+msgid "Make this photo the primary photo"
+msgstr "Сделать эту фотографию главной"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Names and Signatures"
+msgstr "Имена и подписи"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Never"
+msgstr "Никогда"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+msgid "Override Owner _Trust:"
+msgstr "Указать _доверие владельцу:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Owner"
+msgstr "Владелец"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+msgid "Primary"
+msgstr "Главный"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Remove this photo from this key"
+msgstr "Удалить эту фотографию из этого ключа"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Revoke"
+msgstr "Отозвать"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Sign"
+msgstr "Подписать"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Strength:"
+msgstr "Прочность:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "Владелец отозвал ключ. Его больше нельзя использовать."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+msgid "_Add Name"
+msgstr "_Добавить имя"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Export Complete Key:"
+msgstr "Экспортировать _полный ключ:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+#| msgid "<b>Name:</b>"
+msgctxt "name-of-key"
+msgid "<b>Name:</b>"
+msgstr "<b>Имя:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Даты:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Отпечаток:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Уровень доверия:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Ваше доверие этому ключу</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Другие имена:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Люди, подписавшие этот ключ:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "Позволяет зашифровать файлы и почту для владельца ключа "
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Fully"
+msgstr "Полностью"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Я доверяю подписям, поставленным «%s» ставит на других ключах"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:26
+#, no-c-format
+msgid "If you believe that the person that owns this key is '%s', <i>sign</i> this key:"
+msgstr "Если вы уверены, что ключом владеет «%s», <i>подпишите</i> этот ключ:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:28
+#, no-c-format
+msgid "If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr "Если вы больше не уверены, что «%s» владеет этим ключом, <i>отзовите</i> свою подпись:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+msgid "Marginally"
+msgstr "Слабо"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Доверие"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Ultimately"
+msgstr "Безоговорочно"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "You _Trust the Owner:"
+msgstr "Вы д_оверяете владельцу:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Можно вручную указать уровень доверия на вкладке <i>Подробности</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "Показывать только по_дписи людей, которым я доверяю"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Revoke Signature"
+msgstr "_Отозвать подпись"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Sign this Key"
+msgstr "_Подписать этот ключ"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Подключ %d ключа %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Необязательное описание отзыва"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "Отозвать"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Причина для отзыва ключа"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "При_чина:"
+
+#: ../pgp/bastile-signer.c:62
+msgid "You have no personal PGP keys that can be used to sign a document or message."
+msgstr "У вас нет личных ключей PGP, пригодных для подписывания документа или сообщения."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Насколько тщательно вы проверили этот ключ?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Другие увидят эту подпись как:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Подписать ключ как:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid "<i>Casually:</i> means you have done a casual verification that the key is owned by the person who claims to own it. For example, you could read the key fingerprint to the owner over the phone. "
+msgstr "<i>Поверхностно:</i> означает, что вы провели поверхностную проверку того, что этот ключ принадлежит тому, кто записан владельцем. Например, вы с владельцем сверили отпечатки ключа по телефону."
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Имя ключа</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid "<i>Not at all:</i> means you believe the key is owned by the person who claims to own it, but you could not or did not verify this to be a fact."
+msgstr "<i>Никак:</i> означает, что вы верите, что этот ключ принадлежит тому, кто записан владельцем, но вы не проверили это."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid "<i>Very Carefully:</i> Select this only if you are absolutely sure that this key is genuine."
+msgstr "<i>Очень тщательно:</i> Выбирайте этот вариант, только если вы полностью уверены, что этот ключ — подлинный."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Подписывая ключ, вы заявляете о своей уверенности в том, что владелец этого ключа:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Я могу _отозвать эту подпись позднее."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Подписать ключ"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid "You could use a hard to forge photo identification (such as a passport) to personally check that the name on the key is correct. You should have also used email to check that the email address belongs to the owner."
+msgstr "Вы можете использовать трудноподделываемый документ с фотографией (например, паспорт), чтобы лично удостовериться в правильности имени владельца ключа. Вам следует также проверить, что адрес электронной почты принадлежит владельцу, послав на него письмо."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_Поверхностно"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_Никак"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_Другие не могут видеть эту подпись"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_Подписать"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Автор подписи:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "Очень т_щательно"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_Подписать сообщение ключом:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "Сертификат"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Уверены, что хотите безвозвратно удалить сертификат «%s»?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Уверены, что хотите безвозвратно удалить %d сертификат?"
+msgstr[1] "Уверены, что хотите безвозвратно удалить %d сертификата?"
+msgstr[2] "Уверены, что хотите безвозвратно удалить %d сертификатов?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Изменить пароль"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "Подтверждение п_ароля:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Подтвердить новый пароль"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "_Новый пароль:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Управление паролями и ключами шифрования"
+
+#: ../src/bastile.desktop.in.in.h:2
+#: ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "Пароли и ключи шифрования"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>_Выберите тип элемента, который хотите создать:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "Пр_одолжить"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Создать…"
+
+#: ../src/bastile-key-manager.c:233
+#: ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Выбран %d ключ"
+msgstr[1] "Выбрано %d ключа"
+msgstr[2] "Выбрано %d ключей"
+
+#: ../src/bastile-key-manager.c:410
+#: ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533
+#: ../src/bastile-viewer.c:458
+msgid "Couldn't import keys"
+msgstr "Не удалось импортировать ключи"
+
+#: ../src/bastile-key-manager.c:415
+#: ../src/bastile-viewer.c:463
+msgid "Imported keys"
+msgstr "Ключи импортированы"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "Импорт ключей"
+
+#: ../src/bastile-key-manager.c:487
+#: ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Импортировать ключ"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Неизвестный тип ключа или недопустимый формат данных"
+
+#: ../src/bastile-key-manager.c:731
+#: ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_Сеть"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "Закрыть программу"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "_Создать…"
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "Создать новый ключ или элементы"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "_Импортировать…"
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "Импортировать из файла"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "Импортировать из буфера обмена"
+
+#: ../src/bastile-key-manager.c:744
+#: ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_Найти удалённые ключи…"
+
+#: ../src/bastile-key-manager.c:745
+#: ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "Искать ключи на сервере ключей"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "_Синхронизировать и опубликовать ключи…"
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Опубликовать ключи и синхронизироваться с серверами в сети."
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "_Тип"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "Показать столбец типа ключа"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "_Истекает"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "Показать столбец срока действия"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "_Доверие"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "Показать столбец доверия владельцу"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "_Достоверность"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "Показать столбец достоверности"
+
+#: ../src/bastile-key-manager.c:931
+msgid "Filter:"
+msgstr "Фильтр:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Первые шаги:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Создать новый ключ для себя: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Импортировать имеющиеся ключи из файла:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "Мои _личные ключи"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Другие _ключи"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "Чтобы работать с шифрованием, нужны ключи."
+
+#: ../src/bastile-key-manager.xml.h:7
+#: ../src/bastile-viewer.c:522
+msgid "_Import"
+msgstr "_Импортировать"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_Пароли"
+
+#: ../src/bastile-key-manager-store.c:685
+#: ../src/bastile-viewer.c:256
+msgid "Couldn't export keys"
+msgstr "Не удалось экспортировать ключи"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Достоверность"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Истекает"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "Закрыть это окно"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "_Раскрыть всё"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "Раскрыть все списки"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "_Свернуть всё"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "Свернуть все списки"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "Ключи из сети"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Ключи из сети, содержащие «%s»"
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Серверы ключей:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Опубликованные ключи в моей сети:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Найти ключи в сети"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid "This will find keys for others on the Internet. These keys can then be imported into your local key ring."
+msgstr "Так можно найти другие ключи в сети. Эти ключи будут импортированы в локальную связку ключей."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Где искать:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_Искать"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "Иск_ать ключи, содержащие: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Не удалось опубликовать ключи на сервере"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Не удалось получить ключи с сервера: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d ключ выбран для синхронизации</b>"
+msgstr[1] "<b>%d ключа выбрано для синхронизации</b>"
+msgstr[2] "<b>%d ключей выбрано для синхронизации</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Идёт синхронизация ключей"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Синхронизация ключей…"
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Синхронизировать ключи"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid "This will publish the keys in your key ring so they're available for others to use. You'll also get any changes others have made since you received their keys."
+msgstr "Ключи из вашей связки ключей будут опубликованы на сервере и станут доступными для других. Также вы получите сведения, обновившиеся с момента последнего соединения с сервером ключей."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid "This will retrieve any changes others have made since you received their keys. No key server has been chosen for publishing, so your keys will not be made available to others."
+msgstr "Все изменения, произведённые с момента последнего соединения с сервером, будут перенесены на ваш компьютер. Серверов для публикации ключей выбрано не было, поэтому ваши ключи не будут доступны другим."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_Серверы ключей"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Синхронизировать"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Версия этого приложения"
+
+#: ../src/bastile-main.c:78
+#: ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "Менеджер ключей шифрования"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "Помощники:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"Valek Filippov <frob@df.ru>, 2000-2003\n"
+"Yuri Kozlov <kozlov.y@gmail.com>, 2008\n"
+"Vasiliy Faronov <qvvx@yandex.ru>, 2008"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "Домашняя страница проекта Bastile"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:168
+msgid "_File"
+msgstr "_Файл"
+
+#: ../src/bastile-viewer.c:169
+msgid "_Edit"
+msgstr "_Правка"
+
+#: ../src/bastile-viewer.c:170
+msgid "_View"
+msgstr "_Вид"
+
+#: ../src/bastile-viewer.c:171
+msgid "_Help"
+msgstr "_Справка"
+
+#: ../src/bastile-viewer.c:173
+msgid "Prefere_nces"
+msgstr "_Параметры"
+
+#: ../src/bastile-viewer.c:174
+msgid "Change preferences for this program"
+msgstr "Настроить параметры приложения"
+
+#: ../src/bastile-viewer.c:177
+msgid "About this program"
+msgstr "О программе"
+
+#: ../src/bastile-viewer.c:178
+msgid "_Contents"
+msgstr "_Содержание"
+
+#: ../src/bastile-viewer.c:179
+msgid "Show Bastile help"
+msgstr "Показать справку по Bastile"
+
+#: ../src/bastile-viewer.c:276
+msgid "Export public key"
+msgstr "Экспортировать открытый ключ"
+
+#: ../src/bastile-viewer.c:296
+msgid "Exporting keys"
+msgstr "Экспорт ключей"
+
+#: ../src/bastile-viewer.c:321
+msgid "Couldn't retrieve data from key server"
+msgstr "Не удалось получить данные с сервера ключей"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:340
+msgid "Copied keys"
+msgstr "Скопированы ключи"
+
+#: ../src/bastile-viewer.c:360
+msgid "Retrieving keys"
+msgstr "Получение ключей"
+
+#: ../src/bastile-viewer.c:375
+msgid "Couldn't delete."
+msgstr "Не удалось удалить."
+
+#: ../src/bastile-viewer.c:409
+msgid "Deleting..."
+msgstr "Удаление…"
+
+#: ../src/bastile-viewer.c:435
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s является секретным ключом. Всё равно продолжить?"
+
+#: ../src/bastile-viewer.c:483
+msgid "Importing keys from key servers"
+msgstr "Идёт импорт ключей с сервера"
+
+#: ../src/bastile-viewer.c:509
+msgid "Show properties"
+msgstr "Показать свойства"
+
+#: ../src/bastile-viewer.c:510
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_Удалить"
+
+#: ../src/bastile-viewer.c:511
+msgid "Delete selected items"
+msgstr "Удалить выделенные элементы"
+
+#: ../src/bastile-viewer.c:515
+msgid "E_xport..."
+msgstr "_Экспортировать…"
+
+#: ../src/bastile-viewer.c:516
+msgid "Export to a file"
+msgstr "Экспортировать в файл"
+
+#: ../src/bastile-viewer.c:518
+msgid "Copy to the clipboard"
+msgstr "Скопировать в буфер обмена"
+
+#: ../src/bastile-viewer.c:523
+msgid "Import selected keys to local key ring"
+msgstr "Импортировать выделенные ключи в локальную связку ключей"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Введите ваш пароль SSH:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Настроить ключ для _SSH…"
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid "Send public Secure Shell key to another machine, and enable logins using that key."
+msgstr "Послать открытый ключ SSH на другую машину и настроить на ней вход с использованием этого ключа."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "Уверены, что хотите безвозвратно удалить ключ SSH «%s»?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "Уверены, что хотите безвозвратно удалить %d ключей SSH?"
+
+#: ../ssh/bastile-ssh-generate.c:59
+#: ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95
+#: ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "Ключ SSH"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Используется для доступа к другим компьютерам (например, через терминал)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Не удалось создать ключ SSH"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "Создание ключа SSH"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid "<i>Use your email address, and any other reminder you need about what this key is for.</i>"
+msgstr "<i>Используйте ваш адрес электронной почты или другие сведения, которые помогут вам вспомнить назначение ключа.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid "A Secure Shell (SSH) key lets you connect securely to trusted computers using SSH, without entering a different password for each of them."
+msgstr "Ключи SSH позволяют безопасно соединяться с доверяемыми компьютерами по протоколу SSH, не вводя для каждого из них отдельный пароль."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid "If there is already a computer you want to use this key with, you can set up that computer to recognize your key now. "
+msgstr "Если уже есть компьютер, с которым вы хотите использовать этот ключ, можно прямо сейчас настроить этот компьютер на использование вашего ключа."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Новый ключ SSH"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "Создать и _установить"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Просто создать ключ"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_Описание ключа:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(нечитаемый ключ SSH)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Недопустимый"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Секретный ключ SSH"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Открытый ключ SSH"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Не удалось переименовать ключ."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Не удалось изменить параметры авторизации для этого ключа."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Не удалось изменить пароль для этого ключа."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Алгоритм:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Идентификатор:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Местоположение:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Имя:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Прочность:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Доверие</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Это применимо только к учётной записи «%s»</i>."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "_Экспортировать полный ключ"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "Вл_адельцу этого ключа разрешено соединяться с этим компьютером"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Используется для соединения с другими компьютерами."
+
+#: ../ssh/bastile-ssh-operation.c:143
+#: ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "Команда SSH неожиданно завершилась."
+
+#: ../ssh/bastile-ssh-operation.c:151
+#: ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "Команда SSH завершилась с ошибкой."
+
+#: ../ssh/bastile-ssh-operation.c:445
+#: ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "Ключ SSH"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Пароль:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Пароль удалённого сервера"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Старый пароль ключа"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Введите старый пароль для: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Новый пароль ключа"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Введите новый пароль для: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Введите пароль ключа"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Пароль для нового ключа SSH"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Введите пароль для вашего нового ключа SSH."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Импорт ключа: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Импорт ключа. Введите пароль"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Не удалось найти секретного ключа для этого публичного ключа."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "Не удалось настроить ключи SSH на удалённом компьютере."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Настройка ключей SSH…"
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>например: fileserver.example.com:порт</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Настроить компьютер для работы с SSH"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid "To use your Secure Shell key with another computer that uses SSH, you must already have a login account on that computer."
+msgstr "Чтобы использовать ваш ключ SSH с другим компьютером, использующим SSH, у вас уже должна быть учётная запись на том компьютере."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "_Имя компьютера:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_Учётная запись:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_Установить"

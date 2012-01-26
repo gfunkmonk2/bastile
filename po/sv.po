@@ -1,0 +1,3693 @@
+# Swedish messages for bastile.
+# Copyright (C) 2001-2011 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2001, 2003, 2004.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-22 14:14+0100\n"
+"PO-Revision-Date: 2011-01-22 14:15+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Kör inte bastile-daemon som en demon"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "kunde inte grena process"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "kunde inte skapa ny processgrupp"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "Krypteringsdemon (Bastile)"
+
+#: ../daemon/bastile-service.c:164
+#: ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Ogiltig eller okänd nyckeltyp: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Denna nyckeltyp stöds inte: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr "Stöd för denna funktion aktiverades inte vid byggnationen"
+
+#: ../daemon/bastile-service.c:341
+#: ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Ogiltig eller okänd nyckel: %s"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Signerad av <i><key id='%s'/> <b>gick ut</b></i> den %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Ogiltig signatur"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Signerad av <i><key id='%s'/></i> den %s <b>Utgånget</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Utgången signatur"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Signerad av <i><key id='%s'/> <b>Spärrad</b></i> den %s."
+
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Spärrad signatur"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Signerad av <i><key id='%s'/></i> den %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Korrekt signatur"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "Signeringsnyckel inte i nyckelring."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Okänd signatur"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Felaktig eller förfalskad signatur. Signerat data har ändrats."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Felaktig signatur"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Kunde inte validera signatur."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Ogiltig eller okänd signerare: %s"
+
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Nyckeln är inte giltig för signering: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Ogiltig eller okänd mottagare: %s"
+
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Nyckeln är inte en giltig mottagare för kryptering: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Inga mottagare angavs "
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Ogiltig nyckeltyp för dekryptering: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Ställ in clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Ställ in crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "Fel vid öppnandet av clearuri"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Ingen signerare angavs"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Ogiltig nyckeltyp för validering: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Ogiltigt nyckel-id: %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid "A list of key server URIs to search for remote PGP keys. In later versions a display name can be included, by appending a space and then the name."
+msgstr "En lista på nyckelserver-URI:er för att söka efter fjärr-PGP-nycklar. I senare versioner kan ett visningsnamn inkluderas, genom att lägga till ett blanksteg och sedan ett namn."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Hämta nycklar automatiskt"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Synkronisera nycklar automatiskt"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Styr synligheten för utgångskolumnen för nyckelhanteraren."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Styr synligheten för tillitskolumnen för nyckelhanteraren."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Styr synligheten för typkolumnen för nyckelhanteraren."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Styr synligheten för giltighetskolumnen för nyckelhanteraren."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Aktivera DNS-SD-delning"
+
+#: ../data/bastile.schemas.in.h:9
+msgid "Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be running and must be built with HKP and DNS-SD support."
+msgstr "Aktiverar DNS-SD-delning (Apple Bonjour) av nycklar. bastile-daemon måste vara igång och måste vara byggd med stöd för HKP och DNS-SD."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "Id för standardnyckeln"
+
+#: ../data/bastile.schemas.in.h:11
+msgid "If set to true, then files encrypted with bastile will be ASCII armor encoded."
+msgstr "Om denna är inställd till sant kommer filer som är krypterade med bastile att bli ASCII-skalkodade."
+
+#: ../data/bastile.schemas.in.h:12
+msgid "If set to true, then the default key will always be added to an encryption recipients list."
+msgstr "Om denna är inställd till sant kommer standardnyckeln att alltid läggas till en lista över krypteringsmottagare."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Senaste sökmönster för nyckelserver"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Senaste använda nyckelservrar"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Senaste nyckel som användes för att signera ett meddelande."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP-nyckelservrar"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Publicera nycklar på denna nyckelserver."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Visa utgångskolumnen i nyckelhanteraren"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Visa tillitskolumnen i nyckelhanteraren"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Visa typkolumnen i nyckelhanteraren"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Visa giltighetskolumnen i nyckelhanteraren"
+
+#: ../data/bastile.schemas.in.h:22
+msgid "Specify the column to sort the recipients window by. Columns are: 'name' and 'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr "Ange kolumnen att sortera mottagarefönstret efter. Kolumner är: \"name\" och \"id\". Lägg till ett \"-\" i framkant av kolumnnamnet för att sortera i fallande ordning."
+
+#: ../data/bastile.schemas.in.h:23
+msgid "Specify the column to sort the bastile key manager main window by. Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in front of the column name to sort in descending order."
+msgstr "Ange kolumnen att sortera huvudfönstret i nyckelhanteraren Bastile efter. Kolumner är: \"name\", \"id\", \"validity\", \"expires\", \"trust\" och \"type\". Lägg till ett \"-\" i framkant av kolumnnamnet för att sortera i omvänd ordning."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr "Identiteten för den senaste hemliga nyckel som användes för att signera ett meddelande."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Kolumnen att sortera mottagare efter"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Kolumnen att sortera bastile-nycklarna efter"
+
+#: ../data/bastile.schemas.in.h:27
+msgid "The key server to publish PGP keys to. Or empty to suppress publishing of PGP keys."
+msgstr "Nyckelservern att publicera PGP-nycklar på. Eller tom för att inte publicera PGP-nycklar."
+
+#: ../data/bastile.schemas.in.h:28
+msgid "The last key server a search was performed against or empty for all key servers."
+msgstr "Den senaste nyckelservern som en sökning genomfördes mot eller blankt för alla nyckelservrar."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "Det senaste sökmönstret som användes mot en nyckelserver."
+
+#: ../data/bastile.schemas.in.h:30
+msgid "This specifies the default key to use for certain operations, mainly signing."
+msgstr "Detta anger standardnyckeln som ska användas för vissa åtgärder, i huvudsak signering."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "Huruvida nycklar ska hämtas automatiskt från nyckelservrar eller inte."
+
+#: ../data/bastile.schemas.in.h:32
+msgid "Whether or not modified keys should be automatically synced with the default key server."
+msgstr "Huruvida ändrade nycklar ska synkroniseras automatiskt med standardnyckelservern eller inte."
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Huruvida kryptering alltid ska ske till standardnyckel"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Huruvida ASCII-pansar ska användas"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Lägg till lösenordsnyckelring"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Nytt nyckelringsnamn:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid "Please choose a name for the new keyring. You will be prompted for an unlock password."
+msgstr "Välj ett namn för den nya nyckelringen. Du kommer att bli tillfrågad efter ett upplåsningslösenord."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Värdnamnet eller adressen för servern."
+
+#: ../gkr/bastile-gkr-add-item.c:61
+#: ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Kunde inte lägga till nyckelring"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Lägg till lösenord"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:15
+#: ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_Beskrivning:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "N_yckelring:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_Lösenord:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "Visa lösen_ord"
+
+#: ../gkr/bastile-gkr-item.c:470
+msgid "Web Password"
+msgstr "Webblösenord"
+
+#: ../gkr/bastile-gkr-item.c:472
+msgid "Network Password"
+msgstr "Nätverkslösenord"
+
+#: ../gkr/bastile-gkr-item.c:474
+#: ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Lösenord"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Är du säker på att du vill ta bort lösenordet \"%s\"?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Är du säker på att du vill ta bort %d lösenord?"
+msgstr[1] "Är du säker på att du vill ta bort %d lösenord?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Kom åt en nätverksutdelning eller resurs"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Kom åt en webbplats"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "Låser upp en PGP-nyckel"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Låser upp en Secure Shell-nyckel"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Sparade lösenord eller inloggning"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Nätverksinloggning"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Kunde inte ändra lösenord."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Kunde inte ställa in beskrivning."
+
+#: ../gkr/bastile-gkr-item-properties.c:656
+msgid "Couldn't set application access."
+msgstr "Kunde inte ställa in programåtkomst."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Lösenord:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Sökväg:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Behörighet:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Tekniska detaljer:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Program"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Detaljer"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Nyckel"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Nyckelegenskaper"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Inloggningsnamn:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Server:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Visa löse_nord"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+msgid "Type:"
+msgstr "Typ:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Användning:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:17
+msgid "_Read"
+msgstr "_Läsa"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Write"
+msgstr "_Skriva"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:20
+msgctxt "infinitive"
+msgid "_Delete"
+msgstr "_Ta bort"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Listar lösenord"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Lösenord: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Lösenord:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Lösenordsnyckelring"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Används för att lagra program- och nätverkslösenord"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Lagrat lösenord"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Lagra ett lösenord eller hemlighet på ett säkert sätt."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Kunde inte låsa upp nyckelringen"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Kunde inte låsa nyckelringen"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Kunde inte ställa in standardnyckelringen"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Kunde inte ändra lösenord för nyckelring"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Lås"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid "Lock the password storage keyring so a master password is required to unlock it."
+msgstr "Lås nyckelring för lösenordslagring så ett huvudlösenord krävs för att låsa upp den."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "Lås _upp"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid "Unlock the password storage keyring with a master password so it is available for use."
+msgstr "Lås upp nyckelring för lösenordslagring med ett huvudlösenord så att den är tillgänglig för användning."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "_Ange som standard"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "Program lagrar vanligtvis nya lösenord i standardnyckelringen."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "Ändra _lösenord"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr "Ändra upplåsningslösenordet för nyckelring för lösenordslagring"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Är du säker på att du vill ta bort lösenordsnyckelringen \"%s\"?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "Created:"
+msgstr "Skapad:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Nyckelring"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Egenskaper för nyckelring"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_Namn:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Åtkomst till nyckelringen nekades"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Demonen mate-keyring kör inte"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Nyckelringen har redan låsts upp"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Ingen sådan nyckelring finns"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Kunde inte kommunicera med nyckelringsdemonen"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Objektet finns redan"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Internt fel vid åtkomst till mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238
+#: ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Sparar objekt..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Tar bort objekt..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Tar bort nyckelring..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Listar lösenordsnyckelringar"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid "No encryption keys were found with which to perform the operation you requested.  The program <b>Passwords and Encryption Keys</b> will now be started so that you may either create a key or import one."
+msgstr "Inga krypteringsnycklar hittades som kan användas för den begärda åtgärden.  Programmet <b>Lösenord och krypteringsnycklar</b> kommer nu att startas så att du antingen kan skapa eller importera en nyckel."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "Alla nycklar"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "Markerade mottagare"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "Sök _efter:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "Ingen (Signera inte)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Signera detta meddelande som %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "_Signera meddelande som:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Namn"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "Nyckel-id"
+
+#: ../libegg/egg-datetime.c:325
+msgid "Display flags"
+msgstr "Visa flaggor"
+
+#: ../libegg/egg-datetime.c:326
+msgid "Displayed date and/or time properties"
+msgstr "Visade egenskaper för datum och/eller tid"
+
+#: ../libegg/egg-datetime.c:331
+msgid "Lazy mode"
+msgstr "Avslappnat läge"
+
+#: ../libegg/egg-datetime.c:332
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "Avslappnat läge normaliserar inte angivna värden för datum och tid"
+
+#: ../libegg/egg-datetime.c:337
+msgid "Year"
+msgstr "År"
+
+#: ../libegg/egg-datetime.c:338
+msgid "Displayed year"
+msgstr "Visat år"
+
+#: ../libegg/egg-datetime.c:343
+msgid "Month"
+msgstr "Månad"
+
+#: ../libegg/egg-datetime.c:344
+msgid "Displayed month"
+msgstr "Visad månad"
+
+#: ../libegg/egg-datetime.c:349
+msgid "Day"
+msgstr "Dag"
+
+#: ../libegg/egg-datetime.c:350
+msgid "Displayed day of month"
+msgstr "Visad dag i månad"
+
+#: ../libegg/egg-datetime.c:355
+msgid "Hour"
+msgstr "Timme"
+
+#: ../libegg/egg-datetime.c:356
+msgid "Displayed hour"
+msgstr "Visad timme"
+
+#: ../libegg/egg-datetime.c:361
+msgid "Minute"
+msgstr "Minut"
+
+#: ../libegg/egg-datetime.c:362
+msgid "Displayed minute"
+msgstr "Visad minut"
+
+#: ../libegg/egg-datetime.c:367
+msgid "Second"
+msgstr "Sekund"
+
+#: ../libegg/egg-datetime.c:368
+msgid "Displayed second"
+msgstr "Visad sekund"
+
+#: ../libegg/egg-datetime.c:373
+msgid "Lower limit year"
+msgstr "Lägre gräns för år"
+
+#: ../libegg/egg-datetime.c:374
+msgid "Year part of the lower date limit"
+msgstr "Årsdelen av lägre datumgränsen "
+
+#: ../libegg/egg-datetime.c:379
+msgid "Upper limit year"
+msgstr "Övre gräns för år"
+
+#: ../libegg/egg-datetime.c:380
+msgid "Year part of the upper date limit"
+msgstr "Årsdelen av övre datumgränsen "
+
+#: ../libegg/egg-datetime.c:385
+msgid "Lower limit month"
+msgstr "Lägre gräns för månad"
+
+#: ../libegg/egg-datetime.c:386
+msgid "Month part of the lower date limit"
+msgstr "Månadsdelen av lägre datumgränsen "
+
+#: ../libegg/egg-datetime.c:391
+msgid "Upper limit month"
+msgstr "Övre gräns för månad"
+
+#: ../libegg/egg-datetime.c:392
+msgid "Month part of the upper date limit"
+msgstr "Månadsdelen av övre datumgränsen "
+
+#: ../libegg/egg-datetime.c:397
+msgid "Lower limit day"
+msgstr "Lägre gräns för dag"
+
+#: ../libegg/egg-datetime.c:398
+msgid "Day of month part of the lower date limit"
+msgstr "Dag i månad-delen av lägre datumgränsen "
+
+#: ../libegg/egg-datetime.c:403
+msgid "Upper limit day"
+msgstr "Övre gräns för dag"
+
+#: ../libegg/egg-datetime.c:404
+msgid "Day of month part of the upper date limit"
+msgstr "Dag i månad-delen av övre datumgränsen "
+
+#: ../libegg/egg-datetime.c:409
+msgid "Lower limit hour"
+msgstr "Lägre gräns för timme"
+
+#: ../libegg/egg-datetime.c:410
+msgid "Hour part of the lower time limit"
+msgstr "Timmesdelen av lägre datumgränsen "
+
+#: ../libegg/egg-datetime.c:415
+msgid "Upper limit hour"
+msgstr "Övre gräns för timme"
+
+#: ../libegg/egg-datetime.c:416
+msgid "Hour part of the upper time limit"
+msgstr "Timmesdelen av övre datumgränsen "
+
+#: ../libegg/egg-datetime.c:421
+msgid "Lower limit minute"
+msgstr "Lägre gräns för minut"
+
+#: ../libegg/egg-datetime.c:422
+msgid "Minute part of the lower time limit"
+msgstr "Minutdelen av lägre datumgränsen "
+
+#: ../libegg/egg-datetime.c:427
+msgid "Upper limit minute"
+msgstr "Övre gräns för minut"
+
+#: ../libegg/egg-datetime.c:428
+msgid "Minute part of the upper time limit"
+msgstr "Minutdelen av övre datumgränsen "
+
+#: ../libegg/egg-datetime.c:433
+msgid "Lower limit second"
+msgstr "Lägre gräns för sekund"
+
+#: ../libegg/egg-datetime.c:434
+msgid "Second part of the lower time limit"
+msgstr "Sekunddelen av lägre datumgränsen "
+
+#: ../libegg/egg-datetime.c:439
+msgid "Upper limit second"
+msgstr "Övre gräns för sekund"
+
+#: ../libegg/egg-datetime.c:440
+msgid "Second part of the upper time limit"
+msgstr "Sekunddelen av övre datumgränsen "
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:482
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:1"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Date"
+msgstr "Datum"
+
+#: ../libegg/egg-datetime.c:504
+msgid "Enter the date directly"
+msgstr "Ange datumet direkt"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select Date"
+msgstr "Välj datum"
+
+#: ../libegg/egg-datetime.c:511
+msgid "Select the date from a calendar"
+msgstr "Välj datumet från en kalender"
+
+#: ../libegg/egg-datetime.c:529
+#: ../libegg/egg-datetime.c:2213
+msgid "Time"
+msgstr "Tid"
+
+#: ../libegg/egg-datetime.c:529
+msgid "Enter the time directly"
+msgstr "Ange tiden direkt"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select Time"
+msgstr "Välj tid"
+
+#: ../libegg/egg-datetime.c:536
+msgid "Select the time from a list"
+msgstr "Välj tiden från en lista"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:810
+msgid "24hr: no"
+msgstr "yes"
+
+#: ../libegg/egg-datetime.c:814
+#: ../libegg/egg-datetime.c:1274
+#: ../libegg/egg-datetime.c:1278
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:816
+#: ../libegg/egg-datetime.c:1275
+#: ../libegg/egg-datetime.c:1282
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:824
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d.%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:827
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d.%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:831
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d.%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:834
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d.%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1190
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1255
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u.%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Filen är inte en giltig .desktop-fil"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Okänd Version \"%s\" i desktop-fil"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Startar %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Programmet tar inte emot dokument på kommandoraden"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Okänt startalternativ: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Kan inte skicka dokument-URI:er till en \"Type=Link\"-skrivbordspost"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Inte ett startbart objekt"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Inaktivera anslutning till sessionshanterare"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Ange fil som innehåller sparad konfiguration"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FIL"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Ange id för sessionshantering"
+
+#: ../libegg/eggsmclient.c:231
+#: ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "Id"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Flaggor för sessionshantering:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Visa flaggor för sessionshantering"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Lägg till nyckelserver"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Värd:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Typ av nyckelserver:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Porten att komma åt servern på."
+
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "initialt temporärt objekt"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Nyckel importerad"
+msgstr[1] "\"Nycklar importerade"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importerade %d nyckel"
+msgstr[1] "Importerade %d nycklar"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importerade en nyckel för"
+msgstr[1] "Importerade nycklar för"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Notifieringsmeddelanden"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Symmetrisk nyckel"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Publik nyckel"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Privat nyckel"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Inloggningsuppgifter"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Identitet"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "Lösenfras"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "Bekräfta:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Inte en giltig adress för en nyckelserver."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid "For help contact your system adminstrator or the administrator of the key server."
+msgstr "Kontakta din systemadminstratör eller administratören för nyckelservern för hjälp."
+
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "Url"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Anpassad"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "Ingen: Publicera inga nycklar"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Hämta nycklar automatiskt från _nyckelservrar"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Synkronisera automatiskt _ändrade nycklar med nyckelservrar"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Nyckelservrar"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "_Hitta nycklar via:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "_Publicera nycklar på:"
+
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Förloppstitel"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Otillgänglig"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "Nyckeldata"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "Flera nycklar"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "Kunde inte köra file-roller"
+
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "Kunde inte paketera filer"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "File-roller-processen avslutades inte korrekt"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "Alla nyckelfiler"
+
+#: ../libbastile/bastile-util.c:968
+#: ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Alla filer"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "Arkivfiler"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>En fil finns redan med detta namn.</b>\n"
+"\n"
+"Vill du ersätta den med en ny fil?"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "_Ersätt"
+
+#: ../libbastile/bastile-validity.c:40
+#: ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Unknown"
+msgstr "Okänd"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "Aldrig"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Marginal"
+msgstr "Marginell"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Full"
+msgstr "Fullständig"
+
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+msgid "Ultimate"
+msgstr "Förbehållslös"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Inaktiverat"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Spärrad"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Kunde inte visa hjälp: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Utgångsdatum:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Generera en ny undernyckel"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Om nyckeln aldrig går ut"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "Nyckel_längd:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "Nyckel_typ:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Nyckelns längd"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Utgår _aldrig"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Lägg till användaridentitet"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Skapa ny användaridentitet"
+
+#: ../pgp/bastile-add-uid.xml.h:3
+#: ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "Fullständigt _namn:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "Nyckelko_mmentar:"
+
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Måste vara minst 5 tecken lång"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Valfri kommentar som beskriver nyckeln"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "Valfri e-postadress"
+
+#: ../pgp/bastile-add-uid.xml.h:8
+#: ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_E-postadress:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "Ä_ndra"
+
+#: ../pgp/bastile-expires.xml.h:2
+#: ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Spärra nyckel"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "_Går aldrig ut"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Kunde inte lägga till undernyckel"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Lägg till undernyckel till %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182
+#: ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "DSA (endast signering)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (endast kryptering)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196
+#: ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "RSA (endast signering)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (endast kryptering)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Kunde inte lägga till användaridentitet"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Lägg till användaridentitet till %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Dekryptering misslyckades. Du kanske inte har dekrypteringsnyckeln."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Ogiltigt utgångsdatum"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Utgångsdatumet måste vara i framtiden"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Kunde inte ändra utgångsdatum"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Utgång: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "PGP-nyckel"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Används för att kryptera e-post och filer"
+
+#: ../pgp/bastile-gpgme-generate.c:116
+#: ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "Kunde inte generera PGP-nyckel"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "Lösenfras för ny PGP-nyckel"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "Ange lösenfrasen för din nya nyckel två gånger."
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "Kunde inte generera nyckel"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "Genererar nyckel"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Felaktigt lösenord"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr "Detta var den tredje gången som du angav ett felaktigt lösenord. Försök igen."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Fotot är för stort</b></big>\n"
+"Den rekommenderade storleken för ett foto i din nyckel är %d × %d bildpunkter."
+
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "_Ändra inte storlek"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "Ändra _storlek"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid "This is not a image file, or an unrecognized kind of image file. Try to use a JPEG image."
+msgstr "Det här är inte en bildfil, eller en okänd typ av bildfil. Prova att använda en JPEG-bild."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Alla bildfiler"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Alla JPEG-filer"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Välj foto att lägga till i nyckeln"
+
+#: ../pgp/bastile-gpgme-photos.c:290
+#: ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Kunde inte lägga till foto"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Filen kunde inte läsas in. Den kan vara i ett ogiltigt format"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Är du säker på att du vill ta bort det aktuellt fotot från din nyckel?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Kunde inte ta bort foto"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Kunde inte spärra undernyckel"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Spärra: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Ingen anledning"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Ingen anledning för nyckelspärr"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Komprometterad"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Nyckeln har blivit komprometterad"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Ersatts"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Nyckeln har ersatts med en annan"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Används inte"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Nyckeln används inte längre"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid "You are about to add %s as a revoker for %s. This operation cannot be undone! Are you sure you want to continue?"
+msgstr "Du håller på att lägga till %s som spärr för %s. Denna åtgärd kan inte göras ogjord! Är du säker på att du vill fortsätta?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Kunde inte lägga till spärr"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"Denna nyckel har redan signerats av\n"
+"\"%s\""
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "Kunde inte signera nyckel"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157
+#: ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Inga användbara nycklar för signering"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid "You have no personal PGP keys that can be used to indicate your trust of this key."
+msgstr "Du har inga personliga PGP-nycklar som kan användas för att indikera din tillit till den här nyckeln."
+
+#: ../pgp/bastile-gpgme-source.c:99
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Felaktig lösenfras."
+
+#: ../pgp/bastile-gpgme-source.c:103
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Ange ny lösenfras för \"%s\""
+
+#: ../pgp/bastile-gpgme-source.c:105
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Ange lösenfras för \"%s\""
+
+#: ../pgp/bastile-gpgme-source.c:108
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Ange ny lösenfras"
+
+#: ../pgp/bastile-gpgme-source.c:110
+msgid "Enter passphrase"
+msgstr "Ange lösenfras"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:722
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Läste in %d nyckel"
+msgstr[1] "Läste in %d nycklar"
+
+#: ../pgp/bastile-gpgme-source.c:777
+msgid "Loading Keys..."
+msgstr "Läser in nycklar..."
+
+#: ../pgp/bastile-gpgme-source.c:820
+msgid "Invalid key data (missing UIDs). This may be due to a computer with a date set in the future or a missing self-signature."
+msgstr "Ogiltigt nyckeldata (UID:er saknas). Det här kan bero på en dator som har datumet inställt till framtiden eller att en självsignatur saknas."
+
+#: ../pgp/bastile-gpgme-source.c:910
+#: ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "Importerar nycklar"
+
+#: ../pgp/bastile-gpgme-source.c:946
+msgid "Exporting Keys"
+msgstr "Exporterar nycklar"
+
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "Sökning var inte tillräckligt specifik. Servern \"%s\" hittade för många nycklar."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Kunde inte kommunicera med servern \"%s\": %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Söker efter nycklar..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Skickar upp nycklar..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Hämtar nycklar..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Söker efter nycklar på: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072
+#: ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Ansluter till: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "HTTP-nyckelserver"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Kunde inte kommunicera med \"%s\": %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Kunde inte slå upp adress: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Slår upp serveradress: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Söker efter nycklar som innehåller \"%s\"..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Söker efter nyckel-id \"%s\"..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Hämtar fjärrnycklar..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Skickar nycklar till nyckelserver..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP-nyckelserver"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "Si_gnera nyckel..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Signera publik nyckel"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Är du säker på att du vill ta bort %s permanent?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Är du säker på att du permanent vill ta bort %d nycklar och identiteter?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Är du säker på att du permanent vill ta bort %d nycklar?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Är du säker på att du permanent vill ta bort %d identiteter?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1
+#: ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Avancerade nyckelalternativ</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr "En PGP-nyckel låter dig kryptera e-post eller filer till andra personer."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Algoritmer här"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "Ska_pa"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "U_tgångsdatum:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6
+#: ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "Krypterings_typ:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Generera en ny nyckel"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9
+#: ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "Nyckel_styrka (bitar):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "_Går aldrig ut"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "Ny PGP-nyckel"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_Kommentar:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Private PGP Key"
+msgstr "Privat PGP-nyckel"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Public PGP Key"
+msgstr "Publik PGP-nyckel"
+
+#: ../pgp/bastile-pgp-key.c:583
+#: ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Utgången"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Kunde inte ändra primär användaridentitet"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Är du säker på att du vill ta bort \"%s\" permanent?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Kunde inte ta bort användaridentitet"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Okänd]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Namn/E-post"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "Signatur-id"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Kunde inte ändra primärt foto"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(okänd)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Den här nyckeln gick ut den: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Är du säker på att du vill ta bort undernyckel %d av %s permanent?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Kunde inte ta bort undernyckel"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "Kunde inte ändra tillit"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006
+#: ../src/bastile-viewer.c:290
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Kan inte exportera nyckel till \"%s\""
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Exportera komplett nyckel"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Kunde inte exportera nyckel."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "Aldrig"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Typ"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Skapad"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Går ut"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Status"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Styrka"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "Bra"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Åtgärder</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Kommentar:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Datum</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>E-post:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Fingeravtryck</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>Nyckel-id:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Nyckelnamn och signaturer</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+msgid "<b>Photo </b>"
+msgstr "<b>Foto </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+msgid "<b>Technical Details</b>"
+msgstr "<b>Tekniska detaljer</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Den här nyckeln har spärrats</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has expired</b>"
+msgstr "<b>Den här nyckeln har gått ut</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Typ:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:14
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:13
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Användning:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Undernycklar</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+msgid "Add"
+msgstr "Lägg till"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add a photo to this key"
+msgstr "Lägg till ett foto till denna nyckel"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Ändra _lösenfras"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "Dekryptera filer och din e-post."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Delete"
+msgstr "Ta bort"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+msgid "Expire"
+msgstr "Utgång"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Expires:"
+msgstr "Går ut:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+msgid "Export"
+msgstr "Exportera"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Go to next photo"
+msgstr "Gå till nästa foto"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to previous photo"
+msgstr "Gå till föregående foto"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+msgid "Key ID:"
+msgstr "Nyckel-id:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+msgid "Make this photo the primary photo"
+msgstr "Gör det här fotot till det primära fotot"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Names and Signatures"
+msgstr "Namn och signaturer"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Never"
+msgstr "Aldrig"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+msgid "Override Owner _Trust:"
+msgstr "Åsidosätt ägar_tillit:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Owner"
+msgstr "Ägare"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+msgid "Primary"
+msgstr "Primär"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Remove this photo from this key"
+msgstr "Ta bort det här fotot från nyckeln"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Revoke"
+msgstr "Spärra"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Sign"
+msgstr "Signera"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Strength:"
+msgstr "Styrka:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "Ägaren av nyckeln har spärrat nyckeln. Den kan inte användas längre."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+msgid "_Add Name"
+msgstr "_Lägg till namn"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Export Complete Key:"
+msgstr "_Exportera komplett nyckel:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgctxt "name-of-key"
+msgid "<b>Name:</b>"
+msgstr "<b>Namn:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Datum:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Fingeravtryck:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Indikera tillit:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Din tillit för den här nyckeln</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Andra namn:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Personer som har signerat den här nyckeln:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "Kryptera filer och e-post till ägaren av nyckeln "
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Fully"
+msgstr "Fullständigt"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Jag litar på signaturer från \"%s\" på andra nycklar "
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:26
+#, no-c-format
+msgid "If you believe that the person that owns this key is '%s', <i>sign</i> this key:"
+msgstr "Du kan <i>signera</i> den här nyckeln om du vet att personen som äger denna nyckel är \"%s\":"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:28
+#, no-c-format
+msgid "If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr "Du kan <i>spärra</i> din signatur om du inte längre litar på att \"%s\" äger den här nyckeln:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+msgid "Marginally"
+msgstr "Marginellt"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Tillit"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Ultimately"
+msgstr "Förbehållslöst"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "You _Trust the Owner:"
+msgstr "Du _litar på ägaren:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Din tillit anges manuellt under fliken <i>Detaljer</i>."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "_Visa endast signaturer för personer som jag litar på"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Revoke Signature"
+msgstr "_Spärra signatur"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Sign this Key"
+msgstr "_Signera denna nyckel"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Undernyckel %d av %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Valfri beskrivning av spärrning"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "Spä_rra"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Anledning för spärr av nyckeln"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_Orsak:"
+
+#: ../pgp/bastile-signer.c:62
+msgid "You have no personal PGP keys that can be used to sign a document or message."
+msgstr "Du har inga personliga PGP-nycklar som kan användas för att signera ett dokument eller meddelande."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Hur noggrant har du kontrollerat denna nyckel?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Hur andra kommer att se den här signaturen:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Signera nyckeln som:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid "<i>Casually:</i> means you have done a casual verification that the key is owned by the person who claims to own it. For example, you could read the key fingerprint to the owner over the phone. "
+msgstr "<i>Flyktigt:</i> betyder att du har gjort en snabb validering att nyckeln ägs av personen som hävdar sig att vara ägare av den. Du kan till exempel läsa upp nyckelns fingeravtryck till ägaren via telefon. "
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Nyckelnamn</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid "<i>Not at all:</i> means you believe the key is owned by the person who claims to own it, but you could not or did not verify this to be a fact."
+msgstr "<i>Inte alls:</i> betyder att du tror att nyckeln ägs av personen som hävdar sig att vara ägaren av den, men du kunde inte eller validerade inte att detta verkligen stämde."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid "<i>Very Carefully:</i> Select this only if you are absolutely sure that this key is genuine."
+msgstr "<i>Mycket noggrant:</i> Välj endast det här alternativet om du absolut är säker på att den här nyckeln är genuin."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Genom att signera visar du din tillit till att den här nyckeln tillhör:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Jag kan _spärra den här signaturen senare."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Signera nyckel"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid "You could use a hard to forge photo identification (such as a passport) to personally check that the name on the key is correct. You should have also used email to check that the email address belongs to the owner."
+msgstr "Du kan använda en svårförfalskad fotoidentifikation (såsom ett pass) för att personligen kontrollera att namnet på nyckeln är korrekt. Du bör även skicka ett e-postmeddelande för att kontrollera att e-postadress tillhör ägaren. "
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_Flyktigt"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_Inte alls"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_Andra får inte se den här signaturen"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_Signera"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Signerare:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_Mycket noggrant"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_Signera meddelande med nyckel:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "Certifikat"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Är du säker på att du vill ta bort certifikatet \"%s\"?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Är du säker på att du vill ta bort %d certifikat?"
+msgstr[1] "Är du säker på att du vill ta bort %d certifikat?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Ändra lösenfras"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_Bekräfta lösenfras:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Bekräfta ny lösenfras"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "Ny _lösenfras:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Hantera dina lösenord och krypteringsnycklar"
+
+#: ../src/bastile.desktop.in.in.h:2
+#: ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "Lösenord och krypteringsnycklar"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>_Välj vilket sorts objekt som du vill skapa:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "F_ortsätt"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Skapa ny ..."
+
+#: ../src/bastile-key-manager.c:233
+#: ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "%d nyckel markerad"
+msgstr[1] "%d nycklar markerade"
+
+#: ../src/bastile-key-manager.c:410
+#: ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533
+#: ../src/bastile-viewer.c:458
+msgid "Couldn't import keys"
+msgstr "Kunde inte importera nycklar"
+
+#: ../src/bastile-key-manager.c:415
+#: ../src/bastile-viewer.c:463
+msgid "Imported keys"
+msgstr "Importerade nycklar"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "Importerar nycklar"
+
+#: ../src/bastile-key-manager.c:487
+#: ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Importera nyckel"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Okänd nyckeltyp, eller ogiltigt dataformat"
+
+#: ../src/bastile-key-manager.c:731
+#: ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_Fjärr"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "Stäng detta program"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "_Ny..."
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "Skapa en ny nyckel eller objekt"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "_Importera..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "Importera från en fil"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "Importera från urklipp"
+
+#: ../src/bastile-key-manager.c:744
+#: ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_Sök fjärrnycklar..."
+
+#: ../src/bastile-key-manager.c:745
+#: ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "Sök efter nycklar på en nyckelserver"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "Synkronisera och _publicera nycklar..."
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Publicera och/eller synkronisera dina nycklar med de på nätet."
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "T_yper"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "Visa typkolumnen"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "Utgångs_datum"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "Visa utgångskolumnen"
+
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "_Tillit"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "Visa ägartillitskolumnen"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "_Giltighet"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "Visa giltighetskolumnen"
+
+#: ../src/bastile-key-manager.c:931
+msgid "Filter:"
+msgstr "Filter:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Förstagångsalternativ:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Generera en ny nyckel åt dig själv: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Importera existerande nycklar från en fil:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "_Mina personliga nycklar"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Andra _nycklar"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "För att komma igång med kryptering behöver du nycklar."
+
+#: ../src/bastile-key-manager.xml.h:7
+#: ../src/bastile-viewer.c:522
+msgid "_Import"
+msgstr "_Importera"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_Lösenord"
+
+#: ../src/bastile-key-manager-store.c:685
+#: ../src/bastile-viewer.c:256
+msgid "Couldn't export keys"
+msgstr "Kunde inte exportera nycklar"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Giltighet"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Utgångsdatum"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "Stäng detta fönster"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "_Fäll ut alla"
+
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "Fäll ut alla listningar"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "_Fäll ihop alla"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "Fäll ihop alla listningar"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "Fjärrnycklar"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Fjärrnycklar innehållande \"%s\""
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Nyckelservrar:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Delade nycklar nära mig:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Sök fjärrnycklar"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid "This will find keys for others on the Internet. These keys can then be imported into your local key ring."
+msgstr "Detta kommer att söka nycklar för andra på Internet. Dessa nycklar kan sedan importeras till din lokala nyckelring."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Platser att söka på:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_Sök"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_Sök efter nycklar innehållande: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Kunde inte publicera nycklar på servern"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Kunde inte hämta nycklar från server: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d nyckel är markerad för synkronisering</b>"
+msgstr[1] "<b>%d nycklar är markerade för synkronisering</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Synkroniserar nycklar"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Synkroniserar nycklar..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Synkronisera nycklar"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid "This will publish the keys in your key ring so they're available for others to use. You'll also get any changes others have made since you received their keys."
+msgstr "Detta kommer att publicera nycklarna i din nyckelring så att de blir tillgängliga för andra att använda. Du kan även få de ändringar som andra har gjort sedan du mottog deras nycklar."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid "This will retrieve any changes others have made since you received their keys. No key server has been chosen for publishing, so your keys will not be made available to others."
+msgstr "Detta kommer att hämta de ändringar andra har gjort sedan du hämtade deras nycklar. Ingen nyckelserver har valts för publicering, så dina nycklar kommer inte att göras tillgängliga för andra."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_Nyckelservrar"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Synkronisera"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Versionsnummer för detta program"
+
+#: ../src/bastile-main.c:78
+#: ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "Hanterare för krypteringsnycklar"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "Bidrag:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>\n"
+"Christian Rose\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "Bastile-projektets webbplats"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:168
+msgid "_File"
+msgstr "_Arkiv"
+
+#: ../src/bastile-viewer.c:169
+msgid "_Edit"
+msgstr "R_edigera"
+
+#: ../src/bastile-viewer.c:170
+msgid "_View"
+msgstr "_Visa"
+
+#: ../src/bastile-viewer.c:171
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../src/bastile-viewer.c:173
+msgid "Prefere_nces"
+msgstr "Inställni_ngar"
+
+#: ../src/bastile-viewer.c:174
+msgid "Change preferences for this program"
+msgstr "Ändra inställningar för detta program"
+
+#: ../src/bastile-viewer.c:177
+msgid "About this program"
+msgstr "Om detta program"
+
+#: ../src/bastile-viewer.c:178
+msgid "_Contents"
+msgstr "_Innehåll"
+
+#: ../src/bastile-viewer.c:179
+msgid "Show Bastile help"
+msgstr "Visa hjälp för Bastile"
+
+#: ../src/bastile-viewer.c:276
+msgid "Export public key"
+msgstr "Exportera publik nyckel"
+
+#: ../src/bastile-viewer.c:296
+msgid "Exporting keys"
+msgstr "Exporterar nycklar"
+
+#: ../src/bastile-viewer.c:321
+msgid "Couldn't retrieve data from key server"
+msgstr "Kunde inte hämta data från nyckelserver"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:340
+msgid "Copied keys"
+msgstr "Kopierade nycklar"
+
+#: ../src/bastile-viewer.c:360
+msgid "Retrieving keys"
+msgstr "Hämtar nycklar"
+
+#: ../src/bastile-viewer.c:375
+msgid "Couldn't delete."
+msgstr "Kunde inte ta bort."
+
+#: ../src/bastile-viewer.c:409
+msgid "Deleting..."
+msgstr "Tar bort..."
+
+#: ../src/bastile-viewer.c:435
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s är en privat nyckel. Är du säker på att du vill fortsätta?"
+
+#: ../src/bastile-viewer.c:483
+msgid "Importing keys from key servers"
+msgstr "Importerar nycklar från nyckelservrar"
+
+#: ../src/bastile-viewer.c:509
+msgid "Show properties"
+msgstr "Visa egenskaper"
+
+#: ../src/bastile-viewer.c:510
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_Ta bort"
+
+#: ../src/bastile-viewer.c:511
+msgid "Delete selected items"
+msgstr "Ta bort markerade objekt"
+
+#: ../src/bastile-viewer.c:515
+msgid "E_xport..."
+msgstr "E_xportera..."
+
+#: ../src/bastile-viewer.c:516
+msgid "Export to a file"
+msgstr "Exportera till en fil"
+
+#: ../src/bastile-viewer.c:518
+msgid "Copy to the clipboard"
+msgstr "Kopiera till urklipp"
+
+#: ../src/bastile-viewer.c:523
+msgid "Import selected keys to local key ring"
+msgstr "Importera markerade nycklar till lokal nyckelring"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Ange din Secure Shell-lösenfras:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Konfigurera _nyckel för Secure Shell..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid "Send public Secure Shell key to another machine, and enable logins using that key."
+msgstr "Skicka publik Secure Shell-nyckel till en annan dator, och aktivera inloggningar med den nyckeln."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "Är du säker på att du vill ta bort Secure Shell-nyckeln \"%s\"?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "Är du säker på att du vill ta bort %d Secure Shell-nycklar?"
+
+#: ../ssh/bastile-ssh-generate.c:59
+#: ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95
+#: ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Används för att komma åt andra datorer (t.ex. via en terminal)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Kunde inte generera Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "Skapar Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid "<i>Use your email address, and any other reminder you need about what this key is for.</i>"
+msgstr "<i>Använd din e-postadress, och något annat som påminner dig om vad den här nyckeln är till för.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid "A Secure Shell (SSH) key lets you connect securely to trusted computers using SSH, without entering a different password for each of them."
+msgstr "En Secure Shell-nyckel (SSH) låter dig ansluta säkert till pålitliga datorer med SSH, utan att ange ett annat lösenord för var och en av dem."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid "If there is already a computer you want to use this key with, you can set up that computer to recognize your key now. "
+msgstr "Om det redan finns en dator som du vill använda den här nyckeln på, kan du konfigurera den datorn till att känna igen din nyckel nu."
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Ny Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_Skapa och konfigurera"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "_Skapa bara nyckel"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_Nyckelbeskrivning:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Oläsbar Secure Shell-nyckel)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Ogiltig"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Privat Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Publik Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Kunde inte byta namn på nyckel."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Kunde inte ändra behörighet för nyckel."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Kunde inte ändra lösenfras för nyckel."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Algoritm:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Identifierare:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Plats:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Namn:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Styrka:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Tillit</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Det här gäller endast för kontot \"%s\"</i>."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "E_xportera komplett nyckel"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr "Ägaren av den här nyckeln är _behörig att ansluta till den här datorn"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Används för att ansluta till andra datorer."
+
+#: ../ssh/bastile-ssh-operation.c:143
+#: ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH-kommandot avslutades oväntat."
+
+#: ../ssh/bastile-ssh-operation.c:151
+#: ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "SSH-kommandot misslyckades."
+
+#: ../ssh/bastile-ssh-operation.c:445
+#: ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Lösenfras:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Lösenord för fjärrvärd"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Gammal lösenfras för nyckel"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Ange den gamla lösenfrasen för: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Ny lösenfras för nyckel"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Ange den nya lösenfrasen för: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Ange lösenfras för nyckel"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Lösenfras för ny Secure Shell-nyckel"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Ange en lösenfras för din nya Secure Shell-nyckel."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Importerar nyckel: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Importerar nyckel. Ange lösenfras"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Ingen privat nyckel-fil finns tillgänglig för denna nyckel."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "Kunde inte konfigurera Secure Shell-nycklar på fjärrdator."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Konfigurerar Secure Shell-nycklar..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>t.ex: filserver.exempel.se:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Konfigurera dator för SSH-anslutning"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid "To use your Secure Shell key with another computer that uses SSH, you must already have a login account on that computer."
+msgstr "För att använda din Secure Shell-nyckel med en annan dator som använder SSH så måste du redan ha ett inloggningskonto på den datorn."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "_Datornamn:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_Inloggningsnamn:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_Konfigurera"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "Kunde inte dela ut nycklar"
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "Kan inte publicera upptäcktsinformation på nätverket."
+#~ msgid "%s's encryption keys"
+#~ msgstr "Krypteringsnycklar för %s"
+#~ msgid "Key Sharing"
+#~ msgstr "Nyckeldelning"
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "Dela ut dina nycklar gör att andra personer på ditt nätverk kan använda "
+#~ "nycklarna som du har samlat på dig. Det här betyder att de automatiskt "
+#~ "kan kryptera saker åt dig eller till de du känner, utan att du behöver "
+#~ "skicka dem din nyckel.\n"
+#~ "\n"
+#~ "<b>Observera:</b> Dina personliga nycklar kommer inte att komprometteras."
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "_Dela mina nycklar med andra på mitt nätverk"
+#~ msgid "Bastile Daemon"
+#~ msgstr "Bastile-demon"
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>X nycklar är markerade för synkronisering</b>"
+#~ msgid ""
+#~ "One or more of the deleted keys are private keys. Are you sure you want "
+#~ "to proceed?"
+#~ msgstr ""
+#~ "En eller flera av de borttagna nycklarna är privata nycklar. Är du säker "
+#~ "på att du vill fortsätta?"
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/nate/.ssh/blah_rsa"
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+#~ msgid "Create a PGP Key"
+#~ msgstr "Skapa en PGP-nyckel"
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "Okänt\n"
+#~ "Aldrig\n"
+#~ "Marginell\n"
+#~ "Fullständig\n"
+#~ "Förbehållslös"
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "Okänt\n"
+#~ "Aldrig\n"
+#~ "Marginellt\n"
+#~ "Fullständigt\n"
+#~ "Förbehållslöst"
+#~ msgid "Other _Collected Keys"
+#~ msgstr "Övriga _insamlade nycklar"
+#~ msgid "_Trusted Keys"
+#~ msgstr "_Pålitliga nycklar"
+#~ msgid "_About"
+#~ msgstr "_Om"
+#~ msgid "P_roperties"
+#~ msgstr "E_genskaper"
+#~ msgid "_Copy"
+#~ msgstr "_Kopiera"
+#~ msgid "Passwords"
+#~ msgstr "Lösenord"
+#~ msgid "Unavailable Key"
+#~ msgstr "Otillgänglig nyckel"
+#~ msgid "<i>Not Part of Certificate</i>"
+#~ msgstr "<i>Inte en del av certifikatet</i>"
+#~ msgid "<i>unknown</i>"
+#~ msgstr "<i>okänd</i>"
+#~ msgid "<Not Part of Certificate>"
+#~ msgstr "<Inte en del av certifikatet>"
+#~ msgid "<b>Fingerprints</b>"
+#~ msgstr "<b>Fingeravtryck</b>"
+#~ msgid "<b>Issued By</b>"
+#~ msgstr "<b>Utfärdat av</b>"
+#~ msgid "<b>Issued To</b>"
+#~ msgstr "<b>Utfärdat till</b>"
+#~ msgid "<b>This certificate has been verified for the following uses:</b>"
+#~ msgstr ""
+#~ "<b>Detta certifikat har verifierats för följande användningsområden:</b>"
+#~ msgid "<b>Validity</b>"
+#~ msgstr "<b>Giltighet</b>"
+#~ msgid "Email Recipient Certificate"
+#~ msgstr "Certifikat för e-postmottagare"
+#~ msgid "Email Signer Certificate"
+#~ msgstr "Certifikat för e-postsignering"
+#~ msgid "Expires On"
+#~ msgstr "Går ut den"
+#~ msgid "Issued On"
+#~ msgstr "Utfärdat den"
+#~ msgid "MD5 Fingerprint"
+#~ msgstr "MD5-fingeravtryck"
+#~ msgid "Organization (O)"
+#~ msgstr "Organisation (O)"
+#~ msgid "Organizational Unit (OU)"
+#~ msgstr "Organisationsenhet (OU)"
+#~ msgid "SHA1 Fingerprint"
+#~ msgstr "SHA1-fingeravtryck"
+#~ msgid "SSL Client Certificate"
+#~ msgstr "SSL-klientcertifikat"
+#~ msgid "SSL Server Certificate"
+#~ msgstr "SSL-servercertifikat"
+#~ msgid "Serial Number"
+#~ msgstr "Serienummer"
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "Inställningar för lösenord och kryptering"
+#~ msgid "Retrieving key"
+#~ msgstr "Hämtar nyckel"
+#~ msgid "Removing item"
+#~ msgstr "Tar bort objekt"
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>Automatiskt upplåst när användare loggar in.</i>"
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "Kunde inte få standardnyckelring för lösenord"
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "Kunde inte få lista över standardnyckelringar för lösenord"
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "Kunde inte ta bort nyckelring"
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "Är du säker på att du vill ta bort nyckelringen \"%s\" permanent?"
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>Standardnyckelring</b>"
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>Lösenordsnyckelringar</b>"
+#~ msgid "_Add Keyring"
+#~ msgstr "_Lägg till nyckelring"
+#~ msgid "_Remove Keyring"
+#~ msgstr "_Ta bort nyckelring"
+#~ msgid "Unknown Key: %s"
+#~ msgstr "Okänd nyckel: %s"
+#~ msgid "Unknown Key"
+#~ msgstr "Okänd nyckel"
+#~ msgid "X509 Certificate"
+#~ msgstr "X509-certifikat"
+#~ msgid "Loading..."
+#~ msgstr "Läser in..."
+#~ msgid "Invalid or unrecognized object."
+#~ msgstr "Ogiltigt eller okänt objekt."
+#~ msgid "Exporting is not yet supported."
+#~ msgstr "Exportering stöds inte än."
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "Utgångsdatum för undernyckel %d av %s"
+#~ msgid "_Quit"
+#~ msgstr "_Avsluta"
+#~ msgid "Create a new personal key"
+#~ msgstr "Skapa en ny personlig nyckel"
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "Importera nycklar till din nyckelring från en fil"
+#~ msgid "_Close"
+#~ msgstr "_Stäng"
+#~ msgid "_Key"
+#~ msgstr "_Nyckel"
+#~ msgid "_Delete Key"
+#~ msgstr "_Ta bort nyckel"
+#~ msgid "E_xport Public Key..."
+#~ msgstr "E_xportera publik nyckel..."
+#~ msgid "_Copy Public Key"
+#~ msgstr "_Kopiera publik nyckel"
+#~ msgid "Copy public part of selected keys to the clipboard"
+#~ msgstr "Kopiera den publika delen av markerade nycklar till urklipp"
+#~ msgid "Secure Shell Passphrase"
+#~ msgstr "Lösenfras för Secure Shell"
+#~ msgid "Secure Shell Key Passphrase"
+#~ msgstr "Lösenfras för Secure Shell-nyckel"
+#~ msgid "Enter the passphrase for: %s"
+#~ msgstr "Ange lösenfrasen för: %s"
+#~ msgid "Save this passphrase in my keyring"
+#~ msgstr "Spara den här lösenfrasen i min nyckelring"
+#~ msgid ""
+#~ "%s is a private key. Make sure you have a backup. Do you still want to "
+#~ "delete it?"
+#~ msgstr ""
+#~ "%s är en privat nyckel. Se till att du har en säkerhetskopia. Vill du "
+#~ "fortfarande ta bort den?"
+#~ msgid "Couldn't delete key"
+#~ msgstr "Kunde inte ta bort nyckel"
+#~ msgid "User ID"
+#~ msgstr "Användaridentitet"
+#~ msgid "Imported %d key"
+#~ msgid_plural "Imported %d keys"
+#~ msgstr[0] "Importerade %d nyckel"
+#~ msgstr[1] "Importerade %d nycklar"
+#~ msgid "Couldn't read file"
+#~ msgstr "Kunde inte läsa fil"
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "Säkerhetskopiera nyckelringar till arkiv"
+#~ msgid "bastile"
+#~ msgstr "bastile"
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "_Säkerhetskopiera nyckelringar..."
+#~ msgid "Back up all keys"
+#~ msgstr "Säkerhetskopiera alla nycklar"
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "Konfigurera dator för _Secure Shell..."
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "Kunde inte importera nycklar till nyckelring"
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "Kunde inte skriva nycklar till fil: %s"
+#~ msgid "Save Remote Keys"
+#~ msgstr "Spara fjärrnycklar"
+#~ msgid "No matching keys found"
+#~ msgstr "Inga matchande nycklar hittades"
+#~ msgid "Save Key As..."
+#~ msgstr "Spara nyckel som..."
+#~ msgid "Save selected keys as a file"
+#~ msgstr "Spara markerade nycklar som en fil"
+#~ msgid "<b>You have selected multiple files or folders</b>"
+#~ msgstr "<b>Du har markerat flera filer eller mappar</b>"
+#~ msgid ""
+#~ "Because the files are located remotely, each file will be encrypted "
+#~ "separately."
+#~ msgstr ""
+#~ "På grund av att filerna är fjärrlokaliserade, kommer varje fil att "
+#~ "krypteras separat."
+#~ msgid "Encrypt Multiple Files"
+#~ msgstr "Kryptera flera filer"
+#~ msgid "Encrypt each file separately"
+#~ msgstr "Kryptera varje fil separat"
+#~ msgid "Encrypt packed together in a package"
+#~ msgstr "Kryptera packade tillsammans i ett paket"
+#~ msgid "Package Name:"
+#~ msgstr "Paketnamn:"
+#~ msgid "Packaging:"
+#~ msgstr "Paketering:"
+#~ msgid "encrypted-package"
+#~ msgstr "krypterat-paket"
+#~ msgid "Please enter a passphrase to use."
+#~ msgstr "Ange en lösenfras att använda."
+#~ msgid "Unparseable Key ID"
+#~ msgstr "Ej tolkningsbart nyckel-id"
+#~ msgid "Unknown/Invalid Key"
+#~ msgstr "Okänd/Ogiltig nyckel"
+#~ msgid "PGP Key: %s"
+#~ msgstr "PGP-nyckel: %s"
+#~ msgid ""
+#~ "<b>Warning</b>: Your system is not configured to cache passphrases in "
+#~ "secure memory."
+#~ msgstr ""
+#~ "<b>Varning</b>: Ditt system är inte konfigurerat att mellanlagra "
+#~ "lösenfraser i ett säkert minne."
+#~ msgid "Cache _Preferences"
+#~ msgstr "_Inställningar för mellanlagring"
+#~ msgid "Cached Encryption Keys"
+#~ msgstr "Mellanlagrade krypteringsnycklar"
+#~ msgid "Change passphrase cache settings."
+#~ msgstr "Ändra inställningar för mellanlagring av lösenfraser."
+#~ msgid "Clear passphrase cache"
+#~ msgstr "Töm mellanlagrade lösenfraser"
+#~ msgid "_Clear Cache"
+#~ msgstr "_Töm mellanlager"
+#~ msgid "_Show Window"
+#~ msgstr "_Visa fönster"
+#~ msgid "Do not daemonize bastile-agent"
+#~ msgstr "Kör inte bastile-agent som en demon"
+#~ msgid "Print variables in for a C type shell"
+#~ msgstr "Skriv ut variabler för ett C-liknande skal"
+#~ msgid "Display environment variables (the default)"
+#~ msgstr "Visa miljövariabler (standard)"
+#~ msgid "Allow GPG agent request from any display"
+#~ msgstr "Tillåt GPG-agentbegäran från valfri display"
+#~ msgid "command..."
+#~ msgstr "kommando..."
+#~ msgid "Encryption Key Agent (Bastile)"
+#~ msgstr "Krypteringsnyckelagent (Bastile)"
+#~ msgid "no command specified to execute"
+#~ msgstr "inget kommandot angivet att köra"
+#~ msgid "Authorize Passphrase Access"
+#~ msgstr "Auktorisera lösenfrasåtkomst"
+#~ msgid "The passphrase is cached in memory."
+#~ msgstr "Lösenfrasen är mellanlagrad i minne."
+#~ msgid "Always ask me before using a cached passphrase"
+#~ msgstr "Fråga mig alltid före användning av en mellanlagrad lösenfras"
+#~ msgid "_Authorize"
+#~ msgstr "_Auktorisera"
+#~ msgid "Key Name"
+#~ msgstr "Nyckelnamn"
+#~ msgid ""
+#~ "After performing an decrypt or verify operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "Efter genomförandet av en dekryptering eller validering från "
+#~ "panelprogrammet, visa den resulterande texten i ett fönster."
+#~ msgid ""
+#~ "After performing an encrypt or signing operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "Efter genomförandet av en kryptering eller signering från "
+#~ "panelprogrammet, visa den resulterande texten i ett fönster."
+#~ msgid "Display cache reminder in the notification area"
+#~ msgstr "Visa cachepåminnare i notifieringsytan"
+#~ msgid "Display clipboard after decrypting"
+#~ msgstr "Visa urklipp efter dekryptering"
+#~ msgid "Display clipboard after encrypting"
+#~ msgstr "Visa urklipp efter kryptering"
+#~ msgid "Expire passwords in the cache"
+#~ msgstr "Låt alla lösenord i mellanlager gå ut"
+#~ msgid ""
+#~ "If set to 'mate' uses mate-keyring to cache passwords. When set to "
+#~ "'internal' uses internal cache."
+#~ msgstr ""
+#~ "Om inställt till \"mate\" används mate-keyring för att mellanlagra "
+#~ "lösenord. När inställt till \"internal\" används det interna mellanlagret."
+#~ msgid "Prompt before using GPG passwords in cache"
+#~ msgstr "Fråga före mellanlagrade GPG-lösenord används"
+#~ msgid ""
+#~ "Reflect the contents of the clipboard (whether encrypted, signed, etc...) "
+#~ "in the panel applet icon."
+#~ msgstr ""
+#~ "Visa innehållet i urklipp (om krypterat, signerat, etc...) i "
+#~ "panelprogrammets ikon."
+#~ msgid ""
+#~ "Set to 'true' to enable display of the cache reminder in the notification "
+#~ "area of your panel."
+#~ msgstr ""
+#~ "Ställ in till \"sant\" för att aktivera visning av cachepåminnaren i "
+#~ "notifieringsytan i din panel."
+#~ msgid ""
+#~ "Set to 'true' to have bastile-agent prompt before giving out passwords "
+#~ "it has cached."
+#~ msgstr ""
+#~ "Ställ in till \"sant\" för att få bastile-agent att fråga innan det ger "
+#~ "ut lösenord som har mellanlagrats."
+#~ msgid "Show clipboard state in panel"
+#~ msgstr "Visa tillstånd för urklipp i panelen"
+#~ msgid "The time (in minutes) to cache GPG passwords"
+#~ msgstr "Tiden (i minuter) att mellanlagra GPG-lösenord"
+#~ msgid ""
+#~ "This is the amount of time, specified in minutes, to cache GPG passwords "
+#~ "in bastile-agent."
+#~ msgstr ""
+#~ "Detta är mängden tid, angivet i minuter, som GPG-lösenord i bastile-"
+#~ "agent ska mellanlagras."
+#~ msgid ""
+#~ "This option enables the GPG password cache in the bastile-agent program. "
+#~ "The 'use-agent' setting in gpg.conf affects this setting."
+#~ msgstr ""
+#~ "Detta alternativ aktiverar mellanlagring av GPG-lösenord i programmet "
+#~ "bastile-agent. Inställningen \"use-agent\" i gpg.conf påverkar den här "
+#~ "inställningen."
+#~ msgid ""
+#~ "When set, bastile-agent expires GPG passwords in its cache after a "
+#~ "period of time."
+#~ msgstr ""
+#~ "När detta alternativ är inställt låter bastile-agent alla GPG-lösenord i "
+#~ "dess mellanlager gå ut efter en viss tidsperiod."
+#~ msgid "Whether the GPG password cache is enabled"
+#~ msgstr "Huruvida mellanlagring av GPG-lösenord är aktiverad eller inte"
+#~ msgid "None. Prompt for a key."
+#~ msgstr "Ingen. Fråga efter en nyckel."
+#~ msgid "<b>Default Key</b>"
+#~ msgstr "<b>Standardnyckel</b>"
+#~ msgid "<b>Remember PGP Passphrases</b>"
+#~ msgstr "<b>Kom ihåg PGP-lösenfraser</b>"
+#~ msgid "<i>A supported PGP passphrase caching agent is not running.</i>"
+#~ msgstr ""
+#~ "<i>En stödd mellanlagringsagent för PGP-lösenfraser är inte igång.</i>"
+#~ msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+#~ msgstr ""
+#~ "<i>Den här nyckeln används för att signera meddelanden när ingen annan "
+#~ "nyckel har valts</i>"
+#~ msgid "As_k me before using a cached passphrase"
+#~ msgstr "F_råga mig innan en mellanlagrad lösenfras används"
+#~ msgid "Encryption"
+#~ msgstr "Kryptering"
+#~ msgid "PGP Passphrases"
+#~ msgstr "PGP-lösenfraser"
+#~ msgid "Show _icon in status area when passphrases are in memory"
+#~ msgstr "Visa _ikon i statusrutan när lösenfraser finns i minnet"
+#~ msgid "When _encrypting, always include myself as a recipient"
+#~ msgstr "När _kryptering sker, inkludera alltid mig själv som en mottagare"
+#~ msgid "_Always remember passphrases whenever logged in"
+#~ msgstr "_Kom alltid ihåg lösenfrasen när inloggad"
+#~ msgid "_Default key:"
+#~ msgstr "_Standardnyckel:"
+#~ msgid "_Never remember passphrases"
+#~ msgstr "_Kom aldrig ihåg några lösenfraser"
+#~ msgid "_Remember passphrases for"
+#~ msgstr "_Kom ihåg lösenfraser i"
+#~ msgid "Couldn't set permissions on backup file."
+#~ msgstr "Kunde inte ställa in rättigheter på säkerhetskopiefilen."
+#~ msgid "Clipboard Text Encryption"
+#~ msgstr "Textkryptering för urklipp"
+#~ msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+#~ msgstr ""
+#~ "Kryptera, dekryptera eller signera urklippet (använder PGP-kryptering)."
+#~ msgid "Bastile Applet Factory"
+#~ msgstr "Panelprogramsfabrik för Bastile"
+#~ msgid "_Preferences"
+#~ msgstr "Inställni_ngar"
+#~ msgid "bastile-applet"
+#~ msgstr "bastile-applet"
+#~ msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+#~ msgstr ""
+#~ "Använd PGP/GPG för att kryptera/dekryptera/signera/validera/importera "
+#~ "urklippet."
+#~ msgid "Choose Recipient Keys"
+#~ msgstr "Välj mottagarnycklar"
+#~ msgid "Encrypted Text"
+#~ msgstr "Krypterad text"
+#~ msgid "Encryption Failed"
+#~ msgstr "Kryptering misslyckades"
+#~ msgid "The clipboard could not be encrypted."
+#~ msgstr "Urklippet kunde inte krypteras."
+#~ msgid "Choose Key to Sign with"
+#~ msgstr "Välj nyckel att signera med"
+#~ msgid "Signed Text"
+#~ msgstr "Signerad text"
+#~ msgid "Signing Failed"
+#~ msgstr "Signering misslyckades"
+#~ msgid "The clipboard could not be Signed."
+#~ msgstr "Urklippet kunde inte signeras."
+#~ msgid "Import Failed"
+#~ msgstr "Importering misslyckades"
+#~ msgid "Keys were found but not imported."
+#~ msgstr "Nycklar hittades men importerades inte."
+#~ msgid "Decrypting Failed"
+#~ msgstr "Dekryptering misslyckades"
+#~ msgid "Text may be malformed."
+#~ msgstr "Texten kan vara felformulerad."
+#~ msgid "No PGP key or message was found on clipboard"
+#~ msgstr "Ingen PGP-nyckel eller meddelande hittades i urklipp"
+#~ msgid "No PGP data found."
+#~ msgstr "Inget PGP-data hittades."
+#~ msgid "Decrypted Text"
+#~ msgstr "Dekrypterad text"
+#~ msgid "Could not display the help file"
+#~ msgstr "Kunde inte visa hjälpfilen"
+#~ msgid "_Encrypt Clipboard"
+#~ msgstr "_Kryptera urklipp"
+#~ msgid "_Sign Clipboard"
+#~ msgstr "_Signera urklipp"
+#~ msgid "_Decrypt/Verify Clipboard"
+#~ msgstr "_Dekryptera/Validera urklipp"
+#~ msgid "_Import Keys from Clipboard"
+#~ msgstr "_Importera nycklar från urklipp"
+#~ msgid "Encryption Applet"
+#~ msgstr "Panelprogram för kryptering"
+#~ msgid "<b>Display clipboard contents after:</b>"
+#~ msgstr "<b>Visa innehållet i urklipp efter:</b>"
+#~ msgid "Clipboard Encryption Preferences"
+#~ msgstr "Krypteringsinställningar för urklipp"
+#~ msgid "_Decrypting or verifying the clipboard"
+#~ msgstr "_Dekryptera eller validera urklipp"
+#~ msgid "_Encrypting or signing the clipboard"
+#~ msgstr "_Kryptera eller signera urklipp"
+#~ msgid "_Show clipboard state in panel"
+#~ msgstr "_Visa tillståndet för urklipp i panelen"
+#~ msgid "_Encrypt"
+#~ msgstr "_Kryptera"
+#~ msgid "_Decrypt/Verify"
+#~ msgstr "_Dekryptera/Validera"
+#~ msgid "_Import Key"
+#~ msgstr "_Importera nyckel"
+#~ msgid "Couldn't connect to bastile-daemon"
+#~ msgstr "Kunde inte ansluta till bastile-daemon"
+#~ msgid "Encrypted text"
+#~ msgstr "Krypterad text"
+#~ msgid "Couldn't encrypt text"
+#~ msgstr "Kunde inte kryptera text"
+#~ msgid "Keys found but not imported"
+#~ msgstr "Nycklar hittade men inte importerade"
+#~ msgid "Couldn't decrypt text"
+#~ msgstr "Kunde inte dekryptera text"
+#~ msgid "Couldn't verify text"
+#~ msgstr "Kunde inte validera text"
+#~ msgid "No encrypted or signed text is selected."
+#~ msgstr "Ingen krypterad eller signerad text är markerad."
+#~ msgid "Decrypted text"
+#~ msgstr "Dekrypterad text"
+#~ msgid "Verified text"
+#~ msgstr "Validerad text"
+#~ msgid "Signed text"
+#~ msgstr "Signerad text"
+#~ msgid "Couldn't sign text"
+#~ msgstr "Kunde inte signera text"
+#~ msgid "_Encrypt..."
+#~ msgstr "Krypte_ra..."
+#~ msgid "Encrypt the selected text"
+#~ msgstr "Kryptera markerad text"
+#~ msgid "Decr_ypt/Verify"
+#~ msgstr "Dekr_yptera/Validera"
+#~ msgid "Decrypt and/or Verify text"
+#~ msgstr "Dekryptera och/eller validera text"
+#~ msgid "Sig_n..."
+#~ msgstr "Sig_nera..."
+#~ msgid "Sign the selected text"
+#~ msgstr "Signera markerad text"
+#~ msgid "Enable the bastile encryption plugin for pluma."
+#~ msgstr "Aktivera bastiles krypteringsinsticksmodul för pluma."
+#~ msgid "Enable the bastile pluma plugin"
+#~ msgstr "Aktivera bastile-insticksmodulen för pluma"
+#~ msgid "Text Encryption"
+#~ msgstr "Textkryptering"
+#~ msgid "This plugin performs encryption operations on text."
+#~ msgstr "Denna insticksmodul genomför krypteringsåtgärder på text."
+#~ msgid "Encrypt..."
+#~ msgstr "Kryptera..."
+#~ msgid "Encrypt (and optionally sign) the selected file"
+#~ msgid_plural "Encrypt the selected files"
+#~ msgstr[0] "Kryptera (och valfritt signera) den markerade filen"
+#~ msgstr[1] "Kryptera de markerade filerna"
+#~ msgid "Sign the selected file"
+#~ msgid_plural "Sign the selected files"
+#~ msgstr[0] "Signera markerad fil"
+#~ msgstr[1] "Signera markerade filer"
+#~ msgid "For internal use"
+#~ msgstr "För intern användning"
+#~ msgid "Encryption Preferences"
+#~ msgstr "Krypteringsinställningar"
+#~ msgid "Configure key servers and other encryption settings"
+#~ msgstr "Konfigurera nyckelservrar och andra krypteringsinställningar"
+#~ msgid "Encryption and Keyrings"
+#~ msgstr "Kryptering och nyckelringar"
+#~ msgid "Encrypt file"
+#~ msgstr "Kryptera fil"
+#~ msgid "Sign file with default key"
+#~ msgstr "Signera fil med standardnyckeln"
+#~ msgid "Encrypt and sign file with default key"
+#~ msgstr "Kryptera och signera fil med standardnyckeln"
+#~ msgid "Decrypt encrypted file"
+#~ msgstr "Dekryptera krypterad fil"
+#~ msgid "Verify signature file"
+#~ msgstr "Validera signaturfil"
+#~ msgid "Read list of URIs on standard in"
+#~ msgstr "Läser in lista på URL:er från standard in"
+#~ msgid "file..."
+#~ msgstr "fil..."
+#~ msgid "Choose Recipients"
+#~ msgstr "Välj mottagare"
+#~ msgid "Couldn't load keys"
+#~ msgstr "Kunde inte läsa in nycklar"
+#~ msgid "Choose Encrypted File Name for '%s'"
+#~ msgstr "Välj krypterat filnamn för \"%s\""
+#~ msgid "Choose Signer"
+#~ msgstr "Välj signerare"
+#~ msgid "Choose Signature File Name for '%s'"
+#~ msgstr "Välj signaturfilnamn för \"%s\""
+#~ msgid "Import is complete"
+#~ msgstr "Importering är färdig"
+#~ msgid "Importing keys ..."
+#~ msgstr "Importerar nycklar ..."
+#~ msgid "Choose Decrypted File Name for '%s'"
+#~ msgstr "Välj dekrypterat filnamn för \"%s\""
+#~ msgid "Choose Original File for '%s'"
+#~ msgstr "Välj originalfil för \"%s\""
+#~ msgid "No valid signatures found"
+#~ msgstr "Inga giltiga signaturer hittades"
+#~ msgid "File Encryption Tool"
+#~ msgstr "Filkrypteringsverktyg"
+#~ msgid "Encrypting"
+#~ msgstr "Kryptering"
+#~ msgid "Couldn't encrypt file: %s"
+#~ msgstr "Kunde inte kryptera fil: %s"
+#~ msgid "Signing"
+#~ msgstr "Signering"
+#~ msgid "Couldn't sign file: %s"
+#~ msgstr "Kunde inte signera fil: %s"
+#~ msgid "Importing"
+#~ msgstr "Importering"
+#~ msgid "Couldn't import keys from file: %s"
+#~ msgstr "Kunde inte importera nycklar från fil: %s"
+#~ msgid "Decrypting"
+#~ msgstr "Dekrypterar"
+#~ msgid "Couldn't decrypt file: %s"
+#~ msgstr "Kunde inte dekryptera fil: %s"
+#~ msgid "Verifying"
+#~ msgstr "Validerar"
+#~ msgid "Couldn't verify file: %s"
+#~ msgstr "Kunde inte validera fil: %s"
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+#~ msgid "Self-extracting zip (.exe)"
+#~ msgstr "Självuppackande zip (.exe)"
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "Tar okomprimerad (.tar)"
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "Tar komprimerad med bzip (.tar.bz)"
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "Tar komprimerad med bzip2 (.tar.bz2)"
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "Tar komprimerad med gzip (.tar.gz)"
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "Tar komprimerad med lzop (.tar.lzo)"
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "Tar komprimerad med compress (.tar.Z)"
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+#~ msgid "Zip (.zip)"
+#~ msgstr "Zip (.zip)"
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+#~ msgid "You have selected %d file "
+#~ msgid_plural "You have selected %d files "
+#~ msgstr[0] "Du har markerat %d fil "
+#~ msgstr[1] "Du har markerat %d filer "
+#~ msgid "and %d folder"
+#~ msgid_plural "and %d folders"
+#~ msgstr[0] "och %d mapp"
+#~ msgstr[1] "och %d mappar"
+#~ msgid "<b>%s%s</b>"
+#~ msgstr "<b>%s%s</b>"
+#~ msgid "You have selected %d files"
+#~ msgstr "Du har markerat %d filer"
+#~ msgid "You have selected %d folder"
+#~ msgid_plural "You have selected %d folders"
+#~ msgstr[0] "Du har markerat %d mapp"
+#~ msgstr[1] "Du har markerat %d mappar"
+#~ msgid "Couldn't list files"
+#~ msgstr "Kunde inte lista filer"
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "Kunde inte hämta nyckeldata"
+#~ msgid "Couldn't write key to file"
+#~ msgstr "Kunde inte skriva nyckel till fil"
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "Fjärrkryperingsnycklar"
+#~ msgid "Decrypt File"
+#~ msgstr "Dekryptera fil"
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "Jag har kontrollerat att den här nyckeln tillhör \"%s\""
+#~ msgid "Verify Signature"
+#~ msgstr "Validera signatur"
+#~ msgid "Start the Bastile pass phrase caching agent"
+#~ msgstr "Starta Bastile agent för mellanlagring av lösenfraser"
+#~ msgid "couldn't read gpg configuration, will try to create"
+#~ msgstr "kunde inte läsa gpg-konfiguration, kommer att försöka skapa"
+#~ msgid "couldn't modify gpg configuration: %s"
+#~ msgstr "kunde inte ändra gpg-konfiguration: %s"
+#~ msgid "Display variables instead of editing gpg.conf file"
+#~ msgstr "Visa variabler istället för att redigera filen gpg.conf"
+#~ msgid "Couldn't open the Session Properties"
+#~ msgstr "Kunde inte öppna sessionsegenskaperna"
+#~ msgid "Couldn't start the 'bastile-agent' program"
+#~ msgstr "Kunde inte starta programmet \"bastile-agent\""
+#~ msgid "The 'bastile-agent' program exited unsuccessfully."
+#~ msgstr "Programmet \"bastile-agent\" avslutades med fel."
+#~ msgid ""
+#~ "<b>Note:</b> The 'bastile-agent' program has been started. This program "
+#~ "is necessary in order to cache passphrases. "
+#~ msgstr ""
+#~ "<b>Observera:</b> Programmet \"bastile-agent\" startades. Detta program "
+#~ "är nödvändigt för att kunna mellanlagra lösenfraser. "
+#~ msgid ""
+#~ "<b>Warning:</b> The 'bastile-agent' program is not running. This program "
+#~ "is necessary in order to cache passphrases. "
+#~ msgstr ""
+#~ "<b>Varning:</b> Programmet \"bastile-agent\" körs inte. Detta program är "
+#~ "nödvändigt för att kunna mellanlagra lösenfraser. "
+#~ msgid "Session _Properties"
+#~ msgstr "Sessions_egenskaper"
+#~ msgid "Start sea_horse-agent"
+#~ msgstr "Starta sea_horse-agent"
+#~ msgid ""
+#~ "To avoid manually starting the 'bastile-agent' in the future\n"
+#~ "add it to the Session Manager. "
+#~ msgstr ""
+#~ "För att slippa att manuellt starta \"bastile-agent\" i framtiden\n"
+#~ "kan du lägga till den till Sessionshanteraren. "
+#~ msgid "Bastile Preferences"
+#~ msgstr "Inställningar för Bastile"
+#~ msgid "<b>Default Storage Location</b>"
+#~ msgstr "<b>Standardplats för lagring</b>"
+#~ msgid "<b>Password Storage Locations</b>"
+#~ msgstr "<b>Platser för lösenordslagring</b>"
+#~ msgid "Password Storage"
+#~ msgstr "Lösenordslagring"
+#~ msgid "_Add Storage"
+#~ msgstr "_Lägg till lagring"
+#~ msgid "_Remove Storage"
+#~ msgstr "_Ta bort lagring"
+#~ msgid "couldn't drop privileges properly"
+#~ msgstr "kunde inte korrekt släppa privilegier"
+#~ msgid ""
+#~ "When set bastile-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+#~ msgstr ""
+#~ "När inställd kommer bastile-agent att automatiskt försöka läsa in "
+#~ "användarnas SSH-nycklar vid behov. Det här är samma som att använda "
+#~ "verktyget ssh-add."
+#~ msgid "Whether to automatically load SSH keys on demand."
+#~ msgstr "Huruvida automatisk inläsning av SSH-nycklar vid behov ska göras."
+#~ msgid "<b>Secure Shell Keys</b>"
+#~ msgstr "<b>Secure Shell-nycklar</b>"
+#~ msgid ""
+#~ "<i>No SSH caching agent is running. Cannot load Secure Shell keys.</i>"
+#~ msgstr ""
+#~ "<i>Ingen SSH-agent för mellanlagring kör. Kan inte läsa in Secure Shell-"
+#~ "nycklar.</i>"
+#~ msgid "Automatically load _Secure Shell keys"
+#~ msgstr "Läs automatiskt in _Secure Shell-nycklar"
+#~ msgid ""
+#~ "Changing the master password failed.  Make certain that you entered the "
+#~ "correct original master password."
+#~ msgstr ""
+#~ "Ändringen av huvudlösenordet misslyckades. Försäkra dig om att du angav "
+#~ "det korrekta ursprungliga huvudlösenordet."
+#~ msgid "Confirm ne_w master password:"
+#~ msgstr "Bekräfta n_ytt huvudlösenord:"
+#~ msgid "Current _master password:"
+#~ msgstr "Nuvarande _huvudlösenord:"
+#~ msgid "MATE Keyring"
+#~ msgstr "MATE-nyckelring"
+#~ msgid ""
+#~ "MATE Keyring stores passwords, network keys, passphrases and other "
+#~ "secrets required for authentication.  A <b>master password</b> is used to "
+#~ "protect these secrets.  The <b>master password</b> can be changed below."
+#~ msgstr ""
+#~ "MATE-nyckelringen lagrar lösenord, nätverksnycklar, lösenfraser och "
+#~ "andra hemligheter som krävs för autentisering. Ett <b>huvudlösenord</b> "
+#~ "används för att skydda dessa hemligheter. <b>Huvudlösenordet</b> kan "
+#~ "ändras här nedan."
+#~ msgid "Passphrase Cache"
+#~ msgstr "Lösenfraser"
+#~ msgid "The master password was successfully changed."
+#~ msgstr "Huvudlösenordet har ändrats."
+#~ msgid "_New master password:"
+#~ msgstr "_Nytt huvudlösenord:"
+#~ msgid "Original Master Password:"
+#~ msgstr "Ursprungligt huvudlösenord:"
+#~ msgid "<b>Progress Message</b>"
+#~ msgstr "<b>Förloppsmeddelande</b>"
+#~ msgid "Progress Status"
+#~ msgstr "Förloppsstatus"
+#~ msgid "<b>Login:</b>"
+#~ msgstr "<b>Inloggningsnamn:</b>"
+#~ msgid "<b>Server:</b>"
+#~ msgstr "<b>Server:</b>"
+#~ msgid "[details]\n"
+#~ msgstr "[detaljer]\n"

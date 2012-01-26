@@ -1,0 +1,3216 @@
+=== bastile 2.26.1 ===
+
+2009-04-12  Stef Walter  <stef@memberwebs.com>
+
+	* NEWS:
+	* README:
+	* configure.in: Version 2.26.1
+
+2009-04-08  Adam Schreiber <sadam@mate.org>
+
+    * libegg/eggsmclient.c: Update to latest version.
+
+2009-03-31  Adam Schreiber  <sadam@clemson.edu>
+
+    * pgp/bastile-hkp-source.c: Make UIDs show up in the order reported by the 
+    keyserver. 
+    * pgp/bastile-hkp-source.c:
+    * pgp/bastile-pgp-uid.c: Fix parsing of uids.  Fixes bug #577362
+
+2009-03-24  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-prefs.c: Gracefully handle preferences window already
+    being open.  Fixes bug #576519
+
+2009-03-20  Stef Walter  <stef@memberwebs.com>
+
+	* ssh/bastile-ssh-operation.c: When a port wasn't specified 
+	the umask for a new authorized_keys wasn't taking effect.
+	Research by Andreas Moog. Fixes bug #574899
+	
+2009-03-16  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-hkp-source.c: Fix crash when entering hkp:
+	url manually. Fixes bug #575225
+
+2009-03-16  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number
+
+=== bastile 2.26.0 ===
+
+2009-03-14  Stef Walter  <stef@memberwebs.com>
+
+	* NEWS:
+	* README:
+	* configure.in: Version 2.26.0
+
+2009-03-05  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-add-keyring.c: Fix cancel button in add keyring
+	dialog. Fixes bug #574424
+
+2009-03-04  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-key-manager.c: Update GUI before showing window, to avoid
+	GUI changes when selection is initialized. Fix bug #574079
+	 
+2009-03-02  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-util.c: Read out memory properly from GString.
+	Fixes bug #551753
+	
+	* ssh/bastile-ssh-key-data.c: Add some null checks. 
+	
+2009-03-02  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-keyserver-sync.c: Allow multiple sync windows to open. 
+	
+2009-03-02  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-key-manager.c: Fire selection changed after tab 
+	switch actually happens. Fixes bug #553670
+	
+2009-03-02  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-keyserver-search.c: Add null check. Fixes bug #502029
+
+2009-03-02  Stef Walter  <stef@memberwebs.com>
+
+	* egg/egg-secure-entry.c: Fix "mate-keyring-ask needs to disable 
+	input method in password" bug #561331 Patch by Takao Fujiwara
+
+=== bastile 2.25.92 ===
+
+2009-03-02  Stef Walter  <stef@memberwebs.com>
+
+	* NEWS:
+	* README: Release version 2.25.92
+
+2009-03-01  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-servers.c: Fix crash when typing in custom
+	key server URL. Fixes bug #573602
+	
+2009-03-01  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-keyserver-results.c: Match key identifiers where 
+	the server returned a short one, but we're searching for a longer
+	key identifier. See bug #568799
+	
+2009-02-28  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-keyserver-results.c: Make results of 
+	a keyserver searched by keyid display properly. Fixes bug #568799
+	
+2009-02-28  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-object.c:
+	* pgp/bastile-gpgme-key.c: Always have an ID on a GPGME key before
+	trying to load other parts.
+
+	* pgp/bastile-gpgme-key.c: Don't crash when loading a key that 
+	initialy only has a secret part.
+
+2009-02-27  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-key-manager-store.c: Don't allow interactive
+	search in the key tree since, the filter on the top serves 
+	that purpose.
+	
+2009-02-27  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-gpgme-uid.c:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-uid.c:
+	* pgp/bastile-pgp-uid.h: Setup ids properly on UID objects. 
+	
+	* pgp/bastile-pgp-key.c: 
+	* pkcs11/bastile-pkcs11-operations.c:
+	* src/bastile-key-manager.c: Fix problems highlighted by valgrind,
+	using uninitialized variables, and freeing non-allocated memory.
+	
+	* pgp/bastile-gpgme-key.c:
+	* pgp/bastile-pgp-key.c: Workaround for strange ownership behavior, 
+	we only add GPGME keys to the context, rather than all PGP keys.
+	
+2009-02-27  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-context.c: Stop segfaulting when objects with NULL 
+    ids are removed.
+
+    * libmatecryptui/cryptui.c: gtk-doc documentation
+
+    * libbastile/bastile-widget.c: Fix reference counting so destroyed
+    widgets are indeed destroyed.
+
+2009-02-25  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-context.c:
+    * libbastile/bastile-object-widget.c:
+    * libbastile/bastile-widget.c: Remove more deprecated symbols.
+    Patch from Thomas Anderson.  Fixes bug #572181
+
+2009-02-17  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-widget.c: Remove deprecated GTK+ symbols
+    Fixes bug #572181
+
+2009-02-17  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-keyserver-search.c:
+    * gkr/bastile-gkr-item-properties.c:
+    * libbastile/bastile-object-widget.h: Remove deprecated GTK+ symbols
+    Fixes bug #572181
+
+2009-02-17  Gabor Kelemen  <kelemeng@mate.hu>
+
+	* src/bastile-keyserver-results.c:
+	* src/bastile-key-manager.c:
+	* src/bastile-viewer.c: Get rid of some reused stock item names, 
+	fall back to default. Fixes bug #572140.
+
+2009-02-16  Adam Schrieber  <sadam@clemson.edu>
+
+    * libbastile/bastile-object.c: Change context to comment. 
+    Fixes bug #571808
+
+    * libbastile/bastile-object.c: Add context to string.  Fixes bug #571808
+
+2009-02-16  Gabor Kelemen  <kelemeng@mate.hu>
+
+	* gkr/bastile-gkr-keyring.c: Mark two strings for translation. Fixes bug #571991
+
+2009-02-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * pkcs11/bastile-pkcs11-commands.c: Add missing comma
+
+2009-02-14  Wouter Bolsterlee  <wbolster@svn.mate.org>
+
+	reviewed by: Stef Walter <stef@memberwebs.com>
+
+	* pkcs11/bastile-pkcs11-commands.c:
+	(bastile_pkcs11_commands_delete_objects):
+
+	Use ngettext() where appropriate. Fixes bug #571778.
+
+2009-02-14  Wouter Bolsterlee  <wbolster@svn.mate.org>
+
+	* src/bastile-viewer.c: (on_copy_complete):
+	Add translator comments.
+
+2009-02-14  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-pgp-generate.glade: Collapse key generate 
+	'Advanced Options' by default.
+
+2009-02-14  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number.
+
+=== bastile 2.25.91 ===
+
+2009-02-14  Stef Walter  <stef@memberwebs.com>
+
+	* NEWS:
+	* README: Release version 2.25.91
+
+2009-02-13  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-add-keyring.c: Fix problem with creation
+	and destruction of the keyring create dialog. Fixes bug #548319
+	
+	* gkr/bastile-gkr-add-keyring.c: Refresh keyrings after adding
+	a keyring.
+	
+	* gkr/bastile-gkr-keyring-commands.c: Prompt before deleting a keyring.
+	
+2009-02-13  Stef Walter  <stef@memberwebs.com>
+
+	* reference/libmatecryptui/Makefile.am: Fix path-as-variable which
+	prevents bastile from building.
+	
+2009-02-12  Adam Schreiber  <sadam@clemson.edu>
+
+    * gkr/bastile-gkr-item-properties.glade.h:
+    * src/bastile-viewer.c: Add contexts for "delete" string.  
+    Fixes bug #571359
+
+    * help/C/figures/passphrase.png: (deleted)
+    * help/C/figures/file-manager.png: (deleted)
+    * help/C/figures/key-manager.png: (deleted)
+    * help/C/figures/key-properties.png: (deleted)
+    * help/C/figures/preferences.png: (deleted)
+    * help/C/figures/signature.png: (deleted)
+    * help/C/figures/generate.png: (deleted)
+    * help/C/figures/recipients.png: (deleted)
+    * help/C/figures/text-editor.png: (deleted)
+    * help/C/figures/export.png: (deleted)
+    * help/C/figures/import.png: (deleted)
+    * help/Makefile.am: Remove unused screenshots
+
+2009-02-10  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* pkcs11/bastile-pkcs11-certificate-props.c:
+	* pkcs11/bastile-pkcs11-certificate.c: Allow PKCS#11 support to build,
+	and fix build for changes in mate-keyring.
+	
+2009-02-08  Stef Walter  <stef@memberwebs.com>
+
+	* common/bastile-registry.c: 
+	* src/bastile-viewer.c: GType is 64-bits on 64-bit platforms. 
+	Fixes bug #562084. Research by Joe Marcus Clarke, Scott McVittie
+	
+2009-02-07  Adam Schreiber  <sadam@clemson.edu>
+
+    * daemon/org.mate.bastile.service.in:
+    * daemon/bastile-daemon.desktop.in.in: Remove -d flag from exec strings
+    to start the daemon.
+
+    * daemon/bastile-daemon.desktop.in.in: Only autostart the daemon when
+    sharing is enabled.  Fixes bug #570773
+
+2009-02-06  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-object.c: Map 'raw-id' DBus field to 
+	internal properties.
+	
+2009-02-06  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-unknown-source.c: Fix problem constructing
+	BastileUnknownSource due to read-only property. 
+	
+	* libbastile/bastile-context.c: Fix problem with not creating 'missing'
+	objects when the 'auto_retrieve' setting isn't set. Fixes bug #570456
+	
+	* libbastile/bastile-unknown-source.c: Set location of unknown objects
+	correctly to signifiy searching or missing.
+	
+2009-02-05  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-context.c: 
+	* libbastile/bastile-context.h: Ref objects while the 
+	context is being destroyed, so that removing an object 
+	that was removed by another object doesn't crash. We need
+	a new ownership model....
+
+	* pgp/bastile-pgp-key.c: Register UIDs with the context. This
+	enables their IDs to be once again used over DBus. Fixes bug #570704
+	
+2009-02-04  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* libmatecryptui/Makefile.am:
+	* libmatecryptui/tests/Makefile.am:
+	* libmatecryptui/tests/cryptui-test-ui.c: Revert accidental deletion 
+	of libmatecryptui test program deletion in svn commit [2716]
+	
+	* daemon/bastile-service-keyset.c: Don't return objects without ids
+	via libmatecryptui. Fixes bug #570454
+
+	* daemon/bastile-service-crypto.c:
+	* pgp/bastile-gpgme-key.c:
+	* pgp/bastile-gpgme-source.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key.h:
+	* pgp/bastile-pgp-signature.c:
+	* pgp/bastile-server-source.c: Rework functions for converting pgp keyids
+	into object ids, including the canonize id function. 
+	
+	* pgp/bastile-gpgme-uid.c: Add object id to UID objects, which helps them
+	to show up in libmatecryptui. 
+
+2009-02-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * pgp/bastile-sign.glade:
+    * ssh/bastile-ssh-upload.glade:
+    * ssh/bastile-ssh-generate.glade: Remove explicit line breaks from glade
+    files.  Patch from Gabor Kelemen.  Fixes bug #570485
+    
+2009-02-03  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: increment version number to 2.25.91
+
+=== bastile 2.25.90 ===
+
+2009-02-03  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * NEWS:
+    * README: Release version 2.25.1
+
+2009-02-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* daemon/Makefile.am: Remove excessive $(srcdir) in rules, fixing
+	non-source-dir build error.  Fixes bug #570330.
+
+2009-02-02  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Remove libtasn1 dependency. 
+	
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-keyring.c:
+	* gkr/bastile-gkr-keyring.h: 
+	* gkr/bastile-gkr-source.c: Retrieve default key name and set 
+	default keyring flag on keyrings.
+	
+	* gkr/bastile-gkr-keyring-commands.c: Add menu item to make keyring
+	default.
+	
+	* gkr/bastile-gkr-source.c:
+	* gkr/bastile-gkr-source.h: Add concept of a 'default' gkr source, 
+	so we can access it for refresh operations and the like.  
+	
+	* libbastile/bastile-context.c: Don't refresh sources as they're 
+	added to the context. Only refresh when specifically requested.
+	
+	* gkr/bastile-gkr-source.c: Refresh keyring sources when the main
+	gkr source is refreshed.
+	
+	* gkr/bastile-gkr-keyring-commands.c: Refresh all keyrings when the 
+	status of a keyring changes. For example lock/unlock, set default etc..
+	
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-source.c: Don't show the session keyring.
+
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-keyring-commands.c:
+	* gkr/bastile-gkr-keyring-commands.h: Add 'lock' and 'unlock' commands
+	to password keyrings.
+
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-set-model.c: Don't remove nodes that have 
+	children which are still in the set to display.
+
+2009-02-01  Adam Schreiber  <sadam@clemson.edu>
+
+    * daemon/Makefile.am:
+    * daemon/bastile-daemon.c: Register properly with the session manager.
+    Fixes bug #569636
+
+    * autogen.sh:
+    * libmatecryptui/cryptui.c:
+    * configure.in:
+    * reference/libmatecryptui/libmatecryptui-overrides.txt: (added)
+    * reference/libmatecryptui/version.xml.in: (added)
+    * reference/libmatecryptui/Makefile.am: (added)
+    * reference/libmatecryptui/libmatecryptui-docs.sgml: (added)
+    * reference/Makefile.am:
+    * Makefile.am: Add infrastructure to add gtk-doc for libmatecryptui.  
+    Removes block for bug #353061
+
+    * configure.in:
+    * src/bastile-viewer.c: Make sure hkp and ldap are disable and preferences
+    is removed from the menu when pgp is disabled.  Fixes bug #551799
+    * libbastile/bastile-prefs.glade: Change window name to "Preferences"
+    Fixes bug #546492
+    
+2009-01-31  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * libegg/eggdesktopfile.c: (added)
+    * libegg/eggdesktopfile.h: (added)
+    * libegg/eggsmclient.c: (added)
+    * libegg/eggsmclient.h:  (added)
+    * libegg/eggsmclient-private.h: (added)
+    * libegg/eggsmclient-xsmp.c: (added)
+    * libegg/Makefile.am: Add files and build magic to start adding smclient to
+    daemon
+    
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-operation.c: Don't show operation debug output by default.
+	
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-keyring.c: Show all keyrings in the key manager.
+	
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-service.c:
+	* gkr/bastile-gkr-keyring.c:
+	* gkr/bastile-gkr-source.c:
+	* libbastile/bastile-commands.c:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-source.h:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-unknown-source.c:
+	* pgp/bastile-gpgme-source.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-server-source.c:
+	* pkcs11/bastile-pkcs11-source.c:
+	* src/bastile-keyserver-sync.c:
+	* ssh/bastile-ssh-source.c: Rename the BastileSource properties so that they 
+	can be more easily defined on BastileObject objects. Removes a wrinkle for 
+	implementing source and object on the same class.
+
+2009-02-01  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-keyring.c:
+	* gkr/bastile-gkr-source.c:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-source.h:
+	* libbastile/bastile-unknown-source.c:
+	* pgp/bastile-gpgme-source.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-server-source.c:
+	* pkcs11/bastile-pkcs11-source.c:
+	* ssh/bastile-ssh-source.c: Remove unused 'key-desc' property from sources.
+	 
+2009-01-30  Stef Walter  <stef@memberwebs.com>
+
+	* ssh/bastile-ssh-key-properties.c: Block trust-toggled signal handler
+	when updating the toggle button. Fixes bug #568852
+	
+2009-01-29  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-keyring-commands.c:
+	* src/bastile-key-manager.ui: Add right click item for changing keyring password.
+
+2009-01-29  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-gtkstock.c: Enable proper folder icon for keyrings
+
+2009-01-29  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-source.c: Fix problem with hidden mate-keyring items.
+
+2009-01-28  Stef Walter  <stef@memberwebs.com>
+
+	* libmatecryptui/crui-*: (removed)
+	* libmatecryptui/Makefile.am:
+	* libmatecryptui/template/*: (removed)
+	* libmatecryptui/tests/*: (removed)
+	* libmatecryptui/tests/files/*: (removed) Remove bits of libmatecryptui
+	that are now handled by the gcr library from mate-keyring.
+	
+	* pkcs11/Makefile.am:
+	* pkcs11/bastile-pkcs11-certificate.c:
+	* pkcs11/bastile-pkcs11-certificate-props.c: (added)
+	* pkcs11/bastile-pkcs11-certificate-props.h: (added)
+	* pkcs11/bastile-pkcs11-commands.c: 
+	* configure.in: Depend on and use the gcr library from mate-keyring
+	for displaying certificate properties.
+	
+2009-01-22  Adam Schreiber  <sadam@clemson.edu>
+
+    * pgp/bastile-hkp-source.c: Prepend "0x" onto hex keyid search terms that
+    need it.
+    * daemon/Makefile.am: Change autostart directory.  Fixes bug #568761
+
+2009-01-14  Magnus Boman  <captain.magnus@gmail.com>
+
+	* common/bastile-registry.c (lookup_category_values),
+	(bastile_registry_lookup_function): Fix bug #565649 (64bit
+	portability issue)
+
+2009-01-07  Vincent Untz  <vuntz@mate.org>
+
+	* configure.in: post-release bump to 2.25.5
+
+==================== 2.25.4 ====================
+
+2009-01-07  Vincent Untz  <vuntz@mate.org>
+
+	* NEWS:
+	* README:
+	* configure.in: version 2.25.4
+
+2009-01-04  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* pkcs11/bastile-pkcs11-module.c: Update for new gp11 library changes.
+	Depend on mate-keyring 2.25.4
+
+2008-12-30  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* pkcs11/bastile-pkcs11-object.c: Make bastile depend on mate-keyring
+	HEAD (ie: 2.25.3), and fix build problems because of GP11 changes.
+	
+2008-12-22  Adam Schreiber  <sadam@clemson.edu>
+
+    * ssh/bastile-ssh-generate.c: Dont' destroy swidget immediately.
+    Patch from Jeff Cai.  Fixes bug #562413
+
+== Bastile 2.25.3 ==
+
+2008-12-19  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * Makefile.am:
+    * NEWS:
+    * README: 
+    * pkcs11/Makefile.am:
+    * po/POTFILES.in: Release 2.25.3
+
+2008-12-17  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Build fix. Fixes bug #564815
+
+2008-12-16  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-object.c:
+	* gkr/bastile-gkr-item.c:
+	* gkr/bastile-gkr-keyring.c: 
+	* pgp/bastile-pgp-uid.c: Allow 'tag' property to be directly set.
+	This is useful for matching in predicates.
+	
+	* gkr/bastile-gkr-item-commands.c:
+	* gkr/bastile-gkr-keyring-commands.c:
+	* libbastile/bastile-types.h:
+	* libbastile/bastile-view.c:
+	* libbastile/bastile-view.h:
+	* pgp/bastile-pgp-commands.c:
+	* pkcs11/bastile-pkcs11-commands.c:
+	* src/bastile-key-manager.c:
+	* src/bastile-viewer.c:
+	* src/bastile-viewer.h:
+	* ssh/bastile-ssh-commansd.c: Use predicates to enable and disable 
+	commands in the view. Fine tune exporting and deleting based on exportable and 
+	deletable flags. Select objects being operated on, when not all 
+	objects apply for the current operation. Hide commands that are not
+	applicable for the currently selected objects. 
+	
+2008-12-16  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-object.c: Lots of fixes on when to 
+	realize objects.
+	
+	* libbastile/bastile-object-widget.c: Don't do a window grab.
+	
+	* pgp/bastile-add-subkey.glade:
+	* pgp/bastile-expires.glade:
+	* pgp/bastile-gpgme-add-subkey.c:
+	* pgp/bastile-gpgme-expires.c:
+	* pgp/bastile-gpgme-key.c:
+	* pgp/bastile-gpgme-key-op.c:
+	* pgp/bastile-gpgme-subkey.c:
+	* pgp/bastile-gpgme-uid.c:
+	* pgp/bastile-gpgme-uid.h:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-commands.c:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-private-key-properties.glade:
+	* pgp/bastile-pgp-public-key-properties.glade:
+	* pgp/bastile-pgp-signature.c:
+	* pgp/bastile-pgp-subkey.c:
+	* pgp/bastile-pgp-subkey.h:
+	* pgp/bastile-pgp-uid.c: 
+	* src/bastile-keyserver-results.c:
+	* src/bastile-keyserver-results.ui: Fix various PGP key operations. Lots of UI
+	fixes as well. Go through and test everything in the PGP dialogs.
+	Fixes for searching for remote keys.
+	
+2008-12-16  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-set-model.c: Remove objects that 
+	disappeared from table properly. Fixes assertion on exit.
+	
+	* src/bastile-key-manager.c: Fix erroneous unref of widget
+	owned by glade.
+	
+	* daemon/bastile-service-crypto.c:
+	* pgp/bastile-gpgme-key.c:
+	* pgp/bastile-gpgme-key-op.c:
+	* pgp/bastile-gpgme-source.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key.h:
+	* pgp/bastile-pgp-signature.c:
+	* pgp/bastile-server-source.c: Add function for calculating 
+	displayable identifier. Rename other PGP key ID related functions
+	to have 'calc' in the name instead of 'get. 
+	
+	* ssh/bastile-ssh-key.c: 
+	* ssh/bastile-ssh-key.h:
+	* ssh/bastile-ssh-source.c: Explicitly set SSH key displayable ID.
+	
+	* libbastile/bastile-widget.c: Don't save window sizes for dialogs.
+	
+	* libbastile/bastile-object-widget.c: Fix assertion when closing windows.
+	The window group is the one of the transient parent, and we were trying to 
+	fiddle with it directly. 
+	
+	* libbastile/bastile-view.vala: (remove) Old leftover file
+	
+	* pgp/bastile-pgp-commands.c: 
+	* src/bastile-key-manager.c:
+	* src/bastile-key-manager.ui:
+	* src/bastile-keyserver-results.ui:
+	* src/bastile-viewer.c: Generalize names for 'delete' and other actions.
+	Fix deletion of PGP keys.
+	
+	* src/bastile-generate-select.glade:
+	* pgp/bastile-pgp-generate.glade: UI fixes for PGP key generation.
+	
+2008-12-16  Stef Walter  <stef@memberwebs.com>
+
+	* src/Makefile.am:
+	* src/main.c: (moved to bastile-main.c) Rename main.c
+	to stop confusing debuggers. 
+	
+2008-12-16  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-key-manager-store.c: Fix cyclical reference,
+	with the filter and sort models.
+	
+	* libbastile/bastile-context.c: Don't automatically try 
+	and refresh remote key sources.
+	
+	* libbastile/bastile-object.c: Don't try to realize properties
+	for which we already have a value.
+
+2008-12-16  Stef Walter  <stef@memberwebs.com>
+	
+	* pgp/bastile-gpgme-key.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-key.c:
+	* src/bastile-keyserver-results.c: Fix bugs relating to searching
+	for remote keys, that resulted from recent refactoring.
+
+2008-12-15  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-progress.c: Disconnect properly from 
+	monitoring progress on operations when op finishes.
+	
+	* pkcs11/bastile-pkcs11-object.c: Access object slot correctly.
+	
+2008-12-15  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/Makefile.am:
+	* gkr/bastile-add-keyring.glade: (moved from libbastile)
+	* gkr/bastile-gkr-add-keyring.c: (added)
+	* gkr/bastile-gkr-commands.c: (removed)
+	* gkr/bastile-gkr-commands.c: (removed)
+	* gkr/bastile-gkr-dialogs.h:
+	* gkr/bastile-gkr-item-commands.c: (added)
+	* gkr/bastile-gkr-item-commands.h: (added)
+	* gkr/bastile-gkr-keyring-commands.c: (added)
+	* gkr/bastile-gkr-keyring-commands.h: (added)
+	* gkr/bastile-gkr-module.c: 
+	* gkr/bastile-gkr-module.h:
+	* libbastile/Makefile.am:
+	* libbastile/bastile-add-keyring.glade: (moved to gkr)
+	* libbastile/bastile-prefs.c:
+	* libbastile/bastile-prefs.glade:
+	* libbastile/bastile-prefs-keyrings.c: (removed)
+	Moved the add keyring and delete keyring functionality into 
+	the gkr module.
+	
+2008-12-15  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-hkp-server.c:
+	* daemon/bastile-service-crypto.c:
+	* pgp/Makefile.am:
+	* pgp/bastile-gpgme-*: (added)
+	* pgp/bastile-gpgmex-*: (removed)
+	* pgp/bastile-gpg-op.c: (added)
+	* pgp/bastile-gpg-op.h: (added)
+	* pgp/bastile-gpg-options.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp.c:
+	* pgp/bastile-pgp.h:
+	* pgp/bastile-pgp-add-subkey.c: (moved)
+	* pgp/bastile-pgp-add-uid.c: (moved)
+	* pgp/bastile-pgp-commands.c:
+	* pgp/bastile-pgp-dialogs.h:
+	* pgp/bastile-pgp-error.c: (removed)
+	* pgp/bastile-pgp-expires.c: (moved)
+	* pgp/bastile-pgp-generate.c: (moved)
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key.h: 
+	* pgp/bastile-pgp-key-op.c: (moved)
+	* pgp/bastile-pgp-key-op.h: (moved)
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-module.c: 
+	* pgp/bastile-pgp-operation.c: (moved)
+	* pgp/bastile-pgp-operation.h: (moved)
+	* pgp/bastile-pgp-photo.c:
+	* pgp/bastile-pgp-photo.h:
+	* pgp/bastile-pgp-photos.c: (moved)
+	* pgp/bastile-pgp-revoke.c: (moved)
+	* pgp/bastile-pgp-sign.c: (moved)
+	* pgp/bastile-pgp-signature.c: (added)
+	* pgp/bastile-pgp-signature.h: (added)
+	* pgp/bastile-pgp-source.c: (moved)
+	* pgp/bastile-pgp-source.h: (moved)
+	* pgp/bastile-pgp-uid.c: 
+	* pgp/bastile-pgp-uid.h:
+	* pgp/bastile-server-source.c:
+	* libbastile/bastile-object.c:
+	* libbastile/bastile-util.c: More cleanly split GPGME dependant
+	code. Allow for non GPGME based PGP keys (ie: remote keys)
+	
+2008-12-15  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/libbastile.gidl: (removed)
+	* libbastile/libbastile.vapi: (removed)
+	* libbastile/libbastile-c.deps: (removed)
+	* libbastile/libbastile-c.vapi: (removed)
+	* src/Makefile.am:
+	* src/bastile-keyserver-results.c:
+	* src/bastile-keyserver-results.h:
+	* src/bastile-keyserver-results.vala: (removed) 
+	* acinclude.m4:
+	* bugs.vapi: (removed)
+	* config.vapi: (removed)
+	* configure.in: Change keyserver results to C code. 
+	Remove last vala traces.
+	
+2008-12-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/Makefile.am:
+    * src/bastile-key-manager.c: Fix building without keyserver
+    * pkcs11/bastile-pkcs11-object.c: Fix compiler error
+
+2008-12-14  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-daemon.c:
+	* gkr/bastile-gkr-item-properties.c:
+	* gkr/bastile-gkr-keyring.c:
+	* gkr/bastile-gkr-source.c:
+	* gkr/bastile-gkr-source.h:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-context.h:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-unknown-source.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-server-source.c:
+	* pkcs11/bastile-pkcs11-source.c:
+	* src/main.c:
+	* src/bastile-key-manager.h:
+	* src/bastile-key-manager.c:
+	* ssh/bastile-ssh-source.c: Make BastileGkrKeyring be both
+	a BastileObject and a BastileSource. Enumerate keyrings 
+	properly. Don't list items in locked keyrings. Refresh 
+	sources as they're added to the context.
+	
+2008-12-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-transfer-operation.c:
+    * libbastile/bastile-progress.c:
+    * src/bastile-key-manager.c:
+    * src/bastile-key-manager.vala: Use g_timeout_add_seconds instead of
+    g_timeout_add where possible to allow for event grouping. 
+    Patch from Debarshi Ray. Fixes bug #564403.  
+
+2008-12-14  Stef Walter  <stef@memberwebs.com>
+
+	* src/Makefile.am:
+	* src/bastile-key-manager.c:
+	* src/bastile-key-manager.h:
+	* src/bastile-key-manager.vala: (removed)
+	Change Key manager window to C code from vala.
+	
+2008-12-14  Stef Walter  <stef@memberwebs.com>
+
+	* common/bastile-registry.c:
+	* common/bastile-registry.h:
+	* daemon/bastile-service-keyset.c:
+	* gkr/bastile-gkr-source.c:
+	* gkr/bastile-gkr-source.h:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-context.h:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-source.h:
+	* libbastile/bastile-unknown-source.c:
+	* libbastile/bastile-unknown-source.h:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-pgp-source.h:
+	* pgp/bastile-server-source.c:
+	* pgp/bastile-server-source.h:
+	* pkcs11/bastile-pkcs11-source.c:
+	* pkcs11/bastile-pkcs11-source.h: 
+	* ssh/bastile-ssh-source.c:
+	* ssh/bastile-ssh-source.h: Make BastileSource be an 
+	interface that can be implemented on other objects (ie: keyrings).
+	
+2008-12-14  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-item.c:
+	* gkr/bastile-gkr-item-properties.c:
+	* gkr/bastile-gkr-keyring.c:
+	* gkr/bastile-gkr-operation.c:
+	* gkr/bastile-gkr-operation.h:
+	* gkr/bastile-gkr-source.c:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-object.c:
+	* libbastile/bastile-object.h:
+	* libbastile/bastile-prefs-keyrings.c:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-source.h:
+	* libbastile/bastile-types.h:
+	* libbastile/bastile-unknown.c:
+	* libbastile/bastile-unknown-source.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key-op.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-source.c:
+	* pkcs11/gp11.vapi: (removed)
+	* pkcs11/gp11-hacks.h: (removed)
+	* pkcs11/libbastile-pkcs11-c.vapi: (removed)
+	* pkcs11/Makefile.am:
+	* pkcs11/p11.vapi: (removed)
+	* pkcs11/bastile-pkcs11.c:
+	* pkcs11/bastile-pkcs11.h:
+	* pkcs11/bastile-pkcs11.vala: (removed)
+	* pkcs11/bastile-pkcs11-certificate.c:
+	* pkcs11/bastile-pkcs11-certificate.h:
+	* pkcs11/bastile-pkcs11-commands.c:
+	* pkcs11/bastile-pkcs11-helpers.c: (added)
+	* pkcs11/bastile-pkcs11-helpers.h: (added)
+	* pkcs11/bastile-pkcs11-module.c:
+	* pkcs11/bastile-pkcs11-object.c: (added)
+	* pkcs11/bastile-pkcs11-object.h: (added)
+	* pkcs11/bastile-pkcs11-operations.c: (added)
+	* pkcs11/bastile-pkcs11-operations.h: (added)
+	* pkcs11/bastile-pkcs11-source.c:
+	* pkcs11/bastile-pkcs11-source.h:
+	* pkcs11/bastile-pkcs11-source.vala: (removed)
+	Remove delete from the source to the object. The object now 
+	knows how to delete itself (if possible). Change how refresh 
+	works so that an object is always as valid as possible.
+	Rework PKCS#11 objects and sources. 
+	
+2008-12-12  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/Makefile.am:
+	* libbastile/bastile-servers.c:
+	* libbastile/bastile-servers.h:
+	* libbastile/bastile-servers.vala: (removed)
+	Remove more vala usage
+	
+2008-12-12  Stef Walter  <stef@memberwebs.com>
+
+	* common/bastile-registry.c:
+	* common/bastile-registry.h:
+	* libbastile/Makefile.am:
+	* libbastile/bastile-generator.c: (removed)
+	* libbastile/bastile-generator.h: (removed)
+	* libbastile/bastile-generator.vala: (removed)
+	* libbastile/bastile-source.c:
+	* pgp/libbastile-pgp-c.vapi: (removed)
+	* pgp/Makefile.am:
+	* pgp/bastile-pgp-dialogs.h:
+	* pgp/bastile-pgp-generate.c:
+	* pgp/bastile-pgp-generator.c: (removed)
+	* pgp/bastile-pgp-generator.h: (removed)
+	* pgp/bastile-pgp-generator.vala: (removed)
+	* pgp/bastile-pgp-module.c:
+	* src/Makefile.am:
+	* src/bastile-generate-select.c:
+	* src/bastile-generate-select.h:
+	* src/bastile-generate-select.vala: (removed)
+	* ssh/libbastile-ssh-c.vapi: (removed)
+	* ssh/Makefile.am:
+	* ssh/bastile-ssh.c:
+	* ssh/bastile-ssh.h:
+	* ssh/bastile-ssh.vala: (removed)
+	* ssh/bastile-ssh-dialogs.h:
+	* ssh/bastile-ssh-generate.c:
+	* ssh/bastile-ssh-generator.c: (removed)
+	* ssh/bastile-ssh-generator.h: (removed)
+	* ssh/bastile-ssh-generator.vala: (removed)
+	* ssh/bastile-ssh-module.c: Simplified how the generate actions work,
+	and removed some vala code.
+	
+2008-12-12  Adam Schreiber  <sadam@clemson.edu>
+    
+    * pkcs11/bastile-pkcs11-source.c
+    * pkcs11/bastile-pkcs11.c:
+    * pgp/bastile-pgp-commands.vala:
+    * pgp/bastile-pgp-commands.c: Fix compiler warnings
+
+    * pkcs11/gp11.vapi: Add [Compact] to attributes.  Fixes jhbuild build.
+
+2008-12-12  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkr-commands.c:
+	* libbastile/Makefile.am:
+	* libbastile/bastile-commands.c:
+	* libbastile/bastile-commands.h:
+	* libbastile/bastile-commands.vala: (removed)
+	* libbastile/bastile-view.c:
+	* libbastile/bastile-view.h:
+	* libbastile/bastile-view.vala: (removed)
+	* pgp/Makefile.am:
+	* pgp/bastile-pgp-commands.c:
+	* pgp/bastile-pgp-commands.h:
+	* pgp/bastile-pgp-commands.vala: (removed)
+	* pgp/bastile-pgp-module.c:
+	* pkcs11/bastile-pkcs11-commands.c:
+	* src/bastile-viewer.c:
+	* src/bastile-viewer.h:
+	* ssh/Makefile.am:
+	* ssh/bastile-ssh-commands.c:
+	* ssh/bastile-ssh-commands.vala: (removed)
+	* ssh/bastile-ssh-module.c: Rework how commands are looked up.
+	No longer by tag, but by object GType.
+	
+2008-12-12  Stef Walter  <stef@memberwebs.com>
+
+	* common/bastile-object-list.c: (added)
+	* common/bastile-object-list.h: (added)
+	* common/Makefile.am: Aded utility functions for managing lists of objects.
+	
+	* libbastile/bastile-object.c:
+	* libbastile/bastile-object-model.c:
+	* libbastile/bastile-set-model.c: 
+	* src/bastile-key-manager-store.c: Various object and model fixes
+	to patch corner cases with objects going away.
+	
+	* daemon/bastile-service-crypto.c: 
+	* pgp/libbastile-pgp-c.vapi:
+	* pgp/Makefile.am:
+	* pgp/bastile-expires.glade:
+	* pgp/bastile-gpgmex.h:
+	* pgp/bastile-gpgmex-util.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp.c:
+	* pgp/bastile-pgp.h:
+	* pgp/bastile-pgp.vala: (removed)
+	* pgp/bastile-pgp-add-subkey.c:
+	* pgp/bastile-pgp-add-uid.c:
+	* pgp/bastile-pgp-commands.c:
+	* pgp/bastile-pgp-commands.vala:
+	* pgp/bastile-pgp-dialogs.h:
+	* pgp/bastile-pgp-expires.c:
+	* pgp/bastile-pgp-generator.c:
+	* pgp/bastile-pgp-key.c: 
+	* pgp/bastile-pgp-key.h:
+	* pgp/bastile-pgp-key-op.c:
+	* pgp/bastile-pgp-key-op.h:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-photo.c: (added)
+	* pgp/bastile-pgp-photo.c: (added)
+	* pgp/bastile-pgp-revoke.c: 
+	* pgp/bastile-pgp-sign.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-pgp-sign.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-pgp-subkey.c: (added)
+	* pgp/bastile-pgp-subkey.h: (added)
+	* pgp/bastile-pgp-uid.c:
+	* pgp/bastile-pgp-uid.h:
+	* pgp/bastile-server-source.c:
+	* pgp/bastile-signer.c: Refactored how the PGP code works with regard
+	to UIDs and subkeys. These are now separate objects, and keep track of 
+	their own indexes etc.. Operations can be done directly with these objects
+	(ie: sign, revoke etc...)
+	
+2008-12-11  Adam Schreiber  <sadam@clemson.edu>
+
+    * pgp/bastile-pgp-generate.c:
+    * pgp/bastile-pgpgenerate.glade: Fix display of expiry date time.
+    Fixes bug #564199
+    * configure.in:
+    * daemon/Makefile.am:
+    * daemon/bastile-daemon.desktop.in.in:
+    * po/POTFILES.in: Autostart bastile-daemon.  Patch from F. Steinel.
+    Fixes bugs #555735, #484154
+    * ssh/bastile-ssh-operation.c: Patch from Jeff Cai.  Fixes bug #558491.
+
+2008-11-29  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/Makefile.am:
+	* gkr/bastile-gkr-item.c:
+	* gkr/bastile-gkr-keyring.c: (added)
+	* gkr/bastile-gkr-keyring.glade: (added)
+	* gkr/bastile-gkr-keyring.h: (added)
+	* gkr/bastile-gkr-keyring-properties.c: (added)
+	* gkr/bastile-gkr-module.c: 
+	* gkr/bastile-gkr-source.c: Add keyring object, and show all keyrings
+	in the main window. Basic support.
+	
+	* libbastile/bastile-set-model.c: Some fixes for displaying parents
+	that aren't in the matched set.
+	
+	* libbastile/libbastile.vapi:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-context.h:
+	* libbastile/bastile-object.c:
+	* libbastile/bastile-object.h:
+	* src/bastile-key-manager.vala: Add some better enumeration of objects
+	using callbacks. Also add possiblility to match on GObject type.
+	
+2008-11-29  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-object.c:
+	* libbastile/bastile-object.h: Better checks to not notify if the 
+	value being set on a property is the same.
+
+	* libbastile/bastile-operation.c: Some additional 
+	safety debugging checks.
+	
+	* gkr/bastile-gkr-item.c:
+	* gkr/bastile-gkr-item.h:
+	* gkr/bastile-gkr-item-properties.c:
+	* gkr/bastile-gkr-module.c:
+	* gkr/bastile-gkr-operation.c:
+	* gkr/bastile-gkr-source.c: Load item info, attributes and ACL 
+	on demand. Rework dialog so it's more event driven.
+	
+	* src/main.c:
+	* src/bastile-key-manager.vala: Load mate-keyring items on startup.
+
+2008-11-29  Stef Walter  <stef@memberwebs.com>
+
+	* common/Makefile.am:
+	* common/bastile-bind.c: (added)
+	* common/bastile-bind.h: (added)
+	Added generic property binding from one object to another.
+	
+	* daemon/bastile-service.c:
+	* daemon/bastile-service-crypto.c:
+	* daemon/bastile-service-keyset.c:
+	* gkr/bastile-gkr-commands.c:
+	* gkr/bastile-gkr-item.c:
+	* gkr/bastile-gkr-item.h:
+	* gkr/bastile-gkr-item-properties.c:
+	* gkr/bastile-gkr-operation.c:
+	* gkr/bastile-gkr-source.c:
+	* libbastile/libbastile.vapi:
+	* libbastile/libbastile-c.vapi:
+	* libbastile/Makefile.am:
+	* libbastile/bastile-combo-keys.c:
+	* libbastile/bastile-combo-keys.h:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-context.h:
+	* libbastile/bastile-gtkstock.h:
+	* libbastile/bastile-key.c: (removed)
+	* libbastile/bastile-key.h: (removed)
+	* libbastile/bastile-key-model.c: (moved to bastile-object-model.c)
+	* libbastile/bastile-key-model.h: (moved to bastile-object-model.h)
+	* libbastile/bastile-keyserver-control.c:
+	* libbastile/bastile-key-widget.c: (moved to bastile-object-widget.c)
+	* libbastile/bastile-key-widget.h: (moved to bastile-object-widget.h)
+	* libbastile/bastile-notification.c:
+	* libbastile/bastile-object.c:
+	* libbastile/bastile-object.h:
+	* libbastile/bastile-object.vala: (removed)
+	* libbastile/bastile-object-model.c: (moved from bastile-key-model.c)
+	* libbastile/bastile-object-model.h: (moved from bastile-key-model.h)
+	* libbastile/bastile-object-widget.c: (moved from bastile-key-widget.c)
+	* libbastile/bastile-object-widget.h: (moved from bastile-key-widget.h)
+	* libbastile/bastile-progress.c:
+	* libbastile/bastile-set.c:
+	* libbastile/bastile-set.h:
+	* libbastile/bastile-set-model.c:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-types.c:
+	* libbastile/bastile-types.h:
+	* libbastile/bastile-types.vala: (removed)
+	* libbastile/bastile-unknown.c: (moved from bastile-unknown-key.c)
+	* libbastile/bastile-unknown.h: (moved from bastile-unknown-key.h)
+	* libbastile/bastile-unknown-key.c: (moved to bastile-unknown.c)
+	* libbastile/bastile-unknown-key.h: (moved from bastile-unknown.h)
+	* libbastile/bastile-unknown-source.c:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h:
+	* pgp/libbastile-pgp-c.vapi:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-add-subkey.c:
+	* pgp/bastile-pgp-add-uid.c:
+	* pgp/bastile-pgp-commands.vala:
+	* pgp/bastile-pgp-expires.c:
+	* pgp/bastile-pgp-generate.c:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key.h:
+	* pgp/bastile-pgp-key-op.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-keysets.c:
+	* pgp/bastile-pgp-revoke.c:
+	* pgp/bastile-pgp-sign.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-pgp-uid.c:
+	* pgp/bastile-pgp-uid.h:
+	* pgp/bastile-server-source.c:
+	* pgp/bastile-signer.c:
+	* pkcs11/bastile-pkcs11-certificate.c:
+	* pkcs11/bastile-pkcs11-certificate.h:
+	* pkcs11/bastile-pkcs11-commands.c:
+	* src/bastile-key-manager.vala:
+	* src/bastile-key-manager-store.c:
+	* src/bastile-keyserver-results.vala:
+	* src/bastile-keyserver-sync.c:
+	* src/bastile-viewer.c:
+	* ssh/libbastile-ssh-c.vapi:
+	* ssh/bastile-ssh-commands.vala:
+	* ssh/bastile-ssh-generate.c:
+	* ssh/bastile-ssh-key.c:
+	* ssh/bastile-ssh-key.h:
+	* ssh/bastile-ssh-key-properties.c:
+	* ssh/bastile-ssh-operation.c:
+	* ssh/bastile-ssh-source.c:
+	* ssh/bastile-ssh-upload.c:
+	Major refactoring. Remove BastileKey and use BastileObject directly. Remove the 
+	changed signal from keys, and use GObject 'notify' signal instead. Standardize 
+	set of properties, with all the common properties handled by BastileObject. 
+	Cleanup concept of child objects. 
+	
+2008-11-23  Stef Walter  <stef@memberwebs.com>
+	
+	* gkr/libbastile-gkr-c.vapi: (removed)
+	* gkr/Makefile.am:
+	* gkr/bastile-gkeyring-item.c: (moved to bastile-gkr-item.c)
+	* gkr/bastile-gkeyring-item.h: (moved to bastile-gkr-item.h)
+	* gkr/bastile-gkeyring-item-properties.c: (moved to bastile-gkr-item-properties.c)
+	* gkr/bastile-gkeyring-item-properties.glade: (moved to bastile-gkr-item-properties.glade)
+	* gkr/bastile-gkeyring-operation.c: (moved to bastile-gkr-operation.c)
+	* gkr/bastile-gkeyring-operation.h: (moved to bastile-gkr-operation.h)
+	* gkr/bastile-gkeyring-source.c: (moved to bastile-gkr-source.c)
+	* gkr/bastile-gkeyring-source.h: (moved to bastile-gkr-source.h)
+	* gkr/bastile-gkr.c:
+	* gkr/bastile-gkr.h:
+	* gkr/bastile-gkr.vala: (removed)
+	* gkr/bastile-gkr-commands.c:
+	* gkr/bastile-gkr-commands.h:
+	* gkr/bastile-gkr-commands.vala:
+	* gkr/bastile-gkr-dialogs.h:
+	* gkr/bastile-gkr-item.c: (moved from bastile-gkeyring-item.c)
+	* gkr/bastile-gkr-item.h: (moved from bastile-gkeyring-item.h)
+	* gkr/bastile-gkr-item-properties.c: (moved from bastile-gkeyring-item-properties.c)
+	* gkr/bastile-gkr-item-properties.glade: (moved from bastile-gkeyring-item-properties.glade)
+	* gkr/bastile-gkr-module.c:
+	* gkr/bastile-gkr-operation.c: (moved from bastile-gkeyring-operation.c)
+	* gkr/bastile-gkr-operation.h: (moved from bastile-gkeyring-operation.h)
+	* gkr/bastile-gkr-source.c: (moved from bastile-gkr-source.c)
+	* gkr/bastile-gkr-source.h: (moved from bastile-gkr-source.h)
+	Make all of mate-keyring component in the same namespace, and remove vala usage.
+	
+2008-11-22  Stef Walter  <stef@memberwebs.com>
+
+	* libmatecryptui/crui-asn1.c: (added)
+	* libmatecryptui/crui-asn1.h: (added)
+	* libmatecryptui/pk.asn: (added)
+	* libmatecryptui/pkix.asn: (added)
+	* libmatecryptui/tests/unit-test-asn1.c: (added)
+	* configure.in: Add libtasn1 depdencency and ASN.1 parsing functionality
+	to libmatecryptui.
+	
+	* libmatecryptui/crui-util.c: (added)
+	* libmatecryptui/crui-util.h: (added)
+	* libmatecryptui/crui-x509-cert.c: (added)
+	* libmatecryptui/crui-x509-cert.h: (added)
+	* libmatecryptui/crui-x509-simple.c: (added)
+	* libmatecryptui/crui-x509-simple.h: (added)
+	* libmatecryptui/tests/unit-test-util.c: (added)
+	* libmatecryptui/tests/unit-test-x509-cert.c: (added)
+	* libmatecryptui/tests/files/test-certificate-1.der: (added) Add interface 
+	that represents a certificate, and a basic file loader.
+	
+	* libmatecryptui/crui-x509-cert-basics.c: (added)
+	* libmatecryptui/crui-x509-cert-basics.h: (added)
+	* libmatecryptui/crui-x509-cert-basics.glade: (added)
+	* libmatecryptui/crui-x509-cert-basics.ui: (added)
+	* libmatecryptui/crui-x509-cert-dialog.c: (added)
+	* libmatecryptui/crui-x509-cert-dialog.h: (added)
+	* libmatecryptui/tests/crui-show.c: (added) Add a basic UI display for a X509
+	certificate.
+	
+	* libmatecryptui/gtest-helpers.c: (added)
+	* libmatecryptui/gtest-helpers.h: (added)
+	* libmatecryptui/gtest-prep.sh: (added)
+	* libmatecryptui/Makefile.am: Add unit testing to libmatecryptui for new functionality.
+	
+	* libmatecryptui/tests/cryptui-test-keyset.c: (removed)
+	* libmatecryptui/tests/cryptui-test-ui.c: 
+	* libmatecryptui/Makefile.am: Reorganize old tests.
+	
+	* pkcs11/libbastile-pkcs11-c.vapi: (added)
+	* pkcs11/Makefile.am:
+	* pkcs11/bastile-pkcs11-certificate.c:
+	* pkcs11/bastile-pkcs11-certificate.h:
+	* pkcs11/bastile-pkcs11-certificate.vala: (removed)
+	* pkcs11/bastile-pkcs11-commands.c: (added)
+	* pkcs11/bastile-pkcs11-commands.h: (added)
+	* pkcs11/bastile-pkcs11-module.c:
+	* pkcs11/bastile-pkcs11-source.vala: Use the new X509 display for certificates
+	in bastile. Very simple beginnings. Rework BastilePkcs11Certificate. No longer
+	written in vala.
+	
+2008-11-20  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-progress.c: Put progress dialog in upper left corner.
+    Patch from Jeff Cai.  Fixes bug #561476
+    * ssh/bastile-ssh-source.c: Monitor ssh pub key files so key changes are
+    monitored on Solaris.  Patch by Jeff Cai.  Fixes bug #561641
+
+2008-11-18  Adam Schreiber  <sadam@clemson.edu>
+
+    * pgp/bastile-add-subkey.glade:
+    * pgp/bastile-pgp-generate.glade:
+    * ssh/bastile-ssh-generate.glade: Set page_size property of spin buttons to
+    zero. non-zero values deprecated.
+    * src/bastile-generate-select.c:
+    * src/bastile-generate-select.vala: Close select window when row activated.
+    * pgp/bastile-pgp-key-properties.c: Set transient on the main window 
+    instead of the key properties window.  Fixes bug # 558234
+    * ssh/bastile-ssh-upload.glade: Indicate how to connect to port != 22.
+    Fixes bug #489903
+
+2008-11-15  Adam Schreiber  <sadam@clemson.edu>
+    
+    * pgp/bastile-pgp-private-key-properties.glade:
+    * pgp/bastile-pgp-public-key-properties.glade: Remove frame shadow from 
+    photoid frame.  Fixes bug #404785
+    * gkr/bastile-gkr-commands.c:
+    * gkr/bastile-gkr-commands.vala: Use ngettext. Fixes bug #554933
+
+2008-11-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-util.c: Re-fix dialog.  Patch from Wouter Bolsterlee
+
+2008-11-11  Adam Schrieber  <sadam@clemson.edu>
+
+    * src/eggtreemultidnd.c: Update from svn.  Fixes bug #560338
+
+2008-11-10  Adam Schreiber  <sadam@clemson.edu>
+
+    * ssh/bastile-ssh-key-properties.c: Fix spelling error
+    * ssh/bastile-ssh-askpass.c: Remove call to gtk_init.  Patch from Jeff Cai.
+    Fixes bug #557537
+    * ssh/bastile-ssh-operation.c: Fix upload password prompt.  
+    Fixes bug #550755
+    * libbastile/bastile-util.c: Fix markup in dialog.
+    Patch from Jeff Cai.  Fixes bug #558494
+
+=== bastile 2.25.1 ===
+2008-11-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+	* NEWS:
+	* README: Release version 2.25.1
+
+2008-11-03  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/eggtreemultidnd.c:
+    * src/eggtreemultidnd.h:
+    * libegg/egg-datetime.h:
+    * daemon/bastile-service.h: Clean up GLib and GTK+ includes (MATE Goal)
+
+2008-10-29  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-keyserver-results.c:
+    * src/bastile-keyserver-results.vala:
+    * src/bastile-key-manager.c:
+    * src/bastile-key-manager.vala: Clean up errors in declaration of signal
+    handlers.  Fixes bug #558406
+
+=== bastile 2.24.1 ===
+
+2008-10-19  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* NEWS:
+	* README: Release version 2.24.1
+
+2008-10-18  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-pgp-key.c: PGP keys don't always have to come 
+	from a PGP source. Should fix bug #553648
+
+2008-10-18  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Add gthread to pkg-config requirements.
+	Fixes bug 553235. Patch by Jeff Cai.
+
+2008-10-18  Stef Walter  <stef@memberwebs.com>
+
+	* libmatecryptui/cryptui-key-store.c: cryptui_key_store_set_selected_key 
+	used wrong iter. Fixes bug #556187. Patch by Philip Withnall
+
+2008-10-11  Adam Schreiber  <sadam@clemson.edu>
+
+    * * gkr/bastile-gkr-commands.c:
+    * gkr/bastile-gkr-commands.vala:
+    * gkr/vala-build.stamp: Revert 2574
+    * po/POTFILES.in: Add src/bastile-viewer.c.
+    * gkr/Makefile.am:
+    * gkr/bastile-gkr-commands.c:
+    * gkr/bastile-gkr-commands.vala:
+    * gkr/vala-build.stamp: Use ngettext. Fixes bug #554933
+    * po/POTFILES.skip: Remove src/bastile-viewer.c.  Fixes bug #554937
+
+2008-09-25  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/vala-build.stamp:
+    * src/bastile-keyserver-results.c:
+    * src/bastile-keyserver-results.vala: Fix crasher part of bug #553648
+
+=== bastile 2.24.0 ===
+
+2008-09-20  Stef Walter  <stef@memberwebs.com>
+
+	* NEWS:
+	* configure.in:
+	* README: Release version 2.24.0
+
+2008-09-15  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-passphrase.c: Some tweaks to the password
+	prompt window, including allowing minimizing to release the 
+	keyboard grab.
+
+2008-09-14  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-daemon.c:
+	* daemon/bastile-hkp-server.c:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-validity.c:
+	* pgp/bastile-gpg-options.c:
+	* pgp/bastile-gpgme-io.c:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-ssh-askpass.c: Fix compiler warnings
+	for gcc 4.3. 
+	
+2008-09-14  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-key-manager-store.c: Disconnect from 'sort-changed'
+	when closing down a key manager window. This prevents mateconf
+	notifications after window is gone away. See bug #546686
+	
+2008-09-14  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-widget.c: Ignore erroneous negative
+	window sizes. 
+	
+2008-09-14  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-set-model.c:
+	* pkcs11/bastile-pkcs11-certificate.vala:
+	* src/bastile-key-manager-store.c: Fix problems with validity
+	and trust columns being the wrong type in the tree model.
+	
+2008-09-14  Stef Walter  <stef@memberwebs.com>
+
+	* src/main.c:
+	* daemon/bastile-daemon.c: Check result of gtk_init_with_args().
+	Should fix bug #544352. Patch by Christian Persch.
+	
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* libmatecryptui/cryptui.c: Request a minimum width for the 
+	prompt dialog to prevent ellipsizing from collapsing 
+	all text down to nothing.
+	
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-service-crypto.c:
+	* daemon/bastile-service.h: Return a 'cancelled' error when
+	from the daemon crypto dbus methods when a user cancels
+	out of a password prompt. Fixes bug #520119
+	
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-pgp-key-properties.c: Show revoked subkeys
+	properly in details view of PGP keys. Fixes bug #550913
+	
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-key-widget.c:
+	* pgp/bastile-pgp-key-properties.c: Fix reference problems
+	when closing with a PGP properties window open.
+	
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* ssh/bastile-ssh-source.c: Fix problem deleting SSH
+	keys. Fixes bug #551377
+	
+2008-09-13  Stef Walter  <stef@memberwebs.com>
+
+	* libmatecryptui/cryptui-key-list.c: Fix column widths, and 
+	elipsize long text in key listing. Fixes bug #551426
+	Patch by Adam Schreiber.
+
+2008-09-12  Joe Orton  <jorton@redhat.com>
+ 
+ 	* pkcs11/bastile-pkcs11-module.c: Include gp11.h without
+ 	directory prefix.
+ 
+ 	* pkcs11/p11.vapi:
+ 	* pkcs11/gp11.vapi:
+ 	* pkcs11/bastile-pkcs11-source.vala: Treat attribute types
+ 	as ulong not uint, to prevent truncation warnings from the compiler.
+	
+2008-09-12  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-pgp-keysets.c: Fix problem with 'no keys 
+	available' when trying to sign a PGP key. Fixes bug #545626
+	
+2008-09-10  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkeyring-source.c:
+	* libmatecryptui/cryptui.h:
+	* libbastile/libbastile-c.vapi:
+	* libbastile/bastile-key.h:
+	* pgp/bastile-pgp-key.c:
+	* pkcs11/p11.vapi:
+	* pkcs11/bastile-pkcs11-certificate.vala:
+	* pkcs11/bastile-pkcs11-source.vala:
+	* src/bastile-viewer.c:
+	* ssh/bastile-ssh-key.c: Add 'exportable' flag to objects/keys
+	and don't enable export UI if selected objects are not exportable.
+	Fixes bug #551477
+	
+2008-09-09  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-transfer-operation.c: Fix crash/warning 
+	when syncing with an ldap server that doesn't have our key.
+	   
+2008-09-08  Adam Schreiber  <sadam@clemson.edu>
+
+    * libmatecryptui/cryptui-key-combo.c: Ellipsize too long UIDs
+    Fixes bug #550281
+    
+    * pixmaps/scalable/Makefile.am: Remove remaining reference to 
+    bastile-applet.svg. Fixes bug #551379
+
+    * pixmaps/22x22/bastile-applet-key.svg (deleted):
+    * pixmaps/22x22/bastile-applet-encrypted.svg (deleted):
+    * pixmaps/22x22/bastile-applet-unknown.svg (deleted):
+    * pixmaps/22x22/bastile-applet-text.png (deleted):
+    * pixmaps/22x22/bastile-applet-text.svg (deleted):
+    * pixmaps/22x22/bastile-applet-signed.png (deleted):
+    * pixmaps/22x22/bastile-applet-signed.svg (deleted):
+    * pixmaps/22x22/bastile-applet-key.png (deleted):
+    * pixmaps/22x22/Makefile.am:
+    * pixmaps/22x22/bastile-applet-encrypted.png (deleted):
+    * pixmaps/22x22/bastile-applet-unknown.png (deleted):
+    * pixmaps/48x48/bastile-applet.png (deleted):
+    * pixmaps/48x48/bastile-applet-signed.png (deleted):
+    * pixmaps/48x48/bastile-applet-text.png (deleted):
+    * pixmaps/48x48/bastile-applet-key.png (deleted):
+    * pixmaps/48x48/Makefile.am:
+    * pixmaps/48x48/bastile-applet-encrypted.png (deleted):
+    * pixmaps/48x48/bastile-applet-unknown.png (deleted):
+    * pixmaps/scalable/bastile-applet-key.svg (deleted):
+    * pixmaps/scalable/bastile-applet-encrypted.svg (deleted):
+    * pixmaps/scalable/bastile-applet-unknown.svg (deleted):
+    * pixmaps/scalable/bastile-applet.svg (deleted):
+    * pixmaps/scalable/bastile-applet-signed.svg (deleted):
+    * pixmaps/scalable/Makefile.am:
+    * pixmaps/scalable/bastile-applet-text.svg (deleted): Remove icons that 
+    are now part of bastile-plugins.  Fixes bug #550802
+
+
+
+=== bastile 2.23.92 ===
+
+2008-09-07  Stef Walter  <stef@memberwebs.com>
+
+	* README:
+	* NEWS: Release version 2.23.92
+
+2008-09-07  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkeyring-item-properties.c: Fix problem with 
+	password saving happening before lower levels get the 
+	focus-out event. Fixes bug #548320. 
+	 
+	* libbastile/bastile-secure-entry.c: Insignificant change 
+	of return type for event handler. 
+	
+2008-09-07  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/libbastile-c.vapi: Fix ownership problem 
+	with bastile_multi_operation_take().
+	
+	* src/bastile-key-manager.vala: Fix dumb 'Couldn't import keys'
+	error message when success. Fixes bug #544059
+	
+2008-09-07  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/libbastile-c.vapi:
+	* src/saehorse-preferences.h:
+	* src/bastile-viewer.c:
+	* src/bastile-viewer.h:
+	* src/bastile-viewer.vala: (removed)
+	* src/Makefile.am: Write BastileViewer in C.
+	
+	* gkr/bastile-gkr-commands.vala:
+	* libbastile/bastile-commands.vala:
+	* pgp/bastile-pgp-commands.vala:
+	* ssh/bastile-ssh-commands.vala: Fine tune memory copies 
+	of UI data.
+	
+2008-09-07  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-key.c: Fill in abstract methods properly
+	on the BastileObject class. Fixes crash. 
+	
+2008-09-03  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number.
+
+=== bastile 2.23.91 ===
+
+2008-09-03  Stef Walter  <stef@memberwebs.com>
+
+	* README:
+	* NEWS: 
+	* pkcs11/Makefile.am: Release version 2.23.91
+
+2008-09-01  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-viewer.c:
+    * src/bastile-viewer.vala:
+    * src/vala-build.stamp: Fix some more logic.
+    * src/bastile-viewer.c:
+    * src/bastile-viewer.vala:
+    * src/vala-build.stamp: Fix copying keys to clipboard.  Fixes bug #550279
+    * src/bastile.desktop.in.in: Remove encoding line.  Fixes bug #550169
+    
+2008-08-31  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h: 
+	* src/bastile-key-manager.vala: Fix double free. See bug #547918
+	
+2008-08-31  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-pgp-key.c: Fix null pointer dereference. See bug #549603
+	
+2008-08-31  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* pkcs11/gp11.vapi:
+	* pkcs11/gp11-hacks.h: (added)
+	* pkcs11/bastile-pkcs11-certificate.vala: Bump vala dependency, and make 
+	build work with latest vala again.
+	
+2008-08-28  Adam Schreiber  <sadam@clemson.edu>
+
+    * ssh/bastile-ssh-operation.c: Don't round up to the next highest power of 2
+    bytes.  Fixes bug #549747.  Happy Birthday to me :)
+
+2008-08-27  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/bastile.omf.in: Change series id so that the manual shows up
+    * help/C/bastile.xml: Updated manual.
+    * src/vala-build.stamp:
+    * src/bastile-key-manager.c:
+    * src/bastile-key-manager.vala: Don't repetedly load mate-keyring items.
+    Fixes bug #547682
+
+2008-08-26  Adam Schreiber  <sadam@clemson.edu>
+    * src/vala-build.stamp:
+    * src/bastile-keyserver-results.c:
+    * src/bastile-keyserver-results.vala:
+    * src/bastile-keyserver-results.h:
+    * src/bastile-key-manager.c:
+    * src/bastile-key-manager.vala:
+    * src/bastile-viewer.c:
+    * src/bastile-key-manager.h:
+    * src/bastile-viewer.h:
+    * src/bastile-generate-select.c:
+    * gkr/vala-build.stamp:
+    * gkr/bastile-gkr-commands.c:
+    * pgp/vala-build.stamp:
+    * pgp/bastile-pgp-generator.c:
+    * pgp/bastile-pgp-commands.c:
+    * ssh/vala-build.stamp:
+    * ssh/bastile-ssh-commands.c:
+    * ssh/bastile-ssh-generator.c:
+    * libbastile/bastile-generator.h:
+    * libbastile/bastile-commands.c:
+    * libbastile/bastile-object.c:
+    * libbastile/bastile-commands.h:
+    * libbastile/bastile-object.h:
+    * libbastile/bastile-servers.c:
+    * libbastile/vala-build.stamp:
+    * libbastile/bastile-view.c:
+    * libbastile/bastile-view.h:
+    * libbastile/bastile-generator.c: Add signal handler for help button on
+    the first time options.  Fixes bug #549036
+    * libbastile/bastile-validity.c:
+    * pgp/bastile-pgp-key-properties.c: Clear up ambiguity by adding contexts.
+    Fixes bug #549460
+
+2008-08-22  Adam Schreiber  <sadam@clemson.edu>
+
+    * libmatecryptui/cryptui-key-chooser.c: Fix copy & paste error while installing
+    properties.
+
+2008-08-18  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number.
+
+=== bastile 2.23.90 ===
+
+2008-08-18  Stef Walter  <stef@memberwebs.com>
+
+	* README:
+	* NEWS: Release version 2.23.90
+
+2008-08-13  Adam Schreiber  <sadam@clemson.edu>
+
+    * data/icons/hicolor_apps_16x16_bastile.png (added):
+    * data/icons/hicolor_apps_16x16_bastile-preferences.png (added):
+    * data/icons/hicolor_apps_22x22_bastile.png (added):
+    * data/icons/hicolor_apps_22x22_bastile-preferences.png (added):
+    * data/icons/hicolor_apps_24x24_bastile.png (added):
+    * data/icons/hicolor_apps_24x24_bastile-preferences.png (added):
+    * data/icons/hicolor_apps_32x32_bastile.png (added):
+    * data/icons/hicolor_apps_32x32_bastile-preferences.png (added):
+    * data/icons/hicolor_apps_48x48_bastile.png (added):
+    * data/icons/hicolor_apps_48x48_bastile-preferences.png (added):
+    * data/icons/Makefile.am (added):
+    * data/icons/svg (added):
+    * data/icons/svg/bastile.svg (added):
+    * data/icons/svg/bastile-preferences.svg (added):
+    * pixmaps/22x22/Makefile.am:
+    * pixmaps/48x48/Makefile.am:
+    * pixmaps/scalable/Makefile.am:
+    * src/bastile-viewer.vala:
+    * data/Makefile.am:
+    * configure.in:
+    * libbastile/bastile-widget.c:
+    * libbastile/bastile-gtkstock.c:
+    * libbastile/bastile-gtkstock.h: Icon makeover.  Patch from Michael 
+    Monreal.  Fixes bug #520114
+
+2008-08-03  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number.
+
+=== bastile 2.23.6 ===
+
+2008-08-03  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* NEWS:
+	* README: Release 2.23.6
+
+2008-08-03  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/libbastile-c.vapi:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-object.vala:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h:
+	* pkcs11/p11.vapi:
+	* pkcs11/gp11.vapi:
+	* pkcs11/Makefile.am:
+	* pkcs11/bastile-pkcs11.c:
+	* pkcs11/bastile-pkcs11-certificate.vala: (added)
+	* pkcs11/bastile-pkcs11-source.vala: (added)
+	* pkcs11/bastile-pkcs11-module.c: 
+	* src/Makefile.am:
+	* src/main.c:
+	* ssh/bastile-ssh-source.c: 
+	* configure.in: Add initial proof of concept for loading of 
+	objects from PKCS#11. 
+
+2008-07-30  Stef Walter  <stef@memberwebs.com>
+
+	* common/bastile-registry.c:
+	* common/bastile-registry.h:
+	* daemon/bastile-daemon.c:
+	* gkr/bastile-gkr-module.c:
+	* gkr/bastile-gkr-module.h:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-context.h:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-module.c:
+	* pgp/bastile-pgp-module.h:
+	* pgp/bastile-pgp-source.c:
+	* pkcs11/bastile-pkcs11-module.c:
+	* pkcs11/bastile-pkcs11-module.h:
+	* src/main.c:
+	* src/bastile-keyserver-search.c:
+	* ssh/bastile-ssh-module.c:
+	* ssh/bastile-ssh-module.h:
+	* ssh/bastile-ssh-source.c: Simplify initialization of modules,
+	and make modules add sources to context explicitly.
+	
+2008-07-30  Adam Schreiber  <sadam@clemson.edu>
+
+    * ssh/bastile-ssh-data.c: Fix usage of strncat.  Fixes bugs #523022 
+    and 543601
+
+2008-07-27  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Removing strange -O0 flag from eons 
+	ago. Fixes bug #544305
+
+2008-07-27  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-viewer.vala: Close the about dialog when 
+	close button is clicked. Fixes bug #544350
+	
+2008-07-27  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkeyring-operation.c:
+	* gkr/bastile-gkeyring-source.c:
+	* gkr/bastile-gkr-commands.vala:
+	* libbastile/libbastile-c.vapi:
+	* libbastile/bastile-commands.vala:
+	* libbastile/bastile-operation.h:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-source.h:
+	* libbastile/bastile-transfer-operation.c:
+	* libbastile/bastile-unknown-source.c:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h:
+	* pgp/Makefile.am:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-commands.vala:
+	* pgp/bastile-pgp-delete.c: (removed)
+	* pgp/bastile-pgp-dialogs.h:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-operation.c:
+	* pgp/bastile-pgp-source.c:
+	* src/bastile-viewer.vala:
+	* ssh/bastile-delete.c: (removed)
+	* ssh/bastile-ssh-commands.vala:
+	* ssh/bastile-ssh-operation.c:
+	* ssh/bastile-ssh-source.c: Refactor the delete code so it 
+	returns proper operations and handles identities properly.
+	
+2008-07-27  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-progress.c: Fix reference counting
+	problem on operations.
+	
+2008-07-26  Stef Walter  <stef@memberwebs.com>
+
+	* pkcs11/gp11.vapi:
+	* pkcs11/Makefile.am:
+	* pkcs11/p11.vapi: (added)
+	* pkcs11/bastile-pkcs11.vala:
+	* bugs.vapi: Add functions for converting from a bastile object
+	id (quark) to a set of attributes that uniquely identifies a
+	PKCS#11 object.
+	
+2008-07-26  Stef Walter  <stef@memberwebs.com>
+
+	* ssh/bastile-algo.c:
+	* ssh/bastile-algo.h:
+	* ssh/bastile-ssh-key-data.c: Use base64 encoding functions
+	in GLib rather than including our own.
+	
+2008-07-23  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * ssh/Makefile.am: Include socket libraries.  Patch from Jeff Cai.
+    Fixes bug #544267
+    * libbastile/bastile-dns-sd.c: Fix empty struct.
+    Patch from Jeff Cai.  Fixes bug #544266
+    * libbastile/bastile-prefs.c: Fix undeclared variable.  
+    Patch from Jeff Cai.  Fixes bug #544262
+
+2008-07-22  Stef Walter  <stef@memberwebs.com>
+
+	* pgp/bastile-ldap-source.c: Don't use deprecated LDAP functions.
+	Patch by Adam Schreiber. Fixes bug #514618
+	
+2008-07-22  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-progress.c: Don't add a multi-operation
+	to itself. Fixes bug #510992
+	
+2008-07-21  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number.
+
+=== bastile 2.23.5 ===
+
+2008-07-21  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in:
+	* NEWS:
+	* README: Release 2.23.5
+
+2008-07-20  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-widget.c: Fix memory leak.
+
+2008-07-20  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-key-manager.glade:
+    * src/bastile-keyserver-results.glade:
+    * libbastile/bastile-mateconf.h:
+    * libbastile/bastile-widget.c: Save and load window sizes from mateconf.
+    Fixes bug #510004
+
+2008-07-19  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-service.c:
+	* gkr/bastile-gkeyring-source.c:
+	* libbastile/bastile-source.c:
+	* libbastile/bastile-source.h:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h:
+	* pgp/bastile-gpgmex-op.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* src/bastile-key-manager-store.c:
+	* ssh/bastile-ssh-key-properties.c:
+	* ssh/seahrose-ssh-operation.c:
+	* ssh/bastile-ssh-source.c:
+	* ssh/bastile-ssh-source.h: Remove the exporting of secret keys from 
+	the BastileSource interface, and push this into the modules.
+	
+2008-07-18  Stef Walter  <stef@memberwebs.com>
+
+	* gkr/bastile-gkeyring-item.c:
+	* gkr/bastile-gkeyring-item.h:
+	* gkr/bastile-gkeyring-item-properties.c:
+	* gkr/bastile-gkr-commands.vala:
+	* libbastile/libbastile-c.vapi:
+	* libbastile/Makefile.am:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-key.c:
+	* libbastile/bastile-key.h:
+	* libbastile/bastile-object.vala:
+	* libbastile/bastile-set-model.c: (added)
+	* libbastile/bastile-set-model.h: (added)
+	* libbastile/bastile-types.vala:
+	* libbastile/bastile-unknown-key.c:
+	* libbastile/bastile-unknown-key.h:
+	* libbastile/bastile-view.vala:
+	* pgp/libbastile-pgp-c.vapi:
+	* pgp/Makefile.am:
+	* pgp/bastile-pgp-commands.vala:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key.h:
+	* pgp/bastile-pgp-key-op.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-pgp-uid.c:
+	* pgp/bastile-pgp-uid.h:
+	* src/bastile-key-manager.vala:
+	* src/bastile-key-manager-store.c:
+	* src/bastile-key-manager-store.h:
+	* src/bastile-keyserver-results.vala:
+	* src/bastile-viewer.vala:
+	* ssh/bastile-ssh-commands.vala:
+	* ssh/bastile-ssh-key.c:
+	* ssh/bastile-ssh-key.h: Add real GtkTreeModel for displaying 
+	objects. And use real parent/child relationships for tree.
+
+	* pgp/bastile-pgp-source.c: Prevent refresh loop
+
+2008-07-18  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Add AC_PROG checks.  Patch from Rodrigo Moya. Fixes
+    bug #543602
+
+2008-07-16  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-daemon.c:
+	* daemon/bastile-service.c:
+	* daemon/bastile-service.h:
+	* daemon/bastile-service-crypto.c:
+	* daemon/bastile-service-keyset.c:
+	* gkr/libbastile-gkr-c.vapi:
+	* gkr/bastile-gkeyring-item.c:
+	* gkr/bastile-gkeyring-item.h:
+	* gkr/bastile-gkeyring-item-properties.c:
+	* gkr/bastile-gkeyring-operation.c:
+	* gkr/bastile-gkeyring-source.c:
+	* gkr/bastile-gkeyring-source.h:
+	* gkr/bastile-gkr-commands.vala:
+	* libbastile/libbastile-c.vapi:
+	* libbastile/Makefile.am:
+	* libbastile/bastile-combo-keys.c:
+	* libbastile/bastile-combo-keys.h:
+	* libbastile/bastile-commands.vala:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-context.h:
+	* libbastile/bastile-dns-sd.c:
+	* libbastile/bastile-key.c:
+	* libbastile/bastile-key.h:
+	* libbastile/bastile-keyset.c: (moved to bastile-set.c)
+	* libbastile/bastile-keyset.h: (moved to bastile-set.h)
+	* libbastile/bastile-key-source.c: (moved to bastile-source.c)
+	* libbastile/bastile-key-source.h: (moved to bastile-source.h)
+	* libbastile/bastile-notification.c:
+	* libbastile/bastile-object.vala: (added)
+	* libbastile/bastile-prefs-keyrings.c:
+	* libbastile/bastile-set.c: (moved from bastile-keyset.c)
+	* libbastile/bastile-set.h: (moved from bastile-keyset.h)
+	* libbastile/bastile-source.c: (moved from bastile-key-source.c)
+	* libbastile/bastile-source.h: (moved from bastile-key-source.h)
+	* libbastile/bastile-transfer-operation.c:
+	* libbastile/bastile-types.vala: (added)
+	* libbastile/bastile-unknown-key.c:
+	* libbastile/bastile-unknown-source.c:
+	* libbastile/bastile-unknown-source.h:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h:
+	* libbastile/bastile-view.vala:
+	* pgp/libbastile-pgp-c.vala:
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-pgp-commands.vala:
+	* pgp/bastile-pgp-delete.c:
+	* pgp/bastile-pgp-generator.vala:
+	* pgp/bastile-pgp-key.c:
+	* pgp/bastile-pgp-key.h:
+	* pgp/bastile-pgp-key-op.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-keysets.c:
+	* pgp/bastile-pgp-keysets.h:
+	* pgp/bastile-pgp-sign.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-pgp-source.h:
+	* pgp/bastile-server-source.c:
+	* pgp/bastile-server-source.h:
+	* pgp/bastile-signer.c:
+	* src/main.c:
+	* src/bastile-key-manager.vala:
+	* src/bastile-key-manager-store.c:
+	* src/bastile-key-manager-store.h:
+	* src/bastile-keyserver-results.vala:
+	* src/bastile-keyserver-search.c:
+	* src/bastile-keyserver-sync.c:
+	* src/bastile-viewer.vala:
+	* ssh/libbastile-ssh-c.vapi:
+	* ssh/bastile-delete.c:
+	* ssh/bastile-ssh-commands.vala:
+	* ssh/bastile-ssh-generator.vala:
+	* ssh/bastile-ssh-key.c:
+	* ssh/bastile-ssh-key.h:
+	* ssh/bastile-ssh-key-properties.c:
+	* ssh/bastile-ssh-operation.c:
+	* ssh/bastile-ssh-source.c:
+	* ssh/bastile-ssh-source.h:
+	* ssh/bastile-ssh-upload.c: Refactor and add BastileObject class
+	as a base class of BastileKey, so that we can have non-key objects
+	in the mix.
+	
+2008-07-16  Stef Walter  <stef@memberwebs.com>
+
+	* pkcs11/*:
+	* Makefile.am:
+	* configure.in: Initial infrastructure for PKCS11 component.
+	
+	* gkr/bastile-gkeyring-source.c:
+	* libbastile/libbastile-c.vapi:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-key-source.c:
+	* libbastile/bastile-key-source.h:
+	* libbastile/bastile-unknown-source.c:
+	* pgp/bastile-pgp-source.c:
+	* pgp/bastile-server-source.c:
+	* ssh/bastile-ssh-source.c: Remove unused stop() and get_state() 
+	virtual methods of BastileKey
+	
+	* libbastile/bastile-prefs.c: Fix compiler warning
+	
+2008-07-16  Stef Walter  <stef@memberwebs.com>
+
+	* acinclude.m4: Fix vala version check.
+	
+	* pgp/bastile-pgp-source.c: Include appropriate header
+	
+2008-07-15  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-dbus-server.c:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-dns-sd.c:
+	* pgp/bastile-pgp-source.c:
+	* src/main.c:
+	* configure.in: Complete decoupling from GPGME. Bastile
+	should now be buildable without GPGME or GnuPG.
+	
+2008-07-15  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/Makefile.am:
+	* daemon/bastile-daemon.c:
+	* daemon/bastile-service.c:
+	* gkr/bastile-gkeyring-item.c:
+	* gkr/bastile-gkeyring-operation.h:
+	* libbastile/libbastile-c.vapi:
+	* libbastile/Makefile.am:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-keyserver-control.c:
+	* libbastile/bastile-prefs.c:
+	* libbastile/bastile-servers.vala: (added)
+	* pgp/bastile-hkp-source.c:
+	* pgp/bastile-ldap-source.c:
+	* pgp/bastile-server-source.c:
+	* pgp/bastile-server-source.h:
+	* src/main.c:
+	* src/bastile-key-manager-store.c:
+	* src/bastile-keyserver-search.c:
+	* src/bastile-keyserver-sync.c:
+	* configure.in:
+	* Makefile.am: Further decouple bastile from PGP. Implement a place
+	where modules can register server uri validation functions.
+	
+	* libbastile/bastile-dns-sd.c:
+	* libbastile/bastile-util.c:
+	* pgp/bastile-pgp-key-properties.c:
+	* pgp/bastile-pgp-photos.c:
+	* ssh/bastile-ssh-key-properties.c: Fix compile warnings	
+	 
+2008-07-08  Stef Walter  <stef@memberwebs.com>
+
+	* src/Makefile.am:
+	* gkr/Makefile.am:
+	* pgp/Makefile.am:
+	* ssh/Makefile.am:
+	* libbastile/Makefile.am:
+	* acinclude.m4: Make bastile build more reliably on machines without 
+	a version of vala.
+
+2008-07-05  Adam Schreiber  <sadam@clemson.edu>
+    
+    * libmatecryptui/cryptui.c:
+    * libmatecryptui/cryptui.h: Add function for consumers to launch bastile when
+    a key needs to be created.
+    * libmatecryptui/cryptui-key-chooser.c: Fix warnings
+    * libmatecryptui/cryptui-keyset.c:
+    * libmatecryptui/cryptui-key-store.c:
+    * libmatecryptui/cryptui-key-store.h:
+    * libmatecryptui/cryptui-key-chooser.c: Implement ToDo: replace signer drop down
+    in chooser with check button when only one secret key
+    * src/bastile-keyserver-sync.c:
+    * src/bastile-keyserver-sync.glade: Set Sync button insensitive when a
+    server isn't selected.  Fixes bug #541579
+
+
+2008-06-28  Stef Walter  <stef@memberwebs.com>
+
+	* daemon/bastile-daemon.c:
+	* daemon/bastile-sharing.c:
+	* daemon/Makefile.am:
+	* gkr/libbastile-gkr-c.vapi: (added)
+	* gkr/Makefile.am:
+	* gkr/bastile-gkeyring-item-properties.c:
+	* gkr/bastile-gkeyring-item-properties.glade: (moved from src/)
+	* gkr/bastile-gkeyring-item.h:
+	* gkr/bastile-gkr.vala: (added)
+	* gkr/bastile-gkr-commands.vala: (added)
+	* gkr/bastile-gkr-module.h: (moved from bastile-gkr.h)
+	* gkr/bastile-gkr-module.c: (moved from bastile-gkr.c)
+	* libmatecryptui/cryptui.h:
+	* libbastile/libbastile-c.deps: (added)
+	* libbastile/libbastile-c.vapi: (added)
+	* libbastile/Makefile.am:
+	* libbastile/bastile-commands.vala: (added)
+	* libbastile/bastile-context.h:
+	* libbastile/bastile-context.c:
+	* libbastile/bastile-generator.vala: (added)
+	* libbastile/bastile-key-source.c:
+	* libbastile/bastile-key-source.h:
+	* libbastile/bastile-key.c:
+	* libbastile/bastile-key.h:
+	* libbastile/bastile-key-widget.h: (moved from src/)
+	* libbastile/bastile-key-widget.c: (moved from src/)
+	* libbastile/bastile-operation.c:
+	* libbastile/bastile-operation.h:
+	* libbastile/bastile-prefs-keyrings.c:
+	* libbastile/bastile-prefs.c:
+	* libbastile/bastile-progress.c:
+	* libbastile/bastile-transfer-operation.c:
+	* libbastile/bastile-unknown-source.c:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h:
+	* libbastile/bastile-view.vala: (added):
+	* libbastile/bastile-widget.c:
+	* libbastile/bastile-widget.h:
+	* pgp/libbastile-pgp-c.vapi:
+	* pgp/Makefile.am:
+	* pgp/bastile-add-subkey.glade: (moved from src/)
+	* pgp/bastile-add-uid.glade: (moved from src/)
+	* pgp/bastile-expires.glade: (moved from src/)
+	* pgp/bastile-pgp-add-subkey.c: (moved from src/)
+	* pgp/bastile-pgp-add-uid.c: (moved from src/)
+	* pgp/bastile-pgp-commands.vala: (added)
+	* pgp/bastile-pgp-delete.c: (moved from src/)
+	* pgp/bastile-pgp-dialogs.h: (added)
+	* pgp/bastile-pgp-expires.c: (moved from src/)
+	* pgp/bastile-pgp-generate.c: (moved from src/)
+	* pgp/bastile-pgp-generate.glade: (moved from src/)
+	* pgp/bastile-pgp-generator.vala: (added)
+	* pgp/bastile-pgp-key.h: 
+	* pgp/bastile-pgp-key-properties.c: (moved from src/)
+	* pgp/bastile-pgp-keysets.h:
+	* pgp/bastile-pgp-module.c: (moved from bastile-pgp.c)
+	* pgp/bastile-pgp-module.h: (moved from bastile-pgp.h)
+	* pgp/bastile-pgp-photos.c: (moved from src/)
+	* pgp/bastile-pgp-private-key-properties.glade: (moved from src/)
+	* pgp/bastile-pgp-public-key-properties.glade: (moved from src/)
+	* pgp/bastile-pgp-revoke.c: (moved from src/)
+	* pgp/bastile-pgp-sign.c: (moved from src/)
+	* pgp/bastile-pgp.vala: (added)
+	* pgp/bastile-revoke.glade: (moved from src/)
+	* pgp/bastile-signer.glade: 
+	* pgp/bastile-sign.glade: (moved from src/)
+	* pgp/bastile-xloadimage.c: (moved from src/)
+	* src/Makefile.am:
+	* src/main.c:
+	* src/bastile-generate-select.vala: (added)
+	* src/bastile-key-manager.ui:
+	* src/bastile-key-manager.vala: (added)
+	* src/bastile-keyserver-results.vala: (added)
+	* src/bastile-keyserver-search.c: 
+	* src/bastile-keyserver-sync.c:
+	* src/bastile-viewer.vala: (added)
+	* src/bastile-windows.h:
+	* ssh/libbastile-ssh-c.vapi: 
+	* ssh/Makefile.am:
+	* ssh/bastile-delete.c: (added)
+	* ssh/bastile-ssh-commands.vala: (added)
+	* ssh/bastile-ssh-dialogs.h:
+	* ssh/bastile-ssh-generate.c: (moved from src/)
+	* ssh/bastile-ssh-generate.glade: (moved from src/)
+	* ssh/bastile-ssh-generator.vala: (added)
+	* ssh/bastile-ssh-key.h: 
+	* ssh/bastile-ssh-source.h:
+	* ssh/bastile-ssh.vala: (added)
+	* ssh/bastile-ssh-key-properties.c: (moved from src/)
+	* ssh/bastile-ssh-key-properties.glade: (moved from src/)
+	* ssh/bastile-ssh-module.c: (moved from bastile-ssh.c)
+	* ssh/bastile-ssh-module.h: (moved from bastile-ssh.h) 
+		Major UI refactoring. Use vala for new code. Move PGP, 
+		SSH, and mate-keyring UI code into separate modules.
+	  
+2008-06-20  Christian Persch  <chpe@mate.org>
+
+	* libmatecryptui/cryptui-key-chooser.h:
+	* libmatecryptui/cryptui-key-store.h:
+	* libmatecryptui/cryptui-keyset.h:
+	* libegg/egg-datetime.c: (egg_datetime_get_type):
+	* libegg/egg-datetime.h:
+	* libbastile/bastile-context.h:
+	* libbastile/bastile-dns-sd.h:
+	* libbastile/bastile-key-model.h:
+	* libbastile/bastile-key.h:
+	* libbastile/bastile-keyserver-control.h:
+	* libbastile/bastile-keyset.h:
+	* libbastile/bastile-widget.h:
+	* src/bastile-key-manager-store.h:
+	* src/bastile-key-manager.c: (bastile_key_manager_show):
+	* src/bastile-key-widget.h: Replace deprecated gtk type macros with
+	nondeprecated gtype ones. Bug #539287.
+
+2008-06-16  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-prefs-keyrings.c:
+	* libbastile/bastile-util.c:
+	* libbastile/bastile-util.h: Make bastile_util_show_error more 
+	useful so that accepts any widget as a parent and figues out the 
+	appropriate window to use.
+	
+	* src/bastile-key-manager.c:
+	* src/bastile-key-manager-store.c:
+	* src/bastile-key-manager-store.h: Support XDS properly. 
+	Fixes bug #507366
+	
+2008-06-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * ssh/bastile-ssh-operation.c: Add header file not included on Solaris.
+    Patch from Alexis Ballier.  Fixes bug #536213.
+
+2008-05-21  Saleem Abdulrasool  <compnerd@compnerd.org>
+
+	reviewed by: Adam Schreiber  <sadam@clemson.edu>
+
+	* configure.in:
+	* daemon/bastile-hkp-server.c: (lookup_handle_index),
+	(lookup_callback):
+	* gkr/bastile-gkeyring-item.c: (find_attribute_int),
+	(is_network_item), (bastile_gkeyring_item_get_attribute):
+	* libbastile/bastile-context.c:
+	(bastile_context_remote_key_source):
+	* libbastile/bastile-dns-sd.c: (resolve_callback),
+	(browse_callback):
+	* libbastile/bastile-unknown-key.c:
+	(bastile_unknown_key_get_property):
+	* libbastile/bastile-util.c: (bastile_util_get_date_string),
+	(bastile_util_get_display_date_string):
+	* pgp/bastile-gpgmex-util.c: (gpgmex_data_write_all):
+	* pgp/bastile-pgp-key-op.c: (photoid_load_transit):
+	* src/bastile-gkeyring-item-properties.c: (do_main):
+		Fix compiling with -Werror and fix typo of -DG_DISABLE_DEPRECATED.
+
+2008-05-17  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-passphrase.c: Grab keyboard focus
+    Patch from Josselin Mouette.  Fixes bug #326611
+
+
+2008-05-05  Saleem Abdulrasool  <compnerd@compnerd.org>
+
+	reviewed by: Adam Schreiber  <sadam@clemson.edu>
+
+	* configure.in:
+	* libbastile/bastile-widget.c: (bastile_widget_show_help):
+		Remove mate-vfs usage for bastile in general.
+
+2008-05-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-keyserver-results.glade: Fix crash caused by libmate removal.
+    * src/bastile-key-manager.c: Add window title to match desktop file.
+    * src/bastile-key-manager.glade:
+    * src/bastile-revoke.c:
+    * src/bastile-sign.c:
+    * src/bastile-delete.c:
+    * src/bastile-add-uid.c:
+    * src/bastile-pgp-generate.glade:
+    * src/bastile-key-widget.c:
+    * src/bastile-ssh-key-properties.c:
+    * src/bastile-keyserver-results.c:
+    * src/bastile-keyserver-search.c:
+    * src/bastile-ssh-generate.c:
+    * src/bastile-add-subkey.c:
+    * src/bastile-keyserver-sync.c:
+    * src/bastile-key-manager-store.c:
+    * src/bastile-key-manager.c:
+    * src/bastile-preferences.c:
+    * src/bastile-gkeyring-item-properties.c:
+    * src/bastile-generate-select.c:
+    * src/bastile-photos.c:
+    * src/main.c:
+    * src/bastile-pgp-generate.c:
+    * src/bastile-expires.c:
+    * src/bastile-ssh-upload.c:
+    * src/Makefile.am:
+    * src/bastile-key-properties.c:
+    * src/bastile-add-subkey.glade:
+    * INSTALL:
+    * gkr/bastile-gkeyring-item.c:
+    * gkr/bastile-gkeyring-operation.c:
+    * gkr/bastile-gkeyring-source.c:
+    * configure.in:
+    * pgp/bastile-signer.c:
+    * pgp/bastile-pgp-key-op.c:
+    * pgp/bastile-server-source.c:
+    * pgp/bastile-gpg-options.c:
+    * pgp/bastile-pgp-key.c:
+    * pgp/bastile-ldap-source.c:
+    * pgp/bastile-hkp-source.c:
+    * pgp/Makefile.am:
+    * pgp/bastile-pgp-operation.c:
+    * pgp/bastile-pgp-source.c:
+    * ssh/bastile-ssh-operation.c:
+    * ssh/bastile-ssh-source.c:
+    * ssh/bastile-ssh-askpass.c:
+    * ssh/bastile-ssh-key.c:
+    * libbastile/bastile-keyserver-control.c:
+    * libbastile/bastile-unix-signal.c:
+    * libbastile/bastile-prefs-keyrings.c:
+    * libbastile/bastile-passphrase.c:
+    * libbastile/bastile-util.c:
+    * libbastile/bastile-prefs.c:
+    * libbastile/bastile-transfer-operation.c:
+    * libbastile/bastile-widget.c:
+    * libbastile/bastile-context.c:
+    * libbastile/bastile-unknown-key.c:
+    * libbastile/bastile-notification.c:
+    * libbastile/bastile-key.c:
+    * libbastile/bastile-dns-sd.c:
+    * libbastile/bastile-unknown-source.c:
+    * libbastile/bastile-operation.c:
+    * libbastile/bastile-operation.h:
+    * libbastile/bastile-validity.c:
+    * libbastile/bastile-key-source.c:
+    * libbastile/bastile-key-model.c:
+    * daemon/bastile-sharing.c:
+    * daemon/bastile-service.c:
+    * daemon/bastile-service-keyset.c:
+    * daemon/bastile-daemon.c:
+    * daemon/bastile-service-crypto.c:
+    * daemon/bastile-hkp-server.c:
+    * Makefile.am:
+    * libegg/: Added
+    * libegg/Makefile.am: Added
+    * libegg/egg-datetime.c: Added
+    * libegg/egg-datetime.h: Added
+    Remove dependency on libmate/ui.  Patch from Saleem Abdulrasool. 
+    Partially fixes bug #524018
+
+2008-05-01  Adam Schreiber  <sadam@clemson.edu>
+
+    * libmatecryptui/crypui-key-chooser.c: Remove returns in void functions.
+    Patch from Brian Cameron.  Fixes bug #530950
+    * src/bastile-key-properties.c:
+    * src/bastile-pgp-public-key-properties.glade: Change "trust model" used
+    to match GPG.  Fixes bug #435278
+    * pgp/bastile-gpg-options.c: Add headers.
+    Patch from Brian Cameron.  Fixes bug #530952
+
+2008-04-28  Stef Walter  <stef@memberwebs.com>
+
+	* Refactoring: Remove mate-vfs dependency. Use gio instead. 
+	Remove most of the hard dependency on gpgme.
+	
+	* Use the full 'Bastile' namespace instead of 'Sea'
+	
+2008-04-20  Stef Walter  <stef@memberwebs.com>
+
+	* Initial part of refactoring into components.
+	
+2008-04-17  Stef Walter  <stef@memberwebs.com>
+
+    * Split out the bastile-plugins module 
+    
+2008-04-17  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/bastile-extension.c:
+    * plugins/epiphany/mozilla/mozilla-helper.cpp: Changes to work with new API.
+    Patch from Ed Catmur.  Fixes bug #523325
+    * libbastile/bastile-secure-memory.c: Test for secure memory before
+    remapping memory functions.  Patch from Coleman Kane. Fixes bug #527193
+    * plugins/caja/bastile-pgp-preferences.c: Remove unused variable.
+    * libbastile/bastile-hkp-source.c: Fix importing keys from hkp keyservers.
+    Patch from Mackenzie Morgan.  Fixes bug #528150
+
+2008-04-02  Adam Schreiber  <sadam@clemson.edu>
+
+    * daemon/bastile-service-crypto.c: Return key id of signer even when key
+    is not found locally
+    * configure.in: Bump version number
+
+=== bastile 2.23.0 ===
+
+2008-03-10  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * agent/Makefile.am:
+    * daemon/Makefile.am:
+    * acinclude.m4: Remove code concerning mlock that is no longer used 
+    now that secure memory is provided by mate-keyring.  Fixes bug #520664
+
+=== bastile 2.22.0 ===
+
+2008-02-24  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in:
+    * NEWS:
+    * README: Release version 2.22.0
+
+=== bastile 2.21.92 ===
+
+2008-02-24  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in: 
+    * NEWS:
+    * README: Release version 2.21.92
+
+2008-02-11  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/C/bastile.xml: Change menu strings for key generation.
+    Fixes bug #503704
+    * plugins/applet/docs/C/bastile-applet.xml: Update applet manual. 
+    Patch by Jasper Lievisse Adriaanse.  Fixes bug #507092
+
+2008-02-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-gkeyring-item-properties.glade:
+    * src/bastile-pgp-private-key-properties.glade:
+    * src/bastile-pgp-public-key-properties.glade:
+    * src/bastile-ssh-key-properties.glade:  Add comments for translators.
+    Fixes bug #514276
+
+2008-01-30  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Bump version number
+
+=== bastile 2.21.91 ===
+
+2008-01-30  Adam Schreiber  <sadam@clemson.edu>
+
+    * NEWS
+    * README: Release version 2.21.91
+
+2008-01-30  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * plugins/epiphany/bastile-extension.c: Fix building with new Epiphany API.
+    Fixes bug #512837
+
+2008-01-29  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: more epiphany configure changes
+
+2008-01-28  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in: Bump version number
+
+=== bastile 2.21.90 ===
+
+2008-01-28  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in:
+    * Makefile.am:
+    * NEWS
+    * README: Release version 2.21.90
+
+2008-01-28  Stef Walter  <stef@memberwebs.com>
+    
+    * agent/bastile-agent.desktop.in.in: (deleted)
+    * po/POTFILES.in:
+    * agent/Makefile.am: More cleanup for Adam's last revert below.
+    
+2008-01-28  Stef Walter  <stef@memberwebs.com>
+
+	* agent/bastile-agent-main.c:
+	* agent/bastile-agent.c:
+	* agent/bastile-agent.h: Remove option to munge gpg.conf on startup
+	from bastile-agent.
+	
+2008-01-28  Stef Walter  <stef@memberwebs.com>
+
+    * libbastile/bastile-prefs.glade:
+    * libbastile/bastile-prefs-cache.c: Remove option to start agent 
+    from preferences dialog.  
+    
+2008-01-28  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in:
+    * INSTALL:
+    * daemon/bastile-hkp-server.c:
+    * libbastile/bastile-hkp-source.c:
+    * libbastile/bastile-ldap-source.c: Use libsoup 2.4. Patches by 
+    Dan Winship. Fixes bug #509704
+
+2008-01-25  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Add new epiphany api versions.  Fixes bug #511216
+    * plugins/bastile-pgp.pluma-plugin.desktop.in: Added an icon attribute so 
+    that an icon shows up in Pluma's plugin listing.  Fixes bug #512001
+
+2008-01-24  Adam Schreiber  <sadam@clemson.edu>
+
+    * agent/bastile-agent.desktop.in.in: deleted
+    * po/POTFILES.skip:
+    * configure.in:
+    * agent/Makefile.am: Revert autostarting bastile-agent with xdg. Requires
+    evil gpg.conf munging.
+
+2008-01-24  Luca Ferretti  <elle.uca@libero.it>
+
+    * agent/bastile-agent.desktop.in.in:
+      Missing part from bug #511224. Forgot to add to svn, sorry.	
+
+2008-01-23  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/bastile-pgp-preferences.desktop.in:
+    * src/bastile.desktop.in.in: Revert patch from JP Rosevear.
+      Reopens bug #503648
+
+2008-01-22  Adam Schreiber  <sadam@clemson.edu>
+
+    * po/POTFILES.in:
+    * po/POTFILES.skip:
+    * configure.in:
+    * agent/Makefile.am: Autostart bastile-agent with xdg.  Patch from 
+    Luca Ferretti.  Fixes bug #511224
+
+
+2008-01-20  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-util.c: Don't add an extra 'dot' to file names unless
+    necessary.  Patch from Kip Warner.  Fixes bug #510928
+
+2008-01-08  Wouter Bolsterlee  <wbolster@svn.mate.org>
+
+    * configure.in:
+
+    Add mate-vfs libs for the caja extension since
+    they're not automatically pulled in with Caja
+    anymore (Caja uses GIO now). The real fix would of
+    course be to convert the code to GIO, but this
+    workaround at least fixes the build for now. See also
+    bug #501542.
+
+2008-01-07  Adam Schreiber  <sadam@clemson.edu>
+
+	* plugins/caja-ext/Makefile.am (caja_extensiondir): 
+	* configure.in (CAJA_LIBS): Fetch caja extension
+	dir from libcaja-extension.pc.  Patch from Brian Pepple.  
+	Fixes bug #505990
+
+2008-01-01  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-key-manager-store.c:
+    * src/bastile-key-manager-store.h:
+    * src/bastile-key-manager.c: Support all text targets that gtk supports.
+    Patch from Christian Persch.  Fixes bug #504941
+
+2007-12-17  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in: Bump version number
+
+=== bastile 2.21.4 ===
+
+2007-12-17  Stef Walter  <stef@memberwebs.com>
+
+    * README:
+    * NEWS: Release version 2.21.4
+
+2007-12-17  Stef Walter  <stef@memberwebs.com>
+
+    * libbastile/bastile-prefs.glade: Reverse last terminology
+    change, and use the word 'keyring' for consistency.
+
+2007-12-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/bastile-pgp-preferences.desktop.in:
+    * src/bastile.desktop.in.in: Use name field correctly.
+    Patch from JP Rosevear.  Fixes bug #503648
+
+2007-12-09  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-prefs.glade: Better terminology for 
+	preferences dialog.
+	
+2007-12-09  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-gkeyring-item.c:
+	* src/bastile-gkeyring-item.h:
+	* src/bastile-gkeyring-item-properties.c:
+	* src/bastile-gkeyring-item-properties.glade:
+	* src/bastile-gkeyring-operation.c:
+	* src/bastile-gkeyring-operation.h:
+	* src/bastile-gkeyring-source.c: Add support for modifying mate-keyring
+	application ACLs.
+	
+2007-12-08  Stef Walter  <stef@memberwebs.com>
+
+    * libbastile/Makefile.am
+    * libbastile/bastile-add-keyring.glade: (added)
+    * libbastile/bastile-prefs-keyrings.c: (added)
+    * libbastile/bastile-prefs.c: 
+    * libbastile/bastile-prefs.glade:
+    * libbastile/bastile-widget.c:
+    * libbastile/bastile-widget.h:
+    * src/bastile-gkeyring-source.c: Add mate-keyring-manager functionality
+    to bastile.
+
+2007-12-08  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in:
+    * libbastile/bastile-ssh-operation.c:
+    * libbastile/bastile-ssh-operation.h: Remove usage of ssh-add and 
+    related operations which are no longer needed.
+	
+2007-12-06  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/bastile-tool.c: Switched import to use DBus interface.
+    Fixes bug #416458
+
+2007-12-02  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-prefs.glade:
+    * libbastile/bastile-prefs-cache.c: Adds UI to show/hide cache 
+    icon.  Patch from Stef Walter.  Fixes bug #432891
+
+2007-12-01  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in: Bump version number.
+
+=== bastile 2.21.3 ===
+
+2007-12-01  Stef Walter  <stef@memberwebs.com>
+
+    * NEWS:
+    * README:
+    * configure.in: Release version 2.21.3
+
+2007-11-29  Stef Walter  <stef@memberwebs.com>
+
+    * agent/Makefile.am:
+    * agent/bastile-agent.h:
+    * agent/bastile-agent-main.c:
+    * agent/bastile-agent-ssh.c:
+    * agent/bastile-agent-status.c:
+    * data/bastile.schemas.in:
+    * libbastile/bastile-passphrase.c:
+    * libbastile/bastile-prefs.glade:
+    * libbastile/bastile-prefs-cache.c: Remove SSH agent, since a proper 
+    one now exists in mate-keyring. Fixes bug #413278
+
+2007-11-15  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-gkeyring-operation.c: Some how this was missed too.
+    * plugins/epiphany/Makefile.am: Forgot to check it in
+    * configure.in: Don't hard code epiphany extensions dir.  Patch from
+    Josselin Mouette.  Fixes bug #497163
+
+2007-11-11  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Fix selective compilation of Epiphany and Pluma plugins
+    * src/bastile-key-dialogs.h:
+    * src/bastile-key-manager.c:
+    * src/bastile-gkeyring-operation.c:
+    * src/main.c:
+    * src/Makefile.am:
+    * INSTALL:
+    * plugins/caja/bastile-tool.c:
+    * plugins/applet/bastile-applet.c:
+    * configure.in:
+    * agent/bastile-agent-actions.c:
+    * agent/bastile-agent-cache.c:
+    * agent/bastile-agent-status.c:
+    * agent/bastile-agent-main.c:
+    * libbastile/bastile-secure-memory.c:
+    * libbastile/bastile-secure-memory.h:
+    * libbastile/bastile-ssh-operation.c:
+    * libbastile/bastile-prefs-cache.c:
+    * daemon/bastile-daemon.c: Use secure memory from mate-keyring.  Patch
+    from Stef Walter.  Fixes bug #435015
+
+2007-11-09  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/bastile-pgp-preferences.desktop.in: Change 
+    preferences applet name.  Patch by Luca Ferretti.  Fixes bug #484433
+
+2007-10-31  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-revoke.c: Fix incomplete conversion from GtkOptionMenu 
+    to GtkComboBox.  Fixes bug #475757
+
+2007-10-30  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-keyserver-control.c:
+    * libbastile/bastile-keyserver-control.h: Clean up 
+    keyserver-control.  Patch from Christian Persch.  
+    Fixes bug #478454
+
+2007-10-29  Adam Schreiber  <sadam@clemson.edu>
+
+    * data/bastile.schemas.in: Disabled automatic key uploading 
+    retrieval by default.  Fixes bug #484159
+    * libbastile/bastile-prefs.c:
+    * libbastile/bastile-prefs.glade: Add mnemonics and fix HIG 
+    issues.  Patch from Christian Persch.  Fixes bug #478451
+    * libbastile/bastile-progress.glade: Don't translate dummy text.
+    Patch from Christian Persch.  Fixes bug #478462
+    * src/bastile-expires.glade: Fix capitalization and add mnemonic.
+    Patch from Christian Persch.  Fixes bug #478474
+    * src/bastile-gkeyring-item-properties.glade: Bring into HIG
+    compliance.  Patch from Christian Persch.  Fixes bug #478477
+
+2007-10-15  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number
+
+=== bastile-2.20.1 ===
+
+2007-10-15  Stef Walter  <stef@memberwebs.com>
+
+	* README:
+	* NEWS: 
+	* configure.in: Release version 2.20.1
+
+2007-09-19  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-combo-keys.c: Fix pointer usage. Patch from 
+    Michael Wolf
+    * libbastile/bastile-ssh-operation.c: Fix assertions.  Patch from 
+    Michael Wolf
+    * plugins/caja/bastile-tool-files.c: Fix selection of package 
+    name. Patch from Michael Wolf
+    * src/bastile-pgp-generate.c: Fix error text.  Patch from Michael Wolf
+    * configure.in: Fix Pluma compilation on 2.20. Patch from Gotz Waschk. 
+    Fixes bug #478350
+    * plugins/caja/bastile-tool-progress.c: Fix compilation warning.
+
+2007-09-19  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Release with proper version number 2.20.0
+
+=== bastile-2.20 ===
+
+2007-09-17  Stef Walter  <stef@memberwebs.com>
+
+	* README:
+	* NEWS: 
+	* configure.in: Release version 2.20 
+
+2007-09-11  Claude Paroz  <claude@2xlibre.net>
+
+	* plugins/applet/docs/Makefile.am: Added fr to DOC_LINGUAS.
+	* plugins/applet/docs/fr/fr.po: Added French translation.
+
+2007-09-06  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-prefs.c: Connect auto retreive check box to
+    mateconf.  Fixes bug #473940 
+
+2007-09-04  Stef Walter  <stef@memberwebs.com>
+
+	* src/bastile-gkeyring-item.c: Fix problem when building without
+	SSH support. 
+
+2007-09-04  Alessio Frusciante  <algol@firenze.linux.it>
+
+	* plugins/applet/docs/Makefile.am: Added "it" (Italian) to
+	DOC_LINGUAS.  
+	* plugins/applet/docs/it/it.po: Addded Italian
+	translation by Milo Casagrande <milo_casagrande@yahoo.it>.
+
+2007-08-26  Daniel Nylander <po@danielnylander.se>
+
+	* plugins/applet/docs/sv/sv.po: Updated Swedish translation
+
+2007-08-26  Stef Walter  <stef@memberwebs.com>
+
+	* configure.in: Bump version number
+	
+=== bastile-2.19.91 ===
+
+2007-08-26  Stef Walter  <stef@memberwebs.com>
+
+    * NEWS:
+    * README: Release 2.19.91
+
+2007-08-22  Stef Walter  <stef@memberwebs.com>
+
+	* libbastile/bastile-prefs.glade: Remove needlessly translated strings.
+	Patch by Claude Paroz. Fixes bug #469176
+
+2007-08-21  Stef Walter  <stef@memberwebs.com>
+
+    * agent/bastile-agent-actions.c:
+    * agent/bastile-agent-cache.c: Fix badly placed semi-colons which 
+    shortcircuit if()s. Patch by  Dave Jones. Fixes bug #467485
+
+2007-08-21  Stef Walter  <stef@memberwebs.com>
+
+    * src/bastile-gkeyring-item.c: Properly escape any markup characters in 
+    a mate-keyring item name. Fixes bug #453188
+
+2007-08-21  Stef Walter  <stef@memberwebs.com>
+
+    * src/bastile-key-properties.c: Remove assertions in UI code that we 
+    really don't guarantee. Fixes bug #453152
+
+2007-08-20  Stef Walter  <stef@memberwebs.com>
+
+    * libbastile/bastile-progress.glade: Progress operations now show up in 
+    the task list properly. Fixes bug #445767
+
+2007-08-20  Stef Walter  <stef@memberwebs.com>
+
+    * data/bastile.schemas.in: Hide agent try icon by default.
+    Fixes bug #432891
+
+2007-08-12  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in: Bump version
+
+=== bastile-2.19.90 ===
+
+2007-08-12  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in:
+    * NEWS:
+    * README: Release 2.19.90
+
+2007-08-12  Adam Schreiber  <sadam@clemson.edu>
+
+    * MAINTAINERS: Changed format to match discussion on d-d-l
+
+2007-07-16  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/C/bastile.xml: Add documentation for changing the password
+    on the default mate-keyring key ring.  Patch by Milo Casagrande.
+    Fixes bug #453043
+
+2007-07-10  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/applet/bastile-applet.c: Add word wrapping to window that
+    displays text.
+
+2007-07-07  Stef Walter  <stef@memberwebs.com>
+
+   * configure.in: Bump version number
+   
+=== bastile-2.19.5 ===
+
+2007-07-07  Stef Walter  <stef@memberwebs.com>
+
+    * NEWS:
+    * README:
+    * configure.in: Release 2.19.5
+
+2007-07-07  Adam Schreiber  <sadam@clemson.edu>
+
+    * agent/bastile-agent-cache.c:
+    * agent/bastile-agent-ssh.c: When only using the ssh portion of 
+    bastile-agent, still init the cache.  Patch from Ted Percival.
+    Fixes bug #454469
+
+2007-06-24  Daniel Nylander <po@danielnylander.se>
+
+	* plugins/applet/docs/sv/sv.po: Added Swedish translation
+	* plugins/applet/docs/sv/legal.xml: Updated translation
+	* plugins/applet/docs/sv/bastile-applet.xml: Updated translation
+	* plugins/applet/docs/Makefile.am: Added sv to DOC_LINGUAS
+
+2007-06-22  Stef Walter  <stef@memberwebs.com>
+
+    * Use my real name in copyrights, and proper email address.
+    This change touched most files in the project, in comments 
+    and strings. 
+
+2007-06-22  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-ssh-askpass.c: Internationalize properly.
+    Patch from Gabor Kelemen.  Fixes bug #450087
+
+2007-06-18  Stef Walter  <stef@memberwebs.com>
+
+    * configure.in: Bump version number
+
+=== bastile-2.19.4 ===
+
+2007-06-18  Stef Walter  <stef@memberwebs.com>
+
+    * NEWS:
+    * README:
+    * configure.in: Release 2.19.4
+
+2007-06-18  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-prefs.c:
+    * libbastile/bastile-prefs.glade: Add ability to change mate-keyring
+    master password.  Fixes bug #356575 
+    * daemon/bastile-service.c:
+    * libbastile/bastile-libdialogs.h:
+    * libbastile/bastile-notification.c: Gives more detail for imported keys 
+    when using the DBus interface.  Partially fixes bug #416458
+
+2007-06-14  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-ssh-key-properties.c: Fix null access while creating window.
+    Fixes bug #447450
+
+2007-06-09  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/bastile-tool-progress.c: Unescape mate-vfs strings
+    before display.  Fixes bug #445769
+
+2007-06-07  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Remove errant pidgin plugin checks.  Fixes bug #445323 
+    * agent/bastile-agent-main.c: Internationalize the notification area.
+    Fixes bug #443920
+
+2007-06-06  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in:
+    * libbastile/bastile-gpg-options.c: Re-enable building with gpg-2.0.x.
+    Fixes bug #444259
+
+2007-06-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/bastile-pgp-preferences.c: There is not an applet tab. 
+
+2007-05-23  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-generate-select.c:
+    * src/bastile-ssh-generate.c: Don't destroy swidgets until we're 
+    finished with them.  Patch by Christian Persch.  Fixes bug #440778
+
+2007-05-19  Adam Schreiber  <sadam@clemson.edu>
+
+    * agent/bastile-agent.1: Patch by Sebastian Dröge.  Fixes bug #438559
+    * plugins/caja/bastile-tool-files.c:
+    * src/bastile-multi-encrypt.glade: Add file-roller style extensions to
+    bastile-tool --encrypt.  Fixes bug #432573
+    * agent/bastile-agent-status.c:
+    * libbastile/bastile-libdialogs.h:
+    * libbastile/bastile-notification.c:
+    * libbastile/bastile-prefs.c:
+    * libbastile/bastile-prefs.h:
+    * libbastile/bastile-progress.c:
+    * libbastile/bastile-signer.c:
+    * libbastile/bastile-widget.c:
+    * libbastile/bastile-widget.h:
+    * plugins/applet/bastile-applet.c:
+    * plugins/caja/bastile-pgp-preferences.c:
+    * plugins/caja/bastile-tool-files.c:
+    * src/bastile-add-uid.c:
+    * src/bastile-ssh-key-properties.c:
+    * src/bastile-add-subkey.c:
+    * src/bastile-expires.c:
+    * src/bastile-generate-select.c:
+    * src/bastile-generate-select.h:
+    * src/bastile-gkeyring-item-properties.c:
+    * src/bastile-key-dialogs.h:
+    * src/bastile-key-manager.c:
+    * src/bastile-key-properties.c:
+    * src/bastile-key-widget.c:
+    * src/bastile-key-widget.h:
+    * src/bastile-keyserver-results.c:
+    * src/bastile-keyserver-search.c:
+    * src/bastile-keyserver-sync.c:
+    * src/bastile-pgp-generate.c:
+    * src/bastile-photos.c:
+    * src/bastile-preferences.c:
+    * src/bastile-preferences.h:
+    * src/bastile-revoke.c:
+    * src/bastile-sign.c:
+    * src/bastile-ssh-generate.c:
+    * src/bastile-ssh-upload.c:
+    * src/bastile-windows.h: Make dialogs transient. Fixes bug #408776
+    * libbastile/bastile-pgp-key-op.h: Change value for Elgamal key type to 
+    be synchoronized with gpg.  Fixes bug #439479
+
+2007-05-15  Adam Schreiber  <sadam@clemson.edu>
+
+    * configure.in: Bump epiphany api version.  Fixes bug #438563
+
+2007-05-11  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * configure.in: Bump version number
+
+2007-05-11  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * configure.in:
+    * NEWS:
+    * README: Bastile version 2.19.2
+
+2007-05-11  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * Merged changes from mate-2-18 branch. (r1729 - r1771)
+
+2007-05-10  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * agent/bastile-agent-main.c:
+    * data/bastile.schemas.in:
+    * libbastile/bastile-add-keyserver.glade:
+    * libbastile/bastile-notification.c:
+    * libbastile/bastile-prefs.glade:
+    * libbastile/bastile-secure-entry.c:
+    * plugins/applet/bastile-applet.c: 
+    * src/bastile-gkeyring-item-properties.glade:
+    * src/bastile-pgp-private-key-properties.glade:
+    * src/bastile-pgp-public-key-properties.glade: Fix translatable 
+   strings. Fixes bug #418979
+
+2007-05-08  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/caja/Makefile.am: Remove rule to install desktop files in 
+    /usr/share/control-center-2.0/capplets/.  Fixes bug #436840
+
+2007-05-06  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/Makefile.am:
+    * libbastile/bastile-combo-keys.c:
+    * libbastile/bastile-combo-keys.h:
+    * libbastile/bastile-signer.c:
+    * libbastile/bastile-prefs.c:
+    * src/bastile-sign.c: Move libbastile/bastile-default-key-control.* to
+    libbastile/bastile-combo-keys.*
+    * libbastile/bastile-notification.c:
+    * libbastile/bastile-util.c:
+    * libbastile/bastile-util.h: 
+    * src/bastile-key-manager-store.c:
+    * src/bastile-key-properties.c: Fix problem with internationalized
+    expiration dates on PGP keys.  Fixes bug #393207
+
+2007-05-05  Adam Schreiber  <sadam@clemson.edu>
+
+    * help/C/bastile.xml: Fix spelling error
+
+2007-05-04  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-widget.c: Change mate_help_display function 
+    called.  Fixes bug #415807
+
+2007-05-03  Adam Schreiber  <sadam@clemson.edu>
+
+    * src/bastile-revoke.glade:
+    * src/bastile-add-subkey.c:
+    * src/bastile-add-subkey.glade: Remove use of GtkOptionMenu in favor
+    of GtkComboBox.  Fixes bug #370817
+
+
+2007-05-01  Adam Schreiber  <sadam@clemson.edu>
+
+    * acinclude.m4: Add stdio.h to mlock check.  Fixes bug #435016
+    * pixmaps/22x22/Makefile.am:
+    * pixmaps/22x22/bastile-person.png (added):
+    * pixmaps/22x22/bastile-person.svg (added):
+    * pixmaps/22x22/bastile-sign.png (added):
+    * pixmaps/22x22/bastile-sign.svg (added): Add files causing warning
+    messages.  Fixes bug #435051
+
+2007-04-26  Adam Schreiber  <sadam@clemson.edu>
+
+    * MAINTAINERS: Added myself as a co-maintainer
+
+2007-04-24  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-ssh-operation.c: Escaping already provides 
+    single quotes to comment string
+    * src/bastile-ssh-generate.c: Choose 1024 bits when DSA is selected.
+    Fixes bug #419227
+
+2007-04-16  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-util.c: Provide a better 'decrypt
+    failed' error message. Fixes bug #355062
+
+2007-04-16  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * data/bastile.schemas.in: 
+    * libbastile/bastile-context.c:
+    * libbastile/bastile-mateconf.h:
+    * libbastile/bastile-prefs.glade: Add option to disable 
+    auto-retrieval from key servers. See bug #366798
+
+2007-04-16  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * Merged changes from mate-2-18 branch. (r1654 - r1729)
+
+2007-04-15  Adam Schreiber  <sadam@clemson.edu>
+
+    * plugins/epiphany/bastile-extension.c: Fix problem with context
+    menu items always appearing.
+
+2007-04-13  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * plugins/caja/bastile.xml: Recognize encrypted private
+    keys properly. Fixes bug #429509
+
+2007-04-07  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * agent/Makefile.am: Set proper binary as setuid. 
+    Fixes bug #427586
+
+2007-04-07  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * configure.in: Bump version number
+
+2007-04-07  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * INSTALL:
+    * NEWS:
+    * README: Bastile version 1.0.1
+
+2007-04-07  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-ssh-key-data.c: 
+    * libbastile/bastile-util.c:
+    * plugins/caja/bastile.xml: Enable importing of plain SSH
+    keys, generated elsewhere. Fixes bug #424473
+
+2007-04-06  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-widget.c: Make 'Keyserver Results' window help
+    work properly. Patch from Adam Schreiber. Fixes bug #421615
+
+2007-04-06  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-ldap-source.c: Make progress bar pulse 
+    properly during an LDAP search. Fixes bug #355850
+
+2007-04-06  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-ldap-source.c: 
+    * src/bastile-keyserver-results.c: Handle spaces properly in LDAP 
+    search filters. 
+
+2007-04-06  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-ssh-key-data.c: Don't add extra lines to 
+    .ssh/authorized_keys when moving keys around. Fixes bug #352929
+
+2007-04-03  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * src/bastile-key-manager.c: Fix crasher when deleting more than one 
+    private keys. Fixes bug #417901
+
+2007-04-03  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * src/bastile-pgp-private-key-properties.glade: Show expired date properly
+    in warning message for private keys.
+
+2007-03-27  Adam Schreiber <sadam@clemson.edu>
+
+    * src/bastile-key-manager.c: Fix il8n of the about dialog.
+    Patch from Bjoern Voigt.  Fixes bug #423082
+
+2007-03-22  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * configure.in: 
+    * INSTALL: Require GTK+ version 2.10
+
+2007-03-19  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-ssh-operation.c:
+    * libbastile/bastile-ssh-operation.h:
+    * libbastile/bastile-util.c:
+    * libbastile/bastile-util.h:
+    * src/bastile-ssh-upload.c: Recognize port properly in SSH key upload 
+    Fixes bug #418205
+
+2007-03-19  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * agent/bastile-agent-status.c:
+    * libbastile/bastile-context.c:
+    * libbastile/bastile-server-source.c: 
+    * libbastile/bastile-ssh-key-data.c: (possible crasher)
+    * libbastile/bastile-util.c: (minor capitalization bug)
+    * src/bastile-ssh-upload.c: Satisfy compiler warnings.
+
+2007-03-19  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * agent/bastile-agent-prompt.c: 
+    * libbastile/bastile-passphrase.c: Setup icons for passphrase 
+    prompts.
+
+2007-03-18  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * libbastile/bastile-gtkstock.c: Setup a default icon for processes.
+    Fixes bug #419264
+
+2007-03-17  Adam Schreiber  <sadam@clemson.edu>
+
+    * libbastile/bastile-widget.c: Link swidget error dialogs to their 
+    parent
+    * configure.in: Allow building the Epiphany plugin with Epiphany 2.18.
+    Fixes #417806
+
+2007-03-17  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * acinclude.m4: Fixed mlock checks. Fixes bug #417757 and 
+    bug #417758
+
+2007-03-17  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * agent/bastile-agent-io.c: Use /tmp directory for agent sockets
+
+2007-03-17  Nate Nielsen  <nielsen@memberwebs.com>
+
+    * configure.in: Bump version number
+
+=== bastile-1.0 ===

@@ -1,0 +1,3579 @@
+# Biełaruski pierakład bastile
+# Copyright (C) 2007 Ihar Hrachyshka
+# This file is distributed under the same license as the bastile package.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-13 21:01+0200\n"
+"PO-Revision-Date: 2007-09-23 17:23+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <be-latin.open-tran.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: ../agent/bastile-agent-actions.c:129
+#: ../libbastile/bastile-ssh-operation.c:443
+msgid "Passphrase:"
+msgstr "Parol:"
+
+#: ../agent/bastile-agent-actions.c:130
+msgid "Please enter a passphrase to use."
+msgstr "Uviadzi žadany parol."
+
+#. Warn and put in defaults
+#: ../agent/bastile-agent.c:101
+msgid "couldn't read gpg configuration, will try to create"
+msgstr "niemahčyma pračytać kanfihuracyju gpg, pasprabujem stvaryć"
+
+#: ../agent/bastile-agent.c:119
+#, c-format
+msgid "couldn't modify gpg configuration: %s"
+msgstr "niemahčyma madyfikavać kanfihuracyju gpg: %s"
+
+#: ../agent/bastile-agent-cache.c:70
+msgid "Unparseable Key ID"
+msgstr "Nierazabrany ID kluča"
+
+#: ../agent/bastile-agent-cache.c:71
+msgid "Unknown/Invalid Key"
+msgstr "Nieviadomy/Niapravilny kluč"
+
+#: ../agent/bastile-agent-cache.c:523
+#, c-format
+msgid "PGP Key: %s"
+msgstr "Kluč PGP: %s"
+
+#: ../agent/bastile-agent-cache.glade.h:1
+msgid ""
+"<b>Warning</b>: Your system is not configured to cache passphrases in secure "
+"memory."
+msgstr ""
+"<b>Uvaha</b>: Tvaja systema nie skanfihuravanaja, kab trymać paroli ŭ "
+"bieśpiečnaj pamiaci."
+
+#: ../agent/bastile-agent-cache.glade.h:2
+msgid "Cache _Preferences"
+msgstr "_Nałady keša"
+
+#: ../agent/bastile-agent-cache.glade.h:3
+msgid "Cached Encryption Keys"
+msgstr "Utrymvanyja klučy šyfravańnia"
+
+#: ../agent/bastile-agent-cache.glade.h:4
+msgid "Change passphrase cache settings."
+msgstr "Źmiani nałady kešu dla parolaŭ."
+
+#: ../agent/bastile-agent-cache.glade.h:5
+msgid "Clear passphrase cache"
+msgstr "Ačyść keš dla parolaŭ"
+
+#: ../agent/bastile-agent-cache.glade.h:6
+msgid "_Clear Cache"
+msgstr "_Ačyść keš"
+
+#: ../agent/bastile-agent-cache.glade.h:7
+msgid "_Show Window"
+msgstr "_Pakažy vakno"
+
+#: ../agent/bastile-agent-main.c:50
+msgid "Do not daemonize bastile-agent"
+msgstr "Nie rabi demana z bastile-agent'a"
+
+#: ../agent/bastile-agent-main.c:54
+msgid "Print variables in for a C type shell"
+msgstr "Pakažy źmiennyja dla abałonki C-typu"
+
+#: ../agent/bastile-agent-main.c:57
+msgid ""
+"Display variables instead of editing conf files (gpg.conf, SSH agent socket)"
+msgstr ""
+"Pakažy źmiennyja zamiest redahavańnia kanfihuracyjnych fajłaŭ (gpg.conf, "
+"sokiet ahienta SSH)"
+
+#: ../agent/bastile-agent-main.c:60
+msgid "Execute other arguments on the command line"
+msgstr "Vykanaj inšyja arhumenty z zahadnaha radka"
+
+#: ../agent/bastile-agent-main.c:64
+msgid "Allow GPG agent request from any display"
+msgstr "Dazvol zapyty da ahienta GPG ź luboha dyspłeju"
+
+#: ../agent/bastile-agent-main.c:67
+msgid "command..."
+msgstr "zahad..."
+
+#: ../agent/bastile-agent-main.c:89 ../daemon/bastile-daemon.c:72
+msgid "couldn't fork process"
+msgstr "niemahčyma adhalinavać praces"
+
+#: ../agent/bastile-agent-main.c:95 ../daemon/bastile-daemon.c:78
+msgid "couldn't create new process group"
+msgstr "niemahčyma stvaryć novuju hrupu pracesaŭ"
+
+#: ../agent/bastile-agent-main.c:224
+msgid "Encryption Key Agent (Bastile)"
+msgstr "Ahient dla klučoŭ šyfravańnia (Bastile)"
+
+#: ../agent/bastile-agent-main.c:232
+msgid "no command specified to execute"
+msgstr "zahad dla vykanańnia nie akreśleny"
+
+#: ../agent/bastile-agent-prompt.c:216
+msgid "Authorize Passphrase Access"
+msgstr "Dostup z aŭtaryzacyjaj parolem"
+
+#: ../agent/bastile-agent-prompt.c:252
+msgid "The passphrase is cached in memory."
+msgstr "Parol źmieščany ŭ pamiaci."
+
+#: ../agent/bastile-agent-prompt.c:257
+msgid "Always ask me before using a cached passphrase"
+msgstr "Zaŭsiody pytajsia paćvierdžańnia vykarystańnia parolaŭ z kešu"
+
+#: ../agent/bastile-agent-prompt.c:274
+msgid "_Authorize"
+msgstr "_Aŭtaryzuj"
+
+#. Make the uid column
+#: ../agent/bastile-agent-status.c:150
+msgid "Key Name"
+msgstr "Nazva kluča"
+
+#: ../daemon/bastile-daemon.c:54
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Nie ŭruchamlaj bastile-daemon jak demana"
+
+#: ../daemon/bastile-daemon.c:188
+msgid "Encryption Daemon (Bastile)"
+msgstr "Deman šyfravańnia (Bastile)"
+
+#: ../daemon/bastile-service.c:103 ../daemon/bastile-service.c:128
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Niapravilny ci niezrazumieły typ kluča: %s"
+
+#: ../daemon/bastile-service.c:186 ../daemon/bastile-service-keyset.c:123
+#: ../daemon/bastile-service-keyset.c:152
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Niapravilny ci niezrazumieły kluč: %s"
+
+#: ../daemon/bastile-service-crypto.c:120
+#: ../daemon/bastile-service-crypto.c:227
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Niapravilny ci niezrazumieły padpiščyk: %s"
+
+#: ../daemon/bastile-service-crypto.c:127
+#: ../daemon/bastile-service-crypto.c:234
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Kluč nieprydatny dla padpisańnia: %s"
+
+#: ../daemon/bastile-service-crypto.c:139
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Niapravilny ci niezrazumieły adrasat: %s"
+
+#: ../daemon/bastile-service-crypto.c:147
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Kluč nie źjaŭlajecca pravilnym adrasatam dla šyfravańnia: %s"
+
+#: ../daemon/bastile-service-crypto.c:156
+#, c-format
+msgid "No recipients specified"
+msgstr "Adrasaty nie akreślenyja"
+
+#: ../daemon/bastile-service-crypto.c:222
+#, c-format
+msgid "No signer specified"
+msgstr "Padpiščyk nie akreśleny"
+
+#: ../daemon/bastile-service-crypto.c:277
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Niapravilny typ kluča dla rasšyfroŭki: %s"
+
+#: ../daemon/bastile-service-crypto.c:339
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Niapravilny typ kluča dla spraŭdžańnia: %s"
+
+#: ../daemon/bastile-service-keyset.c:186
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Niapravilny id kluča: %s"
+
+#: ../daemon/bastile-sharing.c:71 ../daemon/bastile-sharing.c:215
+msgid "Couldn't share keys"
+msgstr "Niemahčyma dać dostup da klučoŭ"
+
+#: ../daemon/bastile-sharing.c:72
+msgid "Can't publish discovery information on the network."
+msgstr "Niemahčyma apublikavać źviestki dla pošuku ŭ sietcy."
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Shared keys of %s".
+#: ../daemon/bastile-sharing.c:92
+#, c-format
+msgid "%s's encryption keys"
+msgstr "Klučy šyfravańnia dla %s"
+
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"Śpis spasyłak na servery klučoŭ, dzie treba šukać addalenyja klučy PGP. U "
+"paźniejšych versijach možna ŭłučyć bačnuju nazvu, dadaŭšy ŭ kaniec prabieł i "
+"paśla nazvu."
+
+#: ../data/bastile.schemas.in.h:2
+msgid ""
+"After performing an decrypt or verify operation from the applet, display the "
+"resulting text in a window."
+msgstr ""
+"Paśla aperacyi rasšyfroŭki ci spraŭdžańnia z apletu, pakažy vynikovy tekst u "
+"vaknie."
+
+#: ../data/bastile.schemas.in.h:3
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+"Paśla aperacyi šyfravańnia ci padpisańnia z apletu, pakažy vynikovy tekst u "
+"vaknie."
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Auto Retrieve Keys"
+msgstr "Aŭtamatyčna atrymvaj klučy"
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Auto Sync Keys"
+msgstr "Aŭtamatyčna synchranizuj klučy"
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Kiruje bačnaściu kalony zakančeńnia terminu ŭ kiraŭniku klučoŭ."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Kiruje bačnaściu kalony davieru ŭ kiraŭniku klučoŭ."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Kiruje bačnaściu kalony typu ŭ kiraŭniku klučoŭ."
+
+#: ../data/bastile.schemas.in.h:9
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Kiruje bačnaściu kalony sapraŭdnaści ŭ kiraŭniku klučoŭ."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "Display cache reminder in the notification area"
+msgstr "Pakazvaj nahadvańni ab kešy ŭ abšary nahadvańniaŭ"
+
+#: ../data/bastile.schemas.in.h:11
+msgid "Display clipboard after decrypting"
+msgstr "Pakažy bufer paśla rasšyfroŭki"
+
+#: ../data/bastile.schemas.in.h:12
+msgid "Display clipboard after encrypting"
+msgstr "Pakažy bufer paśla šyfravańnia"
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Enable DNS-SD sharing"
+msgstr "Uklučy supolny dostup DNS-SD"
+
+#: ../data/bastile.schemas.in.h:14
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"Uklučaje supolny dostup da klučoŭ DNS-SD (Apple Bonjour). bastile-daemon "
+"pavinny być uruchomlenym, pryčym zbudavany z padtrymkaj HKP i DNS-SD."
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Expire passwords in the cache"
+msgstr "Źniapraŭdžvaj paroli ŭ kešy"
+
+#: ../data/bastile.schemas.in.h:16
+msgid "ID of the default key"
+msgstr "ID zmoŭčanaha kluča"
+
+#: ../data/bastile.schemas.in.h:17
+msgid ""
+"If set to 'mate' uses mate-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+"Kali \"mate\", užyvaje mate-keyring, kab zachoŭvać u kešy paroli. Kali "
+"\"internal\", užyvaje ŭnutrany keš."
+
+#: ../data/bastile.schemas.in.h:18
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"Kali ŭklučana, fajły, zašyfravanyja z dapamohaj bastile, buduć zakadavanyja "
+"abaronaj ASCII."
+
+#: ../data/bastile.schemas.in.h:19
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Kali ŭklučana, zmoŭčany kluč zaŭsiody budzie dadavacca da śpisu adrasataŭ "
+"šyfravańnia."
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Last key server search pattern"
+msgstr "Apošni ŭzor pošuku na servery klučoŭ"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Last key servers used"
+msgstr "Apošnija zadziejničanyja servery klučoŭ"
+
+#: ../data/bastile.schemas.in.h:22
+msgid "Last key used to sign a message."
+msgstr "Apošni kluč, užyty dla padpisańnia paviedamleńnia."
+
+#: ../data/bastile.schemas.in.h:23
+msgid "PGP Key servers"
+msgstr "Servery klučoŭ PGP"
+
+#: ../data/bastile.schemas.in.h:24
+msgid "Prompt before using GPG passwords in cache"
+msgstr "Pytajsia paćvierdžańnia pierad vykarystańniem parolaŭ GPG z kešu"
+
+#: ../data/bastile.schemas.in.h:25
+msgid "Publish keys to this key server."
+msgstr "Publičnyja klučy dla hetaha servera klučoŭ."
+
+#: ../data/bastile.schemas.in.h:26
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+"Pakazvaj źmieściva buferu (zašyfravanaje, padpisanaje i h.d.) u ikonie "
+"apletu dla paneli."
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+"Uklučy, kab pakazvać nahadvańni kešu ŭ abšary nahadvańniaŭ na tvajoj paneli."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"Set to 'true' to have bastile-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+"Uklučy, kab bastile-agent pytaŭsia paćvierdžańnia pierad razdačaj parolaŭ z "
+"kešu."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "Show clipboard state in panel"
+msgstr "Pakazvaj stan buferu ŭ paneli"
+
+#: ../data/bastile.schemas.in.h:30
+msgid "Show expires column in key manager"
+msgstr "Pakazvaj kalonu zakančeńnia terminu ŭ kiraŭniku klučoŭ"
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Show trust column in key manager"
+msgstr "Pakazvaj kalonu davieru ŭ kiraŭniku klučoŭ"
+
+#: ../data/bastile.schemas.in.h:32
+msgid "Show type column in key manager"
+msgstr "Pakazvaj kalonu typu ŭ kiraŭniku klučoŭ"
+
+#: ../data/bastile.schemas.in.h:33
+msgid "Show validity column in key manager"
+msgstr "Pakazvaj kalonu sapraŭdnaści ŭ kiraŭniku klučoŭ"
+
+#: ../data/bastile.schemas.in.h:34
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Akreśl kalonu, dla jakoj treba sartavać adrasataŭ u vaknie. Kalony: \"name"
+"\" (nazva) i \"id\". Ustaŭ \"-\" pierad nazvaj kalony, kab sartavać u "
+"advarotnym paradku."
+
+#: ../data/bastile.schemas.in.h:35
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Akreśl kalonu, dla jakoj treba sartavać źmieściva hałoŭnaha vakna kiraŭnika "
+"klučoŭ Bastile. Kalony: \"name\" (nazva), \"id\", \"validity"
+"\" (sapraŭdnaść), \"expires\" (zakančeńnie terminu), \"trust\" (davier) i "
+"\"type\" (typ). Ustaŭ \"-\" pierad nazvaj kalony, kab sartavać u advarotnym "
+"paradku."
+
+#: ../data/bastile.schemas.in.h:36
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+"ID apošniaha sakretnaha kluča, vykarystanaha dla padpisańnia paviedamleńnia."
+
+#: ../data/bastile.schemas.in.h:37
+msgid "The column to sort the recipients by"
+msgstr "Kalona dla sartavańnia adrasataŭ"
+
+#: ../data/bastile.schemas.in.h:38
+msgid "The column to sort the bastile keys by"
+msgstr "Kalona dla sartavańnia klučoŭ Bastile"
+
+#: ../data/bastile.schemas.in.h:39
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"Server klučoŭ, kudy publikavać klučy PGP. Ci pusty, kab nie publikavać klučy "
+"PGP."
+
+#: ../data/bastile.schemas.in.h:40
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"Apošni server klučoŭ, dzie ažyćciaŭlaŭsia pošuk, albo pustota, kali "
+"vykarystoŭvalisia ŭsie servery."
+
+#: ../data/bastile.schemas.in.h:41
+msgid "The last search pattern searched for against a key server."
+msgstr "Apošni ŭzor pošuku na servery klučoŭ."
+
+#: ../data/bastile.schemas.in.h:42
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr "Čas (u chvilinach), kab kešavać paroli GPG"
+
+#: ../data/bastile.schemas.in.h:43
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"bastile-agent."
+msgstr ""
+"Heta peryjad, akreśleny ŭ chvilinach, kab kešavać paroli GPG ŭ bastile-"
+"agent."
+
+#: ../data/bastile.schemas.in.h:44
+msgid ""
+"This option enables the GPG password cache in the bastile-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+"Hetaja opcyja ŭklučaje keš dla parolaŭ GPG ŭ prahramie bastile-agent. "
+"Nałada \"use-agent\" u gpg.conf upłyvaje na hetuju naładu."
+
+#: ../data/bastile.schemas.in.h:45
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr "Heta zmoŭčany kluč dla niekatorych aperacyj, pieravažna padpisańnia."
+
+#: ../data/bastile.schemas.in.h:46
+msgid ""
+"When set bastile-agent will try to automatically load the users SSH keys "
+"when needed. This is equivalent to using the ssh-add utility."
+msgstr ""
+"Kali ŭklučana, bastile-agent budzie sprabavać autamatyčna zahružać "
+"vymahanyja klučy SSH karystalnikaŭ. Heta padobna na vykarystańnie pryłady "
+"ssh-add."
+
+#: ../data/bastile.schemas.in.h:47
+msgid ""
+"When set, bastile-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+"Kali ŭklučana, bastile-agent źniapraŭdžvaje paroli GPG ŭ svaim kešy praz "
+"peŭny čas."
+
+#: ../data/bastile.schemas.in.h:48
+msgid "Where to store cached passwords."
+msgstr "Dzie trymać kešavanyja paroli."
+
+#: ../data/bastile.schemas.in.h:49
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "Ci treba aŭtamatyčna atrymvać klučy z serveraŭ klučoŭ."
+
+#: ../data/bastile.schemas.in.h:50
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Ci treba aŭtamatyčna synchranizavać madyfikavanyja klučy sa zmoŭčanym "
+"serveram klučoŭ."
+
+#: ../data/bastile.schemas.in.h:51
+msgid "Whether the GPG password cache is enabled"
+msgstr "Ci ŭklučany keš dla parolaŭ GPG"
+
+#: ../data/bastile.schemas.in.h:52
+msgid "Whether to always encrypt to default key"
+msgstr "Ci zaŭsiody šyfravać zmoŭčanym klučom"
+
+#: ../data/bastile.schemas.in.h:53
+msgid "Whether to automatically load SSH keys on demand."
+msgstr "Ci aŭtamatyčna zahružać vymahanyja klučy SSH."
+
+#: ../data/bastile.schemas.in.h:54
+msgid "Whether to use ASCII Armor"
+msgstr "Ci ŭžyvać abaronu ASCII"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:156
+msgid "All Keys"
+msgstr "Usie klučy"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:157
+msgid "Selected Recipients"
+msgstr "Abranyja adrasaty"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:158
+msgid "Search Results"
+msgstr "Vyniki pošuku"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:168
+msgid "Search _for:"
+msgstr "Š_ukaj:"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:223
+msgid "_Sign message as:"
+msgstr "_Padpišy paviedamleńnie jak:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:235
+msgid "None (Don't Sign)"
+msgstr "Niama (Nie padpisvaj)"
+
+#. TODO: Icons
+#: ../libmatecryptui/cryptui-key-list.c:117
+#: ../src/bastile-key-manager-store.c:954
+#: ../src/bastile-key-properties.c:871
+msgid "Name"
+msgstr "Nazva"
+
+#: ../libmatecryptui/cryptui-key-list.c:120
+#: ../src/bastile-key-manager-store.c:966
+#: ../src/bastile-key-properties.c:1725
+msgid "Key ID"
+msgstr "ID kluča"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:2
+msgid "Add Key Server"
+msgstr "Dadaj server klučoŭ"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:3
+msgid "Host:"
+msgstr "Host:"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:4
+msgid "Key Server Type:"
+msgstr "Typ servera klučoŭ:"
+
+#: ../libbastile/bastile-add-keyserver.glade.h:5
+#: ../src/bastile-ssh-upload.glade.h:3
+msgid "The host name or address of the server."
+msgstr "Nazva hostu ci adras servera."
+
+#: ../libbastile/bastile-add-keyserver.glade.h:6
+msgid "The port to access the server on."
+msgstr "Port dla dostupu da servera."
+
+#: ../libbastile/bastile-hkp-source.c:358
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr "Pošuk byŭ ćmianym. Server \"%s\" znajšoŭ nadta šmat klučoŭ."
+
+#: ../libbastile/bastile-hkp-source.c:360
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Niemahčyma źviazacca z serveram \"%s\": %s"
+
+#: ../libbastile/bastile-hkp-source.c:563
+msgid "Searching for keys..."
+msgstr "Pošuk klučoŭ..."
+
+#: ../libbastile/bastile-hkp-source.c:639
+msgid "Uploading keys..."
+msgstr "Publikavańnie klučoŭ..."
+
+#: ../libbastile/bastile-hkp-source.c:715
+msgid "Retrieving keys..."
+msgstr "Atrymańnie klučoŭ..."
+
+#: ../libbastile/bastile-hkp-source.c:764
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Pošuk klučoŭ na: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../libbastile/bastile-hkp-source.c:857
+#: ../libbastile/bastile-hkp-source.c:929
+#: ../libbastile/bastile-ldap-source.c:656
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Spałučeńnie z: %s"
+
+#: ../libbastile/bastile-ldap-source.c:449
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Niemahčyma źviazacca z \"%s\": %s"
+
+#: ../libbastile/bastile-ldap-source.c:629
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Niemahčyma vyjaśnić adras: %s"
+
+#: ../libbastile/bastile-ldap-source.c:705
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Vyjaśnieńnie adrasu servera: %s"
+
+#: ../libbastile/bastile-ldap-source.c:883
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Pošuk klučoŭ, jakija ŭtrymvajuć \"%s\"..."
+
+#: ../libbastile/bastile-ldap-source.c:910
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Pošuk kluča z id \"%s\"..."
+
+#: ../libbastile/bastile-ldap-source.c:1011
+msgid "Retrieving remote keys..."
+msgstr "Atrymańnie addalenych klučoŭ..."
+
+#: ../libbastile/bastile-ldap-source.c:1144
+msgid "Sending keys to key server..."
+msgstr "Dasyłańnie klučoŭ na server klučoŭ..."
+
+#: ../libbastile/bastile-notification.c:559
+#: ../libbastile/bastile-notification.c:589
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Kluč impartavany"
+msgstr[1] "Klučy impartavanyja"
+msgstr[2] "Klučy impartavanyja"
+
+#: ../libbastile/bastile-notification.c:563
+#: ../libbastile/bastile-notification.c:588
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Impartavany %i kluč"
+msgstr[1] "Impartavanyja %i klučy"
+msgstr[2] "Impartavanyja %i klučoŭ"
+
+#: ../libbastile/bastile-notification.c:565
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Impartavany kluč dla"
+msgstr[1] "Impartavanyja klučy dla"
+msgstr[2] "Impartavanyja klučy dla"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libbastile/bastile-notification.c:617
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Padpisaŭ <i><key id='%s'/> <b>skončyŭsia termin</b></i> %s."
+
+#: ../libbastile/bastile-notification.c:618
+msgid "Invalid Signature"
+msgstr "Niapravilny podpis"
+
+#: ../libbastile/bastile-notification.c:624
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Padpisaŭ <i><key id='%s'/></i> %s <b>Skončany termin</b>."
+
+#: ../libbastile/bastile-notification.c:625
+msgid "Expired Signature"
+msgstr "Podpis sa skončanym terminam"
+
+#: ../libbastile/bastile-notification.c:631
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Padpisaŭ <i><key id='%s'/> <b>Skasavany</b></i> %s."
+
+#: ../libbastile/bastile-notification.c:632
+msgid "Revoked Signature"
+msgstr "Skasavany podpis"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libbastile/bastile-notification.c:638
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Padpisaŭ <i><key id='%s'/></i> %s."
+
+#: ../libbastile/bastile-notification.c:639
+msgid "Good Signature"
+msgstr "Dobry podpis"
+
+#: ../libbastile/bastile-notification.c:644
+msgid "Signing key not in keyring."
+msgstr "Kluča podpisu niama ŭ klučniku."
+
+#: ../libbastile/bastile-notification.c:645
+msgid "Unknown Signature"
+msgstr "Nieviadomy podpis"
+
+#: ../libbastile/bastile-notification.c:649
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Kiepski ci padrobleny podpis. Źviestki podpisu byli zmadyfikavanyja."
+
+#: ../libbastile/bastile-notification.c:650
+msgid "Bad Signature"
+msgstr "Kiepski podpis"
+
+#: ../libbastile/bastile-notification.c:658
+msgid "Couldn't verify signature."
+msgstr "Niemahčyma pravieryć podpis."
+
+#: ../libbastile/bastile-notify.glade.h:1
+msgid "Notification Messages"
+msgstr "Paviedamleńni nahadvańniaŭ"
+
+#: ../libbastile/bastile-passphrase.c:175
+msgid "Passphrase"
+msgstr "Parol"
+
+#: ../libbastile/bastile-passphrase.c:178
+msgid "Password:"
+msgstr "Parol:"
+
+#: ../libbastile/bastile-passphrase.c:242
+msgid "Confirm:"
+msgstr "Paćvierdź:"
+
+#: ../libbastile/bastile-passphrase.c:325
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Błahi parol."
+
+#: ../libbastile/bastile-passphrase.c:329
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Uviadzi novy parol dla \"%s\""
+
+#: ../libbastile/bastile-passphrase.c:331
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Uviadzi parol dla \"%s\""
+
+#: ../libbastile/bastile-passphrase.c:334
+#: ../src/bastile-change-passphrase.glade.h:4
+msgid "Enter new passphrase"
+msgstr "Uviadzi novy parol"
+
+#: ../libbastile/bastile-passphrase.c:336
+msgid "Enter passphrase"
+msgstr "Uviadzi parol"
+
+#: ../libbastile/bastile-pgp-key.c:140 ../libbastile/bastile-ssh-key.c:112
+#: ../src/bastile-gkeyring-item.c:231
+msgid "Invalid"
+msgstr "Niapravilny"
+
+#: ../libbastile/bastile-pgp-key.c:162
+#: ../src/bastile-pgp-public-key-properties.glade.h:30
+msgid "Public PGP Key"
+msgstr "Publičny kluč PGP"
+
+#: ../libbastile/bastile-pgp-key.c:165
+#: ../src/bastile-pgp-private-key-properties.glade.h:35
+msgid "Private PGP Key"
+msgstr "Pryvatny kluč PGP"
+
+#: ../libbastile/bastile-pgp-key.c:694 ../libbastile/bastile-validity.c:31
+#: ../src/bastile-key-properties.c:1099
+msgid "Unknown"
+msgstr "Nieviadomy"
+
+#: ../libbastile/bastile-pgp-key.c:696
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../libbastile/bastile-pgp-source.c:367
+#: ../libbastile/bastile-server-source.c:209
+#: ../src/bastile-generate-select.c:142
+msgid "PGP Key"
+msgstr "Kluč PGP"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../libbastile/bastile-pgp-source.c:723
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "Zahružany %d kluč"
+msgstr[1] "Zahružanyja %d klučy"
+msgstr[2] "Zahružanyja %d klučoŭ"
+
+#: ../libbastile/bastile-pgp-source.c:778
+msgid "Loading Keys..."
+msgstr "Zahruzka klučoŭ..."
+
+#: ../libbastile/bastile-pgp-source.c:821
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"Niapravilnyja źviestki kluča (nie staje UIDaŭ). Pryčynaj moža być kamputar z "
+"dataj u budučyni albo niastača samapodpisu."
+
+#: ../libbastile/bastile-pgp-source.c:942 ../src/bastile-key-manager.c:446
+#: ../src/bastile-key-manager.c:494
+msgid "Importing Keys"
+msgstr "Impartavańnie klučoŭ"
+
+#: ../libbastile/bastile-pgp-source.c:975
+msgid "Exporting Keys"
+msgstr "Ekspartavańnie klučoŭ"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Niapravilny adras servera klučoŭ."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"Pa dapamohu źviažysia z tvaim systemnym administrataram albo administrataram "
+"servera klučoŭ."
+
+#: ../libbastile/bastile-prefs.c:174
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:359
+msgid "Custom"
+msgstr "Asablivy"
+
+#: ../libbastile/bastile-prefs.c:429
+msgid "None: Don't publish keys"
+msgstr "Niama: nie publikuj klučoŭ"
+
+#: ../libbastile/bastile-prefs.c:699
+msgid "None. Prompt for a key."
+msgstr "Niama. Pytajsia kluča."
+
+#: ../libbastile/bastile-prefs-cache.c:226
+msgid "Couldn't open the Session Properties"
+msgstr "Niemahčyma adčynić Ułaścivaści sesii"
+
+#: ../libbastile/bastile-prefs-cache.c:239
+msgid "Couldn't start the 'bastile-agent' program"
+msgstr "Niemahčyma ŭruchomić prahramu \"bastile-agent\""
+
+#: ../libbastile/bastile-prefs-cache.c:241
+msgid "The 'bastile-agent' program exited unsuccessfully."
+msgstr "Prahrama \"bastile-agent\" vyjšła biespaśpiachova."
+
+#: ../libbastile/bastile-prefs.glade.h:1
+msgid "<b>Defaults</b>"
+msgstr "<b>Zmoŭčańni</b>"
+
+#: ../libbastile/bastile-prefs.glade.h:2
+msgid ""
+"<b>Note:</b> The 'bastile-agent' program has been started. This program is "
+"necessary in order to cache passphrases. "
+msgstr ""
+"<b>Uvaha:</b> Prahrama \"bastile-agent\" była ŭruchomlenaja. Hetaja "
+"prahrama patrebnaja, kab kešavać paroli."
+
+#: ../libbastile/bastile-prefs.glade.h:3
+msgid "<b>Remember PGP Passphrases</b>"
+msgstr "<b>Zapaminaj paroli PGP</b>"
+
+#: ../libbastile/bastile-prefs.glade.h:4
+msgid "<b>Secure Shell Keys</b>"
+msgstr "<b>Klučy SSH</b>"
+
+#: ../libbastile/bastile-prefs.glade.h:5
+msgid ""
+"<b>Warning:</b> The 'bastile-agent' program is not running. This program is "
+"necessary in order to cache passphrases. "
+msgstr ""
+"<b>Aściarožna:</b> Prahrama \"bastile-agent\" nie ŭruchomlenaja. Hetaja "
+"prahrama patrebnaja, kab kešavać paroli."
+
+#: ../libbastile/bastile-prefs.glade.h:6
+msgid "<i>A non-supported PGP passphrase caching agent is running.</i>"
+msgstr "<i>Uruchomleny niaŭzhodnieny ahient kešavańnia parolaŭ PGP.</i>"
+
+#: ../libbastile/bastile-prefs.glade.h:7
+msgid "<i>No SSH caching agent is running. Cannot load Secure Shell keys.</i>"
+msgstr ""
+"<i>Ahient kešavańnia SSH nie ŭruchomleny. Niemahčyma zahruzić klučy SSH.</i>"
+
+#: ../libbastile/bastile-prefs.glade.h:8
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+"<i>Hety kluč užyvajecca, kab padpisvać paviedamleńni, kali nie akreśleny "
+"inšy parol</i>"
+
+#: ../libbastile/bastile-prefs.glade.h:9
+msgid "As_k me before using a cached passphrase"
+msgstr "_Spytaj mianie pierad vykarystańniem parolnaj frazy z kešu"
+
+#: ../libbastile/bastile-prefs.glade.h:10
+msgid "Automatically load _Secure Shell keys"
+msgstr "Aŭtamatyčna zahružaj klučy _SSH"
+
+#: ../libbastile/bastile-prefs.glade.h:11
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Aŭtamatyčna atrymvaj klučy z _serveraŭ klučoŭ"
+
+#: ../libbastile/bastile-prefs.glade.h:12
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Aŭtamatyčna synchranizuj z_madyfikavanyja klučy z serverami klučoŭ"
+
+#: ../libbastile/bastile-prefs.glade.h:13
+msgid ""
+"Changing the master password failed.  Make certain that you entered the "
+"correct original master password."
+msgstr ""
+"Pamyłka źmieny hałoŭnaha parolu. Pravier, ci pravilny dziejny hałoŭny parol "
+"ty ŭvioŭ."
+
+#: ../libbastile/bastile-prefs.glade.h:14
+msgid "Confirm ne_w master password:"
+msgstr "Paćvierdź _novy hałouny parol:"
+
+#: ../libbastile/bastile-prefs.glade.h:15
+msgid "Current _master password:"
+msgstr "Dziejny _hałoŭny parol:"
+
+#: ../libbastile/bastile-prefs.glade.h:16
+#: ../plugins/caja/bastile-pgp-preferences.c:74
+msgid "Encryption Preferences"
+msgstr "Nałady šyfravańnia"
+
+#: ../libbastile/bastile-prefs.glade.h:17
+msgid "Encryption Settings"
+msgstr "Nałady šyfravańnia"
+
+#: ../libbastile/bastile-prefs.glade.h:18
+msgid "MATE Keyring"
+msgstr "Klučnik MATE"
+
+#: ../libbastile/bastile-prefs.glade.h:19
+msgid ""
+"MATE Keyring stores passwords, network keys, passphrases and other secrets "
+"required for authentication.  A <b>master password</b> is used to protect "
+"these secrets.  The <b>master password</b> can be changed below."
+msgstr ""
+"Klučnik MATE zachoŭvaje paroli, sietkavyja klučy, paroli j inšyja "
+"sakretnyja źviestki, patrebnyja dla aŭtaryzacyi.  <b>Hałoŭny parol</b> "
+"abaraniaje hetyja sakrety. <b>Hałoŭny parol</b> možna źmianić nižej."
+
+#: ../libbastile/bastile-prefs.glade.h:20
+msgid "Key Servers"
+msgstr "Servery klučoŭ"
+
+#: ../libbastile/bastile-prefs.glade.h:21
+msgid "Key Sharing"
+msgstr "Supolny dostup da klučoŭ"
+
+#: ../libbastile/bastile-prefs.glade.h:22
+msgid "Passphrase Cache"
+msgstr "Keš parolaŭ"
+
+#: ../libbastile/bastile-prefs.glade.h:23
+msgid "Session _Properties"
+msgstr "_Ułaścivaści sesii"
+
+#: ../libbastile/bastile-prefs.glade.h:24
+msgid ""
+"Sharing your keys allows other people on your network to use the keys you've "
+"collected. This means they can automatically encrypt things for you or those "
+"you know, without you having to send them your key.\n"
+"\n"
+"<b>Note:</b> Your personal keys will not be compromised."
+msgstr ""
+"Supolny dostup da tvaich klučoŭ daje inšym ludziam z tvajoj sietki "
+"vykarystoŭvać sabranyja taboju klučy. Heta značyć, jany zmohuć aŭtamatyčna "
+"šyfravać rečy dla ciabie ci viadomych tabie ludziej, pryčym tabie nia treba "
+"dasyłać im svoj kluč.\n"
+"\n"
+"<b>Uvaha:</b> Tvaje persanalnyja klučy nia buduć skamprametavanymi."
+
+#: ../libbastile/bastile-prefs.glade.h:27
+msgid "Start sea_horse-agent"
+msgstr "Uruchom sea_horse-agent"
+
+#: ../libbastile/bastile-prefs.glade.h:28
+msgid "The master password was successfully changed."
+msgstr "Hałoŭny parol paśpiachova źmianiŭsia."
+
+#: ../libbastile/bastile-prefs.glade.h:29
+msgid ""
+"To avoid manually starting the 'bastile-agent' in the future\n"
+"add it to the Session Manager. "
+msgstr ""
+"Kab nadalej nie ŭruchamlać uručnuju prahramu \"bastile-agent\",\n"
+"dadaj jaje ŭ Kiraŭniku sesij."
+
+#: ../libbastile/bastile-prefs.glade.h:31
+msgid "When _encrypting, always include myself as a recipient"
+msgstr "Pry _šyfravańni zaŭždy ŭłučaj mianie jak adrasata"
+
+#: ../libbastile/bastile-prefs.glade.h:32
+msgid "_Always remember passphrases whenever logged in"
+msgstr "_Zaŭsiody pomni paroli, kali b ni ŭvajšoŭ"
+
+#: ../libbastile/bastile-prefs.glade.h:33
+msgid "_Default key:"
+msgstr "_Zmoŭčany kluč:"
+
+#: ../libbastile/bastile-prefs.glade.h:34
+msgid "_Find keys via:"
+msgstr "_Šukaj klučy praz:"
+
+#: ../libbastile/bastile-prefs.glade.h:35
+msgid "_Never remember passphrases"
+msgstr "_Nikoli nia pamiataj parolaŭ"
+
+#: ../libbastile/bastile-prefs.glade.h:36
+msgid "_New master password:"
+msgstr "_Novy hałoŭny parol:"
+
+#: ../libbastile/bastile-prefs.glade.h:37
+msgid "_Publish keys to:"
+msgstr "_Publikuj klučy na:"
+
+#: ../libbastile/bastile-prefs.glade.h:38
+msgid "_Remember passphrases for"
+msgstr "_Pomni paroli"
+
+#: ../libbastile/bastile-prefs.glade.h:39
+msgid "_Share my keys with others on my network"
+msgstr "_Razdavaj maje klučy inšym udzielnikam majoj sietki"
+
+#: ../libbastile/bastile-prefs.glade.h:40
+msgid "minutes"
+msgstr "chvilin"
+
+#: ../libbastile/bastile-progress.glade.h:1
+msgid "Progress Title"
+msgstr "Zahałovak vakna prahresu"
+
+#: ../libbastile/bastile-server-source.c:466
+msgid "LDAP Key Server"
+msgstr "Server klučoŭ LDAP"
+
+#: ../libbastile/bastile-server-source.c:469
+msgid "HTTP Key Server"
+msgstr "Server klučoŭ HTTP"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../libbastile/bastile-signer.c:57 ../src/bastile-sign.c:159
+msgid "No keys usable for signing"
+msgstr "Nie staje klučoŭ, prydatnych dziela padpisańnia"
+
+#: ../libbastile/bastile-signer.c:58
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"U ciabie niama persanalnych klučoŭ PGP, prydatnych dla padpisańnia dakumentu "
+"ci paviedamleńnia."
+
+#: ../libbastile/bastile-signer.glade.h:1
+msgid "_Sign message with key:"
+msgstr "_Padpišy paviedamleńnie z dapamohaj kluča:"
+
+#: ../libbastile/bastile-ssh-askpass.c:94
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Uviadzi svoj parol SSH:"
+
+#: ../libbastile/bastile-ssh-key.c:90
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Niečytelny kluč SSH)"
+
+#: ../libbastile/bastile-ssh-key.c:94 ../libbastile/bastile-ssh-key.c:98
+#: ../libbastile/bastile-ssh-source.c:746
+#: ../src/bastile-generate-select.c:145
+#: ../src/bastile-ssh-key-properties.glade.h:20
+msgid "Secure Shell Key"
+msgstr "Kluč SSH"
+
+#: ../libbastile/bastile-ssh-key.c:126
+msgid "Private Secure Shell Key"
+msgstr "Pryvatny kluč SSH"
+
+#: ../libbastile/bastile-ssh-key.c:129
+msgid "Public Secure Shell Key"
+msgstr "Publičny kluč SSH"
+
+#: ../libbastile/bastile-ssh-operation.c:133
+#: ../libbastile/bastile-ssh-operation.c:695
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "Zahad SSH niečakana skončany."
+
+#: ../libbastile/bastile-ssh-operation.c:141
+#: ../libbastile/bastile-ssh-operation.c:702
+msgid "The SSH command failed."
+msgstr "Pamyłka zahadu SSH."
+
+#: ../libbastile/bastile-ssh-operation.c:439
+msgid "Secure Shell key"
+msgstr "Kluč SSH"
+
+#. Just prompt over and over again
+#: ../libbastile/bastile-ssh-operation.c:725
+msgid "Secure Shell Passphrase"
+msgstr "Parol SSH"
+
+#: ../libbastile/bastile-ssh-operation.c:811
+msgid "Old Key Passphrase"
+msgstr "Stary parol dla kluča"
+
+#: ../libbastile/bastile-ssh-operation.c:812
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Uviadzi stary parol dla: %s"
+
+#: ../libbastile/bastile-ssh-operation.c:816
+msgid "New Key Passphrase"
+msgstr "Novy parol dla kluča"
+
+#: ../libbastile/bastile-ssh-operation.c:817
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Uviadzi novy parol dla: %s"
+
+#: ../libbastile/bastile-ssh-operation.c:825
+msgid "Enter Key Passphrase"
+msgstr "Uviadzi parol dla kluča"
+
+#: ../libbastile/bastile-ssh-operation.c:893
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Parol dla novaha kluča SSH"
+
+#: ../libbastile/bastile-ssh-operation.c:894
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Uviadzi parol dla svajho novaha kluča SSH."
+
+#: ../libbastile/bastile-ssh-operation.c:1028
+msgid "Secure Shell Key Passphrase"
+msgstr "Parol dla kluča SSH"
+
+#: ../libbastile/bastile-ssh-operation.c:1028
+#, c-format
+msgid "Enter the passphrase for: %s"
+msgstr "Uviadzi parol dla: %s"
+
+#: ../libbastile/bastile-ssh-operation.c:1029
+msgid "Save this passphrase in my keyring"
+msgstr "Zachavaj hety parol u maim klučniku"
+
+#: ../libbastile/bastile-ssh-operation.c:1101
+#, c-format
+msgid "Importing key: %s"
+msgstr "Impartavańnie kluča: %s"
+
+#: ../libbastile/bastile-ssh-operation.c:1103
+msgid "Importing key. Enter passphrase"
+msgstr "Impartavańnie kluča. Uviadzi parol"
+
+#: ../libbastile/bastile-ssh-operation.c:1105
+#: ../src/bastile-key-manager.c:507
+#: ../src/bastile-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Impartuj kluč"
+
+#: ../libbastile/bastile-unknown-key.c:67
+msgid "Unavailable"
+msgstr "Niedastupny"
+
+#: ../libbastile/bastile-unknown-key.c:87
+#, c-format
+msgid "Unknown Key: %s"
+msgstr "Nieviadomy kluč: %s"
+
+#: ../libbastile/bastile-unknown-key.c:119
+msgid "Unknown Key"
+msgstr "Nieviadomy kluč"
+
+#: ../libbastile/bastile-unknown-source.c:128
+msgid "Unavailable Key"
+msgstr "Niedastupny kluč"
+
+#: ../libbastile/bastile-util.c:172
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Pamyłka rasšyfroŭki. Ty nia maješ kluča dziela rasšyfroŭki."
+
+#: ../libbastile/bastile-util.c:222
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../libbastile/bastile-util.c:413
+msgid "Key Data"
+msgstr "Źviestki kluča"
+
+#: ../libbastile/bastile-util.c:415
+msgid "Multiple Keys"
+msgstr "Šmatlikija klučy"
+
+#: ../libbastile/bastile-util.c:728
+msgid "Couldn't run file-roller"
+msgstr "Niemahčyma ŭruchomić file-roller'a"
+
+#: ../libbastile/bastile-util.c:733
+#: ../plugins/caja/bastile-tool-files.c:830
+msgid "Couldn't package files"
+msgstr "Niemahčyma zapakavać fajły"
+
+#: ../libbastile/bastile-util.c:734
+msgid "The file-roller process did not complete successfully"
+msgstr "Praces file-roller nia skončyŭsia paśpiachova"
+
+#: ../libbastile/bastile-util.c:744
+msgid "Couldn't set permissions on backup file."
+msgstr "Niemahčyma akreślić dazvoły dla rezervovaha fajłu."
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:848
+msgid "All key files"
+msgstr "Usie fajły klučoŭ"
+
+#: ../libbastile/bastile-util.c:859 ../libbastile/bastile-util.c:899
+#: ../src/bastile-photos.c:239
+msgid "All files"
+msgstr "Usie fajły"
+
+#: ../libbastile/bastile-util.c:892
+msgid "Archive files"
+msgstr "Archiŭnyja fajły"
+
+#: ../libbastile/bastile-util.c:933
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Fajł z takoj nazvaj užo isnuje.</b>\n"
+"\n"
+"Chočaš zamianić jaho na novy fajł?"
+
+#: ../libbastile/bastile-util.c:936
+msgid "_Replace"
+msgstr "_Zamiani"
+
+#: ../libbastile/bastile-validity.c:33 ../src/bastile-key-properties.c:1105
+#: ../src/bastile-key-properties.c:1237 ../src/bastile-key-properties.c:1309
+msgid "Never"
+msgstr "Nikoli"
+
+#: ../libbastile/bastile-validity.c:35 ../src/bastile-key-properties.c:1112
+msgid "Marginal"
+msgstr "Pamiežny"
+
+#: ../libbastile/bastile-validity.c:37 ../src/bastile-key-properties.c:1118
+msgid "Full"
+msgstr "Poŭny"
+
+#: ../libbastile/bastile-validity.c:39 ../src/bastile-key-properties.c:1124
+msgid "Ultimate"
+msgstr "Kančatkovy"
+
+#: ../libbastile/bastile-validity.c:41
+msgid "Disabled"
+msgstr "Vyklučany"
+
+#: ../libbastile/bastile-validity.c:43 ../src/bastile-key-properties.c:1305
+msgid "Revoked"
+msgstr "Skasavany"
+
+#: ../libbastile/bastile-widget.c:326
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Niemahčyma pakazać dapamohu: %s"
+
+#: ../plugins/applet/MATE_BastileApplet.server.in.in.h:1
+msgid "Clipboard Text Encryption"
+msgstr "Šyfravańnie tekstu ŭ bufery"
+
+#: ../plugins/applet/MATE_BastileApplet.server.in.in.h:2
+msgid "Encrypt, decrypt or sign the clipboard (uses PGP type encryption)."
+msgstr ""
+"Šyfruj, rasšyfroŭvaj ci padpisvaj bufer (užyvaje šyfravańnie typu PGP)."
+
+#: ../plugins/applet/MATE_BastileApplet.server.in.in.h:3
+msgid "Bastile Applet Factory"
+msgstr "Fabryka apletu Bastile"
+
+#: ../plugins/applet/MATE_BastileApplet.xml.h:1
+#: ../src/bastile-key-manager.c:1198
+msgid "_About"
+msgstr "_Ab"
+
+#: ../plugins/applet/MATE_BastileApplet.xml.h:2
+#: ../src/bastile-key-manager.c:1182 ../src/bastile-keyserver-results.c:381
+msgid "_Help"
+msgstr "_Dapamoha"
+
+#: ../plugins/applet/MATE_BastileApplet.xml.h:3
+msgid "_Preferences"
+msgstr "_Nałady"
+
+#: ../plugins/applet/bastile-applet.c:309
+msgid "bastile-applet"
+msgstr "bastile-applet"
+
+#: ../plugins/applet/bastile-applet.c:311
+#: ../plugins/applet/bastile-applet.c:836
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+"Užyj PGP/GPG, kab šyfravać/rasšyfroŭvać/padpisvać/pravieryć/impartavać bufer."
+
+#: ../plugins/applet/bastile-applet.c:316 ../src/bastile-key-manager.c:866
+msgid "translator-credits"
+msgstr "Ihar Hračyška <ihar.hrachyshka@gmail.com>"
+
+#: ../plugins/applet/bastile-applet.c:319 ../src/bastile-key-manager.c:869
+msgid "Bastile Project Homepage"
+msgstr "Chatnija staronka prajektu Bastile"
+
+#. Get the recipient list
+#: ../plugins/applet/bastile-applet.c:375
+#: ../plugins/epiphany/bastile-extension.c:251
+#: ../plugins/pluma/bastile-pluma.c:332
+msgid "Choose Recipient Keys"
+msgstr "Abiary klučy adrasataŭ"
+
+#: ../plugins/applet/bastile-applet.c:394
+msgid "Encrypted Text"
+msgstr "Zašyfravany tekst"
+
+#: ../plugins/applet/bastile-applet.c:396
+msgid "Encryption Failed"
+msgstr "Pamyłka šyfravańnia"
+
+#: ../plugins/applet/bastile-applet.c:397
+msgid "The clipboard could not be encrypted."
+msgstr "Niemahčyma zašyfravać źmieściva buferu."
+
+#: ../plugins/applet/bastile-applet.c:431
+#: ../plugins/epiphany/bastile-extension.c:296
+#: ../plugins/pluma/bastile-pluma.c:611
+msgid "Choose Key to Sign with"
+msgstr "Abiary kluč dla padpisańnia"
+
+#: ../plugins/applet/bastile-applet.c:450
+msgid "Signed Text"
+msgstr "Padpisany tekst"
+
+#: ../plugins/applet/bastile-applet.c:452
+msgid "Signing Failed"
+msgstr "Pamyłka padpisańnia"
+
+#: ../plugins/applet/bastile-applet.c:453
+msgid "The clipboard could not be Signed."
+msgstr "Niemahčyma padpisać źmieściva buferu."
+
+#: ../plugins/applet/bastile-applet.c:496
+#: ../plugins/epiphany/bastile-extension.c:340
+msgid "Import Failed"
+msgstr "Pamyłka impartavańnia"
+
+#: ../plugins/applet/bastile-applet.c:497
+#: ../plugins/epiphany/bastile-extension.c:341
+msgid "Keys were found but not imported."
+msgstr "Klučy znojdzienyja, ale nie zimpartavanyja."
+
+#: ../plugins/applet/bastile-applet.c:528
+#: ../plugins/epiphany/bastile-extension.c:374
+msgid "Decrypting Failed"
+msgstr "Pamyłka rasšyfroŭki"
+
+#: ../plugins/applet/bastile-applet.c:529
+#: ../plugins/epiphany/bastile-extension.c:375
+msgid "Text may be malformed."
+msgstr "Tekst moža być paškodžanym."
+
+#: ../plugins/applet/bastile-applet.c:580
+msgid "No PGP key or message was found on clipboard"
+msgstr "U bufery nia znojdzieny kluč ci paviedamleńnie PGP"
+
+#: ../plugins/applet/bastile-applet.c:581
+msgid "No PGP data found."
+msgstr "Źviestki PGP nia znojdzienyja."
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/bastile-applet.c:616
+msgid "Decrypted Text"
+msgstr "Rasšyfravany tekst"
+
+#: ../plugins/applet/bastile-applet.c:685
+msgid "Could not display the help file"
+msgstr "Niemahčyma pakazać fajł dapamohi"
+
+#: ../plugins/applet/bastile-applet.c:748
+msgid "_Encrypt Clipboard"
+msgstr "_Zašyfruj bufer"
+
+#: ../plugins/applet/bastile-applet.c:755
+msgid "_Sign Clipboard"
+msgstr "_Padpišy bufer"
+
+#: ../plugins/applet/bastile-applet.c:762
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Rasšyfruj/Pravier bufer"
+
+#: ../plugins/applet/bastile-applet.c:768
+msgid "_Import Keys from Clipboard"
+msgstr "_Impartuj klučy z buferu"
+
+#: ../plugins/applet/bastile-applet.c:833
+#: ../plugins/applet/bastile-applet.c:835
+msgid "Encryption Applet"
+msgstr "Aplet šyfravańnia"
+
+#: ../plugins/applet/bastile-applet-preferences.glade.h:1
+msgid "<b>Display clipboard contents after:</b>"
+msgstr "<b>Pakazvaj źmieściva buferu praz:</b>"
+
+#: ../plugins/applet/bastile-applet-preferences.glade.h:2
+msgid "Clipboard Encryption Preferences"
+msgstr "Nałady šyfravańnia buferu"
+
+#: ../plugins/applet/bastile-applet-preferences.glade.h:3
+msgid "_Decrypting or verifying the clipboard"
+msgstr "_Rasšyfroŭka ci pravierka buferu"
+
+#: ../plugins/applet/bastile-applet-preferences.glade.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr "_Šyfravańnie ci padpisańnie buferu"
+
+#: ../plugins/applet/bastile-applet-preferences.glade.h:5
+msgid "_Show clipboard state in panel"
+msgstr "_Pakazvaj stan buferu ŭ paneli"
+
+#: ../plugins/epiphany/bastile-extension.c:602
+msgid "_Encrypt"
+msgstr "_Zašyfruj"
+
+#: ../plugins/epiphany/bastile-extension.c:609
+#: ../src/bastile-sign.glade.h:21
+msgid "_Sign"
+msgstr "_Padpišy"
+
+#: ../plugins/epiphany/bastile-extension.c:616
+msgid "_Decrypt/Verify"
+msgstr "_Rasšyfruj/Pravier"
+
+#: ../plugins/epiphany/bastile-extension.c:623
+msgid "_Import Key"
+msgstr "_Impartuj kluč"
+
+#: ../plugins/pluma/bastile-pluma.c:265
+msgid "Couldn't connect to bastile-daemon"
+msgstr "Niemahčyma spałučycca z bastile-daemon"
+
+#: ../plugins/pluma/bastile-pluma.c:354
+msgid "Encrypted text"
+msgstr "Zašyfravany tekst"
+
+#: ../plugins/pluma/bastile-pluma.c:357
+msgid "Couldn't encrypt text"
+msgstr "Niemahčyma zašyfravać tekst"
+
+#: ../plugins/pluma/bastile-pluma.c:387 ../src/bastile-key-manager.c:387
+#: ../src/bastile-key-manager.c:455 ../src/bastile-key-manager.c:478
+msgid "Couldn't import keys"
+msgstr "Niemahčyma zimpartavać klučy"
+
+#: ../plugins/pluma/bastile-pluma.c:396
+msgid "Keys found but not imported"
+msgstr "Klučy znojdzienyja, ale nie zimpartavanyja"
+
+#: ../plugins/pluma/bastile-pluma.c:430
+msgid "Couldn't decrypt text"
+msgstr "Niemahčyma rasšyfravać tekst"
+
+#: ../plugins/pluma/bastile-pluma.c:462
+msgid "Couldn't verify text"
+msgstr "Niemahčyma pravieryć tekst"
+
+#: ../plugins/pluma/bastile-pluma.c:510
+msgid "No encrypted or signed text is selected."
+msgstr "Zašyfravany ci padpisany tekst nia vyłučany."
+
+#: ../plugins/pluma/bastile-pluma.c:540
+msgid "Decrypted text"
+msgstr "Rasšyfravany tekst"
+
+#: ../plugins/pluma/bastile-pluma.c:547
+msgid "Verified text"
+msgstr "Pravierany tekst"
+
+#: ../plugins/pluma/bastile-pluma.c:582
+#: ../plugins/caja/bastile-tool.c:374 ../src/bastile-key-manager.c:396
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "Impartavany %d kluč"
+msgstr[1] "Impartavanyja %d klučy"
+msgstr[2] "Impartavanyja %d klučoŭ"
+
+#: ../plugins/pluma/bastile-pluma.c:633
+msgid "Signed text"
+msgstr "Padpisany tekst"
+
+#: ../plugins/pluma/bastile-pluma.c:636
+msgid "Couldn't sign text"
+msgstr "Niemahčyma padpisać tekst"
+
+#: ../plugins/pluma/bastile-pluma-plugin.c:133
+msgid "_Encrypt..."
+msgstr "_Zašyfruj..."
+
+#: ../plugins/pluma/bastile-pluma-plugin.c:134
+msgid "Encrypt the selected text"
+msgstr "Zašyfruj vyłučany tekst"
+
+#: ../plugins/pluma/bastile-pluma-plugin.c:135
+msgid "Decr_ypt/Verify"
+msgstr "Ras_šyfruj/Pravier"
+
+#: ../plugins/pluma/bastile-pluma-plugin.c:136
+msgid "Decrypt and/or Verify text"
+msgstr "Rasšyfruj i/ci pravier tekst"
+
+#: ../plugins/pluma/bastile-pluma-plugin.c:137
+msgid "Sig_n..."
+msgstr "P_adpišy..."
+
+#: ../plugins/pluma/bastile-pluma-plugin.c:138
+msgid "Sign the selected text"
+msgstr "Padpišy vyłučany tekst"
+
+#: ../plugins/pluma/bastile-pluma.schemas.in.h:1
+msgid "Enable the bastile encryption plugin for pluma."
+msgstr "Uklučy plugi šyfravańnia Bastile dla pluma."
+
+#: ../plugins/pluma/bastile-pluma.schemas.in.h:2
+msgid "Enable the bastile pluma plugin"
+msgstr "Uklučy plugi Bastile dla pluma"
+
+#: ../plugins/pluma/bastile-pgp.pluma-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr "Šyfravańnie tekstu"
+
+#: ../plugins/pluma/bastile-pgp.pluma-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr "Hety plugin vykonvaje šyfravańnie tekstu."
+
+#: ../plugins/caja-ext/bastile-caja.c:161
+msgid "Encrypt..."
+msgstr "Zašyfruj..."
+
+#: ../plugins/caja-ext/bastile-caja.c:162
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Zašyfruj (i kali treba, padpišy) abrany fajł"
+msgstr[1] "Zašyfruj abranyja fajły"
+msgstr[2] "Zašyfruj abranyja fajły"
+
+#: ../plugins/caja-ext/bastile-caja.c:168
+#: ../src/bastile-pgp-private-key-properties.glade.h:38
+msgid "Sign"
+msgstr "Padpišy"
+
+#: ../plugins/caja-ext/bastile-caja.c:169
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Padpišy abrany fajł"
+msgstr[1] "Padpišy abranyja fajły"
+msgstr[2] "Padpišy abranyja fajły"
+
+#: ../plugins/caja/bastile-pgp-preferences.c:43
+#: ../plugins/caja/bastile-pgp-preferences.c:47
+msgid "For internal use"
+msgstr "Dla ŭnutranaha karystańnia"
+
+#: ../plugins/caja/bastile-pgp-preferences.desktop.in.h:1
+msgid "Configure key servers and other encryption settings"
+msgstr "Kanfihuruj servery klučoŭ i inšyja nałady šyfravańnia"
+
+#: ../plugins/caja/bastile-pgp-preferences.desktop.in.h:2
+msgid "Encryption and Keyrings"
+msgstr "Šyfravańnie j klučniki"
+
+#: ../plugins/caja/bastile-tool.c:52
+msgid "Import keys from the file"
+msgstr "Impartuj klučy z fajłu"
+
+#: ../plugins/caja/bastile-tool.c:54
+msgid "Encrypt file"
+msgstr "Zašyfruj fajł"
+
+#: ../plugins/caja/bastile-tool.c:56
+msgid "Sign file with default key"
+msgstr "Padpišy fajł zmoŭčanym klučom"
+
+#: ../plugins/caja/bastile-tool.c:58
+msgid "Encrypt and sign file with default key"
+msgstr "Zašyfruj i padpišy fajł zmoŭčanym klučom"
+
+#: ../plugins/caja/bastile-tool.c:60
+msgid "Decrypt encrypted file"
+msgstr "Rasšyfruj zašyfravany fajł"
+
+#: ../plugins/caja/bastile-tool.c:62
+msgid "Verify signature file"
+msgstr "Pravier fajł podpisu"
+
+#: ../plugins/caja/bastile-tool.c:64
+msgid "Read list of URIs on standard in"
+msgstr "Pračytaj śpis URI sa standartnaha ŭvachodu"
+
+#: ../plugins/caja/bastile-tool.c:66
+msgid "file..."
+msgstr "fajł..."
+
+#: ../plugins/caja/bastile-tool.c:128
+msgid "Choose Recipients"
+msgstr "Abiary adrasataŭ"
+
+#: ../plugins/caja/bastile-tool.c:190
+#: ../plugins/caja/bastile-tool.c:272
+msgid "Couldn't load keys"
+msgstr "Niemahčyma zahruziić klučy"
+
+#: ../plugins/caja/bastile-tool.c:206
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Abiary nazvu zašyfravanaha fajłu dla \"%s\""
+
+#: ../plugins/caja/bastile-tool.c:256
+msgid "Choose Signer"
+msgstr "Abiary padpiščyka"
+
+#: ../plugins/caja/bastile-tool.c:291
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Abiary nazvu fajłu podpisu dla \"%s\""
+
+#: ../plugins/caja/bastile-tool.c:372
+#, c-format
+msgid "Imported key"
+msgstr "Impartavany kluč"
+
+#. File to decrypt to
+#: ../plugins/caja/bastile-tool.c:396
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Abiary nazvu rasšyfravanaha fajłu dla \"%s\""
+
+#: ../plugins/caja/bastile-tool.c:452
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Abiary pačatkovy fajł dla \"%s\""
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../plugins/caja/bastile-tool.c:524
+#, c-format
+msgid "No valid signatures found"
+msgstr "Pravilnyja podpisy nia znojdzienyja"
+
+#: ../plugins/caja/bastile-tool.c:577
+msgid "File Encryption Tool"
+msgstr "Pryłada dla šyfravańnia fajłaŭ"
+
+#: ../plugins/caja/bastile-tool.c:600
+msgid "Encrypting"
+msgstr "Šyfravańnie"
+
+#: ../plugins/caja/bastile-tool.c:601
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "Niemahčyma zašyfravać fajł: %s"
+
+#: ../plugins/caja/bastile-tool.c:609
+msgid "Signing"
+msgstr "Padpisańnie"
+
+#: ../plugins/caja/bastile-tool.c:610
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "Niemahčyma padpisać fajł: %s"
+
+#: ../plugins/caja/bastile-tool.c:615
+msgid "Importing"
+msgstr "Impartavańnie"
+
+#: ../plugins/caja/bastile-tool.c:616
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "Niemahčyma zimpartavać klučy z fajłu: %s"
+
+#: ../plugins/caja/bastile-tool.c:622
+msgid "Decrypting"
+msgstr "Rasšyfroŭka"
+
+#: ../plugins/caja/bastile-tool.c:623
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "Niemahčyma rasšyfravać fajł: %s"
+
+#: ../plugins/caja/bastile-tool.c:628
+msgid "Verifying"
+msgstr "Pravierka"
+
+#: ../plugins/caja/bastile-tool.c:629
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "Niemahčyma pravieryć fajł: %s"
+
+#: ../plugins/caja/bastile-tool-files.c:114
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../plugins/caja/bastile-tool-files.c:115
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../plugins/caja/bastile-tool-files.c:116
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../plugins/caja/bastile-tool-files.c:123
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../plugins/caja/bastile-tool-files.c:124
+msgid "Self-extracting zip (.exe)"
+msgstr "Samaraspakoŭny zip (.exe)"
+
+#: ../plugins/caja/bastile-tool-files.c:126
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../plugins/caja/bastile-tool-files.c:127
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../plugins/caja/bastile-tool-files.c:129
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../plugins/caja/bastile-tool-files.c:131
+msgid "Tar uncompressed (.tar)"
+msgstr "Nieskampresavany tar (.tar)"
+
+#: ../plugins/caja/bastile-tool-files.c:132
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar, skampresavany bzipam (.tar.bz)"
+
+#: ../plugins/caja/bastile-tool-files.c:133
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar, skampresavany bzip2 (.tar.bz2)"
+
+#: ../plugins/caja/bastile-tool-files.c:134
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar, skampresavany gzipam (.tar.gz)"
+
+#: ../plugins/caja/bastile-tool-files.c:135
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar, skampresavany lzopam (.tar.lzo)"
+
+#: ../plugins/caja/bastile-tool-files.c:136
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar, skampresavany compressam (.tar.Z)"
+
+#: ../plugins/caja/bastile-tool-files.c:138
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../plugins/caja/bastile-tool-files.c:139
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../plugins/caja/bastile-tool-files.c:140
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../plugins/caja/bastile-tool-files.c:141
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/caja/bastile-tool-files.c:318
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Ty zaznačyŭ %d fajł "
+msgstr[1] "Ty zaznačyŭ %d fajły "
+msgstr[2] "Ty zaznačyŭ %d fajłaŭ "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../plugins/caja/bastile-tool-files.c:323
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "i %d kataloh"
+msgstr[1] "i %d katalohi"
+msgstr[2] "i %d katalohaŭ"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../plugins/caja/bastile-tool-files.c:328
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#. should never be called for just one file
+#: ../plugins/caja/bastile-tool-files.c:337
+#, c-format
+msgid "You have selected %d files"
+msgstr "Ty zaznačyŭ %d fajłaŭ"
+
+#: ../plugins/caja/bastile-tool-files.c:342
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Ty zaznačyŭ %d kataloh"
+msgstr[1] "Ty zaznačyŭ %d katalohi"
+msgstr[2] "Ty zaznačyŭ %d katalohaŭ"
+
+#: ../plugins/caja/bastile-tool-files.c:811
+msgid "Preparing..."
+msgstr "Padrychtoŭka..."
+
+#: ../plugins/caja/bastile-tool-files.c:820
+#: ../plugins/caja/bastile-tool-files.c:843
+msgid "Couldn't list files"
+msgstr "Niemahčyma pakazać śpis fajłaŭ"
+
+#: ../src/main.c:61 ../src/bastile-key-manager.c:861
+msgid "Encryption Key Manager"
+msgstr "Kiraŭnik klučoŭ šyfravańnia"
+
+#: ../src/bastile-add-subkey.c:134
+msgid "Couldn't add subkey"
+msgstr "Niemahčyma dadać padkluč"
+
+#: ../src/bastile-add-subkey.c:154
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Dadaj padkluč da %s"
+
+#: ../src/bastile-add-subkey.c:171 ../src/bastile-pgp-generate.c:44
+msgid "DSA (sign only)"
+msgstr "DSA (tolki podpis)"
+
+#: ../src/bastile-add-subkey.c:179
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (tolki šyfravańnie)"
+
+#: ../src/bastile-add-subkey.c:185 ../src/bastile-pgp-generate.c:45
+msgid "RSA (sign only)"
+msgstr "RSA (tolki podpis)"
+
+#: ../src/bastile-add-subkey.c:191
+msgid "RSA (encrypt only)"
+msgstr "RSA (tolki šyfravańnie)"
+
+#: ../src/bastile-add-subkey.glade.h:1
+msgid "Expiration Date:"
+msgstr "Data zakančeńnia terminu dziejańnia:"
+
+#: ../src/bastile-add-subkey.glade.h:2
+msgid "Generate a new subkey"
+msgstr "Zhieneruj novy padkluč"
+
+#: ../src/bastile-add-subkey.glade.h:3
+msgid "If key never expires"
+msgstr "Kali kluč nikoli nie zakančvaje termin dziejańnia"
+
+#: ../src/bastile-add-subkey.glade.h:4
+msgid "Key _Length:"
+msgstr "_Daŭžynia kluča:"
+
+#: ../src/bastile-add-subkey.glade.h:5
+msgid "Key _Type:"
+msgstr "_Typ kluča:"
+
+#: ../src/bastile-add-subkey.glade.h:6
+msgid "Length of Key"
+msgstr "Daŭžynia kluča"
+
+#: ../src/bastile-add-subkey.glade.h:7
+msgid "Never E_xpires"
+msgstr "Nikoli nie _kančajecca termin"
+
+#: ../src/bastile-add-uid.c:82
+msgid "Couldn't add user id"
+msgstr "Niemahčyma dadać id karystalnika"
+
+#: ../src/bastile-add-uid.c:104
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Dadaj ID karystalnika da %s"
+
+#: ../src/bastile-add-uid.glade.h:1
+msgid "Add User ID"
+msgstr "Dadaj ID karystalnika"
+
+#: ../src/bastile-add-uid.glade.h:2
+msgid "Create the new user ID"
+msgstr "Stvary novy ID karystalnika"
+
+#: ../src/bastile-add-uid.glade.h:3 ../src/bastile-pgp-generate.glade.h:8
+msgid "Full _Name:"
+msgstr "Poŭnaja _nazva:"
+
+#: ../src/bastile-add-uid.glade.h:4
+msgid "Key Co_mment:"
+msgstr "_Kamentar da kluča:"
+
+#: ../src/bastile-add-uid.glade.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Musić być jak mienš 5 znakaŭ u daŭžyniu"
+
+#: ../src/bastile-add-uid.glade.h:6
+msgid "Optional comment describing key"
+msgstr "Nieabaviazkovy kamentar, jaki apisvaje kluč"
+
+#: ../src/bastile-add-uid.glade.h:7
+msgid "Optional email address"
+msgstr "Nieabaviazkovy adras e-mail"
+
+#: ../src/bastile-add-uid.glade.h:8 ../src/bastile-pgp-generate.glade.h:14
+msgid "_Email Address:"
+msgstr "Adras _e-mail:"
+
+#: ../src/bastile-change-passphrase.glade.h:1
+msgid "Change Passphrase"
+msgstr "Źmiani parol"
+
+#: ../src/bastile-change-passphrase.glade.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_Paćvierdź parol:"
+
+#: ../src/bastile-change-passphrase.glade.h:3
+msgid "Confirm new passphrase"
+msgstr "Paćvierdź novy parol"
+
+#: ../src/bastile-change-passphrase.glade.h:5
+msgid "New _Passphrase:"
+msgstr "Novy _parol:"
+
+#: ../src/bastile-delete.c:40
+#, c-format
+msgid ""
+"%s is a private key. Make sure you have a backup. Do you still want to "
+"delete it?"
+msgstr ""
+"%s źjaŭlajecca pryvatnym klučom. Pravier, ci maješ rezervovuju kopiju. Ty "
+"jašče chočaš vydalić jaho?"
+
+#: ../src/bastile-delete.c:74
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Ty sapraŭdy chočaš nazaŭždy vydalić %s?"
+
+#: ../src/bastile-delete.c:80
+#, c-format
+msgid "Are you sure you want to permanently delete %d key?"
+msgid_plural "Are you sure you want to permanently delete %d keys?"
+msgstr[0] "Ty sapraŭdy chočaš nazaŭždy vydalić %d kluč?"
+msgstr[1] "Ty sapraŭdy chočaš nazaŭždy vydalić %d klučy?"
+msgstr[2] "Ty sapraŭdy chočaš nazaŭždy vydalić %d klučoŭ?"
+
+#: ../src/bastile-delete.c:124
+msgid "Couldn't delete key"
+msgstr "Niemahčyma vydalić kluč"
+
+#: ../src/bastile-delete.c:139
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Ty sapraŭdy chočaš nazaŭždy vydalić padkluč %d z %s?"
+
+#: ../src/bastile-delete.c:162
+msgid "Couldn't delete subkey"
+msgstr "Niemahčyma vydalić padkluč"
+
+#: ../src/bastile-delete.c:181
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Ty sapraŭdy chočaš nazaŭždy vydalić ID karystalnika \"%s\"?"
+
+#: ../src/bastile-delete.c:206
+msgid "Couldn't delete user id"
+msgstr "Niemahčyma vydalić id karystalnika"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Kiruj parolami j klučami šyfravańnia"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.glade.h:7
+msgid "Passwords and Encryption Keys"
+msgstr "Paroli j klučy šyfravańnia"
+
+#: ../src/bastile-expires.c:67
+msgid "Couldn't change expiry date"
+msgstr "Niemahčyma źmianić datu zakančeńnia terminu"
+
+#: ../src/bastile-expires.c:131
+#, c-format
+msgid "Expiry for Subkey %d of %s"
+msgstr "Zakančeńnie terminu dla padkluča %d z %s"
+
+#: ../src/bastile-expires.c:133
+#, c-format
+msgid "Expiry for %s"
+msgstr "Zakančeńnie terminu dla %s"
+
+#: ../src/bastile-expires.glade.h:1
+msgid "C_hange"
+msgstr "_Źmiani"
+
+#: ../src/bastile-expires.glade.h:2 ../src/bastile-revoke.glade.h:4
+msgid "Revoke key"
+msgstr "Anuluj kluč"
+
+#: ../src/bastile-expires.glade.h:3
+msgid "_Never expires"
+msgstr "_Nikoli nie kančajecca termin"
+
+#: ../src/bastile-generate-select.c:143
+msgid "Used to encrypt email and files"
+msgstr "Dla šyfravańnia e-maiłaŭ i fajłaŭ"
+
+#: ../src/bastile-generate-select.c:146
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Dla dostupu da inšych kamputaraŭ (naprykład, praz terminał)"
+
+#: ../src/bastile-generate-select.glade.h:1
+msgid "<b>_Select the kind of key you wish to create:</b>"
+msgstr "<b>_Abiary typ kluča, jaki ty chočaš stvaryć:</b>"
+
+#: ../src/bastile-generate-select.glade.h:2
+msgid "C_ontinue"
+msgstr "P_raciahvaj"
+
+#: ../src/bastile-generate-select.glade.h:3
+msgid "Create a New Key"
+msgstr "Stvary novy kluč"
+
+#: ../src/bastile-gkeyring-item.c:248
+msgid "Web Password"
+msgstr "Web parol"
+
+#: ../src/bastile-gkeyring-item.c:250
+msgid "Network Password"
+msgstr "Sietkavy parol"
+
+#: ../src/bastile-gkeyring-item.c:252
+#: ../src/bastile-gkeyring-item-properties.c:116
+#: ../src/bastile-gkeyring-source.c:525
+msgid "Password"
+msgstr "Parol"
+
+#: ../src/bastile-gkeyring-item-properties.c:90
+msgid "Access a network share or resource"
+msgstr "Atrymaj dostup da sietkavaha resursu"
+
+#: ../src/bastile-gkeyring-item-properties.c:94
+msgid "Access a website"
+msgstr "Atrymaj dostup da web-sajtu"
+
+#: ../src/bastile-gkeyring-item-properties.c:98
+msgid "Unlocks a PGP key"
+msgstr "Razblakuje kluč PGP"
+
+#: ../src/bastile-gkeyring-item-properties.c:101
+msgid "Unlocks a Secure Shell key"
+msgstr "Razblakuje kluč SSH"
+
+#: ../src/bastile-gkeyring-item-properties.c:104
+msgid "Saved password or login"
+msgstr "Zapisany parol ci ŭvachod"
+
+#: ../src/bastile-gkeyring-item-properties.c:116
+msgid "Network Credentials"
+msgstr "Sietkavyja paśviedčańni"
+
+#: ../src/bastile-gkeyring-item-properties.c:177
+msgid "Couldn't change password."
+msgstr "Niemahčyma źmianić parol."
+
+#: ../src/bastile-gkeyring-item-properties.c:284
+msgid "Couldn't set description."
+msgstr "Niemahčyma akreślić apisańnie."
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Parol:</b>"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:2
+#: ../src/bastile-pgp-public-key-properties.glade.h:9
+#: ../src/bastile-ssh-key-properties.glade.h:9
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Techničnyja detali:</b>"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:3
+#: ../src/bastile-pgp-private-key-properties.glade.h:22
+#: ../src/bastile-pgp-public-key-properties.glade.h:19
+#: ../src/bastile-ssh-key-properties.glade.h:16
+msgid "Details"
+msgstr "Detali"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:4
+#: ../src/bastile-ssh-key-properties.glade.h:18
+msgid "Key"
+msgstr "Kluč"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:5
+#: ../src/bastile-pgp-private-key-properties.glade.h:29
+#: ../src/bastile-pgp-public-key-properties.glade.h:28
+#: ../src/bastile-ssh-key-properties.glade.h:19
+msgid "Key Properties"
+msgstr "Ułaścivaści kluča"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:6
+msgid "Login:"
+msgstr "Login:"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:7
+msgid "Server:"
+msgstr "Server:"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:8
+msgid "Show pass_word"
+msgstr "Pakažy _parol"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:9
+#: ../src/bastile-pgp-private-key-properties.glade.h:41
+#: ../src/bastile-pgp-public-key-properties.glade.h:35
+msgid "Type:"
+msgstr "Typ:"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:10
+msgid "Use:"
+msgstr "Užyćcio:"
+
+#: ../src/bastile-gkeyring-item-properties.glade.h:11
+#: ../src/bastile-revoke.glade.h:5
+msgid "_Description:"
+msgstr "_Apisańnie:"
+
+#: ../src/bastile-gkeyring-operation.c:206
+msgid "Access to the key ring was denied"
+msgstr "Dostup da źviazki klučoŭ zabaronieny"
+
+#: ../src/bastile-gkeyring-operation.c:209
+msgid "The mate-keyring daemon is not running"
+msgstr "Deman mate-keyring nie ŭruchomleny"
+
+#: ../src/bastile-gkeyring-operation.c:212
+msgid "The key ring has already been unlocked"
+msgstr "Źviezka klučoŭ užo razblakavanaja"
+
+#: ../src/bastile-gkeyring-operation.c:215
+msgid "No such key ring exists"
+msgstr "Takoj źviazki klučoŭ nie isnuje"
+
+#: ../src/bastile-gkeyring-operation.c:218
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Niemahčyma źviazacca z demanam źviazak klučoŭ"
+
+#: ../src/bastile-gkeyring-operation.c:221
+msgid "The item already exists"
+msgstr "Element užo isnuje"
+
+#: ../src/bastile-gkeyring-operation.c:227
+msgid "Internal error accessing mate-keyring"
+msgstr "Unutranaja pamyłka dostupu da mate-keyring"
+
+#: ../src/bastile-gkeyring-operation.c:286
+msgid "Saving item..."
+msgstr "Zapis elementu..."
+
+#: ../src/bastile-gkeyring-source.c:358
+msgid "Retrieving key"
+msgstr "Atrymańnie kluča"
+
+#. Start listing of ids
+#: ../src/bastile-gkeyring-source.c:372
+msgid "Listing passwords"
+msgstr "Atrymańnie śpisu parolaŭ"
+
+#: ../src/bastile-key-manager.c:435
+msgid "Couldn't read file"
+msgstr "Niemahčyma pračytać fajł"
+
+#: ../src/bastile-key-manager.c:478
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Niezrazumieły typ kluča albo niapravilny farmat źviestak"
+
+#: ../src/bastile-key-manager.c:552 ../src/bastile-keyserver-results.c:218
+msgid "Couldn't retrieve data from key server"
+msgstr "Niemahčyma atrymać źviestki z servera klučoŭ"
+
+#: ../src/bastile-key-manager.c:568 ../src/bastile-keyserver-results.c:234
+#, c-format
+msgid "Copied %d key"
+msgid_plural "Copied %d keys"
+msgstr[0] "Skapijavany %d kluč"
+msgstr[1] "Skapijavanyja %d klučy"
+msgstr[2] "Skapijavanyja %d klučoŭ"
+
+#: ../src/bastile-key-manager.c:592 ../src/bastile-keyserver-results.c:194
+#: ../src/bastile-keyserver-results.c:259
+msgid "Retrieving keys"
+msgstr "Atrymańnie klučoŭ"
+
+#: ../src/bastile-key-manager.c:618
+msgid "Couldn't export key"
+msgstr "Niemahčyma ekspartavać kluč"
+
+#: ../src/bastile-key-manager.c:638
+msgid "Export public key"
+msgstr "Ekspartuj publičny kluč"
+
+#: ../src/bastile-key-manager.c:648 ../src/bastile-key-properties.c:1038
+#: ../src/bastile-ssh-key-properties.c:240
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Niemahčyma ekspartavać kluč u \"%s\""
+
+#: ../src/bastile-key-manager.c:660
+msgid "Exporting keys"
+msgstr "Ekspartavańnie klučoŭ"
+
+#: ../src/bastile-key-manager.c:679
+msgid "Back up Key Rings to Archive"
+msgstr "Stvary rezervovy archiŭ dla źviazak klučoŭ"
+
+#: ../src/bastile-key-manager.c:833
+msgid "Contributions:"
+msgstr "Spryjańnie:"
+
+#: ../src/bastile-key-manager.c:859
+msgid "bastile"
+msgstr "bastile"
+
+#: ../src/bastile-key-manager.c:942 ../src/bastile-keyserver-results.c:300
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Zaznačany %d kluč"
+msgstr[1] "Zaznačanyja %d klučy"
+msgstr[2] "Zaznačanyja %d klučoŭ"
+
+#. Top menu items
+#: ../src/bastile-key-manager.c:1179 ../src/bastile-keyserver-results.c:379
+msgid "_Key"
+msgstr "_Kluč"
+
+#: ../src/bastile-key-manager.c:1180 ../src/bastile-keyserver-results.c:380
+msgid "_Edit"
+msgstr "_Redahuj"
+
+#: ../src/bastile-key-manager.c:1181
+msgid "_View"
+msgstr "_Vyhlad"
+
+#. Key Actions
+#: ../src/bastile-key-manager.c:1185
+msgid "_Create New Key..."
+msgstr "_Stvary novy kluč..."
+
+#: ../src/bastile-key-manager.c:1186
+msgid "Create a new personal key"
+msgstr "Stvary novy persanalny kluč"
+
+#: ../src/bastile-key-manager.c:1187
+msgid "_Import..."
+msgstr "_Impartuj..."
+
+#: ../src/bastile-key-manager.c:1188
+msgid "Import keys into your key ring from a file"
+msgstr "Impartuj klučy ŭ svaju źviazku klučoŭ z fajłu"
+
+#: ../src/bastile-key-manager.c:1189
+msgid "_Back up Key Rings..."
+msgstr "_Rezervuj źviazki klučoŭ..."
+
+#: ../src/bastile-key-manager.c:1190
+msgid "Back up all keys"
+msgstr "Rezervuj usie klučy"
+
+#: ../src/bastile-key-manager.c:1191
+msgid "Paste _Keys"
+msgstr "Uklej _klučy"
+
+#: ../src/bastile-key-manager.c:1192
+msgid "Import keys from the clipboard"
+msgstr "Impartuj klučy z buferu"
+
+#: ../src/bastile-key-manager.c:1194
+msgid "_Quit"
+msgstr "_Vyjdzi"
+
+#: ../src/bastile-key-manager.c:1195
+msgid "Close this program"
+msgstr "Začyni hetuju prahramu"
+
+#: ../src/bastile-key-manager.c:1196
+msgid "Prefere_nces"
+msgstr "_Nałady"
+
+#: ../src/bastile-key-manager.c:1197
+msgid "Change preferences for this program"
+msgstr "Źmiani nałady hetaj prahramy"
+
+#: ../src/bastile-key-manager.c:1199
+msgid "About this program"
+msgstr "Ab hetaj prahramie"
+
+#: ../src/bastile-key-manager.c:1201
+msgid "_Remote"
+msgstr "_Addaleny"
+
+#: ../src/bastile-key-manager.c:1203 ../src/bastile-keyserver-results.c:385
+msgid "_Contents"
+msgstr "_Źmieściva"
+
+#: ../src/bastile-key-manager.c:1204 ../src/bastile-keyserver-results.c:386
+msgid "Show Bastile help"
+msgstr "Pakažy dapamohu Bastile"
+
+#: ../src/bastile-key-manager.c:1208
+msgid "T_ypes"
+msgstr "T_ypy"
+
+#: ../src/bastile-key-manager.c:1209
+msgid "Show type column"
+msgstr "Pakažy kalonu typaŭ"
+
+#: ../src/bastile-key-manager.c:1210
+msgid "_Expiry"
+msgstr "_Termin"
+
+#: ../src/bastile-key-manager.c:1211
+msgid "Show expiry column"
+msgstr "Pakažy kalonu terminaŭ zakančeńnia dziejańnia"
+
+#: ../src/bastile-key-manager.c:1212
+msgid "_Trust"
+msgstr "_Davier"
+
+#: ../src/bastile-key-manager.c:1213
+msgid "Show owner trust column"
+msgstr "Pakažy kalonu davieru da ŭładalnika"
+
+#: ../src/bastile-key-manager.c:1214
+msgid "_Validity"
+msgstr "_Sapraŭdnaść"
+
+#: ../src/bastile-key-manager.c:1215
+msgid "Show validity column"
+msgstr "Pakažy kalonu sapraŭdnaści"
+
+#: ../src/bastile-key-manager.c:1219 ../src/bastile-keyserver-results.c:397
+msgid "P_roperties"
+msgstr "_Ułaścivaści"
+
+#: ../src/bastile-key-manager.c:1220 ../src/bastile-keyserver-results.c:398
+msgid "Show key properties"
+msgstr "Pakažy ŭłaścivaści kluča"
+
+#: ../src/bastile-key-manager.c:1221
+msgid "E_xport Public Key..."
+msgstr "_Ekspartuj publičny kluč..."
+
+#: ../src/bastile-key-manager.c:1222
+msgid "Export public part of key to a file"
+msgstr "Ekspartuj publičnuju častku kluča ŭ fajł"
+
+#: ../src/bastile-key-manager.c:1223
+msgid "_Copy Public Key"
+msgstr "_Skapijuj publičny kluč"
+
+#: ../src/bastile-key-manager.c:1224
+msgid "Copy public part of selected keys to the clipboard"
+msgstr "Skapijuj publičnuju častku zaznačanych klučoŭ u bufer"
+
+#: ../src/bastile-key-manager.c:1225
+msgid "_Delete Key"
+msgstr "_Vydal kluč"
+
+#: ../src/bastile-key-manager.c:1226
+msgid "Delete selected keys"
+msgstr "Vydal zaznačanyja klučy"
+
+#: ../src/bastile-key-manager.c:1230
+msgid "_Sign..."
+msgstr "_Padpišy..."
+
+#: ../src/bastile-key-manager.c:1231
+msgid "Sign public key"
+msgstr "Padpišy publičny kluč"
+
+#: ../src/bastile-key-manager.c:1235
+msgid "Set Up Computer for _Secure Shell..."
+msgstr "Kanfihuruj kamputar dla _SSH..."
+
+#: ../src/bastile-key-manager.c:1236
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"Dašli publičny kluč SSH na inšy kamputar i dazvol uvachod z dapamohaj hetaha "
+"kluča."
+
+#: ../src/bastile-key-manager.c:1240 ../src/bastile-keyserver-results.c:406
+msgid "_Find Remote Keys..."
+msgstr "_Šukaj addalenyja klučy..."
+
+#: ../src/bastile-key-manager.c:1241 ../src/bastile-keyserver-results.c:407
+msgid "Search for keys on a key server"
+msgstr "Šukaj klučy na servery klučoŭ"
+
+#: ../src/bastile-key-manager.c:1242
+msgid "_Sync and Publish Keys..."
+msgstr "_Synchranizuj i apublikuj klučy..."
+
+#: ../src/bastile-key-manager.c:1243
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Apublikuj i/ci synchranizuj svaje klučy sa źmieščanymi ŭ internecie."
+
+#: ../src/bastile-key-manager.glade.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Opcyi pieršaha razu:</b></big>"
+
+#: ../src/bastile-key-manager.glade.h:2
+msgid "Filter:"
+msgstr "Filter:"
+
+#: ../src/bastile-key-manager.glade.h:3
+msgid "Generate a new key of your own: "
+msgstr "Zhieneruj svoj novy kluč: "
+
+#: ../src/bastile-key-manager.glade.h:4
+msgid "Import existing keys from a file:"
+msgstr "Impartuj najaŭnyja klučy z fajłu:"
+
+#: ../src/bastile-key-manager.glade.h:5
+msgid "My _Personal Keys"
+msgstr "Maje _persanalnyja klučy"
+
+#: ../src/bastile-key-manager.glade.h:6
+msgid "Other _Collected Keys"
+msgstr "Inšyja _sabranyja klučy"
+
+#: ../src/bastile-key-manager.glade.h:8
+msgid "To get started with encryption you will need keys."
+msgstr "Kab šyfravać, treba mieć klučy."
+
+#: ../src/bastile-key-manager.glade.h:9
+#: ../src/bastile-keyserver-results.c:395
+msgid "_Import"
+msgstr "_Impartuj"
+
+#: ../src/bastile-key-manager.glade.h:10
+msgid "_Passwords"
+msgstr "_Paroli"
+
+#: ../src/bastile-key-manager.glade.h:11
+msgid "_Trusted Keys"
+msgstr "_Davieranyja klučy"
+
+#: ../src/bastile-key-manager-store.c:311
+#: ../src/bastile-key-properties.c:1306
+msgid "Expired"
+msgstr "Zakončyŭsia termin dziejańnia"
+
+#: ../src/bastile-key-manager-store.c:364
+msgid "User ID"
+msgstr "ID karystalnika"
+
+#: ../src/bastile-key-manager-store.c:697
+msgid "Couldn't retrieve key data"
+msgstr "Niemahčyma atrymać źviestki ab klučy"
+
+#: ../src/bastile-key-manager-store.c:729
+msgid "Couldn't write key to file"
+msgstr "Niemahčyma zapisać kluč u fajł"
+
+#: ../src/bastile-key-manager-store.c:972
+msgid "Validity"
+msgstr "Sapraŭdnaść"
+
+#. Trust column
+#: ../src/bastile-key-manager-store.c:979
+#: ../src/bastile-pgp-public-key-properties.glade.h:34
+msgid "Trust"
+msgstr "Davier"
+
+#. The key type column
+#: ../src/bastile-key-manager-store.c:985
+#: ../src/bastile-key-properties.c:1284
+msgid "Type"
+msgstr "Typ"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:991
+msgid "Expiration Date"
+msgstr "Data zakančeńnia terminu"
+
+#: ../src/bastile-key-properties.c:208
+msgid "Couldn't change primary user ID"
+msgstr "Niemahčyma źmianić hałoŭny ID karystalnika"
+
+#: ../src/bastile-key-properties.c:304 ../src/bastile-key-properties.c:1436
+msgid "[Unknown]"
+msgstr "[Nieviadomy]"
+
+#: ../src/bastile-key-properties.c:402 ../src/bastile-key-properties.c:1722
+msgid "Name/Email"
+msgstr "Nazva/E-mail"
+
+#: ../src/bastile-key-properties.c:407
+msgid "Signature ID"
+msgstr "ID podpisu"
+
+#: ../src/bastile-key-properties.c:558
+msgid "Couldn't change primary photo"
+msgstr "Niemahčyma źmianić hałoŭnuju fatahrafiju"
+
+#: ../src/bastile-key-properties.c:806
+msgid "(unknown)"
+msgstr "(nieviadomy)"
+
+#: ../src/bastile-key-properties.c:809
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Data zakančeńnia terminu kluča: %s"
+
+#: ../src/bastile-key-properties.c:992 ../src/bastile-key-properties.c:1386
+#: ../src/bastile-key-properties.c:1405
+msgid "Unable to change trust"
+msgstr "Niemahčyma źmianić davier"
+
+#: ../src/bastile-key-properties.c:1013
+#: ../src/bastile-ssh-key-properties.c:215
+msgid "Export Complete Key"
+msgstr "Ekspartuj uvieś kluč"
+
+#: ../src/bastile-key-properties.c:1281
+msgid "ID"
+msgstr "ID"
+
+#: ../src/bastile-key-properties.c:1287
+msgid "Created"
+msgstr "Stvorany"
+
+#: ../src/bastile-key-properties.c:1290
+msgid "Expires"
+msgstr "Kaniec terminu dziejańnia"
+
+#: ../src/bastile-key-properties.c:1293
+msgid "Status"
+msgstr "Status"
+
+#: ../src/bastile-key-properties.c:1296
+msgid "Strength"
+msgstr "Siła"
+
+#: ../src/bastile-key-properties.c:1305 ../src/bastile-key-properties.c:1306
+msgid "Good"
+msgstr "Dobraja"
+
+#: ../src/bastile-keyserver-results.c:107
+msgid "Couldn't import keys into key ring"
+msgstr "Niemahčyma zimpartavać klučy ŭ źviazku klučoŭ"
+
+#: ../src/bastile-keyserver-results.c:128
+msgid "Importing keys from key servers"
+msgstr "Impartavańnia klučoŭ z serveraŭ klučoŭ"
+
+#: ../src/bastile-keyserver-results.c:147
+#: ../src/bastile-keyserver-results.c:181
+#, c-format
+msgid "Couldn't write keys to file: %s"
+msgstr "Niemahčyma zapisać klučy ŭ fajł: %s"
+
+#: ../src/bastile-keyserver-results.c:170
+msgid "Save Remote Keys"
+msgstr "Zapišy addalenyja klučy"
+
+#: ../src/bastile-keyserver-results.c:353
+msgid "No matching keys found"
+msgstr "Adpaviednyja klučy nia znojdzienyja"
+
+#: ../src/bastile-keyserver-results.c:383
+msgid "_Close"
+msgstr "_Začyni"
+
+#: ../src/bastile-keyserver-results.c:384
+msgid "Close this window"
+msgstr "Začyni hetaje vakno"
+
+#: ../src/bastile-keyserver-results.c:388
+msgid "_Expand All"
+msgstr "_Razharni ŭsio"
+
+#: ../src/bastile-keyserver-results.c:389
+msgid "Expand all listings"
+msgstr "Razharni ŭsie śpisy"
+
+#: ../src/bastile-keyserver-results.c:390
+msgid "_Collapse All"
+msgstr "_Zharni ŭsio"
+
+#: ../src/bastile-keyserver-results.c:391
+msgid "Collapse all listings"
+msgstr "Zharni ŭsie śpisy"
+
+#: ../src/bastile-keyserver-results.c:396
+msgid "Import selected keys to local key ring"
+msgstr "Impartuj zaznačanyja klučy ŭ lakalnuju źviazku klučoŭ"
+
+#: ../src/bastile-keyserver-results.c:399
+msgid "Save Key As..."
+msgstr "Zapišy kluč jak..."
+
+#: ../src/bastile-keyserver-results.c:400
+msgid "Save selected keys as a file"
+msgstr "Zapišy zaznačanyja klučy ŭ fajł"
+
+#: ../src/bastile-keyserver-results.c:401
+msgid "_Copy Key"
+msgstr "_Skapijuj kluč"
+
+#: ../src/bastile-keyserver-results.c:402
+msgid "Copy selected keys to the clipboard"
+msgstr "Skapijuj zaznačanyja klučy ŭ bufer"
+
+#: ../src/bastile-keyserver-results.c:464
+msgid "Remote Keys"
+msgstr "Addalenyja klučy"
+
+#: ../src/bastile-keyserver-results.c:466
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Addalenyja klučy, jakija ŭtrymlivajuć \"%s\""
+
+#: ../src/bastile-keyserver-results.glade.h:1
+msgid "Remote Encryption Keys"
+msgstr "Addalenyja klučy šyfravańnia"
+
+#: ../src/bastile-keyserver-search.glade.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Servery klučoŭ:</b>"
+
+#: ../src/bastile-keyserver-search.glade.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Supolnyja klučy kala mianie:</b>"
+
+#: ../src/bastile-keyserver-search.glade.h:3
+msgid "Find Remote Keys"
+msgstr "Šukaj addalenyja klučy"
+
+#: ../src/bastile-keyserver-search.glade.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"Šukaje klučy inšych ludziej u internecie. Paśla hetyja klučy možna "
+"impartavać u tvaju lakalnuju źviazku klučoŭ."
+
+#: ../src/bastile-keyserver-search.glade.h:5
+msgid "Where to search:"
+msgstr "Dzie šukać:"
+
+#: ../src/bastile-keyserver-search.glade.h:6
+msgid "_Search"
+msgstr "_Šukaj"
+
+#: ../src/bastile-keyserver-search.glade.h:7
+msgid "_Search for keys containing: "
+msgstr "_Šukaj klučy, jakija ŭtrymlivajuć: "
+
+#: ../src/bastile-keyserver-sync.c:44
+#, c-format
+msgid "Couldn't publish keys to server: %s"
+msgstr "Niemahčyma apublikavać klučy na servery: %s"
+
+#: ../src/bastile-keyserver-sync.c:59
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Niemahčyma atrymać klučy z servera: %s"
+
+#: ../src/bastile-keyserver-sync.c:147
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d kluč abrany, kab synchranizavać</b>"
+msgstr[1] "<b>%d klučy abranyja, kab synchranizavać</b>"
+msgstr[2] "<b>%d klučoŭ abranyja, kab synchranizavać</b>"
+
+#: ../src/bastile-keyserver-sync.c:214
+msgid "Synchronizing keys"
+msgstr "Synchranizacyja klučoŭ"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:246
+msgid "Synchronizing keys..."
+msgstr "Synchranizacyja klučoŭ..."
+
+#: ../src/bastile-keyserver-sync.glade.h:1
+msgid "<b>X keys are selected for synchronizing</b>"
+msgstr "<b>Klučy X abranyja, kab synchranizavać</b>"
+
+#: ../src/bastile-keyserver-sync.glade.h:2
+msgid "Sync Keys"
+msgstr "Synchranizuj klučy"
+
+#: ../src/bastile-keyserver-sync.glade.h:3
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"Publikuje klučy z tvajoj lakalnaj źviazki klučoŭ, kab imi mahli karystacca "
+"inšyja ludzi. Taksama ty budzieš atrymvać źmieny, zroblenyja inšymi paśla "
+"taho, jak ty atrymaŭ ichnyja klučy."
+
+#: ../src/bastile-keyserver-sync.glade.h:4
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"Atrymaje źmieny, zroblenyja inšymi paśla taho, jak ty atrymaŭ ichnyja klučy. "
+"Server klučoŭ dla publikavańnia nie abrany, tamu tvaje klučy nia buduć "
+"dastupnymi dla inšych."
+
+#: ../src/bastile-keyserver-sync.glade.h:5
+msgid "_Key Servers"
+msgstr "_Servery klučoŭ"
+
+#: ../src/bastile-keyserver-sync.glade.h:6
+msgid "_Sync"
+msgstr "_Synchranizuj"
+
+#: ../src/bastile-multi-encrypt.glade.h:1
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Ty zaznačyŭ niekalki fajłaŭ ci katalohaŭ</b>"
+
+#: ../src/bastile-multi-encrypt.glade.h:2
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"Fajły zachoŭvajucca addalena, a tamu kožny fajł budzie zašyfravany paasobku."
+
+#: ../src/bastile-multi-encrypt.glade.h:3
+msgid "Encrypt Multiple Files"
+msgstr "Zašyfruj niekalki fajłaŭ"
+
+#: ../src/bastile-multi-encrypt.glade.h:4
+msgid "Encrypt each file separately"
+msgstr "Zašyfruj kožny fajł paasobku"
+
+#: ../src/bastile-multi-encrypt.glade.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Zašyfruj, skłaŭšy ŭ adzin pakunak"
+
+#: ../src/bastile-multi-encrypt.glade.h:6
+msgid "Package Name:"
+msgstr "Nazva pakunka:"
+
+#: ../src/bastile-multi-encrypt.glade.h:7
+msgid "Packaging:"
+msgstr "Pakavańnie:"
+
+#: ../src/bastile-multi-encrypt.glade.h:8
+msgid "encrypted-package"
+msgstr "encrypted-package"
+
+#: ../src/bastile-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Rasšyfruj fajł"
+
+#: ../src/bastile-pgp-generate.c:43
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../src/bastile-pgp-generate.c:54
+msgid "Couldn't generate PGP key"
+msgstr "Niemahčyma zhieneravać kluč PGP"
+
+#: ../src/bastile-pgp-generate.c:138
+msgid "Passphrase for New PGP Key"
+msgstr "Parol dla novaha kluča PGP"
+
+#: ../src/bastile-pgp-generate.c:139
+msgid "Enter the passphrase for your new key twice."
+msgstr "Uviadzi dvojčy parol dla novaha kluča."
+
+#: ../src/bastile-pgp-generate.c:148
+msgid "Couldn't generate key"
+msgstr "Niemahčyma zhieneravać kluč"
+
+#: ../src/bastile-pgp-generate.c:150
+msgid "Generating key"
+msgstr "Hieneracyja kluča"
+
+#: ../src/bastile-pgp-generate.glade.h:1
+#: ../src/bastile-ssh-generate.glade.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Pašyranyja opcyi kluča</b>"
+
+#: ../src/bastile-pgp-generate.glade.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+"Kluč PGP dazvalaje tabie šyfravać e-maiły ci fajły dla adpraŭki inšym "
+"ludziam."
+
+#: ../src/bastile-pgp-generate.glade.h:3
+msgid "Algorithms here"
+msgstr "Alharytmy"
+
+#: ../src/bastile-pgp-generate.glade.h:4
+msgid "C_reate"
+msgstr "_Stvary"
+
+#: ../src/bastile-pgp-generate.glade.h:5
+msgid "Create a PGP Key"
+msgstr "Stvary kluč PGP"
+
+#: ../src/bastile-pgp-generate.glade.h:6
+msgid "E_xpiration Date:"
+msgstr "_Data zakančeńnia terminu:"
+
+#: ../src/bastile-pgp-generate.glade.h:7
+#: ../src/bastile-ssh-generate.glade.h:7
+msgid "Encryption _Type:"
+msgstr "_Typ šyfravańnia:"
+
+#: ../src/bastile-pgp-generate.glade.h:9
+msgid "Generate a new key"
+msgstr "Zhieneruj novy kluč"
+
+#: ../src/bastile-pgp-generate.glade.h:10
+#: ../src/bastile-ssh-generate.glade.h:10
+msgid "Key _Strength (bits):"
+msgstr "_Siła kluča (bitaŭ):"
+
+#: ../src/bastile-pgp-generate.glade.h:11
+msgid "Ne_ver Expires"
+msgstr "_Nikoli nie zakančvajecca"
+
+#: ../src/bastile-pgp-generate.glade.h:12
+msgid "New PGP Key"
+msgstr "Novy kluč PGP"
+
+#: ../src/bastile-pgp-generate.glade.h:13
+msgid "_Comment:"
+msgstr "_Kamentar:"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Dziejańni</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:2
+#: ../src/bastile-pgp-public-key-properties.glade.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Kamentar:</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Daty</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:4
+#: ../src/bastile-pgp-public-key-properties.glade.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>E-mail:</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Adbitak palcaŭ</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:6
+#: ../src/bastile-pgp-public-key-properties.glade.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>ID kluča:</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Nazvy klučoŭ i podpisy</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:8
+#: ../src/bastile-pgp-public-key-properties.glade.h:7
+#: ../src/bastile-ssh-key-properties.glade.h:7
+msgid "<b>Name:</b>"
+msgstr "<b>Nazva:</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:9
+#: ../src/bastile-pgp-public-key-properties.glade.h:8
+msgid "<b>Photo </b>"
+msgstr "<b>Fota</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:10
+msgid "<b>Technical Details</b>"
+msgstr "<b>Techničnyja detali</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:11
+#: ../src/bastile-pgp-public-key-properties.glade.h:10
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Hety kluč anulavany</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:12
+#: ../src/bastile-pgp-public-key-properties.glade.h:11
+msgid "<b>This key has expired</b>"
+msgstr "<b>Dla hetaha kluča zakončyŭsia termin dziejańnia</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:13
+#: ../src/bastile-pgp-public-key-properties.glade.h:12
+#: ../src/bastile-ssh-key-properties.glade.h:11
+msgid "<b>Type:</b>"
+msgstr "<b>Typ:</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:14
+#: ../src/bastile-pgp-public-key-properties.glade.h:13
+#: ../src/bastile-ssh-key-properties.glade.h:12
+msgid "<b>Use:</b>"
+msgstr "<b>Užyj:</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:15
+#: ../src/bastile-pgp-public-key-properties.glade.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Padklučy</b>"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:16
+msgid "Add"
+msgstr "Dadaj"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:17
+msgid "Add a photo to this key"
+msgstr "Dadaj fatahrafiju da hetaha kluča"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:18
+#: ../src/bastile-ssh-key-properties.glade.h:15
+msgid "Change _Passphrase"
+msgstr "Źmiani _parol"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:19
+#: ../src/bastile-pgp-public-key-properties.glade.h:18
+msgid "Created:"
+msgstr "Stvorany:"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "Rasšyfruj fajły j e-maiły, dasłanyja tabie."
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:21
+msgid "Delete"
+msgstr "Vydal"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:23
+msgid "Expire"
+msgstr "Kaniec terminu"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:24
+#: ../src/bastile-pgp-public-key-properties.glade.h:21
+msgid "Expires:"
+msgstr "Kaniec terminu:"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:25
+msgid "Export"
+msgstr "Ekspartuj"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:26
+msgid "Go to next photo"
+msgstr "Pierajdzi da nastupnaj fatahrafii"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:27
+msgid "Go to previous photo"
+msgstr "Pierajdzi da papiaredniaj fatahrafii"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:28
+#: ../src/bastile-pgp-public-key-properties.glade.h:27
+msgid "Key ID:"
+msgstr "ID kluča:"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:30
+msgid "Make this photo the primary photo"
+msgstr "Zrabi hetuju fatahrafiju hałoŭnaj"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:31
+msgid "Names and Signatures"
+msgstr "Nazvy j podpisy"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:32
+msgid "Override Owner _Trust:"
+msgstr "Zamiani _davier da ŭładalnika:"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:33
+#: ../src/bastile-pgp-public-key-properties.glade.h:29
+msgid "Owner"
+msgstr "Uładalnik"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:34
+msgid "Primary"
+msgstr "Hałoŭnaja"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:36
+msgid "Remove this photo from this key"
+msgstr "Vydal fatahrafiju z hetaha kluča"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:37
+msgid "Revoke"
+msgstr "Skasuj"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:39
+#: ../src/bastile-pgp-public-key-properties.glade.h:31
+msgid "Strength:"
+msgstr "Siła:"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:40
+#: ../src/bastile-pgp-public-key-properties.glade.h:32
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr "Uładalnik kluča skasavaŭ jaho. Bolš im nielha karystacca."
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:42
+msgid ""
+"Unknown\n"
+"Never\n"
+"Marginal\n"
+"Full\n"
+"Ultimate"
+msgstr ""
+"Nieviadomy\n"
+"Nikoli\n"
+"Pamiežny\n"
+"Poŭny\n"
+"Kančatkovy"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:47
+msgid "_Add Name"
+msgstr "_Dadaj nazvu"
+
+#: ../src/bastile-pgp-private-key-properties.glade.h:48
+msgid "_Export Complete Key:"
+msgstr "_Ekspartuj poŭny kluč:"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Daty:</b>"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:4
+#: ../src/bastile-ssh-key-properties.glade.h:4
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Adbitak palcaŭ:</b>"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Indykatar davieru:</b>"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Tvoj davier da hetaha kluča</b>"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Inšyja nazvy:</b>"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Ludzi, jakija padpisali hety kluč:</b>"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "Zašyfruj fajły j e-mail da ŭładalnika kluča "
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:23
+#, no-c-format
+msgid "I have checked that this key belongs to '%s'"
+msgstr "Ja pravieryŭ, što hety kluč naležyć \"%s\""
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:25
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys "
+msgstr "Ja daviaraju podpisam ad \"%s\" dla inšych klučoŭ "
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:26
+msgid ""
+"If you no longer trust this person's identity, <i>revoke</i> your signature:"
+msgstr ""
+"Kali bolš nie daviaraješ sapraŭdnaści hetaj asoby, <i>skasuj</i> svoj podpis:"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:33
+msgid "To indicate your trust of this key to others, <i>sign</i> this key:"
+msgstr ""
+"Kab paznačyć dla inšych, što ty daviaraješ hetamu kluču, <i>padpišy</i> hety "
+"kluč:"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:36
+msgid ""
+"Unknown\n"
+"Never\n"
+"Marginally\n"
+"Fully\n"
+"Ultimately"
+msgstr ""
+"Nieviadoma\n"
+"Nikoli\n"
+"Pamiežna\n"
+"Całkam\n"
+"Kančatkova"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:41
+msgid "You _Trust the Owner:"
+msgstr "Ty _daviaraješ uładalniku:"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Tvoj davier uručnuju akreśleny na kartcy <i>Detali</i>."
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "Pakazvaj _tolki podpisy ludziej, jakim ja daviaraju"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:44
+msgid "_Revoke Signature"
+msgstr "_Skasuj podpis"
+
+#: ../src/bastile-pgp-public-key-properties.glade.h:45
+msgid "_Sign this Key"
+msgstr "_Padpišy hety kluč"
+
+#: ../src/bastile-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Pravier podpis"
+
+#: ../src/bastile-photos.c:70
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Fatahrafija nadta vialikaja</b></big>\n"
+"Rekamendavany pamier fatahrafii dla tvajho kluča %d x %d pikselaŭ."
+
+#: ../src/bastile-photos.c:75
+msgid "_Don't Resize"
+msgstr "_Nie źmianiaj pamieraŭ"
+
+#: ../src/bastile-photos.c:76
+msgid "_Resize"
+msgstr "_Źmiani pamiery"
+
+#: ../src/bastile-photos.c:125
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"Heta nie vyjava, albo vyjava niezrazumiełaha typu. Pasprabuj vyjavu JPEG."
+
+#: ../src/bastile-photos.c:221
+msgid "All image files"
+msgstr "Usie vyjavy"
+
+#: ../src/bastile-photos.c:234
+msgid "All JPEG files"
+msgstr "Usie fajły JPEG"
+
+#: ../src/bastile-photos.c:258
+msgid "Choose Photo to Add to Key"
+msgstr "Abiary fatahrafiju, kab dadać da kluča"
+
+#: ../src/bastile-photos.c:285 ../src/bastile-photos.c:289
+msgid "Couldn't add photo"
+msgstr "Niemahčyma dadać fatahrafiju"
+
+#: ../src/bastile-photos.c:286
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Niemahčyma zahruzić fajł. Mabyć, jon u niapravilnym farmacie"
+
+#: ../src/bastile-photos.c:316
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Ty sapraŭdy chočaš vydalić dziejnuju fatahrafiju sa svajho kluča?"
+
+#: ../src/bastile-photos.c:329
+msgid "Couldn't delete photo"
+msgstr "Niemahčyma vydalić fatahrafiju"
+
+#: ../src/bastile-revoke.c:72
+msgid "Couldn't revoke subkey"
+msgstr "Niemahčyma skasavać padkluč"
+
+#: ../src/bastile-revoke.c:99
+#, c-format
+msgid "Revoke Subkey %d of %s"
+msgstr "Skasuj padkluč %d z %s"
+
+#: ../src/bastile-revoke.c:101
+#, c-format
+msgid "Revoke %s"
+msgstr "Skasuj %s"
+
+#: ../src/bastile-revoke.c:112
+msgid "No reason"
+msgstr "Biez pryčyny"
+
+#: ../src/bastile-revoke.c:113
+msgid "No reason for revoking key"
+msgstr "Niama pryčyny dziela skasavańnia kluča"
+
+#: ../src/bastile-revoke.c:119
+msgid "Compromised"
+msgstr "Skamprametavany"
+
+#: ../src/bastile-revoke.c:120
+msgid "Key has been compromised"
+msgstr "Kluč byŭ skamprametavany"
+
+#: ../src/bastile-revoke.c:126
+msgid "Superseded"
+msgstr "Pierakryty"
+
+#: ../src/bastile-revoke.c:127
+msgid "Key has been superseded"
+msgstr "Kluč byŭ pierakryty"
+
+#: ../src/bastile-revoke.c:133
+msgid "Not Used"
+msgstr "Nie vykarystoŭvajecca"
+
+#: ../src/bastile-revoke.c:134
+msgid "Key is no longer used"
+msgstr "Kluč bolš nie vykarystoŭvajecca"
+
+#: ../src/bastile-revoke.c:173
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"Ty dadaješ %s, kasujučy %s. Hetuju aperacyju nielha anulavać! Ty sapraŭdy "
+"chočaš praciahnuć?"
+
+#: ../src/bastile-revoke.c:188
+msgid "Couldn't add revoker"
+msgstr "Niemahčyma dadać kasavańnia"
+
+#: ../src/bastile-revoke.glade.h:1
+msgid "Optional description of revocation"
+msgstr "Nieabaviazkovaje apisańnie kasavańnia"
+
+#: ../src/bastile-revoke.glade.h:2
+msgid "Re_voke"
+msgstr "S_kasuj"
+
+#: ../src/bastile-revoke.glade.h:3
+msgid "Reason for revoking the key"
+msgstr "Pryčyna kasavańnia kluča"
+
+#: ../src/bastile-revoke.glade.h:6
+msgid "_Reason:"
+msgstr "_Pryčyna:"
+
+#: ../src/bastile-sign.c:97
+msgid "Couldn't sign key"
+msgstr "Niemahčyma padpisać kluč"
+
+#: ../src/bastile-sign.c:160
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"U ciabie niama persanalnych klučoŭ PGP, jakija ty možaš vykarystać, kab "
+"paćvierdzić davier da hetaha kluča."
+
+#: ../src/bastile-sign.glade.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Nakolki rupliva ty pravieryŭ hety kluč?</b>"
+
+#: ../src/bastile-sign.glade.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Jak inšyja buduć bačyć hety podpis:</b>"
+
+#: ../src/bastile-sign.glade.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Padpišy kluč jak:</b>"
+
+#: ../src/bastile-sign.glade.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key\n"
+"is owned by the person who claims to own it. For example, you could\n"
+"read the key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>Mimabiehła:</i> ty mimabiehła pravieryŭ, što kluč naležyć asobie, jakaja\n"
+"śćviardžaje heta. Naprykład, ty možaš pračytać adbitak palcaŭ kluča\n"
+"ŭładalniku pa telefonie."
+
+#: ../src/bastile-sign.glade.h:7
+msgid "<i>Key Name</i>"
+msgstr "<i>Nazva kluča</i>"
+
+#: ../src/bastile-sign.glade.h:8
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who \n"
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>Zusim nie praviaraŭ:</i> ty pavieryŭ, što hety kluč naležyć asobie,\n"
+"jakaja śćviardžaje heta, ale ty nia možaš ci nie pravieraŭ sapraŭdnaść "
+"hetaha faktu."
+
+#: ../src/bastile-sign.glade.h:10
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that "
+"this\n"
+"key is genuine."
+msgstr ""
+"<i>Vielmi rupliva:</i> Abiary heta, tolki kali ty całkam upeŭnieny, što "
+"hety\n"
+"kluč sapraŭdny."
+
+#: ../src/bastile-sign.glade.h:12
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr ""
+"Padpisvajučy, ty paznačaješ, što daviaraješ prynaležnaści hetaha kluča hetaj "
+"asobie:"
+
+#: ../src/bastile-sign.glade.h:13
+msgid "I can _revoke this signature at a later date."
+msgstr "Ja mahu _skasavać hety podpis paźniej."
+
+#: ../src/bastile-sign.glade.h:14
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) \n"
+"to personally check that the name on the key is correct. You should \n"
+"have also used email to check that the email address belongs to the\n"
+"owner."
+msgstr ""
+"Ty možaš vykarystać niezabyŭnuju fatahrafiju (jak na pašparcie),\n"
+"kab asabista pravieryć, što nazva kluča pravilnaja. Taksama ty možaš\n"
+"vykarystać adras e-maiłu, kab pravieryć, što adras e-maiłu sapraŭdy naležyć\n"
+"uładalniku."
+
+#: ../src/bastile-sign.glade.h:18
+msgid "_Casually"
+msgstr "_Mimabiehła"
+
+#: ../src/bastile-sign.glade.h:19
+msgid "_Not at all"
+msgstr "_Zusim nie praviaraŭ"
+
+#: ../src/bastile-sign.glade.h:20
+msgid "_Others may not see this signature"
+msgstr "_Inšyja nia mohuć bačyć hetaha podpisu"
+
+#: ../src/bastile-sign.glade.h:22
+msgid "_Signer:"
+msgstr "_Padpiščyk:"
+
+#: ../src/bastile-sign.glade.h:23
+msgid "_Very Carefully"
+msgstr "_Vielmi rupliva"
+
+#: ../src/bastile-ssh-generate.c:43
+msgid "Couldn't generate Secure Shell key"
+msgstr "Niemahčyma zhieneravać kluč SSH"
+
+#: ../src/bastile-ssh-generate.c:149
+msgid "Creating Secure Shell Key"
+msgstr "Stvareńnie kluča SSH"
+
+#: ../src/bastile-ssh-generate.glade.h:2
+msgid ""
+"<i>Use your email address, and any other reminder\n"
+" you need about what this key is for.</i>"
+msgstr ""
+"<i>Užyj svoj adras e-maiłu i inšuju infarmacyju\n"
+"dla akreśleńnia mety hetaha kluča.</i>"
+
+#: ../src/bastile-ssh-generate.glade.h:4
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted\n"
+"computers using SSH, without entering a different password \n"
+"for each of them."
+msgstr ""
+"Kluč SSH dazvalaje biaśpiečna spałučacca z davieranymi\n"
+"kamputarami praz SSH, nia ŭvodziačy roznych parolaŭ\n"
+"dla kožnaha ź ich."
+
+#: ../src/bastile-ssh-generate.glade.h:8
+msgid ""
+"If there is already a computer you want to use this key with, you \n"
+"can set up that computer to recognize your key now. "
+msgstr ""
+"Kali ŭžo jość kamputar, dla jakoha treba ŭžyć hety kluč, ty\n"
+"možaš skanfihuravać hety kamputar, kab toj raspaznaŭ tvoj kluč."
+
+#: ../src/bastile-ssh-generate.glade.h:11
+msgid "New Secure Shell Key"
+msgstr "Novy kluč SSH"
+
+#: ../src/bastile-ssh-generate.glade.h:12
+msgid "_Create and Set Up"
+msgstr "_Stvary j skanfihuruj"
+
+#: ../src/bastile-ssh-generate.glade.h:13
+msgid "_Just Create Key"
+msgstr "_Prosta stvary kluč"
+
+#: ../src/bastile-ssh-generate.glade.h:14
+msgid "_Key Description:"
+msgstr "_Apisańnie kluča:"
+
+#: ../src/bastile-ssh-key-properties.c:117
+msgid "Couldn't rename key."
+msgstr "Niemahčyma źmianić nazvu kluča."
+
+#: ../src/bastile-ssh-key-properties.c:157
+msgid "Couldn't change authorization for key."
+msgstr "Niemahčyma źmianić login dla kluča."
+
+#: ../src/bastile-ssh-key-properties.c:171
+msgid "Couldn't change passhrase for key."
+msgstr "Niemahčyma źmianić parol dla kluča."
+
+#: ../src/bastile-ssh-key-properties.glade.h:1
+msgid "/home/nate/.ssh/blah_rsa"
+msgstr "/home/nate/.ssh/blah_rsa"
+
+#: ../src/bastile-ssh-key-properties.glade.h:2
+msgid "00:00:00:00:00"
+msgstr "00:00:00:00:00"
+
+#: ../src/bastile-ssh-key-properties.glade.h:3
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Alharytm:</b>"
+
+#: ../src/bastile-ssh-key-properties.glade.h:5
+msgid "<b>Identifier:</b>"
+msgstr "<b>Identyfikatar:</b>"
+
+#: ../src/bastile-ssh-key-properties.glade.h:6
+msgid "<b>Location:</b>"
+msgstr "<b>Pałažeńnie:</b>"
+
+#: ../src/bastile-ssh-key-properties.glade.h:8
+msgid "<b>Strength:</b>"
+msgstr "<b>Siła:</b>"
+
+#: ../src/bastile-ssh-key-properties.glade.h:10
+msgid "<b>Trust</b>"
+msgstr "<b>Davier</b>"
+
+#: ../src/bastile-ssh-key-properties.glade.h:14
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Heta ŭpłyvaje tolki na kont \"%s\"</i>."
+
+#: ../src/bastile-ssh-key-properties.glade.h:17
+msgid "E_xport Complete Key"
+msgstr "_Ekspartuj poŭny kluč"
+
+#: ../src/bastile-ssh-key-properties.glade.h:21
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr ""
+"Uładalnik hetaha kluča _aŭtaryzavany dla spałučeńnia z hetym kamputaram"
+
+#: ../src/bastile-ssh-key-properties.glade.h:22
+msgid "Used to connect to other computers."
+msgstr "Dla spałučeńnia ź inšymi kamputarami."
+
+#: ../src/bastile-ssh-upload.c:42
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "Niemahčyma skanfihuravać klučy SSH na addalenym kamputary."
+
+#. Show the progress window if necessary
+#: ../src/bastile-ssh-upload.c:177
+msgid "Configuring Secure Shell Keys..."
+msgstr "Kanfihuravańnie klučoŭ SSH..."
+
+#: ../src/bastile-ssh-upload.glade.h:1
+msgid "<i>eg: fileserver.example.com</i>"
+msgstr "<i>naprykład: fileserver.example.com</i>"
+
+#: ../src/bastile-ssh-upload.glade.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Skanfihuruj kamputar dla spałučeńnia praz SSH"
+
+#: ../src/bastile-ssh-upload.glade.h:4
+msgid ""
+"To use your Secure Shell key with another computer that\n"
+"uses SSH, you must already have a login account on that \n"
+"computer."
+msgstr ""
+"Kab vykarystać kluč SSH ź inšym kamputaram,\n"
+"jaki vykarystoŭvaje SSH, ty pavinny ŭžo mieć kont\n"
+"dla uvachodu na hetym kamputary."
+
+#: ../src/bastile-ssh-upload.glade.h:7
+msgid "_Computer Name:"
+msgstr "Nazva _kamputara:"
+
+#: ../src/bastile-ssh-upload.glade.h:8
+msgid "_Login Name:"
+msgstr "Nazva _loginu:"
+
+#: ../src/bastile-ssh-upload.glade.h:9
+msgid "_Set Up"
+msgstr "_Skanfihuruj"
+
+#~ msgid "couldn't drop privileges properly"
+#~ msgstr "niemahčyma pravilna admovicca ad pryvilejaŭ"
+
+#~ msgid "Original Master Password:"
+#~ msgstr "Dziejny hałoŭny parol:"
+
+#~ msgid "<b>Progress Message</b>"
+#~ msgstr "<b>Paviedamleńnie ab prahresie</b>"
+
+#~ msgid "Progress Status"
+#~ msgstr "Status vykanańnia"
+
+#~ msgid "<b>Description:</b>"
+#~ msgstr "<b>Apisańnie:</b>"
+
+#~ msgid "<b>Login:</b>"
+#~ msgstr "<b>Login:</b>"
+
+#~ msgid "<b>Server:</b>"
+#~ msgstr "<b>Server:</b>"
+
+#~ msgid "[details]\n"
+#~ msgstr "[detali]\n"
+
+#~ msgid "[login]"
+#~ msgstr "[login]"
+
+#~ msgid "[server]"
+#~ msgstr "[server]"

@@ -1,0 +1,97 @@
+Source: bastile
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jose Carlos Garcia Sogo <jsogo@debian.org>
+Uploaders: Debian MATE Maintainers <pkg-mate-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Jordi Mallach <jordi@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sebastian Dröge <slomo@debian.org>
+Build-Depends: debhelper (>= 8),
+               cdbs (>= 0.4.41),
+               dh-autoreconf,
+               scrollkeeper,
+               libgpgme11-dev (>= 1.0.0),
+               libgck-1-dev,
+               intltool (>= 0.35),
+               libsoup2.4-dev,
+               libldap2-dev,
+               libavahi-glib-dev (>= 0.6),
+               libavahi-client-dev (>= 0.6),
+               libdbus-glib-1-dev (>= 0.35),
+               mate-doc-utils,
+               mate-doc-utils-gnome | gnome-doc-utils,
+               gtk-doc-tools (>= 1.9),
+               libmatekeyring-dev (>= 1.0.0),
+               libglib2.0-dev (>= 2.10.0),
+               libgtk2.0-dev (>= 2.20.0),
+               libmatenotify-dev (>= 0.7),
+               libmateconf-dev,
+               gobject-introspection (>= 0.6.4),
+               libgirepository1.0-dev (>= 0.6.4),
+               gir1.2-gtk-2.0
+Build-Conflicts: gnupg2
+Standards-Version: 3.9.2
+
+Package: bastile
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gnupg (>= 1.4.7)
+Recommends: openssh-client
+Suggests: bastile-plugins
+Description: MATE front end for GnuPG
+ Bastile is a front end for GnuPG - the GNU Privacy Guard program -
+ that integrates to the MATE desktop. It is a tool for secure
+ communications and data storage.  Data encryption and digital signature
+ creation can easily be performed through a GUI and Key Management
+ operations can easily be carried out through an intuitive interface.
+
+Package: libmatecryptui0
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Replaces: bastile (<< 2.23.6)
+Description: UI library for DBUS functions exported by bastile
+ Bastile is a front end for GnuPG - the GNU Privacy Guard program -
+ that integrates to the MATE desktop. It is a tool for secure
+ communications and data storage.  Data encryption and digital signature
+ creation can easily be performed through a GUI and Key Management
+ operations can easily be carried out through an intuitive interface.
+ .
+ This package contains the shared library.
+
+Package: libmatecryptui-dev
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libglib2.0-dev (>= 2.10.0),
+         libgtk2.0-dev (>= 2.20.0),
+         libmateconf-dev,
+         libmatecryptui0 (= ${binary:Version}),
+         gir1.2-matecryptui-0.0 (= ${binary:Version})
+Description: UI library for DBUS functions exported by bastile (development)
+ Bastile is a front end for GnuPG - the GNU Privacy Guard program -
+ that integrates to the MATE desktop. It is a tool for secure
+ communications and data storage.  Data encryption and digital signature
+ creation can easily be performed through a GUI and Key Management
+ operations can easily be carried out through an intuitive interface.
+ .
+ This package contains the development files for the library.
+
+Package: gir1.2-matecryptui-0.0
+Architecture: any
+Section: libs
+Depends: ${gir:Depends},
+         ${misc:Depends}
+Description: GObject introspection data for the Bastile CryptUI library
+ Bastile is a front end for GnuPG - the GNU Privacy Guard program -
+ that integrates to the MATE desktop. It is a tool for secure
+ communications and data storage.  Data encryption and digital signature
+ creation can easily be performed through a GUI and Key Management
+ operations can easily be carried out through an intuitive interface.
+ .
+ This package contains introspection data for the Bastile CryptUI
+ library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.

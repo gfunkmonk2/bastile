@@ -1,0 +1,4153 @@
+# Bastile, MATE frontend for GnuPG in Danish.
+# Copyright (C) 2000-2011 Free Software Foundation, Inc.
+# Birger Langkjer <birger.langkjer@image.dk>, 2000.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2008, 09, 10, 11.
+#
+# Konventioner
+#
+# Passphrase -> adgangsfrase
+# Password -> adgangskode
+# Cache -> cache.
+#
+# Dette er måske ikke den mest elegante løsning, men på dansk findes der ikke et ord af tilsvarende længde der passer godt. Mellemlagring eller hurtigbuffer fra ordlisten er uegnede da de tydeligvis refererer til CPU-cache.
+#
+# ASCII armor -> ASCII-panser
+# decrypt -> dekryptere (i modsætning til f.eks. afkryptere)
+# verify -> verificere
+# sign -> underskrive
+# signature -> underskrift
+msgid ""
+msgstr ""
+"Project-Id-Version: Bastile 0.3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-02 22:38+0200\n"
+"PO-Revision-Date: 2011-04-02 15:53+0200\n"
+"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../daemon/bastile-daemon.c:64
+msgid "Do not run bastile-daemon as a daemon"
+msgstr "Kør ikke bastile-daemon som dæmon"
+
+#: ../daemon/bastile-daemon.c:94
+msgid "couldn't fork process"
+msgstr "kunne ikke forgrene proces"
+
+#: ../daemon/bastile-daemon.c:100
+msgid "couldn't create new process group"
+msgstr "kunne ikke oprette ny procesgruppe"
+
+#: ../daemon/bastile-daemon.c:250
+msgid "Encryption Daemon (Bastile)"
+msgstr "Krypteringdæmon (Bastile)"
+
+#: ../daemon/bastile-service.c:164 ../daemon/bastile-service.c:277
+#, c-format
+msgid "Invalid or unrecognized key type: %s"
+msgstr "Ugyldig eller ukendt nøgletype: %s"
+
+#: ../daemon/bastile-service.c:234
+#, c-format
+msgid "This keytype is not supported: %s"
+msgstr "Denne nøgletype understøttes ikke: %s"
+
+#: ../daemon/bastile-service.c:241
+#, c-format
+msgid "Support for this feature was not enabled at build time"
+msgstr ""
+"Understøttelse for denne funktionalitet blev ikke aktiveret under kompilering"
+
+#: ../daemon/bastile-service.c:341 ../daemon/bastile-service-keyset.c:180
+#: ../daemon/bastile-service-keyset.c:223
+#, c-format
+msgid "Invalid or unrecognized key: %s"
+msgstr "Ugyldig eller ukendt nøgle: %s"
+
+# Mærkelige tags
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:204
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Underskrevet af <i><key id=\"%s\"/> <b>udløbet</b></i> den %s."
+
+#: ../daemon/bastile-service-crypto.c:205
+msgid "Invalid Signature"
+msgstr "Ugyldig underskrift"
+
+#: ../daemon/bastile-service-crypto.c:211
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Underskrevet af <i><key id=\"%s\"/></i> den %s <b>Udløbet</b>."
+
+#: ../daemon/bastile-service-crypto.c:212
+msgid "Expired Signature"
+msgstr "Udløbet underskrift"
+
+#: ../daemon/bastile-service-crypto.c:218
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Underskrevet af <i><key id=\"%s\"/> <b>Tilbagekaldt</b></i> den %s."
+
+# Enten en ugyldiggjort underskrift eller også har de ugyldiggjort en underskrift. Oversættelsen kan forstås på begge måder så det skulle være ok
+#: ../daemon/bastile-service-crypto.c:219
+msgid "Revoked Signature"
+msgstr "Underskrift tilbagekaldt"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../daemon/bastile-service-crypto.c:225
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Underskrevet af <i><key id=\"%s\"/></i> den %s."
+
+#: ../daemon/bastile-service-crypto.c:226
+msgid "Good Signature"
+msgstr "Gyldig underskrift"
+
+#: ../daemon/bastile-service-crypto.c:231
+msgid "Signing key not in keyring."
+msgstr "Underskriver nøgle der ikke er i nøgleringen."
+
+#: ../daemon/bastile-service-crypto.c:232
+msgid "Unknown Signature"
+msgstr "Ukendt underskrift"
+
+#: ../daemon/bastile-service-crypto.c:236
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+"Ugyldig eller forfalsket underskrift. De underskrevne data er blevet "
+"modificeret."
+
+#: ../daemon/bastile-service-crypto.c:237
+msgid "Bad Signature"
+msgstr "Ugyldig underskrift"
+
+#: ../daemon/bastile-service-crypto.c:245
+msgid "Couldn't verify signature."
+msgstr "Kunne ikke verificere underskrift."
+
+#: ../daemon/bastile-service-crypto.c:317
+#: ../daemon/bastile-service-crypto.c:646
+#, c-format
+msgid "Invalid or unrecognized signer: %s"
+msgstr "Ugyldig eller ukendt underskriver: %s"
+
+# Det er sprogligt uklart hvorvidt nøglen underskrives, eller hvorvidt den bruges til at underskrive *med*, derfor benyttes en formulering der kan betyde begge dele
+#: ../daemon/bastile-service-crypto.c:324
+#: ../daemon/bastile-service-crypto.c:653
+#, c-format
+msgid "Key is not valid for signing: %s"
+msgstr "Nøglen er ikke gyldig til underskrift: %s"
+
+#: ../daemon/bastile-service-crypto.c:335
+#, c-format
+msgid "Invalid or unrecognized recipient: %s"
+msgstr "Ugyldig eller ukendt modtager: %s"
+
+# Hvad betyder dette?
+#: ../daemon/bastile-service-crypto.c:343
+#, c-format
+msgid "Key is not a valid recipient for encryption: %s"
+msgstr "Nøglen er ikke en gyldig modtager for kryptering: %s"
+
+#: ../daemon/bastile-service-crypto.c:352
+#, c-format
+msgid "No recipients specified"
+msgstr "Ingen modtagere angivet"
+
+#: ../daemon/bastile-service-crypto.c:434
+#, c-format
+msgid "Invalid key type for decryption: %s"
+msgstr "Ugyldig nøgletype til dekryptering: %s"
+
+#: ../daemon/bastile-service-crypto.c:548
+#: ../daemon/bastile-service-crypto.c:746
+#, c-format
+msgid "Please set clearuri"
+msgstr "Indstil venligst clearuri"
+
+#: ../daemon/bastile-service-crypto.c:554
+#: ../daemon/bastile-service-crypto.c:752
+#, c-format
+msgid "Please set crypturi"
+msgstr "Indstil venligst crypturi"
+
+#: ../daemon/bastile-service-crypto.c:564
+#, c-format
+msgid "Error opening clearuri"
+msgstr "Fejl ved åbning af clearuri"
+
+#: ../daemon/bastile-service-crypto.c:641
+#, c-format
+msgid "No signer specified"
+msgstr "Ingen underskriver angivet"
+
+#: ../daemon/bastile-service-crypto.c:830
+#, c-format
+msgid "Invalid key type for verifying: %s"
+msgstr "Ugyldig nøgletype til verificering: %s"
+
+#: ../daemon/bastile-service-keyset.c:273
+#, c-format
+msgid "Invalid key id: %s"
+msgstr "Ugyldig nøgle-ID: %s"
+
+# "Display name" er tydeligvis et navn som URI'en tilknyttes for at den skal være lettere at huske; andre forslag til oversættelse er velkomne
+#: ../data/bastile.schemas.in.h:1
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+"En liste af nøgleserver-URI'er hvorpå der søges efter fjerne PGP-nøgler. I "
+"nyere versioner kan et navn inkluderes ved at efterstille et mellemrum og "
+"derpå navnet."
+
+#: ../data/bastile.schemas.in.h:2
+msgid "Auto Retrieve Keys"
+msgstr "Automatisk nøgleafhentning"
+
+#: ../data/bastile.schemas.in.h:3
+msgid "Auto Sync Keys"
+msgstr "Synkronisér nøgler automatisk"
+
+#: ../data/bastile.schemas.in.h:4
+msgid "Controls the visibility of the expires column for the key manager."
+msgstr "Bestemmer synligheden af nøglehåndteringens udløbstidskolonne."
+
+#: ../data/bastile.schemas.in.h:5
+msgid "Controls the visibility of the trust column for the key manager."
+msgstr "Bestemmer synligheden af nøglehåndteringens troværdighedskolonne."
+
+#: ../data/bastile.schemas.in.h:6
+msgid "Controls the visibility of the type column for the key manager."
+msgstr "Bestemmer synligheden af nøglehåndteringens typekolonne."
+
+#: ../data/bastile.schemas.in.h:7
+msgid "Controls the visibility of the validity column for the key manager."
+msgstr "Bestemmer synligheden af nøglehåndteringens gyldighedskolonne."
+
+#: ../data/bastile.schemas.in.h:8
+msgid "Enable DNS-SD sharing"
+msgstr "Aktiver DNS-SD deling"
+
+#: ../data/bastile.schemas.in.h:9
+msgid ""
+"Enables DNS-SD (Apple Bonjour) sharing of keys. bastile-daemon must be "
+"running and must be built with HKP and DNS-SD support."
+msgstr ""
+"Aktiverer DNS-SD (Apple Bonjour) deling af nøgler. bastile-daemon skal køre "
+"og skal være kompileret med HKP- og DNS-SD-understøttelse."
+
+#: ../data/bastile.schemas.in.h:10
+msgid "ID of the default key"
+msgstr "ID for standardnøglen"
+
+#: ../data/bastile.schemas.in.h:11
+msgid ""
+"If set to true, then files encrypted with bastile will be ASCII armor "
+"encoded."
+msgstr ""
+"Hvis denne sættes til \"true\", vil bastile ASCII-pansre krypterede filer."
+
+#: ../data/bastile.schemas.in.h:12
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+"Hvis denne sættes til \"true\", vil standardnøglen altid blive føjet til "
+"modtagerlisten ved kryptering."
+
+#: ../data/bastile.schemas.in.h:13
+msgid "Last key server search pattern"
+msgstr "Sidste nøgleserver-søgestreng"
+
+#: ../data/bastile.schemas.in.h:14
+msgid "Last key servers used"
+msgstr "Sidst benyttede nøgleservere"
+
+#: ../data/bastile.schemas.in.h:15
+msgid "Last key used to sign a message."
+msgstr "Sidst benyttede nøgle til underskrift af meddelelse."
+
+#: ../data/bastile.schemas.in.h:16
+msgid "PGP Key servers"
+msgstr "PGP-nøgleservere"
+
+#: ../data/bastile.schemas.in.h:17
+msgid "Publish keys to this key server."
+msgstr "Offentliggør nøgler til denne nøgleserver."
+
+#: ../data/bastile.schemas.in.h:18
+msgid "Show expires column in key manager"
+msgstr "Vis udløbstidskolonne i nøglehåndtering"
+
+#: ../data/bastile.schemas.in.h:19
+msgid "Show trust column in key manager"
+msgstr "Vis tillidskolonnen i nøglehåndtering"
+
+#: ../data/bastile.schemas.in.h:20
+msgid "Show type column in key manager"
+msgstr "Vis typekolonne i nøglehåndtering"
+
+#: ../data/bastile.schemas.in.h:21
+msgid "Show validity column in key manager"
+msgstr "Vis gyldighedskolonne i nøglehåndtering"
+
+#: ../data/bastile.schemas.in.h:22
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+"Angiv kolonnen hvormed modtagervinduet sorteres. Kolonnerne er: \"name\" og "
+"\"id\". Skriv \"-\" foran kolonnenavnet for at sortere i aftagende "
+"rækkefølge."
+
+#: ../data/bastile.schemas.in.h:23
+msgid ""
+"Specify the column to sort the bastile key manager main window by. Columns "
+"are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. Put a '-' in "
+"front of the column name to sort in descending order."
+msgstr ""
+"Angiv kolonnen hvormed bastile-nøglehåndterings hovedvindue sorteres. "
+"Kolonnerne er: \"name\", \"id\", \"validity\", \"expires\", \"trust\" og "
+"\"type\". Skriv en \"-\" foran kolonnenavnet for at sortere i aftagende "
+"rækkefølge."
+
+#: ../data/bastile.schemas.in.h:24
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+"ID for den sidste hemmelige nøgle der blev benyttet til at underskrive en "
+"meddelelse."
+
+#: ../data/bastile.schemas.in.h:25
+msgid "The column to sort the recipients by"
+msgstr "Kolonnen hvormed modtagere sorteres"
+
+#: ../data/bastile.schemas.in.h:26
+msgid "The column to sort the bastile keys by"
+msgstr "Kolonnen hvormed bastile-nøglerne sorteres"
+
+#: ../data/bastile.schemas.in.h:27
+msgid ""
+"The key server to publish PGP keys to. Or empty to suppress publishing of "
+"PGP keys."
+msgstr ""
+"Nøgleserveren hvorpå PGP-nøgler offentliggøres, eller tom hvis PGP-nøgler "
+"ikke ønskes offentliggjort."
+
+#: ../data/bastile.schemas.in.h:28
+msgid ""
+"The last key server a search was performed against or empty for all key "
+"servers."
+msgstr ""
+"Nøgleserveren hvorpå der sidst blev udført en søgning, eller alle "
+"nøgleservere hvis tom."
+
+#: ../data/bastile.schemas.in.h:29
+msgid "The last search pattern searched for against a key server."
+msgstr "Det sidste søgemønster anvendt på en nøgleserver."
+
+#: ../data/bastile.schemas.in.h:30
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+"Specificerer standardnøglen der benyttes ved visse operationer, "
+"hovedsageligt underskrift."
+
+#: ../data/bastile.schemas.in.h:31
+msgid "Whether or not keys should be automatically retrieved from key servers."
+msgstr "Hvorvidt nøgler automatisk skal hentes fra nøgleservere."
+
+#: ../data/bastile.schemas.in.h:32
+msgid ""
+"Whether or not modified keys should be automatically synced with the default "
+"key server."
+msgstr ""
+"Hvorvidt ændrede nøgler automatisk skal synkroniseres ved "
+"standardnøgleserveren."
+
+# Hvad betyder det at kryptere "til" en nøgle?
+#: ../data/bastile.schemas.in.h:33
+msgid "Whether to always encrypt to default key"
+msgstr "Hvorvidt der altid krypteres til standardnøgle"
+
+#: ../data/bastile.schemas.in.h:34
+msgid "Whether to use ASCII Armor"
+msgstr "Hvorvidt der benyttes ASCII-pansring"
+
+#: ../gkr/bastile-add-keyring.xml.h:1
+msgid "Add Password Keyring"
+msgstr "Tilføj adgangskode-nøglering"
+
+#: ../gkr/bastile-add-keyring.xml.h:2
+msgid "New Keyring Name:"
+msgstr "Navn til ny nøglering:"
+
+#: ../gkr/bastile-add-keyring.xml.h:3
+msgid ""
+"Please choose a name for the new keyring. You will be prompted for an unlock "
+"password."
+msgstr ""
+"Vælg venligst et navn til den nye nøglering. Du vil blive spurgt om en "
+"adgangskode til oplåsning."
+
+#: ../gkr/bastile-add-keyring.xml.h:4
+#: ../libbastile/bastile-add-keyserver.xml.h:5
+#: ../ssh/bastile-ssh-upload.xml.h:3
+msgid "The host name or address of the server."
+msgstr "Værtsnavn eller adresser for serveren."
+
+#: ../gkr/bastile-gkr-add-item.c:61 ../gkr/bastile-gkr-add-keyring.c:73
+msgid "Couldn't add keyring"
+msgstr "Kunne ikke tilføje nøglering"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:1
+msgid "Add Password"
+msgstr "Tilføj adgangskode"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:2
+#: ../gkr/bastile-gkr-item-properties.xml.h:15 ../pgp/bastile-revoke.xml.h:5
+msgid "_Description:"
+msgstr "_Beskrivelse:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:3
+msgid "_Keyring:"
+msgstr "_Nøglering:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:4
+msgid "_Password:"
+msgstr "_Adgangskode:"
+
+#: ../gkr/bastile-gkr-add-item.xml.h:5
+msgid "_Show Password"
+msgstr "_Vis adgangskode"
+
+# Egentlig er world wide web ikke det samme som internet, men vi håber det er korrekt i denne sammenhæng
+#: ../gkr/bastile-gkr-item.c:473
+msgid "Web Password"
+msgstr "Internetadgangskode"
+
+#: ../gkr/bastile-gkr-item.c:475
+msgid "Network Password"
+msgstr "Netværksadgangskode"
+
+#: ../gkr/bastile-gkr-item.c:477 ../gkr/bastile-gkr-item-properties.c:107
+msgid "Password"
+msgstr "Adgangskode"
+
+#: ../gkr/bastile-gkr-item-commands.c:78
+#, c-format
+msgid "Are you sure you want to delete the password '%s'?"
+msgstr "Er du sikker på at du vil slette adgangskoden \"%s\"?"
+
+#: ../gkr/bastile-gkr-item-commands.c:81
+#, c-format
+msgid "Are you sure you want to delete %d password?"
+msgid_plural "Are you sure you want to delete %d passwords?"
+msgstr[0] "Er du sikker på at du vil slette %d adgangskode?"
+msgstr[1] "Er du sikker på at du vil slette %d adgangskoder?"
+
+#: ../gkr/bastile-gkr-item-properties.c:66
+msgid "Access a network share or resource"
+msgstr "Få adgang til en netværksdeling eller ressource"
+
+#: ../gkr/bastile-gkr-item-properties.c:69
+msgid "Access a website"
+msgstr "Få adgang til en hjemmeside"
+
+#: ../gkr/bastile-gkr-item-properties.c:72
+msgid "Unlocks a PGP key"
+msgstr "Låser en PGP-nøgle op"
+
+#: ../gkr/bastile-gkr-item-properties.c:75
+msgid "Unlocks a Secure Shell key"
+msgstr "Låser en SSH-nøgle op"
+
+#: ../gkr/bastile-gkr-item-properties.c:78
+msgid "Saved password or login"
+msgstr "Gemt adgangskode eller brugernavn"
+
+#: ../gkr/bastile-gkr-item-properties.c:102
+msgid "Network Credentials"
+msgstr "Netværksakkreditiver"
+
+#: ../gkr/bastile-gkr-item-properties.c:245
+msgid "Couldn't change password."
+msgstr "Kunne ikke ændre adgangskode."
+
+#: ../gkr/bastile-gkr-item-properties.c:350
+msgid "Couldn't set description."
+msgstr "Kunne ikke anføre beskrivelse."
+
+#: ../gkr/bastile-gkr-item-properties.c:656
+msgid "Couldn't set application access."
+msgstr "Kunne ikke indstille programadgang."
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:1
+msgid "<b>Password:</b>"
+msgstr "<b>Adgangskode:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:2
+msgid "<b>Path:</b>"
+msgstr "<b>Sti:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:3
+msgid "<b>Permissions:</b>"
+msgstr "<b>Rettigheder:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:8
+#: ../ssh/bastile-ssh-key-properties.xml.h:7
+msgid "<b>Technical Details:</b>"
+msgstr "<b>Tekniske detaljer:</b>"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:5
+msgid "Applications"
+msgstr "Programmer"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:6
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:22
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:19
+#: ../ssh/bastile-ssh-key-properties.xml.h:15
+msgid "Details"
+msgstr "Detaljer"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:7
+#: ../pgp/bastile-pgp-subkey.c:366
+#: ../ssh/bastile-ssh-key-properties.xml.h:17
+msgid "Key"
+msgstr "Nøgle"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:8
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:30
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:30
+#: ../ssh/bastile-ssh-key-properties.xml.h:18
+msgid "Key Properties"
+msgstr "Nøgleegenskaber"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:9
+msgid "Login:"
+msgstr "Logind:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:10
+msgid "Server:"
+msgstr "Server:"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:11
+msgid "Show pass_word"
+msgstr "Vis kode_ord"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:12
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:44
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:38
+msgid "Type:"
+msgstr "Type:"
+
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-item-properties.xml.h:14
+msgid "Use:"
+msgstr "Brug:"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:17
+msgid "_Read"
+msgstr "_Læse"
+
+#. To translators: This is the infinitive not the imperative.
+#: ../gkr/bastile-gkr-item-properties.xml.h:19
+msgid "_Write"
+msgstr "_Skrive"
+
+#: ../gkr/bastile-gkr-item-properties.xml.h:20
+msgctxt "infinitive"
+msgid "_Delete"
+msgstr "_Slette"
+
+#: ../gkr/bastile-gkr-keyring.c:193
+msgid "Listing passwords"
+msgstr "Udskriver adgangskoder"
+
+#: ../gkr/bastile-gkr-keyring.c:354
+#, c-format
+msgid "Passwords: %s"
+msgstr "Adgangskoder: %s"
+
+#: ../gkr/bastile-gkr-keyring.c:355
+#, c-format
+msgid "<b>Passwords:</b> %s"
+msgstr "<b>Adgangskoder:</b> %s"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:119
+msgid "Password Keyring"
+msgstr "Adgangskode-nøglering"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:120
+msgid "Used to store application and network passwords"
+msgstr "Bruges til at lagre program- og netværksadgangskoder"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:121
+msgid "Stored Password"
+msgstr "Gemt adgangskode"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:122
+msgid "Safely store a password or secret."
+msgstr "Gem en adgangskode eller hemmelighed sikkert."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:136
+msgid "Couldn't unlock keyring"
+msgstr "Kunne ikke låse nøglering op"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:177
+msgid "Couldn't lock keyring"
+msgstr "Kunne ikke låse nøglering"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:218
+msgid "Couldn't set default keyring"
+msgstr "Kunne ikke indstille standardnøglering"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:257
+msgid "Couldn't change keyring password"
+msgstr "Kunne ikke ændre nøgleringens adgangskode"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:288
+msgid "_Lock"
+msgstr "_Lås"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:289
+msgid ""
+"Lock the password storage keyring so a master password is required to unlock "
+"it."
+msgstr ""
+"Lås nøgleringen til lagring af adgangskoder, således at en hovedadgangskode "
+"kræves for at låse den op."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:290
+msgid "_Unlock"
+msgstr "_Lås op"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:291
+msgid ""
+"Unlock the password storage keyring with a master password so it is "
+"available for use."
+msgstr ""
+"Lås nøgleringen til lagring af adgangskoder op med en hovedadgangskode, "
+"således at den er klar til brug."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:292
+msgid "_Set as default"
+msgstr "_Sæt som forvalg"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:293
+msgid "Applications usually store new passwords in the default keyring."
+msgstr "Programmer lagrer normalt nye adgangskoder i standardnøgleringen."
+
+#: ../gkr/bastile-gkr-keyring-commands.c:294
+msgid "Change _Password"
+msgstr "Skift _adgangskode"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:295
+msgid "Change the unlock password of the password storage keyring"
+msgstr ""
+"Skift adgangskoden, der bruges til at låse nøgleringen til lagring af "
+"adgangskoder op"
+
+#: ../gkr/bastile-gkr-keyring-commands.c:360
+#, c-format
+msgid "Are you sure you want to delete the password keyring '%s'?"
+msgstr "Er du sikker på at du vil slette adgangskodenøgleringen \"%s\"?"
+
+#. -----------------------------------------------------------------------------
+#. * PUBLIC
+#.
+#. To translators: This is the noun not the verb.
+#: ../gkr/bastile-gkr-keyring.xml.h:2
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:19
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:18
+msgid "Created:"
+msgstr "Oprettet:"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:3
+msgid "Keyring"
+msgstr "Nøglering"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:4
+msgid "Keyring Properties"
+msgstr "Egenskaber for nøglering"
+
+#: ../gkr/bastile-gkr-keyring.xml.h:5
+msgid "_Name:"
+msgstr "_Navn:"
+
+#: ../gkr/bastile-gkr-operation.c:168
+msgid "Access to the key ring was denied"
+msgstr "Adgang til nøgleringen blev nægtet"
+
+#: ../gkr/bastile-gkr-operation.c:171
+msgid "The mate-keyring daemon is not running"
+msgstr "Dæmonen mate-keyring kører ikke"
+
+#: ../gkr/bastile-gkr-operation.c:174
+msgid "The key ring has already been unlocked"
+msgstr "Nøgleringen er allerede blevet låst op"
+
+#: ../gkr/bastile-gkr-operation.c:177
+msgid "No such key ring exists"
+msgstr "Ingen sådan nøglering findes"
+
+#: ../gkr/bastile-gkr-operation.c:180
+msgid "Couldn't communicate with key ring daemon"
+msgstr "Kunne ikke kommunikere med nøgleringsdæmon"
+
+#: ../gkr/bastile-gkr-operation.c:183
+msgid "The item already exists"
+msgstr "Objektet findes allerede"
+
+#: ../gkr/bastile-gkr-operation.c:189
+msgid "Internal error accessing mate-keyring"
+msgstr "Intern fejl i adgang til mate-keyring"
+
+#: ../gkr/bastile-gkr-operation.c:238 ../gkr/bastile-gkr-operation.c:264
+msgid "Saving item..."
+msgstr "Gemmer objekt..."
+
+#: ../gkr/bastile-gkr-operation.c:300
+msgid "Deleting item..."
+msgstr "Sletter element..."
+
+#: ../gkr/bastile-gkr-operation.c:325
+msgid "Deleting keyring..."
+msgstr "Sletter nøglering..."
+
+#: ../gkr/bastile-gkr-source.c:234
+msgid "Listing password keyrings"
+msgstr "Viser adgangskodenøgleringe"
+
+#: ../libmatecryptui/cryptui.c:272
+msgid ""
+"No encryption keys were found with which to perform the operation you "
+"requested.  The program <b>Passwords and Encryption Keys</b> will now be "
+"started so that you may either create a key or import one."
+msgstr ""
+"Der blev ikke fundet nogen krypteringsnøgler til at udføre den forespurgte "
+"operation.  Programmet <b>Adgangskoder og krypteringsnøgler</b> vil nu blive "
+"startet, så du enten kan oprette eller importere en nøgle."
+
+#: ../libmatecryptui/cryptui-key-chooser.c:174
+#: ../libmatecryptui/cryptui-key-chooser.c:179
+msgid "All Keys"
+msgstr "Alle nøgler"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:175
+#: ../libmatecryptui/cryptui-key-chooser.c:180
+msgid "Selected Recipients"
+msgstr "Markerede modtagere"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:176
+#: ../libmatecryptui/cryptui-key-chooser.c:181
+msgid "Search Results"
+msgstr "Søgeresultater"
+
+#. Filter Label
+#: ../libmatecryptui/cryptui-key-chooser.c:192
+msgid "Search _for:"
+msgstr "_Søg efter:"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:250
+msgid "None (Don't Sign)"
+msgstr "Ingen (underskriv ikke)"
+
+#: ../libmatecryptui/cryptui-key-chooser.c:263
+#, c-format
+msgid "Sign this message as %s"
+msgstr "Underskriv meddelelse som %s"
+
+#. Sign Label
+#: ../libmatecryptui/cryptui-key-chooser.c:285
+msgid "_Sign message as:"
+msgstr "_Underskriv meddelelse som:"
+
+#. TODO: Icons
+#. The name column
+#: ../libmatecryptui/cryptui-key-list.c:140
+#: ../pgp/bastile-pgp-key-properties.c:839
+#: ../src/bastile-key-manager-store.c:865
+msgid "Name"
+msgstr "Navn"
+
+#. The keyid column
+#: ../libmatecryptui/cryptui-key-list.c:145
+#: ../pgp/bastile-pgp-key-properties.c:1745
+#: ../src/bastile-key-manager-store.c:877
+msgid "Key ID"
+msgstr "Nøgle-ID"
+
+#: ../libegg/egg-datetime.c:327
+msgid "Display flags"
+msgstr "Vis flag"
+
+#: ../libegg/egg-datetime.c:328
+msgid "Displayed date and/or time properties"
+msgstr "Viste dato- og/eller tidsegenskaber"
+
+#: ../libegg/egg-datetime.c:333
+msgid "Lazy mode"
+msgstr "Doven tilstand"
+
+#: ../libegg/egg-datetime.c:334
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "Doven tilstand normaliserer ikke de angivne dato- og tidsværdier"
+
+#: ../libegg/egg-datetime.c:339
+msgid "Year"
+msgstr "År"
+
+#: ../libegg/egg-datetime.c:340
+msgid "Displayed year"
+msgstr "Vist årstal"
+
+#: ../libegg/egg-datetime.c:345
+msgid "Month"
+msgstr "Måned"
+
+#: ../libegg/egg-datetime.c:346
+msgid "Displayed month"
+msgstr "Vist måned"
+
+#: ../libegg/egg-datetime.c:351
+msgid "Day"
+msgstr "Dag"
+
+#: ../libegg/egg-datetime.c:352
+msgid "Displayed day of month"
+msgstr "Vist dag på måneden"
+
+#: ../libegg/egg-datetime.c:357
+msgid "Hour"
+msgstr "Time"
+
+#: ../libegg/egg-datetime.c:358
+msgid "Displayed hour"
+msgstr "Vist time"
+
+#: ../libegg/egg-datetime.c:363
+msgid "Minute"
+msgstr "Minut"
+
+#: ../libegg/egg-datetime.c:364
+msgid "Displayed minute"
+msgstr "Vist minut"
+
+#: ../libegg/egg-datetime.c:369
+msgid "Second"
+msgstr "Sekund"
+
+#: ../libegg/egg-datetime.c:370
+msgid "Displayed second"
+msgstr "Vist sekund"
+
+#: ../libegg/egg-datetime.c:375
+msgid "Lower limit year"
+msgstr "Nedre grænse for årstal"
+
+#: ../libegg/egg-datetime.c:376
+msgid "Year part of the lower date limit"
+msgstr "Årstalsdelen af den nedre datogrænse"
+
+#: ../libegg/egg-datetime.c:381
+msgid "Upper limit year"
+msgstr "Øvre grænse for årstal"
+
+#: ../libegg/egg-datetime.c:382
+msgid "Year part of the upper date limit"
+msgstr "Årstalsdelen af den øvre datogrænse"
+
+#: ../libegg/egg-datetime.c:387
+msgid "Lower limit month"
+msgstr "Nedre månedsgrænse"
+
+#: ../libegg/egg-datetime.c:388
+msgid "Month part of the lower date limit"
+msgstr "Månedsdelen af den nedre datogrænse"
+
+#: ../libegg/egg-datetime.c:393
+msgid "Upper limit month"
+msgstr "Øvre månedsgrænse"
+
+#: ../libegg/egg-datetime.c:394
+msgid "Month part of the upper date limit"
+msgstr "Månedsdelen af den øvre datogrænse"
+
+#: ../libegg/egg-datetime.c:399
+msgid "Lower limit day"
+msgstr "Nedre dagsgrænse"
+
+#: ../libegg/egg-datetime.c:400
+msgid "Day of month part of the lower date limit"
+msgstr "Dagen i den måned, der udgør nedre datogrænse"
+
+#: ../libegg/egg-datetime.c:405
+msgid "Upper limit day"
+msgstr "Øvre dagsgrænse"
+
+#: ../libegg/egg-datetime.c:406
+msgid "Day of month part of the upper date limit"
+msgstr "Dagen i måneden, der udgør øvre datogrænse"
+
+#: ../libegg/egg-datetime.c:411
+msgid "Lower limit hour"
+msgstr "Nedre timegrænse"
+
+#: ../libegg/egg-datetime.c:412
+msgid "Hour part of the lower time limit"
+msgstr "Timedelen af den nedre tidsgrænse"
+
+#: ../libegg/egg-datetime.c:417
+msgid "Upper limit hour"
+msgstr "Øvre timegrænse"
+
+#: ../libegg/egg-datetime.c:418
+msgid "Hour part of the upper time limit"
+msgstr "Timedelen af den øvre tidsgrænse"
+
+#: ../libegg/egg-datetime.c:423
+msgid "Lower limit minute"
+msgstr "Nedre minutgrænse"
+
+#: ../libegg/egg-datetime.c:424
+msgid "Minute part of the lower time limit"
+msgstr "Minut-delen af den nedre tidsgrænse"
+
+#: ../libegg/egg-datetime.c:429
+msgid "Upper limit minute"
+msgstr "Øvre minutgrænse"
+
+#: ../libegg/egg-datetime.c:430
+msgid "Minute part of the upper time limit"
+msgstr "Minut-delen af den øvre tidsgrænse"
+
+#: ../libegg/egg-datetime.c:435
+msgid "Lower limit second"
+msgstr "Nedre sekundgrænse"
+
+#: ../libegg/egg-datetime.c:436
+msgid "Second part of the lower time limit"
+msgstr "Sekund-delen af den nedre tidsgrænse"
+
+#: ../libegg/egg-datetime.c:441
+msgid "Upper limit second"
+msgstr "Øvre sekundgrænse"
+
+#: ../libegg/egg-datetime.c:442
+msgid "Second part of the upper time limit"
+msgstr "Sekund-delen af den øvre tidsgrænse"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../libegg/egg-datetime.c:484
+msgid "calendar:week_start:0"
+msgstr "calendar:week_start:1"
+
+#: ../libegg/egg-datetime.c:506
+msgid "Date"
+msgstr "Dato"
+
+#: ../libegg/egg-datetime.c:506
+msgid "Enter the date directly"
+msgstr "Indtast datoen direkte"
+
+#: ../libegg/egg-datetime.c:513
+msgid "Select Date"
+msgstr "Vælg dato"
+
+#: ../libegg/egg-datetime.c:513
+msgid "Select the date from a calendar"
+msgstr "Vælg en dato fra en kalender"
+
+#: ../libegg/egg-datetime.c:531 ../libegg/egg-datetime.c:2215
+msgid "Time"
+msgstr "Tid"
+
+#: ../libegg/egg-datetime.c:531
+msgid "Enter the time directly"
+msgstr "Indtast tiden direkte"
+
+#: ../libegg/egg-datetime.c:538
+msgid "Select Time"
+msgstr "Vælg tid"
+
+#: ../libegg/egg-datetime.c:538
+msgid "Select the time from a list"
+msgstr "Vælg tiden fra en liste"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:812
+msgid "24hr: no"
+msgstr "24hr: yes"
+
+#: ../libegg/egg-datetime.c:816 ../libegg/egg-datetime.c:1276
+#: ../libegg/egg-datetime.c:1280
+msgid "AM"
+msgstr "AM"
+
+#: ../libegg/egg-datetime.c:818 ../libegg/egg-datetime.c:1277
+#: ../libegg/egg-datetime.c:1284
+msgid "PM"
+msgstr "PM"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:826
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:829
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:833
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:836
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../libegg/egg-datetime.c:1192
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%3$02d/%2$02d-%1$04d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1257
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Filen er ikke en gyldig .desktop-fil"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Ukendt version af skrivebordsfil \"%s\""
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Starter %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Programmet accepterer ikke dokumenter på kommandolinjen"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Ukendt opstartstilvalg: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Kan ikke give dokument-URI'er til en \"Type=Link\"-skrivebordspost"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Ikke et kørbart element"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Deaktivér forbindelse til sessionshåndtering"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Angiv fil indeholdende gemt konfiguration"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Angiv ID for sessionshåndtering"
+
+#: ../libegg/eggsmclient.c:231 ../pgp/bastile-pgp-key-properties.c:1314
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Indstillinger for sessionshåndtering:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Vis indstillinger for sessionshåndtering"
+
+# Hvorfor skal vi dog oversætte tegnet : ?
+#: ../libbastile/bastile-add-keyserver.xml.h:1
+msgid ":"
+msgstr ":"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:2
+msgid "Add Key Server"
+msgstr "Tilføj nøgleserver"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:3
+msgid "Host:"
+msgstr "Vært:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:4
+msgid "Key Server Type:"
+msgstr "Nøgleservertype:"
+
+#: ../libbastile/bastile-add-keyserver.xml.h:6
+msgid "The port to access the server on."
+msgstr "Porten der benyttes til at forbinde til serveren."
+
+# Mærkeligt.
+#: ../libbastile/bastile-add-keyserver.xml.h:7
+msgid "initial temporary item"
+msgstr "indledningsvis midlertidigt objekt"
+
+#: ../libbastile/bastile-notification.c:576
+#: ../libbastile/bastile-notification.c:604
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Nøgle importeret"
+msgstr[1] "Nøgler importeret"
+
+#: ../libbastile/bastile-notification.c:580
+#: ../libbastile/bastile-notification.c:603
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importerede %i nøgle"
+msgstr[1] "Importerede %i nøgler"
+
+#: ../libbastile/bastile-notification.c:582
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importerede en nøgle for"
+msgstr[1] "Importerede nøgler for"
+
+#: ../libbastile/bastile-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Påmindelser"
+
+#: ../libbastile/bastile-object.c:317
+msgid "Symmetric Key"
+msgstr "Symmetrisk nøgle"
+
+#: ../libbastile/bastile-object.c:320
+msgid "Public Key"
+msgstr "Offentlig nøgle"
+
+#: ../libbastile/bastile-object.c:323
+msgid "Private Key"
+msgstr "Privat nøgle"
+
+#: ../libbastile/bastile-object.c:326
+msgid "Credentials"
+msgstr "Akkreditiver"
+
+#.
+#. * Translators: "This object is a means of storing items such as
+#. * name, email address, etc. that make up one's digital identity.
+#.
+#: ../libbastile/bastile-object.c:333
+msgid "Identity"
+msgstr "Identitet"
+
+#: ../libbastile/bastile-passphrase.c:200
+msgid "Passphrase"
+msgstr "Adgangsfrase"
+
+#: ../libbastile/bastile-passphrase.c:203
+#: ../ssh/bastile-ssh-operation.c:480
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: ../libbastile/bastile-passphrase.c:269
+msgid "Confirm:"
+msgstr "Bekræft:"
+
+#: ../libbastile/bastile-prefs.c:62
+msgid "Not a valid Key Server address."
+msgstr "Ugyldig nøgleserver-adresse."
+
+#: ../libbastile/bastile-prefs.c:63
+msgid ""
+"For help contact your system adminstrator or the administrator of the key "
+"server."
+msgstr ""
+"Kontakt din systemadministrator eller nøgleserverens administrator for hjælp."
+
+# hvis det skal oversættes til andet end URL, så er det relevant hvorvidt oversættelsen skal begynde med stort eller småt
+#: ../libbastile/bastile-prefs.c:172
+msgid "URL"
+msgstr "URL"
+
+#: ../libbastile/bastile-prefs.c:352
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: ../libbastile/bastile-prefs.c:425
+msgid "None: Don't publish keys"
+msgstr "Ingen: Offentliggør ikke nøgler"
+
+#: ../libbastile/bastile-prefs.xml.h:1
+msgid "Automatically retrieve keys from _key servers"
+msgstr "Hent automatisk nøgler fra _nøgleservere"
+
+#: ../libbastile/bastile-prefs.xml.h:2
+msgid "Automatically synchronize _modified keys with key servers"
+msgstr "Synkronisér automatisk æ_ndrede nøgler med nøgleservere"
+
+#: ../libbastile/bastile-prefs.xml.h:3
+msgid "Key Servers"
+msgstr "Nøgleservere"
+
+#: ../libbastile/bastile-prefs.xml.h:4
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#: ../libbastile/bastile-prefs.xml.h:5
+msgid "_Find keys via:"
+msgstr "_Find nøgler via:"
+
+#: ../libbastile/bastile-prefs.xml.h:6
+msgid "_Publish keys to:"
+msgstr "_Offentliggør nøgler til:"
+
+# Hvad er dette?
+#: ../libbastile/bastile-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Forløbstitel"
+
+#: ../libbastile/bastile-unknown.c:67
+msgid "Unavailable"
+msgstr "Utilgængelig"
+
+#: ../libbastile/bastile-util.c:240
+msgid "%Y-%m-%d"
+msgstr "%d/%m %Y"
+
+#: ../libbastile/bastile-util.c:516
+msgid "Key Data"
+msgstr "Nøgledata"
+
+#: ../libbastile/bastile-util.c:518
+msgid "Multiple Keys"
+msgstr "Adskillige nøgler"
+
+#: ../libbastile/bastile-util.c:774
+msgid "Couldn't run file-roller"
+msgstr "Kunne ikke køre Filpakker"
+
+# Package er flertydig
+#: ../libbastile/bastile-util.c:780
+msgid "Couldn't package files"
+msgstr "Kunne ikke pakke filer"
+
+#: ../libbastile/bastile-util.c:781
+msgid "The file-roller process did not complete successfully"
+msgstr "Filpakker-processen gennemførte ikke sin opgave"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libbastile/bastile-util.c:957
+msgid "All key files"
+msgstr "Alle nøglefiler"
+
+#: ../libbastile/bastile-util.c:968 ../libbastile/bastile-util.c:1016
+#: ../pgp/bastile-gpgme-photos.c:242
+msgid "All files"
+msgstr "Alle filer"
+
+#: ../libbastile/bastile-util.c:1009
+msgid "Archive files"
+msgstr "Arkivfiler"
+
+#: ../libbastile/bastile-util.c:1079
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>En fil med dette navn findes allerede.</b>\n"
+"\n"
+"Vil du erstatte den med en ny fil?"
+
+#: ../libbastile/bastile-util.c:1082
+msgid "_Replace"
+msgstr "_Erstat"
+
+#: ../libbastile/bastile-validity.c:40 ../pgp/bastile-gpgme-subkey.c:197
+#: ../pgp/bastile-pgp-key-properties.c:1133
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:46
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:40
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: ../libbastile/bastile-validity.c:42
+#: ../pgp/bastile-pgp-key-properties.c:1139
+msgctxt "Validity"
+msgid "Never"
+msgstr "Aldrig"
+
+#: ../libbastile/bastile-validity.c:44
+#: ../pgp/bastile-pgp-key-properties.c:1146
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:32
+msgid "Marginal"
+msgstr "Underordnet"
+
+#: ../libbastile/bastile-validity.c:46
+#: ../pgp/bastile-pgp-key-properties.c:1152
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:26
+msgid "Full"
+msgstr "Fuld"
+
+# "This level of trust should only be assigned to your own keys", står der i dokumentationen, så ultimativ må være en nogenlunde oversættelse
+#: ../libbastile/bastile-validity.c:48
+#: ../pgp/bastile-pgp-key-properties.c:1158
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:45
+msgid "Ultimate"
+msgstr "Ultimativ"
+
+#: ../libbastile/bastile-validity.c:50
+#: ../pgp/bastile-pgp-key-properties.c:1351
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: ../libbastile/bastile-validity.c:52
+#: ../pgp/bastile-pgp-key-properties.c:1347
+msgid "Revoked"
+msgstr "Tilbagekaldt"
+
+#: ../libbastile/bastile-widget.c:480
+#, c-format
+msgid "Could not display help: %s"
+msgstr "Kunne ikke vise hjælp: %s"
+
+#: ../pgp/bastile-add-subkey.xml.h:1
+msgid "Expiration Date:"
+msgstr "Udløbsdato:"
+
+#: ../pgp/bastile-add-subkey.xml.h:2
+msgid "Generate a new subkey"
+msgstr "Opret en ny undernøgle"
+
+#: ../pgp/bastile-add-subkey.xml.h:3
+msgid "If key never expires"
+msgstr "Om nøglen aldrig udløber"
+
+#: ../pgp/bastile-add-subkey.xml.h:4
+msgid "Key _Length:"
+msgstr "Nøgle_længde:"
+
+#: ../pgp/bastile-add-subkey.xml.h:5
+msgid "Key _Type:"
+msgstr "Nøgle_type:"
+
+#: ../pgp/bastile-add-subkey.xml.h:6
+msgid "Length of Key"
+msgstr "Nøglelængde"
+
+#: ../pgp/bastile-add-subkey.xml.h:7
+msgid "Never E_xpires"
+msgstr "Udløber _aldrig"
+
+#: ../pgp/bastile-add-uid.xml.h:1
+msgid "Add User ID"
+msgstr "Tilføj bruger-ID"
+
+#: ../pgp/bastile-add-uid.xml.h:2
+msgid "Create the new user ID"
+msgstr "Opret den nye bruger-ID"
+
+#: ../pgp/bastile-add-uid.xml.h:3 ../pgp/bastile-pgp-generate.xml.h:7
+msgid "Full _Name:"
+msgstr "Fuldt _navn:"
+
+#: ../pgp/bastile-add-uid.xml.h:4
+msgid "Key Co_mment:"
+msgstr "_Nøglekommentar:"
+
+# denne formulering undgår "lang vs. langt"-diskussionen
+#: ../pgp/bastile-add-uid.xml.h:5
+msgid "Must be at least 5 characters long"
+msgstr "Skal indeholde mindst 5 tegn"
+
+#: ../pgp/bastile-add-uid.xml.h:6
+msgid "Optional comment describing key"
+msgstr "Valgfri nøglebeskrivelse"
+
+#: ../pgp/bastile-add-uid.xml.h:7
+msgid "Optional email address"
+msgstr "Valgfri e-postadresse"
+
+#: ../pgp/bastile-add-uid.xml.h:8 ../pgp/bastile-pgp-generate.xml.h:13
+msgid "_Email Address:"
+msgstr "_E-postadresse:"
+
+#: ../pgp/bastile-expires.xml.h:1
+msgid "C_hange"
+msgstr "_Ændr"
+
+#: ../pgp/bastile-expires.xml.h:2 ../pgp/bastile-revoke.xml.h:4
+msgid "Revoke key"
+msgstr "Tilbagekald nøgle"
+
+#: ../pgp/bastile-expires.xml.h:3
+msgid "_Never expires"
+msgstr "Udløber _aldrig"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:147
+msgid "Couldn't add subkey"
+msgstr "Kunne ikke tilføje undernøgle"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:166
+#, c-format
+msgid "Add subkey to %s"
+msgstr "Føj undernøgle til %s"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:182 ../pgp/bastile-gpgme-generate.c:118
+msgid "DSA (sign only)"
+msgstr "DSA (underskriv kun)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:190
+msgid "ElGamal (encrypt only)"
+msgstr "ElGamal (kryptér kun)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:196 ../pgp/bastile-gpgme-generate.c:119
+msgid "RSA (sign only)"
+msgstr "RSA (underskriv kun)"
+
+#: ../pgp/bastile-gpgme-add-subkey.c:202
+msgid "RSA (encrypt only)"
+msgstr "RSA (kryptér kun)"
+
+#: ../pgp/bastile-gpgme-add-uid.c:85
+msgid "Couldn't add user id"
+msgstr "Kunne ikke tilføje bruger-ID"
+
+#: ../pgp/bastile-gpgme-add-uid.c:107
+#, c-format
+msgid "Add user ID to %s"
+msgstr "Føj bruger-ID til %s"
+
+#: ../pgp/bastile-gpgme.c:72
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Dekryptering slog fejl. Du har sandsynligvis ikke dekrypteringsnøglen."
+
+#: ../pgp/bastile-gpgme-expires.c:58
+msgid "Invalid expiry date"
+msgstr "Ugyldig udløbsdato"
+
+#: ../pgp/bastile-gpgme-expires.c:59
+msgid "The expiry date must be in the future"
+msgstr "Udløbsdatoen skal være i fremtiden"
+
+#: ../pgp/bastile-gpgme-expires.c:72
+msgid "Couldn't change expiry date"
+msgstr "Kunne ikke ændre udløbsdato"
+
+#: ../pgp/bastile-gpgme-expires.c:131
+#, c-format
+msgid "Expiry: %s"
+msgstr "Udløb: %s"
+
+#: ../pgp/bastile-gpgme-generate.c:79
+msgid "PGP Key"
+msgstr "PGP-nøgle"
+
+#: ../pgp/bastile-gpgme-generate.c:80
+msgid "Used to encrypt email and files"
+msgstr "Bruges til at kryptere e-post og filer"
+
+#: ../pgp/bastile-gpgme-generate.c:116 ../ssh/bastile-ssh-generate.xml.h:9
+msgid "RSA"
+msgstr "RSA"
+
+#: ../pgp/bastile-gpgme-generate.c:117
+msgid "DSA Elgamal"
+msgstr "DSA Elgamal"
+
+#: ../pgp/bastile-gpgme-generate.c:135
+msgid "Couldn't generate PGP key"
+msgstr "Kunne ikke generere PGP-nøgle"
+
+#: ../pgp/bastile-gpgme-generate.c:195
+msgid "Passphrase for New PGP Key"
+msgstr "Adgangsfrase til ny PGP-nøgle"
+
+#: ../pgp/bastile-gpgme-generate.c:196
+msgid "Enter the passphrase for your new key twice."
+msgstr "Skriv adgangsfrasen til din nye nøgle to gange."
+
+#: ../pgp/bastile-gpgme-generate.c:205
+msgid "Couldn't generate key"
+msgstr "Kunne ikke generere nøgle"
+
+#: ../pgp/bastile-gpgme-generate.c:207
+msgid "Generating key"
+msgstr "Genererer nøgle"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "Wrong password"
+msgstr "Forkert adgangskode"
+
+#: ../pgp/bastile-gpgme-key-op.c:301
+msgid "This was the third time you entered a wrong password. Please try again."
+msgstr ""
+"Dette var tredje gang, du indtastede en forkert adgangskode. Prøv venligst "
+"igen."
+
+#: ../pgp/bastile-gpgme-photos.c:73
+#, c-format
+msgid ""
+"<big><b>The photo is too large</b></big>\n"
+"The recommended size for a photo on your key is %d x %d pixels."
+msgstr ""
+"<big><b>Dette billede er for stort</b></big>\n"
+"Den anbefalede billedstørrelse til din nøgle er %d x %d pixler."
+
+# Billedskalering, naturligvis
+#: ../pgp/bastile-gpgme-photos.c:78
+msgid "_Don't Resize"
+msgstr "Skalér _ikke"
+
+#: ../pgp/bastile-gpgme-photos.c:79
+msgid "_Resize"
+msgstr "_Skalér"
+
+#: ../pgp/bastile-gpgme-photos.c:128
+#, c-format
+msgid ""
+"This is not a image file, or an unrecognized kind of image file. Try to use "
+"a JPEG image."
+msgstr ""
+"Dette er ikke en billedfil, eller det er en ukendt billedfils-type. Prøv at "
+"bruge et JPEG-billede."
+
+#: ../pgp/bastile-gpgme-photos.c:224
+msgid "All image files"
+msgstr "Alle billedfiler"
+
+#: ../pgp/bastile-gpgme-photos.c:237
+msgid "All JPEG files"
+msgstr "Alle JPEG-filer"
+
+#: ../pgp/bastile-gpgme-photos.c:261
+msgid "Choose Photo to Add to Key"
+msgstr "Vælg billede til nøglen"
+
+#: ../pgp/bastile-gpgme-photos.c:290 ../pgp/bastile-gpgme-photos.c:294
+msgid "Couldn't add photo"
+msgstr "Kunne ikke tilføje billede"
+
+#: ../pgp/bastile-gpgme-photos.c:291
+msgid "The file could not be loaded. It may be in an invalid format"
+msgstr "Filen kunne ikke indlæses. Måske benytter den et ugyldigt format"
+
+#: ../pgp/bastile-gpgme-photos.c:320
+msgid "Are you sure you want to remove the current photo from your key?"
+msgstr "Er du sikker på at du vil fjerne det nuværende billede fra din nøgle?"
+
+#: ../pgp/bastile-gpgme-photos.c:333
+msgid "Couldn't delete photo"
+msgstr "Kunne ikke slette billede"
+
+#: ../pgp/bastile-gpgme-revoke.c:70
+msgid "Couldn't revoke subkey"
+msgstr "Kunne ikke tilbagekalde undernøgle"
+
+#: ../pgp/bastile-gpgme-revoke.c:91
+#, c-format
+msgid "Revoke: %s"
+msgstr "Tilbagekald: %s"
+
+#: ../pgp/bastile-gpgme-revoke.c:102
+msgid "No reason"
+msgstr "Ingen grund"
+
+#: ../pgp/bastile-gpgme-revoke.c:103
+msgid "No reason for revoking key"
+msgstr "Ingen grund til at tilbagekalde nøgle"
+
+#: ../pgp/bastile-gpgme-revoke.c:109
+msgid "Compromised"
+msgstr "Kompromitteret"
+
+#: ../pgp/bastile-gpgme-revoke.c:110
+msgid "Key has been compromised"
+msgstr "Nøglen er kompromitteret"
+
+#: ../pgp/bastile-gpgme-revoke.c:116
+msgid "Superseded"
+msgstr "Erstattet"
+
+#: ../pgp/bastile-gpgme-revoke.c:117
+msgid "Key has been superseded"
+msgstr "Nøglen er blevet erstattet"
+
+#: ../pgp/bastile-gpgme-revoke.c:123
+msgid "Not Used"
+msgstr "Ubenyttet"
+
+#: ../pgp/bastile-gpgme-revoke.c:124
+msgid "Key is no longer used"
+msgstr "Nøglen er ikke længere i brug"
+
+#: ../pgp/bastile-gpgme-revoke.c:161
+#, c-format
+msgid ""
+"You are about to add %s as a revoker for %s. This operation cannot be "
+"undone! Are you sure you want to continue?"
+msgstr ""
+"Du er ved at tilføje %s som tilbagekalder for %s. Denne operation kan ikke "
+"fortrydes! Er du sikker på at du vil fortsætte?"
+
+#: ../pgp/bastile-gpgme-revoke.c:173
+msgid "Couldn't add revoker"
+msgstr "Kunne ikke tilføje tilbagekalder"
+
+#: ../pgp/bastile-gpgme-sign.c:99
+#, c-format
+msgid ""
+"This key was already signed by\n"
+"\"%s\""
+msgstr ""
+"Denne nøgle var allerede underskrevet af\n"
+"\"%s\""
+
+#: ../pgp/bastile-gpgme-sign.c:103
+msgid "Couldn't sign key"
+msgstr "Kunne ikke underskrive nøgle"
+
+#. TODO: We should be giving an error message that allows them to
+#. generate or import a key
+#: ../pgp/bastile-gpgme-sign.c:157 ../pgp/bastile-signer.c:61
+msgid "No keys usable for signing"
+msgstr "Ingen brugbare nøgler til underskrift"
+
+#: ../pgp/bastile-gpgme-sign.c:158
+msgid ""
+"You have no personal PGP keys that can be used to indicate your trust of "
+"this key."
+msgstr ""
+"Du har ingen personlige PGP-nøgler der kan bruges til at angive din tillid "
+"til denne nøgle."
+
+#: ../pgp/bastile-gpgme-source.c:102
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Forkert adgangsfrase."
+
+#: ../pgp/bastile-gpgme-source.c:106
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Skriv ny adgangsfrase til \"%s\""
+
+#: ../pgp/bastile-gpgme-source.c:108
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Skriv adgangsfrase til \"%s\""
+
+#: ../pgp/bastile-gpgme-source.c:111
+#: ../src/bastile-change-passphrase.xml.h:4
+msgid "Enter new passphrase"
+msgstr "Skriv ny adgangsfrase"
+
+#: ../pgp/bastile-gpgme-source.c:113
+msgid "Enter passphrase"
+msgstr "Skriv adgangsfrase"
+
+#. TODO: We can use the GPGME progress to make this more accurate
+#: ../pgp/bastile-gpgme-source.c:725
+#, c-format
+msgid "Loaded %d key"
+msgid_plural "Loaded %d keys"
+msgstr[0] "%d nøgle indlæst"
+msgstr[1] "%d nøgler indlæst"
+
+#: ../pgp/bastile-gpgme-source.c:780
+msgid "Loading Keys..."
+msgstr "Indlæser nøgler..."
+
+#: ../pgp/bastile-gpgme-source.c:823
+msgid ""
+"Invalid key data (missing UIDs). This may be due to a computer with a date "
+"set in the future or a missing self-signature."
+msgstr ""
+"Ugyldige nøgledata (manglende UID'er). Dette kan skyldes at en computer har "
+"dato indstillet til fremtiden eller en manglende egenunderskrift."
+
+#: ../pgp/bastile-gpgme-source.c:913 ../src/bastile-key-manager.c:544
+msgid "Importing Keys"
+msgstr "Importerer nøgler"
+
+#: ../pgp/bastile-gpgme-source.c:949
+msgid "Exporting Keys"
+msgstr "Eksporterer nøgler"
+
+# Hvorfor er dette markeret til oversættelse? Velsagtens noget med fremmede alfabeter. Men selv på japansk eller kyrillisk ser man da ikke den slags oversat...
+#: ../pgp/bastile-gpgme-subkey.c:199
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: ../pgp/bastile-hkp-source.c:387
+#, c-format
+msgid "Search was not specific enough. Server '%s' found too many keys."
+msgstr ""
+"Søgningen var ikke tilstrækkeligt specifik. Serveren \"%s\" fandt for mange "
+"nøgler."
+
+#: ../pgp/bastile-hkp-source.c:389
+#, c-format
+msgid "Couldn't communicate with server '%s': %s"
+msgstr "Kunne ikke kommunikere med serveren \"%s\": %s"
+
+#: ../pgp/bastile-hkp-source.c:671
+msgid "Searching for keys..."
+msgstr "Søger efter nøgler..."
+
+#: ../pgp/bastile-hkp-source.c:759
+msgid "Uploading keys..."
+msgstr "Lægger nøgler op..."
+
+#: ../pgp/bastile-hkp-source.c:857
+msgid "Retrieving keys..."
+msgstr "Henter nøgler..."
+
+#: ../pgp/bastile-hkp-source.c:987
+#, c-format
+msgid "Searching for keys on: %s"
+msgstr "Søger efter nøgler på: %s"
+
+#. The ldap_cb and chain_cb were set in bastile_ldap_operation_start
+#: ../pgp/bastile-hkp-source.c:1072 ../pgp/bastile-hkp-source.c:1154
+#: ../pgp/bastile-ldap-source.c:668
+#, c-format
+msgid "Connecting to: %s"
+msgstr "Forbinder til: %s"
+
+#: ../pgp/bastile-hkp-source.c:1184
+msgid "HTTP Key Server"
+msgstr "HTTP-nøgleserver"
+
+#: ../pgp/bastile-ldap-source.c:459
+#, c-format
+msgid "Couldn't communicate with '%s': %s"
+msgstr "Kunne ikke kommunikere med \"%s\": %s"
+
+#: ../pgp/bastile-ldap-source.c:641
+#, c-format
+msgid "Couldn't resolve address: %s"
+msgstr "Kunne ikke finde adressen: %s"
+
+#: ../pgp/bastile-ldap-source.c:719
+#, c-format
+msgid "Resolving server address: %s"
+msgstr "Finder serveradresse: %s"
+
+#: ../pgp/bastile-ldap-source.c:955
+#, c-format
+msgid "Searching for keys containing '%s'..."
+msgstr "Søger efter nøgler der indeholder \"%s\"..."
+
+#: ../pgp/bastile-ldap-source.c:983
+#, c-format
+msgid "Searching for key id '%s'..."
+msgstr "Søger efter nøgle-ID \"%s\"..."
+
+#: ../pgp/bastile-ldap-source.c:1089
+msgid "Retrieving remote keys..."
+msgstr "Henter fjerne nøgler..."
+
+#: ../pgp/bastile-ldap-source.c:1221
+msgid "Sending keys to key server..."
+msgstr "Sender nøgler til nøgleserver..."
+
+#: ../pgp/bastile-ldap-source.c:1423
+msgid "LDAP Key Server"
+msgstr "LDAP-nøgleserver"
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "_Sign Key..."
+msgstr "_Underskriv nøgle..."
+
+#: ../pgp/bastile-pgp-commands.c:103
+msgid "Sign public key"
+msgstr "Underskriv offentlig nøgle"
+
+#: ../pgp/bastile-pgp-commands.c:171
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Er du sikker på at du vil slette %s permanent?"
+
+#: ../pgp/bastile-pgp-commands.c:176
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys and identities?"
+msgstr "Er du sikker på at du vil slette %d nøgler og identiteter permanent?"
+
+#: ../pgp/bastile-pgp-commands.c:178
+#, c-format
+msgid "Are you sure you want to permanently delete %d keys?"
+msgstr "Er du sikker på at du vil slette %d nøgler permanent?"
+
+#: ../pgp/bastile-pgp-commands.c:180
+#, c-format
+msgid "Are you sure you want to permanently delete %d identities?"
+msgstr "Er du sikker på at du vil slette %d identiteter permanent?"
+
+#: ../pgp/bastile-pgp-generate.xml.h:1 ../ssh/bastile-ssh-generate.xml.h:1
+msgid "<b>_Advanced key options</b>"
+msgstr "<b>_Avancerede nøgleindstillinger</b>"
+
+#: ../pgp/bastile-pgp-generate.xml.h:2
+msgid "A PGP key allows you to encrypt email or files to other people."
+msgstr ""
+"En PGP-nøgle tillader dig at kryptere e-post eller filer til andre mennesker."
+
+#: ../pgp/bastile-pgp-generate.xml.h:3
+msgid "Algorithms here"
+msgstr "Algoritmer her"
+
+#: ../pgp/bastile-pgp-generate.xml.h:4
+msgid "C_reate"
+msgstr "_Opret"
+
+#: ../pgp/bastile-pgp-generate.xml.h:5
+msgid "E_xpiration Date:"
+msgstr "_Udløbsdato:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:6 ../ssh/bastile-ssh-generate.xml.h:5
+msgid "Encryption _Type:"
+msgstr "Krypterings_type:"
+
+#: ../pgp/bastile-pgp-generate.xml.h:8
+msgid "Generate a new key"
+msgstr "Generér en ny nøgle"
+
+#: ../pgp/bastile-pgp-generate.xml.h:9 ../ssh/bastile-ssh-generate.xml.h:7
+msgid "Key _Strength (bits):"
+msgstr "Nøgle_styrke (bit):"
+
+#: ../pgp/bastile-pgp-generate.xml.h:10
+msgid "Ne_ver Expires"
+msgstr "Udløber _aldrig"
+
+#: ../pgp/bastile-pgp-generate.xml.h:11
+msgid "New PGP Key"
+msgstr "Ny PGP-nøgle"
+
+#: ../pgp/bastile-pgp-generate.xml.h:12
+msgid "_Comment:"
+msgstr "_Kommentar:"
+
+#: ../pgp/bastile-pgp-key.c:201
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:38
+msgid "Private PGP Key"
+msgstr "Privat PGP-nøgle"
+
+#: ../pgp/bastile-pgp-key.c:204
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:34
+msgid "Public PGP Key"
+msgstr "Offentlig PGP-nøgle"
+
+#: ../pgp/bastile-pgp-key.c:583 ../pgp/bastile-pgp-key-properties.c:1349
+msgid "Expired"
+msgstr "Udløbet"
+
+#: ../pgp/bastile-pgp-key-properties.c:224
+msgid "Couldn't change primary user ID"
+msgstr "Kunne ikke ændre primær bruger-ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:241
+#, c-format
+msgid "Are you sure you want to permanently delete the '%s' user ID?"
+msgstr "Er du sikker på at du vil slette bruger-ID'en \"%s\" permanent?"
+
+#: ../pgp/bastile-pgp-key-properties.c:251
+msgid "Couldn't delete user ID"
+msgstr "Kunne ikke slette bruger-ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:333
+#: ../pgp/bastile-pgp-key-properties.c:1464
+msgid "[Unknown]"
+msgstr "[Ukendt]"
+
+#: ../pgp/bastile-pgp-key-properties.c:426
+#: ../pgp/bastile-pgp-key-properties.c:1742
+msgid "Name/Email"
+msgstr "Navn/e-postadresse"
+
+#: ../pgp/bastile-pgp-key-properties.c:431
+msgid "Signature ID"
+msgstr "Underskrifts-ID"
+
+#: ../pgp/bastile-pgp-key-properties.c:552
+msgid "Couldn't change primary photo"
+msgstr "Kunne ikke ændre primært billede"
+
+#: ../pgp/bastile-pgp-key-properties.c:775
+msgid "(unknown)"
+msgstr "(ukendt)"
+
+#: ../pgp/bastile-pgp-key-properties.c:778
+#, c-format
+msgid "This key expired on: %s"
+msgstr "Denne nøgle udløb den: %s"
+
+#: ../pgp/bastile-pgp-key-properties.c:946
+#, c-format
+msgid "Are you sure you want to permanently delete subkey %d of %s?"
+msgstr "Er du sikker på at du vil slette undernøgle %d af %s permanent?"
+
+#: ../pgp/bastile-pgp-key-properties.c:955
+msgid "Couldn't delete subkey"
+msgstr "Kunne ikke slette undernøgle"
+
+#: ../pgp/bastile-pgp-key-properties.c:991
+#: ../pgp/bastile-pgp-key-properties.c:1427
+msgid "Unable to change trust"
+msgstr "Kunne ikke ændre tillidsindstilling"
+
+#: ../pgp/bastile-pgp-key-properties.c:1006 ../src/bastile-viewer.c:291
+#: ../ssh/bastile-ssh-key-properties.c:168
+#, c-format
+msgid "Couldn't export key to \"%s\""
+msgstr "Kunne ikke eksportere nøgle til \"%s\""
+
+#: ../pgp/bastile-pgp-key-properties.c:1035
+#: ../ssh/bastile-ssh-key-properties.c:193
+msgid "Export Complete Key"
+msgstr "Eksportér fuldstændig nøgle"
+
+#: ../pgp/bastile-pgp-key-properties.c:1060
+#: ../ssh/bastile-ssh-key-properties.c:215
+msgid "Couldn't export key."
+msgstr "Kunne ikke eksportere nøgle."
+
+#: ../pgp/bastile-pgp-key-properties.c:1267
+#: ../pgp/bastile-pgp-key-properties.c:1356
+msgctxt "Expires"
+msgid "Never"
+msgstr "Aldrig"
+
+#. The key type column
+#: ../pgp/bastile-pgp-key-properties.c:1317
+#: ../src/bastile-key-manager-store.c:896
+msgid "Type"
+msgstr "Type"
+
+#: ../pgp/bastile-pgp-key-properties.c:1320
+msgid "Created"
+msgstr "Oprettet"
+
+#: ../pgp/bastile-pgp-key-properties.c:1323
+msgid "Expires"
+msgstr "Udløber"
+
+#: ../pgp/bastile-pgp-key-properties.c:1326
+msgid "Status"
+msgstr "Status"
+
+#: ../pgp/bastile-pgp-key-properties.c:1329
+msgid "Strength"
+msgstr "Styrke"
+
+#: ../pgp/bastile-pgp-key-properties.c:1353
+msgid "Good"
+msgstr "God"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>Handlinger</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:2
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>Kommentar:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:3
+msgid "<b>Dates</b>"
+msgstr "<b>Datoer</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:4
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:3
+msgid "<b>Email:</b>"
+msgstr "<b>E-post:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:5
+msgid "<b>Fingerprint</b>"
+msgstr "<b>Fingeraftryk</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:6
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:6
+msgid "<b>Key ID:</b>"
+msgstr "<b>Nøgle-ID:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:7
+msgid "<b>Key Names and Signatures</b>"
+msgstr "<b>Nøglenavne og underskrifter</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:8
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:7
+msgid "<b>Photo </b>"
+msgstr "<b>Billede </b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:9
+msgid "<b>Technical Details</b>"
+msgstr "<b>Tekniske detaljer</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:10
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:9
+msgid "<b>This key has been revoked</b>"
+msgstr "<b>Denne nøgle er blevet tilbagekaldt</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:11
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:10
+msgid "<b>This key has expired</b>"
+msgstr "<b>Denne nøgle er udløbet</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:12
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:11
+#: ../ssh/bastile-ssh-key-properties.xml.h:9
+msgid "<b>Type:</b>"
+msgstr "<b>Type:</b>"
+
+#. To translators: This is the noun not the verb.
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:14
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:13
+#: ../ssh/bastile-ssh-key-properties.xml.h:11
+msgid "<b>Use:</b>"
+msgstr "<b>Brug:</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:15
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:17
+msgid "<b>_Subkeys</b>"
+msgstr "<b>_Undernøgler</b>"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:16
+msgid "Add"
+msgstr "Tilføj"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:17
+msgid "Add a photo to this key"
+msgstr "Føj et billede til denne nøgle"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:18
+#: ../ssh/bastile-ssh-key-properties.xml.h:14
+msgid "Change _Passphrase"
+msgstr "Skift _adgangsfrase"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:20
+msgid "Decrypt files and email sent to you."
+msgstr "Dekryptér filer og e-post sendt til dig."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:21
+msgid "Delete"
+msgstr "Slet"
+
+# Bøjning ... ?
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:23
+msgid "Expire"
+msgstr "Udløb"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:24
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:21
+msgid "Expires:"
+msgstr "Udløber:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:25
+msgid "Export"
+msgstr "Eksportér"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:27
+msgid "Go to next photo"
+msgstr "Gå til næste billede"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:28
+msgid "Go to previous photo"
+msgstr "Gå til forrige billede"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:29
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:29
+msgid "Key ID:"
+msgstr "Nøgle-ID:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:31
+msgid "Make this photo the primary photo"
+msgstr "Gør dette til hovedbilledet"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:33
+msgid "Names and Signatures"
+msgstr "Navne og underskrifter"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:34
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:32
+msgid "Never"
+msgstr "Aldrig"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:35
+msgid "Override Owner _Trust:"
+msgstr "Underkend ejers _tillid:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:36
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:33
+msgid "Owner"
+msgstr "Ejer"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:37
+msgid "Primary"
+msgstr "Primær"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:39
+msgid "Remove this photo from this key"
+msgstr "Fjern dette billede fra denne nøgle"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:40
+msgid "Revoke"
+msgstr "Tilbagekald"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:41
+msgid "Sign"
+msgstr "Underskriv"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:42
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:35
+msgid "Strength:"
+msgstr "Styrke:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:43
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:36
+msgid "The owner of the key revoked the key. It can no longer be used."
+msgstr ""
+"Nøglen er blevet tilbagekaldt af dens ejer. Den kan ikke længere bruges."
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:47
+msgid "_Add Name"
+msgstr "_Tilføj navn"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:48
+msgid "_Export Complete Key:"
+msgstr "_Eksportér fuldstændig nøgle:"
+
+#: ../pgp/bastile-pgp-private-key-properties.xml.h:49
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:46
+msgctxt "name-of-key"
+msgid "<b>Name:</b>"
+msgstr "<b>Navn:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:2
+msgid "<b>Dates:</b>"
+msgstr "<b>Datoer:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:4
+#: ../ssh/bastile-ssh-key-properties.xml.h:2
+msgid "<b>Fingerprint:</b>"
+msgstr "<b>Fingeraftryk:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:5
+msgid "<b>Indicate Trust:</b>"
+msgstr "<b>Angiv tillid:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:14
+msgid "<b>Your trust of this key</b>"
+msgstr "<b>Din tillid til denne nøgle</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:15
+msgid "<b>_Other Names:</b>"
+msgstr "<b>_Andre navne:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:16
+msgid "<b>_People who have signed this key:</b>"
+msgstr "<b>_Personer som har underskrevet denne nøgle:</b>"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:20
+msgid "Encrypt files and email to the key's owner "
+msgstr "Kryptér filer og e-post til nøglens ejer "
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:22
+msgid "Fully"
+msgstr "Fuldt"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:24
+#, no-c-format
+msgid "I trust signatures from '%s' on other keys"
+msgstr "Jeg stoler på underskrifter fra \"%s\" på andre nøgler"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:26
+#, no-c-format
+msgid ""
+"If you believe that the person that owns this key is '%s', <i>sign</i> this "
+"key:"
+msgstr ""
+"Hvis du tror at personen \"%s\" er denne nøgles ejer, så <i>underskriv</i> "
+"denne nøgle:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:28
+#, no-c-format
+msgid ""
+"If you no longer trust that '%s' owns this key, <i>revoke</i> your signature:"
+msgstr ""
+"Hvis du ikke længere stoler på at \"%s\" ejer denne nøgle, så "
+"<i>tilbagekald</i> din underskrift:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:31
+msgid "Marginally"
+msgstr "Underordnet"
+
+#. Trust column
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:37
+#: ../src/bastile-key-manager-store.c:890
+msgid "Trust"
+msgstr "Tillid"
+
+# "This level of trust should only be assigned to your own keys", står der i dokumentationen, så ultimativ må være en nogenlunde oversættelse
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:39
+msgid "Ultimately"
+msgstr "Ultimativt"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:41
+msgid "You _Trust the Owner:"
+msgstr "Du _stoler på ejeren:"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:42
+msgid "Your trust is manually specified on the <i>Details</i> tab."
+msgstr "Din tillid angives manuelt på <i>Detaljer</i>-fanebladet."
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:43
+msgid "_Only display the signatures of people I trust"
+msgstr "Vis _kun underskrifter fra personer jeg stoler på"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:44
+msgid "_Revoke Signature"
+msgstr "_Tilbagekald underskrift"
+
+#: ../pgp/bastile-pgp-public-key-properties.xml.h:45
+msgid "_Sign this Key"
+msgstr "_Underskriv denne nøgle"
+
+#: ../pgp/bastile-pgp-subkey.c:371
+#, c-format
+msgid "Subkey %d of %s"
+msgstr "Undernøgle %d af %s"
+
+#: ../pgp/bastile-revoke.xml.h:1
+msgid "Optional description of revocation"
+msgstr "Valgfri beskrivelse af tilbagekaldelse"
+
+#: ../pgp/bastile-revoke.xml.h:2
+msgid "Re_voke"
+msgstr "Tilbage_kald"
+
+#: ../pgp/bastile-revoke.xml.h:3
+msgid "Reason for revoking the key"
+msgstr "Grund for tilbagekaldelse af nøglen"
+
+#: ../pgp/bastile-revoke.xml.h:6
+msgid "_Reason:"
+msgstr "_Grund:"
+
+#: ../pgp/bastile-signer.c:62
+msgid ""
+"You have no personal PGP keys that can be used to sign a document or message."
+msgstr ""
+"Du har ingen personlige PGP-nøgler der kan bruges til at underskrive et "
+"dokument eller en meddelelse."
+
+#: ../pgp/bastile-sign.xml.h:1
+msgid "<b>How carefully have you checked this key?</b>"
+msgstr "<b>Hvor grundigt har du kontrolleret denne nøgle?</b>"
+
+#: ../pgp/bastile-sign.xml.h:2
+msgid "<b>How others will see this signature:</b>"
+msgstr "<b>Hvordan andre vil se denne underskrift:</b>"
+
+#: ../pgp/bastile-sign.xml.h:3
+msgid "<b>Sign key as:</b>"
+msgstr "<b>Underskriv nøgle som:</b>"
+
+#: ../pgp/bastile-sign.xml.h:4
+msgid ""
+"<i>Casually:</i> means you have done a casual verification that the key is "
+"owned by the person who claims to own it. For example, you could read the "
+"key fingerprint to the owner over the phone. "
+msgstr ""
+"<i>Uformelt:</i> betyder at du har foretaget en uformel verificering af at "
+"nøglen ejes af personen der påstår at eje den. For eksempel kunne du oplæse "
+"nøglens fingeraftryk til ejeren over telefon. "
+
+#: ../pgp/bastile-sign.xml.h:5
+msgid "<i>Key Name</i>"
+msgstr "<i>Nøglenavn</i>"
+
+#: ../pgp/bastile-sign.xml.h:6
+msgid ""
+"<i>Not at all:</i> means you believe the key is owned by the person who "
+"claims to own it, but you could not or did not verify this to be a fact."
+msgstr ""
+"<i>Overhovedet ikke:</i> betyder at du tror nøglen tilhører personen der "
+"påstår at eje den, men du ikke kunne eller af anden årsag ikke har "
+"verificere udsagnet."
+
+#: ../pgp/bastile-sign.xml.h:7
+msgid ""
+"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
+"key is genuine."
+msgstr ""
+"<i>Meget omhyggeligt:</i> Vælg kun denne hvis du er absolut sikker på at "
+"denne nøgle er ægte."
+
+#: ../pgp/bastile-sign.xml.h:8
+msgid "By signing you indicate your trust that this key belongs to:"
+msgstr "Ved underskrift udtrykker du din tillid til at denne nøgle tilhører:"
+
+#: ../pgp/bastile-sign.xml.h:9
+msgid "I can _revoke this signature at a later date."
+msgstr "Jeg kan _tilbagekalde denne underskrift på et senere tidspunkt."
+
+#: ../pgp/bastile-sign.xml.h:10
+msgid "Sign Key"
+msgstr "Underskriv nøgle"
+
+#: ../pgp/bastile-sign.xml.h:11
+msgid ""
+"You could use a hard to forge photo identification (such as a passport) to "
+"personally check that the name on the key is correct. You should have also "
+"used email to check that the email address belongs to the owner."
+msgstr ""
+"Du kan benytte et svært forfalskeligt billede til identifikation (såsom et "
+"pas), for personligt at kontrollere at navnet på nøglen er korrekt. Du bør "
+"også have brugt e-post til at kontrollere at e-postadressen tilhører ejeren."
+
+#: ../pgp/bastile-sign.xml.h:12
+msgid "_Casually"
+msgstr "_Uformelt"
+
+#: ../pgp/bastile-sign.xml.h:13
+msgid "_Not at all"
+msgstr "_Overhovedet ikke"
+
+#: ../pgp/bastile-sign.xml.h:14
+msgid "_Others may not see this signature"
+msgstr "_Andre må ikke se denne underskrift"
+
+#: ../pgp/bastile-sign.xml.h:15
+msgid "_Sign"
+msgstr "_Underskriv"
+
+#: ../pgp/bastile-sign.xml.h:16
+msgid "_Signer:"
+msgstr "_Underskriver:"
+
+#: ../pgp/bastile-sign.xml.h:17
+msgid "_Very Carefully"
+msgstr "_Meget omhyggeligt"
+
+#: ../pgp/bastile-signer.xml.h:1
+msgid "_Sign message with key:"
+msgstr "_Underskriv meddelelse med nøgle:"
+
+#: ../pkcs11/bastile-pkcs11-certificate.c:106
+#: ../pkcs11/bastile-pkcs11-certificate-props.c:66
+msgid "Certificate"
+msgstr "Certifikat"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:108
+#, c-format
+msgid "Are you sure you want to delete the certificate '%s'?"
+msgstr "Er du sikker på at du vil slette certifikatet \"%s\"?"
+
+#: ../pkcs11/bastile-pkcs11-commands.c:111
+#, c-format
+msgid "Are you sure you want to delete %d certificate?"
+msgid_plural "Are you sure you want to delete %d certificates?"
+msgstr[0] "Er du sikker på at du vil slette %d certifikat?"
+msgstr[1] "Er du sikker på at du vil slette %d certifikater?"
+
+#: ../src/bastile-change-passphrase.xml.h:1
+msgid "Change Passphrase"
+msgstr "Ændr adgangsfrase"
+
+#: ../src/bastile-change-passphrase.xml.h:2
+msgid "Con_firm Passphrase:"
+msgstr "_Bekræft adgangsfrase:"
+
+#: ../src/bastile-change-passphrase.xml.h:3
+msgid "Confirm new passphrase"
+msgstr "Bekræft ny adgangsfrase"
+
+#: ../src/bastile-change-passphrase.xml.h:5
+msgid "New _Passphrase:"
+msgstr "Ny _adgangsfrase:"
+
+#: ../src/bastile.desktop.in.in.h:1
+msgid "Manage your passwords and encryption keys"
+msgstr "Håndtér dine kodeord og krypteringsnøgler"
+
+#: ../src/bastile.desktop.in.in.h:2 ../src/bastile-key-manager.c:862
+msgid "Passwords and Encryption Keys"
+msgstr "Kodeord og krypteringsnøgler"
+
+#: ../src/bastile-generate-select.xml.h:1
+msgid "<b>_Select the type of item to create:</b>"
+msgstr "<b>_Vælg typen af element, du vil oprette:</b>"
+
+#: ../src/bastile-generate-select.xml.h:2
+msgid "C_ontinue"
+msgstr "_Fortsæt"
+
+#: ../src/bastile-generate-select.xml.h:3
+msgid "Create New ..."
+msgstr "Opret ny ..."
+
+#: ../src/bastile-key-manager.c:233 ../src/bastile-keyserver-results.c:108
+#, c-format
+msgid "Selected %d key"
+msgid_plural "Selected %d keys"
+msgstr[0] "Markerede %d nøgle"
+msgstr[1] "Markerede %d nøgler"
+
+#: ../src/bastile-key-manager.c:410 ../src/bastile-key-manager.c:470
+#: ../src/bastile-key-manager.c:533 ../src/bastile-viewer.c:459
+msgid "Couldn't import keys"
+msgstr "Kunne ikke importere nøgler"
+
+#: ../src/bastile-key-manager.c:415 ../src/bastile-viewer.c:464
+msgid "Imported keys"
+msgstr "Importerede nøgler"
+
+#: ../src/bastile-key-manager.c:464
+msgid "Importing keys"
+msgstr "Importerer nøgler"
+
+#: ../src/bastile-key-manager.c:487 ../ssh/bastile-ssh-operation.c:1017
+msgid "Import Key"
+msgstr "Importér nøgle"
+
+#: ../src/bastile-key-manager.c:533
+msgid "Unrecognized key type, or invalid data format"
+msgstr "Ukendt nøgletype eller ugyldigt dataformat"
+
+#: ../src/bastile-key-manager.c:731 ../src/bastile-keyserver-results.c:245
+msgid "_Remote"
+msgstr "_Fjern"
+
+#: ../src/bastile-key-manager.c:733
+msgid "Close this program"
+msgstr "Luk dette program"
+
+#: ../src/bastile-key-manager.c:734
+msgid "_New..."
+msgstr "_Ny..."
+
+#: ../src/bastile-key-manager.c:735
+msgid "Create a new key or item"
+msgstr "Opret ny nøgle eller element"
+
+#: ../src/bastile-key-manager.c:736
+msgid "_Import..."
+msgstr "_Importér..."
+
+#: ../src/bastile-key-manager.c:737
+msgid "Import from a file"
+msgstr "Importér fra en fil"
+
+#: ../src/bastile-key-manager.c:739
+msgid "Import from the clipboard"
+msgstr "Importér fra udklipsholderen"
+
+#: ../src/bastile-key-manager.c:744 ../src/bastile-keyserver-results.c:255
+msgid "_Find Remote Keys..."
+msgstr "_Find fjerne nøgler..."
+
+#: ../src/bastile-key-manager.c:745 ../src/bastile-keyserver-results.c:256
+msgid "Search for keys on a key server"
+msgstr "Søg efter nøgler på en nøgleserver"
+
+#: ../src/bastile-key-manager.c:746
+msgid "_Sync and Publish Keys..."
+msgstr "S_ynkronisér og offentliggør nøgler..."
+
+#: ../src/bastile-key-manager.c:747
+msgid "Publish and/or synchronize your keys with those online."
+msgstr "Offentliggør og/eller synkronisér dine nøgler med andre på nettet."
+
+#: ../src/bastile-key-manager.c:752
+msgid "T_ypes"
+msgstr "T_yper"
+
+#: ../src/bastile-key-manager.c:752
+msgid "Show type column"
+msgstr "Vis typekolonnen"
+
+#: ../src/bastile-key-manager.c:754
+msgid "_Expiry"
+msgstr "_Udløb"
+
+#: ../src/bastile-key-manager.c:754
+msgid "Show expiry column"
+msgstr "Vis udløbskolonnen"
+
+# verb. vs. subst.
+#: ../src/bastile-key-manager.c:756
+msgid "_Trust"
+msgstr "_Tillid"
+
+#: ../src/bastile-key-manager.c:756
+msgid "Show owner trust column"
+msgstr "Vis ejertillids-kolonnen"
+
+#: ../src/bastile-key-manager.c:758
+msgid "_Validity"
+msgstr "_Gyldighed"
+
+#: ../src/bastile-key-manager.c:758
+msgid "Show validity column"
+msgstr "Vis gyldighedskolonnen"
+
+#: ../src/bastile-key-manager.c:937
+msgid "Filter:"
+msgstr "Filter:"
+
+#: ../src/bastile-key-manager.xml.h:1
+msgid "<big><b>First time options:</b></big>"
+msgstr "<big><b>Førstegangsindstillinger:</b></big>"
+
+#: ../src/bastile-key-manager.xml.h:2
+msgid "Generate a new key of your own: "
+msgstr "Generér en ny nøgle til dig selv: "
+
+#: ../src/bastile-key-manager.xml.h:3
+msgid "Import existing keys from a file:"
+msgstr "Importér eksisterende nøgler fra en fil:"
+
+#: ../src/bastile-key-manager.xml.h:4
+msgid "My _Personal Keys"
+msgstr "Mine _personlige nøgler"
+
+#: ../src/bastile-key-manager.xml.h:5
+msgid "Other _Keys"
+msgstr "Andre _nøgler"
+
+#: ../src/bastile-key-manager.xml.h:6
+msgid "To get started with encryption you will need keys."
+msgstr "For at kunne benytte kryptering har du brug for nøgler."
+
+#: ../src/bastile-key-manager.xml.h:7 ../src/bastile-viewer.c:523
+msgid "_Import"
+msgstr "_Importér"
+
+#: ../src/bastile-key-manager.xml.h:8
+msgid "_Passwords"
+msgstr "_Kodeord"
+
+#: ../src/bastile-key-manager-store.c:685 ../src/bastile-viewer.c:257
+msgid "Couldn't export keys"
+msgstr "Kunne ikke eksportere nøgler"
+
+#: ../src/bastile-key-manager-store.c:883
+msgid "Validity"
+msgstr "Gyldighed"
+
+#. Expiry date column
+#: ../src/bastile-key-manager-store.c:902
+msgid "Expiration Date"
+msgstr "Udløbsdato"
+
+#: ../src/bastile-keyserver-results.c:247
+msgid "Close this window"
+msgstr "Luk dette vindue"
+
+#: ../src/bastile-keyserver-results.c:248
+msgid "_Expand All"
+msgstr "_Udfold alle"
+
+# Gad vide hvad dette refererer til.
+#: ../src/bastile-keyserver-results.c:249
+msgid "Expand all listings"
+msgstr "Udfold alle kataloger"
+
+#: ../src/bastile-keyserver-results.c:250
+msgid "_Collapse All"
+msgstr "_Sammenfold alle"
+
+#: ../src/bastile-keyserver-results.c:251
+msgid "Collapse all listings"
+msgstr "Sammenfold alle kataloger"
+
+#: ../src/bastile-keyserver-results.c:322
+msgid "Remote Keys"
+msgstr "Fjerne nøgler"
+
+#: ../src/bastile-keyserver-results.c:324
+#, c-format
+msgid "Remote Keys Containing '%s'"
+msgstr "Fjerne nøgler indeholdende \"%s\""
+
+#: ../src/bastile-keyserver-search.xml.h:1
+msgid "<b>Key Servers:</b>"
+msgstr "<b>Nøgleservere:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:2
+msgid "<b>Shared Keys Near Me:</b>"
+msgstr "<b>Delte nøgler nær mig:</b>"
+
+#: ../src/bastile-keyserver-search.xml.h:3
+msgid "Find Remote Keys"
+msgstr "Find fjerne nøgler"
+
+#: ../src/bastile-keyserver-search.xml.h:4
+msgid ""
+"This will find keys for others on the Internet. These keys can then be "
+"imported into your local key ring."
+msgstr ""
+"Dette vil finde andres nøgler på Internet. Disse nøgler kan så importeres "
+"til din lokale nøglering."
+
+#: ../src/bastile-keyserver-search.xml.h:5
+msgid "Where to search:"
+msgstr "Sted for søgning:"
+
+#: ../src/bastile-keyserver-search.xml.h:6
+msgid "_Search"
+msgstr "_Søg"
+
+#: ../src/bastile-keyserver-search.xml.h:7
+msgid "_Search for keys containing: "
+msgstr "_Søg efter nøgler indeholdende: "
+
+#: ../src/bastile-keyserver-sync.c:45
+msgid "Couldn't publish keys to server"
+msgstr "Kunne ikke offentliggøre nøgler til serveren"
+
+#: ../src/bastile-keyserver-sync.c:61
+#, c-format
+msgid "Couldn't retrieve keys from server: %s"
+msgstr "Kunne ikke hente nøgler fra serveren: %s"
+
+#: ../src/bastile-keyserver-sync.c:155
+#, c-format
+msgid "<b>%d key is selected for synchronizing</b>"
+msgid_plural "<b>%d keys are selected for synchronizing</b>"
+msgstr[0] "<b>%d nøgle markeret til synkronisering</b>"
+msgstr[1] "<b>%d nøgler markeret til synkronisering</b>"
+
+#: ../src/bastile-keyserver-sync.c:216
+msgid "Synchronizing keys"
+msgstr "Synkroniserer nøgler"
+
+#. Show the progress window if necessary
+#: ../src/bastile-keyserver-sync.c:248
+msgid "Synchronizing keys..."
+msgstr "Synkroniserer nøgler..."
+
+#: ../src/bastile-keyserver-sync.xml.h:1
+msgid "Sync Keys"
+msgstr "Synkronisér nøgler"
+
+#: ../src/bastile-keyserver-sync.xml.h:2
+msgid ""
+"This will publish the keys in your key ring so they're available for others "
+"to use. You'll also get any changes others have made since you received "
+"their keys."
+msgstr ""
+"Dette vil offentliggøre nøglerne i din nøglering så de er tilgængelige for "
+"andre. Du vil også modtage de ændringer som andre har foretaget siden du "
+"modtog deres nøgler."
+
+#: ../src/bastile-keyserver-sync.xml.h:3
+msgid ""
+"This will retrieve any changes others have made since you received their "
+"keys. No key server has been chosen for publishing, so your keys will not be "
+"made available to others."
+msgstr ""
+"Dette vil hente de ændringer som andre har foretaget siden du modtog deres "
+"nøgler. Ingen nøgleserver er valgt til offentliggørelse, så dine nøgler vil "
+"ikke blive offentliggjort for andre."
+
+#: ../src/bastile-keyserver-sync.xml.h:4
+msgid "_Key Servers"
+msgstr "_Nøgleservere"
+
+#: ../src/bastile-keyserver-sync.xml.h:5
+msgid "_Sync"
+msgstr "_Synkronisér"
+
+#: ../src/bastile-main.c:62
+msgid "Version of this application"
+msgstr "Version af dette program"
+
+#: ../src/bastile-main.c:78 ../src/bastile-viewer.c:144
+msgid "Encryption Key Manager"
+msgstr "Krypteringsnøgle-håndtering"
+
+#: ../src/bastile-viewer.c:120
+msgid "Contributions:"
+msgstr "Bidrag:"
+
+#: ../src/bastile-viewer.c:146
+msgid "translator-credits"
+msgstr ""
+"Ask Hjorth Larsen\n"
+"Birger Langkjer\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\"\n"
+"Mere info: http://www.dansk-gruppen.dk"
+
+#: ../src/bastile-viewer.c:149
+msgid "Bastile Project Homepage"
+msgstr "Bastile projekthjemmeside"
+
+#. Top menu items
+#: ../src/bastile-viewer.c:169
+msgid "_File"
+msgstr "_Fil"
+
+#: ../src/bastile-viewer.c:170
+msgid "_Edit"
+msgstr "_Redigér"
+
+#: ../src/bastile-viewer.c:171
+msgid "_View"
+msgstr "_Vis"
+
+#: ../src/bastile-viewer.c:172
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: ../src/bastile-viewer.c:174
+msgid "Prefere_nces"
+msgstr "_Indstillinger"
+
+#: ../src/bastile-viewer.c:175
+msgid "Change preferences for this program"
+msgstr "Ændr indstillinger for dette program"
+
+#: ../src/bastile-viewer.c:178
+msgid "About this program"
+msgstr "Om dette program"
+
+#: ../src/bastile-viewer.c:179
+msgid "_Contents"
+msgstr "_Indhold"
+
+#: ../src/bastile-viewer.c:180
+msgid "Show Bastile help"
+msgstr "Vis Bastile-hjælp"
+
+#: ../src/bastile-viewer.c:277
+msgid "Export public key"
+msgstr "Eksportér offentlig nøgle"
+
+#: ../src/bastile-viewer.c:297
+msgid "Exporting keys"
+msgstr "Eksporterer nøgler"
+
+#: ../src/bastile-viewer.c:322
+msgid "Couldn't retrieve data from key server"
+msgstr "Kunne ikke hente data fra nøgleserveren"
+
+#. Translators: "Copied" is a verb (used as a status indicator), not an adjective for the word "keys"
+#: ../src/bastile-viewer.c:341
+msgid "Copied keys"
+msgstr "Kopierede nøgler"
+
+#: ../src/bastile-viewer.c:361
+msgid "Retrieving keys"
+msgstr "Henter nøgler"
+
+#: ../src/bastile-viewer.c:376
+msgid "Couldn't delete."
+msgstr "Kunne ikke slette."
+
+#: ../src/bastile-viewer.c:410
+msgid "Deleting..."
+msgstr "Sletter..."
+
+#: ../src/bastile-viewer.c:436
+#, c-format
+msgid "%s is a private key. Are you sure you want to proceed?"
+msgstr "%s er en privat nøgle. Er du sikker på at du vil fortsætte?"
+
+#: ../src/bastile-viewer.c:484
+msgid "Importing keys from key servers"
+msgstr "Importerer nøgler fra nøgleservere"
+
+#: ../src/bastile-viewer.c:510
+msgid "Show properties"
+msgstr "Vis egenskaber"
+
+#: ../src/bastile-viewer.c:511
+msgctxt "This text refers to deleting an item from its type's backing store."
+msgid "_Delete"
+msgstr "_Slet"
+
+#: ../src/bastile-viewer.c:512
+msgid "Delete selected items"
+msgstr "Slet markerede elementer"
+
+#: ../src/bastile-viewer.c:516
+msgid "E_xport..."
+msgstr "E_ksportér..."
+
+#: ../src/bastile-viewer.c:517
+msgid "Export to a file"
+msgstr "Eksportér til en fil"
+
+#: ../src/bastile-viewer.c:519
+msgid "Copy to the clipboard"
+msgstr "Kopiér til udklipsholderen"
+
+#: ../src/bastile-viewer.c:524
+msgid "Import selected keys to local key ring"
+msgstr "Importér markerede nøgler til lokal nøglering"
+
+#: ../ssh/bastile-ssh-askpass.c:99
+msgid "Enter your Secure Shell passphrase:"
+msgstr "Skriv din SSH-adgangsfrase:"
+
+#: ../ssh/bastile-ssh-commands.c:85
+msgid "Configure Key for _Secure Shell..."
+msgstr "Konfigurér nøgle til _Secure Shell..."
+
+#: ../ssh/bastile-ssh-commands.c:86
+msgid ""
+"Send public Secure Shell key to another machine, and enable logins using "
+"that key."
+msgstr ""
+"Send offentlig SSH-nøgle til en anden maskine og tillad indlogning ved hjælp "
+"af den nøgle."
+
+#: ../ssh/bastile-ssh-commands.c:115
+#, c-format
+msgid "Are you sure you want to delete the secure shell key '%s'?"
+msgstr "Er du sikker på at du vil slette ssh-nøglen \"%s\"?"
+
+#: ../ssh/bastile-ssh-commands.c:118
+#, c-format
+msgid "Are you sure you want to delete %d secure shell keys?"
+msgstr "Er du sikker på at du vil slette %d ssh-nøgler?"
+
+#: ../ssh/bastile-ssh-generate.c:59 ../ssh/bastile-ssh-key.c:91
+#: ../ssh/bastile-ssh-key.c:95 ../ssh/bastile-ssh-key-properties.xml.h:19
+msgid "Secure Shell Key"
+msgstr "SSH-nøgle"
+
+#: ../ssh/bastile-ssh-generate.c:60
+msgid "Used to access other computers (eg: via a terminal)"
+msgstr "Bruges til at forbinde til andre computere (f.eks. via en terminal)"
+
+#: ../ssh/bastile-ssh-generate.c:90
+msgid "Couldn't generate Secure Shell key"
+msgstr "Kunne ikke generere Secure Shell-nøgle"
+
+#: ../ssh/bastile-ssh-generate.c:213
+msgid "Creating Secure Shell Key"
+msgstr "Genererer SSH-nøgle"
+
+#: ../ssh/bastile-ssh-generate.xml.h:2
+msgid ""
+"<i>Use your email address, and any other reminder you need about what this "
+"key is for.</i>"
+msgstr ""
+"<i>Brug din e-postadresse og enhver anden påmindelse du har brug for, til at "
+"se hvad denne nøgle er beregnet til.</i>"
+
+#: ../ssh/bastile-ssh-generate.xml.h:3
+msgid ""
+"A Secure Shell (SSH) key lets you connect securely to trusted computers "
+"using SSH, without entering a different password for each of them."
+msgstr ""
+"En Secure Shell- (SSH-) nøgle lader dig forbinde sikkert til computere du "
+"har tillid til via SSH, uden at der skal indtastes forskellige kodeord for "
+"hver."
+
+#: ../ssh/bastile-ssh-generate.xml.h:4
+msgid "DSA"
+msgstr "DSA"
+
+#: ../ssh/bastile-ssh-generate.xml.h:6
+msgid ""
+"If there is already a computer you want to use this key with, you can set up "
+"that computer to recognize your key now. "
+msgstr ""
+"Hvis der allerede er en computer du vil bruge denne nøgle med, så kan du "
+"sætte den computer op til at genkende din nøgle nu. "
+
+#: ../ssh/bastile-ssh-generate.xml.h:8
+msgid "New Secure Shell Key"
+msgstr "Ny SSH-nøgle"
+
+#: ../ssh/bastile-ssh-generate.xml.h:10
+msgid "_Create and Set Up"
+msgstr "_Opret og konfigurér"
+
+#: ../ssh/bastile-ssh-generate.xml.h:11
+msgid "_Just Create Key"
+msgstr "Opret _kun nøgle"
+
+#: ../ssh/bastile-ssh-generate.xml.h:12
+msgid "_Key Description:"
+msgstr "_Nøglebeskrivelse:"
+
+#: ../ssh/bastile-ssh-key.c:87
+msgid "(Unreadable Secure Shell Key)"
+msgstr "(Ulæselig SSH-nøgle)"
+
+#: ../ssh/bastile-ssh-key.c:105
+msgid "Invalid"
+msgstr "Ugyldig"
+
+#: ../ssh/bastile-ssh-key.c:116
+msgid "Private Secure Shell Key"
+msgstr "Privat SSH-nøgle"
+
+#: ../ssh/bastile-ssh-key.c:119
+msgid "Public Secure Shell Key"
+msgstr "Offentlig SSH-nøgle"
+
+#: ../ssh/bastile-ssh-key-properties.c:71
+msgid "Couldn't rename key."
+msgstr "Kunne ikke omdøbe nøgle."
+
+#: ../ssh/bastile-ssh-key-properties.c:112
+msgid "Couldn't change authorization for key."
+msgstr "Kunne ikke ændre autorisering af nøglen."
+
+#: ../ssh/bastile-ssh-key-properties.c:127
+msgid "Couldn't change passphrase for key."
+msgstr "Kunne ikke ændre adgangsfrase for nøglen."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:1
+msgid "<b>Algorithm:</b>"
+msgstr "<b>Algoritme:</b>"
+
+# Bedre oversættelse af identifier?
+#: ../ssh/bastile-ssh-key-properties.xml.h:3
+msgid "<b>Identifier:</b>"
+msgstr "<b>Kendetegn:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:4
+msgid "<b>Location:</b>"
+msgstr "<b>Placering:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:5
+msgid "<b>Name:</b>"
+msgstr "<b>Navn:</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:6
+msgid "<b>Strength:</b>"
+msgstr "<b>Styrke:</b>"
+
+# Verbum eller substantiv?
+#: ../ssh/bastile-ssh-key-properties.xml.h:8
+msgid "<b>Trust</b>"
+msgstr "<b>Tillid</b>"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:13
+#, no-c-format
+msgid "<i>This only applies to the '%s'</i> account."
+msgstr "<i>Dette gælder kun for \"%s\"</i>-kontoen."
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:16
+msgid "E_xport Complete Key"
+msgstr "Eks_portér fuldstændig nøgle"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:20
+msgid "The owner of this key is _authorized to connect to this computer"
+msgstr ""
+"Ejeren af denne nøgle har _rettigheder til at forbinde til denne computer"
+
+#: ../ssh/bastile-ssh-key-properties.xml.h:21
+msgid "Used to connect to other computers."
+msgstr "Bruges til at forbinde til andre computere."
+
+#: ../ssh/bastile-ssh-operation.c:143 ../ssh/bastile-ssh-operation.c:732
+#, c-format
+msgid "The SSH command was terminated unexpectedly."
+msgstr "SSH-kommandoen blev uventet afbrudt."
+
+#: ../ssh/bastile-ssh-operation.c:151 ../ssh/bastile-ssh-operation.c:739
+msgid "The SSH command failed."
+msgstr "SSH-kommandoen slog fejl."
+
+#: ../ssh/bastile-ssh-operation.c:445 ../ssh/bastile-ssh-operation.c:477
+msgid "Secure Shell key"
+msgstr "SSH-nøgle"
+
+#: ../ssh/bastile-ssh-operation.c:448
+msgid "Passphrase:"
+msgstr "Adgangsfrase:"
+
+#. Just prompt over and over again
+#: ../ssh/bastile-ssh-operation.c:762
+msgid "Remote Host Password"
+msgstr "Adgangskode for fjern vært"
+
+#: ../ssh/bastile-ssh-operation.c:850
+msgid "Old Key Passphrase"
+msgstr "Adgangsfrase til gammel nøgle"
+
+#: ../ssh/bastile-ssh-operation.c:851
+#, c-format
+msgid "Enter the old passphrase for: %s"
+msgstr "Skriv den gamle adgangsfrase til: %s"
+
+#: ../ssh/bastile-ssh-operation.c:855
+msgid "New Key Passphrase"
+msgstr "Ny nøgleadgangsfrase"
+
+#: ../ssh/bastile-ssh-operation.c:856
+#, c-format
+msgid "Enter the new passphrase for: %s"
+msgstr "Skriv den nye adgangsfrase til: %s"
+
+#: ../ssh/bastile-ssh-operation.c:864
+msgid "Enter Key Passphrase"
+msgstr "Skriv nøgleadgangsfrase"
+
+#: ../ssh/bastile-ssh-operation.c:931
+msgid "Passphrase for New Secure Shell Key"
+msgstr "Adgangsfrase til ny SSH-nøgle"
+
+#: ../ssh/bastile-ssh-operation.c:932
+msgid "Enter a passphrase for your new Secure Shell key."
+msgstr "Skriv en adgangsfrase til din nye SSH-nøgle."
+
+#: ../ssh/bastile-ssh-operation.c:1013
+#, c-format
+msgid "Importing key: %s"
+msgstr "Importerer nøgle: %s"
+
+#: ../ssh/bastile-ssh-operation.c:1015
+msgid "Importing key. Enter passphrase"
+msgstr "Importerer nøgle. Skriv adgangsfrase"
+
+#: ../ssh/bastile-ssh-source.c:825
+msgid "No private key file is available for this key."
+msgstr "Ingen privat nøglefil er tilgængelig for denne nøgle."
+
+#: ../ssh/bastile-ssh-upload.c:45
+msgid "Couldn't configure Secure Shell keys on remote computer."
+msgstr "Kunne ikke konfigurere SSH-nøgler på den fjerne computer."
+
+#. Show the progress window if necessary
+#: ../ssh/bastile-ssh-upload.c:181
+msgid "Configuring Secure Shell Keys..."
+msgstr "Konfigurerer SSH-nøgler..."
+
+#: ../ssh/bastile-ssh-upload.xml.h:1
+msgid "<i>eg: fileserver.example.com:port</i>"
+msgstr "<i>f.eks.: filserver.eksempel.dk:port</i>"
+
+#: ../ssh/bastile-ssh-upload.xml.h:2
+msgid "Set Up Computer for SSH Connection"
+msgstr "Konfigurér computeren til SSH-forbindelser"
+
+#: ../ssh/bastile-ssh-upload.xml.h:4
+msgid ""
+"To use your Secure Shell key with another computer that uses SSH, you must "
+"already have a login account on that computer."
+msgstr ""
+"For at bruge din SSH-nøgle med en anden computer der bruger SSH, skal du "
+"allerede have en brugerkonto på den computer."
+
+#: ../ssh/bastile-ssh-upload.xml.h:5
+msgid "_Computer Name:"
+msgstr "_Computernavn:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:6
+msgid "_Login Name:"
+msgstr "_Brugernavn:"
+
+#: ../ssh/bastile-ssh-upload.xml.h:7
+msgid "_Set Up"
+msgstr "_Konfigurér"
+
+#~ msgid "Couldn't share keys"
+#~ msgstr "Kunne ikke dele nøgler"
+
+#~ msgid "Can't publish discovery information on the network."
+#~ msgstr "Kan ikke offentliggøre information om opdagelse på netværket."
+
+# Dette kan gå galt hvis brugernavnet ender med s.
+#~ msgid "%s's encryption keys"
+#~ msgstr "%ss krypteringsnøgler"
+
+#~ msgid "Key Sharing"
+#~ msgstr "Nøgledeling"
+
+#~ msgid ""
+#~ "Sharing your keys allows other people on your network to use the keys "
+#~ "you've collected. This means they can automatically encrypt things for "
+#~ "you or those you know, without you having to send them your key.\n"
+#~ "\n"
+#~ "<b>Note:</b> Your personal keys will not be compromised."
+#~ msgstr ""
+#~ "Deling af dine nøgler tillader andre mennesker på dit netværk at bruge de "
+#~ "nøgler du har samlet. Dette betyder at de automatisk kan kryptere ting "
+#~ "for dig eller dine bekendte, uden at du behøver sende dem din nøgle.\n"
+#~ "\n"
+#~ "<b>Bemærk:</b> Dine personlige nøgler bliver ikke kompromitteret."
+
+#~ msgid "_Share my keys with others on my network"
+#~ msgstr "_Del mine nøgler med andre på mit netværk"
+
+#~ msgid "Bastile Daemon"
+#~ msgstr "Bastile-dæmon"
+
+#~ msgid "<b>X keys are selected for synchronizing</b>"
+#~ msgstr "<b>X nøgler markeret til synkronisering</b>"
+
+#~ msgid "/home/nate/.ssh/blah_rsa"
+#~ msgstr "/home/thorkild/.ssh/blah_rsa"
+
+# Nu må de tage sig sammen
+#~ msgid "00:00:00:00:00"
+#~ msgstr "00:00:00:00:00"
+
+#~ msgid "Create a PGP Key"
+#~ msgstr "Opret en PGP-nøgle"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginal\n"
+#~ "Full\n"
+#~ "Ultimate"
+#~ msgstr ""
+#~ "Ukendt\n"
+#~ "Aldrig\n"
+#~ "Underordnet\n"
+#~ "Fuld\n"
+#~ "Ultimativ"
+
+#~ msgid ""
+#~ "Unknown\n"
+#~ "Never\n"
+#~ "Marginally\n"
+#~ "Fully\n"
+#~ "Ultimately"
+#~ msgstr ""
+#~ "Ukendt\n"
+#~ "Aldrig\n"
+#~ "Underordnet\n"
+#~ "Fuldt\n"
+#~ "Ultimativt"
+
+#~ msgid "Other _Collected Keys"
+#~ msgstr "Andre _indsamlede nøgler"
+
+#~ msgid "_Trusted Keys"
+#~ msgstr "_Betroede nøgler"
+
+#~ msgid ""
+#~ "One or more of the deleted keys are private keys. Are you sure you want "
+#~ "to proceed?"
+#~ msgstr ""
+#~ "En eller flere af de slettede nøgler er private. Er du sikker på at du "
+#~ "vil fortsætte?"
+
+#~ msgid "_About"
+#~ msgstr "_Om"
+
+#~ msgid "P_roperties"
+#~ msgstr "_Egenskaber"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopiér"
+
+#~ msgid "Retrieving key"
+#~ msgstr "Henter nøgle"
+
+#~ msgid "Removing item"
+#~ msgstr "Fjerner objekt"
+
+#~ msgid "<i>Automatically unlocked when user logs in.</i>"
+#~ msgstr "<i>Låses automatisk op når brugeren logger ind.</i>"
+
+#~ msgid "Couldn't get default password keyring"
+#~ msgstr "Kunne ikke hente standardkodeords-nøglering"
+
+#~ msgid "Couldn't get list of password keyrings"
+#~ msgstr "Kunne ikke hente liste af kodeords-nøgleringe"
+
+#~ msgid "Couldn't remove keyring"
+#~ msgstr "Kunne ikke fjerne nøglering"
+
+#~ msgid "Are you sure you want to permanently delete the '%s' keyring?"
+#~ msgstr "Er du sikker på at du vil slette \"%s\"-nøgleringen permanent?"
+
+#~ msgid "<b>Default Keyring</b>"
+#~ msgstr "<b>Standardnøglering</b>"
+
+#~ msgid "<b>Password Keyrings</b>"
+#~ msgstr "<b>Kodeords-nøgleringe</b>"
+
+#~ msgid "Password and Encryption Settings"
+#~ msgstr "Kodeords- og krypteringsindstillinger"
+
+#~ msgid "_Add Keyring"
+#~ msgstr "_Tilføj nøglering"
+
+#~ msgid "_Remove Keyring"
+#~ msgstr "_Fjern nøglering"
+
+#~ msgid "Unknown Key: %s"
+#~ msgstr "Ukendt nøgle: %s"
+
+#~ msgid "Unknown Key"
+#~ msgstr "Ukendt nøgle"
+
+#~ msgid "Unavailable Key"
+#~ msgstr "Utilgængelig nøgle"
+
+#~ msgid "X509 Certificate"
+#~ msgstr "X509-certifikat"
+
+#~ msgid "Loading..."
+#~ msgstr "Indlæser..."
+
+#~ msgid "Invalid or unrecognized object."
+#~ msgstr "Ugyldigt eller ukendt objekt."
+
+#~ msgid "Exporting is not yet supported."
+#~ msgstr "Eksport understøttes endnu ikke."
+
+#~ msgid "Expiry for Subkey %d of %s"
+#~ msgstr "Udløb af undernøgle %d af %s"
+
+#~ msgid "_Quit"
+#~ msgstr "_Afslut"
+
+#~ msgid "Create a new personal key"
+#~ msgstr "Opret en ny personlig nøgle"
+
+#~ msgid "Import keys into your key ring from a file"
+#~ msgstr "Importér nøgler til din nøglering fra en fil"
+
+#~ msgid "_Close"
+#~ msgstr "_Luk"
+
+#~ msgid "_Key"
+#~ msgstr "_Nøgler"
+
+#~ msgid "E_xport Public Key..."
+#~ msgstr "Eks_portér offentlig nøgle..."
+
+#~ msgid "_Copy Public Key"
+#~ msgstr "_Kopiér offentlig nøgle"
+
+#~ msgid "_Delete Key"
+#~ msgstr "_Slet nøgle"
+
+#~ msgid "Unparseable Key ID"
+#~ msgstr "Nøgle-ID kan ikke fortolkes"
+
+#~ msgid "Unknown/Invalid Key"
+#~ msgstr "Ukendt/ugyldig nøgle"
+
+#~ msgid "PGP Key: %s"
+#~ msgstr "PGP-nøgle: %s"
+
+#~ msgid "Cache _Preferences"
+#~ msgstr "Cache_indstillinger"
+
+#~ msgid "Cached Encryption Keys"
+#~ msgstr "Krypteringsnøgler i cache"
+
+#~ msgid "_Clear Cache"
+#~ msgstr "_Ryd cache"
+
+#~ msgid "_Show Window"
+#~ msgstr "_Vis vindue"
+
+#~ msgid "Do not daemonize bastile-agent"
+#~ msgstr "Gør ikke bastile-agent til dæmon"
+
+# Dette ved jeg slet ikke hvad betyder
+#~ msgid "Print variables in for a C type shell"
+#~ msgstr "Udskriv variable til C-lignende skal"
+
+#~ msgid "Display environment variables (the default)"
+#~ msgstr "Vis miljøvariable (forvalg)"
+
+# Flertydig
+#~ msgid "Allow GPG agent request from any display"
+#~ msgstr "Tillad GPG-agentforespørgsel fra enhver skærm"
+
+#~ msgid "command..."
+#~ msgstr "kommando..."
+
+#~ msgid "Encryption Key Agent (Bastile)"
+#~ msgstr "Krypteringsnøgle-agent (Bastile)"
+
+#~ msgid "no command specified to execute"
+#~ msgstr "ingen kommando specificeret til eksekvering"
+
+#~ msgid "_Authorize"
+#~ msgstr "_Autorisér"
+
+#~ msgid "Key Name"
+#~ msgstr "Nøglenavn"
+
+#~ msgid ""
+#~ "After performing an decrypt or verify operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "Vis den resulterende tekst i et vindue efter dekrypterings- eller "
+#~ "verificeringsoperation i panelprogrammet."
+
+#~ msgid ""
+#~ "After performing an encrypt or signing operation from the applet, display "
+#~ "the resulting text in a window."
+#~ msgstr ""
+#~ "Vis den resulterende tekst i et vindue efter krypterings- eller "
+#~ "underskrivelsesoperation i panelprogrammet."
+
+#~ msgid "Display cache reminder in the notification area"
+#~ msgstr "Vis cachepåmindelse i statusfeltet"
+
+#~ msgid ""
+#~ "If set to 'mate' uses mate-keyring to cache passwords. When set to "
+#~ "'internal' uses internal cache."
+#~ msgstr ""
+#~ "Hvis denne sættes til \"mate\", benyttes mate-keyring til "
+#~ "kodeordscache. Sættes den til \"internal\", benyttes intern cache."
+
+#~ msgid ""
+#~ "Set to 'true' to enable display of the cache reminder in the notification "
+#~ "area of your panel."
+#~ msgstr ""
+#~ "Sæt til \"true\" for at aktivere visning af cachepåmindelser i panelets "
+#~ "statusfelt."
+
+#~ msgid ""
+#~ "Set to 'true' to have bastile-agent prompt before giving out passwords "
+#~ "it has cached."
+#~ msgstr ""
+#~ "Sæt til \"true\" for at få bastile-agent til at spørge før den oplyser "
+#~ "kodeord fra cache."
+
+#~ msgid "The time (in minutes) to cache GPG passwords"
+#~ msgstr "Tiden (i minutter) hvori GPG-kodeord gemmes"
+
+#~ msgid ""
+#~ "This is the amount of time, specified in minutes, to cache GPG passwords "
+#~ "in bastile-agent."
+#~ msgstr ""
+#~ "Dette er tidsrummet i minutter, hvori GPG-kodeord bliver cachet i "
+#~ "bastile-agent."
+
+#~ msgid ""
+#~ "This option enables the GPG password cache in the bastile-agent program. "
+#~ "The 'use-agent' setting in gpg.conf affects this setting."
+#~ msgstr ""
+#~ "Denne indstilling aktiverer GPG-kodeordscachen i programmet bastile-"
+#~ "agent. Indstillingen \"use-agent\" i gpg.conf har indflydelse på denne "
+#~ "indstilling."
+
+#~ msgid ""
+#~ "When set, bastile-agent expires GPG passwords in its cache after a "
+#~ "period of time."
+#~ msgstr ""
+#~ "Ved tilvalg vil bastile-agent lade GPG-kodeord i cachen udløbe efter en "
+#~ "vis tidsperiode."
+
+#~ msgid "Whether the GPG password cache is enabled"
+#~ msgstr "Hvorvidt GPG-kodeordscachen er aktiveret"
+
+#~ msgid "None. Prompt for a key."
+#~ msgstr "Ingen. Spørg om en nøgle."
+
+#~ msgid "<b>Default Key</b>"
+#~ msgstr "<b>Standardnøgle</b>"
+
+#~ msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+#~ msgstr ""
+#~ "<i>Denne nøgle bruges til at underskrive meddelelser når ingen anden "
+#~ "nøgle er udvalgt</i>"
+
+#~ msgid "Encryption"
+#~ msgstr "Kryptering"
+
+#~ msgid "When _encrypting, always include myself as a recipient"
+#~ msgstr "Inkludér altid mig selv som modtager under _kryptering"
+
+#~ msgid "_Default key:"
+#~ msgstr "_Standardnøgle:"
+
+#~ msgid "Couldn't set permissions on backup file."
+#~ msgstr "Kunne ikke ændre rettigheder for backupfilen."
+
+#~ msgid "Bastile Applet Factory"
+#~ msgstr "Bastile panelprogramsfabrik"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Indstillinger"
+
+#~ msgid "bastile-applet"
+#~ msgstr "bastile-panelprogram"
+
+#~ msgid "Choose Recipient Keys"
+#~ msgstr "Vælg modtagernøgler"
+
+#~ msgid "Encrypted Text"
+#~ msgstr "Krypteret tekst"
+
+#~ msgid "Encryption Failed"
+#~ msgstr "Kryptering mislykkedes"
+
+#~ msgid "Choose Key to Sign with"
+#~ msgstr "Vælg nøglen hvormed der underskrives"
+
+#~ msgid "Signed Text"
+#~ msgstr "Underskrevet tekst"
+
+#~ msgid "Signing Failed"
+#~ msgstr "Underskrift mislykkedes"
+
+#~ msgid "Import Failed"
+#~ msgstr "Import fejlede"
+
+#~ msgid "Keys were found but not imported."
+#~ msgstr "Nøgler blev fundet men ikke importeret."
+
+#~ msgid "Decrypting Failed"
+#~ msgstr "Dekryptering fejlede"
+
+#~ msgid "Text may be malformed."
+#~ msgstr "Tekst kan være misdannet."
+
+#~ msgid "No PGP data found."
+#~ msgstr "Ingen PGP-data fundet."
+
+# Er det datid af "at dekryptere", eller markerer det en tekst som er blevet dekrypteret?
+#~ msgid "Decrypted Text"
+#~ msgstr "Dekrypteret tekst"
+
+#~ msgid "Could not display the help file"
+#~ msgstr "Kunne ikke vise hjælpefilen"
+
+#~ msgid "Encryption Applet"
+#~ msgstr "Krypteringspanelprogram"
+
+# At dømme efter de refererende kodelinjer, er følgende strenge elementer i en ny menu, og altså kan genvejstast _K genbruges
+#~ msgid "_Encrypt"
+#~ msgstr "_Kryptér"
+
+#~ msgid "_Decrypt/Verify"
+#~ msgstr "_Dekryptér/verificér"
+
+#~ msgid "_Import Key"
+#~ msgstr "_Importér nøgle"
+
+#~ msgid "Couldn't connect to bastile-daemon"
+#~ msgstr "Kunne ikke forbinde til bastile-daemon"
+
+#~ msgid "Encrypted text"
+#~ msgstr "Krypteret tekst"
+
+#~ msgid "Couldn't encrypt text"
+#~ msgstr "Kunne ikke kryptere tekst"
+
+#~ msgid "Keys found but not imported"
+#~ msgstr "Nøgler fundet men ikke importeret"
+
+#~ msgid "Couldn't decrypt text"
+#~ msgstr "Kunne ikke dekryptere tekst"
+
+#~ msgid "Couldn't verify text"
+#~ msgstr "Kunne ikke verificere tekst"
+
+#~ msgid "No encrypted or signed text is selected."
+#~ msgstr "Ingen krypteret eller underskrevet tekst er markeret."
+
+#~ msgid "Decrypted text"
+#~ msgstr "Dekrypteret tekst"
+
+#~ msgid "Verified text"
+#~ msgstr "Verificeret tekst"
+
+#~ msgid "Imported %d key"
+#~ msgid_plural "Imported %d keys"
+#~ msgstr[0] "Importerede %d nøgle"
+#~ msgstr[1] "Importerede %d nøgler"
+
+#~ msgid "Signed text"
+#~ msgstr "Underskrevet tekst"
+
+#~ msgid "Couldn't sign text"
+#~ msgstr "Kunne ikke underskrive tekst"
+
+#~ msgid "_Encrypt..."
+#~ msgstr "_Kryptér..."
+
+#~ msgid "Encrypt the selected text"
+#~ msgstr "Kryptér den markerede tekst"
+
+#~ msgid "Decr_ypt/Verify"
+#~ msgstr "Dekr_yptér/verificér"
+
+#~ msgid "Decrypt and/or Verify text"
+#~ msgstr "Dekryptér og/eller verificér tekst"
+
+#~ msgid "Sig_n..."
+#~ msgstr "_Underskriv..."
+
+#~ msgid "Sign the selected text"
+#~ msgstr "Underskriv den markerede tekst"
+
+#~ msgid "Enable the bastile encryption plugin for pluma."
+#~ msgstr "Aktiver bastile-krypteringsmodulet til pluma."
+
+#~ msgid "Enable the bastile pluma plugin"
+#~ msgstr "Aktiver bastile-modulet til pluma"
+
+#~ msgid "Text Encryption"
+#~ msgstr "Tekstkryptering"
+
+#~ msgid "This plugin performs encryption operations on text."
+#~ msgstr "Dette modul udfører krypteringsoperationer på tekst."
+
+#~ msgid "Encrypt..."
+#~ msgstr "Kryptér..."
+
+#~ msgid "Encrypt (and optionally sign) the selected file"
+#~ msgid_plural "Encrypt the selected files"
+#~ msgstr[0] "Kryptér (og eventuelt underskriv) den markerede fil"
+#~ msgstr[1] "Kryptér de markerede filer"
+
+#~ msgid "Sign the selected file"
+#~ msgid_plural "Sign the selected files"
+#~ msgstr[0] "Underskriv den valgte fil"
+#~ msgstr[1] "Underskriv de valgte filer"
+
+#~ msgid "For internal use"
+#~ msgstr "Til intern benyttelse"
+
+#~ msgid "Encryption Preferences"
+#~ msgstr "Krypteringsindstillinger"
+
+#~ msgid "Configure key servers and other encryption settings"
+#~ msgstr "Konfigurér nøgleservere og andre krypteringsindstillinger"
+
+#~ msgid "Encryption and Keyrings"
+#~ msgstr "Kryptering og nøgleringe"
+
+#~ msgid "Encrypt file"
+#~ msgstr "Kryptér fil"
+
+#~ msgid "Sign file with default key"
+#~ msgstr "Underskriv fil med standardnøgle"
+
+#~ msgid "Encrypt and sign file with default key"
+#~ msgstr "Kryptér og underskriv fil med standardnøgle"
+
+#~ msgid "Decrypt encrypted file"
+#~ msgstr "Dekryptér krypteret fil"
+
+#~ msgid "Verify signature file"
+#~ msgstr "Verificér underskriftsfil"
+
+#~ msgid "Read list of URIs on standard in"
+#~ msgstr "Indlæs liste af URI'er fra standard inddata"
+
+#~ msgid "file..."
+#~ msgstr "fil..."
+
+#~ msgid "Choose Recipients"
+#~ msgstr "Vælg modtagere"
+
+#~ msgid "Couldn't load keys"
+#~ msgstr "Kunne ikke hente nøgler"
+
+#~ msgid "Choose Encrypted File Name for '%s'"
+#~ msgstr "Vælg krypteret filnavn for \"%s\""
+
+#~ msgid "Choose Signer"
+#~ msgstr "Vælg underskriver"
+
+#~ msgid "Choose Signature File Name for '%s'"
+#~ msgstr "Vælg underskriftsfilnavn for \"%s\""
+
+#~ msgid "Import is complete"
+#~ msgstr "Import fuldført"
+
+#~ msgid "Importing keys ..."
+#~ msgstr "Importerer nøgler ..."
+
+#~ msgid "Choose Decrypted File Name for '%s'"
+#~ msgstr "Vælg dekrypteret filnavn for \"%s\""
+
+#~ msgid "Choose Original File for '%s'"
+#~ msgstr "Vælg original fil for \"%s\""
+
+#~ msgid "No valid signatures found"
+#~ msgstr "Ingen gyldige signaturer fundet"
+
+#~ msgid "File Encryption Tool"
+#~ msgstr "Filkrypteringsværktøj"
+
+#~ msgid "Encrypting"
+#~ msgstr "Krypterer"
+
+#~ msgid "Couldn't encrypt file: %s"
+#~ msgstr "Kunne ikke kryptere fil: %s"
+
+#~ msgid "Signing"
+#~ msgstr "Underskriver"
+
+#~ msgid "Couldn't sign file: %s"
+#~ msgstr "Kunne ikke underskrive fil: %s"
+
+#~ msgid "Importing"
+#~ msgstr "Importerer"
+
+#~ msgid "Couldn't import keys from file: %s"
+#~ msgstr "Kunne ikke importere nøgler fra filen: %s"
+
+#~ msgid "Decrypting"
+#~ msgstr "Dekrypterer"
+
+#~ msgid "Couldn't decrypt file: %s"
+#~ msgstr "Kunne ikke dekryptere filen: %s"
+
+#~ msgid "Verifying"
+#~ msgstr "Verificerer"
+
+#~ msgid "Couldn't verify file: %s"
+#~ msgstr "Kunne ikke verificere fil: %s"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+
+#~ msgid "Self-extracting zip (.exe)"
+#~ msgstr "Selvudpakkende zip (.exe)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "Ukomprimeret Tar (.tar)"
+
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "bzip-komprimeret Tar (.tar.bz)"
+
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "bzip2-komprimeret Tar (.tar.bz2)"
+
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "gzip-komprimeret Tar (.tar.gz)"
+
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "lzop-komprimeret Tar (.tar.lzo)"
+
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "compress-komprimeret Tar (.tar.Z)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+
+#~ msgid "Zip (.zip)"
+#~ msgstr "Zip (.zip)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+
+#~ msgid "You have selected %d file "
+#~ msgid_plural "You have selected %d files "
+#~ msgstr[0] "Du har markeret %d fil "
+#~ msgstr[1] "Du har markeret %d filer "
+
+#~ msgid "and %d folder"
+#~ msgid_plural "and %d folders"
+#~ msgstr[0] "og %d mappe"
+#~ msgstr[1] "og %d mapper"
+
+#~ msgid "<b>%s%s</b>"
+#~ msgstr "<b>%s%s</b>"
+
+#~ msgid "You have selected %d files"
+#~ msgstr "Du har markeret %d filer"
+
+#~ msgid "You have selected %d folder"
+#~ msgid_plural "You have selected %d folders"
+#~ msgstr[0] "Du har markeret %d mappe"
+#~ msgstr[1] "Du har markeret %d mapper"
+
+#~ msgid "Couldn't list files"
+#~ msgstr "Kunne ikke vise filliste"
+
+#~ msgid "Couldn't read file"
+#~ msgstr "Kunne ikke læse fil"
+
+#~ msgid "Back up Key Rings to Archive"
+#~ msgstr "Gem sikkerhedskopier af nøgleringe i et arkiv"
+
+#~ msgid "bastile"
+#~ msgstr "bastile"
+
+#~ msgid "_Back up Key Rings..."
+#~ msgstr "Lav _sikkerhedskopi af nøgleringe..."
+
+#~ msgid "Back up all keys"
+#~ msgstr "Lav sikkerhedskopi af alle nøgler"
+
+#~ msgid "Set Up Computer for _Secure Shell..."
+#~ msgstr "Konfigurér computer til _SSH..."
+
+#~ msgid "User ID"
+#~ msgstr "Bruger-ID"
+
+#~ msgid "Couldn't retrieve key data"
+#~ msgstr "Kunne ikke hente nøgledata"
+
+#~ msgid "Couldn't write key to file"
+#~ msgstr "Kunne ikke skrive nøgle til fil"
+
+#~ msgid "Couldn't import keys into key ring"
+#~ msgstr "Kunne ikke importere nøgler til nøglering"
+
+#~ msgid "Couldn't write keys to file: %s"
+#~ msgstr "Kunne ikke skrive nøgler til filen: %s"
+
+#~ msgid "Save Remote Keys"
+#~ msgstr "Gem fjerne nøgler"
+
+#~ msgid "No matching keys found"
+#~ msgstr "Ingen passende nøgler fundet"
+
+#~ msgid "Save Key As..."
+#~ msgstr "Gem nøgle som..."
+
+#~ msgid "Save selected keys as a file"
+#~ msgstr "Gem markerede nøgler som en fil"
+
+#~ msgid "Remote Encryption Keys"
+#~ msgstr "Fjerne krypteringsnøgler"
+
+#~ msgid "<b>You have selected multiple files or folders</b>"
+#~ msgstr "<b>Du har valgt adskillige filer eller mapper</b>"
+
+#~ msgid ""
+#~ "Because the files are located remotely, each file will be encrypted "
+#~ "separately."
+#~ msgstr "Da filerne opbevares fjernt, vil hver fil blive krypteret separat."
+
+#~ msgid "Encrypt Multiple Files"
+#~ msgstr "Kryptér adskillige filer"
+
+#~ msgid "Encrypt each file separately"
+#~ msgstr "Kryptér hver fil separat"
+
+#~ msgid "Encrypt packed together in a package"
+#~ msgstr "Kryptér komprimeret i en pakke"
+
+#~ msgid "Package Name:"
+#~ msgstr "Pakkenavn:"
+
+# Gad vide hvad dette er
+#~ msgid "Packaging:"
+#~ msgstr "Pakketype:"
+
+#~ msgid "encrypted-package"
+#~ msgstr "krypteret-pakke"
+
+#~ msgid "Decrypt File"
+#~ msgstr "Dekryptér en fil"
+
+#~ msgid "I have checked that this key belongs to '%s'"
+#~ msgstr "Jeg har kontrolleret at denne nøgle tilhører \"%s\""
+
+#~ msgid "Verify Signature"
+#~ msgstr "Verificér signatur"
+
+#~ msgid "couldn't read gpg configuration, will try to create"
+#~ msgstr "kunne ikke læse gpg-indstillingerne - vil forsøge nyoprettelse"
+
+#~ msgid "couldn't modify gpg configuration: %s"
+#~ msgstr "kunne ikke ændre gpg-indstilling: %s"
+
+#~ msgid ""
+#~ "Display variables instead of editing conf files (gpg.conf, SSH agent "
+#~ "socket)"
+#~ msgstr ""
+#~ "Vis variable i stedet for at redigere conf-filer (gpg.conf, sokkel til "
+#~ "SSH-agent)"
+
+#~ msgid "couldn't drop privileges properly"
+#~ msgstr "kunne ikke opgive rettighederne korrekt"
+
+#~ msgid ""
+#~ "When set bastile-agent will try to automatically load the users SSH keys "
+#~ "when needed. This is equivalent to using the ssh-add utility."
+#~ msgstr ""
+#~ "Når denne er indstillet til det, vil bastile-agent automatisk forsøge at "
+#~ "hente brugerens SSH-nøgler når det er nødvendigt. Dette er ækvivalent med "
+#~ "at bruge ssh-add værktøjet."
+
+#~ msgid "Whether to automatically load SSH keys on demand."
+#~ msgstr "Hvorvidt SSH-nøgler automatisk indlæses når der er brug for dem."
+
+#~ msgid "Couldn't open the Session Properties"
+#~ msgstr "Kunne ikke åbne sessionindstillingerne"
+
+#~ msgid "Couldn't start the 'bastile-agent' program"
+#~ msgstr "Kunne ikke starte programmet \"bastile-agent\""
+
+#~ msgid "The 'bastile-agent' program exited unsuccessfully."
+#~ msgstr ""
+#~ "Programmet \"bastile-agent\" blev afsluttet uden at have fuldført sin "
+#~ "opgave."
+
+#~ msgid "<b>Secure Shell Keys</b>"
+#~ msgstr "<b>SSH-nøgler</b>"
+
+#~ msgid ""
+#~ "<i>No SSH caching agent is running. Cannot load Secure Shell keys.</i>"
+#~ msgstr "<i>Ingen SSH-cacheagent kører. Kan ikke indlæse SSH-nøgler.</i>"
+
+#~ msgid "Automatically load _Secure Shell keys"
+#~ msgstr "Indlæs automatisk _SSH-nøgler"
+
+#~ msgid ""
+#~ "Changing the master password failed.  Make certain that you entered the "
+#~ "correct original master password."
+#~ msgstr ""
+#~ "Kunne ikke ændre hovedkodeord. Kontrollér at du har indtastet det "
+#~ "originale hovedkodeord korrekt."
+
+#~ msgid "Confirm Master Password:"
+#~ msgstr "Bekræft hovedkodeord:"
+
+#~ msgid "New Master Password:"
+#~ msgstr "Nyt hovedkodeord:"
+
+#~ msgid "Original Master Password:"
+#~ msgstr "Oprindeligt hovedkodeord:"
+
+# Der refereres til Session Properties flere steder, så det skal nok hedde det samme
+#~ msgid "Session Properties"
+#~ msgstr "Sessionindstillinger"
+
+#~ msgid "The master password was successfully changed."
+#~ msgstr "Hovedkodeordet blev hermed ændret."
+
+#~ msgid ""
+#~ "To avoid manually starting the 'bastile-agent' in the future\n"
+#~ "add it to the Session Manager. "
+#~ msgstr ""
+#~ "Føj \"bastile-agent\" til i sessionshåndteringen hvis du\n"
+#~ "ikke ønsker at starte det manuelt i fremtiden. "
+
+#~ msgid "<b>Progress Message</b>"
+#~ msgstr "<b>Forløbsbesked</b>"
+
+#~ msgid "Progress Status"
+#~ msgstr "Forløbsstatus"
+
+#~ msgid "<b>Login:</b>"
+#~ msgstr "<b>Brugernavn:</b>"
+
+#~ msgid "<b>Server:</b>"
+#~ msgstr "<b>Server:</b>"
+
+#~ msgid "[details]\n"
+#~ msgstr "[detaljer]\n"
+
+#~ msgid "[login]"
+#~ msgstr "[brugernavn]"
+
+#~ msgid "[server]"
+#~ msgstr "[server]"
+
+#~ msgid "Cursor Position"
+#~ msgstr "Markørposition"
+
+# ...antal tegn fra begyndelsen af den streng der implicit refereres til?
+#~ msgid "The current position of the insertion cursor in chars"
+#~ msgstr "Den nuværende placering af indsætningsmarkøren målt i antal tegn"
+
+#~ msgid "Selection Bound"
+#~ msgstr "Markeringsgrænse"
+
+# Dette lyder helvedes dårligt. Men det gør det alligevel også på engelsk...
+#~ msgid ""
+#~ "The position of the opposite end of the selection from the cursor in chars"
+#~ msgstr ""
+#~ "Placeringen af den modsatte ende af markeringen fra markøren i antal tegn"
+
+#~ msgid "Maximum length"
+#~ msgstr "Maksimal længde"
+
+#~ msgid "Maximum number of characters for this entry. Zero if no maximum"
+#~ msgstr "Maksimalt antal tegn for denne post. Nul hvis intet maksimum"
+
+# Mystisk.
+#~ msgid "Has Frame"
+#~ msgstr "Har ramme"
+
+#~ msgid "FALSE removes outside bevel from entry"
+#~ msgstr "FALSE fjerner den ydre skråkant fra posten"
+
+#~ msgid "Invisible character"
+#~ msgstr "Usynligt tegn"
+
+#~ msgid ""
+#~ "The character to use when masking entry contents (in \"password mode\")"
+#~ msgstr ""
+#~ "Tegnet der benyttes til at maskere postindhold (i \"kodeords-tilstand\")"
+
+#~ msgid ""
+#~ "Whether to activate the default widget (such as the default button in a "
+#~ "dialog) when Enter is pressed"
+#~ msgstr ""
+#~ "Hvorvidt forvalgskontrollen (såsom den forvalgte knap i en dialog) "
+#~ "aktiveres når der trykkes Enter"
+
+#~ msgid "Width in chars"
+#~ msgstr "Bredde i tegn"
+
+#~ msgid "Number of characters to leave space for in the entry"
+#~ msgstr "Antallet af tegn der reserveres plads til i posten"
+
+#~ msgid "Scroll offset"
+#~ msgstr "Rulleudgangspunkt"
+
+#~ msgid "Number of pixels of the entry scrolled off the screen to the left"
+#~ msgstr ""
+#~ "Antallet af pixler fra posten der er rullet til venstre ud af skærmen"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "The contents of the entry"
+#~ msgstr "Indholdet af posten"
+
+#~ msgid "Visibility"
+#~ msgstr "Synlighed"
+
+# Hvilken invisible character? Dem er der jo mange af. De må mene flere af slagsen
+#~ msgid "Whether contents are drawn using invisible character"
+#~ msgstr "Hvorvidt indholdet anføres med usynlige tegn"
+
+#~ msgid "Key type / algorithm"
+#~ msgstr "Nøgletype / algoritme"
+
+# Type = skriv, eller type=type? Nedenfor står der "use here"...
+#~ msgid "[Type here]"
+#~ msgstr "[Type her]"
+
+# Use=brug eller use=funktion?
+#~ msgid "[Use here]"
+#~ msgstr "[Formål her]"
+
+# Hvad gør vi med placeholder?
+#~ msgid "This key expired on: (placeholder)"
+#~ msgstr "Denne nøgle udløb den: (placeholder)"
+
+#~ msgid "Decrypt..."
+#~ msgstr "Afkryptér..."
+
+#~ msgid "_Ascii Armor"
+#~ msgstr "_ASCII-panser"
+
+#~ msgid "_Text Editor"
+#~ msgstr "_Tekstbehandler"
+
+#~ msgid "C_lear Sign"
+#~ msgstr "_Ryd underskrift"
+
+#~ msgid "Secret Key Ring"
+#~ msgstr "Hemmelig nøglering"
+
+#~ msgid "set the width of the window"
+#~ msgstr "Sæt bredden på vinduet"
+
+#~ msgid "set the height of the window"
+#~ msgstr "Sæt højden på vinduet"
+
+#~ msgid "set the vertical position of the window"
+#~ msgstr "sæt den lodrette position på vinduet"
+
+#~ msgid "make a clear text signature"
+#~ msgstr "opret almindelig tekstsignatur?"
+
+#~ msgid "encrypt"
+#~ msgstr "kryptér"
+
+#~ msgid "decrypt"
+#~ msgstr "afkryptér"
+
+#~ msgid "create ascii armored output"
+#~ msgstr "lav ASCII-panseret uddata"
+
+#~ msgid "sign/encrypt for NAME"
+#~ msgstr "underskriv/kryptér for NAME"
+
+#~ msgid "NAME(or EMAIL-ADDRESS)"
+#~ msgstr "NAME(eller EMAIL-ADDRESS)"
+
+#~ msgid "use file FILE instead of stdin"
+#~ msgstr "brug filen FILE istedetfor stdin"
+
+#~ msgid "write output to file OUTFILE (using - will write to stdout)"
+#~ msgstr "skriv uddata til filen OUTFILE (bare '-' vil skrive til stdout)"
+
+#~ msgid "OUTFILE"
+#~ msgstr "OUTFILE"
+
+#~ msgid "Sign & Encrypt"
+#~ msgstr "Underskriv & kryptér"
+
+#~ msgid " I_nput File... "
+#~ msgstr " I_nddatafil... "
+
+#~ msgid "Te_xt Editor"
+#~ msgstr "Te_kstbehandler"
+
+#~ msgid "Textmode (_b)"
+#~ msgstr "Tekstformat (_b)"
+
+#~ msgid "Si_gn & Encrypt"
+#~ msgstr "U_nderskriv & kryptér"
+
+#~ msgid " O_utput File... "
+#~ msgstr " _Uddatafil... "
+
+#~ msgid " (_P)"
+#~ msgstr " (_P)"
+
+#~ msgid "Verify & Decrypt"
+#~ msgstr "Verificér & afkryptér"
+
+#~ msgid "Verify & _Decrypt"
+#~ msgstr "Verificér & _afkryptér"
+
+#~ msgid "Copyright (c) 1999, 2000 Anthony Mulcahy"
+#~ msgstr "Ophavsret (c) 1999, 2000 Anthony Mulcahy"
+
+#~ msgid "A Mate frontend for GnuPG"
+#~ msgstr "En MATE frontend for GnuPG"
+
+#~ msgid ": "
+#~ msgstr ": "
+
+#~ msgid " : "
+#~ msgstr " : "
+
+#~ msgid "certserver.pgp.com"
+#~ msgstr "certserver.pgp.com"
+
+#~ msgid "To Key _File"
+#~ msgstr "Til nøgle_fil"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Brug proxy"
+
+#~ msgid "From Key _File"
+#~ msgstr "Fra nøgle_fil"
+
+#~ msgid "0 (does not expire)"
+#~ msgstr "0 (bliver aldrig for gammel)"
+
+#~ msgid "Permanently Delete Key?"
+#~ msgstr "Slet nøgle permanent?"
+
+#~ msgid "Generate Key Druid"
+#~ msgstr "Opret nøgledruide"
+
+#~ msgid "No GnuPG Directory Found"
+#~ msgstr "Ingen GnuPG mappe fundet"
+
+#~ msgid ""
+#~ "Bastile cannot find any GnuPG directory (\".gnupg\") which means that\n"
+#~ "either the GNUPG environment variable isn't properly set or else that "
+#~ "you\n"
+#~ "will need to generate a Public / Secret Key Pair if this is your first "
+#~ "time\n"
+#~ "using Bastile (or GnuPG)."
+#~ msgstr ""
+#~ "Bastile kan ikke finde nogen GnuPG mappe (\".gnupg\"), hvilket enten\n"
+#~ "betyder at GnuPG miljøvariablen er ikke er ordentlig angivet, eller at "
+#~ "du\n"
+#~ "skal oprette et offentligt / hemmeligt nøglepar hvis det er første gang "
+#~ "du\n"
+#~ "bruger Bastile (eller GnuPG)."
+
+#~ msgid "Generate Public / Secret Key Pair"
+#~ msgstr "Opret offentligt / hemmeligt nøglepar"
+
+#~ msgid "Public / Secret Key Pair Generated"
+#~ msgstr "Offentligt / hemmeligt nøglepar oprettet"
+
+#~ msgid ""
+#~ "Your Public / Secret Key Pair have been generated and\n"
+#~ "saved to the \".gnupg\" directory.\n"
+#~ "\n"
+#~ "Please click \"Finish\" to start Bastile."
+#~ msgstr ""
+#~ "Dit offentlige / hemmelige nøglepar er blevet oprettet\n"
+#~ "og gemt i \".gnupg\" mappen.\n"
+#~ "\n"
+#~ "Klik venligst på \"Færdig\" for at starte Bastile."
+
+#~ msgid "Trust Fully"
+#~ msgstr "Stol helt på"
+
+#~ msgid " Trust Value : "
+#~ msgstr " Tillidsværdi : "
+
+#~ msgid "Don't Know"
+#~ msgstr "Ved ikke"
+
+#~ msgid "Adjust _Trust"
+#~ msgstr "Justér _tillid"
+
+#~ msgid "Permanently Delete UID?"
+#~ msgstr "Slet UID permanent?"

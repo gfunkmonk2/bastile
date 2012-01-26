@@ -1,0 +1,4 @@
+debian/tmp/usr/include
+debian/tmp/usr/lib/*.so
+debian/tmp/usr/lib/pkgconfig
+debian/tmp/usr/share/gir-1.0/CryptUI-0.0.gir

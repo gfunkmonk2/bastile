@@ -1,0 +1,2256 @@
+# German translation of the bastile manual.
+# Mario Blättermann <mariobl@mate.org>, 2008-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bastile\n"
+"POT-Creation-Date: 2009-11-06 04:14+0000\n"
+"PO-Revision-Date: 2010-06-22 21:13+0100\n"
+"Last-Translator: Mario Blättermann <mariobl@mate.org>\n"
+"Language-Team: German <mate-de@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/bastile.xml:224(None)
+msgid ""
+"@@image: 'figures/bastile-window.png'; md5=d52b0902a24b89d5aadc50e64f471c7d"
+msgstr "translated"
+
+#: C/bastile.xml:16(title)
+msgid "Passwords and Encryption Keys Manual"
+msgstr "»Passwörter und Verschlüsselung«-Handbuch"
+
+#: C/bastile.xml:18(year)
+msgid "2005, 2006, 2007, 2008, 2009"
+msgstr "2005, 2006, 2007, 2008, 2009"
+
+#: C/bastile.xml:19(holder)
+msgid "Jacob Perkins and Adam Schreiber"
+msgstr "Jacob Perkins und Adam Schreiber"
+
+#: C/bastile.xml:22(publishername) C/bastile.xml:31(orgname)
+#: C/bastile.xml:43(orgname) C/bastile.xml:63(publishername)
+#: C/bastile.xml:106(para) C/bastile.xml:118(para)
+msgid "Bastile Project"
+msgstr "Bastile-Projekt"
+
+#: C/bastile.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in "
+"the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free "
+"Documentation License (GFDL), Version 1.1 oder jeder späteren, von der Free "
+"Software Foundation veröffentlichten Version ohne unveränderbare Abschnitte "
+"sowie ohne Texte auf dem vorderen und hinteren Buchdeckel kopiert, verteilt "
+"und/oder modifiziert werden. Eine Kopie der GFDL finden Sie unter diesem "
+"<ulink type=\"help\" url=\"ghelp:fdl\">Link</ulink> oder in der mit diesem "
+"Handbuch gelieferten Datei COPYING-DOCS."
+
+#: C/bastile.xml:12(para)
+msgid ""
+"This manual is part of a collection of MATE manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Dieses Handbuch ist Teil einer Sammlung von MATE-Handbüchern, die unter der "
+"GFDL veröffentlicht werden. Wenn Sie dieses Handbuch getrennt von der "
+"Sammlung weiterverbreiten möchten, können Sie das tun, indem Sie eine Kopie "
+"der Lizenz zum Handbuch hinzufügen, wie es in Abschnitt 6 der Lizenz "
+"beschrieben ist."
+
+#: C/bastile.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any MATE "
+"documentation, and the members of the MATE Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Viele der Namen, die von Unternehmen verwendet werden, um ihre Produkte und "
+"Dienstleistungen von anderen zu unterscheiden, sind eingetragene "
+"Warenzeichen. An den Stellen, an denen diese Namen in einer MATE-"
+"Dokumentation erscheinen, werden die Namen in Großbuchstaben oder mit einem "
+"großen Anfangsbuchstaben geschrieben, wenn das MATE-Dokumentationsprojekt "
+"auf diese Warenzeichen hingewiesen wird."
+
+#: C/bastile.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK "
+"AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED "
+"VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION "
+"PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY "
+"CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR "
+"CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS "
+"LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS "
+"AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DIESES DOKUMENT WIRD »WIE VORLIEGEND« GELIEFERT, OHNE GARANTIEN IRGENDEINER "
+"ART, SOWOHL AUSDRÜCKLICH GENANNTE ALS AUCH ANGEDEUTETE. DIES BEZIEHT SICH "
+"AUCH OHNE EINSCHRÄNKUNG AUF GARANTIEN, DASS DIESES DOKUMENT ODER VERÄNDERTE "
+"FASSUNGEN DIESES DOKUMENTS FREI VON HANDELSDEFEKTEN, FÜR EINEN BESTIMMTEN "
+"ZWECK GEEIGNET IST ODER DASS ES KEINE RECHTE DRITTER VERLETZT. DAS VOLLE "
+"RISIKO WAS QUALITÄT, GENAUIGKEIT UND LEISTUNG DES DOKUMENTS ODER VERÄNDERTE "
+"FASSUNGEN DES DOKUMENTS LIEGT BEI IHNEN. SOLLTE EIN DOKUMENT ODER EINE "
+"VERÄNDERTE FASSUNG DAVON FEHLER IRGENDEINER ART BEINHALTEN, TRAGEN SIE (NICHT "
+"DER URSPRUNGSAUTOR, DER AUTOR ODER EIN MITWIRKENDER) DIE KOSTEN FÜR "
+"NOTWENDIGE DIENSTLEISTUNGEN, REPARATUREN ODER FEHLERKORREKTUREN. DIESER "
+"HAFTUNGSAUSSCHLUSS IST EIN ESSENZIELLER TEIL DIESER LIZENZ. DIE VERWENDUNG "
+"EINES DOKUMENTS ODER EINER VERÄNDERTEN VERSION DES DOKUMENTS IST NICHT "
+"GESTATTET AUßER UNTER BEACHTUNG DIESES HAFTUNGSAUSSCHLUSSES UND"
+
+#: C/bastile.xml:55(para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR "
+"ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY "
+"CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK "
+"STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR "
+"LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DURCH "
+"UNERLAUBTEN HANDLUNGEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT), VERTRAG ODER "
+"ANDERWEITIG KANN DER AUTOR, URSPRUNGSAUTOR, EIN MITWIRKENDER ODER EIN "
+"VERTRIEBSPARTNER DIESES DOKUMENTS ODER EINER VERÄNDERTEN FASSUNG DES "
+"DOKUMENTS ODER EIN ZULIEFERER EINER DIESER PARTEIEN, HAFTBAR GEMACHT WERDEN "
+"FÜR DIREKTE, INDIREKTE, SPEZIELLE, VERSEHENTLICHE ODER FOLGESCHÄDEN JEGLICHER "
+"ART, EINSCHLIEßLICH UND OHNE EINSCHRÄNKUNGEN SCHÄDEN DURCH VERLUST VON "
+"KULANZ, ARBEITSAUSFALL, COMPUTERVERSAGEN ODER COMPUTERFEHLFUNKTIONEN ODER "
+"ALLE ANDEREN SCHÄDEN ODER VERLUSTE, DIE SICH AUS ODER IN VERBINDUNG MIT DER "
+"VERWENDUNG DES DOKUMENTS UND VERÄNDERTER FASSUNGEN DES DOKUMENTS ERGEBEN, "
+"AUCH WENN DIE OBEN GENANNTEN PARTEIEN ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN "
+"INFORMIERT WAREN."
+
+#: C/bastile.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"DAS DOKUMENT UND VERÄNDERTE FASSUNGEN DES DOKUMENTS WERDEN UNTER DEN "
+"BEDINGUNGEN DER GNU FREE DOCUMENTATION LICENSE ZUR VERFÜGUNG GESTELLT MIT DEM "
+"WEITERGEHENDEN VERSTÄNDNIS, DASS: <placeholder-1/>"
+
+#: C/bastile.xml:28(firstname)
+msgid "Jacob"
+msgstr "Jacob"
+
+#: C/bastile.xml:29(surname)
+msgid "Perkins"
+msgstr "Perkins"
+
+#: C/bastile.xml:40(firstname)
+msgid "Adam"
+msgstr "Adam"
+
+#: C/bastile.xml:41(surname)
+msgid "Schreiber"
+msgstr "Schreiber"
+
+#: C/bastile.xml:45(email)
+msgid "sadam@clemson.edu"
+msgstr "sadam@clemson.edu"
+
+#: C/bastile.xml:50(firstname)
+msgid "Paul"
+msgstr "Paul"
+
+#: C/bastile.xml:51(surname)
+msgid "Cutler"
+msgstr "Cutler"
+
+#: C/bastile.xml:53(orgname) C/bastile.xml:66(publishername)
+msgid "MATE Documentation Project"
+msgstr "MATE-Dokumentationsprojekt"
+
+#: C/bastile.xml:55(email)
+msgid "pcutler@foresightlinux.org"
+msgstr "pcutler@foresightlinux.org"
+
+#: C/bastile.xml:70(revnumber)
+msgid "Passwords and Encryption Keys Manual V2.11.0"
+msgstr "»Passwörter und Verschlüsselung«-Handbuch V2.11.0"
+
+#: C/bastile.xml:71(date)
+msgid "May 2009"
+msgstr "Mai 2009"
+
+#: C/bastile.xml:73(para)
+msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
+msgstr "Paul Cutler <email>pcutler@foresightlinux.org</email>"
+
+#: C/bastile.xml:80(revnumber)
+msgid "Passwords and Encryption Keys Manual V0.10.1"
+msgstr "»Passwörter und Verschlüsselung«-Handbuch V0.10.1"
+
+#: C/bastile.xml:81(date)
+msgid "August 2008"
+msgstr "August 2008"
+
+#: C/bastile.xml:83(para) C/bastile.xml:103(para)
+msgid "Adam Schreiber <email>sadam@clemson.edu</email>"
+msgstr "Adam Schreiber <email>sadam@clemson.edu</email>"
+
+#: C/bastile.xml:90(revnumber)
+msgid "Passwords and Encryption Keys Manual V0.9.1"
+msgstr "»Passwörter und Verschlüsselung«-Handbuch V0.9.1"
+
+#: C/bastile.xml:91(date)
+msgid "November 2006"
+msgstr "November 2006"
+
+#: C/bastile.xml:93(para)
+msgid "Milo Casagrande <email>milo_casagrande@yahoo.it</email>"
+msgstr "Milo Casagrande <email>milo_casagrande@yahoo.it</email>"
+
+#: C/bastile.xml:100(revnumber)
+msgid "Passwords and Encryption Keys Manual V0.9.0"
+msgstr "»Passwörter und Verschlüsselung«-Handbuch V0.9.0"
+
+#: C/bastile.xml:101(date)
+msgid "July 2005"
+msgstr "Juli 2005"
+
+#: C/bastile.xml:110(revnumber)
+msgid "Passwords and Encryption Keys Manual V0.7.0"
+msgstr "»Passwörter und Verschlüsselung«-Handbuch V0.7.0"
+
+#: C/bastile.xml:111(date)
+msgid "February 2003"
+msgstr "Februar 2003"
+
+#: C/bastile.xml:113(para)
+msgid "Jacob Perkins"
+msgstr "Jacob Perkins"
+
+#: C/bastile.xml:122(releaseinfo)
+msgid "This manual describes version 2.28.x of Passwords and Encryption Keys"
+msgstr ""
+"Dieses Handbuch beschreibt Version 2.28.x von »Passwörter und Verschlüsselung«"
+
+#: C/bastile.xml:124(title)
+msgid "Feedback"
+msgstr "Rückmeldungen"
+
+#: C/bastile.xml:125(para)
+msgid ""
+"To report a bug or make a suggestion regarding the <application>Passwords and "
+"Encryption Keys</application> application or this manual, follow the "
+"directions in the <ulink url=\"ghelp:mate-feedback\" type=\"help\">Mate "
+"Feedback Page</ulink>."
+msgstr ""
+"Um einen Fehler zu melden oder einen Vorschlag zur Anwendung "
+"<application>Passwörter und Verschlüsselung</application> oder zu diesem "
+"Handbuch zu machen, folgen Sie den Anweisungen auf der <ulink url=\"ghelp:"
+"mate-feedback\" type=\"help\">MATE-Seite für Rückmeldungen</ulink>."
+
+#: C/bastile.xml:132(para)
+msgid ""
+"<application>Passwords and Encryption Keys</application> is the application "
+"for managing encryption keys for the MATE Desktop"
+msgstr ""
+"<application>Passwörter und Verschlüsselung</application> ist die Anwendung "
+"zum Verwalten von Verschlüsselungen für den MATE-Desktop"
+
+#: C/bastile.xml:140(primary)
+msgid "Bastile"
+msgstr "Bastile"
+
+#: C/bastile.xml:144(primary)
+msgid "bastile"
+msgstr "bastile"
+
+#: C/bastile.xml:148(primary)
+msgid "Encryption Keys"
+msgstr "Verschlüsselungen"
+
+#: C/bastile.xml:154(title)
+msgid "Introduction"
+msgstr "Einführung"
+
+#: C/bastile.xml:155(para)
+msgid ""
+"You can use <application>Passwords and Encryption Keys</application> to "
+"create and manage <acronym>PGP</acronym> and <acronym>SSH</acronym> keys."
+msgstr ""
+"Sie können <application>Passwörter und Verschlüsselung</application> zum "
+"Erzeugen und Verwalten von <acronym>PGP</acronym>- und <acronym>SSH</acronym>-"
+"Schlüsseln verwenden."
+
+#: C/bastile.xml:158(para)
+msgid ""
+"<application>Passwords and Encryption Keys</application> provides a front end "
+"to many of the features of <ulink url=\"http://www.gnupg.org\" type=\"http"
+"\">Gnu Privacy Guard (GPG)</ulink> and integrates with multiple components of "
+"the <ulink url=\"http://www.mate.org\">MATE</ulink> desktop."
+msgstr ""
+"<application>Passwörter und Verschlüsselung</application> stellt eine "
+"grafische Benutzeroberfläche für viele Funktionen des <ulink url=\"http://www."
+"gnupg.org\" type=\"http\">Gnu Privacy Guard (GPG)</ulink> zur Verfügung. Das "
+"Programm kann in mehrere Komponenten des <ulink url=\"http://www.mate.org"
+"\">MATE</ulink>-Desktops integriert werden."
+
+#: C/bastile.xml:168(para)
+msgid "Create and manage PGP and SSH keys,"
+msgstr "PGP- und SSH-Schlüssel erzeugen und verwalten,"
+
+#: C/bastile.xml:171(para)
+msgid "Export and import PGP and SSH keys,"
+msgstr "PGP- und SSH-Schlüssel exportieren und importieren,"
+
+#: C/bastile.xml:174(para)
+msgid "Share your keys with others,"
+msgstr "Ihre Schlüssel für Andere freigeben,"
+
+#: C/bastile.xml:163(para)
+msgid ""
+"With <application>Passwords and Encryption Keys</application> you can: "
+"<placeholder-1/>"
+msgstr ""
+"Mit <application>Passwörter und Verschlüsselung</application> können Sie: "
+"<placeholder-1/>"
+
+#: C/bastile.xml:183(title)
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: C/bastile.xml:185(title)
+msgid "Starting <application>Passwords and Encryption Keys</application>"
+msgstr "Starten von <application>Passwörter und Verschlüsselung</application>"
+
+#: C/bastile.xml:186(para)
+msgid ""
+"You can start <application>Passwords and Encryption Keys</application> in the "
+"following ways:"
+msgstr ""
+"Sie können <application>Passwörter und Verschlüsselung</application> auf "
+"folgende Arten starten:"
+
+#: C/bastile.xml:192(term)
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "Menü <guimenu>Anwendungen</guimenu>"
+
+#: C/bastile.xml:194(para)
+msgid ""
+"Choose <menuchoice><guimenu>Accessories</guimenu><guimenuitem>Password and "
+"Encryption Keys</guimenuitem></menuchoice>."
+msgstr ""
+"Wählen Sie <menuchoice><guimenu>Werkzeuge</guimenu><guimenuitem>Passwörter "
+"und Verschlüsselung</guimenuitem></menuchoice>."
+
+#: C/bastile.xml:202(term)
+msgid "Command Line"
+msgstr "Befehlszeile"
+
+#: C/bastile.xml:204(para)
+msgid "Type <command>bastile</command> then press <keycap>Return</keycap>."
+msgstr ""
+"Geben Sie den Befehl <command>bastile</command> ein und drücken Sie dann "
+"<keycap>Enter</keycap>."
+
+#: C/bastile.xml:213(title)
+msgid "When You Start <application>Passwords and Encryption Keys</application>"
+msgstr ""
+"Beim Start von <application>Passwörter und Verschlüsselung</application>"
+
+#: C/bastile.xml:214(para)
+msgid ""
+"When you start <application>Passwords and Encryption Keys</application>, the "
+"<guilabel>Password and Encryption Keys</guilabel> window is displayed."
+msgstr ""
+"Wenn Sie <application>Passwörter und Verschlüsselung</application> starten, "
+"wird das <guilabel>Passwörter und Verschlüsselung</guilabel>-Fenster "
+"angezeigt."
+
+#: C/bastile.xml:220(title)
+msgid "The <application>Passwords and Encryption Keys</application> Window"
+msgstr "Das <application>Passwörter und Verschlüsselung</application>-Fenster"
+
+#: C/bastile.xml:228(application)
+msgid "Passwords and Encryption Keys"
+msgstr "Passwörter und Verschlüsselung"
+
+#: C/bastile.xml:227(phrase)
+msgid "Show the <placeholder-1/> window."
+msgstr "Zeigt das <placeholder-1/>-Fenster."
+
+#: C/bastile.xml:235(para)
+msgid ""
+"The <application>Passwords and Encryption Keys</application> window contains "
+"the following elements:"
+msgstr ""
+"Das <application>Passwörter und Verschlüsselung</application>-Fenster enthält "
+"die folgenden Elemente:"
+
+#: C/bastile.xml:240(term)
+msgid "Menubar"
+msgstr "Menüleiste"
+
+#: C/bastile.xml:242(para)
+msgid ""
+"The menus on the menubar contain all of the commands that you need to perform "
+"tasks in <application>Passwords and Encryption Keys</application>."
+msgstr ""
+"Die Menüs in der Menüleiste enthalten alle Befehle, die Sie für die "
+"Ausführung von Aktionen in <application>Passwörter und Verschlüsselung</"
+"application> benötigen."
+
+#: C/bastile.xml:245(term)
+msgid "Toolbar"
+msgstr "Werkzeugleiste"
+
+#: C/bastile.xml:247(para)
+msgid "Use the toolbar to quickly access commonly-used commands."
+msgstr ""
+"Verwenden Sie die Werkzeugleiste zum schnellen Zugriff auf häufig benutzte "
+"Befehle."
+
+#: C/bastile.xml:250(term)
+msgid "Keys and Passwords Tabs"
+msgstr "Reiter »Schlüssel« und »Passwörter«"
+
+#: C/bastile.xml:252(para)
+msgid "Provides access to the keys and passwords in the keyring."
+msgstr ""
+"Ermöglichen den Zugriff auf die Schlüssel und die Passwörter im Schlüsselbund."
+
+#: C/bastile.xml:255(term)
+msgid "First time options"
+msgstr "Erstmalige Optionen"
+
+#: C/bastile.xml:257(para)
+msgid ""
+"Provides fast access to useful actions for first time users. From here you "
+"can:"
+msgstr ""
+"Bietet schnellen Zugriff auf nützliche Aktionen für Erstanwender. Von hier "
+"aus können Sie:"
+
+#: C/bastile.xml:260(para)
+msgid "Browse the help system,"
+msgstr "das Hilfesystem durchsuchen,"
+
+#: C/bastile.xml:263(para)
+msgid "Import keys in the keyring,"
+msgstr "Schlüssel in den Schlüsselbund importieren,"
+
+#: C/bastile.xml:266(para)
+msgid "Create new keys."
+msgstr "neue Schlüssel erzeugen."
+
+#: C/bastile.xml:278(title)
+msgid "Creating OpenPGP Keys"
+msgstr "Erzeugen von OpenPGP-Schlüsseln"
+
+#: C/bastile.xml:279(para)
+msgid ""
+"OpenPGP is a non proprietary protocol for encrypting e-mail with the use of "
+"public key cryptography based on <acronym>PGP</acronym>. It defines standard "
+"formats for encrypted messages, signatures, private keys and certificates for "
+"exchanging public keys."
+msgstr ""
+"OpenPGP ist ein offenes Protokoll zur Verschlüsselung von E-Mails mit einem "
+"öffentlichen Schlüssel, dessen Kryptografie auf <acronym>PGP</acronym> "
+"basiert. In diesem Protokoll werden Standardformate für verschlüsselte "
+"Nachrichten, Unterschriften und geheime Schlüssel definiert. Es ist für den "
+"Austausch öffentlicher Schlüssel zertifiziert."
+
+#: C/bastile.xml:284(para)
+msgid ""
+"Public key cryptography is a concept which involves the use of two keys: a "
+"<emphasis>public key</emphasis>, that you can give to anyone with whom you "
+"would like to communicate, and a <emphasis>private key</emphasis> which is "
+"private and must be kept secret."
+msgstr ""
+"Die Kryptografie öffentlicher Schlüssel ist ein Konzept, welches die Nutzung "
+"zweier Schlüssel beinhaltet: einen <emphasis>öffentlichen Schlüssel</"
+"emphasis>, den Sie an jeden Ihrer Kommunikationspartner weitergeben können, "
+"sowie einen <emphasis>geheimen Schlüssel</emphasis>, der rein privat ist und "
+"geheimgehalten werden muss."
+
+#: C/bastile.xml:294(para) C/bastile.xml:427(para)
+msgid ""
+"Choose <menuchoice><guimenu>File</guimenu><guimenuitem>New...</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"Wählen Sie <menuchoice><guimenu>Datei</guimenu><guimenuitem>Neu</"
+"guimenuitem></menuchoice>."
+
+#: C/bastile.xml:299(para)
+msgid ""
+"Select <guilabel>PGP Key</guilabel> and click <guibutton>Continue</guibutton>"
+msgstr ""
+"Wählen Sie <guilabel>PGP-Schlüssel</guilabel> und klicken Sie auf "
+"<guibutton>Weiter</guibutton>"
+
+#: C/bastile.xml:304(para)
+msgid ""
+"Enter your full name (first - last), your e-mail address and any additional "
+"information. You can also specify advanced options for the key: see below."
+msgstr ""
+"Geben Sie Ihren vollen Namen (Vorname - Nachname), Ihre E-Mail-Adresse und "
+"eventuell zusätzliche Informationen ein. Sie können auch erweiterte Optionen "
+"für den Schlüssel eingeben. Siehe unten."
+
+#: C/bastile.xml:310(para)
+msgid "Click <guibutton>Create</guibutton> to create the new key pair."
+msgstr ""
+"Klicken Sie auf <guibutton>Erzeugen</guibutton>, um ein neues Schlüsselpaar "
+"zu erzeugen."
+
+#: C/bastile.xml:315(para)
+msgid ""
+"The <guilabel>Passphrase for New PGP Key</guilabel> dialog will open. Enter "
+"the passphrase twice for your new key."
+msgstr ""
+"Das Dialogfenster <guilabel>Kennwort des neuen PGP-Schlüssels</guilabel> wird "
+"geöffnet. Geben Sie das Kennwort für Ihren neuen Schlüssel zweimal ein."
+
+#: C/bastile.xml:290(para)
+msgid "To create OpenPGP keys: <placeholder-1/>"
+msgstr "So erzeugen Sie OpenPGP-Schlüssel: <placeholder-1/>"
+
+#: C/bastile.xml:323(para) C/bastile.xml:446(para)
+msgid ""
+"Use similar practices to generating a strong password when choosing a "
+"passphrase. The main difference between a password and a passphrase is that, "
+"in a passphrase, spaces are valid characters."
+msgstr ""
+"Gehen sie beim Wählen eines Kennworts ähnlich vor wie beim Erzeugen eines "
+"starken Passworts. Der wichtigste Unterschied zwischen einem Passwort und "
+"einem Kennwort besteht darin, dass in einem Kennwort auch Leerzeichen gültige "
+"Zeichen sind."
+
+#: C/bastile.xml:331(title) C/bastile.xml:460(title)
+msgid "Advanced options"
+msgstr "Erweiterte Einstellungen"
+
+#: C/bastile.xml:332(para)
+msgid ""
+"Expand the <guibutton>Advanced key options</guibutton> section to specify the "
+"following options for a new key:"
+msgstr ""
+"Öffnen Sie den Bereich <guibutton>Erweiterte Optionen</guibutton>, um "
+"folgende Optionen für den neuen Schlüssel zu wählen:"
+
+#: C/bastile.xml:338(guilabel) C/bastile.xml:467(guilabel)
+msgid "Encryption Type"
+msgstr "Verschlüsselungs-Typ"
+
+#: C/bastile.xml:340(para)
+msgid ""
+"This field specifies the encryption algorithms used to generate your keys."
+msgstr ""
+"Dieses Feld bezeichnet die Verschlüsselungsalgorithmen, die beim Erzeugen "
+"Ihrer Schlüssel benutzt werden."
+
+#: C/bastile.xml:346(term)
+msgid "<acronym>DSA</acronym> ElGamal"
+msgstr "<acronym>DSA</acronym> ElGamal"
+
+#: C/bastile.xml:348(para)
+msgid ""
+"This is the suggested choice as it will allow you to encrypt, decrypt, sign "
+"and verify as needed."
+msgstr ""
+"Dies ist die bevorzugte Wahl, weil damit Verschlüsseln, Entschlüsseln, "
+"Signieren und Überprüfen möglich sind."
+
+#: C/bastile.xml:355(acronym) C/bastile.xml:485(acronym)
+#: C/bastile.xml:916(acronym)
+msgid "DSA"
+msgstr "DSA"
+
+#: C/bastile.xml:357(para) C/bastile.xml:365(para)
+msgid "Will allow signing only."
+msgstr "Erlaubt nur das Signieren."
+
+#: C/bastile.xml:363(acronym) C/bastile.xml:475(acronym)
+#: C/bastile.xml:935(term)
+msgid "RSA"
+msgstr "RSA"
+
+#: C/bastile.xml:374(guilabel) C/bastile.xml:497(guilabel)
+msgid "Key Strength (bits)"
+msgstr "Schlüssellänge (Bit)"
+
+#: C/bastile.xml:376(para) C/bastile.xml:499(para)
+msgid ""
+"This is the length of the key in bits. The longer the key, the more secure it "
+"will be, provided a strong passphrase is used. Conversely, performing any "
+"operation with a longer key will require more time than it would with a "
+"shorter key. Acceptable values are between 1024 and 4096 bits. At least 2048 "
+"bits is recommended."
+msgstr ""
+"Dies bezeichnet die Länge des Schlüssels in Bit. Je länger der Schlüssel ist, "
+"umso sicherer ist er auch, vorausgesetzt, Sie verwenden ein sicheres "
+"Kennwort. Andererseits wird das Ausführen von Operationen mit einem längeren "
+"Schlüssel mehr Zeit in Anspruch nehmen als mit einem kürzeren Schlüssel. "
+"Schlüssellängen zwischen 1024 und 4096 Bit werden akzeptiert, jedoch sind "
+"mindestens 2048 Bit zu empfehlen."
+
+#: C/bastile.xml:386(guilabel) C/bastile.xml:648(title)
+#: C/bastile.xml:957(term)
+msgid "Expiration Date"
+msgstr "Ablaufdatum"
+
+#: C/bastile.xml:395(para)
+msgid ""
+"Sign your new key with your old one before it expires to preserve your trust "
+"status."
+msgstr ""
+"Signieren Sie Ihren neuen Schlüssel mit Ihrem alten Schlüssel, bevor er "
+"verfällt, um den Status Ihrer Vertrauenswürdigkeit zu bewahren."
+
+#: C/bastile.xml:388(para)
+msgid ""
+"This is the date at which the key will cease to be usable for performing "
+"encryption or signing operations. 6 months is a reasonable time to set it to. "
+"You will have to either change the expiration date or generate a new key or "
+"subkey after this amount of time passes. <placeholder-1/>"
+msgstr ""
+"Dies bezeichnet das Datum, bis zu welchem der Schlüssel für Verschlüsselungen "
+"oder Signaturen genutzt werden kann. Sechs Monate sind hierfür ein "
+"vernünftiger Wert. Nach dem Ende dieser Zeitspanne können Sie entweder das "
+"Ablaufdatum ändern oder einen neuen Schlüssel oder Unterschlüssel erzeugen. "
+"<placeholder-1/>"
+
+#: C/bastile.xml:410(title)
+msgid "Creating Secure Shell Keys"
+msgstr "Erzeugen von Secure-Shell-Schlüsseln"
+
+#: C/bastile.xml:411(para)
+msgid ""
+"Secure Shell (<acronym>SSH</acronym>) is a way of logging into a remote "
+"computer to execute commands on that machine. SSH keys are used in key-based "
+"authentication system, as an alternative to the default password "
+"authentication system. With key-based authentication there is no need to "
+"manually type a password to authenticate."
+msgstr ""
+"Die »Secure Shell« (<acronym>SSH</acronym>) bietet eine Möglichkeit, sich an "
+"einem entfernten Computer anzumelden, um dort Befehle auszuführen. SSH-"
+"Schlüssel werden in schlüsselbasierten Authentifizierungssystemen als "
+"Alternative zur standardmäßigen Authentifizierung mittels Passwort verwendet. "
+"Durch die schlüsselbasierte Authentifizierung ist es nicht notwendig, ein "
+"Passwort per Hand einzugeben."
+
+#: C/bastile.xml:418(para)
+msgid ""
+"Secure Shell keys are made of two keys: a <emphasis>private key</emphasis>, "
+"that must be kept secret, and a <emphasis>public key</emphasis> which can be "
+"uploaded to any computer you need to access."
+msgstr ""
+"Secure-Shell-Schlüssel bestehen aus zwei Schlüsseln: einem <emphasis>geheimen "
+"Schlüssel</emphasis>, der geheimgehalten werden muss, und einem "
+"<emphasis>öffentlichen Schlüssel</emphasis>, der zu jedem Computer übertragen "
+"werden kann, auf den Sie zugreifen wollen."
+
+#: C/bastile.xml:422(para)
+msgid "To create a Secure Shell key:"
+msgstr "So erzeugen Sie einen SSH-Schlüssel."
+
+#: C/bastile.xml:430(para)
+msgid ""
+"Select <guilabel>Secure Shell Key</guilabel> and click <guibutton>Continue</"
+"guibutton>"
+msgstr ""
+"Wählen Sie <guilabel>SSH-Schlüssel</guilabel> und klicken Sie dann auf "
+"<guibutton>Weiter</guibutton>."
+
+#: C/bastile.xml:433(para)
+msgid ""
+"Enter a description of what the key is to be used for. You can use your e-"
+"mail address or any other reminder. You can also specify advanced options for "
+"the key: see below."
+msgstr ""
+"Geben Sie eine Beschreibung des Verwendungszwecks ein. Sie können Ihre E-Mail-"
+"Adresse oder etwas Ähnliches als Gedankenstütze verwenden. Außerdem können "
+"Sie erweiterte Optionen für den Schlüssel eingeben. Siehe unten."
+
+#: C/bastile.xml:436(para)
+msgid ""
+"Click <guibutton>Just Create Key</guibutton> to create the new key, or "
+"<guibutton>Create and Set Up</guibutton> to create the key and set up another "
+"computer to use it for authentication."
+msgstr ""
+"Klicken Sie auf <guibutton>Lediglich Schlüssel erzeugen</guibutton>, um einen "
+"neuen Schlüssel zu erzeugen, oder auf <guibutton>Erstellen und Einrichten</"
+"guibutton>, um den Schlüssel zu erzeugen und ihn für die Authentifizierung "
+"auf einem anderen Computer einzurichten."
+
+#: C/bastile.xml:441(para)
+msgid ""
+"The <guilabel>Passphrase for New Secure Shell Key</guilabel> dialog opens. "
+"Enter the passphrase twice for your new key."
+msgstr ""
+"Das Dialogfenster <guilabel>Kennwort des neuen SSH-Schlüssels</guilabel> wird "
+"geöffnet. Geben Sie das Kennwort für Ihren neuen Schlüssel zweimal ein."
+
+#: C/bastile.xml:461(para)
+msgid ""
+"Expand the <guilabel>Advanced key options</guilabel> section to specify the "
+"following options for a new key:"
+msgstr ""
+"Klappen Sie den Abschnitt <guilabel>Erweiterte Optionen</guilabel> aus, um "
+"folgende Optionen für einen neuen Schlüssel zu wählen."
+
+#: C/bastile.xml:469(para)
+msgid ""
+"This field specifies the encryption algorithms used to generate your key."
+msgstr ""
+"In diesem Feld legen Sie den Verschlüsselungsalgorithmus zur Erzeugung Ihres "
+"Schlüssels fest."
+
+#: C/bastile.xml:477(para)
+msgid ""
+"Use the <emphasis>Rivest-ShamirAdleman</emphasis> (<acronym>RSA</acronym>) "
+"algorithm to create the SSH key. This is the preferred and more secure choice."
+msgstr ""
+"Verwendet den <emphasis>Rivest-ShamirAdleman</emphasis>-Algorithmus "
+"(<acronym>RSA</acronym>) zur Erzeugung des SSH-Schlüssels. Dies sollten Sie "
+"aus Sicherheitsgründen bevorzugen."
+
+#: C/bastile.xml:487(para)
+msgid ""
+"Use the <emphasis>Digital Signature Algorithm</emphasis> (<acronym>DSA</"
+"acronym>) to create the SSH key."
+msgstr ""
+"Verwendet den <emphasis>Digital Signature Algorithm</emphasis>-Algorithmus "
+"(<acronym>DSA</acronym>) zur Erzeugung des SSH-Schlüssels."
+
+#: C/bastile.xml:518(title)
+msgid "OpenPGP Key Properties"
+msgstr "Eigenschaften von OpenPGP-Schlüsseln"
+
+#: C/bastile.xml:519(para)
+msgid "The descriptions in this section apply to all OpenPGP keys."
+msgstr ""
+"Die Beschreibungen in diesem Abschnitt werden allen OpenPGP-Schlüsseln "
+"zugeordnet."
+
+#: C/bastile.xml:527(para)
+msgid "Select the <acronym>PGP</acronym> key from the main window,"
+msgstr "Wählen Sie den <acronym>PGP</acronym>-Schlüssel im Hauptfenster."
+
+#: C/bastile.xml:533(para) C/bastile.xml:781(para) C/bastile.xml:1093(para)
+msgid ""
+"Double click on it or choose <guilabel>Properties</guilabel> from the toolbar,"
+msgstr ""
+"Doppelklicken Sie darauf oder wählen Sie <guilabel>Eigenschaften</guilabel> "
+"in der Werkzeugleiste."
+
+#: C/bastile.xml:539(para) C/bastile.xml:1099(para)
+msgid "Select the <guilabel>Details</guilabel> tab."
+msgstr "Wählen Sie den Reiter <guilabel>Details</guilabel>."
+
+#: C/bastile.xml:523(para)
+msgid "To view properties of a <acronym>PGP</acronym> key: <placeholder-1/>"
+msgstr ""
+"So zeigen Sie die Eigenschaften eines <acronym>PGP</acronym>-Schlüssels an: "
+"<placeholder-1/>"
+
+#: C/bastile.xml:547(title) C/bastile.xml:1107(title)
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#: C/bastile.xml:551(guilabel) C/bastile.xml:1111(guilabel)
+msgid "Fingerprint"
+msgstr "Fingerabdruck"
+
+#: C/bastile.xml:553(para) C/bastile.xml:1113(para)
+msgid ""
+"The fingerprint is a unique string of characters that exactly identifies a "
+"key."
+msgstr ""
+"Der Fingerabdruck ist eine einzigartige Zeichenkette, die einen Schlüssel "
+"exakt identifiziert."
+
+#: C/bastile.xml:557(guilabel)
+msgid "KeyID"
+msgstr "Schlüsselkennung"
+
+#: C/bastile.xml:559(para)
+msgid ""
+"The KeyID is similar to the Fingerprint. However the KeyID only contains the "
+"last 8 characters of the fingerprint. Most of the time it is possible to "
+"identify a key with only the KeyID, but occasionally two keys may have the "
+"same ID."
+msgstr ""
+"Die Schlüsselkennung entspricht dem Fingerabdruck, wobei die Schlüsselkennung "
+"lediglich die letzten 8 Zeichen des Fingerabdrucks enthält. Meist ist es "
+"möglich, einen Schlüssel nur über diese Schlüsselkennung zu identifizieren, "
+"doch gelegentlich haben auch zwei Schlüssel die gleiche Kennung."
+
+#: C/bastile.xml:567(guilabel) C/bastile.xml:847(guilabel)
+msgid "Type"
+msgstr "Typ"
+
+#: C/bastile.xml:569(para)
+msgid ""
+"Specifies the encryption algorithm used to generate a key. DSA keys can only "
+"sign. ElGamal keys are used to encrypt."
+msgstr ""
+"Legt den zur Erzeugung eines Schlüssels verwendeten Algorithmus fest. DSA-"
+"Schlüssel können lediglich signieren, ElGamal-Schlüssel werden zur "
+"Verschlüsselung verwendet."
+
+#: C/bastile.xml:576(guilabel) C/bastile.xml:858(guilabel)
+msgid "Created"
+msgstr "Erzeugt"
+
+#: C/bastile.xml:578(para) C/bastile.xml:860(para)
+msgid "Indicates the date the key was created."
+msgstr "Bezeichnet das Erzeugungsdatum des Schlüssels."
+
+#: C/bastile.xml:584(guilabel) C/bastile.xml:866(guilabel)
+msgid "Expires"
+msgstr "Läuft ab"
+
+#: C/bastile.xml:586(para) C/bastile.xml:868(para)
+msgid "Indicates the date the key can no longer be used."
+msgstr ""
+"Gibt das Datum an, ab dem der Schlüssel nicht mehr verwendet werden kann."
+
+#: C/bastile.xml:592(guilabel) C/bastile.xml:882(guilabel)
+#: C/bastile.xml:1139(guilabel)
+msgid "Strength"
+msgstr "Länge"
+
+#: C/bastile.xml:598(para) C/bastile.xml:888(para) C/bastile.xml:1146(para)
+msgid "A long key is not enough to make up for the use of a weak passphrase."
+msgstr ""
+"Ein langer Schlüssel allein reicht nicht aus, wenn das Kennwort zu schwach "
+"ist."
+
+#: C/bastile.xml:594(para) C/bastile.xml:1141(para)
+msgid ""
+"Indicates the length in bits of a key. In general the longer the key, the "
+"more security it provides. <placeholder-1/>"
+msgstr ""
+"Bezeichnet die Schlüssellänge in bit. Vereinfacht ausgedrückt, je länger der "
+"Schlüssel ist, umso mehr Sicherheit bietet er. <placeholder-1/>"
+
+#: C/bastile.xml:610(title)
+msgid "Trust"
+msgstr "Vertrauen"
+
+#: C/bastile.xml:611(para)
+msgid ""
+"Trust is an indication of how sure you are of a person's ability to correctly "
+"extend the web of trust. When you are faced with a key you have not signed, "
+"the validity of that person's key will be determined based on the signatures "
+"they have collected and how well or not you trust the people who have made "
+"those signatures. By default, an unknown key will require 3 signatures with "
+"marginal trust value or 1 fully trusted signature."
+msgstr ""
+"Die Vertrauenswürdigkeit zeigt an, wie Sie eine Person bezüglich ihrer "
+"Verlässlichkeit einschätzen. Wenn Ihnen ein Schlüssel begegnet, den Sie nicht "
+"selbst signiert haben, wird die Gültigkeit des Schlüssels von dieser Person "
+"anhand der bisher gesammelten Signaturen sowie Ihrer Einschätzung der "
+"Vertrauenswürdigkeit der Ersteller dieser Signaturen eingestuft. Per Vorgabe "
+"erfordert ein unbekannter Schlüssel mindestens drei Signaturen geringfügiger "
+"Vertrauenswürdigkeit oder eine Signatur, der Sie absolut vertrauen."
+
+#: C/bastile.xml:619(para)
+msgid ""
+"<guilabel>Unknown</guilabel>: You are not familiar with the person's ability "
+"to sign keys correctly."
+msgstr ""
+"<guilabel>Unbekannt</guilabel>: Sie können die Fähigkeiten der Person zum "
+"korrekten Signieren von Schlüsseln nicht einschätzen."
+
+#: C/bastile.xml:622(para)
+msgid "<guilabel>Never</guilabel>: This person cannot correctly sign keys."
+msgstr ""
+"<guilabel>Nie</guilabel>: Diese Person kann Schlüssel nicht korrekt signieren."
+
+#: C/bastile.xml:625(para)
+msgid ""
+"<guilabel>Marginal</guilabel>: This person checks for photo ID before signing "
+"a key, but does not necessarily scrutinize the IDs."
+msgstr ""
+"<guilabel>Geringfügig</guilabel>: Diese Person überprüft zwar die Foto-"
+"Kennung vor dem Signieren eines Schlüssels, aber überprüft nicht "
+"notwendigerweise die Kennung genauer."
+
+#: C/bastile.xml:629(para)
+msgid ""
+"<guilabel>Full</guilabel>: This person scrutinizes each and every person's "
+"photo IDs before signing them (e.g. they only sign keys that truely belong to "
+"the person asking for the signature)."
+msgstr ""
+"<guilabel>Vollkommen</guilabel>: Diese Person prüft genauestens die Foto-"
+"Kennung jeder Person vor der Bestätigung. Das bedeutet, dass beispielsweise "
+"nur Schlüssel bestätigt werden, die mit Sicherheit der Person gehören, die um "
+"Bestätigung bittet."
+
+#: C/bastile.xml:633(para)
+msgid ""
+"<guilabel>Ultimate</guilabel>: This level of trust should only be assigned to "
+"your own keys."
+msgstr ""
+"<guilabel>Absolut</guilabel>: Diese Stufe der Vertrauenswürdigkeit sollte "
+"ausschließlich Ihren eigenen Schlüsseln zugeordnet werden.."
+
+#: C/bastile.xml:640(title)
+msgid "Enabling and Disabling Keys"
+msgstr "Aktivieren und Deaktivieren von Schlüsseln"
+
+#: C/bastile.xml:641(para)
+msgid ""
+"When a key is enabled, it can be used to perform encryption operations. When "
+"a key is disabled, it cannot be used to encrypt to or verify signatures made "
+"by it."
+msgstr ""
+"Wenn ein Schlüssel aktiviert ist, kann er zur Ausführung von "
+"Verschlüsselungen verwendet werden. Wenn ein Schlüssel deaktiviert ist, kann "
+"er nicht zum Verschlüsseln oder zur Überprüfung von Signaturen verwendet "
+"werden."
+
+#: C/bastile.xml:649(para)
+msgid ""
+"A key can no longer be used to perform key operations after it has expired. "
+"Changing a key's expiration date to a point in the future re-enables it. A "
+"good general practice would be to have a master key that never expires and "
+"multiple subkeys that do and are signed by the master key."
+msgstr ""
+"Ein Schlüssel kann, nachdem er abgelaufen ist, nicht mehr für "
+"Verschlüsselungen verwendet werden. Das Ändern des Ablaufdatums auf einen "
+"zukünftigen Zeitpunkt stellt dessen Gültigkeit wieder her. In der Praxis ist "
+"es empfehlenswert, einen Hauptschlüssel zu haben, der niemals verfällt, sowie "
+"mehrere Unterschlüssel, die mit dem Hauptschlüssel signiert wurden. "
+
+#: C/bastile.xml:658(title)
+msgid "User IDs"
+msgstr "Benutzerkennungen"
+
+#: C/bastile.xml:659(para)
+msgid ""
+"User IDs allow multiple identities and email addresses to be used with the "
+"same key."
+msgstr ""
+"Benutzerkennungen erlauben die Verwendung mehrerer Identitäten und E-Mail-"
+"Adressen mit dem gleichen Schlüssel."
+
+#: C/bastile.xml:665(programlisting)
+#, no-wrap
+msgid "Name (comment) &lt;email address&gt;"
+msgstr "Name (Kommentar) &lt;E-Mail-Adresse&gt;"
+
+#: C/bastile.xml:663(para)
+msgid "They usually take the form of: <placeholder-1/>"
+msgstr "Üblicherweise wird folgende Form verwendet: <placeholder-1/>"
+
+#: C/bastile.xml:669(title)
+msgid "Adding a User ID"
+msgstr "Hinzufügen einer Benutzerkennung"
+
+#: C/bastile.xml:670(para)
+msgid ""
+"Adding a user ID is useful when you want to have an identity for your job and "
+"one for your friends."
+msgstr ""
+"Hinzufügen einer Benutzerkennung ist nützlich, wenn Sie eine Identität für "
+"Ihre Arbeit und eine weitere für Ihre Freunde nutzen wollen."
+
+#: C/bastile.xml:678(para) C/bastile.xml:776(para) C/bastile.xml:803(para)
+msgid "Select the key from the main window,"
+msgstr "Wählen Sie einen Schlüssel im Hauptfenster aus,"
+
+#: C/bastile.xml:683(para)
+msgid ""
+"Double click on it or choose <guibutton>Properties</guibutton> from the "
+"toolbar,"
+msgstr ""
+"doppelklicken Sie darauf oder wählen Sie <guibutton>Eigenschaften</guibutton> "
+"in der Werkzeugleiste."
+
+#: C/bastile.xml:688(para)
+msgid "Select the <guilabel>Names and Signatures</guilabel> tab,"
+msgstr "Wählen Sie den Reiter <guilabel>Namen und Signaturen</guilabel> aus."
+
+#: C/bastile.xml:693(para)
+msgid "Click on <guibutton>Add Name</guibutton>."
+msgstr "Klicken Sie auf <guibutton>Name hinzufügen</guibutton>."
+
+#: C/bastile.xml:674(para)
+msgid "To add a user ID to a key: <placeholder-1/>"
+msgstr ""
+"So fügen Sie eine Benutzerkennung zu einem Schlüssel hinzu. <placeholder-1/>"
+
+#: C/bastile.xml:699(para) C/bastile.xml:903(para)
+msgid ""
+"After following the instructions above, you will be presented with a dialog "
+"to fill in. The fields are detailed below."
+msgstr ""
+"Wenn Sie die oben stehenden Anweisungen befolgt haben, wird ein Eingabedialog "
+"angezeigt. Die Eingabefelder werden unten detailliert beschrieben."
+
+#: C/bastile.xml:705(guilabel)
+msgid "Full Name"
+msgstr "Vollständiger Name"
+
+#: C/bastile.xml:709(programlisting)
+#, no-wrap
+msgid "&lt;first&gt; &lt;last&gt;"
+msgstr "&lt;Vorname&gt; &lt;Nachname&gt;"
+
+#: C/bastile.xml:707(para)
+msgid ""
+"Enter your full name in the form <placeholder-1/> A middle name or initial is "
+"optional."
+msgstr ""
+"Geben Sie Ihren vollen Namen in der Form <placeholder-1/> ein. Wahlweise "
+"können Sie einen zweiten Vornamen oder dessen Anfangsbuchstaben eingeben."
+
+#: C/bastile.xml:714(para)
+msgid "You must enter at least 5 characters in this field."
+msgstr "In dieses Feld müssen Sie mindestens 5 Zeichen eingeben."
+
+#: C/bastile.xml:722(guilabel)
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: C/bastile.xml:724(para)
+msgid ""
+"Your email address is how most people will locate your key on a key server or "
+"other key provider. Make sure it is correct before continuing."
+msgstr ""
+"Auf Schlüsselservern oder bei anderen Schlüsselanbietern wird meist anhand "
+"Ihrer E-Mail-Adresse nach Ihrem Schlüssel gesucht. Stellen Sie zunächst "
+"sicher, dass diese korrekt eingegeben wurde. "
+
+#: C/bastile.xml:735(programlisting)
+#, no-wrap
+msgid "<replaceable>&lt;username&gt;</replaceable>@<replaceable>&lt;domainname&gt;</replaceable>"
+msgstr "<replaceable>&lt;Benutzername&gt;</replaceable>@<replaceable>&lt;Domainname&gt;</replaceable>"
+
+#: C/bastile.xml:733(para)
+msgid "It should be of the form <placeholder-1/>"
+msgstr "Die E-Mail-Adresse sollte dieser Form folgen: <placeholder-1/>"
+
+#: C/bastile.xml:742(guilabel)
+msgid "Key Comment"
+msgstr "Optionaler Kommentar, der den Schlüssel beschreibt"
+
+#: C/bastile.xml:744(para)
+msgid ""
+"The comment field can be used to place any additional information into the "
+"displayed name of your new ID. This information can be searched for on key "
+"servers."
+msgstr ""
+"Das Kommentarfeld kann für eine zusätzlich im Namen Ihrer neuen Kennung "
+"anzuzeigende Information verwendet werden. Diese Information steht auch bei "
+"Suchvorgängen auf Schlüsselservern zur Verfügung."
+
+#: C/bastile.xml:758(title)
+msgid "Photo IDs"
+msgstr "Foto-Kennungen"
+
+#: C/bastile.xml:759(para)
+msgid ""
+"Photo IDs allow a key owner to embed one or more pictures of themselves in a "
+"key. These identities can be signed just like normal user IDs. A photo ID "
+"must be in JPEG format and is recommended to be no larger than 240x288 pixels."
+msgstr ""
+"Foto-Kennungen erlauben dem Eigentümer eines Schlüssels, ein oder mehrere "
+"Bilder von sich selbst in diesen Schlüssel einzubetten. Diese Kennungen "
+"können ebenso wie gewöhnliche Benutzerkennungen signiert werden. Ein Foto "
+"muss im JPEG-Format vorliegen und sollte nicht größer als 240 mal 288 Pixel "
+"sein."
+
+#: C/bastile.xml:763(para)
+msgid ""
+"If the chosen image is not of the required file type or size "
+"<application>Passwords and Encryption Keys</application> can resize and "
+"convert it on the fly from any image format supported by the <acronym>GDK</"
+"acronym> library."
+msgstr ""
+"Falls das gewählte Bild nicht im erforderlichen Dateityp oder der korrekten "
+"Größe vorliegt, kann <application>Passwörter und Verschlüsselung</"
+"application> das benötigte Bild direkt aus jedem von der <acronym>GDK</"
+"acronym>-Bibliothek unterstützten Format erzeugen."
+
+#: C/bastile.xml:771(title)
+msgid "Changing the Passphrase"
+msgstr "Kennwort ändern"
+
+#: C/bastile.xml:786(para)
+msgid "Click on <guibutton>Change Passphrase</guibutton>."
+msgstr "klicken Sie auf <guibutton>Kennwort ändern</guibutton>."
+
+#: C/bastile.xml:772(para)
+msgid "To change the passphrase assigned to a key: <placeholder-1/>"
+msgstr "So ändern Sie das Kennwort eines Schlüssels. <placeholder-1/>"
+
+#: C/bastile.xml:792(para)
+msgid "Enter the new passphrase and click <guibutton>OK</guibutton>."
+msgstr ""
+"Geben Sie ein neues Kennwort ein und klicken Sie auf <guibutton>OK</"
+"guibutton>."
+
+#: C/bastile.xml:798(title)
+msgid "Deleting a Key"
+msgstr "Entfernen eines Schlüssels"
+
+#: C/bastile.xml:808(para)
+msgid ""
+"Right click on it and choose <guilabel>Delete Key</guilabel> or choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete Key</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Klicken Sie mit der rechten Maustaste darauf und wählen Sie "
+"<guilabel>Schlüssel löschen</guilabel> oder wählen Sie "
+"<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Schlüssel löschen</"
+"guimenuitem></menuchoice>."
+
+#: C/bastile.xml:799(para)
+msgid "To delete a key from your keyring: <placeholder-1/>"
+msgstr ""
+"So entfernen Sie einen Schlüssel aus Ihrem Schlüsselbund: <placeholder-1/>"
+
+#: C/bastile.xml:820(para)
+msgid "You can delete your keys, trusted keys and collected keys."
+msgstr ""
+"Sie können Ihre eigenen Schlüssel, vertrauenswürdige Schlüssel und gesammelte "
+"Schlüssel entfernen."
+
+#: C/bastile.xml:830(title)
+msgid "OpenPGP Subkey Properties"
+msgstr "Eigenschaften eines OpenPGP-Unterschlüssels"
+
+#: C/bastile.xml:831(para)
+msgid ""
+"Each OpenPGP key has a single master key used to sign only. Subkeys are used "
+"to encrypt and to sign as well. In this way, if your sub key is compromised, "
+"you don't need to revoke your master key."
+msgstr ""
+"Jeder OpenPGP-Schlüssel hat einen einzelnen Hauptschlüssel, der nur zum "
+"Signieren verwendet werden kann. Unterschlüssel können dagegen sowohl zum "
+"Verschlüsseln als auch zum Signieren verewendet werden. Deshalb brauchen Sie "
+"Ihren Hauptschlüssel nicht zu widerrufen, falls Ihr Unterschlüssel gefährdet "
+"ist."
+
+#: C/bastile.xml:839(guilabel)
+msgid "ID"
+msgstr "ID"
+
+#: C/bastile.xml:841(para)
+msgid "This is the identifier of the subkey."
+msgstr "Dies ist die Kennung des Unterschlüssels."
+
+#: C/bastile.xml:849(para)
+msgid ""
+"Specifies the encryption algorithm used to generate a subkey. <acronym>DSA</"
+"acronym> keys can only sign, ElGamal keys are used to encrypt while "
+"<acronym>RSA</acronym> keys are used to sign or to encrypt."
+msgstr ""
+"Legt den zur Erzeugung eines Unterschlüssels verwendeten Algorithmus fest. "
+"<acronym>DSA</acronym>-Schlüssel können lediglich signieren, ElGamal-"
+"Schlüssel werden zur Verschlüsselung verwendet und <acronym>RSA</acronym>-"
+"Schlüssel können sowohl signieren als auch verschlüsseln."
+
+#: C/bastile.xml:874(guilabel)
+msgid "Status"
+msgstr "Status"
+
+#: C/bastile.xml:876(para)
+msgid "Indicates the status of the key."
+msgstr "Gibt den Status des Schlüssels an."
+
+#: C/bastile.xml:884(para)
+msgid ""
+"Indicates the length in bits of the key. In general the longer the key, the "
+"more security it provides. <placeholder-1/>"
+msgstr ""
+"Gibt die Länge des Schlüssels in Bit an. Allgemein steigt die Sicherheit "
+"eines Schlüssels mit dessen Länge. <placeholder-1/>"
+
+#: C/bastile.xml:898(title)
+msgid "Adding a Subkey"
+msgstr "Hinzufügen eines Unterschlüssels"
+
+#: C/bastile.xml:899(para)
+msgid ""
+"To add a subkey to a key, from the <guilabel>Subkeys</guilabel> section click "
+"on <guibutton>Add</guibutton> button."
+msgstr ""
+"Zum Hinzufügen eines Unterschlüssels zu einem Schlüssel klicken Sie im "
+"Abschnitt <guilabel>Unterschlüssel</guilabel> auf <guibutton>Hinzufügen</"
+"guibutton>."
+
+#: C/bastile.xml:909(term)
+msgid "Key Type"
+msgstr "Schlüssel-Typ"
+
+#: C/bastile.xml:911(para)
+msgid "Specifies the encryption algorithm used to generate a subkey."
+msgstr ""
+"Bezeichnet den Verschlüsselungs-Algorithmus zum Erzeugen eines "
+"Unterschlüssels."
+
+#: C/bastile.xml:918(para)
+msgid ""
+"Use the <emphasis>Digital Signature Algorithm</emphasis> (<acronym>DSA</"
+"acronym>) to create the subkey. This subkey can sign only."
+msgstr ""
+"Verwendet den <emphasis>Digital Signature Algorithm</emphasis> (<acronym>DSA</"
+"acronym>) zur Erzeugung des Unterschlüssels. Dieser Schlüssel kann nur zum "
+"Signieren verwendet werden."
+
+#: C/bastile.xml:926(term)
+msgid "ElGamal"
+msgstr "ElGamal"
+
+#: C/bastile.xml:928(para)
+msgid ""
+"Use the <emphasis>ElGamal</emphasis> algorithm to create the subkey. This "
+"subkey can encrypt only."
+msgstr ""
+"Verwendet den <emphasis>ElGamal</emphasis>-Algorithmus zur Erzeugung des "
+"Unterschlüssels. Dieser Schlüssel kann nur zum Verschlüsseln verwendet werden."
+
+#: C/bastile.xml:937(para)
+msgid ""
+"Use the <emphasis>Rivest-Shamir Adleman</emphasis> (<acronym>RSA</acronym>) "
+"algorithm to create the subkey. This subkey can be used to sign or encrypt, "
+"but you have to create two different subkeys."
+msgstr ""
+"Verwendet den <emphasis>Rivest-Shamir Adleman</emphasis>-Algorithmus "
+"(<acronym>RSA</acronym>) zur Erzeugung des Unterschlüssels. Dieser Schlüssel "
+"kann sowohl signieren als auch verschlüsseln, allerdings müssen dafür zwei "
+"verschiedene Unterschlüssel erzeugt werden."
+
+#: C/bastile.xml:948(term)
+msgid "Key Length"
+msgstr "Schlüssellänge"
+
+#: C/bastile.xml:950(para)
+msgid ""
+"Indicates the length in bits of the subkey. In general the longer the key, "
+"the more security it provides."
+msgstr ""
+"Bezeichnet die Länge des Schlüssel in Bit. Allgemein lässt sich sagen: Je "
+"länger der Schlüssel, desto sicherer ist er."
+
+#: C/bastile.xml:959(para)
+msgid "Indicates the date the subkey can no longer be used."
+msgstr ""
+"Legt das Datum fest, ab dem der Unterschlüssel nicht mehr benutzt werden kann."
+
+#: C/bastile.xml:968(title)
+msgid "Changing a Subkey Expiration Date"
+msgstr "Ändern des Abalufdatums eines Unterschlüssels"
+
+#: C/bastile.xml:975(para)
+msgid "Click on the <guibutton>Expire</guibutton> button on the left,"
+msgstr ""
+"Klicken Sie auf die Schaltfläche <guibutton>Expire</guibutton> an der linken "
+"Seite."
+
+#: C/bastile.xml:980(para)
+msgid ""
+"From the date dialog choose the new expiration date or select <guilabel>Never "
+"expires</guilabel> for no expiration date."
+msgstr ""
+"Im Datum-Dialog wählen Sie das neue Ablaufdatum oder wählen <guilabel>Läuft "
+"nie ab</guilabel>, um kein Ablaufdatum zu bestimmen."
+
+#: C/bastile.xml:969(para)
+msgid ""
+"To change a subkey expiration date, select the subkey from the "
+"<guilabel>Subkeys</guilabel> section, then: <placeholder-1/>"
+msgstr ""
+"Um das Ablaufdatum eines Unterschlüssels zu ändern, wählen Sie den "
+"Unterschlüssel im Abschnitt <guilabel>Unterschlüssel</guilabel>, und dann: "
+"<placeholder-1/>"
+
+#: C/bastile.xml:990(title)
+msgid "Revoking a Subkey"
+msgstr "Widerrufen eines Unterschlüssels"
+
+#: C/bastile.xml:996(para)
+msgid "Click on the <guibutton>Revoke</guibutton> button on the left,"
+msgstr "Klicken Sie auf <guibutton>Widerrufen</guibutton> an der linken Seite."
+
+#: C/bastile.xml:1001(para)
+msgid "Choose a reason why to revoke the subkey:"
+msgstr "Wählen Sie einen Grund, warum Sie den Unterschlüssel widerrufen. "
+
+#: C/bastile.xml:1007(term)
+msgid "No Reason"
+msgstr "Kein Grund"
+
+#: C/bastile.xml:1009(para)
+msgid "There isn't a specific reason to revoke the key."
+msgstr "Es gibt keinen bestimmten Grund, weswegen Sie den Schlüssel widerrufen."
+
+#: C/bastile.xml:1015(term)
+msgid "Compromised"
+msgstr "Unsicher"
+
+#: C/bastile.xml:1017(para)
+msgid "The key has been compromised."
+msgstr "Schlüssel ist nicht mehr sicher."
+
+#: C/bastile.xml:1023(term)
+msgid "Superseded"
+msgstr "Ersetzt"
+
+#: C/bastile.xml:1025(para)
+msgid "The key has been superseded by another one."
+msgstr "Der Schlüssel wurde durch einen anderen ersetzt."
+
+#: C/bastile.xml:1031(term)
+msgid "Not Used"
+msgstr "Nicht verwendet"
+
+#: C/bastile.xml:1033(para)
+msgid "The key is not used anymore."
+msgstr "Der Schlüssel wird nicht mehr benutzt."
+
+#: C/bastile.xml:1042(para)
+msgid "Enter a description of why you are revoking the key,"
+msgstr "Geben Sie eine Beschreibung ein, warum Sie den Schlüssel widerrufen,"
+
+#: C/bastile.xml:1047(para)
+msgid "Click on <guibutton>Revoke</guibutton>."
+msgstr "Klicken Sie auf <guibutton>Widerrufen</guibutton>."
+
+#: C/bastile.xml:991(para)
+msgid ""
+"To revoke a subkey, select the subkey from the <guilabel>Subkeys</guilabel> "
+"section, then: <placeholder-1/>"
+msgstr ""
+"Um einen Unterschlüssel zu widerrufen, wählen Sie den Unterschlüssel im "
+"Abschnitt <guilabel>Unterschlüssel</guilabel>, und dann: <placeholder-1/>"
+
+#: C/bastile.xml:1054(para)
+msgid "The effect of revoking a subkey is immediate."
+msgstr "Der Widerruf des Schlüssels wird unmittelbar ausgeführt."
+
+#: C/bastile.xml:1061(title)
+msgid "Deleting a Subkey"
+msgstr "Entfernen eines Unterschlüssels"
+
+#: C/bastile.xml:1067(para)
+msgid "Click on the <guibutton>Delete</guibutton> button on the left."
+msgstr ""
+"Klicken Sie auf die Schaltfläche <guibutton>Löschen</guibutton> an der linken "
+"Seite."
+
+#: C/bastile.xml:1062(para)
+msgid ""
+"To delete a subkey, select the subkey from the <guilabel>Subkeys</guilabel> "
+"section, then: <placeholder-1/>"
+msgstr ""
+"Um einen Unterschlüssel zu entfernen, wählen Sie diesen im Abschnitt "
+"<guilabel>Unterschlüssel</guilabel> aus, und dann: <placeholder-1/>"
+
+#: C/bastile.xml:1079(title)
+msgid "Secure Shell Key Properties"
+msgstr "Eigenschaften von SSH-Schlüsseln"
+
+#: C/bastile.xml:1080(para)
+msgid ""
+"The descriptions in this section apply to all <acronym>SSH</acronym> keys."
+msgstr ""
+"Die Beschreibungen in diesem Abschnitt werden allen <acronym>SSH</acronym>-"
+"Schlüsseln zugeordnet."
+
+#: C/bastile.xml:1087(para)
+msgid "Select the Secure Shell key from the main window,"
+msgstr "Wählen Sie den Secure-Shell-Schlüssel im Hauptfenster aus,"
+
+#: C/bastile.xml:1083(para)
+msgid "To view properties of a <acronym>SSH</acronym> key: <placeholder-1/>"
+msgstr ""
+"So zeigen Sie die Eigenschaften eines <acronym>SSH</acronym>-Schlüssels an. "
+"<placeholder-1/>"
+
+#: C/bastile.xml:1120(guilabel)
+msgid "Algorithm"
+msgstr "Algorithmus"
+
+#: C/bastile.xml:1122(para)
+msgid "Specifies the encryption algorithm used to generate a key."
+msgstr ""
+"Legt den beim Erzeugen eines Schlüssels verwendeten "
+"Verschlüsselungsalgorithmus fest."
+
+#: C/bastile.xml:1129(guilabel)
+msgid "Location"
+msgstr "Ort"
+
+#: C/bastile.xml:1131(para)
+msgid ""
+"This is the location where the <emphasis>private key</emphasis> has been "
+"stored."
+msgstr ""
+"Dies bezeichnet den Speicherort des <emphasis>geheimen Schlüssels</emphasis>."
+
+#: C/bastile.xml:1159(title)
+msgid "Deleting a Secure Shell Key"
+msgstr "Entfernen eines SSH-Schlüssels"
+
+#: C/bastile.xml:1164(para)
+msgid "Select the <acronym>SSH</acronym> key from the main window,"
+msgstr "Wählen Sie den <acronym>SSH</acronym>-Schlüssel im Hauptfenster aus."
+
+#: C/bastile.xml:1169(para)
+msgid ""
+"Right click on it and choose <guilabel>Delete key</guilabel> or choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete Key</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Klicken Sie mit der rechten Maustaste darauf und wählen Sie "
+"<guilabel>Schlüssel löschen</guilabel> oder wählen Sie "
+"<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Schlüssel löschen</"
+"guimenuitem></menuchoice>."
+
+#: C/bastile.xml:1160(para)
+msgid "To delete a Secure Shell key: <placeholder-1/>"
+msgstr "So entfernen Sie einen Secure-Shell-Schlüssel. <placeholder-1/>"
+
+#: C/bastile.xml:1185(title)
+msgid "Importing Keys"
+msgstr "Importieren von Schlüsseln"
+
+# Habe ich das hier richtig verstanden?
+#: C/bastile.xml:1186(para)
+msgid ""
+"To import keys choose <menuchoice><guimenu>File</guimenu><guimenuitem>Import</"
+"guimenuitem></menuchoice> and select, from the file chooser, a file "
+"containing at least one ASCII armored public key."
+msgstr ""
+"Um Schlüssel zu importieren, wählen Sie <menuchoice><guimenu>Datei</"
+"guimenu><guimenuitem>Importieren</guimenuitem></menuchoice> und wählen im "
+"Dateidialog mindestens eine ASCII-Datei aus, die einen eingebetteten "
+"öffentlichen Schlüssel enthält."
+
+#: C/bastile.xml:1197(para)
+msgid "Select an ASCII armored public block of text,"
+msgstr ""
+"Wählen Sie einen ASCII-Text mit einem eingebetteten öffentlichen Schlüssel "
+"aus,"
+
+#: C/bastile.xml:1202(para)
+msgid "Copy it to the clipboard,"
+msgstr "kopieren Sie die Auswahl in die Zwischenablage,"
+
+#: C/bastile.xml:1207(para)
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste Keys</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Wählen Sie <menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Schlüssel "
+"einfügen</guimenuitem></menuchoice>."
+
+#: C/bastile.xml:1193(para)
+msgid ""
+"Importing can also be performed by pasting the keys inside "
+"<application>Passwords and Encryption Keys</application>: <placeholder-1/>"
+msgstr ""
+"Importieren von Schlüsseln kann auch durch Einfügen der Schlüssel in "
+"<application>Passwörter und Verschlüsselung</application> ausgeführt werden: "
+"<placeholder-1/>"
+
+#: C/bastile.xml:1222(title)
+msgid "Exporting Keys"
+msgstr "Exportieren von Schlüsseln"
+
+#: C/bastile.xml:1223(para)
+msgid ""
+"To export keys, select the keys in the main window and choose "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Export</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Um Schlüssel zu exportieren, wählen Sie die Schlüssel im Hauptfenster aus und "
+"wählen Sie <menuchoice><guimenu>Datei</guimenu><guimenuitem>Exportieren</"
+"guimenuitem></menuchoice>."
+
+#: C/bastile.xml:1236(para)
+msgid "Select the keys in the main window,"
+msgstr "Wählen Sie die Schlüssel im Hauptfenster aus,"
+
+#: C/bastile.xml:1241(para)
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Copy Keys</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Wählen Sie <menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Schlüssel "
+"kopieren</guimenuitem></menuchoice>."
+
+# Habe ich das hier richtig verstanden?
+#: C/bastile.xml:1231(para)
+msgid ""
+"You can also export keys to the clipboard in an ASCII armored block of text: "
+"<placeholder-1/>"
+msgstr ""
+"Sie können auch in einen ASCII-Text eingebettete Schlüssel in die "
+"Zwischenablage exportieren: <placeholder-1/>"
+
+#: C/bastile.xml:1257(title)
+msgid "Signing a Key"
+msgstr "Signieren eines Schlüssels"
+
+#: C/bastile.xml:1258(para)
+msgid ""
+"Signing another person's key means you are giving trust to that person. "
+"Before signing a key, you have to carefully check the key's fingerprint to be "
+"sure that the key really belongs to that person."
+msgstr ""
+"Das Signieren eines Schlüssels einer anderen Person bedeutet einen "
+"Vertrauensbeweis gegenüber dieser Person. Bevor Sie dies tun, sollten Sie "
+"sorgfältig den Fingerabdruck des Schlüssels prüfen, um sichergehen zu können, "
+"dass der Schlüssel wirklich dieser Person zuzuordnen ist."
+
+#: C/bastile.xml:1267(para)
+msgid ""
+"Select the key you want to sign from the <guilabel>Trusted Keys</guilabel> or "
+"<guilabel>Other Collected Keys</guilabel> tabs,"
+msgstr ""
+"Wählen Sie den Schlüssel, den Sie signieren wollen, in den Reitern "
+"<guilabel>Vertrauenswürdige Schlüssel</guilabel> oder <guilabel>Gesammelte "
+"Schlüssel</guilabel> aus,"
+
+#: C/bastile.xml:1274(para)
+msgid ""
+"Choose <guibutton>Sign</guibutton> from the toolbar or "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Sign</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"Wählen Sie <guibutton>Signieren</guibutton> in der Werkzeugleiste oder "
+"<menuchoice><guimenu>Datei</guimenu><guimenuitem>Signieren</guimenuitem></"
+"menuchoice>,"
+
+#: C/bastile.xml:1283(para)
+msgid "Select how carefully the key has been checked,"
+msgstr "Wählen Sie aus, wie sorgfältig Sie den Schlüssel überprüft haben."
+
+#: C/bastile.xml:1288(para)
+msgid ""
+"Indicate if the signature should be local to your keyring, and if your "
+"signature can be revoked,"
+msgstr ""
+"Legt fest, ob die Signatur zu Ihrem lokalen Schlüsselbund gehören soll, und "
+"ob die Signatur widerrufen werden kann,"
+
+#: C/bastile.xml:1294(para)
+msgid "Click on <guibutton>Sign</guibutton>."
+msgstr "Klicken Sie auf <guibutton>Signieren</guibutton>."
+
+#: C/bastile.xml:1263(para)
+msgid "To sign a key in your keyring: <placeholder-1/>"
+msgstr ""
+"So signieren Sie einen Schlüssel in Ihrem Schlüsselbund: <placeholder-1/>"
+
+#: C/bastile.xml:1305(title)
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: C/bastile.xml:1306(para)
+msgid ""
+"This section describes the preferences settable in <application>Passwords and "
+"Encryption Keys</application> by choosing <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> from within "
+"<application>Passwords and Encryption Keys</application>."
+msgstr ""
+"Dieser Abschnitt beschreibt die durch Auswahl von "
+"<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Einstellungen</"
+"guimenuitem></menuchoice> in <application>Passwörter und Verschlüsselung</"
+"application> verfügbaren Einstellmöglichkeiten."
+
+#: C/bastile.xml:1315(title)
+msgid "Password Keyrings"
+msgstr "Passwort-Schüsselbünde"
+
+#: C/bastile.xml:1317(title)
+msgid "Creating Keyrings"
+msgstr "Erzeugen von Schlüsselbünden"
+
+# Habe ich das hier richtig verstanden?
+#: C/bastile.xml:1318(para)
+msgid ""
+"To create a new keyring, from the menu choose <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>New</guimenuitem></menuchoice> and choose "
+"<guibutton>Password Keyring</guibutton>. Enter a name for the new keyring, "
+"and press enter."
+msgstr ""
+"Um einen neuen Schlüsselbund anzulegen, wählen Sie "
+"<menuchoice><guimenu>Datei</guimenu><guimenuitem>Importieren</guimenuitem></"
+"menuchoice> und wählen dann <guibutton>Passwort-Schlüsselbund</guibutton>. "
+"Geben Sie einen Namen für den neuen Schlüsselbund ein und drücken Sie die "
+"<keycap>Eingabetaste</keycap>."
+
+#: C/bastile.xml:1323(title)
+msgid "Changing Keyring Passwords"
+msgstr "Ändern der Passwörter von Schlüsselbünden"
+
+#: C/bastile.xml:1324(para)
+msgid ""
+"To change the unlock password of the keyring, first select the appropriate "
+"keyring and then press <guibutton>Change Unlock Password</guibutton> button. "
+"You will then be prompted to type the old password in the <guilabel>Old "
+"password</guilabel> text box, the new password in the <guilabel>New password</"
+"guilabel> text box and confirm it in the <guilabel>Confirm password</"
+"guilabel> text box. To apply the settings, press <guibutton>Change</"
+"guibutton>. If the old password is correct, you will get a status message "
+"indicating the success of the operation. If the old password is not correct "
+"you will be asked to check its correctness."
+msgstr ""
+"Um das Passwort zum Entsperren des Schlüsselbunds zu ändern, wählen Sie "
+"zuerst den gewünschten Schlüsselbund aus und klicken dann auf "
+"<guibutton>Passwort zum Entsperren ändern</guibutton>. Sie werden "
+"aufgefordert, das alte Passwort in das Texteingabefeld <guilabel>Altes "
+"Passwort</guilabel> einzugeben. Danach werden Sie aufgefordert, das neue "
+"Passwort in das Texteingabefeld <guilabel>Neues Passwort</guilabel> "
+"einzugeben, sowie die Eingabe im Texteingabefeld <guilabel>Passwort "
+"bestätigen</guilabel> zu bestätigen. Um die Änderungen anzuwenden, klicken "
+"Sie auf <guibutton>Ändern</guibutton>. Wenn die Eingabe des alten Passworts "
+"korrekt war, erhalten Sie eine Statusnachricht, dass die Aktion erfolgreich "
+"war. Falls das alte Passwort nicht korrekt eingegeben wurde, werden Sie um "
+"dessen Überprüfung gebeten."
+
+#: C/bastile.xml:1338(title)
+msgid "Removing Keyrings"
+msgstr "Entfernen von Schlüsselbünden"
+
+#: C/bastile.xml:1339(para)
+msgid ""
+"To remove a keyring, first select the appropriate keyring and then from the "
+"menu choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Um einen Schlüsselbund zu entfernen, wählen Sie zunächst den entsprechenden "
+"Schlüsselbund aus und wählen Sie anschließend "
+"<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Löschen</guimenuitem></"
+"menuchoice>."
+
+#: C/bastile.xml:1347(title)
+msgid "Key Servers"
+msgstr "Schlüssel-Server"
+
+#: C/bastile.xml:1348(para)
+msgid ""
+"Keep your and other's keys up to date by syncing keys periodically with "
+"remote keyservers. Syncing will make sure that you have the latest signatures "
+"made on all of your keys so that the web of trust will be the most useful."
+msgstr ""
+"Halten Sie Ihre eigenen Schlüssel und die Schlüssel Anderer auf dem aktuellen "
+"Stand, indem Sie die Schlüssel regelmäßig mit entfernten Schlüsselservern "
+"abgleichen. Das Abgleichen stellt sicher, dass Sie über die neuesten "
+"Signaturen Ihrer eigenen Schlüssel verfügen und dadurch aus den Ihnen "
+"erwiesenen Vertrauensbeweisen den größtmöglichen Nutzen ziehen."
+
+#: C/bastile.xml:1354(para)
+msgid ""
+"<application>Passwords and Encryption Keys</application> provides support for "
+"HKP and LDAP keyservers."
+msgstr ""
+"<application>Passwörter und Verschlüsselung</application> unterstützt HKP- "
+"und LDAP-Schlüsselserver."
+
+#: C/bastile.xml:1359(emphasis)
+msgid "HKP Servers"
+msgstr "HKP-Server"
+
+#: C/bastile.xml:1361(para)
+msgid ""
+"HKP keyservers are ordinary web based keyservers such as the popular <ulink "
+"url=\"hkp://pgp.mit.edu:11371\" type=\"hkp\">hkp://pgp.mit.edu:11371</ulink>, "
+"also accessible at <ulink url=\"http://pgp.mit.edu\" type=\"http\">http://pgp."
+"mit.edu</ulink>."
+msgstr ""
+"HKP-Schlüsselserver sind normale webbasierte Schlüsselserver, wie "
+"beispielsweise der populäre <ulink url=\"hkp://pgp.mit.edu:11371\" type=\"hkp"
+"\">hkp://pgp.mit.edu:11371</ulink>, der auch über <ulink url=\"http://pgp.mit."
+"edu\" type=\"http\">http://pgp.mit.edu</ulink> erreichbar ist."
+
+#: C/bastile.xml:1369(acronym)
+msgid "LDAP"
+msgstr "LDAP"
+
+#: C/bastile.xml:1369(emphasis)
+msgid "<placeholder-1/> Keyservers"
+msgstr "<placeholder-1/> Schlüsselserver"
+
+#: C/bastile.xml:1371(para)
+msgid ""
+"<acronym>LDAP</acronym> keyservers are less common, but use the standard LDAP "
+"protocol to serve keys. <ulink url=\"ldap://keyserver.pgp.com\" type=\"ldap"
+"\">ldap://keyserver.pgp.com</ulink> is a good LDAP server."
+msgstr ""
+"<acronym>LDAP</acronym>-Schlüsselserver sind weniger gebräuchlich, aber "
+"verwenden das Standard-LDAP-Protokoll, um Schlüssel zur Verfügung zu stellen. "
+"<ulink url=\"ldap://keyserver.pgp.com\" type=\"ldap\">ldap://keyserver.pgp."
+"com</ulink> ist ein empfehlenswerter LDAP-Server."
+
+#: C/bastile.xml:1383(title)
+msgid "Key Sharing"
+msgstr "Schlüsselfreigabe"
+
+#: C/bastile.xml:1384(para)
+msgid ""
+"Key Sharing is provided by DNS-SD, also known as Bonjour or Rendevous. "
+"Enabling key sharing will add the local <application>Passwords and Encryption "
+"Keys</application> users' public key rings to the remote search dialog. Using "
+"these local \"key servers\" will most likely be faster than accessing remote "
+"servers."
+msgstr ""
+"Die Schlüsselfreigabe erfolgt mittels DNS-SD, auch als Bonjour oder "
+"Rendezvous bekannt. Die Aktivierung der Schlüsselfreigabe fügt den "
+"öffentlichen Schlüsselbund des lokalen Benutzers von <application>Passwörter "
+"und Verschlüsselung</application> zum entfernten Suchdialog hinzu. Der "
+"Zugriff auf solche lokalen »Schlüsselserver« ist meist schneller als auf "
+"entfernte Server."
+
+#: C/bastile.xml:1396(title)
+msgid "About Passwords and Encryption Keys"
+msgstr "Über »Passwörter und Verschlüsselung«"
+
+#: C/bastile.xml:1397(para)
+msgid ""
+"<application>Passwords and Encryption Keys</application>, its associated "
+"plugins, the preferences applet and the panel applet are known collectively "
+"as Bastile. Bastile was written by Jacob Perkins. The current maintainers "
+"are Stef Walter and Adam Schreiber. This manual is by Adam Schreiber. The "
+"project's web site was designed by Jim Pharis. To find more information about "
+"Bastile, the project , please visit the <ulink url=\"http://www.mate.org/"
+"projects/bastile/\" type=\"http\">Bastile web page</ulink>."
+msgstr ""
+"<application>Passwörter und Verschlüsselung</application>, die zugehörigen "
+"Anwendungs-Plugins, das Einstellungs-Applet sowie das Panel-Applet werden "
+"unter dem Namen Bastile zusammengefasst. Bastile wurde von Jacob Perkins "
+"geschrieben. Die gegenwärtigen Hauptentwickler sind Stef Walter und Adam "
+"Schreiber. Dieses Handbuch stammt von Adam Schreiber. Die Website des "
+"Projekts wurde von Jim Pharis entworfen. Für weitere Informationen über das "
+"Bastile-Projekt besuchen Sie bitte die <ulink url=\"http://www.mate.org/"
+"projects/bastile/\" type=\"http\">Bastile-Website</ulink>."
+
+#: C/bastile.xml:1404(para)
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, follow the directions in the <ulink url=\"ghelp:user-guide?feedback-"
+"bugs\" type=\"help\">Feedback section of the MATE User Guide</ulink>."
+msgstr ""
+"Um Fehler zu melden oder einen Vorschlag zu dieser Anwendung oder zu diesem "
+"Handbuch zu machen, folgen Sie den Anweisungen im <ulink url=\"ghelp:usr-"
+"guide?feedback-bugs\" type=\"help\">MATE-Benutzerhandbuch</ulink>."
+
+#: C/bastile.xml:1409(para)
+msgid ""
+"This program is distributed under the terms of the GNU General Public license "
+"as published by the Free Software Foundation; either version 2 of the "
+"License, or (at your option) any later version. A <ulink url=\"ghelp:gpl\" "
+"type=\"help\">copy of this license</ulink> is included with this "
+"documentation; another can be found in the file COPYING included with the "
+"source code of this program."
+msgstr ""
+"Dieses Programm ist freie Software. Sie können es unter den Bedingungen der "
+"<citetitle>GNU General Public License</citetitle>, wie von der Free Software "
+"Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß "
+"Version 2 der Lizenz oder (nach Ihrer Option) jeder späteren Version. Eine "
+"<ulink url=\"ghelp:gpl\" type=\"help\">Kopie dieser Lizenz</ulink> ist in "
+"dieser Dokumentation enthalten, eine weitere in der Datei COPYING, die im "
+"Quellcode dieses Programms enthalten ist."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/bastile.xml:0(None)
+msgid "translator-credits"
+msgstr "Mario Blättermann <mariobl@mate.org>, 2008, 2009, 2010"
+
+#~ msgid "Backup your keys and keyring,"
+#~ msgstr "Sicherungsdateien Ihrer Schlüssel und Schlüsselbünde erstellen,"
+
+#~ msgid "Backing up Keyrings"
+#~ msgstr "Sichern von Schlüsselbünden"
+
+#~ msgid ""
+#~ "Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Back up Keyrings</"
+#~ "guimenuitem></menuchoice>,"
+#~ msgstr ""
+#~ "Wählen Sie <menuchoice><guimenu>Datei</guimenu><guimenuitem>Schlüsselbund "
+#~ "archivieren</guimenuitem></menuchoice>,"
+
+#~ msgid ""
+#~ "Enter a file name with a valid archive extension and specify the location "
+#~ "to save the archive."
+#~ msgstr ""
+#~ "Geben Sie einen Dateinamen mit der gültigen Dateinamenerweiterung für eine "
+#~ "Archivdatei ein und speichern Sie das Archiv. "
+
+#~ msgid ""
+#~ "You can choose any of the archive types <application>file-roller</"
+#~ "application> supports."
+#~ msgstr ""
+#~ "Sie können jedes Archivformat wählen, das vom <application>Archivmanager</"
+#~ "application> unterstützt wird."
+
+#~ msgid ""
+#~ "To back up your public and private keyrings to an archived file: "
+#~ "<placeholder-1/><placeholder-2/>"
+#~ msgstr ""
+#~ "So sichern Sie Ihre öffentlichen und geheimen Schlüsselbünde in einer "
+#~ "Archivdatei: <placeholder-1/><placeholder-2/>"
+
+#~ msgid ""
+#~ "You can create a new keyring by pressing <guibutton>Add Keyring</"
+#~ "guibutton>. Enter a name for the new keyring and press <guibutton>Add</"
+#~ "guibutton>."
+#~ msgstr ""
+#~ "Sie können einen neuen Schlüsselbund durch Anklicken von "
+#~ "<guibutton>Schlüsselbund hinzufügen</guibutton> erzeugen. Geben Sie einen "
+#~ "Namen für den neuen Schlüsselbund ein und klicken Sie dann auf "
+#~ "<guibutton>Schlüsselbund hinzufügen</guibutton>."
+
+#~ msgid ""
+#~ "To remove a keyring, first select the appropriate keyring and then press "
+#~ "<guibutton>Remove Keyring</guibutton> button."
+#~ msgstr ""
+#~ "Um einen Schlüsselbund zu entfernen, wählen Sie zuerst den gewünschten "
+#~ "Schlüsselbund aus und klicken dann auf <guibutton>Schlüsselbund entfernen</"
+#~ "guibutton>."
+
+# Wie übersetzt man hier »drop-in« ?
+#, fuzzy
+#~ msgid "A drop-in replacement for <application>gpg-agent</application>"
+#~ msgstr "Einen Ersatz für <application>gpg-agent</application>"
+
+#~ msgid "A DNS-SD HKP <glossterm>key</glossterm> server"
+#~ msgstr "Einen DNS-SD HKP-<glossterm>Schlüssel</glossterm>-Server"
+
+#~ msgid ""
+#~ "Plugins for <application><ulink url=\"ghelp:pluma\" type=\"help\">Pluma</"
+#~ "ulink></application>, <application><ulink url=\"ghelp:user-guide?caja"
+#~ "\">Caja</ulink></application> and <application><ulink url=\"ghelp:"
+#~ "epiphany\">Epiphany</ulink></application>"
+#~ msgstr ""
+#~ "Plugins für <application><ulink url=\"ghelp:pluma\" type=\"help\">Pluma</"
+#~ "ulink></application>, <application><ulink url=\"ghelp:user-guide?caja"
+#~ "\">Caja</ulink></application> und <application><ulink url=\"ghelp:"
+#~ "epiphany\">Epiphany</ulink></application>"
+
+#~ msgid "A panel applet for encrypting text on the clipboard"
+#~ msgstr ""
+#~ "Ein Panel-Applet für die Verschlüsselung von Text in der Zwischenablage"
+
+#~ msgid ""
+#~ "Features of <application>Passwords and Encryption Keys</application> "
+#~ "include: <placeholder-1/>"
+#~ msgstr ""
+#~ "<application>Passwörter und Verschlüsselung</application> stellt folgende "
+#~ "Funktionen zur Verfügung:<placeholder-1/>"
+
+#~ msgid "Cache your passphrase so you don't have to keep typing it,"
+#~ msgstr ""
+#~ "Ihr Kennwort speichern, um es nicht immer wieder neu eingeben zu müssen,"
+
+#~ msgid "Encrypt and decrypt the clipboard."
+#~ msgstr "die Zwischenablage verschlüsseln und entschlüsseln."
+
+#~ msgid "File Manager Integration"
+#~ msgstr "Integration in den Dateimanager"
+
+#~ msgid ""
+#~ "<application>Passwords and Encryption Keys</application> integrates with "
+#~ "<application><ulink url=\"ghelp:user-guide?caja\">Caja</ulink></"
+#~ "application>. You can encrypt, decrypt, sign and verify files as well as "
+#~ "import public keys from the file manager window without launching "
+#~ "<application>Passwords and Encryption Keys</application>."
+#~ msgstr ""
+#~ "<application>Passwörter und Verschlüsselung</application> lässt sich in "
+#~ "<application><ulink url=\"ghelp:user-guide?caja\">Caja</ulink></"
+#~ "application> integrieren. Sie können damit sowohl Dateien verschlüsseln, "
+#~ "entschlüsseln, signieren und Signaturen überprüfen, als auch öffentliche "
+#~ "Schlüssel aus dem Dateimanager importieren, ohne <application>Passwörter "
+#~ "und Verschlüsselung</application> zu starten."
+
+#~ msgid "Encrypting Files"
+#~ msgstr "Verschlüsseln von Dateien"
+
+#~ msgid "Select one or more files from the file manager,"
+#~ msgstr "Wählen Sie im Dateimanager eine oder mehrere Dateien aus."
+
+#~ msgid ""
+#~ "Right click on any selected file and choose <guimenuitem>Encrypt</"
+#~ "guimenuitem>,"
+#~ msgstr ""
+#~ "Klicken Sie mit der rechten Maustaste auf eine der ausgewählten Dateien "
+#~ "und wählen Sie <guimenuitem>Verschlüsseln</guimenuitem>,"
+
+#~ msgid ""
+#~ "Select the people you would like to encypt the file to, and then click "
+#~ "<guibutton>OK</guibutton>."
+#~ msgstr ""
+#~ "Wählen Sie die Personen aus, für die Sie Dateien verschlüsseln wollen, und "
+#~ "klicken Sie dann auf <guibutton>OK</guibutton>."
+
+#~ msgid ""
+#~ "To encrypt files from the file manager, perform the following steps: "
+#~ "<placeholder-1/>"
+#~ msgstr ""
+#~ "Um im Dateimanager Dateien zu verschlüsseln, führen Sie die folgenden "
+#~ "Schritte aus: <placeholder-1/>"
+
+#~ msgid "Signing Files"
+#~ msgstr "Signieren von Dateien"
+
+#~ msgid ""
+#~ "Right click on any selected file and choose <guimenuitem>Sign</"
+#~ "guimenuitem>,"
+#~ msgstr ""
+#~ "Klicken sie mit der rechten Maustaste auf eine beliebige ausgewählte Datei "
+#~ "und wählen Sie <guimenuitem>Signieren</guimenuitem>,"
+
+#~ msgid "If asked, enter the passphrase of your private key."
+#~ msgstr ""
+#~ "Geben Sie das Kennwort für Ihren geheimen Schlüssel ein, falls Sie danach "
+#~ "gefragt werden."
+
+#~ msgid ""
+#~ "To sign files from the file manager, perform the following steps: "
+#~ "<placeholder-1/>"
+#~ msgstr ""
+#~ "Um im Dateimanager Dateien zu signieren, führen Sie die folgenden Schritte "
+#~ "aus: <placeholder-1/>"
+
+#~ msgid "Decrypting Files"
+#~ msgstr "Entschlüsseln von Dateien"
+
+#~ msgid "Double click on the file you want to decrypt,"
+#~ msgstr "Doppelklicken Sie auf die Datei, die Sie entschlüsseln wollen,"
+
+#~ msgid ""
+#~ "To decrypt an encrypted file from the file manager, perform the following "
+#~ "steps: <placeholder-1/>"
+#~ msgstr ""
+#~ "Um eine verschlüsselte Datei im Dateimanager zu entschlüsseln, führen sie "
+#~ "die folgenden Schritte aus: <placeholder-1/>"
+
+#~ msgid "Verifing Signatures"
+#~ msgstr "Überprüfen von Signaturen"
+
+#~ msgid ""
+#~ "To verify files, simply double click on the the detached signature file."
+#~ msgstr ""
+#~ "Um Dateien zu überprüfen, doppelklicken Sie einfach auf eine abgetrennte "
+#~ "Signaturdatei."
+
+#~ msgid ""
+#~ "Detached signature file names often take the form &lt;file name&gt;.sig"
+#~ msgstr ""
+#~ "Die Namen abgetrennter Signatur-Dateien folgen oft der Form &lt;"
+#~ "Dateiname&gt;.sig"
+
+#~ msgid "Text Editor Integration"
+#~ msgstr "Integration in den Texteditor"
+
+#~ msgid ""
+#~ "Run <application>Pluma</application> by choosing "
+#~ "<menuchoice><guimenu>Applications</guimenu><guimenuitem>Accessories</"
+#~ "guimenuitem><guimenuitem>Text Editor</guimenuitem></menuchoice>,"
+#~ msgstr ""
+#~ "Starten Sie <application>Pluma</application>, indem Sie "
+#~ "<menuchoice><guimenu>Anwendungen</guimenu><guimenuitem>Werkzeuge</"
+#~ "guimenuitem><guimenuitem>Texteditor</guimenuitem></menuchoice> auswählen,"
+
+#~ msgid ""
+#~ "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
+#~ "guimenuitem></menuchoice>,"
+#~ msgstr ""
+#~ "Wählen Sie <menuchoice><guimenu>Bearbeiten</"
+#~ "guimenu><guimenuitem>Voreinstellungen</guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "In the <guilabel>Plugin</guilabel> tab, select the <guilabel>Text "
+#~ "Encryption</guilabel> plugin."
+#~ msgstr ""
+#~ "Wählen Sie <guilabel>Text-Verschlüsselung</guilabel> im Reiter "
+#~ "<guilabel>Plugins</guilabel>."
+
+#~ msgid ""
+#~ "To enable Text Encryption plugin in <application><ulink url=\"ghelp:pluma"
+#~ "\" type=\"help\">Pluma</ulink></application>, the MATE text editor, "
+#~ "perform the following steps: <placeholder-1/>"
+#~ msgstr ""
+#~ "Um das Textverschlüsselungs-Plugin in <application><ulink url=\"ghelp:pluma"
+#~ "\" type=\"help\">Pluma</ulink></application>, dem MATE-Texteditor, zu "
+#~ "aktivieren, führen Sie die folgenden Schritte aus: <placeholder-1/>"
+
+#~ msgid "Encrypting Text"
+#~ msgstr "Verschlüsseln von Text"
+
+#~ msgid ""
+#~ "Select the text you want to encrypt, and choose <menuchoice><guimenu>Edit</"
+#~ "guimenu><guimenuitem>Encrypt</guimenuitem></menuchoice>,"
+#~ msgstr ""
+#~ "Wählen sie den Text aus, den Sie verschlüsseln wollen, und wählen Sie "
+#~ "<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Verschlüsseln</"
+#~ "guimenuitem></menuchoice>,"
+
+#~ msgid ""
+#~ "Select the people you want to encrypt the text to, and click <guilabel>OK</"
+#~ "guilabel>."
+#~ msgstr ""
+#~ "Wählen Sie die Personen aus, für die Sie den Text verschlüsseln wollen, "
+#~ "und klicken Sie dann auf <guilabel>OK</guilabel>."
+
+#~ msgid ""
+#~ "To encrypt a selection of text from <application>Pluma</application>, "
+#~ "perform the following steps: <placeholder-1/> You can now copy or save the "
+#~ "encrypted text."
+#~ msgstr ""
+#~ "Um einen Textauswahl in <application>Pluma</application> zu verschlüsseln, "
+#~ "führen sie die folgenden Schritte aus: <placeholder-1/> Sie können jetzt "
+#~ "den verschlüsselten Text kopieren oder speichern."
+
+#~ msgid "Signing Text"
+#~ msgstr "Signieren von Text"
+
+#~ msgid ""
+#~ "Select the text you want to sign and choose <menuchoice><guimenu>Edit</"
+#~ "guimenu><guimenuitem>Sign</guimenuitem></menuchoice>,"
+#~ msgstr ""
+#~ "Wählen sie den Text aus, den Sie signieren wollen, und wählen Sie dann "
+#~ "<menuchoice><guimenu>Bearbeiten</guimenu><guimenuitem>Signieren</"
+#~ "guimenuitem></menuchoice>,"
+
+#~ msgid "Insert, if asked, the passphrase of your private key."
+#~ msgstr ""
+#~ "Geben Sie, falls darum gebeten wird, das Kennwort Ihres geheimen "
+#~ "Schlüssels ein."
+
+#~ msgid ""
+#~ "To sign a selection of text from <application>Pluma</application>, perform "
+#~ "the following steps: <placeholder-1/> You can now copy or save the signed "
+#~ "text."
+#~ msgstr ""
+#~ "Um eine Textauswahl in <application>Pluma</application> zu signieren, "
+#~ "führen Sie die folgenden Schritte aus: <placeholder-1/> Sie können jetzt "
+#~ "den signierten Text kopieren oder speichern."
+
+#~ msgid "Decrypting/Verifing Text"
+#~ msgstr "Entschlüsseln/Überprüfen von Text"
+
+#~ msgid ""
+#~ "Select the text you want to decrypt/verify and choose "
+#~ "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Decrypt/Verify</"
+#~ "guimenuitem></menuchoice>,"
+#~ msgstr ""
+#~ "Markieren Sie den Text, den Sie entschlüsseln oder überprüfen wollen, und "
+#~ "wählen Sie <menuchoice><guimenu>Bearbeiten</"
+#~ "guimenu><guimenuitem>Entschlüsseln/Überprüfen</guimenuitem></menuchoice>,"
+
+#~ msgid ""
+#~ "To decrypt and/or verify a selection of text from <application>Pluma</"
+#~ "application>, perform the following steps: <placeholder-1/> You can now "
+#~ "copy or save the decrypted text."
+#~ msgstr ""
+#~ "Um eine Textauswahl in <application>Pluma</application> zu entschlüsseln "
+#~ "und/oder zu überprüfen, führen Sie die folgenden Schritte aus: "
+#~ "<placeholder-1/> Sie können den entschlüsselten Text jetzt kopieren oder "
+#~ "speichern. "
+
+#~ msgid ""
+#~ "This section describes the preferences settable in <application>Passwords "
+#~ "and Encryption Keys</application>."
+#~ msgstr ""
+#~ "Dieser Abschnitt beschreibt die Einstellmöglichkeiten in "
+#~ "<application>Passwörter und Verschlüsselung</application>."
+
+#~ msgid "View preferences"
+#~ msgstr "Einstellungen anzeigen"
+
+#~ msgid "These options control wich columns are visible in the key manager."
+#~ msgstr ""
+#~ "Mit dieser Option stellen Sie die Spalten ein, die im Schlüsselmanager "
+#~ "angezeigt werden sollen."
+
+#~ msgid ""
+#~ "To access this options choose <menuchoice><guimenu>View</guimenu></"
+#~ "menuchoice> from the menubar."
+#~ msgstr ""
+#~ "Um auf diese Optionen zugreifen zu können, wählen Sie "
+#~ "<menuchoice><guimenu>Ansicht</guimenu></menuchoice> in der Menüleiste."
+
+#~ msgid "Types"
+#~ msgstr "Typen"
+
+#~ msgid ""
+#~ "Shows the <guilabel>Type</guilabel> column, indicating whether the key is "
+#~ "an OpenPGP, SSH key or a S/MIME certificate."
+#~ msgstr ""
+#~ "Zeigt die Spalte <guilabel>Typ</guilabel> an, welche angibt, ob es sich um "
+#~ "einen OpenPGP-Schlüssel, einen SSH-Schlüssel oder ein S/MIME-Zertifikat "
+#~ "handelt."
+
+#~ msgid "Certificates are not yet supported."
+#~ msgstr "Zertifikate werden noch nicht unterstützt."
+
+#~ msgid "Expiry"
+#~ msgstr "Ablaufdatum"
+
+#~ msgid ""
+#~ "Shows the <guilabel>Expiration Date</guilabel> column, indicating the date "
+#~ "after which a key can no longer be used to encrypt or to sign."
+#~ msgstr ""
+#~ "Zeigt die Spalte <guilabel>Ablaufdatum</guilabel> an, welche angibt, nach "
+#~ "welchem Datum ein Schlüssel nicht mehr zum Verschlüsseln oder Signieren "
+#~ "verwendet werden kann."
+
+#~ msgid ""
+#~ "Shows the <guilabel>Trust</guilabel> column, indicating the level at which "
+#~ "you trust the person to verify the identity of other people when they sign "
+#~ "keys."
+#~ msgstr ""
+#~ "Zeigt die Spalte <guilabel>Vertrauen</guilabel> an, welche den Grad der "
+#~ "Vertrauenswürdigkeit angibt, den Sie der betreffenden Person bezüglich des "
+#~ "Signierens von Schlüsseln zugeordnet haben."
+
+#~ msgid "Validity"
+#~ msgstr "Gültigkeit"
+
+#~ msgid ""
+#~ "Shows the <guilabel>Validity</guilabel> column, indicating how well you "
+#~ "know the key belongs to the person claiming it as their own."
+#~ msgstr ""
+#~ "Zeigt die Spalte <guilabel>Gültigkeit</guilabel> an, welche angibt, "
+#~ "inwieweit Ihnen bekannt ist, ob der Schlüssel eindeutig der Person "
+#~ "zugeordnet werden kann, die vorgibt, ihn erzeugt zu haben."
+
+#~ msgid "Encryption Preferences"
+#~ msgstr "Verschlüsselungseinstellungen"
+
+#~ msgid "Encryption Settings"
+#~ msgstr "Verschlüsselungseinstellungen"
+
+#~ msgid "Default Key"
+#~ msgstr "Vorgabeschlüssel"
+
+# Habe ich das richtig verstanden?
+#~ msgid ""
+#~ "This is the key that will be used by <application>Passwords and Encryption "
+#~ "Keys</application> to sign files. It will also be the key that files will "
+#~ "be encrypted to if encrypt to self is selected."
+#~ msgstr ""
+#~ "Dies ist der Schlüssel, der von <application>Passwörter und "
+#~ "Verschlüsselung</application> verwendet wird, um Dateien zu signieren. "
+#~ "Dies wird auch der Schlüssel sein, mit dem Dateien verschlüsselt werden, "
+#~ "wenn »Selbstverschlüsselung« ausgewählt ist."
+
+#~ msgid "When encrypting, always include myself as a recipient"
+#~ msgstr "Füge mich bei jeder Verschlüsselung als Empfänger hinzu"
+
+#, fuzzy
+#~ msgid ""
+#~ "Sets the encrypt to self option, whether or not you will be added to the "
+#~ "recipients list for all files encrypted by <application>Passwords and "
+#~ "Encryption Keys</application>."
+#~ msgstr ""
+#~ "Legt fest, ob Sie bei jeder durch <application>Passwörter und "
+#~ "Verschlüsselung</application> vorgenommenen Verschlüsselung zur Liste der "
+#~ "Empfänger hinzugefügt werden wollen."
+
+#~ msgid ""
+#~ "If you do not select this and you do not select yourself as a recipient "
+#~ "you will not be unable to decrypt any files you encrypt."
+#~ msgstr ""
+#~ "Falls Sie dies nicht auswählen und sich selbst auch nicht als Empfänger "
+#~ "auswählen, wird es Ihnen nicht möglich sein, von Ihnen selbst "
+#~ "verschlüsselte Dateien zu entschlüsseln."
+
+#~ msgid "Passphrase Cache"
+#~ msgstr "Kennwortzwischenspeicher"
+
+#~ msgid ""
+#~ "Enabling <application>Passwords and Encryption Keys</application>'s "
+#~ "passphrase caching ability will allow you to perform many operations that "
+#~ "require entering your passphrase without re-entering it every time. "
+#~ "<command>bastile-daemon</command> takes the place of <command>gpg-agent</"
+#~ "command>. Letting the cached passphrases expire is usually a good idea. "
+#~ "This will then require re-entering your passphrase, but adds security."
+#~ msgstr ""
+#~ "Das Aktivieren der Speicherung des Kennworts von <application>Passwörter "
+#~ "und verschlüsselung</application> erlaubt Ihnen, viele eine Eingabe eines "
+#~ "Kennworts erfordernde Vorgänge auszuführen, ohne bei jedem Vorgang das "
+#~ "Kennwort neu eingeben zu müssen. Der <command>bastile-daemon</command> "
+#~ "arbeitet hierbei analog zum <command>gpg-agent</command>. Sich für den "
+#~ "Verfall des Kennworts zu entscheiden, ist normalerweise eine gute Idee. "
+#~ "Dies erfordert zwar immer wieder die Eingabe des Kennworts, bietet aber "
+#~ "mehr Sicherheit"
+
+#~ msgid "Never remember passphrases"
+#~ msgstr "Kennwörter nie merken"
+
+#~ msgid "Sets to not remember any passphrase."
+#~ msgstr "Legt fest, dass Kennwörter nie gespeichert werden sollen."
+
+#~ msgid "Remember passphrases for ... minutes"
+#~ msgstr "Kennwörter merken für … Minuten"
+
+#~ msgid ""
+#~ "Sets the amount of time, in minutes, for storing passphrases. Use the spin "
+#~ "box to set the desired time."
+#~ msgstr ""
+#~ "Legt die Zeitspanne in Minuten für die Zwischenspeicherung fest. Verwenden "
+#~ "Sie das Einstellfeld, um die gewünschte Zeit zu wählen."
+
+#~ msgid "Always remember passphrases whenever logged in"
+#~ msgstr "Kennwörter merken solange ich angemeldet bin"
+
+#~ msgid ""
+#~ "Sets to remember any passphrases whenever you are logged in the session."
+#~ msgstr ""
+#~ "Legt das Speicherverhalten des Kennworts fest, wenn Sie an einer Sitzung "
+#~ "angemeldet sind."
+
+#~ msgid "Ask me before using a cached passphrase"
+#~ msgstr ""
+#~ "Immer nachfragen, bevor ein zwischengespeichertes Kennwort verwendet wird"
+
+#~ msgid "Sets to ask you before using a stored passphrase."
+#~ msgstr ""
+#~ "Legt fest, dass vor jeder Nutzung eines gespeicherten Kennworts um "
+#~ "Bestätigung gebeten werden soll."
+
+#~ msgid "Automatically load Secure Shell keys"
+#~ msgstr "Automatisches Laden von SSH-Schlüsseln"
+
+#~ msgid "Sets to automatically cache any Secure Shell key."
+#~ msgstr ""
+#~ "Legt fest, dass jeder SSH-Schlüssel automatisch gespeichert werden soll."
+
+#~ msgid "MATE Keyring"
+#~ msgstr "MATE-Schlüsselbund"
+
+#~ msgid ""
+#~ "You can change the password of the default key ring created the first time "
+#~ "you saved a password, a passphrase to access a SSH server or any other "
+#~ "secret during a MATE session."
+#~ msgstr ""
+#~ "Sie können das ursprünglich für den Standard-Schlüsselring erzeugte "
+#~ "Passwort, das für den Zugriff auf einen SSH-Server benötigte Kennwort oder "
+#~ "jedes andere Geheimnis während einer MATE-Sitzung ändern."
+
+#~ msgid "To clear all the text boxes, press <guibutton>Clear</guibutton>."
+#~ msgstr ""
+#~ "Zum Leeren aller Textfelder drücken Sie auf <guibutton>Löschen</guibutton>."
